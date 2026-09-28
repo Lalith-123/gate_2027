@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#F8FAFC" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0B1020" media="(prefers-color-scheme: dark)" />
+    <meta
+      name="description"
+      content="Practise GATE previous-year questions one at a time, with answers, explanations, revision and progress tracking."
+    />
+    <title>GATE 2027 — Previous Year Questions</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script>
+      /* Applies the saved theme before first paint so there is no flash. */
+      (function () {
+        try {
+          var raw = localStorage.getItem('gate.settings.v1');
+          var s = raw ? JSON.parse(raw) || {} : {};
+          var mode = s.theme || 'system';
+          var dark =
+            mode === 'dark' ||
+            (mode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          var root = document.documentElement;
+          root.dataset.theme = dark ? 'dark' : 'light';
+          root.style.colorScheme = dark ? 'dark' : 'light';
+          if (s.reduceMotion) root.classList.add('reduce-motion');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
