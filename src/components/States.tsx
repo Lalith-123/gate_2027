@@ -1,3 +1,5 @@
+import { SearchX, TriangleAlert } from 'lucide-react';
+
 export function LoadingSkeleton() {
   return (
     <div className="min-h-[calc(100vh-80px)] flex flex-col px-4 py-6">
@@ -26,13 +28,13 @@ export function EmptyState({ onClearFilters }: { onClearFilters: () => void }) {
   return (
     <div className="min-h-[calc(100vh-80px)] flex flex-col items-center justify-center px-4 text-center">
       <div className="w-16 h-16 rounded-2xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center mb-4">
-        <span className="text-3xl">📚</span>
+        <SearchX className="w-7 h-7 text-slate-400" />
       </div>
       <h2 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">
         No questions found
       </h2>
       <p className="text-sm text-slate-500 dark:text-slate-400 mb-6 max-w-xs">
-        No questions match your current filters. Try adjusting your filter criteria.
+        No questions match your current filters. Try widening the year, subject, or type.
       </p>
       <button
         onClick={onClearFilters}
@@ -48,7 +50,7 @@ export function ErrorState({ onRetry }: { onRetry: () => void }) {
   return (
     <div className="min-h-[calc(100vh-80px)] flex flex-col items-center justify-center px-4 text-center">
       <div className="w-16 h-16 rounded-2xl bg-red-50 dark:bg-red-900/20 flex items-center justify-center mb-4">
-        <span className="text-3xl">⚠️</span>
+        <TriangleAlert className="w-7 h-7 text-red-500" />
       </div>
       <h2 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">
         Unable to load questions

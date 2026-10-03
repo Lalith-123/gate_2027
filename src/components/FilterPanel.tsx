@@ -3,8 +3,11 @@ import type { Filters, Question } from '../types';
 import {
   getUniqueExams,
   getUniqueYears,
+  getUniqueBranches,
   getUniqueSubjects,
   getUniqueTopics,
+  getUniqueTypes,
+  getUniqueDifficulties,
 } from '../utils/filters';
 
 interface FilterPanelProps {
@@ -26,8 +29,11 @@ export function FilterPanel({
 }: FilterPanelProps) {
   const exams = getUniqueExams(allQuestions);
   const years = getUniqueYears(allQuestions, filters.exam !== 'all' ? filters.exam : undefined);
+  const branches = getUniqueBranches(allQuestions);
   const subjects = getUniqueSubjects(allQuestions);
   const topics = getUniqueTopics(allQuestions, filters.subject !== 'all' ? filters.subject : undefined);
+  const types = getUniqueTypes(allQuestions);
+  const difficulties = getUniqueDifficulties(allQuestions);
 
   if (!isOpen) return null;
 
@@ -63,6 +69,14 @@ export function FilterPanel({
           />
 
           <FilterSelect
+            label="Branch"
+            value={filters.branch}
+            options={branches}
+            allLabel="All Branches"
+            onChange={(v) => onFiltersChange({ ...filters, branch: v })}
+          />
+
+          <FilterSelect
             label="Subject"
             value={filters.subject}
             options={subjects}
@@ -76,6 +90,23 @@ export function FilterPanel({
             options={topics}
             allLabel="All Topics"
             onChange={(v) => onFiltersChange({ ...filters, topic: v })}
+          />
+
+          <FilterSelect
+            label="Question Type"
+            value={filters.type}
+            options={types}
+            allLabel="All Types"
+            onChange={(v) => onFiltersChange({ ...filters, type: v as Filters['type'] })}
+            displayMap={{ MCQ: 'MCQ — one correct', MSQ: 'MSQ — one or more', NAT: 'NAT — numerical' }}
+          />
+
+          <FilterSelect
+            label="Difficulty"
+            value={filters.difficulty}
+            options={difficulties}
+            allLabel="All Difficulties"
+            onChange={(v) => onFiltersChange({ ...filters, difficulty: v as Filters['difficulty'] })}
           />
 
           <FilterSelect

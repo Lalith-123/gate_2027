@@ -57,9 +57,12 @@ function App() {
   const activeFilters: string[] = [];
   if (filters.exam !== 'all') activeFilters.push(filters.exam);
   if (filters.year !== 'all') activeFilters.push(String(filters.year));
+  if (filters.branch !== 'all') activeFilters.push(filters.branch);
   if (filters.subject !== 'all') activeFilters.push(filters.subject);
   if (filters.topic !== 'all') activeFilters.push(filters.topic);
   if (filters.subtopic !== 'all') activeFilters.push(filters.subtopic);
+  if (filters.type !== 'all') activeFilters.push(filters.type);
+  if (filters.difficulty !== 'all') activeFilters.push(filters.difficulty);
   if (filters.source !== 'all') activeFilters.push(filters.source.charAt(0).toUpperCase() + filters.source.slice(1));
   if (filters.status !== 'all') activeFilters.push(filters.status.charAt(0).toUpperCase() + filters.status.slice(1));
 

@@ -1,5 +1,5 @@
 {
-  "name": "neet",
+  "name": "gate-2027",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",
+    "@types/katex": "^0.16.8",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.5",
     "@vitejs/plugin-react": "^6.1.1",
@@ -21,6 +22,7 @@
     "vite": "^8.2.2"
   },
   "dependencies": {
+    "katex": "^0.16.47",
     "lucide-react": "^1.35.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"

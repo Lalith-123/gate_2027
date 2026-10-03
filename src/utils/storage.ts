@@ -1,9 +1,9 @@
-import type { AttemptRecord, BookmarkRecord, NoteRecord } from '../types';
+﻿import type { AttemptRecord, BookmarkRecord, NoteRecord } from '../types';
 
-const ATTEMPTS_KEY = 'pgmcq-attempts';
-const BOOKMARKS_KEY = 'pgmcq-bookmarks';
-const NOTES_KEY = 'pgmcq-notes';
-const THEME_KEY = 'pgmcq-theme';
+const ATTEMPTS_KEY = 'gate2027-attempts';
+const BOOKMARKS_KEY = 'gate2027-bookmarks';
+const NOTES_KEY = 'gate2027-notes';
+const THEME_KEY = 'gate2027-theme';
 
 export function loadAttempts(): AttemptRecord[] {
   try {
@@ -127,7 +127,7 @@ export function getNote(notes: NoteRecord[], questionId: string): string {
   return notes.find((n) => n.questionId === questionId)?.text || '';
 }
 
-const SUBJECT_NOTES_KEY = 'pgmcq-subject-notes';
+const SUBJECT_NOTES_KEY = 'gate2027-subject-notes';
 
 export interface SubjectNote {
   subject: string;

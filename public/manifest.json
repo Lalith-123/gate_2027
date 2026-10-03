@@ -1,7 +1,7 @@
 {
-  "name": "NEET PG Practice",
-  "short_name": "NEET PG",
-  "description": "NEET PG Previous Year Question Practice",
+  "name": "GATE 2027 Practice",
+  "short_name": "GATE 2027",
+  "description": "GATE 2027 previous year question practice",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

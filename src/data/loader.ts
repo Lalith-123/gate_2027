@@ -1,133 +1,116 @@
-import type { Question } from '../types';
+import type { Question, QuestionType } from '../types';
 
-import neet_2012 from './questions/neet_2012.json';
-import neet_2013 from './questions/neet_2013.json';
-import neet_2014 from './questions/neet_2014.json';
-import neet_2015 from './questions/neet_2015.json';
-import neet_2016 from './questions/neet_2016.json';
-import neet_2017 from './questions/neet_2017.json';
-import neet_2018 from './questions/neet_2018.json';
-import neet_2019 from './questions/neet_2019.json';
-import neet_2020 from './questions/neet_2020.json';
-import neet_2021 from './questions/neet_2021.json';
-import neet_2022 from './questions/neet_2022.json';
-import neet_2023 from './questions/neet_2023.json';
-import neet_2024 from './questions/neet_2024.json';
-import neet_2025 from './questions/neet_2025.json';
-import inicet_2020_nov from './questions/inicet_2020_nov.json';
-import inicet_2021_may from './questions/inicet_2021_may.json';
-import inicet_2021_nov from './questions/inicet_2021_nov.json';
-import inicet_2022_may from './questions/inicet_2022_may.json';
-import inicet_2022_nov from './questions/inicet_2022_nov.json';
-import inicet_2023_may from './questions/inicet_2023_may.json';
-import inicet_2023_nov from './questions/inicet_2023_nov.json';
-import inicet_2024_may from './questions/inicet_2024_may.json';
-import inicet_2024_nov from './questions/inicet_2024_nov.json';
-import inicet_2025_may from './questions/inicet_2025_may.json';
-
-const allRawBatches = [
-  neet_2012,
-  neet_2013,
-  neet_2014,
-  neet_2015,
-  neet_2016,
-  neet_2017,
-  neet_2018,
-  neet_2019,
-  neet_2020,
-  neet_2021,
-  neet_2022,
-  neet_2023,
-  neet_2024,
-  neet_2025,
-  inicet_2020_nov,
-  inicet_2021_may,
-  inicet_2021_nov,
-  inicet_2022_may,
-  inicet_2022_nov,
-  inicet_2023_may,
-  inicet_2023_nov,
-  inicet_2024_may,
-  inicet_2024_nov,
-  inicet_2025_may,
-];
-
+const VALID_QUESTION_TYPES: QuestionType[] = ['MCQ', 'MSQ', 'NAT'];
 const VALID_SOURCE_TYPES = ['official', 'trusted', 'recalled'] as const;
 
-function validateQuestion(q: unknown, index: number, batchName: string): q is Question {
-  const obj = q as Record<string, unknown>;
+type RawModule = { default: unknown };
 
-  if (!obj || typeof obj !== 'object') {
+/**
+ * Every JSON file in `src/data/questions/` becomes its own batch, so adding a
+ * new year is a matter of dropping in `gate_2027.json`.
+ */
+const modules = import.meta.glob<RawModule>('/src/data/questions/*.json', { eager: true });
+
+const allRawBatches: unknown[][] = Object.entries(modules)
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([, mod]) => (Array.isArray(mod.default) ? (mod.default as unknown[]) : []));
+
+function asRecord(value: unknown): Record<string, unknown> | null {
+  return value && typeof value === 'object' ? (value as Record<string, unknown>) : null;
+}
+
+function validateQuestion(raw: unknown, index: number, batchName: string): raw is Question {
+  const obj = asRecord(raw);
+  if (!obj) {
     console.warn(`[${batchName}] Skipping item ${index}: not an object`);
     return false;
   }
 
-  if (!obj.id || typeof obj.id !== 'string') {
+  if (typeof obj.id !== 'string' || !obj.id) {
     console.warn(`[${batchName}] Skipping item ${index}: missing or invalid id`);
     return false;
   }
 
-  const exam = obj.exam as Record<string, unknown> | undefined;
-  if (!exam || !exam.name || !exam.year) {
+  const exam = asRecord(obj.exam);
+  if (!exam?.name || !exam.year) {
     console.warn(`[${batchName}] Skipping ${obj.id}: missing exam info`);
     return false;
   }
 
-  const question = obj.question as Record<string, unknown> | undefined;
-  if (!question || !question.text || !question.type || !Array.isArray(question.options) || question.options.length === 0) {
-    console.warn(`[${batchName}] Skipping ${obj.id}: invalid question structure`);
+  const body = asRecord(obj.question);
+  if (!body || typeof body.text !== 'string' || !body.text) {
+    console.warn(`[${batchName}] Skipping ${obj.id}: missing question text`);
     return false;
   }
 
-  for (const opt of question.options as Record<string, unknown>[]) {
-    if (!opt.label || !opt.text) {
-      console.warn(`[${batchName}] Skipping ${obj.id}: option missing label or text`);
+  const type = body.type as QuestionType;
+  if (!VALID_QUESTION_TYPES.includes(type)) {
+    console.warn(`[${batchName}] Skipping ${obj.id}: unknown type "${String(body.type)}"`);
+    return false;
+  }
+
+  const rawOptions = body.options;
+  if (!Array.isArray(rawOptions)) {
+    console.warn(`[${batchName}] Skipping ${obj.id}: options is not an array`);
+    return false;
+  }
+
+  if (type !== 'NAT' && rawOptions.length === 0) {
+    console.warn(`[${batchName}] Skipping ${obj.id}: ${type} needs at least one option`);
+    return false;
+  }
+
+  for (const option of rawOptions) {
+    const record = asRecord(option);
+    if (!record?.label || typeof record.text !== 'string') {
+      console.warn(`[${batchName}] Skipping ${obj.id}: malformed option`);
       return false;
     }
   }
 
-  const answer = obj.answer as Record<string, unknown> | undefined;
-  if (!answer || !answer.correctOption) {
-    console.warn(`[${batchName}] Skipping ${obj.id}: missing answer info`);
+  const answer = asRecord(obj.answer);
+  if (!answer || answer.correctOption === undefined || answer.correctOption === null) {
+    console.warn(`[${batchName}] Skipping ${obj.id}: missing answer`);
     return false;
   }
 
-  const correctOption = answer.correctOption;
-  const validOptionLabels = (question.options as Record<string, unknown>[]).map((o) => o.label);
+  const correct = answer.correctOption;
+  const correctList = Array.isArray(correct) ? correct : [correct];
 
-  // Support both single answer (string) and multiple correct (array)
-  if (typeof correctOption === 'string') {
-    if (!validOptionLabels.includes(correctOption)) {
-      console.warn(`[${batchName}] Skipping ${obj.id}: correctOption does not match any option`);
-      return false;
-    }
-  } else if (Array.isArray(correctOption)) {
-    if (!correctOption.every((o) => validOptionLabels.includes(o))) {
-      console.warn(`[${batchName}] Skipping ${obj.id}: some correctOptions do not match options`);
+  if (correctList.length === 0 || correctList.some((value) => typeof value !== 'string' || value === '')) {
+    console.warn(`[${batchName}] Skipping ${obj.id}: invalid correct answer`);
+    return false;
+  }
+
+  if (type === 'NAT') {
+    if (correctList.length !== 1) {
+      console.warn(`[${batchName}] Skipping ${obj.id}: NAT must have exactly one accepted value`);
       return false;
     }
   } else {
-    console.warn(`[${batchName}] Skipping ${obj.id}: invalid correctOption type`);
-    return false;
+    const labels = rawOptions.map((option) => (asRecord(option) as Record<string, unknown>).label);
+    if (correctList.some((label) => !labels.includes(label as string))) {
+      console.warn(`[${batchName}] Skipping ${obj.id}: correct answer does not match any option`);
+      return false;
+    }
+    if (type === 'MCQ' && correctList.length !== 1) {
+      console.warn(`[${batchName}] Skipping ${obj.id}: MCQ must have exactly one correct option`);
+      return false;
+    }
   }
 
-  if (!obj.classification || typeof obj.classification !== 'object') {
+  if (!asRecord(obj.classification)) {
     console.warn(`[${batchName}] Skipping ${obj.id}: missing classification`);
     return false;
   }
 
-  if (!obj.source || typeof obj.source !== 'object') {
-    console.warn(`[${batchName}] Skipping ${obj.id}: missing source`);
+  const source = asRecord(obj.source);
+  if (!source || !VALID_SOURCE_TYPES.includes(source.type as typeof VALID_SOURCE_TYPES[number])) {
+    console.warn(`[${batchName}] Skipping ${obj.id}: invalid source type`);
     return false;
   }
 
-  const source = obj.source as Record<string, unknown>;
-  if (!VALID_SOURCE_TYPES.includes(source.type as typeof VALID_SOURCE_TYPES[number])) {
-    console.warn(`[${batchName}] Skipping ${obj.id}: invalid source type "${source.type}"`);
-    return false;
-  }
-
-  if (!obj.verification || typeof obj.verification !== 'object') {
+  if (!asRecord(obj.verification)) {
     console.warn(`[${batchName}] Skipping ${obj.id}: missing verification`);
     return false;
   }
@@ -135,37 +118,27 @@ function validateQuestion(q: unknown, index: number, batchName: string): q is Qu
   return true;
 }
 
-function loadAndValidate(): Question[] {
-  const validQuestions: Question[] = [];
-  const seenIds = new Set<string>();
-
-  for (let b = 0; b < allRawBatches.length; b++) {
-    const batch = allRawBatches[b];
-    const batchName = batch.length > 0
-      ? `${(batch[0] as Record<string, unknown>).id || 'batch-' + b}`
-      : `batch-${b}`;
-
-    for (let i = 0; i < batch.length; i++) {
-      const raw = batch[i];
-      if (validateQuestion(raw, i, batchName)) {
-        if (seenIds.has(raw.id)) {
-          console.warn(`Skipping duplicate id: ${raw.id}`);
-          continue;
-        }
-        seenIds.add(raw.id);
-        validQuestions.push(raw);
-      }
-    }
-  }
-
-  return validQuestions;
-}
-
-let _questions: Question[] | null = null;
+let cache: Question[] | null = null;
 
 export function getQuestions(): Question[] {
-  if (_questions === null) {
-    _questions = loadAndValidate();
-  }
-  return _questions;
+  if (cache) return cache;
+
+  const seen = new Set<string>();
+  const questions: Question[] = [];
+
+  allRawBatches.forEach((batch, batchIndex) => {
+    const batchName = `batch-${batchIndex}`;
+    batch.forEach((raw, index) => {
+      if (!validateQuestion(raw, index, batchName)) return;
+      if (seen.has(raw.id)) {
+        console.warn(`Skipping duplicate id: ${raw.id}`);
+        return;
+      }
+      seen.add(raw.id);
+      questions.push(raw);
+    });
+  });
+
+  cache = questions;
+  return questions;
 }

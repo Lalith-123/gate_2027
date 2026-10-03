@@ -19,10 +19,10 @@ export function Header({ onFilterClick, onBookmarksClick, onIncorrectClick, onSu
       <div className="max-w-2xl mx-auto px-4 py-3 flex items-center justify-between">
         <div>
           <h1 className="text-lg font-bold text-slate-900 dark:text-white tracking-tight">
-            PG Medical MCQ
+            GATE 2027
           </h1>
           <p className="text-[11px] text-slate-500 dark:text-slate-400 -mt-0.5">
-            Question Practice
+            Previous Year Questions
           </p>
         </div>
 

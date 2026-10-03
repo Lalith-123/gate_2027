@@ -1,5 +1,6 @@
 import { ExternalLink } from 'lucide-react';
 import type { QuestionSource } from '../types';
+import { MathText } from './MathText';
 
 interface ExplanationSectionProps {
   explanation: string | null;
@@ -22,7 +23,10 @@ export function ExplanationSection({ explanation, source }: ExplanationSectionPr
       </h4>
 
       {explanation ? (
-        <p className="text-sm text-slate-700 dark:text-slate-200 leading-relaxed">{explanation}</p>
+        <MathText
+          text={explanation}
+          className="block text-sm text-slate-700 dark:text-slate-200 leading-relaxed"
+        />
       ) : (
         <p className="text-sm text-slate-500 dark:text-slate-400 italic">
           Official explanation not available.

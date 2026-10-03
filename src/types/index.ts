@@ -1,3 +1,6 @@
+export type QuestionType = 'MCQ' | 'MSQ' | 'NAT';
+export type Difficulty = 'Easy' | 'Medium' | 'Hard';
+
 export interface QuestionOption {
   label: string;
   text: string;
@@ -34,24 +37,36 @@ export interface QuestionExam {
   name: string;
   fullName: string;
   year: number;
+  /** GATE paper code, e.g. CSE. */
   session?: string;
 }
 
+export interface QuestionBody {
+  text: string;
+  type: QuestionType;
+  /** Empty for NAT, which is answered with a typed number. */
+  options: QuestionOption[];
+  marks: number;
+  negativeMarks: number;
+  difficulty: Difficulty;
+}
+
 export interface QuestionAnswer {
-  correctOption: string;
+  /** Single option label for MCQ, label list for MSQ, numeric string for NAT. */
+  correctOption: string | string[];
   correctText: string;
   explanation: string | null;
   status: 'confirmed' | 'disputed' | 'uncertain';
+  /** NAT only: absolute error allowed against the accepted value. */
+  natTolerance?: number;
+  /** NAT only: non-numeric forms that must also be accepted. */
+  acceptedAnswers?: string[];
 }
 
 export interface Question {
   id: string;
   exam: QuestionExam;
-  question: {
-    text: string;
-    type: string;
-    options: QuestionOption[];
-  };
+  question: QuestionBody;
   answer: QuestionAnswer;
   classification: QuestionClassification;
   images: QuestionImage[];
@@ -61,6 +76,7 @@ export interface Question {
 
 export interface AttemptRecord {
   questionId: string;
+  /** Comma-joined option labels for MSQ, raw typed value for NAT. */
   selectedOption: string;
   isCorrect: boolean;
   lastAttemptedAt: number;
@@ -89,9 +105,12 @@ export interface NoteRecord {
 export interface Filters {
   exam: string | 'all';
   year: number | 'all';
+  branch: string | 'all';
   subject: string | 'all';
   topic: string | 'all';
   subtopic: string | 'all';
+  type: QuestionType | 'all';
+  difficulty: Difficulty | 'all';
   source: 'all' | 'official' | 'trusted' | 'recalled';
   status: 'all' | 'unattempted' | 'correct' | 'incorrect' | 'bookmarked';
 }

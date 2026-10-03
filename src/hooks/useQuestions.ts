@@ -1,23 +1,40 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
-import type { Question, Filters, AttemptRecord, BookmarkRecord, NoteRecord } from '../types';
+import type { Filters, AttemptRecord, BookmarkRecord, NoteRecord, Question } from '../types';
 import { getQuestions } from '../data/loader';
 import { filterQuestions, shuffleArray } from '../utils/filters';
-import { loadAttempts, saveAttempts, addAttempt, removeAttempt, loadBookmarks, saveBookmarks, toggleBookmark, loadNotes, saveNotes, upsertNote } from '../utils/storage';
+import {
+  loadAttempts,
+  saveAttempts,
+  addAttempt,
+  removeAttempt,
+  loadBookmarks,
+  saveBookmarks,
+  toggleBookmark,
+  loadNotes,
+  saveNotes,
+  upsertNote,
+} from '../utils/storage';
 
+/** Keeps recently served questions out of the reshuffle so they do not repeat back-to-back. */
 const SESSION_WINDOW = 20;
+
+const DEFAULT_FILTERS: Filters = {
+  exam: 'all',
+  year: 'all',
+  branch: 'all',
+  subject: 'all',
+  topic: 'all',
+  subtopic: 'all',
+  type: 'all',
+  difficulty: 'all',
+  source: 'all',
+  status: 'all',
+};
 
 export function useQuestions() {
   const allQuestions = useMemo(() => getQuestions(), []);
 
-  const [filters, setFilters] = useState<Filters>({
-    exam: 'all',
-    year: 'all',
-    subject: 'all',
-    topic: 'all',
-    subtopic: 'all',
-    source: 'all',
-    status: 'all',
-  });
+  const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
   const [attempts, setAttempts] = useState<AttemptRecord[]>(() => loadAttempts());
   const [bookmarks, setBookmarks] = useState<BookmarkRecord[]>(() => loadBookmarks());
   const [notes, setNotes] = useState<NoteRecord[]>(() => loadNotes());
@@ -45,9 +62,9 @@ export function useQuestions() {
       setCurrentIndex(0);
       return;
     }
+    const window = Math.min(SESSION_WINDOW, Math.floor(pool.length / 2));
     const eligible = pool.filter((q) => !sessionHistoryRef.current.includes(q.id));
-    const shuffled = shuffleArray(eligible.length > 0 ? eligible : pool);
-    setCurrentQueue(shuffled);
+    setCurrentQueue(shuffleArray(eligible.length > 0 ? eligible : pool));
     setCurrentIndex(0);
   }, []);
 
@@ -59,104 +76,108 @@ export function useQuestions() {
 
   const goToNext = useCallback(() => {
     setViewFresh(false);
-    setCurrentIndex((prevIndex) => {
-      const nextIndex = prevIndex + 1;
-      if (nextIndex >= currentQueue.length) {
-        sessionHistoryRef.current = [
-          ...sessionHistoryRef.current,
-          ...currentQueue.map((q) => q.id),
-        ].slice(-SESSION_WINDOW);
-        const pool = filteredRef.current;
-        const eligible = pool.filter((q) => !sessionHistoryRef.current.includes(q.id));
-        const shuffled = shuffleArray(eligible.length > 0 ? eligible : pool);
-        setCurrentQueue(shuffled);
-        return 0;
-      }
-      if (currentQueue[nextIndex]) {
-        sessionHistoryRef.current = [
-          ...sessionHistoryRef.current,
-          currentQueue[nextIndex].id,
-        ].slice(-SESSION_WINDOW);
-      }
-      return nextIndex;
-    });
-  }, [currentQueue]);
+
+    const nextIndex = currentIndex + 1;
+    if (nextIndex < currentQueue.length) {
+      setCurrentIndex(nextIndex);
+      const served = currentQueue[nextIndex].id;
+      sessionHistoryRef.current = [...sessionHistoryRef.current, served].slice(-SESSION_WINDOW);
+      return;
+    }
+
+    const pool = filteredRef.current;
+    if (pool.length === 0) {
+      setCurrentQueue([]);
+      setCurrentIndex(0);
+      return;
+    }
+
+    sessionHistoryRef.current = [
+      ...sessionHistoryRef.current,
+      ...currentQueue.map((q) => q.id),
+    ].slice(-SESSION_WINDOW);
+    const window = Math.min(SESSION_WINDOW, Math.floor(pool.length / 2));
+    const eligible = pool.filter((q) => !sessionHistoryRef.current.slice(-window).includes(q.id));
+    setCurrentQueue(shuffleArray(eligible.length > 0 ? eligible : pool));
+    setCurrentIndex(0);
+  }, [currentIndex, currentQueue]);
 
   const recordAttempt = useCallback(
     (questionId: string, selectedOption: string, isCorrect: boolean) => {
-      const attempt: AttemptRecord = {
-        questionId,
-        selectedOption,
-        isCorrect,
-        lastAttemptedAt: Date.now(),
-      };
-      const updated = addAttempt(attempts, attempt);
-      setAttempts(updated);
-      saveAttempts(updated);
+      setAttempts((previous) => {
+        const updated = addAttempt(previous, {
+          questionId,
+          selectedOption,
+          isCorrect,
+          lastAttemptedAt: Date.now(),
+        });
+        saveAttempts(updated);
+        return updated;
+      });
     },
-    [attempts]
+    []
   );
 
-  const toggleBook = useCallback(
-    (questionId: string) => {
-      const updated = toggleBookmark(bookmarks, questionId);
-      setBookmarks(updated);
+  const toggleBook = useCallback((questionId: string) => {
+    setBookmarks((previous) => {
+      const updated = toggleBookmark(previous, questionId);
       saveBookmarks(updated);
-    },
-    [bookmarks]
-  );
+      return updated;
+    });
+  }, []);
 
-  const removeIncorrect = useCallback(
-    (questionId: string) => {
-      const updated = removeAttempt(attempts, questionId);
-      setAttempts(updated);
+  const removeIncorrect = useCallback((questionId: string) => {
+    setAttempts((previous) => {
+      const updated = removeAttempt(previous, questionId);
       saveAttempts(updated);
-    },
-    [attempts]
-  );
+      return updated;
+    });
+  }, []);
 
-  const saveNote = useCallback(
-    (questionId: string, text: string) => {
-      const updated = upsertNote(notes, questionId, text);
-      setNotes(updated);
+  const saveNote = useCallback((questionId: string, text: string) => {
+    setNotes((previous) => {
+      const updated = upsertNote(previous, questionId, text);
       saveNotes(updated);
-    },
-    [notes]
-  );
+      return updated;
+    });
+  }, []);
 
   const goToQuestion = useCallback((questionId: string) => {
     setViewFresh(true);
-    const idx = currentQueue.findIndex((q) => q.id === questionId);
-    if (idx !== -1) {
-      setCurrentIndex(idx);
+    const index = currentQueue.findIndex((q) => q.id === questionId);
+    if (index !== -1) {
+      setCurrentIndex(index);
       return;
     }
-    const q = filteredRef.current.find((q) => q.id === questionId);
-    if (q) {
-      setCurrentQueue([q]);
+    const question = filteredRef.current.find((q) => q.id === questionId);
+    if (question) {
+      setCurrentQueue([question]);
       setCurrentIndex(0);
     }
   }, [currentQueue]);
 
-  const clearFilters = useCallback(() => {
-    setFilters({
-      exam: 'all',
-      year: 'all',
-      subject: 'all',
-      topic: 'all',
-      subtopic: 'all',
-      source: 'all',
-      status: 'all',
-    });
-  }, []);
+  const clearFilters = useCallback(() => setFilters(DEFAULT_FILTERS), []);
 
-  const stats = useMemo(() => ({
-    total: filteredQuestions.length,
-    attempted: attempts.length,
-    correct: attempts.filter((a) => a.isCorrect).length,
-    incorrect: attempts.filter((a) => !a.isCorrect).length,
-    bookmarked: bookmarks.length,
-  }), [filteredQuestions, attempts, bookmarks]);
+  const stats = useMemo(() => {
+    const byId = new Map(allQuestions.map((q) => [q.id, q]));
+    let marks = 0;
+    let possible = 0;
+    for (const attempt of attempts) {
+      const question = byId.get(attempt.questionId);
+      if (!question) continue;
+      possible += question.question.marks;
+      marks += attempt.isCorrect ? question.question.marks : -question.question.negativeMarks;
+    }
+    return {
+      total: filteredQuestions.length,
+      attempted: attempts.length,
+      correct: attempts.filter((a) => a.isCorrect).length,
+      incorrect: attempts.filter((a) => !a.isCorrect).length,
+      bookmarked: bookmarks.length,
+      marks: Math.round(marks * 100) / 100,
+      possible,
+    };
+  }, [allQuestions, attempts, bookmarks, filteredQuestions]);
 
   return {
     currentQuestion,

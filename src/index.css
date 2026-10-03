@@ -90,3 +90,13 @@
 html.dark {
   color-scheme: dark;
 }
+
+.katex {
+  font-size: 1.02em;
+}
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0;
+}
