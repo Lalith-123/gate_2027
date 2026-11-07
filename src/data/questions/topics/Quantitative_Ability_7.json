@@ -1,0 +1,2103 @@
+[
+  {
+    "id": "gate-quantitative-ability-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 1 to 6: Select the correct alternative from the given choices.",
+      "text": "A three-digit number when reversed and subtracted from the original number gives the result as 792. If the sum of the digits of the number is 18, find the tens digit of the number.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "8",
+      "explanation": "Let the three-digit number be \\(abc\\). Its value is \\(100a+10b+c\\). On reversing it becomes \\(cba\\) whose value is \\(100c+10b+a\\).\n\\[abc-cba=99(a-c)=792\\]\n\\[a-c=8\\]\n\\((a,c)\\) can be \\((9,1)\\) or \\((8,0)\\). Also \\(a+b+c=18\\). When \\(a=9,c=1\\), then \\(b=8\\). When \\(a=8,c=0\\), then \\(b=10\\), which is not possible. Hence \\(b=8\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Numbers",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 1 to 6: Select the correct alternative from the given choices.",
+      "text": "A sum of ₹209 was intended to be divided among A, B and C in the ratio 2 : 4 : 5. By mistake, it got divided in the reciprocal of the intended ratio. Find the gain of A due to this mistake.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹48"
+        },
+        {
+          "label": "B",
+          "text": "₹72"
+        },
+        {
+          "label": "C",
+          "text": "₹56"
+        },
+        {
+          "label": "D",
+          "text": "₹60"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "₹72",
+      "explanation": "A should have got 2 out of the total 11 parts i.e., \\(\\frac{2}{11}(209)=₹38\\).\nRatio of actual division of ₹209 among A, B and C is \\(1/2:1/4:1/5=10:5:4\\).\nA actually got 10 out of 19 parts i.e., \\(\\frac{10}{19}(209)=₹110\\).\nGain of A is \\(110-38=₹72\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Ratio and Proportion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 1 to 6: Select the correct alternative from the given choices.",
+      "text": "In a fraction, the numerator exceeds the denominator by 7. If twice the numerator exceeds thrice the denominator by 2, find the fraction.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{8}{15}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{19}{12}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{20}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{17}{24}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\frac{19}{12}$",
+      "explanation": "Let the numerator and denominator of the fraction be \\(n\\) and \\(d\\).\n\\[2n-3d=2\\]\n\\[n-d=7\\]\nSolving the two equations we get \\(n=19\\) and \\(d=12\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Fractions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 1 to 6: Select the correct alternative from the given choices.",
+      "text": "If a : b = 3 : 4, c : b = 2 : 7 and c : d = 5 : 7, find a : b : c : d.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "105 : 140 : 50 : 70"
+        },
+        {
+          "label": "B",
+          "text": "105 : 140 : 40 : 49"
+        },
+        {
+          "label": "C",
+          "text": "105 : 140 : 40 : 56"
+        },
+        {
+          "label": "D",
+          "text": "105 : 140 : 50 : 49"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "105 : 140 : 40 : 56",
+      "explanation": "\\[a=\\frac34b,\\quad b=\\frac72c,\\quad c=\\frac57d\\]\nHence \\(a=\\frac34\\left(\\frac72\\left(\\frac57d\\right)\\right)=\\frac{15}{8}d\\), and \\(b=\\frac72\\left(\\frac57d\\right)=\\frac52d\\).\nHence \\(a:b:c:d=\\frac{15}{8}d:\\frac52d:\\frac57d:d\\).\nMultiplying each term of the ratio by the LCM of denominators of the coefficients of \\(d\\), i.e. 56, we get \\(a:b:c:d=105:140:40:56\\).\nAlternate method: Going by the choices, \\(a:b=3:4\\), \\(b:c=7:2\\) and \\(c:d=5:7\\) is satisfied only in Choice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Ratio and Proportion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 1 to 6: Select the correct alternative from the given choices.",
+      "text": "In a parking place, there are a total of 20 vehicles (bikes and cars) are parked. If the total number of tyres of all these vehicles is 70, find the ratio of the number of bikes and cars. (No vehicle has spare tyres).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 : 1"
+        },
+        {
+          "label": "B",
+          "text": "1 : 2"
+        },
+        {
+          "label": "C",
+          "text": "1 : 3"
+        },
+        {
+          "label": "D",
+          "text": "2 : 1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1 : 3",
+      "explanation": "Let the number of bikes and cars parked be \\(S\\) and \\(C\\) respectively.\n\\[S+C=20\\]\nEach bike has 2 tyres and each car has 4 tyres.\n\\[2S+4C=70\\Rightarrow S+2C=35\\]\nSubtracting the second equation from the first equation, we get \\(C=15\\), so \\(S=20-C=5\\). Therefore \\(S:C=1:3\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 1 to 6: Select the correct alternative from the given choices.",
+      "text": "Ajay, Balu, Chetan and Dinesh have a total of ₹240 with them. The amount with Ajay is half of the total amount with the others. The amount with Balu is one-fourth of the total amount with the others. The amount with Chetan is one-fifth of the total amount with the others. Find the amount with Dinesh.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹30"
+        },
+        {
+          "label": "B",
+          "text": "₹72"
+        },
+        {
+          "label": "C",
+          "text": "₹40"
+        },
+        {
+          "label": "D",
+          "text": "₹48"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "₹72",
+      "explanation": "Let the amounts with Ajay, Balu, Chetan and Dinesh be \\(a,b,c,d\\) respectively.\n\\[a+b+c+d=240,\\quad a=\\frac12(b+c+d)=\\frac12(240-a)\\]\n\\[2a=240-a\\Rightarrow 3a=240\\Rightarrow a=₹80\\]\nHalf of the total amount with Balu, Chetan and Dinesh becomes one-third of the total amount. Similarly, the amounts with Balu and Chetan which are one-fourth and one-fifth of the total amount with the others become one-fifth and one-sixth of the total amounts.\nHence \\(b=\\frac{240}{5}=48\\), \\(c=\\frac{240}{6}=40\\), and \\(d=240-(a+b+c)=72\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Ratio and Proportion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 7 and 8: These questions are based on the following information.\nSiddharth has two landlines of a particular telephone service provider. For each line, he has to pay a monthly rent of ₹250. This entitles him to a certain fixed number of free calls per line. Calls over and above this allowance are charged at the rate of ₹1 per call. One month he received bills of ₹450 and ₹350 for the two lines. Had he made all his calls on a single line, his bill for that line would have been ₹700.",
+      "text": "What was the total number of calls on the first line?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "375"
+        },
+        {
+          "label": "B",
+          "text": "300"
+        },
+        {
+          "label": "C",
+          "text": "350"
+        },
+        {
+          "label": "D",
+          "text": "400"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "350",
+      "explanation": "Solutions for questions 7 and 8:\nOn line 1, ₹250 was rent and ₹200 was call charges. On line 2, ₹250 was rent and ₹100 was call charges. The total chargeable calls was 300.\nOn a single line, ₹250 is the rent and ₹450 is the call charges, i.e. there are 450 chargeable calls.\nComparing the two cases, the number of free calls is 150. The total number of calls (free + chargeable) on the first line is \\(150+200=350\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Ratio and Proportion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 7 and 8: These questions are based on the following information.\nSiddharth has two landlines of a particular telephone service provider. For each line, he has to pay a monthly rent of ₹250. This entitles him to a certain fixed number of free calls per line. Calls over and above this allowance are charged at the rate of ₹1 per call. One month he received bills of ₹450 and ₹350 for the two lines. Had he made all his calls on a single line, his bill for that line would have been ₹700.",
+      "text": "What is the number of free calls per line?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "150"
+        },
+        {
+          "label": "B",
+          "text": "125"
+        },
+        {
+          "label": "C",
+          "text": "180"
+        },
+        {
+          "label": "D",
+          "text": "200"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "150",
+      "explanation": "Solutions for questions 7 and 8:\nOn line 1, ₹250 was rent and ₹200 was call charges. On line 2, ₹250 was rent and ₹100 was call charges. The total chargeable calls was 300.\nOn a single line, ₹250 is the rent and ₹450 is the call charges, i.e. there are 450 chargeable calls.\nComparing the two cases, the number of free calls is 150.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Ratio and Proportion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "The cost of 2 pens, 4 erasers and 5 sharpeners is ₹36. The cost of 3 pens,7 erasers and 9 sharpeners is ₹63. Find the total cost of one pen, one eraser and one sharpener.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹9"
+        },
+        {
+          "label": "B",
+          "text": "₹8"
+        },
+        {
+          "label": "C",
+          "text": "₹10"
+        },
+        {
+          "label": "D",
+          "text": "₹11"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "₹9",
+      "explanation": "Let the cost of each pen, eraser and sharpener be \\(p,e,s\\) respectively.\n\\[2p+4e+5s=36\\]\n\\[3p+7e+9s=63\\]\nMultiplying the first equation by 2 and subtracting the second equation from it, \\(p+e+s=9\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "If a + b – c : b + c – a : a + c – b = 3 : 4 : 5, find a : b : c.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 : 2 : 3"
+        },
+        {
+          "label": "B",
+          "text": "8 : 7 : 9"
+        },
+        {
+          "label": "C",
+          "text": "5 : 7 : 8"
+        },
+        {
+          "label": "D",
+          "text": "1 : 3 : 2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "8 : 7 : 9",
+      "explanation": "Let \\(a+b-c=3x\\), \\(b+c-a=4x\\), and \\(a+c-b=5x\\).\nAdding these three equations, \\(a+b+c=12x\\). Then \\(2c=9x\\), so \\(c=4.5x\\); \\(2a=8x\\), so \\(a=4x\\); and \\(2b=7x\\), so \\(b=3.5x\\).\nTherefore \\(a:b:c=4x:3.5x:4.5x=8:7:9\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Ratio and Proportion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "For which of the following values of k does the system of equations 2x + 5y = 1 and 6x + 15y = k/2 have infinite solutions?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "–6"
+        },
+        {
+          "label": "D",
+          "text": "Any value except 6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "6",
+      "explanation": "If two equations are of the form \\(a_1x+b_1y=k_1\\) and \\(a_2x+b_2y=k_2\\) to have infinite solutions, \\(a_1/a_2=b_1/b_2=k_1/k_2\\) must be satisfied.\nHence for the given equations, \\(2/6=1/(k/2)\\), so \\(k=6\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Linear Equations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "If a : b = 3 : 4, find the value of \\(\frac{3a^2+4b^2}{4a^2+3b^2}\\).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{11}{12}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{12}{11}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{12}{13}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{13}{12}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\frac{13}{12}$",
+      "explanation": "Given that \\(a:b=3:4\\), so \\(a/b=3/4\\).\nDividing both numerator and denominator of \\(\\frac{3a^2+4b^2}{4a^2+3b^2}\\) by \\(b^2\\), it becomes\n\\[\\frac{3(a/b)^2+4}{4(a/b)^2+3}=\\frac{3(9/16)+4}{4(9/16)+3}=\\frac{13}{12}.\\]",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Ratio and Proportion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "The distance a stone falls under free fall varies directly with the square of the time for which it falls. If a stone falls at a distance of 35 m in the fourth second, find the total distance it falls in the first 5 seconds.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "100 m"
+        },
+        {
+          "label": "B",
+          "text": "140 m"
+        },
+        {
+          "label": "C",
+          "text": "135 m"
+        },
+        {
+          "label": "D",
+          "text": "125 m"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "125 m",
+      "explanation": "Let the distance travelled by the stone and the time of travel of the stone be denoted by \\(d\\) and \\(t\\) respectively. \\(d=ct^2\\) where \\(c\\) is a constant.\nDistance travelled in the fourth second by the stone = total distance travelled in first four seconds − the total distance it travelled in first three seconds = \\(c(4^2-3^2)=35\\).\n\\(7c=35\\Rightarrow c=5\\).\nTotal distance it falls in the first 5 seconds = \\(c(5^2)=125\\) m.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "A sum of ₹750 is divided among P, Q and R. If ₹30, ₹20 and ₹10 is added to their respective shares then the ratio of amounts of P, Q and R becomes 10 : 8 : 9. What is the share of P?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "280"
+        },
+        {
+          "label": "B",
+          "text": "₹250"
+        },
+        {
+          "label": "C",
+          "text": "₹260"
+        },
+        {
+          "label": "D",
+          "text": "₹270"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "₹270",
+      "explanation": "The shares of P, Q and R be \\(₹x, ₹y\\) and \\(₹z\\) respectively.\n\\[x+y+z=750\\]\n\\[(x+30):(y+20):(z+10)=10:8:9\\]\n\\[x+y+z+30+20+10=750+60=810\\]\nSo \\(x+30=\\frac{810\\times10}{10+8+9}=300\\). Hence \\(x=270\\). Share of P = ₹270.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Ratio and Proportion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "Ajay told Bharat, “I am four times as old as you were when I was as old as you are”. Bharat told Ajay “Ten years ago, I was nine years younger to you”. Find the sum of present ages of Ajay and Bharat.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "39 years"
+        },
+        {
+          "label": "B",
+          "text": "36 years"
+        },
+        {
+          "label": "C",
+          "text": "42 years"
+        },
+        {
+          "label": "D",
+          "text": "45 years"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "39 years",
+      "explanation": "Let the present age of Ajay be \\(x\\) years. Some time in the past, Bharat was \\(x/4\\) years. The age of Ajay at that time is Bharat’s present age. Bharat’s present age is \\((x-9)\\) years.\nAs their difference of ages is constant,\n\\[x-(x-9)=(x-9)-x/4\\]\nso \\(x=24\\). Sum of their present ages = \\(2x-9=39\\) years.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Ages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "The ratio of the incomes of A and B is 3 : 2. The ratio of their expenditures is 5 : 4. If the savings of A is twice that of B, find the ratio of the income and expenditure of B.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 : 16"
+        },
+        {
+          "label": "B",
+          "text": "3 : 4"
+        },
+        {
+          "label": "C",
+          "text": "3 : 2"
+        },
+        {
+          "label": "D",
+          "text": "5 : 4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "3 : 2",
+      "explanation": "Let the incomes of A and B be \\(3x\\) and \\(2x\\), respectively. Let the expenditures of A and B be \\(5y\\) and \\(4y\\), respectively. Savings of A and B are \\(3x-5y\\) and \\(2x-4y\\) respectively.\nGiven that \\(3x-5y=2(2x-4y)\\Rightarrow x=3y\\).\nRatio of income and expenditure of B = \\(2x:4y=2(3y):4y=3:2\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Percentages and Profit/Loss",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "A bag has a total of 40 coins in denominations of ₹1, ₹2 and ₹5. If the total value of the coins is ₹130, find the maximum number of ₹5 coins.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "24"
+        },
+        {
+          "label": "B",
+          "text": "21"
+        },
+        {
+          "label": "C",
+          "text": "23"
+        },
+        {
+          "label": "D",
+          "text": "22"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "22",
+      "explanation": "Let the number of ₹1, ₹2 and ₹5 coins be \\(x,y,z\\) respectively.\n\\[x+y+z=40\\]\n\\[x+2y+5z=130\\]\nSubtracting the first equation from the second, \\(y+4z=90\\). In order to satisfy the above equation, \\(y\\) must be divisible by 2. As \\(z\\) must be maximum, \\(y\\) must be minimum. Hence when \\(y\\) has the least value, \\(z\\) is obtained as 22 from the above equation.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Numbers",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "The age of Harish is 8 years more than twice the age of Ganesh. After how many years will the age of Harish be twice the age of Ganesh?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "8",
+      "explanation": "Let the present age of Ganesh be \\(G\\). Present age of Harish = \\(2G+8\\).\nLet Harish become twice the age of Ganesh \\(k\\) years from now. Hence, \\(2G+8+k=2(G+k)\\Rightarrow k=8\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Ages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "Rohan made 13 calls from a public booth. Each was either a local call or STD call or ISD call. The average costs of his local calls, STD calls and ISD calls were ₹6, ₹11 and ₹13, respectively. The total amount spent by Ram on the calls was ₹119. Find the number of ISD calls he made",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "3",
+      "explanation": "Let the number of local calls, STD calls and ISD calls made by Rohan be \\(l,s\\) and \\(i\\) respectively.\n\\[l+s+i=13\\quad\\text{and}\\quad 6l+11s+13i=119\\]\n\\[6l+11s+13i-6(l+s+i)=119-6(13)\\]\n\\[5s+7i=41\\]\n\\(5s\\) ends with 0 or 5. Also, R.H.S ends with 1. \\(7i\\) must end with 1 or 6. Also \\(7i<41\\).\nTherefore \\(7i=21\\) (no value of \\(7i\\) ends with 6), so \\(i=3\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Averages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "Ram has a certain number of notes of the denominations ₹5, ₹10 and ₹20. The total amount he has is ₹540. If he has a total of 24 currency notes in the denominations of ₹5 and ₹20, then what is the greatest number of notes of ₹10 notes he could have?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "42"
+        },
+        {
+          "label": "B",
+          "text": "40"
+        },
+        {
+          "label": "C",
+          "text": "39"
+        },
+        {
+          "label": "D",
+          "text": "38"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "39",
+      "explanation": "Let Ram have \\(f,t\\) and \\(w\\) notes of denomination ₹5, ₹10 and ₹20 respectively. Given that \\(5f+10t+20w=540\\) and \\(f+w=24\\).\nSubtracting 5 times the second equation from the first gives \\(10t+15w=420\\), so\n\\[t=\\frac{420-15w}{10}.\\]\nAs \\(w>0\\), \\(t_{\\max}=\\frac{420-15\\times2}{10}=39\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Numbers",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "Three vessels are filled to their capacities with mixtures of milk and water. The ratio of their capacities is 2:3:4. The ratio of the quantities of milk and water in the first, the second and the third vessels is 1:3, 5:1 and 3:5 respectively. Find the ratio of the total quantity of milk in the vessels to the total quantity of water in the vessels.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 : 1"
+        },
+        {
+          "label": "B",
+          "text": "2 : 3"
+        },
+        {
+          "label": "C",
+          "text": "3 : 2"
+        },
+        {
+          "label": "D",
+          "text": "3 : 4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1 : 1",
+      "explanation": "The vessels are filled to their capacities. Let the capacities of the first, the second and the third vessels be \\(2x,3x\\) and \\(4x\\) respectively.\nRequired ratio\n\\[=\\frac{1}{1+3}(2x)+\\frac{5}{5+1}(3x)+\\frac{3}{3+5}(4x):\\frac{3}{4}(2x)+\\frac{1}{6}(3x)+\\frac{5}{8}(4x)\\]\n\\[=\\frac{x}{2}+\\frac{5x}{2}+\\frac{3x}{2}:\\frac{3x}{2}+\\frac{x}{2}+\\frac{5x}{2}=1:1.\\]",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Ratio and Proportion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "a, b, c are positive integers such that a : b = 4 : 3 and b : c = 4 : 3. If the sum of the squares of c and b is less than square of the sum of b and a by 2236, then what is the value of the number which is neither the greatest nor the least?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "24"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "18"
+        },
+        {
+          "label": "D",
+          "text": "36"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "24",
+      "explanation": "Given that \\(a:b=4:3\\) and \\(b:c=4:3\\).\n\\[a:b=16:12,\\quad b:c=12:9\\]\nTherefore \\(a:b:c=16:12:9\\). Let \\(a=16k,b=12k,c=9k\\).\nAlso given \\((a+b)^2-(b^2+c^2)=2236\\).\n\\[(28k)^2-(144k^2+81k^2)=2236\\]\n\\[784k^2-225k^2=2236\\Rightarrow k^2=4\\Rightarrow k=2\\]\nThus \\(b=12k=12\\times2=24\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Ratio and Proportion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the least value of x, if the nine-digit number 23x4567y4 is divisible by 44?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1",
+      "explanation": "The number \\(23x4567y4\\) is divisible by 4 and by 11.\n\\(y=0,2,4,6\\) or 8, and by the divisibility rule for 11,\n\\[(2+x+5+7+4)-(3+4+6+y)=5+x-y\\]\nis also a multiple of 11.\nThe least value of \\(5+x-y\\) is \\(5+0-9=-4\\) and the greatest value is \\(5+9-0=14\\), so it could be 0 or 11. The least value of \\(x\\) is 1.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Divisibility",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "A number when divided by 259 leaves a remainder of 161. If one-seventh of the same number is divided by 37, the remainder will be",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "14"
+        },
+        {
+          "label": "B",
+          "text": "23"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "23",
+      "explanation": "Let the number be \\(N\\).\n\\[N=259K+161\\]\n\\[N/7=37K+23\\]\nTherefore \\(N/7\\) leaves a remainder of 23 when divided by 37.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Divisibility",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "\\((36^3+36^2-37)\\) is not divisible by, which of the following?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "185"
+        },
+        {
+          "label": "B",
+          "text": "37"
+        },
+        {
+          "label": "C",
+          "text": "36"
+        },
+        {
+          "label": "D",
+          "text": "More than one of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "36",
+      "explanation": "The given number \\(N\\) is \\(36^2(36+1)-37\\)\n\\[=36^2(37)-37=37(36^2-1)=37(35)(37).\\]\nTherefore \\(N\\) is not divisible by 36.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Divisibility",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "Mohit has 290 toffees with him. He distributes all his toffees among his friends, such that each of his friends gets a different number of toffees, which is at least 5 and at most 29. What could be the least number of friends?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "19"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "13",
+      "explanation": "Since the number of friends has to be the least, the number of toffees should be as great as possible. Let the toffees distributed be 29, 28, 27, 26 ….\nGiven that \\(29+28+27+26+\\cdots\\) up to \\(n\\) terms \\(\\le 290\\).\nIf \\(n=12\\), the number of toffees that can be distributed is \\(29+28+\\cdots+19+18=6(29+18)=282\\). The last person gets 8 toffees. The least number of friends is \\(12+1=13\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Number Series and Inequalities",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "When the King of Patiala distributed 33,274 gold coins equally among his subjects, the Maharaja of Mysore also distributed 30,905 gold coins equally to his subjects, each giving the same number of coins to his subjects. Surprisingly, both the kings were left with the same number of gold coins. If the number of coins that each subject received is a 2-digit number, what is the difference in the number of subjects of the two kings?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "309"
+        },
+        {
+          "label": "B",
+          "text": "103"
+        },
+        {
+          "label": "C",
+          "text": "23"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "103",
+      "explanation": "Let there be \\(m\\) subjects in Patiala and \\(n\\) in Mysore. Let each subject get \\(p\\) coins and say the number of coins left with either king is \\(r\\).\n\\[mp+r=33274,\\quad np+r=30905\\]\n\\[(m-n)p=2369=23\\times103\\]\nAs \\(p\\) is a 2-digit number, \\(p=23\\) and \\(m-n=103\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Divisibility",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "The units digit of \\((24^n)(67^n)+(53^n)(79^n)\\), (where n is a natural number) is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1",
+      "explanation": "\\(24^n\\times67^n+53^n\\times79^n\\) can be written as \\(16^n\\times6+5\\times79^n\\). As \\(16^n\\) can be written as \\(6^n\\), the unit’s digit of the sum becomes \\(6\\times6+5\\times(\\text{odd number})=6+5=1\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Number System",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "Three bells X, Y and Z ring at regular intervals and ring simultaneously 24 times in a day. If Y rings less frequently than X but more frequently than Z, what could be the minimum number of times for which Y rings in a day?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "48"
+        },
+        {
+          "label": "B",
+          "text": "36"
+        },
+        {
+          "label": "C",
+          "text": "54"
+        },
+        {
+          "label": "D",
+          "text": "72"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "48",
+      "explanation": "In a day, the three bells toll together = 24 times, or once in every hour or 60 minutes. Let X, Y, Z ring once in every \\(x,y,z\\) minutes respectively. The maximum value of \\(z\\) is 60 and \\(y<60\\). Since \\(y\\) is a factor of 60, its greatest value is 30. Hence if Y rings once every 30 minutes, the number of times it tolls in a day will be the minimum, which is \\(\\frac{24\\times60}{30}=48\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "LCM and HCF",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "If a, b and c are three consecutive positive integers, then which of the following is not necessarily true?\nI. (4a + 5b + 3c) is an odd number.\nII. (2a + 3b + 4c) is an even number.\nIII. a^2 b^3 c^4 is an even number.\nIV. (3a + 2b + 4c) is an odd number.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only I"
+        },
+        {
+          "label": "B",
+          "text": "Only II and III"
+        },
+        {
+          "label": "C",
+          "text": "Only III and IV"
+        },
+        {
+          "label": "D",
+          "text": "Only II and IV"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Only II and IV",
+      "explanation": "The numbers \\(a,b,c\\) are consecutive. Therefore there are only 2 possibilities for the types (odd/even) of \\(a,b,c\\). Either \\(a,b,c\\) are \\(o,e,o\\) or they are \\(e,o,e\\). We tabulate the expressions, and the truth values (definitely true, could be false, definitely false, i.e., \\(dt,cf,df\\)).\nWe see that II, IV are not definitely true.",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_7/quantitative_ability_7-q030-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Parity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "Some students have to be seated in some rows, such that equal number of students is seated in each row. If there are 13 rows 3 students will be left out and if there are 21 rows, 11 students will be left out. How many students will be left out if there are 19 rows and less than 300 students?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "11"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "16",
+      "explanation": "When the students are arranged in 13 rows, let the number of students in each row be \\(x\\). The total number of students is \\(13x+3\\). Similarly in the second case, the total number of students is \\(21y+11\\).\nThis is LCM model II.\nNumber of students = (LCM of 13 and 21) − 10 = 263.\nRequired remainder \\(263\\div19=16\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Remainders",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "After the division of a number successively by 4, 5 and 3 the remainders obtained are 1, 2 and 2 respectively. What will be the remainder if the least of such numbers is divided by 37?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "14"
+        },
+        {
+          "label": "C",
+          "text": "17"
+        },
+        {
+          "label": "D",
+          "text": "31"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "12",
+      "explanation": "Divisors are 4, 5, 3. Remainders are 1, 2, 2.\nThe least number is \\([(2)(5)+2](4)+1=49\\).\nWhen 49 is divided by 37, the remainder is 12.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Remainders",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "The sum and the difference of the LCM and the HCF of two numbers is 784 and 756 respectively. What is the least possible difference between the two numbers?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "112"
+        },
+        {
+          "label": "B",
+          "text": "70"
+        },
+        {
+          "label": "C",
+          "text": "84"
+        },
+        {
+          "label": "D",
+          "text": "98"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "84",
+      "explanation": "Let the two numbers be \\(ha\\) and \\(hb\\) respectively, where \\(a\\) and \\(b\\) are co-primes. Then LCM of the two numbers is \\(hab\\).\nGiven \\(hab+h=784\\) and \\(hab-h=756\\).\nTherefore \\(hab=770\\) and \\(h=14\\), so \\(ab=55\\).\nThe possible values of \\(a,b\\) are \\((1,55)\\) and \\((5,11)\\). When the numbers are close, the difference will be the least, i.e., \\(\\{a,b\\}=\\{5,11\\}\\). The least possible difference is \\(14(6)=84\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "LCM and HCF",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "A number when divided by 30 and 36 leaves a remainder of 15 and 21 respectively. When such a number is divided by 35, it leaves a remainder of 10. What is such least number?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "885"
+        },
+        {
+          "label": "B",
+          "text": "895"
+        },
+        {
+          "label": "C",
+          "text": "985"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "885",
+      "explanation": "The given conditions represent the problem as LCM model-2. The general form of such numbers is (LCM of 30, 36)K − [common difference i.e., 15 in this case] = \\(180K-15\\).\nNow, when \\(180K-15\\) is divided by 35, (175K is already divisible by 35), the remainder is given to be 10. Hence \\(180K-25\\), i.e. \\(5K-25\\), is exactly divisible by 35. This will be possible when \\(K=5\\).\nHence the required number is \\(180(5)-15=885\\).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Remainders",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_7.pdf",
+      "direction": "Directions for questions 9 to 35: Select the correct alternative from the given choices.",
+      "text": "What will be the remainder when \\(223\times226\times228\\) is divided by 11?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "1",
+      "explanation": "Remainder required\n\\[=\\operatorname{Rem}\\left(\\frac{(2^{20}+3)(2^{20}+6)(2^{20}+8)}{11}\\right).\\]\n\\((2^{20}+3)(2^{20}+6)(2^{20}+8)\\) is a multiple of \\(2^{20}+3\\) times \\(2^{20}+8\\), and \\(2^{20}+8\\) is a multiple of \\(2^{20}+(3)(6)(8)\\). As \\(2^{20}\\) is divisible by 11, the remainder required is\n\\[\\operatorname{Rem}\\left(\\frac{(3)(6)(8)}{11}\\right)=\\operatorname{Rem}\\left(\\frac{144}{11}\\right)=1.\\]",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Divisibility",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_7.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

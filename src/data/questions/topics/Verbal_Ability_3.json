@@ -1,0 +1,2498 @@
+[
+  {
+    "id": "gate-verbal-ability-test-2-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 5: In each of the following questions, 3 words are related in some way. Find the “odd man” out.",
+      "text": "Find the “odd man” out.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Expert"
+        },
+        {
+          "label": "B",
+          "text": "Professional"
+        },
+        {
+          "label": "C",
+          "text": "Civilized"
+        },
+        {
+          "label": "D",
+          "text": "Maestro"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Civilized",
+      "explanation": "Expert, professional and maestro talk about the skill or knowledge of a person; ‘civilised’ talks about the behaviour of a person.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Classification",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 5: In each of the following questions, 3 words are related in some way. Find the “odd man” out.",
+      "text": "Find the “odd man” out.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Blue"
+        },
+        {
+          "label": "B",
+          "text": "Crimson"
+        },
+        {
+          "label": "C",
+          "text": "Ruby"
+        },
+        {
+          "label": "D",
+          "text": "Scarlet"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Blue",
+      "explanation": "Crimson, ruby and scarlet are shades of red.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Classification",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 5: In each of the following questions, 3 words are related in some way. Find the “odd man” out.",
+      "text": "Find the “odd man” out.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Commentary"
+        },
+        {
+          "label": "B",
+          "text": "Critique"
+        },
+        {
+          "label": "C",
+          "text": "Authority"
+        },
+        {
+          "label": "D",
+          "text": "Review"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Authority",
+      "explanation": "Commentary, critique, review refer to the expression of opinion.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Classification",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 5: In each of the following questions, 3 words are related in some way. Find the “odd man” out.",
+      "text": "Find the “odd man” out.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Decahedron"
+        },
+        {
+          "label": "B",
+          "text": "Decade"
+        },
+        {
+          "label": "C",
+          "text": "Decagon"
+        },
+        {
+          "label": "D",
+          "text": "Decibel"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Decibel",
+      "explanation": "Choices 1, 2 and 3 are related to ‘ten’ (ie) ‘deca’. In ‘decibel’, ‘deci’ means one-tenth.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Classification",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 5: In each of the following questions, 3 words are related in some way. Find the “odd man” out.",
+      "text": "Find the “odd man” out.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Grave"
+        },
+        {
+          "label": "B",
+          "text": "Coffin"
+        },
+        {
+          "label": "C",
+          "text": "Tomb"
+        },
+        {
+          "label": "D",
+          "text": "Monument"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Monument",
+      "explanation": "Grave, tomb and coffin are related to death.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Classification",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 6 to 15: In each question given below, identify the word which is similar in meaning (synonym) to the question word.",
+      "text": "ABATE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "improve"
+        },
+        {
+          "label": "B",
+          "text": "decrease"
+        },
+        {
+          "label": "C",
+          "text": "subside"
+        },
+        {
+          "label": "D",
+          "text": "sharpen"
+        },
+        {
+          "label": "E",
+          "text": "sweep"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "decrease",
+      "explanation": "The words abate and decrease are synonymous.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 6 to 15: In each question given below, identify the word which is similar in meaning (synonym) to the question word.",
+      "text": "RENOUNCE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "relinquish"
+        },
+        {
+          "label": "B",
+          "text": "withdraw"
+        },
+        {
+          "label": "C",
+          "text": "forgive"
+        },
+        {
+          "label": "D",
+          "text": "punish"
+        },
+        {
+          "label": "E",
+          "text": "accept"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "relinquish",
+      "explanation": "The word relinquish is synonymous with renounce (give up, discard).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 6 to 15: In each question given below, identify the word which is similar in meaning (synonym) to the question word.",
+      "text": "ABDUCT",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "ransack"
+        },
+        {
+          "label": "B",
+          "text": "surround"
+        },
+        {
+          "label": "C",
+          "text": "induce"
+        },
+        {
+          "label": "D",
+          "text": "destroy"
+        },
+        {
+          "label": "E",
+          "text": "kidnap"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "E",
+      "correctText": "kidnap",
+      "explanation": "Abduct and kidnap are synonymous.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 6 to 15: In each question given below, identify the word which is similar in meaning (synonym) to the question word.",
+      "text": "DETEST",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "hate"
+        },
+        {
+          "label": "B",
+          "text": "rebel"
+        },
+        {
+          "label": "C",
+          "text": "neglect"
+        },
+        {
+          "label": "D",
+          "text": "pretend"
+        },
+        {
+          "label": "E",
+          "text": "captivate"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "hate",
+      "explanation": "Detest means to loathe or hate.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 6 to 15: In each question given below, identify the word which is similar in meaning (synonym) to the question word.",
+      "text": "CLEANSE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "polish"
+        },
+        {
+          "label": "B",
+          "text": "flow"
+        },
+        {
+          "label": "C",
+          "text": "absolve"
+        },
+        {
+          "label": "D",
+          "text": "reveal"
+        },
+        {
+          "label": "E",
+          "text": "revolve"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "absolve",
+      "explanation": "Cleanse (rid of something unpleasant or unwanted) is synonymous with absolve (declare free from guilt, blame or sin).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 6 to 15: In each question given below, identify the word which is similar in meaning (synonym) to the question word.",
+      "text": "ABODE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "sanctuary"
+        },
+        {
+          "label": "B",
+          "text": "residence"
+        },
+        {
+          "label": "C",
+          "text": "reformatory"
+        },
+        {
+          "label": "D",
+          "text": "dwelling"
+        },
+        {
+          "label": "E",
+          "text": "shelter"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "dwelling",
+      "explanation": "The word abode which is a formal or literary term means a house or home, ‘dwelling’ is its closest synonym. The word ‘residence’ can be ruled out because it refers only to a person’s home, whereas the word ‘abode’ has a wider connotation. For eg. the abode of animals, the abode of god but it is absurd to say the residence of god or the residence of animals.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 6 to 15: In each question given below, identify the word which is similar in meaning (synonym) to the question word.",
+      "text": "RESCIND",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "withhold"
+        },
+        {
+          "label": "B",
+          "text": "countermand"
+        },
+        {
+          "label": "C",
+          "text": "hamper"
+        },
+        {
+          "label": "D",
+          "text": "suppress"
+        },
+        {
+          "label": "E",
+          "text": "encroach"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "countermand",
+      "explanation": "Rescind means to cancel (a law, order or agreement) the word countermand, which also the means the same, is its synonym.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 6 to 15: In each question given below, identify the word which is similar in meaning (synonym) to the question word.",
+      "text": "EPITOMIZE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "disappoint"
+        },
+        {
+          "label": "B",
+          "text": "distend"
+        },
+        {
+          "label": "C",
+          "text": "exemplify"
+        },
+        {
+          "label": "D",
+          "text": "generate"
+        },
+        {
+          "label": "E",
+          "text": "lengthen"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "exemplify",
+      "explanation": "The word epitomize means to be a perfect example of. The word ‘exemplify’ is its closest synonym.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 6 to 15: In each question given below, identify the word which is similar in meaning (synonym) to the question word.",
+      "text": "REPEAL",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "continue"
+        },
+        {
+          "label": "B",
+          "text": "prolong"
+        },
+        {
+          "label": "C",
+          "text": "promote"
+        },
+        {
+          "label": "D",
+          "text": "reject"
+        },
+        {
+          "label": "E",
+          "text": "abrogate"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "E",
+      "correctText": "abrogate",
+      "explanation": "Repeal means to officially cancel (a law of act of parliament) the word ‘abrogate’ also means the same.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 6 to 15: In each question given below, identify the word which is similar in meaning (synonym) to the question word.",
+      "text": "ABSCOND",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "run away"
+        },
+        {
+          "label": "B",
+          "text": "give away"
+        },
+        {
+          "label": "C",
+          "text": "move away"
+        },
+        {
+          "label": "D",
+          "text": "forbid"
+        },
+        {
+          "label": "E",
+          "text": "waste away"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "run away",
+      "explanation": "Abscond means to leave quickly and secretly to escape from custody or avoid arrest.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 16 to 25: In each of the questions given below, identify the word which is opposite (antonym) in meaning to the question word.",
+      "text": "FUSION",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "union"
+        },
+        {
+          "label": "B",
+          "text": "participation"
+        },
+        {
+          "label": "C",
+          "text": "isolation"
+        },
+        {
+          "label": "D",
+          "text": "marriage"
+        },
+        {
+          "label": "E",
+          "text": "gloom"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "isolation",
+      "explanation": "Fusion (the process of joining two or more things to form a whole) and isolation are antonymous.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 16 to 25: In each of the questions given below, identify the word which is opposite (antonym) in meaning to the question word.",
+      "text": "SOMNOLENT",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "drowsy"
+        },
+        {
+          "label": "B",
+          "text": "lively"
+        },
+        {
+          "label": "C",
+          "text": "cheerful"
+        },
+        {
+          "label": "D",
+          "text": "joyous"
+        },
+        {
+          "label": "E",
+          "text": "active"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "E",
+      "correctText": "active",
+      "explanation": "Active (alert) is an antonym of somnolent (sleepy; drowsy).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 16 to 25: In each of the questions given below, identify the word which is opposite (antonym) in meaning to the question word.",
+      "text": "MELLIFLUOUS",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "harmonious"
+        },
+        {
+          "label": "B",
+          "text": "pitchable"
+        },
+        {
+          "label": "C",
+          "text": "discordant"
+        },
+        {
+          "label": "D",
+          "text": "internal"
+        },
+        {
+          "label": "E",
+          "text": "external"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "discordant",
+      "explanation": "The word mellifluous means pleasingly smooth or musical to hear. The word discordant (cacophonous, harsh) is its antonym.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 16 to 25: In each of the questions given below, identify the word which is opposite (antonym) in meaning to the question word.",
+      "text": "PRODIGAL",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "generous"
+        },
+        {
+          "label": "B",
+          "text": "revisable"
+        },
+        {
+          "label": "C",
+          "text": "frugal"
+        },
+        {
+          "label": "D",
+          "text": "pauper"
+        },
+        {
+          "label": "E",
+          "text": "rich"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "frugal",
+      "explanation": "Prodigal (wasteful, extravagant) and frugal (thrifty, economical) are antonyms.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 16 to 25: In each of the questions given below, identify the word which is opposite (antonym) in meaning to the question word.",
+      "text": "DISASTER",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "puzzle"
+        },
+        {
+          "label": "B",
+          "text": "success"
+        },
+        {
+          "label": "C",
+          "text": "omen"
+        },
+        {
+          "label": "D",
+          "text": "festival"
+        },
+        {
+          "label": "E",
+          "text": "fiasco"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "success",
+      "explanation": "Success is an antonym of the word disaster which also means failure.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 16 to 25: In each of the questions given below, identify the word which is opposite (antonym) in meaning to the question word.",
+      "text": "ANIMATE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "truthful"
+        },
+        {
+          "label": "B",
+          "text": "false"
+        },
+        {
+          "label": "C",
+          "text": "active"
+        },
+        {
+          "label": "D",
+          "text": "dull"
+        },
+        {
+          "label": "E",
+          "text": "lazy"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "dull",
+      "explanation": "Animate (alive) and dull are antonyms.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 16 to 25: In each of the questions given below, identify the word which is opposite (antonym) in meaning to the question word.",
+      "text": "WRETCHED",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "filthy"
+        },
+        {
+          "label": "B",
+          "text": "tidy"
+        },
+        {
+          "label": "C",
+          "text": "neat"
+        },
+        {
+          "label": "D",
+          "text": "clear"
+        },
+        {
+          "label": "E",
+          "text": "scenic"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "tidy",
+      "explanation": "The words wretched (miserable) and tidy are antonyms.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 16 to 25: In each of the questions given below, identify the word which is opposite (antonym) in meaning to the question word.",
+      "text": "SQUANDER",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "waste"
+        },
+        {
+          "label": "B",
+          "text": "liberate"
+        },
+        {
+          "label": "C",
+          "text": "presume"
+        },
+        {
+          "label": "D",
+          "text": "donate"
+        },
+        {
+          "label": "E",
+          "text": "economize"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "E",
+      "correctText": "economize",
+      "explanation": "Squander means to waste (money, time, etc) in a reckless or foolish way. Economize is its antonym.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 16 to 25: In each of the questions given below, identify the word which is opposite (antonym) in meaning to the question word.",
+      "text": "PERTURBED",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "servable"
+        },
+        {
+          "label": "B",
+          "text": "controllable"
+        },
+        {
+          "label": "C",
+          "text": "composed"
+        },
+        {
+          "label": "D",
+          "text": "decided"
+        },
+        {
+          "label": "E",
+          "text": "resolved"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "composed",
+      "explanation": "Composed (calm) is an antonym of the word perturbed (alarmed).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 16 to 25: In each of the questions given below, identify the word which is opposite (antonym) in meaning to the question word.",
+      "text": "SLUGGISH",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "lethargic"
+        },
+        {
+          "label": "B",
+          "text": "indolent"
+        },
+        {
+          "label": "C",
+          "text": "apathetic"
+        },
+        {
+          "label": "D",
+          "text": "intelligent"
+        },
+        {
+          "label": "E",
+          "text": "exuberant"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "E",
+      "correctText": "exuberant",
+      "explanation": "Exuberant (lively, cheerful) and sluggish (inactive) are antonyms.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 26 to 29: In each of the following questions, an idiomatic expression and its five possible meanings are given. Pick out the correct meaning of the idiomatic expression and mark the number of that meaning as your answer.",
+      "text": "To be on the fiddle",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "to work on something important"
+        },
+        {
+          "label": "B",
+          "text": "to be doing something dishonest to get money"
+        },
+        {
+          "label": "C",
+          "text": "to constantly find fault with others"
+        },
+        {
+          "label": "D",
+          "text": "to have a less important position than somebody or something else alive"
+        },
+        {
+          "label": "E",
+          "text": "to always keep oneself busy"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "to be doing something dishonest to get money",
+      "explanation": "“To be on the fiddle” means doing something dishonest to get money.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Idioms and Phrases",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 26 to 29: In each of the following questions, an idiomatic expression and its five possible meanings are given. Pick out the correct meaning of the idiomatic expression and mark the number of that meaning as your answer.",
+      "text": "As the crow flies",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "in a very swift manner"
+        },
+        {
+          "label": "B",
+          "text": "in a straight line"
+        },
+        {
+          "label": "C",
+          "text": "in a very precise manner"
+        },
+        {
+          "label": "D",
+          "text": "very short distance away"
+        },
+        {
+          "label": "E",
+          "text": "in a clumsy way"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "in a straight line",
+      "explanation": "The idiom, ‘as the crow flies’ means ‘in a straight line’.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Idioms and Phrases",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 26 to 29: In each of the following questions, an idiomatic expression and its five possible meanings are given. Pick out the correct meaning of the idiomatic expression and mark the number of that meaning as your answer.",
+      "text": "In a melting pot",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "in a very difficult situation"
+        },
+        {
+          "label": "B",
+          "text": "to take an important decision"
+        },
+        {
+          "label": "C",
+          "text": "to be prone to bad influences"
+        },
+        {
+          "label": "D",
+          "text": "in a helpless situation"
+        },
+        {
+          "label": "E",
+          "text": "in the process of changing"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "E",
+      "correctText": "in the process of changing",
+      "explanation": "The idiom, ‘in a melting pot’ means ‘in the process of changing’.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Idioms and Phrases",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 26 to 29: In each of the following questions, an idiomatic expression and its five possible meanings are given. Pick out the correct meaning of the idiomatic expression and mark the number of that meaning as your answer.",
+      "text": "To open somebody’s eyes",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "to keep a watch on someone"
+        },
+        {
+          "label": "B",
+          "text": "to be more observant and quick to notice things"
+        },
+        {
+          "label": "C",
+          "text": "to refuse to listen to others"
+        },
+        {
+          "label": "D",
+          "text": "to become close or friendly with someone"
+        },
+        {
+          "label": "E",
+          "text": "to make someone realize or understand something"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "E",
+      "correctText": "to make someone realize or understand something",
+      "explanation": "‘To open somebody’s eyes’ is to cause or make someone realize or understand something.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Idioms and Phrases",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 30 to 34: In each question, a sentence is given with an idiom (underlined). Four possible meanings of the idiom are also given. Identify the correct meaning and mark the number of the correct choice as answer.",
+      "text": "The officer was guilty of sharp practices and so he was dismissed.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "angry behaviour"
+        },
+        {
+          "label": "B",
+          "text": "disobeying"
+        },
+        {
+          "label": "C",
+          "text": "questionable dealings."
+        },
+        {
+          "label": "D",
+          "text": "constant quarrel"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "questionable dealings.",
+      "explanation": "Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Idioms and Phrases",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 30 to 34: In each question, a sentence is given with an idiom (underlined). Four possible meanings of the idiom are also given. Identify the correct meaning and mark the number of the correct choice as answer.",
+      "text": "We were kept on tenterhooks while the judges were deciding the winners.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "in anxiety"
+        },
+        {
+          "label": "B",
+          "text": "in trouble"
+        },
+        {
+          "label": "C",
+          "text": "on the bridge"
+        },
+        {
+          "label": "D",
+          "text": "in the witness box"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "in anxiety",
+      "explanation": "Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Idioms and Phrases",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 30 to 34: In each question, a sentence is given with an idiom (underlined). Four possible meanings of the idiom are also given. Identify the correct meaning and mark the number of the correct choice as answer.",
+      "text": "The dispute among the students came to a head and the principal declared a holiday.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "came to one man’s decision"
+        },
+        {
+          "label": "B",
+          "text": "reached a crisis"
+        },
+        {
+          "label": "C",
+          "text": "did not stop"
+        },
+        {
+          "label": "D",
+          "text": "started all over again"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "reached a crisis",
+      "explanation": "Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Idioms and Phrases",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 30 to 34: In each question, a sentence is given with an idiom (underlined). Four possible meanings of the idiom are also given. Identify the correct meaning and mark the number of the correct choice as answer.",
+      "text": "After getting a job he had no difficulty in keeping the wolf out of the door.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "being physically safe"
+        },
+        {
+          "label": "B",
+          "text": "getting the door clear"
+        },
+        {
+          "label": "C",
+          "text": "avoiding starvation"
+        },
+        {
+          "label": "D",
+          "text": "keeping the job intact"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "avoiding starvation",
+      "explanation": "Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Idioms and Phrases",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 30 to 34: In each question, a sentence is given with an idiom (underlined). Four possible meanings of the idiom are also given. Identify the correct meaning and mark the number of the correct choice as answer.",
+      "text": "He asked me not to thrust my nose into his affairs.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "smell anything wrong"
+        },
+        {
+          "label": "B",
+          "text": "meddle officiously"
+        },
+        {
+          "label": "C",
+          "text": "forget"
+        },
+        {
+          "label": "D",
+          "text": "combine"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "meddle officiously",
+      "explanation": "Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Idioms and Phrases",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 35 to 40: In each of the following questions four numbered choices are given. Three of them belong to the same category. Mark the number of the ‘odd man’ as your answer.",
+      "text": "",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Parents"
+        },
+        {
+          "label": "B",
+          "text": "Love"
+        },
+        {
+          "label": "C",
+          "text": "Guidance"
+        },
+        {
+          "label": "D",
+          "text": "Punishment"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Parents",
+      "explanation": "Parents are not concepts as the other three are.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Classification",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q036",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 35 to 40: In each of the following questions four numbered choices are given. Three of them belong to the same category. Mark the number of the ‘odd man’ as your answer.",
+      "text": "",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Periphery"
+        },
+        {
+          "label": "B",
+          "text": "Perfunctory"
+        },
+        {
+          "label": "C",
+          "text": "Cursory"
+        },
+        {
+          "label": "D",
+          "text": "Superficial"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Periphery",
+      "explanation": "Periphery. The other three are associated with casual attitude.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Classification",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q037",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 35 to 40: In each of the following questions four numbered choices are given. Three of them belong to the same category. Mark the number of the ‘odd man’ as your answer.",
+      "text": "",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Prune"
+        },
+        {
+          "label": "B",
+          "text": "Abridge"
+        },
+        {
+          "label": "C",
+          "text": "Trim"
+        },
+        {
+          "label": "D",
+          "text": "Spruce"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Spruce",
+      "explanation": "The first three refer to cutting short.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Classification",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q038",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 35 to 40: In each of the following questions four numbered choices are given. Three of them belong to the same category. Mark the number of the ‘odd man’ as your answer.",
+      "text": "",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Overfly"
+        },
+        {
+          "label": "B",
+          "text": "Overeat"
+        },
+        {
+          "label": "C",
+          "text": "Overdressed"
+        },
+        {
+          "label": "D",
+          "text": "Overdose"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Overfly",
+      "explanation": "Overfly is to fly above a place. In all the other three over has the meaning of excessive.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Classification",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q039",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 35 to 40: In each of the following questions four numbered choices are given. Three of them belong to the same category. Mark the number of the ‘odd man’ as your answer.",
+      "text": "",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Serendipity"
+        },
+        {
+          "label": "B",
+          "text": "Fortuity"
+        },
+        {
+          "label": "C",
+          "text": "Guess"
+        },
+        {
+          "label": "D",
+          "text": "Coincidence"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Guess",
+      "explanation": "Guess. The others refers to a favourable chance.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Classification",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-2-q040",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_3.pdf",
+      "direction": "Directions for questions 35 to 40: In each of the following questions four numbered choices are given. Three of them belong to the same category. Mark the number of the ‘odd man’ as your answer.",
+      "text": "",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Vague"
+        },
+        {
+          "label": "B",
+          "text": "Abstract"
+        },
+        {
+          "label": "C",
+          "text": "Intangible"
+        },
+        {
+          "label": "D",
+          "text": "Empirical"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Empirical",
+      "explanation": "Empirical is verifiable the others are not.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Classification",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

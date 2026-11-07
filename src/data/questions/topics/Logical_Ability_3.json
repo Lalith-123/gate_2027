@@ -1,0 +1,2117 @@
+[
+  {
+    "id": "gate-logical-ability-test-2-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "How many did not visit any of the three places?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "75"
+        },
+        {
+          "label": "B",
+          "text": "25"
+        },
+        {
+          "label": "C",
+          "text": "125"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 1 to 4: These questions are based on the following data.\n\nOut of a group of 315 students who went to Mumbai, 125 visited Essel World, 140 visited Lumbini Garden and 160 visited Film Nagar. Twenty Five of them visited all the three places while 200 visited exactly one of the three places. The number of students, who visited exactly 2 out of the three places, is five times as many as those who have not visited any of the places."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "15",
+      "explanation": "1. Total no of students = 315\n\\(a+b+c+x+y+z+t+r=315\\)\n\\(200+5r+25+r=315\\)\n\\(6r=90\\Rightarrow r=15\\)\n\\(\therefore\\) 15 did not visit any of the three places. Choice (D)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_3/q1-4_explanation.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "How many students visited not more than one place?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "200"
+        },
+        {
+          "label": "B",
+          "text": "180"
+        },
+        {
+          "label": "C",
+          "text": "250"
+        },
+        {
+          "label": "D",
+          "text": "215"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 1 to 4: These questions are based on the following data.\n\nOut of a group of 315 students who went to Mumbai, 125 visited Essel World, 140 visited Lumbini Garden and 160 visited Film Nagar. Twenty Five of them visited all the three places while 200 visited exactly one of the three places. The number of students, who visited exactly 2 out of the three places, is five times as many as those who have not visited any of the places."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "215",
+      "explanation": "2. Number of students who did not visit more than one place = Number of students who visited exactly one place + those who did not visit any = \\(a+b+c+r=200+15=215\\). Choice (D)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_3/q1-4_explanation.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "If the number of students who visited at least one of the two places, Lumbini Gardens and Film Nagar is 255, then how many students visited only Essel World?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "45"
+        },
+        {
+          "label": "B",
+          "text": "25"
+        },
+        {
+          "label": "C",
+          "text": "125"
+        },
+        {
+          "label": "D",
+          "text": "75"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 1 to 4: These questions are based on the following data.\n\nOut of a group of 315 students who went to Mumbai, 125 visited Essel World, 140 visited Lumbini Garden and 160 visited Film Nagar. Twenty Five of them visited all the three places while 200 visited exactly one of the three places. The number of students, who visited exactly 2 out of the three places, is five times as many as those who have not visited any of the places."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "45",
+      "explanation": "3. Number of students who visited at least one of LG and FN = 255 \\(\\Rightarrow b+x+z+t+y+c=255\\) … (4)\nWe know \\(a+b+c+x+y+z+t=315-r=300\\) … (5)\n(5) − (4) \\(\\Rightarrow a=45\\) visited only EW. Choice (A)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_3/q1-4_explanation.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "If the number of students who visited at least one of the two places, Lumbini Gardens and Film Nagar is 255, then how many students visited only one of the two places, Lumbini Gardens and Film Nagar (and not any of the other two places)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "215"
+        },
+        {
+          "label": "B",
+          "text": "125"
+        },
+        {
+          "label": "C",
+          "text": "155"
+        },
+        {
+          "label": "D",
+          "text": "175"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 1 to 4: These questions are based on the following data.\n\nOut of a group of 315 students who went to Mumbai, 125 visited Essel World, 140 visited Lumbini Garden and 160 visited Film Nagar. Twenty Five of them visited all the three places while 200 visited exactly one of the three places. The number of students, who visited exactly 2 out of the three places, is five times as many as those who have not visited any of the places."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "155",
+      "explanation": "4. Number of students who visited only one among LG and FN = \\(b+c=200-a=200-45=155\\). Choice (C)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_3/q1-4_explanation.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "If the number of residents who own only bicycles is 150, then what is the total number of residents in the colony?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "500"
+        },
+        {
+          "label": "B",
+          "text": "1000"
+        },
+        {
+          "label": "C",
+          "text": "750"
+        },
+        {
+          "label": "D",
+          "text": "1250"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 5 to 9: These questions are based on the following data.\n\nIn a colony, a survey was conducted regarding the ownership of three different types of vehicles - car, scooter and bicycle.\n\n-- The number of residents owning all three vehicles is the same as those owning none.\n-- The number of residents owning any two out of the three vehicles is the same as those owning any other two which in turn is the same as those owning none of the three.\n-- The number of residents owning scooters alone is the same as those owning cars alone and each in turn is twice those owning bicycles alone.\n-- Half the number of residents who own a bicycle also own at least one of the other two vehicles."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1000",
+      "explanation": "5. \\(y=15\\%=150\\). Hence, total number % of residents \\(=x=\frac{150\times100}{15}=1000\\). Choice (B)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_3/q5-9_explanation.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "What percentage of the residents, who own a car, also own at least another vehicle?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "66\frac23\\%"
+        },
+        {
+          "label": "B",
+          "text": "13\frac23\\%"
+        },
+        {
+          "label": "C",
+          "text": "28\frac47\\%"
+        },
+        {
+          "label": "D",
+          "text": "33\frac13\\%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 5 to 9: These questions are based on the following data.\n\nIn a colony, a survey was conducted regarding the ownership of three different types of vehicles - car, scooter and bicycle.\n\n-- The number of residents owning all three vehicles is the same as those owning none.\n-- The number of residents owning any two out of the three vehicles is the same as those owning any other two which in turn is the same as those owning none of the three.\n-- The number of residents owning scooters alone is the same as those owning cars alone and each in turn is twice those owning bicycles alone.\n-- Half the number of residents who own a bicycle also own at least one of the other two vehicles."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "33\frac13\\%",
+      "explanation": "6. \\(\frac{3x}{3x+2y}=\frac{15}{45}=\frac13=33\frac13\\%\\). Choice (D)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_3/q5-9_explanation.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "If 15 residents do not own any of the three vehicles, then how many residents are there in the colony?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "100"
+        },
+        {
+          "label": "B",
+          "text": "200"
+        },
+        {
+          "label": "C",
+          "text": "300"
+        },
+        {
+          "label": "D",
+          "text": "400"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 5 to 9: These questions are based on the following data.\n\nIn a colony, a survey was conducted regarding the ownership of three different types of vehicles - car, scooter and bicycle.\n\n-- The number of residents owning all three vehicles is the same as those owning none.\n-- The number of residents owning any two out of the three vehicles is the same as those owning any other two which in turn is the same as those owning none of the three.\n-- The number of residents owning scooters alone is the same as those owning cars alone and each in turn is twice those owning bicycles alone.\n-- Half the number of residents who own a bicycle also own at least one of the other two vehicles."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "300",
+      "explanation": "7. \\(x=5\\%=15\\). Hence total \\(=\frac{15}{0.05}=300\\). Choice (C)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_3/q5-9_explanation.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "What percentage of the colony residents own exactly one type of vehicle?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "15%"
+        },
+        {
+          "label": "B",
+          "text": "25%"
+        },
+        {
+          "label": "C",
+          "text": "55%"
+        },
+        {
+          "label": "D",
+          "text": "75%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 5 to 9: These questions are based on the following data.\n\nIn a colony, a survey was conducted regarding the ownership of three different types of vehicles - car, scooter and bicycle.\n\n-- The number of residents owning all three vehicles is the same as those owning none.\n-- The number of residents owning any two out of the three vehicles is the same as those owning any other two which in turn is the same as those owning none of the three.\n-- The number of residents owning scooters alone is the same as those owning cars alone and each in turn is twice those owning bicycles alone.\n-- Half the number of residents who own a bicycle also own at least one of the other two vehicles."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "75%",
+      "explanation": "8. \\(2y+2y+y=75\\%\\). Choice (D)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_3/q5-9_explanation.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "What percentage of the residents own a scooter or a car but not a bicycle?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "65%"
+        },
+        {
+          "label": "B",
+          "text": "55%"
+        },
+        {
+          "label": "C",
+          "text": "75%"
+        },
+        {
+          "label": "D",
+          "text": "45%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 5 to 9: These questions are based on the following data.\n\nIn a colony, a survey was conducted regarding the ownership of three different types of vehicles - car, scooter and bicycle.\n\n-- The number of residents owning all three vehicles is the same as those owning none.\n-- The number of residents owning any two out of the three vehicles is the same as those owning any other two which in turn is the same as those owning none of the three.\n-- The number of residents owning scooters alone is the same as those owning cars alone and each in turn is twice those owning bicycles alone.\n-- Half the number of residents who own a bicycle also own at least one of the other two vehicles."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "65%",
+      "explanation": "9. \\(2y+2y+x=65\\%\\). Choice (A)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_3/q5-9_explanation.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "How many workers are members of only Viram or only Be-kam?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3200"
+        },
+        {
+          "label": "B",
+          "text": "2700"
+        },
+        {
+          "label": "C",
+          "text": "1400"
+        },
+        {
+          "label": "D",
+          "text": "1700"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 10 to 12: These questions are based on the following data.\n\nThere are three trade unions - Viram, Vishram and Be-kam - and three thousand six hundred workers in a company. Becoming a member of a trade union is optional. A worker can be a member of more than one of the three trade unions also. There are 500 workers who are members of at least two trade unions while Vishram has 1400 members. There are 100 workers who are members of only Viram and Be-kam, whereas 200 Vishram members also are Be-kam members; 550 workers are members of only Be-kam, whereas 20% of Viram members are members of exactly one more union. An eighth of all the workers in the company are members of exactly two unions."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "1700",
+      "explanation": "10. \\(p+r=1150+550=1700\\). Choice (D)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_3/q10-12_explanation.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "If 10 workers give up their Be-kam membership and take up Vishram membership, then how many workers will now have membership of all the three unions?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "40"
+        },
+        {
+          "label": "B",
+          "text": "50"
+        },
+        {
+          "label": "C",
+          "text": "60"
+        },
+        {
+          "label": "D",
+          "text": "45"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 10 to 12: These questions are based on the following data.\n\nThere are three trade unions - Viram, Vishram and Be-kam - and three thousand six hundred workers in a company. Becoming a member of a trade union is optional. A worker can be a member of more than one of the three trade unions also. There are 500 workers who are members of at least two trade unions while Vishram has 1400 members. There are 100 workers who are members of only Viram and Be-kam, whereas 200 Vishram members also are Be-kam members; 550 workers are members of only Be-kam, whereas 20% of Viram members are members of exactly one more union. An eighth of all the workers in the company are members of exactly two unions."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "50",
+      "explanation": "11. Since 10 workers have given up their Be-kam membership and taken up Vishram membership, it means these 10 workers were initially Be-kam members but not Vishram members, i.e., they must be a part of \\(r\\) or \\(w\\). When they give up Be-kam and take up Vishram, they will move to \\(q\\) or \\(u\\) respectively. So, \\(s\\) does not undergo any change at all. Hence, 50 is the answer. Choice (B)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_3/q10-12_explanation.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "How many workers are members of Vishram but not members of Be-kam?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "400"
+        },
+        {
+          "label": "B",
+          "text": "800"
+        },
+        {
+          "label": "C",
+          "text": "1200"
+        },
+        {
+          "label": "D",
+          "text": "1600"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 10 to 12: These questions are based on the following data.\n\nThere are three trade unions - Viram, Vishram and Be-kam - and three thousand six hundred workers in a company. Becoming a member of a trade union is optional. A worker can be a member of more than one of the three trade unions also. There are 500 workers who are members of at least two trade unions while Vishram has 1400 members. There are 100 workers who are members of only Viram and Be-kam, whereas 200 Vishram members also are Be-kam members; 550 workers are members of only Be-kam, whereas 20% of Viram members are members of exactly one more union. An eighth of all the workers in the company are members of exactly two unions."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1200",
+      "explanation": "12. \\(q+u=1000+200=1200\\). Choice (C)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_3/q10-12_explanation.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "What percent of the students passed in exactly one of the two subjects – English and the foreign language?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "15%"
+        },
+        {
+          "label": "B",
+          "text": "65%"
+        },
+        {
+          "label": "C",
+          "text": "45%"
+        },
+        {
+          "label": "D",
+          "text": "75%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 13 to 15: These questions are based on the following data.\n\nIn a school, 60% of the students passed in English, and 25% of the students who passed in English passed in the foreign language also, whereas 66\frac{2}{3}\\% of the students who passed in the foreign language failed in English. Twenty students failed in both English and the foreign language."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "75%",
+      "explanation": "13. 45% + 30% = 75%. Choice (D)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_3/q13-15_explanation.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "The students who failed in exactly one subject are allowed to take a re-exam and it was found that the number of students who passed in both the subjects increased by 20%. What is the least value for the percentage of students in the school who pass only in English?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "42%"
+        },
+        {
+          "label": "B",
+          "text": "46%"
+        },
+        {
+          "label": "C",
+          "text": "34%"
+        },
+        {
+          "label": "D",
+          "text": "28%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 13 to 15: These questions are based on the following data.\n\nIn a school, 60% of the students passed in English, and 25% of the students who passed in English passed in the foreign language also, whereas 66\frac{2}{3}\\% of the students who passed in the foreign language failed in English. Twenty students failed in both English and the foreign language."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "42%",
+      "explanation": "14. 20% of 15% = 3% increase in pass in both subjects. Hence, least value of pass only in English will come when all the new people who pass in both subjects are from the group which passed only in English. i.e., 45 − 3 = 42%. Choice (A)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_3/q13-15_explanation.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "All the students, who failed in one or more subjects, are given grace marks and it was found that the number of students passing in exactly one subject went up by 4 and the number of students who failed in both the subjects dropped by 40%. What percent of the school now pass in both subjects?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "40%"
+        },
+        {
+          "label": "B",
+          "text": "15%"
+        },
+        {
+          "label": "C",
+          "text": "12%"
+        },
+        {
+          "label": "D",
+          "text": "17%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 13 to 15: These questions are based on the following data.\n\nIn a school, 60% of the students passed in English, and 25% of the students who passed in English passed in the foreign language also, whereas 66\frac{2}{3}\\% of the students who passed in the foreign language failed in English. Twenty students failed in both English and the foreign language."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "17%",
+      "explanation": "15. 40% of 20 students = 8 students. Out of this, 4 students passed in exactly one subject. Hence, the remaining 4 students (which is 2% of the school strength) pass in both subjects. So, pass in both the subjects = 15 + 2 = 17%. Choice (D)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_3/q13-15_explanation.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "The angle between the two hands of a clock at 9:00 a.m. is 90°. What will the angle between them be one minute later?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "84.5°"
+        },
+        {
+          "label": "B",
+          "text": "95.5°"
+        },
+        {
+          "label": "C",
+          "text": "101°"
+        },
+        {
+          "label": "D",
+          "text": "79°"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "95.5°",
+      "explanation": "As the minute hand is 5.5°/minute faster than the hour hand and the minute hand is ahead of the hour hand, the angle after one minute, i.e., at 9:01 a.m., will be 90° + 5.5° = 95.5°. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Clocks / Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "The angle between the two hands of a clock at 5:00 p.m. is 150°, what will the angle between them be one minute later?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "144.5°"
+        },
+        {
+          "label": "B",
+          "text": "155.5°"
+        },
+        {
+          "label": "C",
+          "text": "161°"
+        },
+        {
+          "label": "D",
+          "text": "139°"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "144.5°",
+      "explanation": "The angle between the hands will change by 5.5°/min. In this case, since the minute hand is behind the hour hand the angle will decrease by 5.5°. Hence, the angle at 5:01 = 150 − 5.5 = 144.5°. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Clocks / Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "What is the angle between the two hands of a clock at 7:28 p.m.?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "56°"
+        },
+        {
+          "label": "B",
+          "text": "58°"
+        },
+        {
+          "label": "C",
+          "text": "60°"
+        },
+        {
+          "label": "D",
+          "text": "63°"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "56°",
+      "explanation": "The angle = \\(\\left|\frac{11}{2}(28)-30(7)\right|=56^\\circ\\). Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Clocks / Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "At what time between 6 and 7 O’ clock will the angle between the two hands of a clock be 50°?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 hr. 41 9/11 min"
+        },
+        {
+          "label": "B",
+          "text": "6 hr. 23 7/11 min"
+        },
+        {
+          "label": "C",
+          "text": "6 hr. 2/11 min"
+        },
+        {
+          "label": "D",
+          "text": "Either (A) or (B)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Either (A) or (B)",
+      "explanation": "\\(\theta=\\left|\frac{11}{2}m-30h\right|\\Rightarrow m=(30h\\pm\theta)\\left(\frac{2}{11}\right)\\). Here \\(h=6\\) and \\(\theta=50^\\circ\\). \\(m=(180\\pm50)\\left(\frac{2}{11}\right)=\frac{460}{11}\\) or \\(\frac{260}{11}\\). The two hands are 50° apart at 6 hr. 41 9/11 min and at 6 hr. 23 7/11 min. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Clocks / Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "At which of the following times between 8 and 9 O’ clock, will the angle between the hands of the clock be 120°?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "8 hr. 21 9/11 min"
+        },
+        {
+          "label": "B",
+          "text": "8 hr. 16 9/11 min"
+        },
+        {
+          "label": "C",
+          "text": "8 hr. 34 6/11 min"
+        },
+        {
+          "label": "D",
+          "text": "8 hr. 29 3/11 min"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "8 hr. 21 9/11 min",
+      "explanation": "\\(m=(30h\\pm\theta)\\left(\frac{2}{11}\right)\\). Here \\(h=8\\) and \\(\theta=120^\\circ\\). \\(m=(240\\pm120)\\left(\frac{2}{11}\right)\\Rightarrow 65\frac{5}{11}\\) or \\(21\frac{9}{11}\\). If \\(m=65\frac{5}{11}\\), then the time will be more than 9 O’clock. ∴ The time is 8 hr. 21 9/11 min. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Clocks / Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "A watch, which gains uniformly was observed to be 10 minutes slow at 12 noon and 5 minutes fast at 6:00 p.m. on the same day. When did the watch show the correct time?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2:00 p.m."
+        },
+        {
+          "label": "B",
+          "text": "3:00 p.m."
+        },
+        {
+          "label": "C",
+          "text": "4:00 p.m."
+        },
+        {
+          "label": "D",
+          "text": "5:00 p.m."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "4:00 p.m.",
+      "explanation": "In 6 hours, the watch gained 15 minutes. ∴ In order to gain 10 minutes, (the initial difference) it takes 4 hours. ∴ At 4:00 p.m. it shows the correct time. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Clocks / Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "A watch, which loses uniformly was observed to be 5 minutes fast at 5:00 p.m. and 4 minutes slow at 8:00 p.m. on the same day. When did the watch show the correct time?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6:20 p.m."
+        },
+        {
+          "label": "B",
+          "text": "6:40 p.m."
+        },
+        {
+          "label": "C",
+          "text": "7:00 p.m."
+        },
+        {
+          "label": "D",
+          "text": "6:30 p.m."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "6:40 p.m.",
+      "explanation": "In 3 hours, the watch loses 9 minutes. ∴ In order to lose 5 minutes, (the initial difference) it takes \\(5\times3/9\\) hours, i.e., 1 hour 40 minutes. ∴ At 6:40 p.m., it shows the correct time. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Clocks / Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "Two clocks show the correct time at 3:00 p.m. One clock gains 4 minutes in an hour, while the other loses 4 minutes. At 6:00 p.m. on the same day, by how much time will the two clocks differ?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "8 minutes"
+        },
+        {
+          "label": "B",
+          "text": "16 minutes"
+        },
+        {
+          "label": "C",
+          "text": "12 minutes"
+        },
+        {
+          "label": "D",
+          "text": "24 minutes"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "24 minutes",
+      "explanation": "In one hour, the clocks will differ by (4 + 4) minutes i.e., 8 minutes. ∴ In three hours they will differ by 24 minutes. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Clocks / Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "The minutes hand of a clock overtakes the hours hand after every 60 minutes of correct time. How much time does the clock gain or lose in eleven hours of normal time?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Gains 11 minutes"
+        },
+        {
+          "label": "B",
+          "text": "Loses 11 minutes"
+        },
+        {
+          "label": "C",
+          "text": "Gains 60 minutes"
+        },
+        {
+          "label": "D",
+          "text": "Loses 60 minutes"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Gains 60 minutes",
+      "explanation": "As \\(60<65\frac{5}{11}\\), the watch is gaining time. The gain is \\(65\frac{5}{11}-60=5\frac{5}{11}\\) minutes per hour. ∴ In eleven hours, the watch will gain \\(11\\left(\frac{60}{11}\right)=60\\) minutes. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Clocks / Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "If the time in a clock is 8 hours 20 minutes, then what time does its mirror image show?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 hours 20 minutes"
+        },
+        {
+          "label": "B",
+          "text": "3 hours 50 minutes"
+        },
+        {
+          "label": "C",
+          "text": "3 hours 40 minutes"
+        },
+        {
+          "label": "D",
+          "text": "4 hours 40 minutes"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "3 hours 40 minutes",
+      "explanation": "Actual time + mirror image time = 12 hours. ∴ Mirror image time = 12 − 8:20 = 3:40 = 3 hours 40 minutes. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Clocks / Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "If 22nd April, 1982 was a Thursday, then what day of the week was 3rd November, 1982?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Monday"
+        },
+        {
+          "label": "B",
+          "text": "Wednesday"
+        },
+        {
+          "label": "C",
+          "text": "Friday"
+        },
+        {
+          "label": "D",
+          "text": "Sunday"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Wednesday",
+      "explanation": "It is given that 22nd April, 1982 was a Thursday. Number of days from 22nd April 1982 to 3rd November 1982. Month: April + May + June + July + August + September + October + November. In each month number of odd days: 1 + 3 + 2 + 3 + 3 + 2 + 3 + 3 = 6 odd days. 6th day after Thursday is Wednesday. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Calendars / Odd Days",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "If 30th June, 1989 was a Friday, then what day of the week was 17th September, 1993?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Monday"
+        },
+        {
+          "label": "B",
+          "text": "Wednesday"
+        },
+        {
+          "label": "C",
+          "text": "Friday"
+        },
+        {
+          "label": "D",
+          "text": "Sunday"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Friday",
+      "explanation": "Number of odd days from 30th June, 1989 to 30th June, 1993 are five. Number of days from 30th June, 1993 to 17th September, are July + August + September. Odd days: 3 + 3 + 3 = 9. Number of odd days = 9 + 5 = 14 = 0 odd days. Hence, 17th September 1993 was a Friday. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Calendars / Odd Days",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "If 10th April, 1963 was a Wednesday, then what day of the week was 23rd August, 1959?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sunday"
+        },
+        {
+          "label": "B",
+          "text": "Monday"
+        },
+        {
+          "label": "C",
+          "text": "Friday"
+        },
+        {
+          "label": "D",
+          "text": "Tuesday"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Sunday",
+      "explanation": "Number of days from 10th April, 1963 to 23rd August, 1963. Month: April + May + June + July + August. Days: 20 + 31 + 30 + 31 + 23 = 135. Number of odd days in 135 days = 135/7 = 20 days. 23rd August 1963 is 2 days to Wednesday i.e., Friday. Number of odd days from 23rd August 1963 to 23rd August 1959 are five odd days. Hence, 23rd August 1959 is five days back to Friday is Sunday. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Calendars / Odd Days",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "If today is Sunday, then what day of the week will be the 426th day from today?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Saturday"
+        },
+        {
+          "label": "B",
+          "text": "Friday"
+        },
+        {
+          "label": "C",
+          "text": "Tuesday"
+        },
+        {
+          "label": "D",
+          "text": "Wednesday"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Saturday",
+      "explanation": "Number of odd days in 426 days = 426/7 = 60 complete weeks + 6 odd days. 6th day after Sunday is a Saturday. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Calendars / Odd Days",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "If today is Wednesday, what day will it be, 1 year and 10 days from today?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sunday"
+        },
+        {
+          "label": "B",
+          "text": "Friday"
+        },
+        {
+          "label": "C",
+          "text": "Monday"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Cannot be determined",
+      "explanation": "Whether the given year is a leap year or a non-leap year, is not given, hence the answer cannot be determined. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Calendars / Odd Days",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "In a year, if two successive months start with the same day of the week, then the year is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "a century year."
+        },
+        {
+          "label": "B",
+          "text": "a leap year."
+        },
+        {
+          "label": "C",
+          "text": "a non-leap year."
+        },
+        {
+          "label": "D",
+          "text": "only a non-leap century year."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "a non-leap year.",
+      "explanation": "Two successive months can start with the same day of the week, only if the previous month does not have any odd days. This is possible only when February has 28 days. Hence, the year is a non-leap year. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Calendars / Odd Days",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "If a year has 53 Sundays, how many Saturdays will be there in that year?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "52"
+        },
+        {
+          "label": "B",
+          "text": "53"
+        },
+        {
+          "label": "C",
+          "text": "54"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Cannot be determined",
+      "explanation": "A leap year has 52 weeks and two additional days, while a non-leap year has 52 weeks and one additional day. In any year each day of the week occurs at least 52 times. A non-leap year starts and ends with the same day of the week. In a leap year the first two days of the year repeat. As it is not known whether the 53rd Sunday is the last day of the year or not, the number of Saturdays could be 52 or 53. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Calendars / Odd Days",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "Three days ago I met my friend and asked him to lend me his maths book. He promised that he will lend it on the eighth day from that day. If today is Thursday, on which day will he lend me the book?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Friday"
+        },
+        {
+          "label": "B",
+          "text": "Tuesday"
+        },
+        {
+          "label": "C",
+          "text": "Monday"
+        },
+        {
+          "label": "D",
+          "text": "Sunday"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Tuesday",
+      "explanation": "Today is a Thursday. Hence, the required day = Thursday − 3 (ago) + 8 (from 3 days ago) = Thursday + 5 = Tuesday. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Calendars / Odd Days",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "There are three more days to go for my cousin to arrive. Eight days ago when I talked to him he said he would write his last exam three days later and that he would leave three days after his last exam. If his last exam is on a Saturday, on which day of the week will my cousin arrive?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Saturday"
+        },
+        {
+          "label": "B",
+          "text": "Friday"
+        },
+        {
+          "label": "C",
+          "text": "Tuesday"
+        },
+        {
+          "label": "D",
+          "text": "Sunday"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Sunday",
+      "explanation": "Eight days ago my cousin said that his last exam is three days later i.e. five days ago from today. He is going to arrive three days later from today, i.e. eight days after the last exam. As the last exam is on a Saturday, he is arriving on a Sunday. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Calendars / Odd Days",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-2-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "pdfName": "Logical_Ability_3.pdf",
+      "text": "If the second Sunday of a month falls on the 8th, what is the date of the fourth day after the third Saturday of that month?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "15"
+        },
+        {
+          "label": "C",
+          "text": "25"
+        },
+        {
+          "label": "D",
+          "text": "21"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 35: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "25",
+      "explanation": "Since, 8th is the second Sunday, 7th is the first Saturday. Hence, the third Saturday is on 21st and four days later it is 25th. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Calendars / Odd Days",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 2",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

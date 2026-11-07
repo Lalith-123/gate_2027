@@ -1,0 +1,1804 @@
+[
+  {
+    "id": "gate-databases-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Which of the following are used in DBMS files?\n(i) Data dictionary\n(ii) DML\n(iii) Query language\n(iv) Transaction log",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) and (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii) and (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(iii) and (iv)"
+        },
+        {
+          "label": "D",
+          "text": "(i) and (iv)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i) and (iv)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "DBMS fundamentals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Which among the following is not a problem of file management system?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Data redundancy"
+        },
+        {
+          "label": "B",
+          "text": "Lack of data independence"
+        },
+        {
+          "label": "C",
+          "text": "Program independence"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of these",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "File management systems",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "A transparent DBMS",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "cannot hide sensitive information from users"
+        },
+        {
+          "label": "B",
+          "text": "keeps its logical structure hidden from users"
+        },
+        {
+          "label": "C",
+          "text": "keeps its physical structure hidden from users"
+        },
+        {
+          "label": "D",
+          "text": "All of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "keeps its physical structure hidden from users",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "DBMS architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "If the field size is too small, for the longest piece of data to be entered,",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "database program will be freezed"
+        },
+        {
+          "label": "B",
+          "text": "field will automatically expand"
+        },
+        {
+          "label": "C",
+          "text": "part of the data will be cut off"
+        },
+        {
+          "label": "D",
+          "text": "All of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "part of the data will be cut off",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Database fundamentals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Which of the following functional dependencies are satisfied by the instance from the below relation?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$AB \\to C$ and $C \\to B$"
+        },
+        {
+          "label": "B",
+          "text": "$BC \\to A$ and $B \\to C$"
+        },
+        {
+          "label": "C",
+          "text": "$BC \\to A$ and $A \\to C$"
+        },
+        {
+          "label": "D",
+          "text": "$AC \\to B$ and $B \\to A$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_1/databases_1-q005-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$BC \\to A$ and $B \\to C$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Functional dependencies",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Let $E_1$ and $E_2$ be two entities in an E/R diagram with single-valued attributes, $R_1$ and $R_2$ are two relationships between $E_1$ and $E_2$, $R_1$ is one to many $R_2$ is many-to-one. $R_1$ and $R_2$ do not have any attributes of their own. What is the minimum number of tables required to represent this situation in the relation model?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "3",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "ER model",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Which of the following is true about DBMS?\n(i) Low-level DMLs are record-at-a time\n(ii) High-level DMLs are set oriented or set-at-a time\n(iii) Query in high-level DML specify which data to retrieve rather than how.\n(iv) When used as standalone, DML is called ‘host language’",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(i) and (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(i), (ii) and (iii)"
+        },
+        {
+          "label": "D",
+          "text": "(iii) and (iv)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "(i), (ii) and (iii)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "DML",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "In which of the following, the structure of data files is stored?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Metadata"
+        },
+        {
+          "label": "B",
+          "text": "Database catalog"
+        },
+        {
+          "label": "C",
+          "text": "Database schema"
+        },
+        {
+          "label": "D",
+          "text": "Data model"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Database catalog",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Database architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "A schedule is a collection of",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Data models"
+        },
+        {
+          "label": "B",
+          "text": "Transactions"
+        },
+        {
+          "label": "C",
+          "text": "Schemas"
+        },
+        {
+          "label": "D",
+          "text": "Tables"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Transactions",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Transactions and schedules",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Select from the following which matches the term ‘Impedance mismatch problem’:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "In compatibility of storage and data structure"
+        },
+        {
+          "label": "B",
+          "text": "Mismatch in user authentication"
+        },
+        {
+          "label": "C",
+          "text": "File structure mismatching"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "In compatibility of storage and data structure",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "DBMS programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Which of the following is not a/an integrity constraint?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Entity integrity"
+        },
+        {
+          "label": "B",
+          "text": "Candidate key constraint"
+        },
+        {
+          "label": "C",
+          "text": "Business rules"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Candidate key constraint",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Integrity constraints",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Select from the following which is concerned with ‘Query Optimizer’:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extracts DML commands from an application program in a high-level language"
+        },
+        {
+          "label": "B",
+          "text": "Parsing and analyzing interactive query"
+        },
+        {
+          "label": "C",
+          "text": "Rearrangement and reordering of operations and elimination of redundancies"
+        },
+        {
+          "label": "D",
+          "text": "Performance monitoring"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Rearrangement and reordering of operations and elimination of redundancies",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Query processing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Which of the following does not belong to database model?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Relational Model"
+        },
+        {
+          "label": "B",
+          "text": "Distributed Model"
+        },
+        {
+          "label": "C",
+          "text": "Hierarchical Model"
+        },
+        {
+          "label": "D",
+          "text": "Network Model"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Distributed Model",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Database models",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "What is the correct sequence of database design process?\n(i) Create conceptual schema\n(ii) Data model mapping\n(iii) Requirement collection and analysis\n(iv) Physical design",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "iii → i → ii → iv"
+        },
+        {
+          "label": "B",
+          "text": "iii → ii → i → iv"
+        },
+        {
+          "label": "C",
+          "text": "i → ii → iii → iv"
+        },
+        {
+          "label": "D",
+          "text": "i → iii → ii → iv"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "iii → i → ii → iv",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Database design",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Consider the following schema definitions\nEmployee {Name, SSN, Address, DNo}\nDepartment {DName, DNumber, Manager, SSN}\nWhich among the following expressions represent the query $\\pi_{name,address}(\\sigma_{Dname = 'Res' \\land DNumber = DNo}(Department \\bowtie Employee))$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Retrieve the name and address of employees who work for the project no ‘Dno’"
+        },
+        {
+          "label": "B",
+          "text": "Retrieve the name and address of all employees who control the ‘Res’ department."
+        },
+        {
+          "label": "C",
+          "text": "Retrieve the name and address of all employees who work for the ‘Res’ department."
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Retrieve the name and address of all employees who work for the ‘Res’ department.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Select from the following which closely resembles the concept ‘Degree of a relationship’:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Number of entities participating in a relation"
+        },
+        {
+          "label": "B",
+          "text": "Number of entity types participating in a relation"
+        },
+        {
+          "label": "C",
+          "text": "Number of strong entity types in a relation"
+        },
+        {
+          "label": "D",
+          "text": "Number of weak entity types in a relation"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Number of entities participating in a relation",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "ER model",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Consider the following statements in a database:\n(i) No primary key value can be NULL\n(ii) A tuple in one relation which refers to another relation must refer to an existing tuple in that relation\n(iii) The value of x determines the value of y in all states of a relation, where x and y are two attributes of the relation\nWhich of the following combinations matches the given statements in order?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Referential integrity, functional dependency, entity integrity."
+        },
+        {
+          "label": "B",
+          "text": "Functional dependency, entity integrity, referential integrity"
+        },
+        {
+          "label": "C",
+          "text": "Entity integrity, functional dependency, referential integrity."
+        },
+        {
+          "label": "D",
+          "text": "Entity integrity, referential integrity, functional dependency"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Entity integrity, referential integrity, functional dependency",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Integrity constraints and functional dependencies",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Consider the following relation schemas:\nWorks (emp_name, comp_name,salary)\nLivesin (emp_name, street, city)\nLocation (comp_name, city)\nManager (manager_name)\nWhat is returned by the following relational algebra expression $\\pi_{emp\\_name}(\\sigma_{comp\\_name=Time \\land Works.emp\\_name=Livesin.emp\\_name}(Works \\bowtie Livesin))$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Names of all employees who work for TIME"
+        },
+        {
+          "label": "B",
+          "text": "Names of all employees of TIME who lives in the same city"
+        },
+        {
+          "label": "C",
+          "text": "Names of people who live in the same city"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Names of people who live in the same city",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Consider the following SQL query:\nSelect distinct $a_1, a_2, \\ldots, a_n$ from $r_1,r_2\\ldots r_m$ where $P$\nThis query is equivalent to one of the following relational algebra expression:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\pi_{a_1,a_2\\ldots a_n}\\\\sigma_P(r_1\\\\times r_2\\\\times\\\\ldots\\\\times r_m)$"
+        },
+        {
+          "label": "B",
+          "text": "$\\pi_{a_1,a_2\\ldots a_n}\\\\sigma_P(r_1r_2\\\\times\\ldots\\\\times r_m)$"
+        },
+        {
+          "label": "C",
+          "text": "$\\pi_{a_1,a_2\\ldots a_n}\\\\sigma_P(r_1\\cup r_2\\cup\\ldots\\times\\cup r_m)$"
+        },
+        {
+          "label": "D",
+          "text": "$\\pi_{a_1,a_2\\ldots a_n}\\\\sigma_P(r_1r_2\\times\\ldots\\times r_m)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\pi_{a_1,a_2\\ldots a_n}\\\\sigma_P(r_1\\\\times r_2\\\\times\\\\ldots\\\\times r_m)$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Let $R_1(A, B, C)$ and $R_2(D, E)$ be two relation schemas with primary keys A and D and C be a foreign key in $R_1$ referring to $R_2$. Suppose there is no violation of the above referential integrity constraint in the instances $r_1$ and $r_2$, which of the following relational algebra expression would necessarily produce an empty relation?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\pi_D(r_2)-\\pi_C(r_1)$"
+        },
+        {
+          "label": "B",
+          "text": "$\\pi_C(r_1)-\\pi_E(r_2)$"
+        },
+        {
+          "label": "C",
+          "text": "$\\pi_D(r_1\\bowtie_{C=D}r_2)-\\pi_B(r_1)$"
+        },
+        {
+          "label": "D",
+          "text": "$\\pi_C(r_1\\bowtie_{C=E}r_2)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\pi_D(r_2)-\\pi_C(r_1)$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Referential integrity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Let $r$ be an instance for the schema $R=(A,B,C,D)$. Let $r_1=\\pi_{A,B,C}(r)$, $r_2=\\pi_{A,D}(r)$ and $S=r_1\\bowtie r_2$. Also given that the decomposition of $r$ into $r_1$ and $r_2$ is lossy, which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$S\\\\subset r$"
+        },
+        {
+          "label": "B",
+          "text": "$r\\\\cup s=r$"
+        },
+        {
+          "label": "C",
+          "text": "$r\\\\subset s$"
+        },
+        {
+          "label": "D",
+          "text": "$r\\\\bowtie s=s$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$r\\\\subset s$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Lossless and lossy decomposition",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Which of the following is/are logical database structures?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Network"
+        },
+        {
+          "label": "B",
+          "text": "Tree"
+        },
+        {
+          "label": "C",
+          "text": "Chain"
+        },
+        {
+          "label": "D",
+          "text": "All of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All of the above",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Database structures",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "A relational database management system manages data in more than one file at a time by using which of the following combinations?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tables and tuples"
+        },
+        {
+          "label": "B",
+          "text": "Relations and tuples"
+        },
+        {
+          "label": "C",
+          "text": "Tables and Relations"
+        },
+        {
+          "label": "D",
+          "text": "Attributes and tuples"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Tables and Relations",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational model",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Let Emp = (Name, ID, ADDRESS, PHONE, SPOUSE, LIVINGAT) be a relation scheme with following FDs, which one of the following is a key\nADDRESS → Phone\nSPOUSE → NAME\nSPOUSE, ADDRESS → PHONE\nNAME → ID",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "ADDRESS, PHONE"
+        },
+        {
+          "label": "B",
+          "text": "SPOUSE, ADDRESS"
+        },
+        {
+          "label": "C",
+          "text": "NAME, SPOUSE"
+        },
+        {
+          "label": "D",
+          "text": "NAME, ADDRESS"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "SPOUSE, ADDRESS",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Functional dependencies and keys",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "Consider the following E-R diagram\nSelect the most appropriate statement from the following for the above ER diagram:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Represents a ternary relationship"
+        },
+        {
+          "label": "B",
+          "text": "Represents a binary relationship"
+        },
+        {
+          "label": "C",
+          "text": "Represents a ternary relationship with instances of the form (s, j, p)"
+        },
+        {
+          "label": "D",
+          "text": "Represents 1 – to – many relationships"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_1/databases_1-q025-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Represents a ternary relationship with instances of the form (s, j, p)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "ER model",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "",
+      "text": "If two relations $R_1$ and $R_2$ are such that they are of the same degree and domain of the corresponding fields are also the same, then which one of the following is true about $R_1$ and $R_2$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$R_1\\\\subset R_2$"
+        },
+        {
+          "label": "B",
+          "text": "$R_1\\\\cup R_2=R_2\\\\cup R_1$"
+        },
+        {
+          "label": "C",
+          "text": "R1 and R2 are union compatible"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "R1 and R2 are union compatible",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "Common data for questions 27 and 28: Let Employee and Guests be two relations with attributes (id, mobl_no, name, address) and (id, mob-no, comps_working, shifts) Relations respectively {id, mob_no} is the key for both.",
+      "text": "Which of the following queries are equivalent?\n(i) $\\pi_{id}(Employee\\bowtie Guests)$\n(ii) $\\pi_{id}(Employee)\\bowtie\\pi_{id}(Guests)$\n(iii) $\\pi_{id}\\{(Employee-Guest)\\cap(Guest-Employee)\\}$\n(iv) $\\pi_{id}\\{\\pi_{id,mob}(Employee)\\cap\\pi_{id,mob}(Guest)\\}$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(ii) and (iii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iii) and (iv)"
+        },
+        {
+          "label": "C",
+          "text": "(i), (ii) and (iv)"
+        },
+        {
+          "label": "D",
+          "text": "(ii) and (iv) only"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "(i), (ii) and (iv)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "Common data for questions 27 and 28: Let Employee and Guests be two relations with attributes (id, mobl_no, name, address) and (id, mob-no, comps_working, shifts) Relations respectively {id, mob_no} is the key for both.",
+      "text": "What does the following relational algebra expression represent?\n$\\pi_{id}(\\pi_{id,mob\\_no}(Employee-Guests))$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Id of all employees working with the company"
+        },
+        {
+          "label": "B",
+          "text": "Id of all permanent employees"
+        },
+        {
+          "label": "C",
+          "text": "Id of part time employees"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Id of all permanent employees",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "Common data for questions 29 and 30:",
+      "text": "Let $R_1$ and $R_2$ be two relations with attributes $a_1$ and $a_2$. $P_1$ and $P_2$ be two predicates.\nSelect the expression from the following which is wrong:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\\\sigma_{P_1}(\\\\sigma_{P_1}(R_1))\\\\rightarrow\\\\sigma_{P_2}(\\\\sigma_{P_2}(R_1))$"
+        },
+        {
+          "label": "B",
+          "text": "$\\\\sigma_{P_1}(\\\\pi_{a_1}(R_1))\\\\rightarrow\\\\pi(\\\\sigma_{a_1}(\\\\sigma_{P_1}(R_1)))$"
+        },
+        {
+          "label": "C",
+          "text": "$\\\\sigma_{P_1}(R_1\\\\cup R_2)\\\\rightarrow\\\\sigma_{P_1}(R_1)\\\\cup\\\\sigma_{P_2}(R_2)$"
+        },
+        {
+          "label": "D",
+          "text": "$\\\\pi_{a_2}(\\\\sigma_{a_1}(R_1))\\\\rightarrow\\\\sigma_{P_1}(\\\\pi_{a_2}(R_1))$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\\\sigma_{P_1}(\\\\sigma_{P_1}(R_1))\\\\rightarrow\\\\sigma_{P_2}(\\\\sigma_{P_2}(R_1))$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_1.pdf",
+      "direction": "Common data for questions 29 and 30:",
+      "text": "Select from the following corresponding TRC for the wrong expression in the above question:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\\\{t/\\\\exists u,\\\\ R_1(t[P_1])=R_2(u[P_1])\\\\}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\\\{t/\\\\forall u,\\\\ R_1(t[P_1])=R_1(u[P_1])\\\\}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\\\{t/\\\\exists u,\\\\ R_1(t[P_1])\\\\ne R_2(u[P_1])\\\\}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\\\{t/\\\\neg(t\\\\in R_1)\\\\}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\\\{t/\\\\forall u,\\\\ R_1(t[P_1])=R_1(u[P_1])\\\\}$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Tuple relational calculus",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

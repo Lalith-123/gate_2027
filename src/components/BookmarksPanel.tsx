@@ -80,7 +80,8 @@ export function BookmarksPanel({
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-1.5 mb-1.5 flex-wrap">
                           <span className="px-1.5 py-0.5 rounded bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-[10px] font-semibold">
-                            {q.exam.name} {q.exam.year}
+                            {q.exam.name}
+                            {q.exam.year !== null ? ` ${q.exam.year}` : ''}
                           </span>
                           {q.classification.subject && (
                             <span className="text-[10px] text-slate-500 dark:text-slate-400">

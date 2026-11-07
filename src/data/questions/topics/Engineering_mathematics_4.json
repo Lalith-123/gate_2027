@@ -1,0 +1,1477 @@
+[
+  {
+    "id": "gate-engineering-mathematics-test-3-q001",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $A$ is a square matrix of order 5 with $A^{-1}=A^T$ and non-negative determinant, then the determinant of $A$ is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$0$"
+        },
+        {
+          "label": "B",
+          "text": "$1$"
+        },
+        {
+          "label": "C",
+          "text": "$2$"
+        },
+        {
+          "label": "D",
+          "text": "$5$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$1$",
+      "explanation": "Given $A^{-1}=A^T$ and det of $A$ is non-negative. $AA^T=A^TA=I_5$. Taking determinants, $|A|^2=1$, so $|A|=\\pm1$. Since $|A|$ is non-negative, the determinant of $A$ is $1$. Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra",
+      "subtopic": "Matrices and determinants",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q002",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "For two matrices $A$ and $B$, if $AB=A$ and $BA=B$, then which of the following statements is/are correct?\nI. $A$ is an idempotent matrix.\nII. $B$ is an idempotent matrix.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I only"
+        },
+        {
+          "label": "B",
+          "text": "II only"
+        },
+        {
+          "label": "C",
+          "text": "Both I and II"
+        },
+        {
+          "label": "D",
+          "text": "Neither I nor II"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both I and II",
+      "explanation": "Given $AB=A$ and $BA=B$. From $BA=B$, $A(BA)=AB$, hence $(AB)A=A$, giving $A^2=A$. Thus $A$ is an idempotent matrix. From $AB=A$, $B(AB)=BA$, hence $(BA)B=B$, giving $B^2=B$. Thus $B$ is an idempotent matrix. Hence both I and II are correct. Choice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra",
+      "subtopic": "Matrices and determinants",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q003",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "Consider the matrix $A=\\begin{bmatrix}1&a&bc\\\\1&b&ca\\\\1&c&ab\\end{bmatrix}$. Which of the following is NOT equal to the determinant of $A$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\begin{vmatrix}1&a&a^2\\\\1&b&b^2\\\\1&c&c^2\\end{vmatrix}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\begin{vmatrix}a+bc&a&1+a\\\\b+ca&b&1+b\\\\c+ab&c&1+c\\end{vmatrix}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\begin{vmatrix}0&a-b&bc-ac\\\\0&b-c&ca-ab\\\\1&c&ab\\end{vmatrix}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\begin{vmatrix}1&a+1&a^2+a\\\\1&b+1&b^2+b\\\\1&c+1&c^2+c\\end{vmatrix}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "The determinant in option (B) is NOT equal to det of $A$.",
+      "explanation": "Consider the determinant given in option (B). It can be reduced to $-\\det A$, so it is not equal to det of $A$. Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra",
+      "subtopic": "Determinants",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q004",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "For a non-singular square matrix $A$, if $A^3=A$, then $A$ must be ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "a nilpotent matrix"
+        },
+        {
+          "label": "B",
+          "text": "an idempotent matrix"
+        },
+        {
+          "label": "C",
+          "text": "an involutory matrix"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "an involutory matrix",
+      "explanation": "Given $A$ is non-singular and $A^3=A$. Thus $AA^2=A$. Multiplying by $A^{-1}$ gives $A^2=I$. Hence $A$ must be an involutory matrix. Choice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra",
+      "subtopic": "Matrices",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q005",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $A$ is a matrix of order $6\\times9$ with rank 5, then which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "All the rows of $A$ are linearly independent."
+        },
+        {
+          "label": "B",
+          "text": "5 columns of $A$ are linearly independent."
+        },
+        {
+          "label": "C",
+          "text": "$AA^T$ is invertible."
+        },
+        {
+          "label": "D",
+          "text": "$A^TA$ is invertible."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "5 columns of $A$ are linearly independent.",
+      "explanation": "Given $A$ is a matrix of order $6\\times9$ and rank of $A=5$. The maximum number of rows/columns of $A$ that are linearly independent is 5. Option (B) is TRUE. Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra",
+      "subtopic": "Rank",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q006",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The rank of the matrix $P=\\begin{bmatrix}1&2&4&-3\\\\2&-3&5&-4\\\\4&1&13&-10\\\\3&-8&6&-5\\end{bmatrix}$ is ____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1$"
+        },
+        {
+          "label": "B",
+          "text": "$2$"
+        },
+        {
+          "label": "C",
+          "text": "$3$"
+        },
+        {
+          "label": "D",
+          "text": "$4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$2$",
+      "explanation": "Given matrix is $P$. Applying $R_2\\to R_2-2R_1$, $R_3\\to R_3-4R_1$ and $R_4\\to R_4-3R_1$, followed by row reduction, gives a row echelon form with two non-zero rows. Hence the rank of $P$ is 2. Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra",
+      "subtopic": "Rank",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q007",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The value of $x_3$ in the solution of the system of linear equations $x_1+2x_2+2x_3=4$, $2x_1-2x_2-x_3=-3$, $4x_1+x_2+2x_3=3$ is ____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1$"
+        },
+        {
+          "label": "B",
+          "text": "$-1$"
+        },
+        {
+          "label": "C",
+          "text": "$2$"
+        },
+        {
+          "label": "D",
+          "text": "$-2$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$1$",
+      "explanation": "Reducing the augmented matrix gives $x_1+2x_2+2x_3=4$, $-6x_2-5x_3=-11$, and $-x_3=-1$. Hence $x_3=1$. Choice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra",
+      "subtopic": "Systems of linear equations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q008",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "For a homogeneous system of linear equations $AX=O$ with four equations in four unknowns, if the number of linearly independent solutions is one, then the rank of $A$ is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1$"
+        },
+        {
+          "label": "B",
+          "text": "$2$"
+        },
+        {
+          "label": "C",
+          "text": "$3$"
+        },
+        {
+          "label": "D",
+          "text": "$4$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$3$",
+      "explanation": "The number of linearly independent solutions of a homogeneous system $AX=O$ is $n-r$, where $n$ is the number of unknowns and $r$ is the rank of $A$. Hence $n-r=1$, so $4-r=1$ and $r=3$. The rank of $A=3$. Choice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra",
+      "subtopic": "Systems of linear equations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q009",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $A=\\begin{bmatrix}1&10&16&-20\\\\0&-1&159&237\\\\0&0&1&-431\\\\0&0&0&1\\end{bmatrix}$; then the determinant of $A^9-7A^5+4A$ is _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$4$"
+        },
+        {
+          "label": "B",
+          "text": "$-4$"
+        },
+        {
+          "label": "C",
+          "text": "$16$"
+        },
+        {
+          "label": "D",
+          "text": "$-16$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$-16$",
+      "explanation": "The eigenvalues of $A$ are $1,-1,1$ and $1$. If $\\lambda=-1$, then $(-1)^9-7(-1)^5+4(-1)=2$ is an eigenvalue of $A^9-7A^5+4A$. If $\\lambda=1$, then $1^9-7(1)^5+4(1)=-2$ is an eigenvalue. Hence the eigenvalues are $-2,2,-2,-2$. The determinant is $(-2)(2)(-2)(-2)=-16$. Choice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra",
+      "subtopic": "Eigenvalues and determinants",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q010",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If the characteristic equation of a $2\\times2$ matrix $A$ is $\\lambda^2-4\\lambda+1=0$, then the trace and determinant of $A$ respectively are ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$-1$ and $4$"
+        },
+        {
+          "label": "B",
+          "text": "$1$ and $-4$"
+        },
+        {
+          "label": "C",
+          "text": "$4$ and $1$"
+        },
+        {
+          "label": "D",
+          "text": "$4$ and $-1$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$4$ and $1$",
+      "explanation": "Let $\\lambda_1$ and $\\lambda_2$ be the eigenvalues of $A$. Trace of $A=\\lambda_1+\\lambda_2=4$. Determinant of $A=\\lambda_1\\lambda_2=1$. Choice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra",
+      "subtopic": "Eigenvalues",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q011",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $\\lambda_1$ and $\\lambda_2$ are the eigenvalues of a $2\\times2$ non-singular matrix $A$, then the eigenvalues of adjoint of $A$ are ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\lambda_1$ and $\\lambda_2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\lambda_1^2$ and $\\lambda_2^2$"
+        },
+        {
+          "label": "C",
+          "text": "$\\lambda_1+\\lambda_2$ and $\\lambda_1-\\lambda_2$"
+        },
+        {
+          "label": "D",
+          "text": "$\\lambda_1\\times\\lambda_2$ and $\\dfrac{\\lambda_1}{\\lambda_2}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\lambda_1$ and $\\lambda_2$",
+      "explanation": "Let $A=\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$ be a $2\\times2$ matrix with $\\lambda_1$ and $\\lambda_2$ as its eigenvalues. The characteristic equation of $A$ is $(a-\\lambda)(d-\\lambda)-bc=0$. The adjoint of $A$ is $\\begin{bmatrix}d&-b\\\\-c&a\\end{bmatrix}$, whose characteristic equation is $(d-\\lambda)(a-\\lambda)-bc=0$, the same characteristic equation. Therefore the eigenvalues of adjoint of $A$ are $\\lambda_1$ and $\\lambda_2$. Choice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra",
+      "subtopic": "Eigenvalues",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q012",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $A$ is a $3\\times3$ matrix with the characteristic equation $\\lambda^3-5\\lambda^2+2\\lambda-3=0$, then $3A^9-15A^8+6A^7-11A^6+10A^5-4A^4+10A^3-20A^2+8A-9I$ is equal to _______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\begin{bmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{bmatrix}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\begin{bmatrix}2&0&0\\\\0&2&0\\\\0&0&2\\end{bmatrix}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\begin{bmatrix}3&0&0\\\\0&3&0\\\\0&0&3\\end{bmatrix}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\begin{bmatrix}4&0&0\\\\0&4&0\\\\0&0&4\\end{bmatrix}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\begin{bmatrix}3&0&0\\\\0&3&0\\\\0&0&3\\end{bmatrix}$",
+      "explanation": "By Cayley-Hamilton theorem, $A^3-5A^2+2A-3I=0$. Rewriting the given expression using this relation reduces it to $3I$. Hence the required matrix is $3I=\\begin{bmatrix}3&0&0\\\\0&3&0\\\\0&0&3\\end{bmatrix}$. Choice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra",
+      "subtopic": "Cayley-Hamilton theorem",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q013",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "Which of the following is NOT an eigenvector of the matrix $A=\\begin{bmatrix}1&0&0\\\\2&3&0\\\\3&-1&4\\end{bmatrix}$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\begin{bmatrix}3\\\\-3\\\\-4\\end{bmatrix}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\begin{bmatrix}0\\\\0\\\\-4\\end{bmatrix}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\begin{bmatrix}0\\\\1\\\\1\\end{bmatrix}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\begin{bmatrix}0\\\\2\\\\0\\end{bmatrix}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\begin{bmatrix}0\\\\2\\\\0\\end{bmatrix}$",
+      "explanation": "The eigenvalues of $A$ are $1,3$ and $4$. The vectors in options (A), (B) and (C) satisfy one of $AX=X$, $AX=3X$ or $AX=4X$. For option (D), $A\\begin{bmatrix}0\\\\2\\\\0\\end{bmatrix}=\\begin{bmatrix}0\\\\6\\\\-2\\end{bmatrix}$, which is not $\\lambda\\begin{bmatrix}0\\\\2\\\\0\\end{bmatrix}$. Hence it is not an eigenvector of $A$. Choice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra",
+      "subtopic": "Eigenvectors",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q014",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If the system of linear equations $2x+3y+4z=1$, $5x-y+z=4$, $3x+ay-3z=3$ has a unique solution, then the value of $a+4$ ______",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "must be equal to 0,"
+        },
+        {
+          "label": "B",
+          "text": "should not be equal to 0"
+        },
+        {
+          "label": "C",
+          "text": "can be any real number"
+        },
+        {
+          "label": "D",
+          "text": "can be any rational number"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "should not be equal to 0",
+      "explanation": "Row reduction of the augmented matrix gives a third-row entry $2a+8$. The system has a unique solution if the rank is 3. This is possible only if $2a+8\\ne0$, hence $a+4\\ne0$. Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra",
+      "subtopic": "Systems of linear equations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q015",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $a_1,b_1,c_1,d_1,a_2,b_2,c_2$ and $d_2$ are any non zero real numbers, then which of the following types of solution is NOT possible for the system of linear equations.\n$a_1x+b_1y+c_1z=d_1$\n$a_2x+b_2y+c_2z=d_2$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Unique solution"
+        },
+        {
+          "label": "B",
+          "text": "No solution"
+        },
+        {
+          "label": "C",
+          "text": "Infinitely many solution"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Unique solution",
+      "explanation": "Writing the system as $AX=B$, two possibilities arise: if $P(A)\\ne P([A|B])$, the system has no solution; if $P(A)=P([A|B])<3$, the system has infinitely many solutions. So the given system does not have a unique solution. Choice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra",
+      "subtopic": "Systems of linear equations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q016",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The partial differential equation of $z=f(x+at)-g(x-at)$ is _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\dfrac{\\partial^2 z}{\\partial t^2}=a^2\\dfrac{\\partial^2 z}{\\partial x^2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\dfrac{\\partial z}{\\partial t}=a\\dfrac{\\partial z}{\\partial x}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\dfrac{\\partial^2 z}{\\partial t^2}=\\dfrac{\\partial^2 z}{\\partial x^2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\dfrac{\\partial^2 z}{\\partial t^2}+\\dfrac{\\partial^2 z}{\\partial x^2}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\dfrac{\\partial^2 z}{\\partial t^2}=a^2\\dfrac{\\partial^2 z}{\\partial x^2}$",
+      "explanation": "Differentiating twice, $\\dfrac{\\partial^2z}{\\partial x^2}=f^{\\prime\\prime}(x+at)-g^{\\prime\\prime}(x-at)$ and $\\dfrac{\\partial^2z}{\\partial t^2}=a^2f^{\\prime\\prime}(x+at)-a^2g^{\\prime\\prime}(x-at)$. Hence $\\dfrac{\\partial^2z}{\\partial t^2}=a^2\\dfrac{\\partial^2z}{\\partial x^2}$. Choice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Partial Differential Equations",
+      "subtopic": "First-order PDE",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q017",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The first order partial differential equation by eliminating the arbitrary function from $z=f(x^3-y^3)$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$p+q=0$"
+        },
+        {
+          "label": "B",
+          "text": "$yp+xq=0$"
+        },
+        {
+          "label": "C",
+          "text": "$y^2p+x^2q=0$"
+        },
+        {
+          "label": "D",
+          "text": "$2y^2p+3x^2q=0$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$y^2p+x^2q=0$",
+      "explanation": "Let $x^3-y^3=u$. Then $z=f(u)$. Thus $p=3x^2f'(u)$ and $q=-3y^2f'(u)$. Therefore $y^2p+x^2q=0$. Choice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Partial Differential Equations",
+      "subtopic": "First-order PDE",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q018",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The general solution of the partial differential equation $x^3(y-z)p+y^3(z-x)q=z^3(x-y)$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\phi\\left(xyz,\\dfrac1x+\\dfrac1y+\\dfrac1z\\right)=0$"
+        },
+        {
+          "label": "B",
+          "text": "$\\phi\\left(\\dfrac1{x^2}+\\dfrac1{y^2}+\\dfrac1{z^2},\\dfrac1x+\\dfrac1y+\\dfrac1z\\right)=0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\phi\\left(\\dfrac1x-\\dfrac1y-\\dfrac1z,\\dfrac1{x^2}+\\dfrac1{y^2}-\\dfrac1{z^2}\\right)=0$"
+        },
+        {
+          "label": "D",
+          "text": "$\\phi\\left(\\dfrac1{x^2}-\\dfrac1{y^2}-\\dfrac1{z^2},\\dfrac1x-\\dfrac1y+\\dfrac1z\\right)=0$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\phi\\left(\\dfrac1{x^2}+\\dfrac1{y^2}+\\dfrac1{z^2},\\dfrac1x+\\dfrac1y+\\dfrac1z\\right)=0$",
+      "explanation": "The subsidiary equations are $\\dfrac{dx}{x^3(y-z)}=\\dfrac{dy}{y^3(z-x)}=\\dfrac{dz}{z^3(x-y)}$. Using the multipliers $\\frac1{x^2},\\frac1{y^2},\\frac1{z^2}$ gives $\\frac1{x^2}+\\frac1{y^2}+\\frac1{z^2}=C_2$. Using the multipliers $\\frac1{x^3},\\frac1{y^3},\\frac1{z^3}$ gives $\\frac1x+\\frac1y+\\frac1z=C_1$. Hence the general solution is the expression in option (B). Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Partial Differential Equations",
+      "subtopic": "First-order PDE",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q019",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The solution of the partial differential equation $xy^2z^2p+x^2yz^2q=x^2y^2z$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x^2+y^2=\\phi(x^2-y^2)$"
+        },
+        {
+          "label": "B",
+          "text": "$x^2+z^2=\\phi(x^2-z^2)$"
+        },
+        {
+          "label": "C",
+          "text": "$x^2-y^2=\\phi(y^2-z^2)$"
+        },
+        {
+          "label": "D",
+          "text": "$y^2-z^2=\\phi(x^2-y^2-z^2)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$x^2-y^2=\\phi(y^2-z^2)$",
+      "explanation": "The subsidiary equations are $\\dfrac{dx}{xy^2z^2}=\\dfrac{dy}{x^2yz^2}=\\dfrac{dz}{x^2y^2z}$. From the first two fractions, $x\\,dx=y\\,dy$, giving $x^2-y^2=C_1$. From the last two, $y\\,dy=z\\,dz$, giving $y^2-z^2=C_2$. Hence the general solution is $x^2-y^2=\\phi(y^2-z^2)$. Choice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Partial Differential Equations",
+      "subtopic": "First-order PDE",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q020",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The solution of $(p-q)(z-xp-yq)=1$ is _________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$z=ax-by+\\dfrac1{a+b}$"
+        },
+        {
+          "label": "B",
+          "text": "$z=ax-by$"
+        },
+        {
+          "label": "C",
+          "text": "$z=ax+by$"
+        },
+        {
+          "label": "D",
+          "text": "$z=ax+by+\\dfrac1{a-b}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$z=ax+by+\\dfrac1{a-b}$",
+      "explanation": "Rewrite the equation as $z=xp+yq+\\dfrac1{p-q}$. This is a Clairaut equation and its solution is $z=ax+by+\\dfrac1{a-b}$. Choice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Partial Differential Equations",
+      "subtopic": "First-order PDE",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q021",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $u(x,y)=X(x).Y(y)$ be the solution of the partial differential equation $4\\dfrac{\\partial u}{\\partial x}+5\\dfrac{\\partial u}{\\partial y}=0$, which is obtained by solving it by the method of separation of variables, then $X(x)$ (the function of $x$ only in $u(x,y)$) is ______\n[Note: Here c and k are arbitrary constants]",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$X(x)=ce^{kx}x^2$"
+        },
+        {
+          "label": "B",
+          "text": "$X(x)=ce^{4k/x}$"
+        },
+        {
+          "label": "C",
+          "text": "$X(x)=ce^{\\left(\\frac{k}{4}\\right)x}$"
+        },
+        {
+          "label": "D",
+          "text": "$X(x)=ce^{(-5k)x^2}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$X(x)=ce^{\\left(\\frac{k}{4}\\right)x}$",
+      "explanation": "Substitution of $u=X(x)Y(y)$ gives $4X'Y+5XY'=0$. Hence $4\\frac{X'}X=-5\\frac{Y'}Y=k$, so $\\frac{X'}X=\\frac{k}{4}$. Integrating gives $X(x)=ce^{(k/4)x}$. Choice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Partial Differential Equations",
+      "subtopic": "First-order PDE",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q022",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "Which of the following second order partial differential equations is an elliptic equation?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$3\\dfrac{\\partial^2u}{\\partial x^2}+4\\dfrac{\\partial^2u}{\\partial x\\partial y}-5\\dfrac{\\partial^2u}{\\partial y^2}+7\\dfrac{\\partial u}{\\partial x}-\\dfrac{\\partial u}{\\partial y}=7x^2$"
+        },
+        {
+          "label": "B",
+          "text": "$3\\dfrac{\\partial^2u}{\\partial x^2}-4\\dfrac{\\partial^2u}{\\partial x\\partial y}+5\\dfrac{\\partial^2u}{\\partial y^2}-\\dfrac{\\partial u}{\\partial x}+\\dfrac{\\partial u}{\\partial y}=6x^2y$"
+        },
+        {
+          "label": "C",
+          "text": "$-3\\dfrac{\\partial^2u}{\\partial x^2}+4\\dfrac{\\partial^2u}{\\partial x\\partial y}+5\\dfrac{\\partial^2u}{\\partial y^2}+4x\\dfrac{\\partial u}{\\partial x}-7y\\dfrac{\\partial u}{\\partial y}=0$"
+        },
+        {
+          "label": "D",
+          "text": "$\\dfrac{\\partial^2u}{\\partial x^2}+2\\dfrac{\\partial^2u}{\\partial x\\partial y}+\\dfrac{\\partial^2u}{\\partial y^2}-2\\dfrac{\\partial u}{\\partial x}+5\\dfrac{\\partial u}{\\partial y}=6xy^2$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$3\\dfrac{\\partial^2u}{\\partial x^2}-4\\dfrac{\\partial^2u}{\\partial x\\partial y}+5\\dfrac{\\partial^2u}{\\partial y^2}-\\dfrac{\\partial u}{\\partial x}+\\dfrac{\\partial u}{\\partial y}=6x^2y$",
+      "explanation": "For $Au_{xx}+Bu_{xy}+Cu_{yy}+F=0$, the PDE is elliptic if $B^2-4AC<0$. For option (B), $A=3$, $B=-4$ and $C=5$, so $B^2-4AC=-44<0$. Hence option (B) is elliptic. Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Partial Differential Equations",
+      "subtopic": "Classification of second-order PDE",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q023",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The Fourier cosine series of the function $f(x)=\\dfrac12$, $0\\le x\\le1$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1$"
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": "$0$"
+        },
+        {
+          "label": "D",
+          "text": ""
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\dfrac12$",
+      "explanation": "The coefficients of the Fourier cosine series are $a_0=\\frac{2}{1}\\int_0^1 f(x)\\,dx=1$ and $a_n=\\frac{2}{1}\\int_0^1 f(x)\\cos(n\\pi x)\\,dx=0$. The required series is $f(x)=\\frac12$. Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Fourier Series",
+      "subtopic": "Fourier cosine series",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 7
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q024",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The Fourier series of $f(x)=e^{2x}$ in the interval $(0,2\\pi)$ is $f(x)=\\dfrac{a_0}{2}+\\sum_{n=1}^{\\infty}a_n\\cos nx+\\sum_{n=1}^{\\infty}b_n\\sin nx$, then the value of $\\dfrac{a_0}{2}$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\dfrac{e^{4\\pi}-1}{4\\pi}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\dfrac{e^{2\\pi}-1}{2\\pi}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\dfrac{e^{4\\pi}-1}{2\\pi}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\dfrac{e^{2\\pi}-1}{4\\pi}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\dfrac{e^{4\\pi}-1}{4\\pi}$",
+      "explanation": "In the Fourier series of $e^{2x}$, $a_0=\\frac1\\pi\\int_0^{2\\pi}e^{2x}\\,dx=\\frac{e^{4\\pi}-1}{2\\pi}$. Therefore $\\frac{a_0}{2}=\\frac{e^{4\\pi}-1}{4\\pi}$. Choice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Fourier Series",
+      "subtopic": "Fourier coefficients",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 7
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-3-q025",
+    "pdfName": "Engineering_mathematics_4.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The Fourier series of the function $f(x)=\\begin{cases}-2,&-\\pi<x<-\\frac\\pi2\\\\0,&-\\frac\\pi2<x<\\frac\\pi2\\\\2,&\\frac\\pi2<x<\\pi\\end{cases}$ is $f(x)=\\dfrac{a_0}{2}+\\sum_{n=1}^{\\infty}a_n\\cos nx+\\sum_{n=1}^{\\infty}b_n\\sin nx$, then $b_n=$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\dfrac{1}{n\\pi}\\left[\\sin\\dfrac{n\\pi}{2}-\\cos n\\pi\\right]$"
+        },
+        {
+          "label": "B",
+          "text": "$\\dfrac{4}{n\\pi}\\left[\\cos\\dfrac{n\\pi}{2}-\\cos n\\pi\\right]$"
+        },
+        {
+          "label": "C",
+          "text": "$\\dfrac{1}{4n\\pi}\\left[\\cos n\\pi-\\cos\\dfrac{n\\pi}{2}\\right]$"
+        },
+        {
+          "label": "D",
+          "text": "$\\dfrac{4}{n\\pi}\\left[\\sin\\dfrac{n\\pi}{2}-\\sin n\\pi\\right]$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\dfrac{4}{n\\pi}\\left[\\cos\\dfrac{n\\pi}{2}-\\cos n\\pi\\right]$",
+      "explanation": "The Fourier coefficient is $b_n=\\frac1\\pi\\int_{-\\pi}^{\\pi}f(x)\\sin nx\\,dx$. Splitting the integral over the three intervals gives $b_n=\\frac4{n\\pi}\\left[\\cos\\frac{n\\pi}{2}-\\cos n\\pi\\right]$. Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Fourier Series",
+      "subtopic": "Fourier coefficients",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 3",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

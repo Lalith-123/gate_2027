@@ -1,13 +1,13 @@
 import { X, RotateCcw } from 'lucide-react';
-import type { Filters, Question } from '../types';
+import type { BrowseMode, Filters, Question } from '../types';
 import {
-  getUniqueExams,
   getUniqueYears,
-  getUniqueBranches,
-  getUniqueSubjects,
   getUniqueTopics,
+  getUniqueSubjects,
+  getTopicCounts,
   getUniqueTypes,
   getUniqueDifficulties,
+  getUniqueSources,
 } from '../utils/filters';
 
 interface FilterPanelProps {
@@ -19,6 +19,19 @@ interface FilterPanelProps {
   allQuestions: Question[];
 }
 
+const MODES: { value: BrowseMode; label: string; hint: string }[] = [
+  { value: 'all', label: 'All Questions', hint: 'Every question in the bank' },
+  { value: 'previousYear', label: 'Previous Year', hint: 'Real GATE year papers' },
+  { value: 'topic', label: 'Topic', hint: 'Browse topic by topic' },
+];
+
+const SOURCE_LABELS: Record<string, string> = {
+  official: 'Official',
+  trusted: 'Trusted',
+  recalled: 'Recalled',
+  practice_test: 'Practice Test',
+};
+
 export function FilterPanel({
   isOpen,
   onClose,
@@ -27,22 +40,37 @@ export function FilterPanel({
   onClear,
   allQuestions,
 }: FilterPanelProps) {
-  const exams = getUniqueExams(allQuestions);
-  const years = getUniqueYears(allQuestions, filters.exam !== 'all' ? filters.exam : undefined);
-  const branches = getUniqueBranches(allQuestions);
-  const subjects = getUniqueSubjects(allQuestions);
-  const topics = getUniqueTopics(allQuestions, filters.subject !== 'all' ? filters.subject : undefined);
+  if (!isOpen) return null;
+
+  const years = getUniqueYears(allQuestions);
+  const selectedSubject = filters.subject !== 'all' ? filters.subject : undefined;
+  const subjects = getUniqueSubjects(
+    allQuestions,
+    filters.topic !== 'all' ? filters.topic : undefined
+  );
+  const topics = getUniqueTopics(allQuestions, selectedSubject);
+  const topicCounts = getTopicCounts(allQuestions, selectedSubject);
   const types = getUniqueTypes(allQuestions);
   const difficulties = getUniqueDifficulties(allQuestions);
+  const sources = getUniqueSources(allQuestions);
 
-  if (!isOpen) return null;
+  /** Switching modes clears the selectors that belong to the mode being left. */
+  const changeMode = (browseMode: BrowseMode) => {
+    onFiltersChange({
+      ...filters,
+      browseMode,
+      year: 'all',
+      subject: 'all',
+      topic: 'all',
+    });
+  };
 
   return (
     <div className="fixed inset-0 z-50">
       <div className="absolute inset-0 bg-black/40" onClick={onClose} />
       <div className="absolute bottom-0 left-0 right-0 bg-white dark:bg-slate-900 rounded-t-2xl max-h-[85vh] overflow-y-auto">
         <div className="sticky top-0 bg-white dark:bg-slate-900 p-4 border-b border-slate-200 dark:border-slate-700 flex items-center justify-between">
-          <h2 className="text-lg font-semibold text-slate-900 dark:text-white">Filter Questions</h2>
+          <h2 className="text-lg font-semibold text-slate-900 dark:text-white">Browse Questions</h2>
           <button
             onClick={onClose}
             className="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500"
@@ -52,45 +80,75 @@ export function FilterPanel({
         </div>
 
         <div className="p-4 space-y-4">
-          <FilterSelect
-            label="Examination"
-            value={filters.exam}
-            options={exams}
-            allLabel="All Exams"
-            onChange={(v) => onFiltersChange({ ...filters, exam: v, year: 'all' })}
-          />
+          <div>
+            <label className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5">
+              Browse by
+            </label>
+            <div className="grid grid-cols-3 gap-2">
+              {MODES.map((mode) => (
+                <button
+                  key={mode.value}
+                  onClick={() => changeMode(mode.value)}
+                  className={`p-2.5 rounded-xl border text-xs font-semibold transition-colors ${
+                    filters.browseMode === mode.value
+                      ? 'bg-blue-500 border-blue-500 text-white'
+                      : 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700'
+                  }`}
+                >
+                  {mode.label}
+                </button>
+              ))}
+            </div>
+            <p className="mt-1.5 text-xs text-slate-500 dark:text-slate-400">
+              {MODES.find((m) => m.value === filters.browseMode)?.hint}
+            </p>
+          </div>
 
-          <FilterSelect
-            label="Year"
-            value={filters.year}
-            options={years.map(String)}
-            allLabel="All Years"
-            onChange={(v) => onFiltersChange({ ...filters, year: v === 'all' ? 'all' : Number(v) })}
-          />
+          {filters.browseMode === 'previousYear' &&
+            (years.length > 0 ? (
+              <FilterSelect
+                label="Year"
+                value={filters.year}
+                options={years}
+                allLabel="All Years"
+                onChange={(v) =>
+                  onFiltersChange({ ...filters, year: v === 'all' ? 'all' : Number(v) })
+                }
+                formatOption={(year) => `GATE ${year}`}
+              />
+            ) : (
+              <div className="p-3 rounded-xl border border-amber-200 dark:border-amber-900/60 bg-amber-50 dark:bg-amber-950/30">
+                <p className="text-sm font-medium text-amber-800 dark:text-amber-300">
+                  No previous-year papers yet
+                </p>
+                <p className="text-xs text-amber-700 dark:text-amber-400 mt-1">
+                  Add year-tagged questions as{' '}
+                  <code className="font-mono">previous_year/gate_&lt;year&gt;.json</code> and they will
+                  appear here automatically.
+                </p>
+              </div>
+            ))}
 
-          <FilterSelect
-            label="Branch"
-            value={filters.branch}
-            options={branches}
-            allLabel="All Branches"
-            onChange={(v) => onFiltersChange({ ...filters, branch: v })}
-          />
+          {filters.browseMode === 'topic' && (
+            <>
+              <FilterSelect
+                label="Subject"
+                value={filters.subject}
+                options={subjects}
+                allLabel="All Subjects"
+                onChange={(v) => onFiltersChange({ ...filters, subject: v, topic: 'all' })}
+              />
 
-          <FilterSelect
-            label="Subject"
-            value={filters.subject}
-            options={subjects}
-            allLabel="All Subjects"
-            onChange={(v) => onFiltersChange({ ...filters, subject: v, topic: 'all', subtopic: 'all' })}
-          />
-
-          <FilterSelect
-            label="Topic"
-            value={filters.topic}
-            options={topics}
-            allLabel="All Topics"
-            onChange={(v) => onFiltersChange({ ...filters, topic: v })}
-          />
+              <FilterSelect
+                label="Topic"
+                value={filters.topic}
+                options={topics}
+                allLabel="All Topics"
+                onChange={(v) => onFiltersChange({ ...filters, topic: v })}
+                formatOption={(topic) => `${topic} (${topicCounts.get(String(topic)) ?? 0})`}
+              />
+            </>
+          )}
 
           <FilterSelect
             label="Question Type"
@@ -112,10 +170,10 @@ export function FilterPanel({
           <FilterSelect
             label="Source"
             value={filters.source}
-            options={['official', 'trusted', 'recalled']}
+            options={sources}
             allLabel="All Sources"
             onChange={(v) => onFiltersChange({ ...filters, source: v as Filters['source'] })}
-            displayMap={{ official: 'Official', trusted: 'Trusted', recalled: 'Recalled' }}
+            displayMap={SOURCE_LABELS}
           />
 
           <FilterSelect
@@ -124,7 +182,12 @@ export function FilterPanel({
             options={['unattempted', 'correct', 'incorrect', 'bookmarked']}
             allLabel="All"
             onChange={(v) => onFiltersChange({ ...filters, status: v as Filters['status'] })}
-            displayMap={{ unattempted: 'Unattempted', correct: 'Correct', incorrect: 'Incorrect', bookmarked: 'Bookmarked' }}
+            displayMap={{
+              unattempted: 'Unattempted',
+              correct: 'Correct',
+              incorrect: 'Incorrect',
+              bookmarked: 'Bookmarked',
+            }}
           />
         </div>
 
@@ -155,6 +218,7 @@ function FilterSelect({
   allLabel,
   onChange,
   displayMap,
+  formatOption,
 }: {
   label: string;
   value: string | number;
@@ -162,6 +226,7 @@ function FilterSelect({
   allLabel: string;
   onChange: (v: string) => void;
   displayMap?: Record<string, string>;
+  formatOption?: (option: string | number) => string;
 }) {
   return (
     <div>
@@ -176,7 +241,7 @@ function FilterSelect({
         <option value="all">{allLabel}</option>
         {options.map((o) => (
           <option key={o} value={o}>
-            {displayMap?.[String(o)] || String(o)}
+            {displayMap?.[String(o)] ?? formatOption?.(o) ?? String(o)}
           </option>
         ))}
       </select>

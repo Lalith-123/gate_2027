@@ -1,0 +1,2108 @@
+[
+  {
+    "id": "gate-programming-and-data-structures-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which one of the following is true about a strict binary tree with 16 leaf nodes?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "has exactly $2^5$ nodes"
+        },
+        {
+          "label": "B",
+          "text": "has atmost $2^5 - 1$ nodes"
+        },
+        {
+          "label": "C",
+          "text": "has atmost 30 nodes"
+        },
+        {
+          "label": "D",
+          "text": "has exactly 31 nodes"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "has exactly 31 nodes",
+      "explanation": "Number of nodes of strict binary tree\n= (2n - 1); n → number of leaf nodes        Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Binary Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider 2 sorted lists of size 50 and 60 respectively. Find the number of comparisons needed in the worst case by merge sort algorithm?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "109"
+        },
+        {
+          "label": "B",
+          "text": "50"
+        },
+        {
+          "label": "C",
+          "text": "60"
+        },
+        {
+          "label": "D",
+          "text": "3000"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "109",
+      "explanation": "m + n - 1\nThat is 50 + 60 - 1 = 109                   Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Sorting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The print statement printf(“%d”, ++10); prints",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "An error message"
+        },
+        {
+          "label": "D",
+          "text": "Garbage value"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "An error message",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C Programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following C code segment\nif(ptr!= NULL)\n    *ptr = NULL; else *ptr = NULL;\nWhich of the following has the same effect as the above code?\n(I) if(ptr)\n    *ptr = NULL; else *ptr = NULL\n(II) *ptr = NULL;\n(III) if(!ptr)\n    *ptr = NULL; else *ptr = NULL;\n(IV) if(ptr= NULL)\n    *ptr = NULL; else *ptr = NULL;",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I and III"
+        },
+        {
+          "label": "B",
+          "text": "I and IV"
+        },
+        {
+          "label": "C",
+          "text": "I, III and IV"
+        },
+        {
+          "label": "D",
+          "text": "I, II, III and IV"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "I, II, III and IV",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C Programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following statements are true?\n(I) Casting refers to implicit type conversion\n(II) Coercion refers to implicit type conversion\n(III) Casting refers to explicit type conversion\n(IV) Coercion refers to explicit type conversion",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I and II"
+        },
+        {
+          "label": "B",
+          "text": "II and III"
+        },
+        {
+          "label": "C",
+          "text": "I and IV"
+        },
+        {
+          "label": "D",
+          "text": "III and IV"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "II and III",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C Programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "For implementing queue using linked list, the enqueue and dequeue operations are performed as",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Enqueue after the last element, dequeue the first element"
+        },
+        {
+          "label": "B",
+          "text": "Enqueue in front of the first element, dequeue the first element"
+        },
+        {
+          "label": "C",
+          "text": "Enqueue after the last element, dequeue the last element"
+        },
+        {
+          "label": "D",
+          "text": "Enqueue in front of the first element, dequeue the last element"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Enqueue after the last element, dequeue the first element",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Queues",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The tree transversal in which the node is processed before the recursive call to the child nodes complete?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Postorder"
+        },
+        {
+          "label": "B",
+          "text": "Preorder"
+        },
+        {
+          "label": "C",
+          "text": "Inorder"
+        },
+        {
+          "label": "D",
+          "text": "Level order"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Preorder",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Tree Traversals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the number of ‘n’ node binary trees with items 1, 2, …, n that have identical postorder and inorder transversals?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\(\\frac{n+1}{2}\\)"
+        },
+        {
+          "label": "B",
+          "text": "n"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "n!"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1",
+      "explanation": "Unique tree can be created using postorder and inorder transversals\n∴ Only 1 tree is possible with same item that have identical post order and in order     Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Binary Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of following uses the unweighted single source shortest path problem?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Breadth First Search"
+        },
+        {
+          "label": "B",
+          "text": "Dijkstra’s algorithm"
+        },
+        {
+          "label": "C",
+          "text": "Kruskal’s algorithm"
+        },
+        {
+          "label": "D",
+          "text": "Depth First Search"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Breadth First Search",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Graph Algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which one of the following data structure is best suited to check whether an arithmetic expression has balanced parentheses?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "List"
+        },
+        {
+          "label": "B",
+          "text": "Queue"
+        },
+        {
+          "label": "C",
+          "text": "Stack"
+        },
+        {
+          "label": "D",
+          "text": "Tree"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Stack",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Stacks",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the output returned by following code?\n# include <stdio.h>\nint main ( )\n{\nfor(;NULL;)\nprintf (“TIME”);\nreturn 0;\n}",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "T"
+        },
+        {
+          "label": "B",
+          "text": "TIME"
+        },
+        {
+          "label": "C",
+          "text": "Infinite loop"
+        },
+        {
+          "label": "D",
+          "text": "Compilation Error"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "TIME",
+      "explanation": "Here NULL is micro constant, value of this symbolic constant is ‘0’ as defined in stdio.h.\nSo for loop should not execute any time because initial condition is false. But it is bug of turbo C compiler.\nLoop will execute one time and it will print: TIME\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C Programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following statements are TRUE?\n(I) Recursive programs are efficient\n(II) Binary search using a linear linked list is efficient\n(III) The worst case Time complexity of Quick sort is O(n2)\n(IV) As the number of entries in the hash table increases, the number of collisions also increase.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "II and III"
+        },
+        {
+          "label": "B",
+          "text": "I and III"
+        },
+        {
+          "label": "C",
+          "text": "III and IV"
+        },
+        {
+          "label": "D",
+          "text": "II and IV"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "III and IV",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Algorithms and Data Structures",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "If the processor supports only the immediate and direct addressing modes, then which one of the following programming language feature cannot be implemented on that processor?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Arrays"
+        },
+        {
+          "label": "B",
+          "text": "Pointers"
+        },
+        {
+          "label": "C",
+          "text": "Records"
+        },
+        {
+          "label": "D",
+          "text": "Recursive procedures with local variables"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Pointers",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Programming Languages and Data Structures",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which one of the following is true about the result returned by function under value-result and reference parameter passing conventions?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "May differ in the presence of exceptions"
+        },
+        {
+          "label": "B",
+          "text": "Do not differ"
+        },
+        {
+          "label": "C",
+          "text": "Differ in the presence of loops"
+        },
+        {
+          "label": "D",
+          "text": "Differ in all cases"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "May differ in the presence of exceptions",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Programming Language Concepts",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "If L1 is deterministic context free and L2 is regular then which of the following is also deterministic context free?\n(i) L1 ∪ L2                    (ii) L1 ∩ L2\n(iii) L2",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii) Only"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iii) Only"
+        },
+        {
+          "label": "C",
+          "text": "(ii) Only"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii) and (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i), (ii) and (iii)",
+      "explanation": "L1 is DCFL\nL2 is regular.\nEvery regular language is DCFL. L1 ∪ L2 and L1 ∩ L2 are also DCFL’s.                            Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Formal Languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following C code segment\nmain ()\n{\nstatic int i;\nfor(putchar(‘G’); putchar(‘A’); putchar(‘E’))\n{\nputchar (‘T’);\nif(i == 2)\nbreak;\nelse\ni++;\n}\n}\nThe output will be",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Syntax error"
+        },
+        {
+          "label": "B",
+          "text": "GAETETET"
+        },
+        {
+          "label": "C",
+          "text": "GATEATEATE"
+        },
+        {
+          "label": "D",
+          "text": "GATEATEAT"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "GATEATEAT",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C Programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the below flow graph, which has two loops: L1 and L2\n\nLet variables x, y are assigned registers in L1 but not in L2, then which of the following actions are TRUE?\n(i) Store x, y on entry to L2\n(ii) Load x, y on entry to L2\n(iii) Load x, y on exit from L2\n(iv) Store x, y on exit from L2",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(i), (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(ii), (iv)"
+        },
+        {
+          "label": "D",
+          "text": "(iii), (iv)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Programming_and_Data_Structure_2/programming_and_data_structure_2-q017-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "(i), (iii)",
+      "explanation": "As the variables belongs to L1 we need to store x, y on entry to L2 and load x, y on exit from L2. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Compiler and Runtime Concepts",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following recursive function\n\\(fun(n)=\\begin{cases}2 & \\text{if } n=0\\\\ x & \\text{if } n=1\\\\ 2fun(n-1)+4fun(n-2) & \\text{if } n\\ge2\\end{cases}\\)\nIf the value of fun(4) is 88, then the value of ‘x’ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "-1"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "1",
+      "explanation": "T(4) = 2T(3) + 4T(2)\nT(3) = 2T(2) + 4T(1)\nT(2) = 2T(1) + 4T (0) → 8 + 2x\nBack substitute the value of T(2)\n∴ x = 1                                                 Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Recursion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What will be the output of following code?\n# include<stdio.h>\nint main ( ) {\nint b, a = 6;\nb = – a - - ;\nprintf (“%d %d”, b, a);\n}",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 5"
+        },
+        {
+          "label": "B",
+          "text": "–5 5"
+        },
+        {
+          "label": "C",
+          "text": "– 6 5"
+        },
+        {
+          "label": "D",
+          "text": "compilation error"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "– 6 5",
+      "explanation": "b = –a - -\nb= – 6 - -\nb= – 6\nNow value of variable ‘a’ will be 5.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C Programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following is the prefix expression for the given infix expression?\nA - B * C + (D/E)/F *G",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "+ - A * BC * / DE /FG"
+        },
+        {
+          "label": "B",
+          "text": "+ - A * BC / DE/ * FG"
+        },
+        {
+          "label": "C",
+          "text": "+ - A * BC * || DEFG"
+        },
+        {
+          "label": "D",
+          "text": "- A * BC + * || DEFG"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "+ - A * BC * || DEFG",
+      "explanation": "Prefix :* – A * BC * || DEFG                           Choice (C)",
+      "status": "confirmed",
+      "image": "images/Programming_and_Data_Structure_2/programming_and_data_structure_2-q020-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Expression Conversion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The following postfix expression with single digit operands is evaluated using a stack 4 2 2 * / 2 3 ^ + 5 -\nThe top two elements of the stack after the evaluation of ^ are (^ is the exponentiation operator)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(8, 1)"
+        },
+        {
+          "label": "B",
+          "text": "(9, 1)"
+        },
+        {
+          "label": "C",
+          "text": "(5, 9)"
+        },
+        {
+          "label": "D",
+          "text": "(5, 1)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "(8, 1)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Stacks and Expression Evaluation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A circular queue of capacity (m -1) elements is implemented with an array of m elements. Insertion and deletion operation are done at rear and front respectively. Initially rear and front are initialized to zero. The condition to check whether the queue is full and empty are",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "full :(rear + 1) mod m == front\nempty :(front + 1)mod m == rear"
+        },
+        {
+          "label": "B",
+          "text": "full:(front +1) mod m == rear\nempty: rear == front"
+        },
+        {
+          "label": "C",
+          "text": "full : (rear +1) mod m == front\nempty : rear == front"
+        },
+        {
+          "label": "D",
+          "text": "full : rear == front\nempty : (rear +1) mod m == front"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "full : (rear +1) mod m == front\nempty : rear == front",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Queues",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The number of comparisons needed to search a single linked list of length ‘n’ for a given element in worst case scenario is?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\(\\frac{n}{2}\\)"
+        },
+        {
+          "label": "B",
+          "text": "\\(\\log_2 n - 1\\)"
+        },
+        {
+          "label": "C",
+          "text": "\\(\\log_2 n\\)"
+        },
+        {
+          "label": "D",
+          "text": "n"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "n",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Linked Lists",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following C code segment and predict the correct output ?\n# define cube(x) (x*x*x)\nmain ()\n{\nint i, j = 4;\ni = cube (j ++);\nprintf (“%d %d”, i, j);\n}",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "64 7"
+        },
+        {
+          "label": "B",
+          "text": "64 4"
+        },
+        {
+          "label": "C",
+          "text": "125 7"
+        },
+        {
+          "label": "D",
+          "text": "343 7"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "64 7",
+      "explanation": "i = 4 * 4 * 4 = 64\nj=4+3=7\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C Preprocessor and Macros",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What will be the output of the following C code segment?\n# define m(a, b) (((a)>(b))?(a):(b))\nmain ()\n{\nint x = 10, y = 5, z = 0;\nz = m(++x, y++);\nprintf(“%d %d %d”, x, y, z)\n}",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "11 6 11"
+        },
+        {
+          "label": "B",
+          "text": "12 7 12"
+        },
+        {
+          "label": "C",
+          "text": "13 6 13"
+        },
+        {
+          "label": "D",
+          "text": "12 6 12"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "12 6 12",
+      "explanation": "The line z = m(++x, y++) is replaced by\nz = (++x) > (y++) ? (++x) : (y++)\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C Preprocessor and Macros",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following sequence of array elements form a valid binary max heap?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "35, 21, 10, 14, 15, 9, 6"
+        },
+        {
+          "label": "B",
+          "text": "50, 18, 14, 15, 17, 16, 12"
+        },
+        {
+          "label": "C",
+          "text": "40, 20, 14, 15, 21, 4, 11"
+        },
+        {
+          "label": "D",
+          "text": "9, 6, 4, 2, 1, 5, 3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "35, 21, 10, 14, 15, 9, 6",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Heaps",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Construct a binary min-heap with following elements inserted in order 5, 10, 2, 6, 8, 4, 3, 12, 15, 1, 7\nWhat will be the resultant binary min-heap after the above operation?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Visual diagram shown for option A in the question image."
+        },
+        {
+          "label": "B",
+          "text": "Visual diagram shown for option B in the question image."
+        },
+        {
+          "label": "C",
+          "text": "Visual diagram shown for option C in the question image."
+        },
+        {
+          "label": "D",
+          "text": "Visual diagram shown for option D in the question image."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Programming_and_Data_Structure_2/programming_and_data_structure_2-q027-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Visual diagram shown for option C in the question image.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Heaps",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following max-heap\n\nOn deleting the element ‘14’ from the max-heap, the resultant heap will be",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Visual diagram shown for option A in the question image."
+        },
+        {
+          "label": "B",
+          "text": "Visual diagram shown for option B in the question image."
+        },
+        {
+          "label": "C",
+          "text": "Visual diagram shown for option C in the question image."
+        },
+        {
+          "label": "D",
+          "text": "Visual diagram shown for option D in the question image."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Programming_and_Data_Structure_2/programming_and_data_structure_2-q028-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Visual diagram shown for option C in the question image.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Heaps",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Common data for Questions 29 and 30:\n1. float fn1(float n, int a)\n2. {\n3. float P, S;\n   int I;\n4. for(S = x, P = 1, I = 1; P = P * x * x;\n5. I < a; I++)\n   S = S + P/(I);\n6. return (S);\n7. }\n8. int f(int x)\n9. {\n10. int f = 1;\n11. for (int i = 1; i <= n; i++)\n12. f = f * i;\n13. return (f);\n14. }",
+      "text": "Consider a complete binary tree of 15 nodes. How far are the most distant two nodes? (Assume each path count as 1)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "about \\(2\\log_2 15\\)"
+        },
+        {
+          "label": "B",
+          "text": "about \\(\\log_2 15\\)"
+        },
+        {
+          "label": "C",
+          "text": "about \\(3\\log_2 15\\)"
+        },
+        {
+          "label": "D",
+          "text": "about \\(4\\log_2 15\\)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "about \\(2\\log_2 15\\)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Binary Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Common data for Questions 29 and 30:\n1. float fn1(float n, int a)\n2. {\n3. float P, S;\n   int I;\n4. for(S = x, P = 1, I = 1; P = P * x * x;\n5. I < a; I++)\n   S = S + P/(I);\n6. return (S);\n7. }\n8. int f(int x)\n9. {\n10. int f = 1;\n11. for (int i = 1; i <= n; i++)\n12. f = f * i;\n13. return (f);\n14. }",
+      "text": "When the statement numbered 4, 5, 6, 7 are replaced by\n{for (S = 1, P = –x, I = 1; I < a; i++)\nP = P * x * x – 1;\nWhat will be the approximation of f(x)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "LPRE = LPOST"
+        },
+        {
+          "label": "B",
+          "text": "LIN = LPRE"
+        },
+        {
+          "label": "C",
+          "text": "LIN = LPOST"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of the above",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Tree Traversals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following pairs of traversals on a labeled binary tree. Which of these pairs identify a tree uniquely?\n(I) Inorder and Postorder\n(II) Preorder and Postorder\n(III) Preorder and Inorder\n(IV) Level order and Postorder",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "II only"
+        },
+        {
+          "label": "B",
+          "text": "I and III"
+        },
+        {
+          "label": "C",
+          "text": "III only"
+        },
+        {
+          "label": "D",
+          "text": "IV only"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "I and III",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Tree Traversals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Common Data for Questions 32 and 33:\nConsider the following C code segment\nint x, y, z = 0;\nvoid fun(void);\nmain()\n{\nstatic int x = 4; ----------------S1\nfun();\nx++;\nfun();\nprintf(“\\n %d %d”, x, y);\n}\nvoid fun(void)\n} static int x = 6; ------------S2\nint y =2;\nx += ++y;\nprintf(“\\n %d %d”, x, y);\n}",
+      "text": "What output is generated by the given code segment?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "9 3\n9 3\n5 0"
+        },
+        {
+          "label": "B",
+          "text": "9 3\n12 3\n5 0"
+        },
+        {
+          "label": "C",
+          "text": "9 3\n9 3\n9 3"
+        },
+        {
+          "label": "D",
+          "text": "9 3\n12 4\n5 garbage value"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "9 3\n12 3\n5 0",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C Storage Classes",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Common Data for Questions 32 and 33:\nConsider the following C code segment\nint x, y, z = 0;\nvoid fun(void);\nmain()\n{\nstatic int x = 4; ----------------S1\nfun();\nx++;\nfun();\nprintf(“\\n %d %d”, x, y);\n}\nvoid fun(void)\n} static int x = 6; ------------S2\nint y =2;\nx += ++y;\nprintf(“\\n %d %d”, x, y);\n}",
+      "text": "What output is generated by the given code segment if S1 is replaced by auto int x = 4; S2 is replaced by register int x = 6;",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "9 3\n12 3\n5 0"
+        },
+        {
+          "label": "B",
+          "text": "9 3\n9 3\n5 0"
+        },
+        {
+          "label": "C",
+          "text": "9 3\n9 3\n12 3"
+        },
+        {
+          "label": "D",
+          "text": "9 3\n12 4\n5 garbage value"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "9 3\n9 3\n12 3",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C Storage Classes",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Linked Data Questions 34 and 35\nConstruct a binary search tree with elements 55, 40, 65, 60, 35, 20, 25, 70, 50, 10, 15. Inserted in order.",
+      "text": "What will be the output of post order transversal of the BST?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "15, 10, 25, 20, 35, 40, 50, 60, 70, 65, 55"
+        },
+        {
+          "label": "B",
+          "text": "15, 10, 25, 20, 35, 50, 40, 60, 70, 65, 55"
+        },
+        {
+          "label": "C",
+          "text": "15, 10, 25, 20, 35, 40, 60, 50, 70, 65, 55"
+        },
+        {
+          "label": "D",
+          "text": "15, 10, 25, 20, 35, 40, 70, 65, 60, 50, 55"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "15, 10, 25, 20, 35, 50, 40, 60, 70, 65, 55",
+      "explanation": "15, 10, 25, 20, 35, 50, 40, 60, 70, 65, 55   Choice (B)",
+      "status": "confirmed",
+      "image": "images/Programming_and_Data_Structure_2/programming_and_data_structure_2-q034-question.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Binary Search Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_2.pdf",
+      "direction": "Linked Data Questions 34 and 35\nConstruct a binary search tree with elements 55, 40, 65, 60, 35, 20, 25, 70, 50, 10, 15. Inserted in order.",
+      "text": "In the above binary search tree, to locate the number 15, which of the following probe sequence is possible?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "55, 40, 35, 25, 10, 15"
+        },
+        {
+          "label": "B",
+          "text": "55, 40, 50, 20, 10, 15"
+        },
+        {
+          "label": "C",
+          "text": "55, 40, 35, 20, 10, 15"
+        },
+        {
+          "label": "D",
+          "text": "55, 60, 35, 25, 10, 15"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "55, 40, 35, 20, 10, 15",
+      "explanation": null,
+      "status": "confirmed",
+      "image": "images/Programming_and_Data_Structure_2/programming_and_data_structure_2-q035-question.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Binary Search Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_2.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

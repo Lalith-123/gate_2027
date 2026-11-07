@@ -1,0 +1,1513 @@
+[
+  {
+    "id": "gate-programming-and-data-structures-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following memory access methods, will accurately predict the amount of time it will take to receive the data after requesting it?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sequential access"
+        },
+        {
+          "label": "B",
+          "text": "Direct access"
+        },
+        {
+          "label": "C",
+          "text": "Random access"
+        },
+        {
+          "label": "D",
+          "text": "Both (B) and (C)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Random access",
+      "explanation": "Random access uses a decoder to instantly access the location regardless of current state of the memory where as sequential and Direct methods depends on current data read/write position. \nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "In which of the following access method, any location can be accessed in a fixed amount of time after specifying its address?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sequential access"
+        },
+        {
+          "label": "B",
+          "text": "Random access"
+        },
+        {
+          "label": "C",
+          "text": "Direct access"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Random access",
+      "explanation": "Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following statement is TRUE with respect to write-through and write-back techniques?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Write-back scheme is faster than write-through."
+        },
+        {
+          "label": "B",
+          "text": "Write-through improves performance better than write-back."
+        },
+        {
+          "label": "C",
+          "text": "Write-through is more complex to implement than write-back"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Write-back scheme is faster than write-through.",
+      "explanation": "Write-back scheme is faster than write-through write-back improves performance but is complex to implement. \nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Increasing the degree of associativity of a cache memory will",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "increases the miss rate."
+        },
+        {
+          "label": "B",
+          "text": "decreases the miss rate."
+        },
+        {
+          "label": "C",
+          "text": "increases the number of sets."
+        },
+        {
+          "label": "D",
+          "text": "decreases the number of elements per set."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "decreases the miss rate.",
+      "explanation": "Increasing the degree of associativity of a cache will decrease the miss rate, decreases the number of sets and increases the number of elements per set.\n \nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following address information is required to identify whether a word in the cache corresponds to the requested word or not?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tag"
+        },
+        {
+          "label": "B",
+          "text": "Index"
+        },
+        {
+          "label": "C",
+          "text": "Line number"
+        },
+        {
+          "label": "D",
+          "text": "offset"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Tag",
+      "explanation": "Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following factors will be better effected because of larger cache memory?\n(i) Hit rate\n(ii) Cost\n(iii) Speed\n(iv) Power consumption\n(v) Reliability",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(ii), (iv), (v)"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(i) only"
+        },
+        {
+          "label": "D",
+          "text": "(i), (iii), (iv)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "(i) only",
+      "explanation": "With large cache memories, the hit rate is improved. Cost increases, speed reduced, power consumption is high and reliability is reduced. \nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If the depth of a pipeline increases, then which of the following is true?\n(i) Clock frequency increases\n(ii) CPI increases\n(iii) Branch mis-prediction penalty reduced.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iii) only"
+        },
+        {
+          "label": "C",
+          "text": "(i), (iii) only"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "(i), (ii) only",
+      "explanation": "If there is an increase in pipeline depth then clock frequency, CPI, mis-prediction penalty increases.\n \nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following are the necessary conditions for an n-stage pipeline is n times faster than a non pipelined processor?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Equal cycle time (of the stages)."
+        },
+        {
+          "label": "B",
+          "text": "All instructions take equal number of cycles."
+        },
+        {
+          "label": "C",
+          "text": "No stalls between instructions."
+        },
+        {
+          "label": "D",
+          "text": "All of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All of the above",
+      "explanation": "Choice (A), (B), (C) are all the necessary conditions for an n stage pipeline to be efficient.\nEqual cycle time means no structural hazards. Equal number of cycles means no control hazards.\nNo stalls means no data hazards. \nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following technique is generally used to avoid WAR and WAW hazards?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "By executing an instruction only when the operands are available."
+        },
+        {
+          "label": "B",
+          "text": "By Register renaming."
+        },
+        {
+          "label": "C",
+          "text": "Delayed pranching."
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "By Register renaming.",
+      "explanation": "Register renaming is used to avoid WAR and WAW hazards. \nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Assume a memory access to main memory on a cache miss takes 10 ns and a memory access to the cache on a cache hit takes 1 ns. If 90% of the processors memory requests result in a cache hit, what is the average memory access time?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 ns"
+        },
+        {
+          "label": "B",
+          "text": "1 ns"
+        },
+        {
+          "label": "C",
+          "text": "1.9 ns"
+        },
+        {
+          "label": "D",
+          "text": "1.4 ns"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1.9 ns",
+      "explanation": "Miss time = 10 ns\nHit time = 1 ns\n90% are hits.\nAverage memory access time\n= 0.9 * 1 + 0.1 * 10\n= 0.9 + 1 = 1.9 ns. \nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following set of instructions:\nI1: R1 ← R2 + R3\nI2: R3 ← R1 + R2\nI3: R1 ← R1 * R3\nThe time taken by the 4-stages of the pipeline is given below:\n\nFetch    Decode    Execute    Write\nI1       1         2          2       1\nI2       1         2          1       2\nI3       1         1          2       1\n\nWhat is the number of cycles needed to execute above instructions (use operand forwarding)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "11"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_3/computer_organization_and_architecture_3-q011-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "10",
+      "explanation": "1    2    3    4    5    6    7    8    9    10\nI1   F    D    D    E    E    W\nI2        F             D    D    E    W    W\nI3             F                      D    E    E    W\n∴ 10 clock cycles required.                Choice (B)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_3/computer_organization_and_architecture_3-q011-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the execution of n instructions using k stages of a pipeline, each stage requires ‘t’ time units. Which of the following expression provides the speed up measure of the pipeline?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\(\\frac{nk}{n+k-1}\\)"
+        },
+        {
+          "label": "B",
+          "text": "\\(\\frac{nk}{n+k}-t\\)"
+        },
+        {
+          "label": "C",
+          "text": "\\(\\frac{n}{n+k-1}\\)"
+        },
+        {
+          "label": "D",
+          "text": "\\(\\frac{k}{n+k}\\)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "\\(\\frac{nk}{n+k-1}\\)",
+      "explanation": "Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider 2 MB of RAM and 4 KB of cache with block size of 16 B. What are the sizes of fields used in associative mapping technique?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "16, 5"
+        },
+        {
+          "label": "B",
+          "text": "8, 9, 4"
+        },
+        {
+          "label": "C",
+          "text": "9, 8, 4"
+        },
+        {
+          "label": "D",
+          "text": "17, 4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "17, 4",
+      "explanation": "RAM size = 2 MB = 2^21 B\n21 bits\nTag       Offset\nBlock size = 16 B = 2^4 B\n⇒ offset = 4\n⇒ Tag = 21 – 4 = 17. \nChoice (D)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_3/computer_organization_and_architecture_3-q013-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a cache, which requires 2 clock cycles. If there is a cache miss, it will stall the processor for an additional 5 clock cycles. Then what will be the hit rate to achieve an average memory access of 3 clock cycles?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "80%"
+        },
+        {
+          "label": "B",
+          "text": "85%"
+        },
+        {
+          "label": "C",
+          "text": "90%"
+        },
+        {
+          "label": "D",
+          "text": "95%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "80%",
+      "explanation": "Cache hit requires 2 clock cycles.\nCache miss requires 7 clock cycles.\nAverage memory access requires 3 clock cycles.\nLet hit rate is x, then 3 = x * 2 + (1 – x)7\n⇒ 3 = 2x + 7 – 7x\n⇒ 5x = 4\n⇒ x = \\(\\frac{4}{5}\\)×100 = 80%                                  Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "A digital computer has a memory unit of 64 K × 16 and a cache memory of 1 K words. The cache uses direct mapping with a block size of 4 words. The number of bits present in each line of cache are________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "20 bits"
+        },
+        {
+          "label": "B",
+          "text": "22 bits"
+        },
+        {
+          "label": "C",
+          "text": "26 bits"
+        },
+        {
+          "label": "D",
+          "text": "33 bits"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "22 bits",
+      "explanation": "Main memory capacity is 64 K × 16.\nIt has 16-bit address\n16 bits\nTag       Line       word\nBlock size = 4 words = 2^2\n⇒ word size = 2\nNumber of lines in cache = \\(\\frac{2^{10}}{2^2}=2^8\\)\n∴ line field width = 8\n⇒ Tag = 16 – 10 = 6\nEach line cache holds\nTag + Data = 6 + 16-bits = 22-bits. \nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_3/computer_organization_and_architecture_3-q015-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a cache of 4 K blocks, a 4 word block size and a 32 bit address main memory. What is the total number of tag bits per set for 4 way set associative cache?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "36"
+        },
+        {
+          "label": "C",
+          "text": "72"
+        },
+        {
+          "label": "D",
+          "text": "64"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "72",
+      "explanation": "Main memory address has 32-bits.\nTag       Set       Offset\nBlock size = 4 words = 4 × 4 Bytes = 2^4 B\n⇒ offset = 4\nNumber of blocks in cache = 4 K = 2^12\nNumber of sets = \\(\\frac{2^{12}}{4}=2^{10}\\)\n⇒ set field width = 10\n∴ Tag = 32 – (10 + 4) = 18\nNumber of tag bits per set is 18 * 4 = 72 bits.\n \nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_3/computer_organization_and_architecture_3-q016-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "A 5-stage pipeline contains IF, ID, FO (fetch operands), EX, WB stages. Each stage takes 1 clock cycle. Consider the execution of the following two instructions on this pipeline:\nI1: ADD a, b; a ← a + b\nI2: MUL c, a; c ← c * a\nWhat is the number of clock cycles required for the execution using operand forwarding?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "6",
+      "explanation": "1    2    3    4    5    6    7    8    9\nI1   IF   ID   FO   EX   WB\nI2        IF   ID   FO   EX   WB\n∴ number of clock cycles required = 6. Choice (A)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_3/computer_organization_and_architecture_3-q017-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consier a main memory address of p-bits and an associated direct-mapped cache of having 2^n blocks. Block size is 2^m bytes. Then the Tag field is of ______ bits.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\(p-(n+m+2)\\)"
+        },
+        {
+          "label": "B",
+          "text": "\\(p+n+m\\)"
+        },
+        {
+          "label": "C",
+          "text": "\\(p-n+m\\)"
+        },
+        {
+          "label": "D",
+          "text": "\\(p-n-m\\)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "\\(p-n-m\\)",
+      "explanation": "Tag       Line       Offset\np-bits\nn    m\n⇒ Tag = p – (n + m) bits. \nChoice (D)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_3/computer_organization_and_architecture_3-q018-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "A 2-way set-associative cache is made up of 32-bit words, has 4 words per line and 4096 sets. Then the cache capacity in bytes is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "32 K"
+        },
+        {
+          "label": "B",
+          "text": "64 K"
+        },
+        {
+          "label": "C",
+          "text": "128 K"
+        },
+        {
+          "label": "D",
+          "text": "256 K"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "128 K",
+      "explanation": "Number of sets = 4096\nNumber of words = 4 words\nWord length = 32-bits = 4 B\n⇒ Number of words (in bytes) = 4 * 4 B = 16B\nThe cache is 2-way set associative.\nCache capacity = 2 * 4096 * 16\n= 2^1 * 2^12 * 2^4\n= 2^17 B = 128 KB.                    Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "A main memory of a computer has 4096 blocks, each consisting of 128 words. Each word is of 32-bits in size. Then the number of bits present in main memory address is _____ bits.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "19"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "21"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "21",
+      "explanation": "Number of blocks = 4096\nNumber of words per block = 128\nWord size = 32 bits = 4 B\nNumber of words per block\n(in bytes) = 128 * 4 B = 512 B\nMain memory capacity = 4096 * 512 B\n= 2^12 * 2^9B = 2^21 B\n∴ 21-bits required for main memory address.\n \nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a computer, whose address has M bits (using byte addressing), the cache data size is C bytes, the block size is B = 2^b bytes and the cache is k-way set-associative. Then the number of bits in the set field of the address is given by",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\(\\log_2 C-\\log_2 M\\)"
+        },
+        {
+          "label": "B",
+          "text": "\\(\\log_2 C-\\log_2 M-b\\)"
+        },
+        {
+          "label": "C",
+          "text": "\\(\\log_2 M-b\\)"
+        },
+        {
+          "label": "D",
+          "text": "\\(\\log_2 B-\\log_2 M\\)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "\\(\\log_2 C-\\log_2 M-b\\)",
+      "explanation": "Cache size = C bytes\nBlock size, B = 2^b bytes\nThe cache is m-way set-associative.\nNumber of sets in cache = \\(\\frac{C}{M \\times B}\\)\nBits required for set field is \\(\\log_2\\left(\\frac{C}{M \\times B}\\right)\\)\n= \\(\\log_2 C-\\log_2(M \\times B)\\) = \\(\\log_2 C-\\log_2 M-\\log_2 B\\)\n= \\(\\log_2 C-\\log_2 M-\\log_2 2^b\\)\n= log C – log M – b.                             Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a 5-stage pipeline with the stage delays as shown below:\n\nStage       Delay\nFetch       30 ns\nDecode      40 ns\nExecute     35 ns\nMemory      50 ns\nWrite       10 ns\n\nLatch delay between the pipeline stages is 2 ns.\nWhat are the cycle time and latency values (in ns) of an instruction respectively?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "50, 50"
+        },
+        {
+          "label": "B",
+          "text": "52, 260"
+        },
+        {
+          "label": "C",
+          "text": "50,1"
+        },
+        {
+          "label": "D",
+          "text": "52, 1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_3/computer_organization_and_architecture_3-q022-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "52, 260",
+      "explanation": "Cycle time = maximum stage delay + latch delay\n= 50 + 2 = 52 ns\nLatency = number of stages * cycle time\n= 5 * 52 = 260 ns.                       Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the execution of the following program on a 5 stage pipeline with the stages Fetch (F), Decode (D), Execute (E), Memory (M) and write (W).\nADD R1, R2, 10; R1 ← R2 + 10\nLOAD R2, 4 (R1); R3 ← M[R1 + 4]\nADD R4, R2, R3,; R4 ← R2 + R3\nSTORE R4, 8(R1); M[8 + R1] ←R4\nLOAD R5, 0(R6); R5 ← M(R6)\nOR R5, R1, R4,; R5 ← R1 or R4\nIf each stage requires one clock cycle, the number of stalls required for the program execution with forwarding are",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1",
+      "explanation": "1  2  3  4  5  6  7  8  9  10  11\nI1 F  D  E  M  W\nI2    F  D  E  M  W\nI3       F     D  E  M  W\nI4          F     D  E  M  W\nI5             F  D  E  M  W\nI6                F  D  E  M  W\nOne stall caused by 2nd and 3rd instructions.\n \nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_3/computer_organization_and_architecture_3-q023-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.\n\nThe outcome of a branch is given as:\nT, T, NT, T\nWhere T: Taken\nNT: Not Taken",
+      "text": "What is the accuracy of ‘always taken’ predictor for the above sequence of branch outcomes?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "100%"
+        },
+        {
+          "label": "B",
+          "text": "75%"
+        },
+        {
+          "label": "C",
+          "text": "50%"
+        },
+        {
+          "label": "D",
+          "text": "25%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "75%",
+      "explanation": "Given predictor always predicts about the branch ‘Taken’.\nPrediction    T    T    T    T\nOutcome       T    T    NT   T\nResult        True True False True\n1 out of 4 predictions is wrong.\ni.e., Accuracy of predictor = \\(\\frac{3}{4}\\)\n* 100 = 75%.                                  Choice (B)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_3/computer_organization_and_architecture_3-q024-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.\n\nThe outcome of a branch is given as:\nT, T, NT, T.\nWhere T : Taken\nNT: Not Taken",
+      "text": "What is the accuracy of ‘2-bit predictor’ for the above sequence of branch outcome?\n(If the 2-bit predictor starts with T)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "100%"
+        },
+        {
+          "label": "B",
+          "text": "75%"
+        },
+        {
+          "label": "C",
+          "text": "50%"
+        },
+        {
+          "label": "D",
+          "text": "25"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "75%",
+      "explanation": "Using 2-bit predictor, the predictor will change its decision with two successive wrong predictions.\nInitial prediction: T\nPrediction    T    T    T    T\nOutcome       T    T    NT   T\nResult        True True False True\nAccuracy = \\(\\frac{3}{4}\\)\n* 100 = 75%.                                             Choice (B)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_3/computer_organization_and_architecture_3-q025-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

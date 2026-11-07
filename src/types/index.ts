@@ -1,20 +1,17 @@
 export type QuestionType = 'MCQ' | 'MSQ' | 'NAT';
 export type Difficulty = 'Easy' | 'Medium' | 'Hard';
+export type SourceType = 'official' | 'trusted' | 'recalled' | 'practice_test';
 
 export interface QuestionOption {
   label: string;
   text: string;
+  /** Resolved image URL for options rendered as figures, else null. */
+  image: string | null;
 }
 
-export type QuestionImage = string | {
-  url: string;
-  caption: string;
-  source: string;
-};
-
 export interface QuestionSource {
-  type: 'official' | 'trusted' | 'recalled';
-  organization: string;
+  type: SourceType;
+  organization: string | null;
   documentTitle: string;
   url: string | null;
   page: number | null;
@@ -28,7 +25,14 @@ export interface QuestionVerification {
 
 export interface QuestionClassification {
   subject: string | null;
+  /** Primary topic, mirroring the raw data label. */
   topic: string | null;
+  /**
+   * Every topic this question belongs to. Source data packs several topics into
+   * one comma-separated `topic` string, and a question is written into one file
+   * per topic, so these are derived from `topic` by the loader.
+   */
+  topics: string[];
   subtopic: string | null;
   tags: string[];
 }
@@ -36,7 +40,8 @@ export interface QuestionClassification {
 export interface QuestionExam {
   name: string;
   fullName: string;
-  year: number;
+  /** Null for practice tests that are not tied to a real GATE year. */
+  year: number | null;
   /** GATE paper code, e.g. CSE. */
   session?: string;
 }
@@ -49,6 +54,12 @@ export interface QuestionBody {
   marks: number;
   negativeMarks: number;
   difficulty: Difficulty;
+  /** Source PDF filename, so the question can be found in the original paper. */
+  pdfName: string | null;
+  /** Full-question crop/figure from the source PDF, already resolved to a URL. */
+  image: string | null;
+  /** Shared instruction for a group of questions, shown above the text. */
+  direction: string | null;
 }
 
 export interface QuestionAnswer {
@@ -56,6 +67,8 @@ export interface QuestionAnswer {
   correctOption: string | string[];
   correctText: string;
   explanation: string | null;
+  /** Solution/figure crop from the source PDF, already resolved to a URL. */
+  image: string | null;
   status: 'confirmed' | 'disputed' | 'uncertain';
   /** NAT only: absolute error allowed against the accepted value. */
   natTolerance?: number;
@@ -69,7 +82,6 @@ export interface Question {
   question: QuestionBody;
   answer: QuestionAnswer;
   classification: QuestionClassification;
-  images: QuestionImage[];
   source: QuestionSource;
   verification: QuestionVerification;
 }
@@ -102,16 +114,21 @@ export interface NoteRecord {
   timestamp: number;
 }
 
+export type BrowseMode = 'all' | 'previousYear' | 'topic';
+
+/**
+ * `all` serves the entire bank. `previousYear` and `topic` narrow it to one
+ * year or one topic, and honour `year` / `subject` / `topic` only when they are
+ * not `all`.
+ */
 export interface Filters {
-  exam: string | 'all';
+  browseMode: BrowseMode;
   year: number | 'all';
-  branch: string | 'all';
   subject: string | 'all';
   topic: string | 'all';
-  subtopic: string | 'all';
   type: QuestionType | 'all';
   difficulty: Difficulty | 'all';
-  source: 'all' | 'official' | 'trusted' | 'recalled';
+  source: SourceType | 'all';
   status: 'all' | 'unattempted' | 'correct' | 'incorrect' | 'bookmarked';
 }
 

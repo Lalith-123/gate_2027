@@ -19,12 +19,10 @@ import {
 const SESSION_WINDOW = 20;
 
 const DEFAULT_FILTERS: Filters = {
-  exam: 'all',
+  browseMode: 'all',
   year: 'all',
-  branch: 'all',
   subject: 'all',
   topic: 'all',
-  subtopic: 'all',
   type: 'all',
   difficulty: 'all',
   source: 'all',

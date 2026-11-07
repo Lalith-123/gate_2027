@@ -1,0 +1,1504 @@
+[
+  {
+    "id": "gate-programming-and-data-structures-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "On which of the following factors does the CPU execution time of a program depends?\n(i) CPU clock cycles required for a program.\n(ii) Clock cycle time.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) only"
+        },
+        {
+          "label": "C",
+          "text": "Both (i) and (ii)"
+        },
+        {
+          "label": "D",
+          "text": "Neither (i) nor (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both (i) and (ii)",
+      "explanation": "CPU execution time for a program = CPU clock cycles for a program * clock cycle time.            Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "CPU Performance",
+      "subtopic": "CPU execution time",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following component(s) is not related to the performance of a computer?\n(i) CPU execution time for a program\n(ii) Instruction count\n(iii) Clock cycles per instruction\n(iv) Clock cycle time",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(ii) only"
+        },
+        {
+          "label": "B",
+          "text": "(iii) and (iv)"
+        },
+        {
+          "label": "C",
+          "text": "(i), (iv)"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of these",
+      "explanation": "All the four are the basic measurements at different levels in the computer.                        Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "CPU Performance",
+      "subtopic": "Performance metrics",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following metrics will be affected by the Instruction set Architecture?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Instruction count"
+        },
+        {
+          "label": "B",
+          "text": "Clock rate"
+        },
+        {
+          "label": "C",
+          "text": "CPI"
+        },
+        {
+          "label": "D",
+          "text": "All of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All of the above",
+      "explanation": "The instruction set architecture affects all the three aspects of CPU performance; it affects the instructions needed for a function, the cost in cycles of each instruction and the overall clock rate of the processor.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "CPU Performance",
+      "subtopic": "Instruction set architecture",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following combination illustrates the basic design principles of the Hardware design of a computer?\n(i) Simplicity favours regularity\n(ii) Smaller is faster\n(iii) Make the common case fast\n(iv) Good design demands good compromises",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (iii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iv)"
+        },
+        {
+          "label": "C",
+          "text": "(i), (ii), (iv)"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii), (iv)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i), (ii), (iii), (iv)",
+      "explanation": "4. The design principles of Hardware of a computer are\n1. Simplicity\n2. Smaller number of registers\n3. Commonly occurring things needs to be constant.\n4. Some compromises required for good design\n                                               Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Design",
+      "subtopic": "Hardware design principles",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "To convert a 16 - bit number to a 32 - bit equivalent, take the MSB of the number and replicate it to fill the new bits of the 32 - bit number. The old bits are copied into the right portion of the new word. This is known as",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sign expansion"
+        },
+        {
+          "label": "B",
+          "text": "Sign extension"
+        },
+        {
+          "label": "C",
+          "text": "Size casting"
+        },
+        {
+          "label": "D",
+          "text": "Conversion from 16 bit number to 32 bit number is not possible"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Sign extension",
+      "explanation": null,
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_2/computer_organization_and_architecture_2-q005-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Data Representation",
+      "subtopic": "Sign extension",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "A number in scientific notation that has no leading zeros is called a ––––– number.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Floating point"
+        },
+        {
+          "label": "B",
+          "text": "Normalized"
+        },
+        {
+          "label": "C",
+          "text": "Overflow"
+        },
+        {
+          "label": "D",
+          "text": "De-normalized"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Normalized",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Data Representation",
+      "subtopic": "Normalized numbers",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Consider a 5 - stage pipeline:\n1. Instruction fetch           2. Register Read\n3. ALU operation               4. Data Access\n5. Register write\nThe time taken for memory access is 200 ns, CPU operation is 200 ns, register read or write is 100 ns. Consider a program with the following kind of instructions:\nI1: Load word\nI2: Store word\nI3: ALU operation\nI4: BEQ (Branch if equal)",
+      "text": "If each instruction takes exactly one clock cycle, under ideal conditions, what is the time between I1 and I4 with out pipelining?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "800 ns"
+        },
+        {
+          "label": "B",
+          "text": "2100 ns"
+        },
+        {
+          "label": "C",
+          "text": "2400 ns"
+        },
+        {
+          "label": "D",
+          "text": "600 ns"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "2400 ns",
+      "explanation": "Without using pipelining the time taken for a single instruction is the sum of the times required by all the stages of the pipeline.\ni.e., IF + RR + ALU + DA + RW\n= 200 + 100 + 200 + 200 + 100 = 800ns\nEach instruction requires one clock cycle.\nTime between I4 and I1 is 800 ns * 3(instructions)\n= 2400 ns.                                    Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pipelining",
+      "subtopic": "Pipeline timing",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Consider a 5 - stage pipeline:\n1. Instruction fetch           2. Register Read\n3. ALU operation               4. Data Access\n5. Register write\nThe time taken for memory access is 200 ns, CPU operation is 200 ns, register read or write is 100 ns. Consider a program with the following kind of instructions:\nI1: Load word\nI2: Store word\nI3: ALU operation\nI4: BEQ (Branch if equal)",
+      "text": "For the previous problem, what is the time between I1 and I4 using pipelining?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2100 ns"
+        },
+        {
+          "label": "B",
+          "text": "2400 ns"
+        },
+        {
+          "label": "C",
+          "text": "800 ns"
+        },
+        {
+          "label": "D",
+          "text": "600 ns"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "600 ns",
+      "explanation": "Using pipelining I2 will start IF after completion of I1’s IF.\nSo the maximum stage delay 200 ns is considered as time between I1 and I2.\n(i.e., any two instructions)\nTime between I1 and I4 is 3 × 200 ns = 600 ns.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pipelining",
+      "subtopic": "Pipeline timing",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The speed up of pipelined processor compared to non pipelined processor is\n––––– the number of pipeline stages.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "always equal to"
+        },
+        {
+          "label": "B",
+          "text": "always less than"
+        },
+        {
+          "label": "C",
+          "text": "less than"
+        },
+        {
+          "label": "D",
+          "text": "greater than"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "less than",
+      "explanation": "The speed up of pipelined processor is equal to number of pipeline stages under ideal conditions. But in general, it will be less than the number of stages.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pipelining",
+      "subtopic": "Speedup",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Pipelining improves the performance by",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "increasing instruction throughput."
+        },
+        {
+          "label": "B",
+          "text": "decreasing the execution time of an individual instruction."
+        },
+        {
+          "label": "C",
+          "text": "Both (A) and (B)"
+        },
+        {
+          "label": "D",
+          "text": "replacing complex instructions with simple instructions."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "increasing instruction throughput.",
+      "explanation": "Pipelining improves performance by increasing instruction throughput rather than decreasing the execution time of an individual instruction.            Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pipelining",
+      "subtopic": "Throughput",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Assume that an enhancement is made to a computer that improves some mode of execution by a factor of 10. This new fast mode is used 50% of the time, measured as a percentage of the execution time when the fast mode is in use. What is the over all speed up we can achieve?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5.5"
+        },
+        {
+          "label": "B",
+          "text": "5.2"
+        },
+        {
+          "label": "C",
+          "text": "4.8"
+        },
+        {
+          "label": "D",
+          "text": "5.0"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "5.5",
+      "explanation": "Speed of after enhancement\n= 0.5 * 10 + (1 – 0.5)\n= 5 + 0.5 = 5.5.                              Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "CPU Performance",
+      "subtopic": "Speedup",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "A bus protocol requires 20 ns for devices to make requests, 10 ns for arbitration and 30 ns to complete each operation. How many operations can be completed per second?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 * 10^6"
+        },
+        {
+          "label": "B",
+          "text": "17 * 10^6"
+        },
+        {
+          "label": "C",
+          "text": "20 * 10^6"
+        },
+        {
+          "label": "D",
+          "text": "33 * 10^6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "17 * 10^6",
+      "explanation": "Time taken for an operation= 20 ns + 10 ns + 30 ns\n= 60 ns. Number of operations completed per second\n             1\n= ----------------\n    60 × 10 −9\n= 17 * 10^6 operations/sec                     Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "I/O and Bus",
+      "subtopic": "Bus protocol",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "A process has five interrupt lines, numbered 0 – 4 and a policy that low numbered interrupts have priority over higher numbered ones. The processor starts with no interrupts pending and the following sequence of interrupts occurs: 4, 3, 0, 1, 2, 3\nAssume that handling any interrupt takes enough time that two more interrupts arrive while the first interrupt is being handled, until all of the interrupts have arrived and that interrupts cannot interrupt each other.\nIn what order the interrupts are handled ?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0, 1, 2, 3, 3, 4"
+        },
+        {
+          "label": "B",
+          "text": "4, 3, 0, 1, 2, 3"
+        },
+        {
+          "label": "C",
+          "text": "4, 0, 1, 3, 2, 3"
+        },
+        {
+          "label": "D",
+          "text": "4, 0, 1, 2, 3, 3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "4, 0, 1, 2, 3, 3",
+      "explanation": "Lower numbered interrupts have high priority.\nLet initially 4 is handled, mean while, 3 and 0 will occur. Give priority to 0.\nWhile 0 is handled, 1 and 2 will occur with 3 also in pending Queue. Next handle 1, 2, 3, 3.\n∴ Order is 4, 0, 1, 2, 3, 3.              Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "I/O and Interrupts",
+      "subtopic": "Interrupt priority",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following mapping technique will provide simpler hardware, simple instruction set and provides all addressing modes?\n(i) Memory mapped I/O\n(ii) Isolated I/O",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) only"
+        },
+        {
+          "label": "C",
+          "text": "Both (i) and (ii)"
+        },
+        {
+          "label": "D",
+          "text": "Neither (i) nor (ii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "(i) only",
+      "explanation": "Memory mapped I/O provides\n•  Simple hardware\n•  Simple instruction set\n•  All address modes available.            Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "I/O and Interrupts",
+      "subtopic": "Memory mapped I/O",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following factors limits the maximum transfer rate of DMA?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Speed of I/O devices"
+        },
+        {
+          "label": "B",
+          "text": "Erroneous transfer of block"
+        },
+        {
+          "label": "C",
+          "text": "Speed of bus"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": "DMA does not use CPU but its transfer rate is limited because of\n1. low speed of I/O devices\n2. low speed of bus\n3. less internal buffering\n4. erroneous Disk.                       Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "DMA",
+      "subtopic": "DMA transfer rate",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "An address field in an instruction contains decimal value 10. Where is the corresponding operand located for direct addressing?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "In the location ‘10’."
+        },
+        {
+          "label": "B",
+          "text": "‘10’ is the operand itself."
+        },
+        {
+          "label": "C",
+          "text": "‘PC+ 10’ location."
+        },
+        {
+          "label": "D",
+          "text": "Data insufficient"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "In the location ‘10’.",
+      "explanation": "In direct addressing mode, the address of operand is directly present in the instruction itself. So location 10 contains the data.                       Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Addressing Modes",
+      "subtopic": "Direct addressing",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Suppose we had a block transfer from an I/O device to memory. The block consists of 1024 words and one word can be transferred to/from memory at a time.",
+      "text": "The number of interrupts needed to transfer a block using DMA is ____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "1024"
+        },
+        {
+          "label": "D",
+          "text": "Unpredictable"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1",
+      "explanation": "DMA will generate an interrupt after completion of block transfer.\n∴ One interrupt will be generated.      Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "I/O and Interrupts",
+      "subtopic": "DMA",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Suppose we had a block transfer from an I/O device to memory. The block consists of 1024 words and one word can be transferred to/from memory at a time.",
+      "text": "For the above problem, what is the number of interrupts needed to transfer a block using interrupt driven I/O?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "1024"
+        },
+        {
+          "label": "D",
+          "text": "Unpredictable"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1024",
+      "explanation": "In interrupt driven technique, interrupt will be generated after transfer of every word.\n∴ 1024 interrupts.                          Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "I/O and Interrupts",
+      "subtopic": "Interrupt-driven I/O",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Suppose we had a block transfer from an I/O device to memory. The block consists of 1024 words and one word can be transferred to/from memory at a time.",
+      "text": "For the Q.no :17, what is the number of interrupts needed to transfer a block using ‘programmed I/O’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "1024"
+        },
+        {
+          "label": "D",
+          "text": "Unpredictable"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "0",
+      "explanation": "In programmed I/O, no interrupt will be generated.\nThe CPU will check the status bits.\n∴ Zero interrupts.                         Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "I/O and Interrupts",
+      "subtopic": "Programmed I/O",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The number of times does the processor need to refer to memory when it fetches and executes an indirect address mode instruction (if the instruction is not a branch instruction) is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "3",
+      "explanation": "‘3’ memory references required.\none for fetching instruction and ‘2’ for fetching operand.                                        Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Addressing Modes",
+      "subtopic": "Indirect addressing",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is a valid difference between a program branch instruction and a subroutine call?\n(i) A branch instruction changes the contents of PC.\n(ii) A branch instruction do not save the contents of PC before changing, Where as a subroutine will save PC.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) only"
+        },
+        {
+          "label": "C",
+          "text": "Both (i) and (ii)"
+        },
+        {
+          "label": "D",
+          "text": "Neither (i) nor (ii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both (i) and (ii)",
+      "explanation": "A branch instruction do not save PC before changing PC, where as a subroutine saves for restoring them later.                                   Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Instruction Execution",
+      "subtopic": "Branch and subroutine",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If there are no push and pop operations in an instruction set, then which of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "CPU can’t able to use the stack."
+        },
+        {
+          "label": "B",
+          "text": "CPU can use the stack to perform its internal functions."
+        },
+        {
+          "label": "C",
+          "text": "The programmer can use the stack explicitly."
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "CPU can use the stack to perform its internal functions.",
+      "explanation": "CPU can use stack even if there are no PUSH and POP instructions. PUSH and POP are used by the programmer.                                      Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "CPU Organization",
+      "subtopic": "Stack",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Match the following:\n\nAddressing mode        Basic advantage\n1. Immediate            a. No memory reference\n2. Direct               b. Simple\n3. Indirect             c. Large address space\n4. Register             d. Flexibility",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 – b, 2 – a, 3 – c, 4 – a"
+        },
+        {
+          "label": "B",
+          "text": "1 – a, 2 – a, 3 – d, 4 – b"
+        },
+        {
+          "label": "C",
+          "text": "1 – a, 2 – b, 3 – c, 4 – a"
+        },
+        {
+          "label": "D",
+          "text": "1 – a, 2 – b, 3 – d, 4 – c"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_2/computer_organization_and_architecture_2-q023-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1 – a, 2 – b, 3 – c, 4 – a",
+      "explanation": "Immediate, Register – No memory reference\nDirect – simple.\nIndirect – large address space.         Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Addressing Modes",
+      "subtopic": "Addressing mode advantages",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What is the 8 - bit biased notation representation for –45?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "01010010"
+        },
+        {
+          "label": "B",
+          "text": "10101101"
+        },
+        {
+          "label": "C",
+          "text": "11010011"
+        },
+        {
+          "label": "D",
+          "text": "11010010"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "01010010",
+      "explanation": "The bias using 8-bits is 127.\nBiased value of –45 is\n–45 + 127 = 82 = 01010010.                 Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Data Representation",
+      "subtopic": "Biased notation",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following are the disadvantages of device polling?\n(i) Polling consumes execution resources even when there are no I/O requests to handle.\n(ii) There is a need to schedule the polling frequency.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) only"
+        },
+        {
+          "label": "C",
+          "text": "Both (i) and (ii)"
+        },
+        {
+          "label": "D",
+          "text": "Neither (i) nor (ii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both (i) and (ii)",
+      "explanation": "Polling wastes the resources and the frequency of polling also need to be scheduled.             Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "I/O and Interrupts",
+      "subtopic": "Device polling",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

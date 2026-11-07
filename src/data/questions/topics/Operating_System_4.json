@@ -1,0 +1,1518 @@
+[
+  {
+    "id": "gate-operating-system-test-3-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Round Robin scheduling with large time slice behaves as:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "FCFS"
+        },
+        {
+          "label": "B",
+          "text": "Priority based scheduling"
+        },
+        {
+          "label": "C",
+          "text": "Multi-level queue scheduling"
+        },
+        {
+          "label": "D",
+          "text": "Preemptive SJF"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "FCFS",
+      "explanation": "Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Priority inversion means:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Shortest Job waits for longest job"
+        },
+        {
+          "label": "B",
+          "text": "High priority process waits for low priority process"
+        },
+        {
+          "label": "C",
+          "text": "Longest job waits for shortest job"
+        },
+        {
+          "label": "D",
+          "text": "both (A) and (C)."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "High priority process waits for low priority process",
+      "explanation": "Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following table with 4 processes:\n\nProcess | Arrived Time | Burst Time\nP1 | 0 | 5\nP2 | 1 | 4\nP3 | 2 | 2\nP4 | 3 | 3\n\nIf Longest Remaining Time scheduling (Preemptive longest Job First) is used, then the average turnaround time is _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_4/operating_system_4-q003-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "11",
+      "explanation": "Average TAT = (11 + 11 + 11 + 11) / 4 = 11\nChoice (A)",
+      "status": "confirmed",
+      "image": "images/Operating_System_4/operating_system_4-q003-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following table:\n\nProcess | Arrival Time | Burst Time\nP0 | 0 | 4\nP1 | 1 | 3\nP2 | 1 | 3\nP3 | 2 | 5\n\nIf Longest Job First scheduling is used then the average waiting time is _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5.00"
+        },
+        {
+          "label": "B",
+          "text": "5.25"
+        },
+        {
+          "label": "C",
+          "text": "5.50"
+        },
+        {
+          "label": "D",
+          "text": "5.75"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_4/operating_system_4-q004-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "5.25",
+      "explanation": "Average WT = (0 + 8 + 11 + 2) / 4 = 21 / 4 = 5.25\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Operating_System_4/operating_system_4-q004-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following table:\n\nProcess | Arrival Time | Turn around Time\nP0 | 0 | 15\nP1 | 0 | 2\nP2 | 0 | 18\nP3 | 0 | 20\nP4 | 0 | 7\n\nIf priority scheduling is used for scheduling, what is the burst time of process P₀?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "13"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_4/operating_system_4-q005-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "8",
+      "explanation": "Gantt Chart:\nWaiting Time of P0 is 7.\nBT = TAT – WT = 15 – 7 = 8\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Operating_System_4/operating_system_4-q005-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "As the time quantum increases for Round Robin scheduling, generally the average waiting time:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Increases"
+        },
+        {
+          "label": "B",
+          "text": "Decreases"
+        },
+        {
+          "label": "C",
+          "text": "Unchanged"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Increases",
+      "explanation": "Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider three processes P0, P1, P2 arrived at Time 0, with the burst times x, y, z respectively. x < z < y. What is the average waiting, if SJF is used for scheduling?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\frac{x+y+z}{2}"
+        },
+        {
+          "label": "B",
+          "text": "\\frac{x+z}{3}"
+        },
+        {
+          "label": "C",
+          "text": "\\frac{2x+z}{3}"
+        },
+        {
+          "label": "D",
+          "text": "\\frac{x+z+y}{3}"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "\\frac{2x+z}{3}",
+      "explanation": "Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following table:\n\nProcess | Arrival Time | Burst Time\nP0 | 0 | 8\nP1 | 1 | 4\nP2 | 2 | 2\n\nWhat is average waiting time of processes which have taken more than one slot for completion, When SRTF is used for scheduling?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2.66"
+        },
+        {
+          "label": "B",
+          "text": "3.0"
+        },
+        {
+          "label": "C",
+          "text": "4.0"
+        },
+        {
+          "label": "D",
+          "text": "3.33"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_4/operating_system_4-q008-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "4.0",
+      "explanation": "Processes P0 and P1 executed in multiple slots.\nHence average waiting time of (P0 and P1) = (6 + 2) / 2 = 4\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Operating_System_4/operating_system_4-q008-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Match the following:\n\nList 1: (a) Ready → Running; (b) Running → Waiting; (c) Waiting → Ready; (d) Running → Terminate; (e) Running → Ready\n\nList 2: 1. Dispatching; 2. Preemption; 3. Completion; 4. I/O Request; 5. Event occurred",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1  2  3  4  5"
+        },
+        {
+          "label": "B",
+          "text": "1  4  5  3  2"
+        },
+        {
+          "label": "C",
+          "text": "1  4  2  3  5"
+        },
+        {
+          "label": "D",
+          "text": "1  2  5  4  3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_4/operating_system_4-q009-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1  4  5  3  2",
+      "explanation": "Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process Management",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following:\n\nProcess | Arrival Time | Burst Time\nA | 0 | 4\nB | 1 | 6\nC | 5 | 3\nD | 7 | 2\n\nWhat is the waiting time of process D, if FIFO scheduling is used?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_4/operating_system_4-q010-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "6",
+      "explanation": "Processes ‘D’ schedules at time 13.\nWaiting Time = 13 – 7 (AT) = 6\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Preemptive scheduling takes place when _____.\n(I) process switches from Running to Ready\n(II) process switches from Waiting to Ready\n(III) process switches from Running to waiting\n(IV) process terminates",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I, II"
+        },
+        {
+          "label": "B",
+          "text": "I, II, IV"
+        },
+        {
+          "label": "C",
+          "text": "I, II, III"
+        },
+        {
+          "label": "D",
+          "text": "I, II, III and IV"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "I, II, III and IV",
+      "explanation": "Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Blocking and Non-blocking message passing is also known as:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Synchronous and Asynchronous"
+        },
+        {
+          "label": "B",
+          "text": "Direct and Indirect"
+        },
+        {
+          "label": "C",
+          "text": "Limited Buffer and Zero buffer"
+        },
+        {
+          "label": "D",
+          "text": "Pipes and FIFO"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Synchronous and Asynchronous",
+      "explanation": "Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Inter-Process Communication",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Number of child processes created for the following code segment is _____.\n\nfork();\nfork();\nfork();\nfork();",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "15"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "15",
+      "explanation": "Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process Management",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following statements are TRUE about threads?\nI. Thread library provides support to both user and kernel level threads.\nII. Threads improves the Responsiveness and Resource sharing.\nIII. Kernel level thread switching is faster than user level switching.\nIV. User level thread maintenance is faster than kernel level threads.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I and III"
+        },
+        {
+          "label": "B",
+          "text": "II and IV"
+        },
+        {
+          "label": "C",
+          "text": "II and III"
+        },
+        {
+          "label": "D",
+          "text": "I, II and III"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "II and IV",
+      "explanation": "Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Threads",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Match the following:\n\nList 1: P. Starvation; Q. Ageing; R. Context switching overhead; S. Batch processing\n\nList 2: 1. FCFS; 2. Round Robin; 3. Preemptive Priority; 4. Highest Response Ratio next",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1  4  2  3"
+        },
+        {
+          "label": "B",
+          "text": "4  1  3  2"
+        },
+        {
+          "label": "C",
+          "text": "3  4  2  1"
+        },
+        {
+          "label": "D",
+          "text": "1  4  3  2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_4/operating_system_4-q015-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "3  4  2  1",
+      "explanation": "Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a system with four processes A, B, C and D and ‘m’ instances of resource ‘r’. The resource requirements are 5, 7, 3 and 4 instances of resource ‘r’ respectively. What is the minimum value of ‘m’, hence system is dead lock free?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "19"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "16",
+      "explanation": "Method 1: Each process requirement is Sᵢ for process ‘i’.\nSᵢ – A, B, C, D = 5, 7, 3, 4.\nAssume for each process i, (Sᵢ – 1) resources are allocated: 4, 6, 2, 3.\nThis system state result in deadlock i.e., the system with ≤15 resources may lead to deadlock. If atleast one extra resource available in this state, the system becomes deadlock free. ∴ 16 resources required.\nMethod 2:\n∑ Sᵢ < (m + n)\nSᵢ – resources required for process ‘i’.\nm – number of resources in system\nn – number of process in system.\n(5 + 7 + 3 + 4) < m + 4 ⇒ m = 16\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Deadlock",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following system state may lead to deadlock? Let the system contains ‘r’ instances of resources with ‘n’ processes.\n(Resource requests of each process represented in sets)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "n = 5, r = 20, {5, 5, 5, 5, 5}"
+        },
+        {
+          "label": "B",
+          "text": "n = 5, r = 20, {5, 5, 4, 5, 5}"
+        },
+        {
+          "label": "C",
+          "text": "n = 6, r = 26, {6, 6, 4, 3, 3, 2}"
+        },
+        {
+          "label": "D",
+          "text": "n = 6, r = 26, {6, 6, 4, 3, 3, 3}"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "n = 5, r = 20, {5, 5, 5, 5, 5}",
+      "explanation": "Use this formula to check deadlock state.\n∑ Sᵢ < (m + n)\nSᵢ – Resources required for process ‘i’.\nm – Number of resources\nn – Number of process\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Deadlock",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following Resource allocation Graph:\n\nWhich of the following cycle exist in it’s equivalent wait-for-Graph?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "P1 → P2 → P3 → P4 → P5 → P1"
+        },
+        {
+          "label": "B",
+          "text": "P1 → P2 → P3 → P5 → P1"
+        },
+        {
+          "label": "C",
+          "text": "P1 → P3 → P4 → P5 → P1"
+        },
+        {
+          "label": "D",
+          "text": "P2 → P3 → P4 → P5 → P1 → P2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_4/operating_system_4-q018-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "P1 → P3 → P4 → P5 → P1",
+      "explanation": "The wait-for-graph for given resource allocation graph is shown below:\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Operating_System_4/operating_system_4-q018-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Deadlock",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following Resource allocation graph:\n\nWhich of the following dead lock cycle occurs in the given graph?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "P2 → P3 → P2"
+        },
+        {
+          "label": "B",
+          "text": "P2 → P1 → P4 → P2"
+        },
+        {
+          "label": "C",
+          "text": "Both (A) and (B)"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_4/operating_system_4-q019-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of the above",
+      "explanation": "No dead lock exists in given graph.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Deadlock",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "A counting semaphore has a value—a at a certain time, it represents:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "‘a’ number of processes waiting"
+        },
+        {
+          "label": "B",
+          "text": "‘a’ number of process in critical section"
+        },
+        {
+          "label": "C",
+          "text": "Either (A) or (B)"
+        },
+        {
+          "label": "D",
+          "text": "None, negative values are not allowed on Counting semaphore"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "‘a’ number of processes waiting",
+      "explanation": "Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process Synchronization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Semaphores _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "are process synchronization tools to avoid deadlock."
+        },
+        {
+          "label": "B",
+          "text": "are process synchronization tools to avoid race condition."
+        },
+        {
+          "label": "C",
+          "text": "uses Test And Set for synchronization."
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "are process synchronization tools to avoid race condition.",
+      "explanation": "Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process Synchronization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The system is running with 5 processes. Consider the following code segments for synchronization:\nprocess 1:\nwhile(1)\n{\nsignal (mutex);\n<Critical Section; >\nsignal (mutex);\n}\nProcess i where i = 2,3,4,5.\nwhile (1)\n{\nwait (mutex);\n< Critical Section >\nsignal (mutex);\n}\n‘mutex’ is a binary semaphore.\nAtmost how many processes can enter into the critical section?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "5",
+      "explanation": "Assume that process 2 entered critical section that results in wait of process 3, 4 and 5. But process 1 can enter. Then one more process can enter C.S. If process 1 leaves C.S., then again one more process can enter C.S. Similarly if process 1 enters and exits the C.S. again, 2 more processes can enter C.S.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process Synchronization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Let P0 and P1 are two processes, each accesses two binary semaphores s1 and s2 to enter critical section. s1 and s2 are initialized to 1.\n\nP0: X; <critical section> Y;\nP1: W; <critical section> Z;\n\nConsider the following code segments:\nI. wait (s1);          wait (s2);\nII. wait (s2);         wait (s1);\nIII. signal (s1);      signal (s2);\nIV. signal (s2);      signal (s1);\nWhich of the following may lead to deadlock?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I  III  II  IV"
+        },
+        {
+          "label": "B",
+          "text": "I  III  I  III"
+        },
+        {
+          "label": "C",
+          "text": "II  IV  II  IV"
+        },
+        {
+          "label": "D",
+          "text": "I  III  I  IV"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "I  III  II  IV",
+      "explanation": "Semaphores may be signalled in any order. But semaphores must be locked in same order.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process Synchronization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following snapshot of a system:\n\nProcess | Max R1 R2 R3 | Allocation R1 R2 R3\na | 3 2 4 | 1 1 1\nb | 5 5 2 | 2 3 2\nc | 4 4 3 | 3 1 1\nd | 3 4 4 | 1 0 1\n\nAvailable = {5, 3, 2}\n\nWhich of the following is not a safe sequence?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "a b c d"
+        },
+        {
+          "label": "B",
+          "text": "b c d a"
+        },
+        {
+          "label": "C",
+          "text": "b a c d"
+        },
+        {
+          "label": "D",
+          "text": "c a d b"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_4/operating_system_4-q024-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "a b c d",
+      "explanation": "Need of process ‘A’ is {2, 1, 3}, which is greater than available.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Deadlock",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-3-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.\n\nConsider the following snapshot of a system:\n\nProcess | Max R1 R2 R3 | Allocation R1 R2 R3\na | 3 2 4 | 1 1 1\nb | 5 5 2 | 2 3 2\nc | 4 4 3 | 3 1 1\nd | 3 4 4 | 1 0 1\n\nAvailable = {5, 3, 2}",
+      "text": "In the above system, if process ‘A’ requests for {0, 1, 2} resources and if the request is granted, then the system state is _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "safe state"
+        },
+        {
+          "label": "B",
+          "text": "unsafe state"
+        },
+        {
+          "label": "C",
+          "text": "deadlock"
+        },
+        {
+          "label": "D",
+          "text": "either (B) or (C)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_4/operating_system_4-q025-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "safe state",
+      "explanation": "Process ‘B’ can execute in resultant state, which leads to completion of A, C and D.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Deadlock",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

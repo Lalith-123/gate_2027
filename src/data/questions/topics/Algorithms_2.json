@@ -1,0 +1,2116 @@
+[
+  {
+    "id": "gate-algorithms-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given properties of Asymptotic Notations:\nI. f(n) = θ(g(n)) and g(n) = θ(h(n))\n⇒ f(n) = θ(h(n))\nII. f(n) = θ(g(n)) if and only if g(n) = θ(f(n))\nIII. f(n) = O(g(n)) if and only if g(n) = Ω(f(n))\nIV. f(n) = O(g(n)) if and only if g(n) = O(f(n))\nWhich of the following are valid?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I, II only"
+        },
+        {
+          "label": "B",
+          "text": "I, II, III only"
+        },
+        {
+          "label": "C",
+          "text": "II, III only"
+        },
+        {
+          "label": "D",
+          "text": "I, II, III and IV"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "I, II, III only",
+      "explanation": "Transitivity:\nf(n) = θ(g(n)) and g(n) = θ(h(n))\n⇒ f(n) = θ(h(n)) valid for Ω and O notations also.\nSymmetry:\nf(n) = θ(g(n)) if and only if g(n) = θ(f(n))\nTranspose symmetry:\nf(n) = O(g(n)) if and only if g(n) = Ω(f(n)).\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic Analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given Recurrence Relation\nT(n) = 2^n T(n/3) + n\nWhich of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Master theorem cannot be applied because ‘a’ is not constant."
+        },
+        {
+          "label": "B",
+          "text": "It comes under case 1 of Master theorem."
+        },
+        {
+          "label": "C",
+          "text": "It comes under case 2 of Master theorem."
+        },
+        {
+          "label": "D",
+          "text": "It comes under case 3 of Master theorem."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Master theorem cannot be applied because ‘a’ is not constant.",
+      "explanation": "T(n) = aT(n/b) + f(n)\n‘a’ has to be constant.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Recurrence Relations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Let ‘n’ be the number of elements in the queue, then What is the Time complexity of following operations respectively, Enqueue( ), Dequeue ( ), IsEmptyQueue ( ), Delete Queue( )?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "O(n), O(1), O(1), O(n)"
+        },
+        {
+          "label": "B",
+          "text": "O(1), O(1), O(n), O(1)"
+        },
+        {
+          "label": "C",
+          "text": "O(1), O(1), O(1), O(1)"
+        },
+        {
+          "label": "D",
+          "text": "O(n), O(n), O(n), O(1)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "O(1), O(1), O(1), O(1)",
+      "explanation": "Time complexity of EnQueue( ) = O(1)\nTime complexity of DeQueue( ) = O(1)\nTime complexity of IsEmptyQueue( ) = O(1)\nTime complexity of DeleteQueue( ) = O(1).\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Queues",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following are Applications of Binary Trees?\nI. Huffman coding trees are used in data compression Algorithms.\nII. Priority Queues support search and deletion of minimum or maximum on ‘n’ number of items in (log n) time.\nIII. Expression trees are used in compilers.\nIV. Binary search Tree supports search, insertion and deletion on ‘n’ number of items in (log n) time (average case)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I, II only"
+        },
+        {
+          "label": "B",
+          "text": "I, III, IV only"
+        },
+        {
+          "label": "C",
+          "text": "I, II, III only"
+        },
+        {
+          "label": "D",
+          "text": "I, II, III and IV"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "I, II, III and IV",
+      "explanation": "All the given statements I, II, III and IV are Applications of Binary Trees.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Binary Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A Traversal is defined as follows:\n1. Visit the root\n2. While traversing Level ‘i’, keep all the elements at level ‘i + 1’ in queue.\n3. Go to the next Level and visit all the nodes at that level.\n4. Repeat this until all the levels are completed.\nThe above defined traversal is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Depth First Traversal"
+        },
+        {
+          "label": "B",
+          "text": "Level order Traversal"
+        },
+        {
+          "label": "C",
+          "text": "Binary Tree Traversal"
+        },
+        {
+          "label": "D",
+          "text": "Binary search Tree Traversal"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Level order Traversal",
+      "explanation": "Depth First Traversal:\n1. Pre order Traversal\n2. In order Traversal\n3. Post order Traversal\n\nBreadth First Traversal:\n1. Level order Traversal\nThe traversal defined in the given Questions is Level order traversal.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Tree Traversals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "How many different binary trees are possible with ‘8’ nodes?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "256"
+        },
+        {
+          "label": "B",
+          "text": "128"
+        },
+        {
+          "label": "C",
+          "text": "248"
+        },
+        {
+          "label": "D",
+          "text": "64"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "248",
+      "explanation": "With ‘n’ nodes, it will have the maximum combinations of different trees.\n⇒ 2^8 − 8 = 256 − 8 = 248.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Binary Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A binary search tree is generated by inserting in order the following integers 66, 72, 46, 48, 9, 8, 40, 36, 18, 7, 5, 91, 88, 49, 6. The number of nodes in the Left sub tree and Right sub tree of the root respectively.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(8, 6)"
+        },
+        {
+          "label": "B",
+          "text": "(9, 5)"
+        },
+        {
+          "label": "C",
+          "text": "(10, 4)"
+        },
+        {
+          "label": "D",
+          "text": "(11, 3)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(11, 3)",
+      "explanation": "Root is ‘66’, the numbers less than 66 will appear in Left sub tree and greater numbers appear in Right sub tree.\n∴ (11, 3)",
+      "status": "confirmed",
+      "image": "images/Algorithms_2/algorithms_2-q007-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Binary Search Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "For a Full Binary tree of height ‘h’, the sum of the heights of all nodes is _______ (‘n’ is number of nodes)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "n − (h − 1)"
+        },
+        {
+          "label": "B",
+          "text": "n − (h + 1)"
+        },
+        {
+          "label": "C",
+          "text": "n + (h − 1)"
+        },
+        {
+          "label": "D",
+          "text": "n + (h + 1)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "n − (h + 1)",
+      "explanation": "Let us consider the following Full binary tree\nn = 7 nodes\n\nn − (h + 1)\n⇒ 7 − (2 + 1) = 7 − 3 = 4\nh = 2 (height)\n\n2 + 1 + 1 + 0 + 0 + 0 + 0 = 4.\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Algorithms_2/algorithms_2-q008-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Binary Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A graph ‘G’ has 29 edges and its complement G̅ has 7 edges, what is the number of vertices present in graph G?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "9",
+      "explanation": "G̅(e) = V(V − 1)/2 − G(e)\nV² − V − 72 = 0\n⇒ V(V − 9) + 8(V − 9) = 0\n⇒ V = 9.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graph Theory",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given statements:\nI. Uses priority queue to store unvisited vertices by distance from source.\nII. It uses greedy method, means pick the next closest vertex to the source.\nIII. Does not work with negative weights.\nThe above statements describe",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bellman Ford Algorithm"
+        },
+        {
+          "label": "B",
+          "text": "Dijkstra’s Algorithm"
+        },
+        {
+          "label": "C",
+          "text": "Breadth First search Algorithm"
+        },
+        {
+          "label": "D",
+          "text": "Kruskals Algorithm"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Dijkstra’s Algorithm",
+      "explanation": "The given statements describe Dijkstra’s Algorithm.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Shortest Path Algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A complete bipartite graph k_{m,n} is a bipartite graph that has each vertex from one set is adjacent to each vertex to another set, what is the minimum ‘vertex cover’ for k_{m,n} graphs?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "MAX(m, n)"
+        },
+        {
+          "label": "B",
+          "text": "MIN(m, n)"
+        },
+        {
+          "label": "C",
+          "text": "m"
+        },
+        {
+          "label": "D",
+          "text": "n"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "MIN(m, n)",
+      "explanation": "Let us take\nk_{2,3}\nMinimum vertex cover = {a, b}\n\nk_{3,2}\nMinimum vertex cover = {d, e}\n∴ MIN(m, n).\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Algorithms_2/algorithms_2-q011-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graph Theory",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the number of Regions present in the bipartite graph K_{5,2}?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "5",
+      "explanation": "Eulers formula: |V| + |R| − |E| = 2\nk_{5,2} is planar graph, As we know,\nThe number of vertices in k_{m,n} graph is m + n\n∴ k_{5,2} has 7 vertices\nThe number of edges in k_{m,n} graph is m*n\n∴ k_{5,2} has 10 edges\n|V| + |R| − |E| = 2\n7 + R − 10 = 2\nR − 3 = 2\nR = 5\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graph Theory",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Merge sort-II, Selection sort-II"
+        },
+        {
+          "label": "B",
+          "text": "Merge sort-II, Heap sort-II"
+        },
+        {
+          "label": "C",
+          "text": "Heap sort-I, Insertion sort-I"
+        },
+        {
+          "label": "D",
+          "text": "Bubble sort-I, Insertion sort-II"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_2/algorithms_2-q013-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Merge sort-II, Heap sort-II",
+      "explanation": "Merge sort - II\nHeap sort - II\nInsertion sort - I, Bubble sort - I, selection sort - I.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Sorting Algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following Algorithm uses Divide-and-Conquer strategy?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Merge sort"
+        },
+        {
+          "label": "B",
+          "text": "Quick sort"
+        },
+        {
+          "label": "C",
+          "text": "Binary search and strassens multiplication"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": "All the algorithms follow Divide-and-conquer approach.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Algorithm Design Techniques",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "For merging two sorted Lists of sizes ‘K’ and ‘L’ into a sorted list of size K + L, what is the number of comparisons required?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "O(K)"
+        },
+        {
+          "label": "B",
+          "text": "O(L)"
+        },
+        {
+          "label": "C",
+          "text": "O(K*L)"
+        },
+        {
+          "label": "D",
+          "text": "O(K + L)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "O(K + L)",
+      "explanation": "In the worst case, if there are 4 elements in each list, consider the following lists (if (i < j)\nprint ‘i’\nelse\nprint ‘j’)\n\n∴ Almost (K + L) comparisons are required.\nChoice (D)",
+      "status": "confirmed",
+      "image": "images/Algorithms_2/algorithms_2-q015-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Sorting Algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following:\nf(n) = n log n\ng(n) = log(n!)\nh(n) = 2^{log_2 n}\nWhich of the following is TRUE according to Rate of Growth?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "g(n) ∈ Ω(h(n)) and g(n) ∈ O(f(n))"
+        },
+        {
+          "label": "B",
+          "text": "g(n) ∈ O(f(n)) and f(n) ∈ Ω(g(n))"
+        },
+        {
+          "label": "C",
+          "text": "g(n) ∈ Ω(f(n)) and f(n) ∈ Ω(g(n))"
+        },
+        {
+          "label": "D",
+          "text": "h(n) ∈ O(g(n)) and g(n) ∈ O(f(n))"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "h(n) ∈ O(g(n)) and g(n) ∈ O(f(n))",
+      "explanation": "n log n ≥ log(n!) ≥ 2^{log_2 n}\noption (D) is true.\n2^{log_2 n} ≤ c * log(n!)\nlog(n!) ≤ c * n log n.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic Analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given code:\ny = y + z;\nfor (i = 1; i < = n; i++)\nk = k + 2;\nfor (i = 1; i < = n; i++)\n{\nfor(j = 1; j < = n; j++)\nx = x + 1;\n}\nWhat is the time complexity of the given code?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "O(n^3)"
+        },
+        {
+          "label": "B",
+          "text": "O(n^2)"
+        },
+        {
+          "label": "C",
+          "text": "O(n log n)"
+        },
+        {
+          "label": "D",
+          "text": "O(n^2 log n)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "O(n^2)",
+      "explanation": "y = y + 2; // constant time\nfor (i = 1; i < = n; i + +) //executed ‘n + 1’ times\nk = k + 2; // executes n times\nfor (i = 1; i ≤ n; i + +)//outer loop executed ‘n + 1’ times\nfor (j = 1; j < = n; j + +)//inner loop executed ‘n(n + 1)’ times\nx = x + 1; // executes n times\nTotal time = C₀ + C₁ n + C₂ n² = O (n²).\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Time Complexity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given Recurrence Relation\nT(n) = 3T(n/9) + n^{0.52}\nWhat is the Time complexity?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "O(n)"
+        },
+        {
+          "label": "B",
+          "text": "O(n^2)"
+        },
+        {
+          "label": "C",
+          "text": "O(n^{0.52})"
+        },
+        {
+          "label": "D",
+          "text": "O(√n)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "O(n^{0.52})",
+      "explanation": "T(n) = 3T(n/9) + n^{0.52}\nT(n) = aT(n/b) + f(n)\na = 3, b = 9, f(n) = n^{0.52}\ncompare\nn^{log_b a} Vs f(n)\nn^{log_9 3} Vs n^{0.52}\nn^{log_9 3} Vs n^{0.52} f(n) is greater than n^{log_b a}\ncase 3 of master theorem, so the time complexity is\nT(n) = θ(f(n))\n⇒ θ(n^{0.52}).\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Recurrence Relations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider an empty stack of integers. The numbers 6, 7, 1, 4, 3, 2, 8, 9 are pushed on to the empty stack in the above given order from Right to Left. Let Z denote a PUSH operation and ‘W’ denote a POP operation. Which of the following is the sequence of integers Popped out after performing ZZZZWWZZWWZW?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3, 2, 4, 1, 7"
+        },
+        {
+          "label": "B",
+          "text": "3, 2, 1, 4, 9"
+        },
+        {
+          "label": "C",
+          "text": "3, 2, 1, 4, 8"
+        },
+        {
+          "label": "D",
+          "text": "3, 2, 1, 4, 7"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "3, 2, 1, 4, 7",
+      "explanation": "Given Integers\n6, 7, 1, 4, 3, 2, 8, 9\nFrom Right to Left:\n9, 8, 2, 3, 4, 1, 7, 6\nZZZZ (4 push operations)\n\n2 pop operations\n⇒ 3, 2\nAgain 2 push operations\n\n2 pop operations\n⇒ 1, 4\nOne push operation\n\nOne pop operation\n⇒ 7\n∴ popped integers are 3, 2, 1, 4, 7.\nChoice (D)",
+      "status": "confirmed",
+      "image": "images/Algorithms_2/algorithms_2-q019-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Stacks",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The following sequence of operations is performed on a stack, PUSH(70), PUSH(50), POP, PUSH(30), PUSH(50), PUSH(70), POP, POP, PUSH(70), POP, POP, what is the sequence of values popped out?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "50, 70, 50, 70, 70"
+        },
+        {
+          "label": "B",
+          "text": "50, 50, 70, 30, 70"
+        },
+        {
+          "label": "C",
+          "text": "50, 70, 50, 70, 30"
+        },
+        {
+          "label": "D",
+          "text": "50, 70, 50, 30, 70"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "50, 70, 50, 70, 30",
+      "explanation": "50\n70\n⇒ pop ‘50’\n\n70\n50\n30\n70\n⇒ pop 70, 50\n\n70\n30\n70\n⇒ pop 70, 30\n∴ popped sequence = 50, 70, 50, 70, 30.\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Algorithms_2/algorithms_2-q020-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Stacks",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Assume an algorithm for printing the level order data in Reverse order, for the Binary tree shown below:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "80, 60, 22, 42, 72, 81, 61, 77, 88"
+        },
+        {
+          "label": "B",
+          "text": "80, 22, 60, 61, 81, 72, 42, 88, 77"
+        },
+        {
+          "label": "C",
+          "text": "77, 88, 42, 72, 81, 61, 60, 22, 80"
+        },
+        {
+          "label": "D",
+          "text": "88, 77, 61, 81, 72, 42, 22, 60, 80"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_2/algorithms_2-q021-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "77, 88, 42, 72, 81, 61, 60, 22, 80",
+      "explanation": "Level order data in reverse means,\nBottom level data elements from Left to Right should be taken first.\nLevel order Traversal is, 77, 88, 42, 72, 81, 61, 60, 22, 80.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Tree Traversals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given code:\nint fun(struct BinaryTreeNode *root1,\nstruct Binary Tree Node *root2)\n{\nif(root1 == NULL && root2 == NULL)\nreturn 1;\nif(root1 == NULL || root2 == NULL)\nreturn 0;\nreturn (root1 → data == root2 → data &&\nfun(root1 → left, root2 → left) &&\nfun(root1 → right, root2 → right));\n}\nThe above code describes, which of the following task?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Finding the number of nodes with only one child"
+        },
+        {
+          "label": "B",
+          "text": "Finding the number of nodes in a Tree."
+        },
+        {
+          "label": "C",
+          "text": "Finding, whether two binary trees are structurally identical or not"
+        },
+        {
+          "label": "D",
+          "text": "Finding the number of Leaf nodes in a tree."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Finding, whether two binary trees are structurally identical or not",
+      "explanation": "Given two binary trees,\nReturns true if they are structurally identical.\n∴ If both trees are NULL then return true.\n∴ If both trees are not NULL, then compare data and recursively check left and right subtree structures.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Binary Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "We are given a set of ‘6’ distinct elements and an unlabelled binary tree with ‘6’ nodes. In how many ways can we populate the tree with the given set, so that it becomes a binary search tree?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "58"
+        },
+        {
+          "label": "B",
+          "text": "720"
+        },
+        {
+          "label": "C",
+          "text": "360"
+        },
+        {
+          "label": "D",
+          "text": "132"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "132",
+      "explanation": "With ‘6’ distinct elements and 6 unlabelled binary tree nodes, we can have,\nn = 6, 1/(n + 1) × 2nC_n\n1/7 × (12)!/((12 − 6)!×6!) × 1/7 × 12×11×10×9×8×7/(6×5×4×3×2)\n= 11 × 2 × 3 × 2 = 132.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Binary Search Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A binary tree is a tree data structure in which each node has atmost 2 children, that is, the degree of each node can be atmost ‘2’. If a binary tree has ‘n’ leaf nodes, then the number of nodes of degree 2 is?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "n − 1"
+        },
+        {
+          "label": "B",
+          "text": "2n − 1"
+        },
+        {
+          "label": "C",
+          "text": "n + 1"
+        },
+        {
+          "label": "D",
+          "text": "n/2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "n − 1",
+      "explanation": "A binary tree with ‘n’ leaves have (n − 1) internal nodes.\nSo (n − 1) nodes will have degree ‘2’.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Binary Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "For a 5-ary tree (each node can contain maximum of 5 children), what is the maximum possible height with 50 nodes, Assume that height of a single node is ‘0’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "25"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "49"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "49",
+      "explanation": "In 5-ary tree each node can contain 0 to 5 children and to get maximum height, we have to keep only one child for each parent, with 50 nodes the maximum possible height we can get is 49.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "K-ary Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "For a 7-ary tree (each node can contain maximum of 7 children), what is the maximum possible height with 60 nodes, If we have a restriction that atleast one node should have 7 children?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "14"
+        },
+        {
+          "label": "B",
+          "text": "21"
+        },
+        {
+          "label": "C",
+          "text": "49"
+        },
+        {
+          "label": "D",
+          "text": "53"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "53",
+      "explanation": "If we have a restriction that atleast one node should have 7 children, then we keep one node with 7 children and remaining all nodes with 1 child. In this case, with ‘n’ nodes the maximum possible height is (n − 7).\n∴ 60 − 7 = 53.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "K-ary Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "For a K-ary tree (each node can contain maximum of K children), what is the maximum possible nodes at height ‘h’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "K^{h+1}"
+        },
+        {
+          "label": "B",
+          "text": "K^h"
+        },
+        {
+          "label": "C",
+          "text": "K^h − 1"
+        },
+        {
+          "label": "D",
+          "text": "2K^h"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "K^h",
+      "explanation": "If we want to get minimum height, then we need to fill all nodes with maximum children.\nLets take a 4-ary tree.\n\nHeight (h)    Maximum Nodes at height, h = 4^h\n0             1\n1             4\n2             4 × 4\n3             4 × 4 × 4\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Algorithms_2/algorithms_2-q027-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "K-ary Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider any completer Binary tree, what are the minimum and maximum number of elements in terms of height ‘h’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2^{h+1} and 2^{h+2}"
+        },
+        {
+          "label": "B",
+          "text": "2^h and 2^{h+1} − 1"
+        },
+        {
+          "label": "C",
+          "text": "2^{h+1} − 1 and 2^{h+1} + 1"
+        },
+        {
+          "label": "D",
+          "text": "2^h and 2^{h+1}"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2^h and 2^{h+1} − 1",
+      "explanation": "In a complete binary tree, all levels contain full nodes except possibly the lowest level.\nMaximum = 2^{h+1} − 1 elements\nMinimum = 2^h.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Binary Heaps",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following MIN-HEAP displays the elements in sequence (ascending order) if preorder traversal is applied on MIN-HEAP?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Visual diagram shown for option A in the question image."
+        },
+        {
+          "label": "B",
+          "text": "Visual diagram shown for option B in the question image."
+        },
+        {
+          "label": "C",
+          "text": "Visual diagram shown for option C in the question image."
+        },
+        {
+          "label": "D",
+          "text": "Visual diagram shown for option D in the question image."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_2/algorithms_2-q029-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Option B",
+      "explanation": "Pre order traversal on the following Min-Heap produces elements in ascending order\n∴ 1 2 3 4 5 6 7.\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Algorithms_2/algorithms_2-q029-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Binary Heaps",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following MAX-HEAP displays the elements in sequence (descending order) if preorder traversal is applied on MAX-HEAP?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Visual diagram shown for option A in the question image."
+        },
+        {
+          "label": "B",
+          "text": "Visual diagram shown for option B in the question image."
+        },
+        {
+          "label": "C",
+          "text": "Visual diagram shown for option C in the question image."
+        },
+        {
+          "label": "D",
+          "text": "Visual diagram shown for option D in the question image."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_2/algorithms_2-q030-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Option C",
+      "explanation": "Pre order Traversal on the following MAX-HEAP produces elements in sequence (descending order)\n∴ Pre order = 7 6 5 4 3 2 1.\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Algorithms_2/algorithms_2-q030-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Binary Heaps",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the minimum and maximum number of nodes that exist in MIN-HEAP/MAX-HEAP interms of height ‘h’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2^{h−1} and 2^{h+1}"
+        },
+        {
+          "label": "B",
+          "text": "2^{h−1} and 2^h"
+        },
+        {
+          "label": "C",
+          "text": "2^h and 2^{h+1} − 1"
+        },
+        {
+          "label": "D",
+          "text": "2^{h+1} − 1 and 2^{h+1}"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "2^h and 2^{h+1} − 1",
+      "explanation": "A Heap is a complete binary tree. All the levels, except the lowest, are completely full. So the heap has atleast 2^h elements and atmost 2^{h+1} − 1 elements. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Binary Heaps",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following cannot be the partition of array elements by using Quick sort Algorithm?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "T(n) = T(6n/10) + T(4n/10) + θ(n)"
+        },
+        {
+          "label": "B",
+          "text": "T(n) = T(4n/5) + T(n/5) + θ(n)"
+        },
+        {
+          "label": "C",
+          "text": "T(n) = T(n − 1) + T(1) + θ(n)"
+        },
+        {
+          "label": "D",
+          "text": "T(n) = T(4n/5) + T(4n/5) + θ(n)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "T(n) = T(4n/5) + T(4n/5) + θ(n)",
+      "explanation": "The given array is partitioned into two non-empty sub arrays\nIn Option (D) 80 percent of elements are in First sub array that means in the second part of array there should be 20 percent elements that is T(n/5) instead of T(4n/5).\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Quick Sort",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A stable sorting is defined as, Assume that A is an array to be sorted, X and Y are having the same key and X appears earlier in the array than Y. That means X is at A[i] and Y is at A[j], where i < j, an algorithm is said to be stable if in the output X precedes Y. Which of the following is not stable sorting?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bubble sort"
+        },
+        {
+          "label": "B",
+          "text": "Insertion sort"
+        },
+        {
+          "label": "C",
+          "text": "Merge sort"
+        },
+        {
+          "label": "D",
+          "text": "Quick sort"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Quick sort",
+      "explanation": "Quick sort:\nThe partitioning step can swap the location of records many times, and thus 2 elements with equal value could swap position in the final output.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Sorting Algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\n\nCommon Data for Questions 34 and 35:\nConsider the given Inorder, preorder, postorder traversals of a tree, but it is not known which is what order\nI. ABCDEGFH\nII. EDGHFCBA\nIII. EHFGDCBA",
+      "text": "Which of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I is pre order and II is post order"
+        },
+        {
+          "label": "B",
+          "text": "I is pre order and III is In order"
+        },
+        {
+          "label": "C",
+          "text": "I is pre order and II is In order"
+        },
+        {
+          "label": "D",
+          "text": "II is post order and III is In order"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "I is pre order and II is In order",
+      "explanation": "Pre order = A B C D E G F H\nIn order = E D G H F C B A\nPost order = E H F G D C B A.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Tree Traversals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\n\nCommon Data for Questions 34 and 35:\nConsider the given Inorder, preorder, postorder traversals of a tree, but it is not known which is what order\nI. ABCDEGFH\nII. EDGHFCBA\nIII. EHFGDCBA",
+      "text": "Which of the following is the correct tree for the traversals given in the above question?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Visual diagram shown for option A in the question image."
+        },
+        {
+          "label": "B",
+          "text": "Visual diagram shown for option B in the question image."
+        },
+        {
+          "label": "C",
+          "text": "Visual diagram shown for option C in the question image."
+        },
+        {
+          "label": "D",
+          "text": "Visual diagram shown for option D in the question image."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_2/algorithms_2-q035-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Option D",
+      "explanation": "The tree given in option (D) is correct.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Tree Traversals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_2.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

@@ -1,0 +1,1803 @@
+[
+  {
+    "id": "gate-logical-ability-test-1-q001",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "11, 26, 51, 76, ____",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "101"
+        },
+        {
+          "label": "B",
+          "text": "115"
+        },
+        {
+          "label": "C",
+          "text": "125"
+        },
+        {
+          "label": "D",
+          "text": "133"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 1 to 7: Complete the following series."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "115",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Number Series",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q002",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "23, 57, 1113, 1719, ____",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2329"
+        },
+        {
+          "label": "B",
+          "text": "2931"
+        },
+        {
+          "label": "C",
+          "text": "3137"
+        },
+        {
+          "label": "D",
+          "text": "3743"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 1 to 7: Complete the following series."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "2329",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Number Series",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q003",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "VIQ, TAC, WJR, VCE, XKS, XEG, ______",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "YGL"
+        },
+        {
+          "label": "B",
+          "text": "ZFH"
+        },
+        {
+          "label": "C",
+          "text": "YLT"
+        },
+        {
+          "label": "D",
+          "text": "YNR"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 1 to 7: Complete the following series."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "YLT",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Alphabet Series",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q004",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "25 : 343 :: 49 : ____",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "121"
+        },
+        {
+          "label": "B",
+          "text": "343"
+        },
+        {
+          "label": "C",
+          "text": "512"
+        },
+        {
+          "label": "D",
+          "text": "1331"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 1 to 7: Complete the following series."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "1331",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Number Analogy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q005",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "BIDM : DLPR :: HSBC : ______",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "PVEH"
+        },
+        {
+          "label": "B",
+          "text": "PXDH"
+        },
+        {
+          "label": "C",
+          "text": "PVHH"
+        },
+        {
+          "label": "D",
+          "text": "RVHD"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 1 to 7: Complete the following series."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "PVHH",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Letter Analogy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q006",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "2Y5 : 4W9 :: 3J6 : ______",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4W9"
+        },
+        {
+          "label": "B",
+          "text": "6L4"
+        },
+        {
+          "label": "C",
+          "text": "8C1"
+        },
+        {
+          "label": "D",
+          "text": "6N4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 1 to 7: Complete the following series."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "6L4",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Alphanumeric Analogy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q007",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Aeroplane : Pilot : : Ship : ______",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Driver"
+        },
+        {
+          "label": "B",
+          "text": "Chef"
+        },
+        {
+          "label": "C",
+          "text": "Captain"
+        },
+        {
+          "label": "D",
+          "text": "Marshal"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 1 to 7: Complete the following series."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Captain",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Analogy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q008",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Find the odd man out.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "38 – 121"
+        },
+        {
+          "label": "B",
+          "text": "48 – 144"
+        },
+        {
+          "label": "C",
+          "text": "68 – 196"
+        },
+        {
+          "label": "D",
+          "text": "98 – 361"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 8 to 11: Find the odd man out."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "98 – 361",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Odd One Out",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q009",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Find the odd man out.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "BDGC"
+        },
+        {
+          "label": "B",
+          "text": "DHKR"
+        },
+        {
+          "label": "C",
+          "text": "FLOH"
+        },
+        {
+          "label": "D",
+          "text": "EJMZ"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 8 to 11: Find the odd man out."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "BDGC",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Odd One Out",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q010",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Find the odd man out.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6V12"
+        },
+        {
+          "label": "B",
+          "text": "2H4"
+        },
+        {
+          "label": "C",
+          "text": "9F18"
+        },
+        {
+          "label": "D",
+          "text": "3R6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 8 to 11: Find the odd man out."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "6V12",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Odd One Out",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q011",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Find the odd man out.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mercury"
+        },
+        {
+          "label": "B",
+          "text": "Mars"
+        },
+        {
+          "label": "C",
+          "text": "Moon"
+        },
+        {
+          "label": "D",
+          "text": "Venus"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 8 to 11: Find the odd man out."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Moon",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Odd One Out",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q012",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "In a certain code language the word PRIVATE is coded as AEIPRTV then how is the word PRESENT coded in that language?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "EEPNRST"
+        },
+        {
+          "label": "B",
+          "text": "EENPRST"
+        },
+        {
+          "label": "C",
+          "text": "EPSNERT"
+        },
+        {
+          "label": "D",
+          "text": "EENRPST"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 12 to 14: Choose the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "EENPRST",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Coding-Decoding",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q013",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "In a certain code, if the word CHLORATE is written as DFOKWUAW then how is the word PHOSPHATE written in that code?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "QFRUOBHLN"
+        },
+        {
+          "label": "B",
+          "text": "QFROBUHLN"
+        },
+        {
+          "label": "C",
+          "text": "QFHROUBLN"
+        },
+        {
+          "label": "D",
+          "text": "QFROUBHLN"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 12 to 14: Choose the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "QFRUOBHLN",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Coding-Decoding",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q014",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "In a certain code, if the word PRESSURE is written as KIVHHFIV then how the word SOLUTION written in that code?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "HLOUTRLM"
+        },
+        {
+          "label": "B",
+          "text": "HLPGFRLM"
+        },
+        {
+          "label": "C",
+          "text": "HLOFGRLM"
+        },
+        {
+          "label": "D",
+          "text": "HLOGTROM"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 12 to 14: Choose the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "HLOFGRLM",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Coding-Decoding",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q015",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Who is the second tallest person?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "T"
+        },
+        {
+          "label": "B",
+          "text": "R"
+        },
+        {
+          "label": "C",
+          "text": "S"
+        },
+        {
+          "label": "D",
+          "text": "P"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 15 and 16: These questions are based on the following information.\n\nSix persons—P through U—are standing in a queue in the increasing order of their heights so that the shortest is at the front of the queue and the tallest is at the back. Furthermore,\n(i) U is the shortest.\n(ii) Exactly two persons are taller than T.\n(iii) P is taller than S and exactly two persons stand between P and S.\n(iv) Q is taller than P."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "P",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Ordering and Ranking",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q016",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Who is/are the persons in between P and R?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only T"
+        },
+        {
+          "label": "B",
+          "text": "Q and S"
+        },
+        {
+          "label": "C",
+          "text": "T and U"
+        },
+        {
+          "label": "D",
+          "text": "Only S"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 15 and 16: These questions are based on the following information.\n\nSix persons—P through U—are standing in a queue in the increasing order of their heights so that the shortest is at the front of the queue and the tallest is at the back. Furthermore,\n(i) U is the shortest.\n(ii) Exactly two persons are taller than T.\n(iii) P is taller than S and exactly two persons stand between P and S.\n(iv) Q is taller than P."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Only T",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Ordering and Ranking",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q017",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Who is to the left of A?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "D"
+        },
+        {
+          "label": "B",
+          "text": "G"
+        },
+        {
+          "label": "C",
+          "text": "F"
+        },
+        {
+          "label": "D",
+          "text": "H"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 17 to 19: These questions are based on the following data.\n\nEight persons A, B, C, D, E, F, G, and H attended a conference and are sitting around a circular table. Among them, there are CEOs of 4 companies who came along with one assistant each. Each CEO has his assistant sitting to his right.\n(i) Assistants of C and A are sitting opposite each other.\n(ii) E, who is the assistant of B, is sitting opposite F.\n(iii) E was not sitting adjacent to A.\n(iv) G is neither adjacent nor opposite to D."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "F",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Circular Seating",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q018",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Who is the assistant of C?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "D"
+        },
+        {
+          "label": "B",
+          "text": "G"
+        },
+        {
+          "label": "C",
+          "text": "E"
+        },
+        {
+          "label": "D",
+          "text": "H"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 17 to 19: These questions are based on the following data.\n\nEight persons A, B, C, D, E, F, G, and H attended a conference and are sitting around a circular table. Among them, there are CEOs of 4 companies who came along with one assistant each. Each CEO has his assistant sitting to his right.\n(i) Assistants of C and A are sitting opposite each other.\n(ii) E, who is the assistant of B, is sitting opposite F.\n(iii) E was not sitting adjacent to A.\n(iv) G is neither adjacent nor opposite to D."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "H",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Circular Seating",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q019",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "If H is opposite to G, then D is to the right of ____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A"
+        },
+        {
+          "label": "B",
+          "text": "B"
+        },
+        {
+          "label": "C",
+          "text": "F"
+        },
+        {
+          "label": "D",
+          "text": "H"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 17 to 19: These questions are based on the following data.\n\nEight persons A, B, C, D, E, F, G, and H attended a conference and are sitting around a circular table. Among them, there are CEOs of 4 companies who came along with one assistant each. Each CEO has his assistant sitting to his right.\n(i) Assistants of C and A are sitting opposite each other.\n(ii) E, who is the assistant of B, is sitting opposite F.\n(iii) E was not sitting adjacent to A.\n(iv) G is neither adjacent nor opposite to D."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "H",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Circular Seating",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q020",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "How many students failed atleast in one subject?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "50"
+        },
+        {
+          "label": "B",
+          "text": "100"
+        },
+        {
+          "label": "C",
+          "text": "75"
+        },
+        {
+          "label": "D",
+          "text": "125"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 20 to 24: These questions are based on the following data.\n\nIn a class, 50 students failed in Maths.\n40 students failed in Physics.\n30 students failed in Chemistry.\n10 students failed in Physics and Chemistry.\n10 students failed in Maths and Physics.\nNo student failed in both Maths and Chemistry.\nNone of the students failed in all the three subjects."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "100",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q021",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "What is the ratio of the number of students who failed in Maths and Physics to that who failed in Physics and Chemistry?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 : 2"
+        },
+        {
+          "label": "B",
+          "text": "2 : 1"
+        },
+        {
+          "label": "C",
+          "text": "1 : 1"
+        },
+        {
+          "label": "D",
+          "text": "4 : 3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 20 to 24: These questions are based on the following data.\n\nIn a class, 50 students failed in Maths.\n40 students failed in Physics.\n30 students failed in Chemistry.\n10 students failed in Physics and Chemistry.\n10 students failed in Maths and Physics.\nNo student failed in both Maths and Chemistry.\nNone of the students failed in all the three subjects."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1 : 1",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q022",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "How many students failed in exactly two subjects?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "30"
+        },
+        {
+          "label": "D",
+          "text": "40"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 20 to 24: These questions are based on the following data.\n\nIn a class, 50 students failed in Maths.\n40 students failed in Physics.\n30 students failed in Chemistry.\n10 students failed in Physics and Chemistry.\n10 students failed in Maths and Physics.\nNo student failed in both Maths and Chemistry.\nNone of the students failed in all the three subjects."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "20",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q023",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "The number of students who failed in only Maths, in only Physics and in only Chemistry respectively is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "40, 20, 20"
+        },
+        {
+          "label": "B",
+          "text": "20, 40, 20"
+        },
+        {
+          "label": "C",
+          "text": "20, 20, 40"
+        },
+        {
+          "label": "D",
+          "text": "50, 40, 30"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 20 to 24: These questions are based on the following data.\n\nIn a class, 50 students failed in Maths.\n40 students failed in Physics.\n30 students failed in Chemistry.\n10 students failed in Physics and Chemistry.\n10 students failed in Maths and Physics.\nNo student failed in both Maths and Chemistry.\nNone of the students failed in all the three subjects."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "40, 20, 20",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q024",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Which of the following statements is true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The number of students who failed in only Maths equals to that of the students who failed in only Physics."
+        },
+        {
+          "label": "B",
+          "text": "The number of students who failed in only Maths equals to that of the students who failed in only Physics or in only Chemistry."
+        },
+        {
+          "label": "C",
+          "text": "The number of students who failed in all the three subjects is 10."
+        },
+        {
+          "label": "D",
+          "text": "None of these."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for questions 20 to 24: These questions are based on the following data.\n\nIn a class, 50 students failed in Maths.\n40 students failed in Physics.\n30 students failed in Chemistry.\n10 students failed in Physics and Chemistry.\n10 students failed in Maths and Physics.\nNo student failed in both Maths and Chemistry.\nNone of the students failed in all the three subjects."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "The number of students who failed in only Maths equals to that of the students who failed in only Physics or in only Chemistry.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Set Theory / Venn Diagrams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q025",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "In the following addition each letter represents a different digit from 0 to 9. which of the following is a possible number represented by FAN ?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "434"
+        },
+        {
+          "label": "B",
+          "text": "534"
+        },
+        {
+          "label": "C",
+          "text": "345"
+        },
+        {
+          "label": "D",
+          "text": "135"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Logical_Ability_1/logical-ability-test-1-q025-figure.png",
+      "direction": "Direction for question 25 to 30: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "534",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Cryptarithm",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q026",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "At what time between 10 O’ clock and 11 O’ clock are the hands of the clock together?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$54\\frac{6}{11}$ past 10"
+        },
+        {
+          "label": "B",
+          "text": "$27\\frac{8}{11}$ past 10"
+        },
+        {
+          "label": "C",
+          "text": "Both A and B"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for question 25 to 30: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$54\\frac{6}{11}$ past 10",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Clock",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q027",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "How many times the hands of a clock are at right angles in a day?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "24"
+        },
+        {
+          "label": "B",
+          "text": "22"
+        },
+        {
+          "label": "C",
+          "text": "44"
+        },
+        {
+          "label": "D",
+          "text": "48"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for question 25 to 30: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "44",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Clock",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q028",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "On a particular day if it is found that a clock is showing 10 minutes less at 1:00 pm and 5 minutes more at 6:00 pm on the same day. At what time did the clock show the correct time?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 hr 20 min"
+        },
+        {
+          "label": "B",
+          "text": "4 hr 20 min"
+        },
+        {
+          "label": "C",
+          "text": "5 hr 40 min"
+        },
+        {
+          "label": "D",
+          "text": "6 hr 40 min"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for question 25 to 30: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "4 hr 20 min",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Clock",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q029",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "If 21st March 2000 was a Monday, which day of the week will be 21st March 2003?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tuesday"
+        },
+        {
+          "label": "B",
+          "text": "Friday"
+        },
+        {
+          "label": "C",
+          "text": "Thursday"
+        },
+        {
+          "label": "D",
+          "text": "Wednesday"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for question 25 to 30: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Thursday",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Calendar",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q030",
+    "pdfName": "Logical_Ability_1.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "The movie of my favorite hero is going to be released on Wednesday. To watch the movie on the first day of release, I booked my ticket the day before yesterday. If I watch the movie on the fourth day from today, on which day of the week did I book my ticket?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Wednesday"
+        },
+        {
+          "label": "B",
+          "text": "Thursday"
+        },
+        {
+          "label": "C",
+          "text": "Friday"
+        },
+        {
+          "label": "D",
+          "text": "Saturday"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Direction for question 25 to 30: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Thursday",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Calendar",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  }
+]

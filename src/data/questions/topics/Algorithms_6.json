@@ -1,0 +1,1526 @@
+[
+  {
+    "id": "gate-algorithms-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is NOT a tree?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Visual diagram shown for option A in the question image."
+        },
+        {
+          "label": "B",
+          "text": "Visual diagram shown for option B in the question image."
+        },
+        {
+          "label": "C",
+          "text": "Visual diagram shown for option C in the question image."
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_6/algorithms_6-q001-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Visual diagram shown for option C in the question image.",
+      "explanation": "A graph without any cycles is called a Tree graph.\nOption (C)\nThere is a cycle (b – e – f – d – b) in the graph.\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q001-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Trees / Graphs",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What is the number of vertices in a tree with 57 edges?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "58"
+        },
+        {
+          "label": "B",
+          "text": "$2^6 - 4$"
+        },
+        {
+          "label": "C",
+          "text": "56"
+        },
+        {
+          "label": "D",
+          "text": "57"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "58",
+      "explanation": "A tree with ‘n’ vertices contains (n – 1) edges.\nn – 1 = 57\nNumber of vertices, n = 58                     Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider 2 graphs $G_1$ and $G_2$:\nI. $G_1$ is connected and every edge is a bridge.\nII. In $G_2$ for any pair of vertices in the graph there is one and only one path joining them.\nWhich of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$G_1$ is a tree but $G_2$ is not a tree"
+        },
+        {
+          "label": "B",
+          "text": "$G_1$ is not a tree but $G_2$ is a tree"
+        },
+        {
+          "label": "C",
+          "text": "Both $G_1$ and $G_2$ are trees"
+        },
+        {
+          "label": "D",
+          "text": "Both $G_1$ and $G_2$ are not trees"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both G1 and G2 are trees",
+      "explanation": "G1: Example:\n∴ No cycles, It is a tree\nG2: Example:\n∴ No cycles,\nIf we have cycle\nThere will be different paths from (a – e)\n(i) a – b – d – e\n(ii) a – c – d – e\n∴ G2 is also a tree.                                         Choice (C)",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q003-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Trees / Graph properties",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "How many spanning trees does the following graph contain, (Assume that all edges have same weight)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_6/algorithms_6-q004-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "3",
+      "explanation": "Spanning trees:\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q004-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Spanning Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Suppose we have a graph where each edge value appears atmost twice, then what will be the number (atmost) of minimum spanning Trees of this graph?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "4",
+      "explanation": "Assume the following graph:\nAtmost 4 minimum spanning trees are possible.\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q005-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Minimum Spanning Tree",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If we run Dijkstra’s algorithm starting from ‘S’ to find shortest path ‘T’, consider the following statements:\nI. Dijkstra’s algorithm returns shortest path with minimum total weight.\nII. Dijkstra’s algorithm returns shortest path, with minimum number of edges.\nWhich of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I only"
+        },
+        {
+          "label": "B",
+          "text": "II only"
+        },
+        {
+          "label": "C",
+          "text": "Both I and II"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "I only",
+      "explanation": "I. Dijkstra’s algorithm always returns shortest path with minimum total weight.\nII.\nDijkstra’s Algorithm gives, shortest path (length = 3)\nBut the shortest path\nhas length = 2\nI–TRUE, II–False                          Choice (A)",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q006-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Shortest Path / Dijkstra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The reason for using Bellman-Ford algorithm for finding the shortest path between 2 vertices in a graph, when Dijkstras algorithm does the same thing:\nI. Bellman-Ford Algorithm is faster than Dijkstra’s Algorithm.\nII. Bellman-Ford Algorithm works on any directed graph, with negative weights also.\nWhich of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I only"
+        },
+        {
+          "label": "B",
+          "text": "II only"
+        },
+        {
+          "label": "C",
+          "text": "Both I and II"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "II only",
+      "explanation": "Dijkstra’s is faster than Bellman-Ford, but It cannot work on graphs with negative weight edges.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Shortest Path / Bellman-Ford",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following statements:\nI. By applying Breadth First search, on a tree with all edges having equal weight; finds minimum distance from root to any node.\nII. Use of greedy algorithm to solve the knapsack with fractions is optimal.\nWhich of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I only"
+        },
+        {
+          "label": "B",
+          "text": "II only"
+        },
+        {
+          "label": "C",
+          "text": "Both I and II"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both I and II",
+      "explanation": "Applying BFS on a tree with equal weights results the same tree and it gives minimum distance from root to other nodes. Knapsack fractional problem is optimally solved using greedy design strategy.      Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graph Traversal / Greedy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the set of keys {1, 4, 5, 10, 16, 17, 21}, Draw a binary search tree with height ‘2,’ Then what values will appear at internal nodes? [height of root node is ‘0’]",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10, 5, 16"
+        },
+        {
+          "label": "B",
+          "text": "10, 4, 17"
+        },
+        {
+          "label": "C",
+          "text": "4, 17, 21"
+        },
+        {
+          "label": "D",
+          "text": "5, 10, 17"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "10, 4, 17",
+      "explanation": "1, 4, 5, 10, 16, 17, 21\nWith height = 2, Internal nodes are 10, 4, 17.\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q009-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Binary Search Tree",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the set of keys {2, 5, 6, 11, 17, 18, 22}, Draw a binary search tree with height ‘6’, then, what will be the child node values (height of root node is 0).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "22"
+        },
+        {
+          "label": "C",
+          "text": "Either 2 or 22"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Either 2 or 22",
+      "explanation": "Tree 1: Child 22\nTree 2: Child 2\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q010-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Binary Search Tree",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The following is a directed graph $G = (V, E)$:\n$V = \\{a, b, c, d, e, f, g\\}$\n$E = \\{(a, b), (c, a), (b, c), (c, d), (d, e), (e, f), (e, g), (f, g), (d, g)\\}$\nIdentify the correct strongly connected components, which of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "There are 3 strongly connected components."
+        },
+        {
+          "label": "B",
+          "text": "There are 4 strongly connected components."
+        },
+        {
+          "label": "C",
+          "text": "There are 5 strongly connected components."
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "There are 5 strongly connected components.",
+      "explanation": "Strongly connected components are:\n{abc} {d} {e} {f} {g}\nThere are five strongly connected components.\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q011-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Strongly Connected Components",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the given graph, with some edges in bold:\nThe bold edges given in the above graph cannot form a spanning Tree because",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The bold edges are not connected"
+        },
+        {
+          "label": "B",
+          "text": "The bold edges are not least weight edges"
+        },
+        {
+          "label": "C",
+          "text": "The kruskals algorithm is not implemented on the above graph."
+        },
+        {
+          "label": "D",
+          "text": "Both (A) and (B)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_6/algorithms_6-q012-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "The bold edges are not connected",
+      "explanation": "Kruskals algorithm is been implemented on the given graph. The bold edges are least weight edges, because the complete spanning tree will contain following edges:\nChoice (A)",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q012-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Minimum Spanning Tree / Kruskal",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the given statements:\nI. A digraph is a graph with exactly 2 vertices.\nII. A spanning tree of a graph must contain atleast $\frac{n}{2}$ edges always.\nIII. The sorted edges algorithm for solving the travelling salesman problem always gives optimal result.\nWhich of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I and II"
+        },
+        {
+          "label": "B",
+          "text": "II and III"
+        },
+        {
+          "label": "C",
+          "text": "I and III"
+        },
+        {
+          "label": "D",
+          "text": "Only II"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Only II",
+      "explanation": "I.    Digraph:\nThere is no limit on number of vertices, In digraph edges will have directions.\nI–False\nII. Example:                    Spanning tree\nIII. There is no optimal solution for Travelling sales person problem.\n∴ Only II is TRUE                    Choice (D)",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q013-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graph Theory / Spanning Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the given AVL-tree,\nIf the element with value ‘12’ is inserted into above AVL tree, How many rotations are required to balance the tree?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_6/algorithms_6-q014-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1",
+      "explanation": "RR–Imbalance: perform Left Rotation.\n∴ 1 Rotation.                                                                       Choice (B)",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q014-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "AVL Tree",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "In which order, the element must be inserted into an AVL tree, so that, no single Rotation is required, for the given\nElements = {1, 2, 3, 4, 5, 6, 7}",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "{4, 2, 6, 1, 3, 5, 7}"
+        },
+        {
+          "label": "B",
+          "text": "{4, 2, 1, 3, 5, 6, 7}"
+        },
+        {
+          "label": "C",
+          "text": "{7, 6, 5, 4, 2, 1, 3}"
+        },
+        {
+          "label": "D",
+          "text": "{4, 1, 2, 3, 5, 6, 7}"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "{4, 2, 6, 1, 3, 5, 7}",
+      "explanation": "Option (A):\nOption (C):\nrequires LL rotation\nfor 1st 3 elements\nOption (B):\nrequires LL rotation\nfor 1st 3 elements\nOption (D):\nIf we have Imbalance, we need to perform Rotation.\nOption (A) has no Imbalance.                    Choice (A)",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q015-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "AVL Tree",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the given tree:\nThe MAX HEAP property is applied on the above tree, (box area), at node with value ‘6’, which of the following is BEST suitable?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "First compare 6 and 18 then swap them if required"
+        },
+        {
+          "label": "B",
+          "text": "First compare 6 and 15 then swap them if required."
+        },
+        {
+          "label": "C",
+          "text": "First compare 18 and 15, then compare the greater element with ‘6’ and swap them if required."
+        },
+        {
+          "label": "D",
+          "text": "Any one of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_6/algorithms_6-q016-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "First compare 18 and 15, then compare the greater element with ‘6’ and swap them if required.",
+      "explanation": "First compare the children of a node. If it is a max heap, then compare the child with greater value to parent node, if required swap them.                    Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Heap / Max Heap",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following statements about Depth First traversal:\nI. Suppose we run DFS (Depth First search) on an undirected graph and find exactly 15 back edges. Then the graph is guaranteed to have at least one cycle.\nII. DFS on a directed graph with ‘n’ vertices and at least ‘n’ edges is guaranteed to find at least one back edge.\nWhich of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I only"
+        },
+        {
+          "label": "B",
+          "text": "II only"
+        },
+        {
+          "label": "C",
+          "text": "Both I and II"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "I only",
+      "explanation": "I. If the graph has a back edge, then it has a cycle.\nII.\nDFS on the above graph starting at ‘a’ does not find any back edge.\n∴ I–TRUE, II–False                    Choice (A)",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q017-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Depth First Search / Graphs",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Suppose ‘G’ is a connected, undirected graph, whose edges have positive weights. Let M be a minimum spanning Tree of this graph. We modify the graph by adding ‘6’ to the weight of each edge, which of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The order of edges added to minimum spanning tree using kruskal’s algorithm, will change."
+        },
+        {
+          "label": "B",
+          "text": "The modification adds 6(|V| – 1) to the total weight of all spanning trees."
+        },
+        {
+          "label": "C",
+          "text": "The order of edges added to minimum spanning tree using prim’s algorithm, will change."
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "The modification adds 6(|V| – 1) to the total weight of all spanning trees.",
+      "explanation": "The order of edges added to minimum spanning tree does not change, because we are adding same weight to all the edges.\nTo the total weight we have to add 6(V – 1), because in a spanning tree, there will be (V – 1) edges, For every edge additional weight ‘6’ is added.        Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Minimum Spanning Tree",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following graph:\nWhich of the following orderings not a valid topological sort of the graph?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "BACEDFGH"
+        },
+        {
+          "label": "B",
+          "text": "ABCDEFGH"
+        },
+        {
+          "label": "C",
+          "text": "ABCDEGFH"
+        },
+        {
+          "label": "D",
+          "text": "BACDEFGH"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_6/algorithms_6-q019-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "BACEDFGH",
+      "explanation": "Option (A):\nBACEDFGH\nThere is an edge from D → E\nWhere as in the order E appears first and D appears next. Which is invalid.\nCheck the other options in the same manner.                                        Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Topological Sorting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What is the time complexity to print all the keys of a binary search tree in sorted order?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "O(log n)"
+        },
+        {
+          "label": "B",
+          "text": "Θ(n)"
+        },
+        {
+          "label": "C",
+          "text": "Θ(n^2)"
+        },
+        {
+          "label": "D",
+          "text": "O(n + log n)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Θ(n)",
+      "explanation": "We can print all the keys of a binary search tree in sorted order using inorder traversal which will take Θ(n) time.                                  Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Binary Search Tree / Complexity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Let $T_1$, $T_2$, $T_3$, $T_4$, $T_4$, $T_5$, $T_6$ are tasks given along with their deadlines and profits:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "T6, T4, T3"
+        },
+        {
+          "label": "B",
+          "text": "T6, T1, T2"
+        },
+        {
+          "label": "C",
+          "text": "T1, T2, T5"
+        },
+        {
+          "label": "D",
+          "text": "T4, T5, T6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_6/algorithms_6-q021-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "T1, T2, T5",
+      "explanation": "Arrange the given tasks according to their profits\nOrder of execution of tasks to maximize the profit\nThe uncompleted tasks are T1, T2, T5\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q021-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Job Sequencing with Deadlines / Greedy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the below program fragment:\nfor i ← 1 to length (A) – 1\n{\nelement ← A [i]\npos ← i\nwhile pos > 0 and A [pos – 1]\n{\nA[pos] ← A [pos – 1]\npos ← pos –1\n{\nA[pos] ← element.\n}\nThis code implements",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bubble sort"
+        },
+        {
+          "label": "B",
+          "text": "Insertion sort"
+        },
+        {
+          "label": "C",
+          "text": "Heap sort"
+        },
+        {
+          "label": "D",
+          "text": "Bucket sort"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Insertion sort",
+      "explanation": "The given code implements insertion sort. In insertion sort, every iteration removes an element from the input data and insert it into the correct position in the already sorted list until no input elements remain. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Insertion Sort",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What is the best case time complexity of given algorithm in Q. 22?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Θ(n^2)"
+        },
+        {
+          "label": "B",
+          "text": "Θ(log n)"
+        },
+        {
+          "label": "C",
+          "text": "Θ(n)"
+        },
+        {
+          "label": "D",
+          "text": "Θ(n log n)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Θ(n)",
+      "explanation": "The best case input is when the array is already in sorted order. Then time complexity is Θ(n) because in each iteration, the first remaining element of input is only compared with the right-most element of sorted list of the array.                              Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Insertion Sort / Complexity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is an acyclic component graph of given graph using strongly connected components algorithm?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Visual diagram shown for option A in the question image."
+        },
+        {
+          "label": "B",
+          "text": "Visual diagram shown for option B in the question image."
+        },
+        {
+          "label": "C",
+          "text": "Visual diagram shown for option C in the question image."
+        },
+        {
+          "label": "D",
+          "text": "Visual diagram shown for option D in the question image."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_6/algorithms_6-q024-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Visual diagram shown for option D in the question image.",
+      "explanation": "Strongly connected components of a directed graph G = (V, E) is a maximal set of vertices C ⊆ V such that for every pair of vertices u and v in C, vertices u and v are reachable from each other. In the given graph the connected components are {a, b, e}, {f, g}, {c, d} and {h}.\nHence, the required acyclic component graph will be",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q024-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Strongly Connected Components",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_6.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider an undirected graph G = (V, E)\nV = {r, s, t, u, v, w, x, y}\nE = {(r, s), (r, v), (s, w), (w, t), (w, x), (t, u), (t, x), (u, y), (u, x) (x, y)}\nWhich node has the highest degree?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "w"
+        },
+        {
+          "label": "B",
+          "text": "x"
+        },
+        {
+          "label": "C",
+          "text": "u"
+        },
+        {
+          "label": "D",
+          "text": "t"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "x",
+      "explanation": "Highest degree node = x(degree = 4)               Choice (B)",
+      "status": "confirmed",
+      "image": "images/Algorithms_6/algorithms_6-q025-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graph / Degree",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

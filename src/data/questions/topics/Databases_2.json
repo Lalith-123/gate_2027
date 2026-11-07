@@ -1,0 +1,2121 @@
+[
+  {
+    "id": "gate-databases-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Questions 1 to 15 carry one mark each:",
+      "text": "Consider the given ER-Diagram\n\nThe given ER-Diagram represents",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Unary Relationship"
+        },
+        {
+          "label": "B",
+          "text": "Binary Relationship"
+        },
+        {
+          "label": "C",
+          "text": "Ternary Relationship"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_2/q001-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Unary Relationship",
+      "explanation": "If only one entity is participating in a relationship that relation is called Unary Relation.\n\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "ER model",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Questions 1 to 15 carry one mark each:",
+      "text": "Consider the given ER-Diagram:\n\nWhich of the following is the descriptive Attribute?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "WId"
+        },
+        {
+          "label": "B",
+          "text": "Since"
+        },
+        {
+          "label": "C",
+          "text": "PId"
+        },
+        {
+          "label": "D",
+          "text": "{WId, PId}"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_2/q002-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Since",
+      "explanation": "Descriptive attributes are used to record information about the relationship, rather than about any one of the participating entities. Suppose we wish to record that a particular worker is working for a project since 1993; This information is captured by adding an attribute “since” to works.\n\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "ER model",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Questions 1 to 15 carry one mark each:",
+      "text": "Which of the following statements is FALSE about “Weak Entity”?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A weak entity can be identified uniquely only by considering some of its attributes in conjunction with the primary key of another Entity."
+        },
+        {
+          "label": "B",
+          "text": "The owner entity set and the Weak entity set must participate in a one-to-many relationship set."
+        },
+        {
+          "label": "C",
+          "text": "One owner entity is associated with one or more weak entities, but each weak entity has a single owner."
+        },
+        {
+          "label": "D",
+          "text": "The weak entity set may/may not have total participation in the identifying relationship set."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "The weak entity set may/may not have total participation in the identifying relationship set.",
+      "explanation": "The weak entity set must have total participation in the identifying relationship set.\n\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "ER model",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Questions 1 to 15 carry one mark each:",
+      "text": "Consider the given Relation schema:\nStudent (RNo: integer, sname: string, login: string, age: integer, grade: char(1), parent-name: string, percentage: Real).\nWhat is the “Arity” of given Relation schema?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2, 3, 1, 1"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "3, 4"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "7",
+      "explanation": "The degree is also called “Arity” of a relation, is the number of fields (or) columns, There are ‘7’ fields.\n\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational model",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Questions 1 to 15 carry one mark each:",
+      "text": "Which of the following specifies “Cardinality” of a Relation?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The number of fields in a Relation"
+        },
+        {
+          "label": "B",
+          "text": "The number of columns in a Relation"
+        },
+        {
+          "label": "C",
+          "text": "The number of Tuples in a Relation"
+        },
+        {
+          "label": "D",
+          "text": "Both (A) and (C)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "The number of Tuples in a Relation",
+      "explanation": "The “cardinality” of a relation instance is the number of tuples in it. The degree of the relation is the number of fields (or) columns.\n\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational model",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Questions 1 to 15 carry one mark each:",
+      "text": "Consider the following table:\n\nHow many tuples are returned by following expression, \\(\\pi_{Sname,\\ Rating}(Sailor)\\)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_2/q006-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "3",
+      "explanation": "π-project, eliminates duplicates.\n\nSname | Rating\nYashu | 9\nLalit | 10\nBose | 8\n\n∴ Hence ‘3’ tuples.\n\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Databases_2/q006-explanation.png"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Questions 1 to 15 carry one mark each:",
+      "text": "Which of the following statement is FALSE, for 2 Relations R and S?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "R×S returns a Relation with all the fields of R in the same order as they appear in R followed by all the fields of S in the same order as they appear in S."
+        },
+        {
+          "label": "B",
+          "text": "The fields in R×S have the same domains as the corresponding fields in R and S."
+        },
+        {
+          "label": "C",
+          "text": "R ∩ S = R − (R − S)"
+        },
+        {
+          "label": "D",
+          "text": "R ∩ S = S − (S − R)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "R ∩ S = S − (S − R)",
+      "explanation": "R ∪ S = S − (S − R) is not TRUE.\n\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Questions 1 to 15 carry one mark each:",
+      "text": "Which of the following correctly describes “Prime Attribute”?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "It should be a part of primary key"
+        },
+        {
+          "label": "B",
+          "text": "It should be a part of any candidate key"
+        },
+        {
+          "label": "C",
+          "text": "It should be a part of every candidate key"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "It should be a part of any candidate key",
+      "explanation": "Prime Attributes should be part of any candidate key.\n\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Functional dependencies",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Questions 1 to 15 carry one mark each:",
+      "text": "Let X, Y and Z denote sets of attributes over a relation schema R. Match the following.\nI. If X → Y, then XZ → YZ for any Z\nII. If X ⊇ Y, then X → Y\nIII. If X → YZ, then X → Y and X → Z\nP. Reflexivity\nQ. Augmentation\nR. Decomposition",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I–Q, II–P, III–R"
+        },
+        {
+          "label": "B",
+          "text": "I–P, II–R, III–Q"
+        },
+        {
+          "label": "C",
+          "text": "I–P, II–Q, III–R"
+        },
+        {
+          "label": "D",
+          "text": "I–R, II–Q, III–P"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "I–Q, II–P, III–R",
+      "explanation": "Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Functional dependencies",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Questions 1 to 15 carry one mark each:",
+      "text": "Which of the following are additional features of SQL?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "SQL has language constructs for specifying views, also known as virtual tables, using the CREATE VIEW Statement"
+        },
+        {
+          "label": "B",
+          "text": "SQL and Relational databases can interact with new technologies such as XML and OLAP."
+        },
+        {
+          "label": "C",
+          "text": "SQL has Language constructs for creating triggers"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": "All the statements are additional features of SQL.\n\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "SQL",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Questions 1 to 15 carry one mark each:",
+      "text": "Consider the given Functional Dependencies for Employee – Project Relation:\nENo → EName\nPNo → PName, Location\n{ENo, PNo} → Hours\nHow many attributes appear in the closure of ENo, (ENo+)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2",
+      "explanation": "ENo+ = {ENo, EName}.\n\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Functional dependencies",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Questions 1 to 15 carry one mark each:",
+      "text": "Magnetic tapes are sequential access devices, to access the nth block on tape _____?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "We must scan over the preceding (n − 1) blocks"
+        },
+        {
+          "label": "B",
+          "text": "We can scan directly nth block"
+        },
+        {
+          "label": "C",
+          "text": "We must scan atleast n/2 blocks before scanning nth block"
+        },
+        {
+          "label": "D",
+          "text": "We must scan atmost n/2 blocks before scanning nth block"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "We must scan over the preceding (n − 1) blocks",
+      "explanation": "We must scan over the preceding (n − 1) blocks.\n\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "File organization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Questions 1 to 15 carry one mark each:",
+      "text": "What is the unused space in each block, for fixed length record of size ‘R’ bytes with B ≥ R (B = Block Size), we can fit ⌊B/R⌋ (bfr = ⌊B/R⌋) records in one block?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "B − (bfr * R)"
+        },
+        {
+          "label": "B",
+          "text": "(B − bfr * R) + 1"
+        },
+        {
+          "label": "C",
+          "text": "B + (bfr * R)"
+        },
+        {
+          "label": "D",
+          "text": "B/bfr + R"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "B − (bfr * R)",
+      "explanation": "B − (bfr * R) is the unused space in each block.\n\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "File organization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Questions 1 to 15 carry one mark each:",
+      "text": "To utilize the unused space in each block, we can store part of a record on one block and the rest on another, A pointer at the end of the first block points to the block containing the remaining part of record, what this organization is called?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Unspanned"
+        },
+        {
+          "label": "B",
+          "text": "Spanned"
+        },
+        {
+          "label": "C",
+          "text": "Distributed"
+        },
+        {
+          "label": "D",
+          "text": "Collabarative"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Spanned",
+      "explanation": "It is called spanned organization.\n\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "File organization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Questions 1 to 15 carry one mark each:",
+      "text": "For variable length records using spanned organization, each block may store different number of records. The blocking factor “bfr” represents the average number of records per block for the file, what is the number of blocks ‘b’ needed for a file of ‘r’ records?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "b = ⌈bfr/r⌉"
+        },
+        {
+          "label": "B",
+          "text": "b = ⌈r/bfr⌉"
+        },
+        {
+          "label": "C",
+          "text": "b = ⌈r × bfr⌉"
+        },
+        {
+          "label": "D",
+          "text": "b = ⌈2 × r/bfr⌉"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "b = ⌈r/bfr⌉",
+      "explanation": "b = ⌈r/bfr⌉\n\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "File organization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following SQL Query is valid to increment the age of the student whose student Id (Sid) is 63078?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Update student S\nSET S.age = S.age + 1;\nWHERE S.Sid = 63078"
+        },
+        {
+          "label": "B",
+          "text": "Select S.age + 1\nFrom student S\nWhere S.Sid = 63078"
+        },
+        {
+          "label": "C",
+          "text": "Update S.age = S.age + 1\nWHERE S.Sid = 63078"
+        },
+        {
+          "label": "D",
+          "text": "Both (A) and (B)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Both (A) and (B)",
+      "explanation": "We can modify the column values in an existing row using the UPDATE command. We can increment the age of the student with Sid 63078\nUPDATE Student S\nSET S.age = S.age + 1\nWHERE S.Sid = 63078\n\n(or)\n\nSelect S.age + 1\nFrom Student S\nWhere S.Sid = 63078.\n\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "SQL",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given Relation worker\n\nWorker\n\nTo Rename table as Employee or WId as EId, service as Experience, which of the following is not valid?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "ρ_Employee worker"
+        },
+        {
+          "label": "B",
+          "text": "ρ_(EID, Experience) worker"
+        },
+        {
+          "label": "C",
+          "text": "ρ_(EID, Name, Experience, Age) worker"
+        },
+        {
+          "label": "D",
+          "text": "ρ_Employee (EID, Name, Experience, Age) worker"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_2/q017-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "ρ(EID, Experience) worker",
+      "explanation": "ρ(EID, Experience) worker\nIt will replace WID with EID and Name with Experience which is NOT Valid.\n\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given schema for sailors\nsailors(Sid : integer, Sname : string, Rating : integer, age : real).\nWhich of the following SQL Queries is invalid?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "SELECT S.Rating, (S.age)\nFROM Sailors S\nWHERE S.Rating = 10"
+        },
+        {
+          "label": "B",
+          "text": "SELECT S.Rating, MAX (S.age)\nFROM Sailors S\nGROUPBY S.Rating"
+        },
+        {
+          "label": "C",
+          "text": "SELECT S.Sname, MAX (S.age)\nFROM Sailors S\nWHERE S.Rating > 7"
+        },
+        {
+          "label": "D",
+          "text": "SELECT AVG (S.Age)\nFROM Sailors S\nWHERE S.Rating > 8"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "SELECT S.Sname, MAX (S.age)\nFROM Sailors S\nWHERE S.Rating > 7",
+      "explanation": "If select clause uses an aggregate operation, then it must only use aggregate unless the query contains a GROUP BY clause.\n\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "SQL",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the schema given in the above Question,\nSELECT Sname\nFROM Sailors\nWHERE Rating IN(6, 8, 9, 10)\nWhat is retrieved by the above query?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The names of sailors whose Rating is between 6 and 10."
+        },
+        {
+          "label": "B",
+          "text": "The names of sailors whose Rating is any one of 6, 8, 9, 10."
+        },
+        {
+          "label": "C",
+          "text": "Both (A) and (B)"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "The names of sailors whose Rating is any one of 6, 8, 9, 10.",
+      "explanation": "It retrieves the names of sailors whose Rating is any one of the given Ratings 6, 8, 9, 10.\n\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "SQL",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Let ‘R’ be a Relation schema and Let x and y be non empty sets of attributes in R. An instance ‘r’ of R satisfies the FD –x → y. For which of the following tuples t1 and t2 are in r?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "t1 · x = t2 · x and t1 · y = t2 · y"
+        },
+        {
+          "label": "B",
+          "text": "t1 · x = t2 · y and t1 · y = t2 · y"
+        },
+        {
+          "label": "C",
+          "text": "t1 · x = t2 · x and t1 · y = t2 · x"
+        },
+        {
+          "label": "D",
+          "text": "t1 · x = t2 · y and t1 · x = t2 · y"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "t1 · x = t2 · x and t1 · y = t2 · y",
+      "explanation": "t1 · x = t2 · x and t1 · y = t2 · y.\n\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Functional dependencies",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following Relational instance?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "AB → C"
+        },
+        {
+          "label": "B",
+          "text": "AB → CD"
+        },
+        {
+          "label": "C",
+          "text": "AC → D"
+        },
+        {
+          "label": "D",
+          "text": "D → AC"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_2/q021-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "AB → C",
+      "explanation": "The given instance satisfies AB → C.\n\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Functional dependencies",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given Relation R\n\n\\(\\pi_{WX}(R) \\bowtie \\pi_{XZ}(R)\\), what is the number of tuples returned by the given expression?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_2/q022-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "5",
+      "explanation": "\\(\\pi_{WX}(R)\\)\n\nW | X\nW1 | X1\nW2 | X2\nW3 | X2\n\n\\(\\pi_{XZ}(R)\\)\n\nX | Z\nX1 | Z1\nX2 | Z2\nX2 | Z1\n\n\\(\\pi_{WX}(R) \\bowtie \\pi_{XZ}(R)\\)\n\nW | X | Z\nW1 | X1 | Z1\nW2 | X2 | Z2\nW2 | X2 | Z1\nW3 | X2 | Z2\nW3 | X2 | Z1\n\nChoice (D)",
+      "status": "confirmed",
+      "image": "images/Databases_2/q022-explanation.png"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "For the Relation ‘R’ given in the above question, if we perform \\(\\pi_{WX}(R) \\;⟕\\; \\pi_{XZ}(R)\\) (⟕: left outer join), what is the number of tuples that appear in the Result?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "5",
+      "explanation": "All tuples in p_wx(R) has atleast one matching in p_xz(R), so same number of tuples as p_wx(R) ⟕ p_xz(R), returned in the result.\n\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given SQL Query:\nSelect DISTINCT ENo\nFrom works\nWhere (PNo, Hours) IN (Select PNo, Hours\nFrom works where ENo = ‘788’);\nWhat is returned by the above query?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The employee numbers of all employees who work on the same (PNo, Hours) combination on some project on which Employee ENo 788 is working."
+        },
+        {
+          "label": "B",
+          "text": "The employee numbers of all employees who work on the same (PNo, Hours) combination whose ENo is 788."
+        },
+        {
+          "label": "C",
+          "text": "Both (A) and (B)"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "The employee numbers of all employees who work on the same (PNo, Hours) combination on some project on which Employee ENo 788 is working.",
+      "explanation": "The employee numbers of all employees who work on the same (PNO, Hours) combination on some project on which employee ENO 788 is working. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "SQL",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Retrieve the Employee numbers (ENo) of all employees who work on project numbers 11, 22, 23, 24?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "SELECT ENo\nFROM Works\nWhere PNo IN(11, 22, 23, 24)"
+        },
+        {
+          "label": "B",
+          "text": "Select DISTINCT ENo\nFrom Works\nWhere PNo IN(11, 22, 23, 24)"
+        },
+        {
+          "label": "C",
+          "text": "Select ENo\nFROM Works\nWhere PNo = 11 AND PNo = 22 AND PNo = 23 AND PNo = 24."
+        },
+        {
+          "label": "D",
+          "text": "Select *\nFROM works\nWhere PNo = 11 OR PNo = 22 OR PNo = 23 OR PNo = 24."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Select DISTINCT ENo\nFrom Works\nWhere PNo IN(11, 22, 23, 24)",
+      "explanation": "Some employees may work on more than one project, so DISTINCT Key word will eliminate duplicates in the output.\n\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "SQL",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following correctly specifies the “JOIN” Operation on 2 tables Employee and Department, the common field in both tables is DNo?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Select *\nFrom (Employee JOIN Department ON Employee.DNo = Department.DNo)"
+        },
+        {
+          "label": "B",
+          "text": "Select *\nFrom (Employee JOIN Department)"
+        },
+        {
+          "label": "C",
+          "text": "Select *\nFrom Employee, Department"
+        },
+        {
+          "label": "D",
+          "text": "Select *\nFrom (Employee JOIN Department IN Employee.DNo = Department.DNo)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Select *\nFrom (Employee JOIN Department ON Employee.DNo = Department.DNo)",
+      "explanation": "The concept of Joining Relations was incorporated into SQL to permit users to specify a table resulting from a Join operation in the FROM clause of a query.\n\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "SQL",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given Functional Dependencies for Employee – project Relation\nENo → EName\nPNo → PName, Location\n{ENo, PNo} → Hours\nHow many attributes are included in the closure of {ENo, PNo}⁺?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "6",
+      "explanation": "{ENo, PNo}⁺ = {ENo, PNo, EName, PName, Location, Hours}.\n\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Functional dependencies",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Common data for Questions 28 and 29: Consider the 2 tables T1 and T2.\nTable T1:\nP | Q | R\n20 | X | 50\n25 | Y | 80\n35 | X | 60\nTable T2:\nA | B | C\n20 | Y | 60\n35 | Z | 30\n20 | Y | 50",
+      "text": "What is the number of tuples returned from \\(T_1 \\bowtie_{(T_1\\cdot P=T_2\\cdot A\\;\\mathrm{AND}\\;T_1\\cdot R=T_2\\cdot C)} T_2\\)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_2/q028-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1",
+      "explanation": "T1 ⋈ T2\n\nP | Q | R | A | B | C\n20 | X | 50 | 20 | Y | 60\n20 | X | 50 | 35 | Z | 30\n20 | X | 50 | 20 | Y | 50\n25 | Y | 80 | 20 | Y | 60\n25 | Y | 80 | 35 | Z | 30\n25 | Y | 80 | 20 | Y | 50\n35 | X | 60 | 20 | Y | 60\n35 | X | 60 | 35 | Z | 30\n35 | X | 60 | 20 | Y | 50\nOnly 1(3rd tuple).\n\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Databases_2/q028-explanation.png"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Common data for Questions 28 and 29: Consider the 2 tables T1 and T2.\nTable T1:\nP | Q | R\n20 | X | 50\n25 | Y | 80\n35 | X | 60\nTable T2:\nA | B | C\n20 | Y | 60\n35 | Z | 30\n20 | Y | 50",
+      "text": "What is the number of tuples returned from \\(T_1 \\bowtie_{(T_1\\cdot P=T_2\\cdot A\\;\\mathrm{OR}\\;T_1\\cdot R=T_2\\cdot C)} T_2\\)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_2/q029-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "4",
+      "explanation": "Refer the table given in the above solution.\nT1 · P = T2 · A\n1st, 3rd, 8th tuples\nT1 · R = T2 · C\n7th tuple\n∴ Total ‘4’ tuples.\n\nChoice (D)",
+      "status": "confirmed",
+      "image": "images/Databases_2/q029-explanation.png"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Common data for Questions 30 and 31: Consider the given Relation worker:\nName | Age | Project-Number\nAnu | 26 | 10\nBala | 24 | 20\nSudhir | 28 | 10\nShreya | 24 | 10\nBharat | 19 | 20\nSrinath | 21 | 30\nRaj | 22 | 30\nMishra | 21 | 20\nPhani | 19 | 40",
+      "text": "What is the Result of the following SQL Query\nSELECT Project-Number, MIN (Age)\nFROM Worker\nGROUPBY Project-Number\nHAVING COUNT (*) ≥ 3",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Project-Number | MIN (Age)\n10 | 24\n20 | 19"
+        },
+        {
+          "label": "B",
+          "text": "Project-Number | MIN (Age)\n10 | 24\n20 | 19\n30 | 21\n40 | 19"
+        },
+        {
+          "label": "C",
+          "text": "Project-Number | MIN (Age)\n10 | 24\n20 | 19\n30 | 21"
+        },
+        {
+          "label": "D",
+          "text": "Project-Number | MIN (Age)\n20 | 19\n40 | 19"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_2/q030-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Project-Number | MIN (Age)\n10 | 24\n20 | 19",
+      "explanation": "GROUP-BY Project-Number gives\nTable-1\nName | Age | Project-Number\nAnu | 26 | 10\nSudhir | 28 | 10\nShreya | 24 | 10\n\nTable-2\nName | Age | Project-Number\nBala | 24 | 20\nBharat | 19 | 20\nMishra | 21 | 20\n\nTable-3\nName | Age | Project-Number\nSrinath | 21 | 30\nRaj | 22 | 30\n\nTable-4\nName | Age | Project-Number\nPhani | 19 | 40\n\nTable-1 and Table-2 are satisfying the condition count (*) ≥ 3.\n\nChoice (A)",
+      "status": "confirmed",
+      "image": "images/Databases_2/q030-explanation.png"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "SQL",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Common data for Questions 30 and 31: Consider the given Relation worker:\nName | Age | Project-Number\nAnu | 26 | 10\nBala | 24 | 20\nSudhir | 28 | 10\nShreya | 24 | 10\nBharat | 19 | 20\nSrinath | 21 | 30\nRaj | 22 | 30\nMishra | 21 | 20\nPhani | 19 | 40",
+      "text": "In the Result of following SQL query\nSELECT Age, count (*)\nFROM Worker\nGROUPBY Age\nWhat is the number of tuples?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_2/q031-explanation.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "6",
+      "explanation": "GROUP-BY Age returns\nAnu 26; Sudhir 28; Bala 24; Bharat 19; Shreya 24; Phani 19; Srinath 21; Mishra 21; Raj 21.\n\nResult:\nAge | Count (*)\n19 | 2\n21 | 2\n22 | 1\n24 | 2\n26 | 1\n28 | 1\n\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Databases_2/q031-explanation.png"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "SQL",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Common data for Questions 32 and 33: Consider the given 2 tables:\nSailor-1:\nSname | Rating | Age\nYashu | 9 | 35\nLalit | 10 | 45\nBose | 8 | 41\nAna | 7 | 40\nSailor-2:\nSname | Rating | Age\nRaj | 10 | 40\nKamal | 10 | 41\nAna | 7 | 40",
+      "text": "Which of the following Tuple is not part of sailor-1 and sailor-2?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yashu 9 35  |  Kamal 10 41"
+        },
+        {
+          "label": "B",
+          "text": "Lalit 10 45  |  Raj 10 40"
+        },
+        {
+          "label": "C",
+          "text": "Ana 7 40  |  Kamal 7 40"
+        },
+        {
+          "label": "D",
+          "text": "Bose 8 41  |  Lalit 10 45"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_2/q032-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Bose 8 41  |  Lalit 10 45",
+      "explanation": "The tuple Bose 8 41 cannot have cross product with any tuple in sailor-1.\n\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Common data for Questions 32 and 33: Consider the given 2 tables:\nSailor-1:\nSname | Rating | Age\nYashu | 9 | 35\nLalit | 10 | 45\nBose | 8 | 41\nAna | 7 | 40\nSailor-2:\nSname | Rating | Age\nRaj | 10 | 40\nKamal | 10 | 41\nAna | 7 | 40",
+      "text": "What is the number of tuples appear in sailor-1 SET DIFFERENCE sailor-2?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "3",
+      "explanation": "It returns the tuples that are present in sailor-1 but not in sailor-2, Ana 7 40 is present in sailor-1 and sailor-2 also, so this will not appear in the Result of sailor-1 SET DIFFERENCE sailor-2.\n\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Relational algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Common Data for Questions 34 and 35: Consider the given 2 tables Employee and Department and primary keys are shown with underline.\nEmployee:\nEId | Name | DNo | Age\n0326 | Kumar | 5 | 38\n0429 | Nilesh | 4 | 36\n0589 | Phani | 4 | 34\n0679 | Raja | 3 | 36\n0588 | Deepak | 2 | 37\nDepartment:\nDNo | DName\n1 | Accounts\n2 | Sales\n3 | Marketing\n4 | Executives\n5 | Research",
+      "text": "Insert into Employee values < 0589, ‘Anurag’, 3, 37 >,\nThe above operation violates which constraint?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "NOT NULL Constraint"
+        },
+        {
+          "label": "B",
+          "text": "KEY Constraint"
+        },
+        {
+          "label": "C",
+          "text": "Entity Integrity Constraint"
+        },
+        {
+          "label": "D",
+          "text": "Referential Integrity Constraint"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_2/q034-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "KEY Constraint",
+      "explanation": "It violates KEY constraint, because EID is primary key and EID 0589 is already present in the employee table.\n\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Integrity constraints",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_2.pdf",
+      "direction": "Common Data for Questions 34 and 35: Consider the given 2 tables Employee and Department and primary keys are shown with underline.\nEmployee:\nEId | Name | DNo | Age\n0326 | Kumar | 5 | 38\n0429 | Nilesh | 4 | 36\n0589 | Phani | 4 | 34\n0679 | Raja | 3 | 36\n0588 | Deepak | 2 | 37\nDepartment:\nDNo | DName\n1 | Accounts\n2 | Sales\n3 | Marketing\n4 | Executives\n5 | Research",
+      "text": "Delete Department tuple with DNo = 5, The above operation violates which constraint?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "NOT NULL Constraint"
+        },
+        {
+          "label": "B",
+          "text": "KEY Constraint"
+        },
+        {
+          "label": "C",
+          "text": "Referential Integrity Constraint"
+        },
+        {
+          "label": "D",
+          "text": "Entity Integrity Constraint"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_2/q035-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Referential Integrity Constraint",
+      "explanation": "Employee table references to Department table, Absence of DNo = 5 causes Referential Integrity Constraint violation.\n\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Integrity constraints",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_2.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

@@ -1,0 +1,1479 @@
+[
+  {
+    "id": "gate-engineering-mathematics-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $\\lambda$ is an eigen value of an orthogonal matrix $A$ then which of the following is always TRUE? P: $\\frac{1}{\\lambda}$ is also an eigen value of $A$. Q: $\\lambda$ is a non-zero eigen value.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "P only"
+        },
+        {
+          "label": "B",
+          "text": "Q only"
+        },
+        {
+          "label": "C",
+          "text": "Both P and Q"
+        },
+        {
+          "label": "D",
+          "text": "Neither P nor Q"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both P and Q",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra — Eigenvalues",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "A fair die is rolled independently four times. The probability that a non-composite number turns up for atleast 3 times is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{16}{27}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{11}{27}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{27}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{27}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\frac{16}{27}$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Probability — Binomial probability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The value of $I=\\int_{1}^{2}x^3\\ln x\\,dx$ is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$4\\ln 16-15$"
+        },
+        {
+          "label": "B",
+          "text": "$4\\ln 16+15$"
+        },
+        {
+          "label": "C",
+          "text": "$\\ln 16+\\frac{15}{16}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\ln 16-\\frac{15}{16}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\ln 16-\\frac{15}{16}$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Calculus — Definite Integration",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $x=\\ln\\frac{y}{x}$, then $y$ has",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "a local maximum at $x=-1$"
+        },
+        {
+          "label": "B",
+          "text": "a local minimum at $x=-1$"
+        },
+        {
+          "label": "C",
+          "text": "a local maximum at $x=1$"
+        },
+        {
+          "label": "D",
+          "text": "a local minimum at $x=1$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "a local minimum at $x=-1$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Calculus — Maxima and Minima",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The complete solution of the initial value problem $\\frac{d^2y}{dx^2}+4y=0;\\ y(0)=4$ and $y\\prime(0)=8$ is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$y=4(\\cos 2x+2\\sin 2x)$"
+        },
+        {
+          "label": "B",
+          "text": "$y=4\\cos 2x$"
+        },
+        {
+          "label": "C",
+          "text": "$y=4\\sin 2x$"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of these",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Differential Equations — Second-order ODE",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The value of $\\lim_{n\\to0}\\left(\\frac{1+2n}{1+3n}\\right)^{1/n}$ is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$e$"
+        },
+        {
+          "label": "B",
+          "text": "$e^{-1}$"
+        },
+        {
+          "label": "C",
+          "text": "$e^{-2}$"
+        },
+        {
+          "label": "D",
+          "text": "$1$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$e^{-1}$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Calculus — Limits",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The value of $\\oint_C \\vec F\\cdot d\\vec r$, where $\\vec F=xy^2\\vec i-x^2y\\vec j$ over the path shown in the figure is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$-\\frac{1}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$-\\frac{1}{6}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf",
+      "image": "images/Engineering_mathematics_1/gate-engineering-mathematics-test-1-q007-figure.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$-\\frac{1}{6}$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Vector Calculus — Line Integral",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If the eigen values of a matrix $A=\\begin{bmatrix}7&a\\\\5&b\\end{bmatrix}$ are 10 and 2, then the values of ‘a’ and ‘b’ respectively are ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$a=3,\\ b=-5$"
+        },
+        {
+          "label": "B",
+          "text": "$a=-3,\\ b=-5$"
+        },
+        {
+          "label": "C",
+          "text": "$a=3,\\ b=5$"
+        },
+        {
+          "label": "D",
+          "text": "$a=3,\\ b=-5$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$a=3,\\ b=5$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra — Eigenvalues",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The Taylor’s series expansion of $\\frac{\\cos x}{\\frac{3\\pi}{2}-x}$ at $x=\\frac{3\\pi}{2}$ is given by",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1-\\frac{\\left(x-\\frac{3\\pi}{2}\\right)^2}{2!}+\\frac{\\left(x-\\frac{3\\pi}{2}\\right)^4}{4!}+\\cdots\\infty$"
+        },
+        {
+          "label": "B",
+          "text": "$\\left(x-\\frac{3\\pi}{2}\\right)-\\frac{\\left(x-\\frac{3\\pi}{2}\\right)^3}{3!}+\\frac{\\left(x-\\frac{3\\pi}{2}\\right)^5}{5!}+\\cdots\\infty$"
+        },
+        {
+          "label": "C",
+          "text": "$1-\\frac{\\left(x-\\frac{3\\pi}{2}\\right)^2}{3!}+\\frac{\\left(x-\\frac{3\\pi}{2}\\right)^4}{5!}+\\cdots\\infty$"
+        },
+        {
+          "label": "D",
+          "text": "$-1+\\frac{\\left(x-\\frac{3\\pi}{2}\\right)^2}{3!}-\\frac{\\left(x-\\frac{3\\pi}{2}\\right)^4}{5!}+\\cdots\\infty$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$-1+\\frac{\\left(x-\\frac{3\\pi}{2}\\right)^2}{3!}-\\frac{\\left(x-\\frac{3\\pi}{2}\\right)^4}{5!}+\\cdots\\infty$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Calculus — Taylor Series",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If a scalar field $f$ and a vector field $\\vec V$ are related by $f=\\operatorname{Div}\\vec V$, which of the following is TRUE? Here $S$ is a closed surface, enclosing a volume $V_S$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\iint_S \\operatorname{curl}\\vec V\\cdot d\\vec s=\\iiint_{V_S}f\\,dv$"
+        },
+        {
+          "label": "B",
+          "text": "$\\iint_S \\vec V\\cdot d\\vec s=\\iiint_{V_S}f\\,dv$"
+        },
+        {
+          "label": "C",
+          "text": "$\\iiint_S f\\,dv=\\iiint_{V_S}\\operatorname{Div}\\vec V\\,d\\vec s$"
+        },
+        {
+          "label": "D",
+          "text": "$\\iint_S \\operatorname{curl}\\vec V\\times d\\vec s=\\iiint_{V_S}f\\,dv$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\iint_S \\vec V\\cdot d\\vec s=\\iiint_{V_S}f\\,dv$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Vector Calculus — Divergence Theorem",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The curl of the vector field $2xy\\vec i+xy^2z\\vec j-6xz^3\\vec k$ at the point $(0,2,3)$ is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2\\vec i+5\\vec j-6\\vec k$"
+        },
+        {
+          "label": "B",
+          "text": "$5\\vec i+2\\vec j$"
+        },
+        {
+          "label": "C",
+          "text": "$162\\vec j+12\\vec k$"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$162\\vec j+12\\vec k$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Vector Calculus — Curl",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "Let $S$ denote the set of all possible arrangements of letters of the word ‘AUTHORISED’ without repetitions. If an element in $S$ is selected at random, then what is the probability that, the letter ‘I’ appears at a later position, than all other vowels?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{5}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{5!}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4!}{5!}\\times2$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{4!\\times5!}{10!}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\frac{1}{5}$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Probability and Combinatorics — Permutations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "In the process of finding a solution to the equation $f(x)=4x^2=4x-15=0$ by Newton–Raphson method, with initial solution as $x_0=1.6$, the method converges to actual solution after ______ interaction, when the calculator is fixed to four decimal places.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2nd"
+        },
+        {
+          "label": "B",
+          "text": "4th"
+        },
+        {
+          "label": "C",
+          "text": "6th"
+        },
+        {
+          "label": "D",
+          "text": "8th"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "4th",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Numerical Methods — Newton–Raphson Method",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "In the process of finding a root for $x^3-3x^2-5x+6=0$ in between $a=3$ and $b=4$, by Regula Falsi method, the value of the root in the first iteration is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3.8182"
+        },
+        {
+          "label": "B",
+          "text": "3.5"
+        },
+        {
+          "label": "C",
+          "text": "3.6235"
+        },
+        {
+          "label": "D",
+          "text": "3.3218"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "3.8182",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Numerical Methods — Regula Falsi Method",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "For the system of linear equations $x+2y+3z=4$, $2x+3y+(a-4)z=b$, $4x+7y-z=5$ has infinite number of solutions, then the values of ‘a’ and ‘b’ are ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$a=b=3$"
+        },
+        {
+          "label": "B",
+          "text": "$a=-b=3$"
+        },
+        {
+          "label": "C",
+          "text": "$a=b=-3$"
+        },
+        {
+          "label": "D",
+          "text": "$a=-b=-3$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$a=b=-3$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra — System of Linear Equations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "Evaluate $\\int_0^{\\pi/3}f(x)\\,dx$ by Simpson’s $\\frac{3}{8}$ Rule using the following table: $x=0,\\frac{\\pi}{18},\\frac{\\pi}{9},\\frac{\\pi}{6},\\frac{2\\pi}{9},\\frac{5\\pi}{18},\\frac{\\pi}{3}$ and $y=f(x)=0,0.1762,0.3638,0.5770,0.8385,1.1907,1.7299$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.5862"
+        },
+        {
+          "label": "B",
+          "text": "0.6929"
+        },
+        {
+          "label": "C",
+          "text": "0.5928"
+        },
+        {
+          "label": "D",
+          "text": "0.7234"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf",
+      "image": "images/Engineering_mathematics_1/gate-engineering-mathematics-test-1-q016-table.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "0.6929",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Numerical Methods — Simpson’s 3/8 Rule",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If ‘r’ is the standard deviation of $a_1,a_2,a_3\\ldots a_n$, then the standard deviation of $ka_1+1,ka_2+1,ka_3+1,\\ldots,ka_n+1$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$kr$"
+        },
+        {
+          "label": "B",
+          "text": "$kr+1$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{r}{k}-1$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{r}{k}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$kr$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Probability and Statistics — Standard Deviation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $\\vec a=\\vec i+\\vec j-2\\vec k$ and $\\vec b=\\vec i-2\\vec j+\\vec k$, then determinant of the matrix $\\begin{bmatrix}\\vec a\\cdot\\vec a&\\vec a\\cdot\\vec b\\\\\\vec b\\cdot\\vec a&\\vec b\\cdot\\vec b\\end{bmatrix}$, where $\\vec a\\cdot\\vec b$ denotes the dot product of the vector $\\vec a$ and $\\vec b$ is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "27"
+        },
+        {
+          "label": "C",
+          "text": "18"
+        },
+        {
+          "label": "D",
+          "text": "54"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "27",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra — Determinants and Dot Product",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $x$ and $y$ are two random variables, $a$ and $b$ are any two constants and $E(x)$ and $\\operatorname{var}(x)$ denote the expectation and the variance of the random variable $x$, then which of the following is INCORRECT?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\operatorname{var}(ax+b)=a^2\\operatorname{var}(x)$"
+        },
+        {
+          "label": "B",
+          "text": "$E(ax+b)=aE(x)+b$"
+        },
+        {
+          "label": "C",
+          "text": "$E(x+y)=E(x)+E(y)$"
+        },
+        {
+          "label": "D",
+          "text": "$E(x^2)=\\operatorname{var}(x)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$E(x^2)=\\operatorname{var}(x)$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Probability and Statistics — Expectation and Variance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "Which of the following pairs of vectors are orthonormal?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\begin{bmatrix}1\\\\1\\\\1\\end{bmatrix};\\begin{bmatrix}-1\\\\2\\\\-1\\end{bmatrix}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\begin{bmatrix}\\frac{1}{\\sqrt4}\\\\\\frac{1}{\\sqrt4}\\\\\\frac{1}{\\sqrt2}\\end{bmatrix};\\begin{bmatrix}\\frac{1}{\\sqrt2}\\\\\\frac{1}{\\sqrt4}\\\\-\\frac{1}{\\sqrt4}\\end{bmatrix}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\begin{bmatrix}1\\\\2\\\\3\\end{bmatrix};\\begin{bmatrix}3\\\\2\\\\1\\end{bmatrix}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\begin{bmatrix}\\frac{1}{\\sqrt2}\\\\-\\frac{1}{\\sqrt2}\\\\0\\end{bmatrix};\\begin{bmatrix}\\frac{1}{\\sqrt3}\\\\\\frac{1}{\\sqrt3}\\\\-\\frac{1}{\\sqrt3}\\end{bmatrix}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\begin{bmatrix}\\frac{1}{\\sqrt2}\\\\-\\frac{1}{\\sqrt2}\\\\0\\end{bmatrix};\\begin{bmatrix}\\frac{1}{\\sqrt3}\\\\\\frac{1}{\\sqrt3}\\\\-\\frac{1}{\\sqrt3}\\end{bmatrix}$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Linear Algebra — Orthonormal Vectors",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "An integrating factor of the non-exact differential equation $(x^2+2xy-2y^2)dx+(y^2+2xy-2x^2)dy=0$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x^3+y^3$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{x^3+y^3}$"
+        },
+        {
+          "label": "C",
+          "text": "$x^3-y^3$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{x^3-y^3}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\frac{1}{x^3+y^3}$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Differential Equations — Integrating Factor",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The solution of the differential equation $x\\frac{dy}{dx}+y=3x^2$, $y(1)=2$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$y=x+\\frac{1}{x}$"
+        },
+        {
+          "label": "B",
+          "text": "$y=x+\\frac{1}{x^2}$"
+        },
+        {
+          "label": "C",
+          "text": "$y=x^3$"
+        },
+        {
+          "label": "D",
+          "text": "$y=x^2+\\frac{1}{x}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$y=x^2+\\frac{1}{x}$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Differential Equations — First-order ODE",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $x=\\sqrt{y+\\sqrt{y+\\sqrt{y+\\cdots\\infty}}}$, then the value of $\\frac{dy}{dx}$ at $x=1$ is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "Undefined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Calculus — Implicit Differentiation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "Let $f(x)=\\begin{cases}2x-3,&\\text{for }x\\ge\\frac32\\\\3-2x,&\\text{for }x<\\frac32\\end{cases}$ Then which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$f(x)$ is continuous and differentiable for all real values of $x$."
+        },
+        {
+          "label": "B",
+          "text": "$f(x)$ is not continuous at $x=\\frac32$."
+        },
+        {
+          "label": "C",
+          "text": "$f(x)$ is continuous for real values of $x$, except $x=\\frac32$."
+        },
+        {
+          "label": "D",
+          "text": "$f(x)$ is continuous for every $x$ and differentiable for all values of $x$, except $x=\\frac32$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$f(x)$ is continuous for every $x$ and differentiable for all values of $x$, except $x=\\frac32$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Calculus — Continuity and Differentiability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $L[f(t)]=\\frac{2s+3}{s^2+5s+6}$, then the initial value of $f(t)$ is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "pdfName": "Engineering_mathematics_1.pdf"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Laplace Transforms — Initial Value Theorem",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering_mathematics_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  }
+]

@@ -1,0 +1,1490 @@
+[
+  {
+    "id": "gate-digital-logic-test-1-q001",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "Assume the propagation delay time of 2 input gates as EXOR-20 ns, AND – 10 ns, OR-10 ns, the propagation delay time for sum and carry output of a full adder circuit are respectively, when all the data inputs are applied simultaneously?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "30 ns, 20 ns"
+        },
+        {
+          "label": "B",
+          "text": "40 ns, 30 ns"
+        },
+        {
+          "label": "C",
+          "text": "40 ns, 20 ns"
+        },
+        {
+          "label": "D",
+          "text": "20 ns, 20 ns"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "40 ns, 30 ns",
+      "explanation": "Sum = $a\\oplus b\\oplus c$.\nCarry = $ab+bc+ac$.\n\nTwo level EXOR gate for sum, so $20+20=40$ ns.\nCarry will be implemented with 2-input gates in 3 levels, so $10+10+10=30$ ns.\nChoice (B).",
+      "status": "confirmed",
+      "image": "images/Digital_logic_2/q001-explanation-circuits.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q002",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The minimized POS expression of the function $f(A, B, C, D)=AB+A\\bar C+C+AD+A\\bar BC+ABC$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$A+\\bar C$"
+        },
+        {
+          "label": "B",
+          "text": "$\\bar A+\\bar B$"
+        },
+        {
+          "label": "C",
+          "text": "$AC$"
+        },
+        {
+          "label": "D",
+          "text": "$A+C$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$A+C$",
+      "explanation": "$f=AB+A\\bar C+C+AD+A\\bar BC+ABC$\n$=AB+A+C+AD+AC$\n$=A(B+1+D+C)+C$\n$=A+C$.\nChoice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q003",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The signed two’s complement representation of $(-783)_{10}$ is (in HEX):",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "830FH"
+        },
+        {
+          "label": "B",
+          "text": "04F1H"
+        },
+        {
+          "label": "C",
+          "text": "FCF1H"
+        },
+        {
+          "label": "D",
+          "text": "F3F1H"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "FCF1H",
+      "explanation": "$783=512+256+8+4+2+1=1100001111$.\n$+783=0000\\ 0011\\ 0000\\ 1111$ (add 0's to MSB).\n$-783=1111\\ 1100\\ 1111\\ 0001$ (2's complement of +783).\nIn HEX $\\Rightarrow$ FCF1.\nChoice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q004",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The two numbers represented in signed 2’s complement form are:\n$P=11011101$ and $Q=11100101$, if $Q$ is subtracted from $P$, the value obtained in signed 2’s complement form is?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "11110111"
+        },
+        {
+          "label": "B",
+          "text": "11000010"
+        },
+        {
+          "label": "C",
+          "text": "11111000"
+        },
+        {
+          "label": "D",
+          "text": "00000111"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "11111000",
+      "explanation": "$P=11011101$.\n$00100011$ (by taking 2's complement), so $P=-35$.\n\n$Q=11100101$.\n$00011011$ (by taking 2's complement), so $Q=-27$.\n\n$P-Q=-35-(-27)=-8=1111\\ 1000$ in signed 2's complement form.\nChoice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q005",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The subtraction of a binary number $B$ from another binary number $A$, done by adding the 2’s complement of $B$ to $A$, results in a binary number without carry, this implies that the result is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "negative and is in normal form"
+        },
+        {
+          "label": "B",
+          "text": "positive and is in normal form"
+        },
+        {
+          "label": "C",
+          "text": "negative and is in 2’s complement form"
+        },
+        {
+          "label": "D",
+          "text": "positive and is in 2’s complement form"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "negative and is in 2’s complement form",
+      "explanation": "$A-B$ has to be performed. The 2’s complement of $B$ (which is $2^n-B$, $n=$ number of bits in $B$) is added to $A$.\n\nSo result is $A+2^n-B$, and there is no carry:\n$A+2^n-B=2^n-(A-B)$.\n\nSo, the result is negative and it is in 2’s complement form.\nChoice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q006",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "$f(a,b,c)=ab+\\bar bc$ in the canonical POS form is represented as:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(a+b+c)(a+b+\\bar c)(a+\\bar b+c)(\\bar a+\\bar b+c)$"
+        },
+        {
+          "label": "B",
+          "text": "$(a+\\bar b+c)(a+\\bar b+\\bar c)(a+b+c)(\\bar a+b+c)$"
+        },
+        {
+          "label": "C",
+          "text": "$(a+b+c)(\\bar a+\\bar b+c)(a+\\bar b+c)$"
+        },
+        {
+          "label": "D",
+          "text": "$(\\bar a+b+c)(\\bar a+\\bar b+c)(a+b+c)(a+\\bar b+c)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$(a+\\bar b+c)(a+\\bar b+\\bar c)(a+b+c)(\\bar a+b+c)$",
+      "explanation": "$f(a,b,c)=ab+\\bar b\\cdot c$\n$=(ab+\\bar b)(ab+c)$.\nUsing $x+yz=(x+y)(x+z)$:\n$=(a+\\bar b)(a+c)(b+c)$.\nConverting to canonical POS gives\n$(a+\\bar b+c)(a+\\bar b+\\bar c)(a+b+c)(\\bar a+b+c)$.\nChoice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q007",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The Essential prime Implicants of the function\n$f(A,B,C,D)=\\bar AC+ABD+\\bar AB+\\bar B\\bar D+\\bar A\\bar B\\bar C\\bar D$ are:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$BD,\\ \\bar B\\bar D,\\ \\bar A$"
+        },
+        {
+          "label": "B",
+          "text": "$\\bar AC,\\ \\bar B\\bar D,\\ B$"
+        },
+        {
+          "label": "C",
+          "text": "$BD,\\ \\bar AC,\\ \\bar B$"
+        },
+        {
+          "label": "D",
+          "text": "$\\bar AB,\\ \\bar B\\bar D,\\ C$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$BD,\\ \\bar B\\bar D,\\ \\bar A$",
+      "explanation": "The product terms cover the minterms shown in the solution table. The function reduces to\n$f(A,B,C,D)=\\bar A+BD+\\bar B\\bar D$.\nTherefore the essential prime implicants are $\\bar A$, $BD$, and $\\bar B\\bar D$.\nChoice (A).",
+      "status": "confirmed",
+      "image": "images/Digital_logic_2/q007-explanation-table-kmap.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q008",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "A combinational circuit has 3 inputs $x,y,z$ and three outputs $A,B,C$. When the binary input is 4, 5, 6 and 7, the binary output is 2 less than the binary input. When the binary input is 0, 1, 2 and 3, the output is 4 more than the binary input the Boolean expression for output $A$ and $C$ respectively are:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\bar xy,\\ z$"
+        },
+        {
+          "label": "B",
+          "text": "$x+\\bar y,\\ \\bar z$"
+        },
+        {
+          "label": "C",
+          "text": "$x,\\ z$"
+        },
+        {
+          "label": "D",
+          "text": "$\\bar x+y,\\ z$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\bar x+y,\\ z$",
+      "explanation": "The truth table gives:\n$A(x,y,z)=\\Sigma m(0,1,2,3,6,7)$,\n$B(x,y,z)=\\Sigma m(2,3,4,5)$,\n$C(x,y,z)=\\Sigma m(1,3,5,7)$.\n\nThus $A=\\bar x+y$ and $C=z$.\nChoice (D).",
+      "status": "confirmed",
+      "image": "images/Digital_logic_2/q008-explanation-truth-table.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q009",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "In the above problem statement, how many number of NOR are gates required implement output $B$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "5",
+      "explanation": "$B(x,y,z)=\\Sigma m(2,3,4,5)$.\nThe K-map gives $B=xy^1+x^1y=x\\oplus y$.\nA 2-input XOR requires 5 NOR gates.\nChoice (C).",
+      "status": "confirmed",
+      "image": "images/Digital_logic_2/q009-explanation-kmap.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q010",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "A combinational circuit takes 2 inputs and output is the 2’s complement of input binary number. Consider the inputs as $a$ and $b$ and output as $x$ and $y$, the equations of $x$ and $y$ respectively?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$a\\odot b,\\ b$"
+        },
+        {
+          "label": "B",
+          "text": "$\\bar ab,\\ a\\odot b$"
+        },
+        {
+          "label": "C",
+          "text": "$\\bar ab,\\ a\\bar b$"
+        },
+        {
+          "label": "D",
+          "text": "$a\\oplus b,\\ b$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$a\\oplus b,\\ b$",
+      "explanation": "For the 2’s complementer, the truth table gives\n$x=\\bar ab+a\\bar b=a\\oplus b$ and $y=b$.\nChoice (D).",
+      "status": "confirmed",
+      "image": "images/Digital_logic_2/q010-explanation-kmap.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q011",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The output $F$ in the digital logic circuit shown in the figure is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\bar abc+ab\\bar c$"
+        },
+        {
+          "label": "B",
+          "text": "$\\bar ab\\bar c+a\\bar bc$"
+        },
+        {
+          "label": "C",
+          "text": "$\\bar a\\bar bc+abc$"
+        },
+        {
+          "label": "D",
+          "text": "$\\bar a\\bar b\\bar c+abc$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_2/q011-question-circuit.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\bar ab\\bar c+a\\bar bc$",
+      "explanation": "Output of XNOR = $a\\odot b=\\bar a\\bar b+ab$.\nOutput of XOR = $[a\\odot b]\\oplus c$.\nThe NOR output simplifies to\n$[(a\\odot b)\\oplus c+(a\\odot b)]'$\n$=(a\\odot b)'c'=(a\\oplus b)c'$\n$=\\bar ab\\bar c+a\\bar bc$.\nChoice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q012",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "To construct a 5 to 32 line decoder, how many numbers of 3 to 8 line decoders and 2 to 4 line decoders are required respectively without using any extra hardware?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3, 2"
+        },
+        {
+          "label": "B",
+          "text": "4, 1"
+        },
+        {
+          "label": "C",
+          "text": "2, 4"
+        },
+        {
+          "label": "D",
+          "text": "2, 2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "4, 1",
+      "explanation": "A 5-to-32 line decoder has 32 output lines. Four 3-to-8 line decoders are required; these four decoders are selected by one 2-to-4 line decoder.\nAlternatively, eight 2-to-4 decoders and one 3-to-8 decoder can be used.\nThus the requested numbers are 4 and 1.\nChoice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q013",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "Parity is a common error detection mechanism that is often used in data reception or retrieval systems. Consider a parity encoder that is used for data transmission or storage. If a word contains an even number of 1’s, the parity bit is 0. If the word has odd number of 1’s the parity bit is 1. If the data is $w,x,y,z$ then the min terms for parity bit is?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\Sigma m(1,2,4,7,8,11,13,14)$"
+        },
+        {
+          "label": "B",
+          "text": "$\\Sigma m(0,3,5,6,9,10,12,15)$"
+        },
+        {
+          "label": "C",
+          "text": "$\\Sigma m(0,1,3,5,8,10,13,15)$"
+        },
+        {
+          "label": "D",
+          "text": "$\\Sigma m(1,3,5,7,9,11,13,15)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\Sigma m(1,2,4,7,8,11,13,14)$",
+      "explanation": "For even number of 1’s, parity bit is 0, so this is even parity. Even parity can be implemented by an XOR gate. XOR of even 1’s gives output 0, while XOR of odd 1’s gives output 1.\n\nSo parity bit\n$P=w\\oplus x\\oplus y\\oplus z$\n$=\\Sigma m(0001,0010,0100,0111,1000,1011,1101,1110)$\n$=\\Sigma m(1,2,4,7,8,11,13,14)$.\nChoice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q014",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "Consider the Boolean functions\n$f_1(A,B,C,D)=AC+BD$\n$f_2(A,B,C,D)=\\Sigma m(4,5,6,7,10,11,14,15)$\nThen find $f_1+f_2$ in minimized POS form",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(\\bar A+\\bar B)(B+D)(\\bar A+\\bar B+C)$"
+        },
+        {
+          "label": "B",
+          "text": "$(A+B)(B+C)(\\bar A+C+D)$"
+        },
+        {
+          "label": "C",
+          "text": "$(A+\\bar B)(B+D)(\\bar A+C+D)$"
+        },
+        {
+          "label": "D",
+          "text": "$(A+D)(B+C)(\\bar A+B+C)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$(A+B)(B+C)(\\bar A+C+D)$",
+      "explanation": "$f_1=AC+BD=\\Sigma m(5,7,10,11,13,14,15)$\n$=\\Pi M(0,1,2,3,4,6,8,9,12)$.\n\n$f_2=\\Sigma m(4,5,6,7,10,11,14,15)$\n$=\\Pi M(0,1,2,3,8,9,12,13)$.\n\nTherefore\n$f_1+f_2=\\Pi M(0,1,2,3,8,9,12)$,\ngiving\n$f_1+f_2=(A+B)(B+C)(A+C+D)$.\nChoice (B).",
+      "status": "confirmed",
+      "image": "images/Digital_logic_2/q014-explanation-kmap.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q015",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "A 16-bit ripple carry adder is realized using 16 identical full address as shown in figure. The carry propagation delay of each FA is 15 ns and the sum propagation delay of each FA is 18 ns. The worst delay of this 16-bit adder will be:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "243 ns"
+        },
+        {
+          "label": "B",
+          "text": "228 ns"
+        },
+        {
+          "label": "C",
+          "text": "240 ns"
+        },
+        {
+          "label": "D",
+          "text": "270 ns"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_2/q015-question-ripple-carry-adder.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "243 ns",
+      "explanation": "The final carry will be obtained after propagation through the carry delays of the full adders, but the sum has more propagation delay. To get the carry of the last-but-one stage $C_{14}$ requires $15\\times15=225$ ns. The next carry $C_{15}$ is obtained after another 15 ns, but sum $S_{15}$ is obtained after another 18 ns, giving 243 ns.\n\nThe worst delay is\n$(n-1)t_{carry}+t_{sum}=(16-1)\\times15+18=243$ ns.\nChoice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q016",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "For an $n$-variable Boolean function, the maximum number of prime implicants is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac n2$"
+        },
+        {
+          "label": "B",
+          "text": "$2^n-1$"
+        },
+        {
+          "label": "C",
+          "text": "$2^{n-1}$"
+        },
+        {
+          "label": "D",
+          "text": "$2^n$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$2^{n-1}$",
+      "explanation": "Choice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q017",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "If the Boolean function $f(a,b,c,d)=a+b+c+d$ has to be implemented with only 2 input NAND gates, then how many NAND gates are required?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "9",
+      "explanation": "Each 2-input OR gate requires 3 2-input NAND gates. Therefore the total is 9 NAND gates.\nChoice (D).",
+      "status": "confirmed",
+      "image": "images/Digital_logic_2/q017-explanation-circuit.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q018",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The following expression is valid for the number system with base ______ $\\dfrac{(302)_r}{(20)_r}=(12.1)_r$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "4",
+      "explanation": "Convert to decimal number system:\n$$\\frac{3r^2+0r+2}{2r+0}=r+2+\\frac1r.$$\nAlso,\n$$12.1_r=r+2+\\frac1r.$$\nHence\n$$\\frac{3r^2+2}{2r}=r+2+\\frac1r.$$\nSo $3r^2+2=2r^2+4r+2$, giving $r^2=4r$ and $r=0$ or $4$. The valid base is $r=4$.\nChoice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q019",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "$P$ is a 16 bit signed number integer, the 2’s complement representation of $P$ is $(FB8A)_{16}$. The 2’s complement representation of $8\\times P$ is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(B8A0)_{16}$"
+        },
+        {
+          "label": "B",
+          "text": "$(C7B4)_{16}$"
+        },
+        {
+          "label": "C",
+          "text": "$(ABCD)_{16}$"
+        },
+        {
+          "label": "D",
+          "text": "$(DC50)_{16}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$(DC50)_{16}$",
+      "explanation": "$P=FB8A=1111101110001010$.\n$8P=2^3P$, so $P$ is shifted left by 3 bits:\n$8P=1101110001010000=(DC50)_{16}$.\nChoice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q020",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "For a 4 bit magnitude comparator with two inputs each of 4 bit $A(a_3,a_2,a_1,a_0)$ and $B(b_3,b_2,b_1,b_0)$, the Boolean equation for $A<B$ is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\bar a_3b_3+\\bar a_2b_2+\\bar a_1b_1+\\bar a_0b_0$"
+        },
+        {
+          "label": "B",
+          "text": "$\\bar a_3b_3+(a_3\\oplus b_3)\\bar a_2b_2+(a_3\\oplus b_3)(a_2\\oplus b_2)a_2b_1+(a_3\\oplus b_3)(a_2\\oplus b_2)(a_1\\oplus b_1)a_0b_0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\bar a_3b_3+(a_3\\odot b_3)\\bar a_2b_2+(a_3\\odot b_3)(a_2\\odot b_2)\\bar a_1b_1+(a_3\\odot b_3)(a_2\\odot b_2)(a_1\\odot b_1)\\bar a_0b_0$"
+        },
+        {
+          "label": "D",
+          "text": "$\\bar a_3b_3+(a_3\\oplus b_3)\\bar a_2b_2+(a_3\\oplus b_3)\\bar a_1b_1+(a_3\\oplus b_3)(a_2\\oplus b_2)(a_1\\oplus b_1)\\bar a_0b_0$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\bar a_3b_3+(a_3\\odot b_3)\\bar a_2b_2+(a_3\\odot b_3)(a_2\\odot b_2)\\bar a_1b_1+(a_3\\odot b_3)(a_2\\odot b_2)(a_1\\odot b_1)\\bar a_0b_0$",
+      "explanation": "For $A<B$, the higher-order bits must be equal before the next lower-order bit is compared. Thus\n$(A<B)=\\bar a_3b_3+(a_3\\odot b_3)\\bar a_2b_2+(a_3\\odot b_3)(a_2\\odot b_2)\\bar a_1b_1+(a_3\\odot b_3)(a_2\\odot b_2)(a_1\\odot b_1)\\bar a_0b_0$.\nChoice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q021",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The simultaneous equations on the Boolean variables $a,b,c$ and $d$:\n$a+b+c=1$\n$ab=0$\n$ac+d=1$\n$ab+\\bar c\\bar d=0$\nhave the following solutions for $a,b,c$ and $d$ respectively:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1011"
+        },
+        {
+          "label": "B",
+          "text": "1100"
+        },
+        {
+          "label": "C",
+          "text": "1000"
+        },
+        {
+          "label": "D",
+          "text": "1101"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1011",
+      "explanation": "From $ab=0$ and $ab+\\bar c\\bar d=0$, we get $\\bar c\\bar d=0$, hence $c+d=1$.\nFrom $ac+d=1$, $(a+d)(c+d)=1$. Since $c+d=1$, $a+d=1$.\nThus $a+b+c=1$, $ab=0$, $c+d=1$, and $a+d=1$. Verification shows option (A) satisfies all four equations.\nChoice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q022",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "What is Boolean expression for output $(F)$ of the combinational logic circuit of NAND-NOR gate given below?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\overline{A+B}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\overline{A+C}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\overline{ABC}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\overline{A+B+C}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_2/q022-question-nand-nor-circuit.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\overline{A+B+C}$",
+      "explanation": "NOR-NAND is equivalent to OR-OR.\nThe output of the first NOR-NAND structure simplifies to $A+B+C$.\nSimilarly, the output of the second NOR-NAND structure is $A+B+C$.\nTherefore the final output is $F=\\overline{A+B+C}$.\nChoice (D).",
+      "status": "confirmed",
+      "image": "images/Digital_logic_2/q022-explanation-circuit.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q023",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "Let $f(A,B,C,D)=\\Sigma m(0,2,3,4,5,7,9,13,15)$. Which of the following expressions is not equivalent of $f$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "only Q"
+        },
+        {
+          "label": "B",
+          "text": "only S"
+        },
+        {
+          "label": "C",
+          "text": "P and S"
+        },
+        {
+          "label": "D",
+          "text": "P and Q"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "P and Q",
+      "explanation": "We can verify by writing the min terms.\n\n(P) gives $\\Sigma m(0,2,3,4,5,7,9,13,15)$.\n(Q) also gives $\\Sigma m(0,2,3,4,5,7,9,13,15)$.\n(R) gives $\\Sigma m(0,2,4,5,7,9,13,15)$, so minterm 3 is missing.\n(S) gives $\\Sigma m(0,2,3,7,9,13,15)$, so minterms 4 and 5 are missing.\n\nTherefore P and Q are not equivalent as stated in the question's answer key.\nChoice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q024",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The range of integers that can be represented by an ‘$n$’ bit 2’s complement signed number system is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$-2^{n-1}$ to $+(2^{n-1}-1)$"
+        },
+        {
+          "label": "B",
+          "text": "$-(2^{n-1}-1)$ to $+(2^{n-1}-1)$"
+        },
+        {
+          "label": "C",
+          "text": "$-2^{n-1}+1$ to $+2^{n-1}$"
+        },
+        {
+          "label": "D",
+          "text": "$-2^{n-1}$ to $+2^{n-1}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$-2^{n-1}$ to $+(2^{n-1}-1)$",
+      "explanation": "Choice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-1-q025",
+    "pdfName": "Digital_logic_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The minimized POS expression for k-map shown is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\bar A+B$"
+        },
+        {
+          "label": "B",
+          "text": "$\\bar AB$"
+        },
+        {
+          "label": "C",
+          "text": "$\\bar A+\\bar B(\\bar A+B)(A+B)$"
+        },
+        {
+          "label": "D",
+          "text": "$\\bar A(A+B)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_2/q025-question-kmap.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\bar AB$",
+      "explanation": "Two octets are present, so the minimized expression is $\\bar A\\cdot B$.\nChoice (B).",
+      "status": "confirmed",
+      "image": "images/Digital_logic_2/q025-explanation-kmap.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

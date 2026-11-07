@@ -79,7 +79,8 @@ export function IncorrectPanel({
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-1.5 mb-1.5 flex-wrap">
                         <span className="px-1.5 py-0.5 rounded bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-[10px] font-semibold">
-                          {q.exam.name} {q.exam.year}
+                          {q.exam.name}
+                          {q.exam.year !== null ? ` ${q.exam.year}` : ''}
                         </span>
                         {q.classification.subject && (
                           <span className="text-[10px] text-slate-500 dark:text-slate-400">
@@ -90,7 +91,9 @@ export function IncorrectPanel({
                           Your answer: {attempt.selectedOption}
                         </span>
                         <span className="px-1.5 py-0.5 rounded bg-emerald-50 dark:bg-emerald-900/20 text-emerald-600 dark:text-emerald-400 text-[10px] font-medium">
-                          {q.answer.correctOption}
+                          {Array.isArray(q.answer.correctOption)
+                            ? q.answer.correctOption.join(',')
+                            : q.answer.correctOption}
                         </span>
                       </div>
                       <p className="text-sm text-slate-800 dark:text-slate-200 line-clamp-2 leading-relaxed">

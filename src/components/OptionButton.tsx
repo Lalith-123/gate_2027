@@ -3,6 +3,7 @@ import { MathText } from './MathText';
 interface OptionButtonProps {
   label: string;
   text: string;
+  image: string | null;
   selected: boolean;
   revealed: boolean;
   isCorrect: boolean;
@@ -15,6 +16,7 @@ interface OptionButtonProps {
 export function OptionButton({
   label,
   text,
+  image,
   selected,
   revealed,
   isCorrect,
@@ -70,10 +72,22 @@ export function OptionButton({
       aria-label={`Option ${label}: ${text}`}
     >
       <span className={marker}>{label}</span>
-      <MathText
-        text={text}
-        className="text-slate-800 dark:text-slate-100 text-[15px] leading-relaxed pt-0.5"
-      />
+      <span className="flex-1 min-w-0 pt-0.5">
+        {image && (
+          <img
+            src={image}
+            alt={text ? `Option ${label}: ${text}` : `Option ${label}`}
+            className="block max-h-28 max-w-full w-auto rounded-lg object-contain object-left mb-1.5 bg-white"
+            loading="lazy"
+          />
+        )}
+        {text && (
+          <MathText
+            text={text}
+            className="block text-slate-800 dark:text-slate-100 text-[15px] leading-relaxed"
+          />
+        )}
+      </span>
     </button>
   );
 }

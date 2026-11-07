@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "gate-verbal-ability-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for question 1: The question has a sentence with three blanks followed by four pairs of words as choices. From among the choices, select the pair of words that can best complete the given sentence",
+      "text": "It is now recognized in many countries that family and social environment of the children have a ______ impact on their performance than the quality of teaching at school and children from poor families score significantly ______ in vocabulary, communication skills, simple arithmetic and the ability to concentrate compared to children from ______ income households.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "meagre...higher...higher"
+        },
+        {
+          "label": "B",
+          "text": "lower......lower....greater"
+        },
+        {
+          "label": "C",
+          "text": "prime.....faster.....lower"
+        },
+        {
+          "label": "D",
+          "text": "greater....lower.....higher"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "greater....lower.....higher",
+      "explanation": "The sentence compares the social environment and the quality of teaching on the performance of children. Hence the comparative degree of an adjective has to be used in the first blank. ‘Lower’, and ‘greater’ are comparative degree adjectives and ore apt. Hence choices A and C can be ignored. According to the passage, children from low income social background are likely to score ‘lower’ than their affluent counterparts with higher income background. All these words are found in choice D making it the right answer.  Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for questions 2 to 11: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "If the items in a diary are reliably listed and the list is ________ reviewed then certainly nothing should be forgotten.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "perversely"
+        },
+        {
+          "label": "B",
+          "text": "phlegmatically"
+        },
+        {
+          "label": "C",
+          "text": "languidly"
+        },
+        {
+          "label": "D",
+          "text": "conscientiously"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "conscientiously",
+      "explanation": "The context demands ‘proper listing’ and ‘meticulous review’ of the list. Among all the options only option D conveys this meaning. Options B and C refer to ‘laziness’ and ‘perversely’ refers to ‘contrary to what is accepted’. The correct option is D ‘conscientiously’ which refers to ‘being careful and thorough in one’s work’.  Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary in Context",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for questions 2 to 11: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "The child had a _____ birth defect in the form of a cleft palate.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "hereditary"
+        },
+        {
+          "label": "B",
+          "text": "compulsive"
+        },
+        {
+          "label": "C",
+          "text": "congenial"
+        },
+        {
+          "label": "D",
+          "text": "congenital"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "congenital",
+      "explanation": "Birth defects are congenital (present from birth) and not hereditary (genetic), compulsive (uncontrollable), or congenial (affable; friendly).  Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary in Context",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for questions 2 to 11: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "The people of South Asia had been left behind in economic development _____ of tensions and conflicts.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "in view of"
+        },
+        {
+          "label": "B",
+          "text": "because"
+        },
+        {
+          "label": "C",
+          "text": "want"
+        },
+        {
+          "label": "D",
+          "text": "full"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "because",
+      "explanation": "The reason the people of South Asia have been left behind in tensions and conflicts.  Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for questions 2 to 11: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "Financial difficulties _______ him to discontinue his studies, and take up a job.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "enchanted"
+        },
+        {
+          "label": "B",
+          "text": "compelled"
+        },
+        {
+          "label": "C",
+          "text": "entreated"
+        },
+        {
+          "label": "D",
+          "text": "dictated"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "compelled",
+      "explanation": "Compel means to force. Financial difficulties forced him to drop his studies and take up a job.  Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary in Context",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for questions 2 to 11: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "Sixty houses were totally gutted ______the fire accident.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "at"
+        },
+        {
+          "label": "B",
+          "text": "beyond"
+        },
+        {
+          "label": "C",
+          "text": "in"
+        },
+        {
+          "label": "D",
+          "text": "off"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "in",
+      "explanation": "‘In’ is the correct preposition to be used as it expresses a period of time during which an event happens.  Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Prepositions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for questions 2 to 11: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "The Kaveri community in Bihar, which has for long _______ with poverty and backwardness, is yet to join the mainstream because of its nomadic lifestyle.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "suffered"
+        },
+        {
+          "label": "B",
+          "text": "exhausted"
+        },
+        {
+          "label": "C",
+          "text": "struggled"
+        },
+        {
+          "label": "D",
+          "text": "figured"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "struggled",
+      "explanation": "The sentence is about a community in Bihar which has not progressed. The reason for this is its poverty and backwardness. Exhausted means extremely tired. This is a wrong choice. ‘Figured’ means to understand. ‘Sustained’ means continued for a long time. The word ‘suffered’ means to experience physical or mental pain. So these words are not suitable when used in this particular context. ‘Struggled’ means to use a lot of effort to defeat someone, prevent something, or achieve something. The community has been struggling for a long time to join the mainstream.  Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary in Context",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for questions 2 to 11: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "Alzheimer’s disease is not usually _______ until significant memory loss is evident.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "detected"
+        },
+        {
+          "label": "B",
+          "text": "observed"
+        },
+        {
+          "label": "C",
+          "text": "revealed"
+        },
+        {
+          "label": "D",
+          "text": "disclosed"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "detected",
+      "explanation": "Detected, which means to discover or identify the presence or existence of something, fits the blank appropriately.  Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary in Context",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for questions 2 to 11: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "When the dilapidated structure collapsed, the _____ of the people could be heard from a distance.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "gossip"
+        },
+        {
+          "label": "B",
+          "text": "wails"
+        },
+        {
+          "label": "C",
+          "text": "eviction"
+        },
+        {
+          "label": "D",
+          "text": "bombardment"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "wails",
+      "explanation": "Wails are prolonged high-pitched cries of pain or grief thus the word is apt here.  Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary in Context",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for questions 2 to 11: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "He does not _____ the ugly aspects of human nature in his picture of life.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "eliminate"
+        },
+        {
+          "label": "B",
+          "text": "include"
+        },
+        {
+          "label": "C",
+          "text": "exclude"
+        },
+        {
+          "label": "D",
+          "text": "extricate"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "include",
+      "explanation": "The preposition with choices (A), (B), and (D) is ‘from’ (exclude “from”). Only ‘include’ will collocate with the preposition ‘in’.  Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary in Context",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for questions 2 to 11: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "The airline has increased its frequency _____ nine flights a week to eleven flights a week.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "between"
+        },
+        {
+          "label": "B",
+          "text": "of"
+        },
+        {
+          "label": "C",
+          "text": "from"
+        },
+        {
+          "label": "D",
+          "text": "for"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "from",
+      "explanation": "The frequency is increased from something to something. Hence ‘from’ is the appropriate preposition in the blank.  Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Prepositions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for question 12 to 17: The question has a sentence with two blanks followed by four pairs of words as choices. From among the choices, select the pair of words that can best complete the given sentence.",
+      "text": "I am not a _____, I am a _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "‘have been’ . . . ‘’will be’"
+        },
+        {
+          "label": "B",
+          "text": "‘has been’ . . . ‘will be’"
+        },
+        {
+          "label": "C",
+          "text": "‘was been’ . . . ‘will being’"
+        },
+        {
+          "label": "D",
+          "text": "‘had been’ . . . ‘will be’"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "‘has been’ . . . ‘will be’",
+      "explanation": "The sentence implies that the focus should be on what the speaker ‘will be’ in the future and not what he was in the past. I has - been is a person considered to be out-moded, past his/her prime or no longer of any importance.  Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for question 12 to 17: The question has a sentence with two blanks followed by four pairs of words as choices. From among the choices, select the pair of words that can best complete the given sentence.",
+      "text": "During his childhood, Williams ______ his parents ______ teachers.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "never obeyed . . . . or"
+        },
+        {
+          "label": "B",
+          "text": "never had obeyed . . . . or"
+        },
+        {
+          "label": "C",
+          "text": "never obeyed . . . .nor"
+        },
+        {
+          "label": "D",
+          "text": "never had obeyed . . . . nor"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "never obeyed . . . . or",
+      "explanation": "The correct option is 1. “Never……or” is more apt then “Never……nor”. Similarly, there are no two actions taking place here. Therefore, the sentence should be in simple past.  Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Conjunctions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for question 12 to 17: The question has a sentence with two blanks followed by four pairs of words as choices. From among the choices, select the pair of words that can best complete the given sentence.",
+      "text": "The two men were very ______ and rather looked the same but had ______ views on important aspects of life.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "close . . . wide"
+        },
+        {
+          "label": "B",
+          "text": "similar . . . diverse"
+        },
+        {
+          "label": "C",
+          "text": "different . . . complex"
+        },
+        {
+          "label": "D",
+          "text": "familiar . . . similar"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "similar . . . diverse",
+      "explanation": "The words apt in the context are ‘similar’ and diverse; note the use of the conjunction ‘but’ to link these opposite words.  Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary / Contrast",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for question 12 to 17: The question has a sentence with two blanks followed by four pairs of words as choices. From among the choices, select the pair of words that can best complete the given sentence.",
+      "text": "I am not a ____, I am a ____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "‘have been’ . . . ‘will be’"
+        },
+        {
+          "label": "B",
+          "text": "‘had been’ . . . ‘will be’"
+        },
+        {
+          "label": "C",
+          "text": "‘was been’ . . . ‘will being‘"
+        },
+        {
+          "label": "D",
+          "text": "‘has been’ . . . ‘will be’"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "‘has been’ . . . ‘will be’",
+      "explanation": "A ‘has been’ is a person or thing considered to be no longer of any importance. The speaker say that he/she does have it him/her to remain relevant.  Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for question 12 to 17: The question has a sentence with two blanks followed by four pairs of words as choices. From among the choices, select the pair of words that can best complete the given sentence.",
+      "text": "The two thieves _______ arrested on the charge of stealing from _______ house",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "was . . . an"
+        },
+        {
+          "label": "B",
+          "text": "am . . . a"
+        },
+        {
+          "label": "C",
+          "text": "were. . . an"
+        },
+        {
+          "label": "D",
+          "text": "were. . . a"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "were. . . a",
+      "explanation": "Since ‘thieves’ is plural, ‘very’ should be ‘were’. Since the word ‘house’ begins with a consonant, the article before it should be ‘a’  Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Subject-Verb Agreement",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for question 12 to 17: The question has a sentence with two blanks followed by four pairs of words as choices. From among the choices, select the pair of words that can best complete the given sentence.",
+      "text": "The country has no need to test its nuclear arsenal in the absence of an external _____ which is precisely why we have a voluntary _____ on testing.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "provocation . . . regression"
+        },
+        {
+          "label": "B",
+          "text": "collaboration . . . relapse"
+        },
+        {
+          "label": "C",
+          "text": "wherewithal . . . setback"
+        },
+        {
+          "label": "D",
+          "text": "aggression . . . moratorium"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "aggression . . . moratorium",
+      "explanation": "The word ‘voluntary’ rules out ‘regression’ ‘relapse’ and ‘setback’. Only ‘moratorium’ makes sense.  Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary in Context",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for question 18 to 20: Read the following paragraph and answer the question that follows: People are throwing themselves off the Golden Gate Bridge at the rate of two a month, which makes it the most popular place in the world for suicide. Many San Franciscans think that the solution is to put up a simple barrier. The Psychiatric Foundation of California, which has proposed to construct a barrier to act as a deterrent, has heard several arguments against a barrier; the most persistent has been that people would simply kill themselves somewhere else, so why bother?",
+      "text": "Here the word ‘deterrent’ is closest in meaning to?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Impediment"
+        },
+        {
+          "label": "B",
+          "text": "Assistance"
+        },
+        {
+          "label": "C",
+          "text": "Indemnity"
+        },
+        {
+          "label": "D",
+          "text": "Restitution"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Impediment",
+      "explanation": "The word ‘deterrent’ means an obstacle. This is closest in meaning to ‘impediment’. The rest of the options are antonyms or inapt in the given concept.  Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary in Context",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for question 18 to 20: Read the following paragraph and answer the question that follows: In “ambush marketing” campaigns, companies try to promote their brands at sporting events without paying sponsorship fees. Ambush marketers have replaced hooligans as the villains of sporting events, because they undermine official sponsors, who are the main source of revenue in some sports. The IPL organizers have responded by taking control of all prominent advertising sites in the city, including those at train stations and airports, and their use will be limited to official sponsors only. Nevertheless, preventing ambushes is difficult.",
+      "text": "Which of the following is closest in meaning to ‘ambush’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Deception"
+        },
+        {
+          "label": "B",
+          "text": "Integrity"
+        },
+        {
+          "label": "C",
+          "text": "Virtue"
+        },
+        {
+          "label": "D",
+          "text": "Equity"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Deception",
+      "explanation": "The word ‘ambush’ means to be in a concealed position, waiting to make a move.  Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary in Context",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_6.pdf",
+      "direction": "Directions for question 18 to 20: Read the following paragraph and answer the question that follows: Studies of promising young prodigies frequently reveal that most turned out to be failures, in both their professional and personal lives, in later years. Researchers also found that most of the prodigies were diagnosed with symptoms of paranoia and schizophrenia at a later stage. The researchers concluded that mental illnesses inhibited the prodigies from realizing their full potential in later life.",
+      "text": "Here, the word ‘prodigies’ is closest in meaning to",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "genius"
+        },
+        {
+          "label": "B",
+          "text": "Maestros"
+        },
+        {
+          "label": "C",
+          "text": "Adept"
+        },
+        {
+          "label": "D",
+          "text": "Apprentice"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "genius",
+      "explanation": "The meaning of the word ‘prodigy’ is a genius.  Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary in Context",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

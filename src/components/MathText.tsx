@@ -1,8 +1,12 @@
 import type { ReactNode } from 'react';
 import katex from 'katex';
 
-/** `$$display$$` first, then `$inline$`; `\$` is a literal dollar sign. */
-const MATH_PATTERN = /\$\$([\s\S]+?)\$\$|\$((?:[^$\\]|\\.)+?)\$/g;
+/**
+ * `$$...$$` and `\[...\]` are display math; `$...$` and `\(...\)` are inline.
+ * `\$` is a literal dollar sign.
+ */
+const MATH_PATTERN =
+  /\$\$([\s\S]+?)\$\$|\\\[([\s\S]+?)\\\]|\$((?:[^$\\]|\\.)+?)\$|\\\(([\s\S]+?)\\\)/g;
 
 interface MathProps {
   text: string;
@@ -26,8 +30,8 @@ export function MathText({ text, className }: MathProps) {
       nodes.push(text.slice(cursor, match.index));
     }
 
-    const display = match[1] !== undefined;
-    const body = display ? match[1] : match[2];
+    const display = match[1] !== undefined || match[2] !== undefined;
+    const body = match[1] ?? match[2] ?? match[3] ?? match[4] ?? '';
 
     try {
       nodes.push(
@@ -44,7 +48,7 @@ export function MathText({ text, className }: MathProps) {
         />
       );
     } catch {
-      nodes.push(`${display ? '$$' : '$'}${body}${display ? '$$' : '$'}`);
+      nodes.push(match[0]);
     }
 
     cursor = pattern.lastIndex;

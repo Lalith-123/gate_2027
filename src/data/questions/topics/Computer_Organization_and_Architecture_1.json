@@ -1,0 +1,1862 @@
+[
+  {
+    "id": "gate-programming-and-data-structures-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following register keeps track of instruction execution sequence?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Accumulator"
+        },
+        {
+          "label": "B",
+          "text": "Program counter"
+        },
+        {
+          "label": "C",
+          "text": "Stack pointer"
+        },
+        {
+          "label": "D",
+          "text": "Instruction register"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Program counter",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Organization",
+      "subtopic": "Program Counter",
+      "tags": [
+        "computer-organization"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the following Register Transfer Language:\n\n\\(R_1 \\leftarrow R_1 + M[R_2 + R_3]\\)\n\nWhere \\(R_1\\), \\(R_2\\) and \\(R_3\\) are the CPU registers and ‘M’ is a memory location in primary memory, which addressing mode is suitable for above register transfer language?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Indirect"
+        },
+        {
+          "label": "B",
+          "text": "Direct"
+        },
+        {
+          "label": "C",
+          "text": "Indexed"
+        },
+        {
+          "label": "D",
+          "text": "Displacement"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Indexed",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Instruction Set Architecture",
+      "subtopic": "Indexed Addressing",
+      "tags": [
+        "instruction-set-architecture"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following is/are advantage(s) of using a multiple-bus architecture over a single-bus architecture?\n\n(i) Multiple-bus architecture reduces propagation delay.\n(ii) Multiple-bus architecture reduces bottleneck effects.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) only"
+        },
+        {
+          "label": "C",
+          "text": "Both (i) and (ii)"
+        },
+        {
+          "label": "D",
+          "text": "Neither (i) nor (ii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both (i) and (ii)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Bus Architecture",
+      "subtopic": "Multiple-Bus Architecture",
+      "tags": [
+        "bus-architecture"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following statement is false with respect to Booth’s Multiplication Algorithm?\n\n(i) Corrections required for the final result.\n(ii) Sign bit is protected due to internal arithmetic shift.\n(iii) More space required to maintain the sum.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iii) only"
+        },
+        {
+          "label": "C",
+          "text": "(i), (iii) only"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "(i), (iii) only",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Arithmetic Algorithms",
+      "subtopic": "Booth’s Multiplication Algorithm",
+      "tags": [
+        "arithmetic-algorithms"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "After selective complement of \\(A = 1100\\) with \\(B = 0101\\), the resultant \\(A\\) will be",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0000"
+        },
+        {
+          "label": "B",
+          "text": "1100"
+        },
+        {
+          "label": "C",
+          "text": "0101"
+        },
+        {
+          "label": "D",
+          "text": "1001"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "1001",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Arithmetic",
+      "subtopic": "Selective Complement",
+      "tags": [
+        "computer-arithmetic"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which type of shift operation always keeps the sign bit unchanged?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Logical shift"
+        },
+        {
+          "label": "B",
+          "text": "Arithmetic shift"
+        },
+        {
+          "label": "C",
+          "text": "Circular shift"
+        },
+        {
+          "label": "D",
+          "text": "Any right shift"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Arithmetic shift",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Shift Operations",
+      "subtopic": "Arithmetic Shift",
+      "tags": [
+        "shift-operations"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the register transfer language instructions:\n\n\\(AC \\leftarrow M[R_1]\\);\n\n\\(R_1 \\leftarrow R_1 + 1\\);\n\nWhich addressing mode is specified by the instructions?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Register addressing mode"
+        },
+        {
+          "label": "B",
+          "text": "Register indirect mode"
+        },
+        {
+          "label": "C",
+          "text": "Auto-increment mode"
+        },
+        {
+          "label": "D",
+          "text": "Relative mode"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Auto-increment mode",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Addressing Modes",
+      "subtopic": "Auto-Increment Addressing",
+      "tags": [
+        "addressing-modes"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following statement is true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Floating point representation is better than fixed point representation."
+        },
+        {
+          "label": "B",
+          "text": "Fixed point representation is better than floating point representation."
+        },
+        {
+          "label": "C",
+          "text": "Datapath is same as ALU."
+        },
+        {
+          "label": "D",
+          "text": "Both (A) and (C)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Floating point representation is better than fixed point representation.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Floating Point Representation",
+      "subtopic": "Fixed vs Floating Point",
+      "tags": [
+        "floating-point-representation"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following statements correctly specifies about overflow?\n\n(i) When adding two unsigned numbers the carry-out, from the MSB position serves as the overflow indicator.\n(ii) Overflow can occur only by adding two signed numbers that have the same sign.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) only"
+        },
+        {
+          "label": "C",
+          "text": "Both (i) and (ii)"
+        },
+        {
+          "label": "D",
+          "text": "Neither (i) nor (ii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both (i) and (ii)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Arithmetic",
+      "subtopic": "Overflow",
+      "tags": [
+        "computer-arithmetic"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "A certain processor supports only the immediate and direct addressing modes. Which of the following programming language features cannot be implemented on this processor?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Pointers"
+        },
+        {
+          "label": "B",
+          "text": "Arrays"
+        },
+        {
+          "label": "C",
+          "text": "Records"
+        },
+        {
+          "label": "D",
+          "text": "All of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All of these",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Addressing Modes",
+      "subtopic": "Addressing Modes and Data Structures",
+      "tags": [
+        "addressing-modes"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The special purpose storage location(s) used by both ALU and CU are",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Decoders"
+        },
+        {
+          "label": "B",
+          "text": "Demultiplexers"
+        },
+        {
+          "label": "C",
+          "text": "Registers"
+        },
+        {
+          "label": "D",
+          "text": "Buffers"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Registers",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "CPU Organization",
+      "subtopic": "Registers",
+      "tags": [
+        "cpu-organization"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following is a component of the datapath of Von Neumann machine?\n\n(i) Registers\n(ii) ALU input bus\n(iii) ALU I/O registers",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iii) only"
+        },
+        {
+          "label": "C",
+          "text": "(i), (ii), (iii)"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "(i), (ii), (iii)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Datapath",
+      "subtopic": "Datapath Components",
+      "tags": [
+        "datapath"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following is/are false with respect to single-bus datapath?\n\n(i) It is simplest and least expensive.\n(ii) No limit on the amount of data transfer in a single clock cycle.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) only"
+        },
+        {
+          "label": "C",
+          "text": "Both (i) and (ii)"
+        },
+        {
+          "label": "D",
+          "text": "Neither (i) nor (ii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "(ii) only",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Datapath",
+      "subtopic": "Single-Bus Datapath",
+      "tags": [
+        "datapath"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "If we have shifted the significant to the right by a single position, then",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Add one to the exponent"
+        },
+        {
+          "label": "B",
+          "text": "Subtract one from the exponent"
+        },
+        {
+          "label": "C",
+          "text": "Don’t change the exponent"
+        },
+        {
+          "label": "D",
+          "text": "Data insufficient"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Add one to the exponent",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Floating Point Representation",
+      "subtopic": "Exponent Adjustment",
+      "tags": [
+        "floating-point-representation"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "In which addressing mode, the effective address of the operand is generated by adding a constant value to the content of a register?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Absolute mode"
+        },
+        {
+          "label": "B",
+          "text": "Indirect mode"
+        },
+        {
+          "label": "C",
+          "text": "Immediate mode"
+        },
+        {
+          "label": "D",
+          "text": "Index mode"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Index mode",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Addressing Modes",
+      "subtopic": "Index Addressing",
+      "tags": [
+        "addressing-modes"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "What is the number of instructions required to add ‘n’ numbers and store the result in memory using only one-address instructions?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "n"
+        },
+        {
+          "label": "B",
+          "text": "n − 1"
+        },
+        {
+          "label": "C",
+          "text": "n + 1"
+        },
+        {
+          "label": "D",
+          "text": "independent of n"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "n + 1",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Instruction Set Architecture",
+      "subtopic": "One-Address Instructions",
+      "tags": [
+        "instruction-set-architecture"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which unit of a computer system executes program, communicates with and often controls the operation of other subsystems?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "CPU"
+        },
+        {
+          "label": "B",
+          "text": "ALU"
+        },
+        {
+          "label": "C",
+          "text": "I/O module"
+        },
+        {
+          "label": "D",
+          "text": "DMA"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "CPU",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "CPU Organization",
+      "subtopic": "CPU",
+      "tags": [
+        "cpu-organization"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The multiplicand register and multiplier register of a hardware circuit implementing booth’s algorithm have 1001 and 1100 respectively. The resultant will be",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10011100"
+        },
+        {
+          "label": "B",
+          "text": "00011100"
+        },
+        {
+          "label": "C",
+          "text": "01101100"
+        },
+        {
+          "label": "D",
+          "text": "00010010"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "00011100",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Arithmetic Algorithms",
+      "subtopic": "Booth’s Multiplication Algorithm",
+      "tags": [
+        "arithmetic-algorithms"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "A floating point number has sign bit 0, Excess-64 exponent is 1010100 and fractional part is 0000000000011011. After converting this number to normalized form, the exponent (in decimal) will be",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "20"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "31"
+        },
+        {
+          "label": "D",
+          "text": "0"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "9",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Floating Point Representation",
+      "subtopic": "Normalization and Excess Bias",
+      "tags": [
+        "floating-point-representation"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "In IEEE floating point single precision representation, the number of bits in the fractional part is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "24"
+        },
+        {
+          "label": "B",
+          "text": "23"
+        },
+        {
+          "label": "C",
+          "text": "32"
+        },
+        {
+          "label": "D",
+          "text": "Depends on the architecture"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "23",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "IEEE 754",
+      "subtopic": "Single Precision",
+      "tags": [
+        "ieee-754"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "After multiplying the binary numbers 010111 and 110110 using booth’s multiplication algorithm, the resultant will be",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "−1242"
+        },
+        {
+          "label": "B",
+          "text": "1242"
+        },
+        {
+          "label": "C",
+          "text": "230"
+        },
+        {
+          "label": "D",
+          "text": "−230"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "−230",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Arithmetic Algorithms",
+      "subtopic": "Booth’s Multiplication Algorithm",
+      "tags": [
+        "arithmetic-algorithms"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The IEEE standard 754 single precision floating point representation of (0.000000110110100101)₂ is.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0 10000111 11011010010100000000000"
+        },
+        {
+          "label": "B",
+          "text": "0 01111001 11011010010100000000000"
+        },
+        {
+          "label": "C",
+          "text": "0 10000110 101101001101000000000000"
+        },
+        {
+          "label": "D",
+          "text": "0 01111000 10110100101000000000000"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "0 01111000 10110100101000000000000",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "IEEE 754",
+      "subtopic": "Single Precision Representation",
+      "tags": [
+        "ieee-754"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "How many clock cycles are required to perform two-operand operations using one bus datapath?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "Can’t be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Datapath",
+      "subtopic": "One-Bus Datapath",
+      "tags": [
+        "datapath"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following is a rounding mode in IEEE754 standard?\n\n(i) round to 0\n(ii) round towards +∞\n(iii) round towards −∞\n(iv) round to nearest representable number",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (iv) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iii) only"
+        },
+        {
+          "label": "C",
+          "text": "(i), (ii) only"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii), (iv)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i), (ii), (iii), (iv)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "IEEE 754",
+      "subtopic": "Rounding Modes",
+      "tags": [
+        "ieee-754"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "What is the normalized form of 0.00000110 × 16¹⁰¹?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1.10 × 16¹⁰⁷"
+        },
+        {
+          "label": "B",
+          "text": "1.10 × 16⁹⁵"
+        },
+        {
+          "label": "C",
+          "text": "0.110 × 16⁹⁴"
+        },
+        {
+          "label": "D",
+          "text": "0.110 × 16¹⁰⁶"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1.10 × 16⁹⁵",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Floating Point Representation",
+      "subtopic": "Normalization",
+      "tags": [
+        "floating-point-representation"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "What is the biased representation of −7, using 4-bits for the bias?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0111"
+        },
+        {
+          "label": "B",
+          "text": "1111"
+        },
+        {
+          "label": "C",
+          "text": "0000"
+        },
+        {
+          "label": "D",
+          "text": "1001"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "0000",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Floating Point Representation",
+      "subtopic": "Biased Representation",
+      "tags": [
+        "floating-point-representation"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "What is the total resultant after adding \\(A = −7\\) and \\(B = −6\\) using signed two’s complement representation?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0100"
+        },
+        {
+          "label": "B",
+          "text": "11101"
+        },
+        {
+          "label": "C",
+          "text": "1101"
+        },
+        {
+          "label": "D",
+          "text": "Overflow occurs"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Overflow occurs",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Signed Arithmetic",
+      "subtopic": "Two’s Complement Overflow",
+      "tags": [
+        "signed-arithmetic"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "What is the total number of additions and subtractions required using Booths multiplication algorithm for the multiplier 00011110?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "30"
+        },
+        {
+          "label": "D",
+          "text": "Can’t be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Arithmetic Algorithms",
+      "subtopic": "Booth’s Multiplication Algorithm",
+      "tags": [
+        "arithmetic-algorithms"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.\n\nCommon data questions 29 and 30: Consider a 12-bit floating point format in which base b = 2, a 5-bit exponent e with a bias = 16 and 6-bit normalized mantissa m. Given two floating point numbers:\n\nA = 0 10001 011011\nB = 1 01111 101010",
+      "text": "After adding \\(A\\) and \\(B\\), the resultant will be",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 10001 000000"
+        },
+        {
+          "label": "B",
+          "text": "1 10001 000001"
+        },
+        {
+          "label": "C",
+          "text": "0 10001 000000"
+        },
+        {
+          "label": "D",
+          "text": "0 10001 000001"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "0 10001 000000",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Floating Point Arithmetic",
+      "subtopic": "Floating Point Addition",
+      "tags": [
+        "floating-point-arithmetic"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.\n\nCommon data questions 29 and 30: Consider a 12-bit floating point format in which base b = 2, a 5-bit exponent e with a bias = 16 and 6-bit normalized mantissa m. Given two floating point numbers:\n\nA = 0 10001 011011\nB = 1 01111 101010",
+      "text": "After subtracting \\(B\\) from \\(A\\), the resultant will be",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 10001 110101"
+        },
+        {
+          "label": "B",
+          "text": "0 10001 110101"
+        },
+        {
+          "label": "C",
+          "text": "1 10001 110110"
+        },
+        {
+          "label": "D",
+          "text": "0 10001 110110"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "0 10001 110110",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Floating Point Arithmetic",
+      "subtopic": "Floating Point Subtraction",
+      "tags": [
+        "floating-point-arithmetic"
+      ]
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

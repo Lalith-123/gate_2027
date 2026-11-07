@@ -1,0 +1,2111 @@
+[
+  {
+    "id": "gate-compiler-design-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following is FALSE for regular expressions $L$, $M$ and $N$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$L + M = M + L$"
+        },
+        {
+          "label": "B",
+          "text": "$(L + M) + N = L + (M + N)$"
+        },
+        {
+          "label": "C",
+          "text": "$(LM)N = (LM)N$"
+        },
+        {
+          "label": "D",
+          "text": "$LM = ML$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$LM = ML$",
+      "explanation": "Commutative law for union, associative law for union and concatenation holds for regular expression. But commutative law for concatenation doesn’t hold. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Regular Expressions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following does not hold for two regular expressions $R$ and $S$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(R*)* = R*$"
+        },
+        {
+          "label": "B",
+          "text": "$(\\epsilon + R)* = R*$"
+        },
+        {
+          "label": "C",
+          "text": "$(R*S*)* = (R + S)*$"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of the above",
+      "explanation": "Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Regular Expressions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following language is not regular?\n(i) $(0 + 1)^*$\n(ii) Palindromes over $\\{0, 1\\}$\n(iii) $\\{0^n10^n/n \\ge 1\\}$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii), (iii)"
+        },
+        {
+          "label": "B",
+          "text": "(i), (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(ii), (iii)"
+        },
+        {
+          "label": "D",
+          "text": "(iii) only"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "(ii), (iii)",
+      "explanation": "Regular languages are accepted by FA. It has only limited storage, so it can’t compare the front of a string with its back. Similarly it can’t check the equality of 0’s. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Regular Languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Identify the regular languages from the following:\n(i) Set of strings of balanced parentheses\n(ii) $\\{0^n/n$ is a perfect square$\\}$\n(iii) $\\{ww/w \\in \\{0,1\\}^*\\}$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(i), (iii)"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of these",
+      "explanation": "No language is regular (Not recognized by FA). Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Regular Languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following properties hold for regular languages?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Complement"
+        },
+        {
+          "label": "B",
+          "text": "Difference"
+        },
+        {
+          "label": "C",
+          "text": "Reversal"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": "Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Regular Languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Pushdown automata has same expressing power as Deterministic finite automata."
+        },
+        {
+          "label": "B",
+          "text": "NFA is an extension of pushdown automata."
+        },
+        {
+          "label": "C",
+          "text": "Pushdown automata is an extension of $\\epsilon$-NFA."
+        },
+        {
+          "label": "D",
+          "text": "PDA does not have any storage component."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Pushdown automata is an extension of $\\epsilon$-NFA.",
+      "explanation": "PDA is an $\\epsilon$-NFA with the addition of a stack. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Pushdown Automata",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which type of language is accepted by DPDA?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Regular languages only"
+        },
+        {
+          "label": "B",
+          "text": "Context free languages only"
+        },
+        {
+          "label": "C",
+          "text": "The class of languages between regular languages and context free languages."
+        },
+        {
+          "label": "D",
+          "text": "Recursively enumerable languages only"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "The class of languages between regular languages and context free languages.",
+      "explanation": "Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Pushdown Automata",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following statement is TRUE about Top down parsing and bottom up parsing?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Bottom up parser is more powerful."
+        },
+        {
+          "label": "B",
+          "text": "Error detection in Top down parser is easy."
+        },
+        {
+          "label": "C",
+          "text": "Table size in Bottom up parser and Top down parser is approximately equal."
+        },
+        {
+          "label": "D",
+          "text": "Design complexity of Top down parser and Bottom up parser are same."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Bottom up parser is more powerful.",
+      "explanation": "Error detection in Top down parser is difficult compared to Bottom up parser. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Parsing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Limitation of L-Attributed Grammar is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "uses only inherited Attributes."
+        },
+        {
+          "label": "B",
+          "text": "each inherited attribute inherits either from parent or Left side sibling"
+        },
+        {
+          "label": "C",
+          "text": "each inherit attribute inherits either from parent or right side sibling"
+        },
+        {
+          "label": "D",
+          "text": "each inherit attribute inherits either from parent or Left side sub tree."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "each inherited attribute inherits either from parent or Left side sibling",
+      "explanation": "S-Attribute grammar uses synthesized attributes. L-Attributed grammar uses both synthesized and inherited attributes. As it scans Left to right inherited attribute, it must inherit from parent or left hand side siblings. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Attribute Grammars",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following statement is false?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is always possible to rewrite a SDD to use only synthesized attributes."
+        },
+        {
+          "label": "B",
+          "text": "Evolution of L-Attributed grammar is BUP (Bottom up parsing)"
+        },
+        {
+          "label": "C",
+          "text": "Evolution of S-Attribute grammar is BUP (Bottom up parsing)"
+        },
+        {
+          "label": "D",
+          "text": "Evolution of L-Attributed grammar is Depth first. Traversal, left to right."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Evolution of L-Attributed grammar is BUP (Bottom up parsing)",
+      "explanation": "L-attributed grammar uses both synthesized and inherited attributes, it scans from Root node to leaf nodes in Depth first search, left to right manner. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Attribute Grammars",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A grammar is said to be ‘attribute grammar’ if and only if it has",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "L-Attribute definition"
+        },
+        {
+          "label": "B",
+          "text": "S-Attribute definition"
+        },
+        {
+          "label": "C",
+          "text": "SDT which does not have any side effects"
+        },
+        {
+          "label": "D",
+          "text": "SDT which must have side effects"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "SDT which does not have any side effects",
+      "explanation": "A grammar is said to be attribute grammar if and only if it does not contain side effects like any action rule print something. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Attribute Grammars",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following statement is FALSE about L-Attributed definition?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Traverse the parse tree in Breadth first manner from Left to Right."
+        },
+        {
+          "label": "B",
+          "text": "Evaluate inherited attributes if the node is visited for first time."
+        },
+        {
+          "label": "C",
+          "text": "Evaluate synthesized attributes if the node is visited for Last time."
+        },
+        {
+          "label": "D",
+          "text": "None of the above."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Traverse the parse tree in Breadth first manner from Left to Right.",
+      "explanation": "L-Attributed grammar Traverses parse tree in Depth first search manner, left to right. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Attribute Grammars",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following is not an advantage of reverse polish notation?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "no rules of precedences"
+        },
+        {
+          "label": "B",
+          "text": "no associativity"
+        },
+        {
+          "label": "C",
+          "text": "no parenthesis"
+        },
+        {
+          "label": "D",
+          "text": "not low level representation"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "not low level representation",
+      "explanation": "Reverse polish notation, Abstract syntax tree, Direct acyclic graph are high level intermediate code forms, three address code is low level intermediate code form. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Intermediate Code",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A single tape Turing machine $M$ has two states $q_0$ and $q_1$, of which $q_0$ is the starting state. The tape alphabet of $M$ is $\\{0,1,B\\}$ and its input alphabet is $\\{0,1\\}$, the symbol $B$ is the blank symbol used to indicate end of an input string. The transition function of $M$ is described in the following table.\n\nTransition table:\n$\\begin{array}{c|ccc}&0&1&B\\\\\\hline q_0&q_1,1,R&q_1,0,R&q_1,B,L\\\\q_1&q_0,1,R&q_0,0,R&\\mathrm{Halt}\\end{array}$\n\nWhich of the following statements is TRUE about $M$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$M$ accepts all strings that end with 0 only"
+        },
+        {
+          "label": "B",
+          "text": "$M$ accepts all strings that end with 1 only"
+        },
+        {
+          "label": "C",
+          "text": "$M$ accepts all strings of $(0 + 1)^+$ only"
+        },
+        {
+          "label": "D",
+          "text": "$M$ accepts all strings of $(0 + 1)^*01(0 + 1)^* + 1^*0^*$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Compiler_Design_5/compiler_design_5-q014-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$M$ accepts all strings of $(0 + 1)^+$ only",
+      "explanation": "For example, take string 0110 and check whether it is accepted by TM or not. Final accepting state: Any string of length 1 or more of $\\{0,1\\}$ is accepted by given TM. Choice (C)",
+      "status": "confirmed",
+      "image": "images/Compiler_Design_5/compiler_design_5-q014-explanation.png"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Turing Machines",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which phase is most important for complex parts of any modern compiler?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Syntax Analysis"
+        },
+        {
+          "label": "B",
+          "text": "Semantic Analysis"
+        },
+        {
+          "label": "C",
+          "text": "Target code generator"
+        },
+        {
+          "label": "D",
+          "text": "Code optimizer"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Code optimizer",
+      "explanation": "In early age of compilers, developers focused on syntax analysis and recently, on optimization, focused mainly on code optimization and risc. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Compiler Phases",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Match the following:\n\nRegular expression — Finite Automata\n(i) $R + S$\n(ii) $RS$\n(iii) $R^*$\n\nThe finite automata are labeled (A), (B), and (C) in the table shown in the question.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i)–(C), (ii)–(B), (iii)–(A)"
+        },
+        {
+          "label": "B",
+          "text": "(i)–(A), (ii)–(B), (iii)–(C)"
+        },
+        {
+          "label": "C",
+          "text": "(i)–(C), (ii)–(A), (iii)–(B)"
+        },
+        {
+          "label": "D",
+          "text": "(i)–(B), (ii)–(A), (iii)–(C)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Compiler_Design_5/compiler_design_5-q016-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "(i)–(C), (ii)–(A), (iii)–(B)",
+      "explanation": "Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Regular Expressions and Finite Automata",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider below DFA:\n\nWhat is the language accepted by this DFA?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1^* + (01)^*$"
+        },
+        {
+          "label": "B",
+          "text": "$[1^*(01)^*]^*$"
+        },
+        {
+          "label": "C",
+          "text": "$(1 + 01)^*$"
+        },
+        {
+          "label": "D",
+          "text": "Both (B) and (C)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Compiler_Design_5/compiler_design_5-q017-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Both (B) and (C)",
+      "explanation": "Given DFA accepts any number of 1’s and (01’s) repeatedly. The regular expression is $(1 + 01)^* = [1^*(01)^*]^*$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Finite Automata",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the grammar:\n$S \\to AS/\\epsilon$\n$A \\to aa/ab/ba/bb$\nWhat is the language generated by this grammar?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Generates all the strings of the form $\\{a^n b^n/n \\ge 0\\}$"
+        },
+        {
+          "label": "B",
+          "text": "Generates all the strings of even length."
+        },
+        {
+          "label": "C",
+          "text": "Generates all the strings of equal number of a’s and b’s."
+        },
+        {
+          "label": "D",
+          "text": "Generates all the strings possible with $\\{a,b\\}^*$."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Generates all the strings of even length.",
+      "explanation": "$S \\to AS/\\epsilon$\n$A \\to aa/ab/ba/bb$\nIt generates $\\{a^n b^n\\}$ but it generates $\\{aa, aaaa, ...\\}$ also. It also won’t generate equal number of a’s and b’s. It won’t generate single ‘a’. It generates even length strings. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Context-Free Grammars",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following is not Context-free language?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\{a^n b^n c^n/n \\ge 1\\}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\{ww^R/w \\in (0 + 1)^*\\}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\{wcw^R/w \\in (0 + 1)^*\\}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\{a^n b^n/n \\ge 1\\}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\{wcw^R/w \\in (0 + 1)^*\\}$",
+      "explanation": "The CFL’s are accepted by PDA’s. The PDA has a stack storage it moves only towards right side of string. It can’t check equality of a’s b’s and c’s. But it can check $\\{ww^R\\}$, $\\{wcw^R\\}$, $\\{a^n b^n\\}$ patterns. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Context-Free Languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following are Deterministic context free language(s)?\n(i) $\\{0^n1^{m+n}1^m/m, n \\ge 0\\}$\n(ii) $\\{0^n1^m0^n/n$ and $m$ are arbitrary$\\}",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) only"
+        },
+        {
+          "label": "C",
+          "text": "Both (i) and (ii)"
+        },
+        {
+          "label": "D",
+          "text": "Neither (i) nor (ii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both (i) and (ii)",
+      "explanation": "$\\{0^n1^{m+n}0^m/m,n \\in 0\\}$\nPush 0’s whenever 1’s are in input, pop 0’s i.e., matching between 0’s and 1’s. After that push remaining 1’s and pop them whenever 0’s occur. There is no non determinism. So it is DCFL.\nSimilarly we can check the equality of 0’s in (ii) by pushing first set of 0’s & pop them with last set of 0’s. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Deterministic Context-Free Languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Let $L$ and $M$ be two context free languages then which of the following is not context free?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$L \\cup M$"
+        },
+        {
+          "label": "B",
+          "text": "$LM$"
+        },
+        {
+          "label": "C",
+          "text": "$L^*$"
+        },
+        {
+          "label": "D",
+          "text": "$L \\cap M$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$L \\cap M$",
+      "explanation": "CFL’s are not closed under intersection. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Context-Free Languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following are undecidable?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Is a given CFG, G ambiguous?"
+        },
+        {
+          "label": "B",
+          "text": "Is the intersection of two CFL’s empty?"
+        },
+        {
+          "label": "C",
+          "text": "Are two CFL’s the same."
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": "Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Decidability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which languages are accepted by Turing machines only?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Regular languages"
+        },
+        {
+          "label": "B",
+          "text": "Context free languages"
+        },
+        {
+          "label": "C",
+          "text": "Recursively enumerable languages"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Recursively enumerable languages",
+      "explanation": "Recursively enumerable languages are only accepted by TM. Regular, CFL’s are accepted by TM but they are also accepted by FA, PDA respectively. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Turing Machines",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following languages are accepted by Turing machines?\n(i) set of all strings of balanced parentheses\n(ii) $\\{0^n1^m0^n1^m/m,n \\ge 1\\}$\n(iii) $\\{ww/w \\in \\{0,1\\}^*\\}$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(i), (iii)"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i), (ii), (iii)",
+      "explanation": "A TM has infinite storage buffer, which can move in two directions (forward, backward) and also it has both read and write capabilities. All the given three languages are accepted by TM’s. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Turing Machines",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following is FALSE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A problem $L$ is decidable if it is a recursive language."
+        },
+        {
+          "label": "B",
+          "text": "A problem $L$ is undecidable if it is not a recursive language."
+        },
+        {
+          "label": "C",
+          "text": "If $L$ is a recursive language then $\\overline{L}$ is also recursive."
+        },
+        {
+          "label": "D",
+          "text": "If $L$ is recursively enumerable language then it is also recursive language."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "If $L$ is recursively enumerable language then it is also recursive language.",
+      "explanation": "A language $L$ is recursive if both $L$ and $\\overline{L}$ are recursively enumerable. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Decidability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following grammar:\n$S \\to Sd/aA/aB$\n$A \\to ab/d$\n$B \\to acd/dde$\nParse a string $w = adde$ using Brute force technique, How many back tracks are required?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "0"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of the above",
+      "explanation": "Fall into infinite Loop in Brute Force Technique, Blindly substitute the first productions.\n$S \\Rightarrow Sd$\n$\\Rightarrow Sdd$\n$\\Rightarrow Sddd$\n$\\Rightarrow Sdddd$\n$\\Rightarrow \\cdots$\nInfinite Loop\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Brute Force Parsing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following Grammar:\n$S \\to Aa/aB/Bc/Ba$\n$A \\to d/a/aB$\n$B \\to d/e$\nParse a string $w = “bea”$ using Brute Force Technique, What is the maximum height of parse tree and how many back tracks are required?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2, 13"
+        },
+        {
+          "label": "B",
+          "text": "3, 16"
+        },
+        {
+          "label": "C",
+          "text": "3, 4"
+        },
+        {
+          "label": "D",
+          "text": "2, 4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "3, 16",
+      "explanation": "The PDF shows the brute-force parse-tree/backtracking sequence for the string “bea”, with the alternatives numbered 1 through 16. Choice (B)",
+      "status": "confirmed",
+      "image": "images/Compiler_Design_5/compiler_design_5-q027-explanation.png"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Brute Force Parsing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In LL(1) parsing, while parsing a string ‘w’, the Top of the stack contains non terminal ‘X’ and input string look ahead symbol ‘a’ and LL(1) parsing Table contains $M[X,a]X \\to aBc$\nAfter performing appropriate action, how many symbols are there in stack and what is the Top of the stack?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4, a"
+        },
+        {
+          "label": "B",
+          "text": "4, c"
+        },
+        {
+          "label": "C",
+          "text": "3, a"
+        },
+        {
+          "label": "D",
+          "text": "3, c"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "3, a",
+      "explanation": "$M[X,a]: X \\to aBc$\nReplace X by aBc such that a is Top of the stack. Choice (C)",
+      "status": "confirmed",
+      "image": "images/Compiler_Design_5/compiler_design_5-q028-explanation.png"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "LL(1) Parsing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following grammar:\n$A \\to X_1|X_2|\\epsilon$\nhere $X_1$ and $X_2$ are the productions of ‘A’.\nThe grammar should be LL(1) grammar if and only if",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$first(X_1) \\cap first(x_2) = \\phi$"
+        },
+        {
+          "label": "B",
+          "text": "$first(X_1) = first(x_2)$"
+        },
+        {
+          "label": "C",
+          "text": "$follow(A) \\cap first(x_1) \\ne \\phi$"
+        },
+        {
+          "label": "D",
+          "text": "$first(X_1) \\cap first(x_2) \\ne \\phi$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$first(X_1) \\cap first(x_2) = \\phi$",
+      "explanation": "In LL(1) parsing table construction, for a production ‘A → α’ place the production in first (α) column and in ‘A’ row. $A \\to X_1|X_2$; $A \\to X_1$, in first ($x_1$), and $A \\to x_2$ in first ($x_2$). So if we have common symbol then it is a conflict in LL(1) parser. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "LL(1) Parsing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A non-terminal ‘A’ is deriving one production\n$A \\to X_1X_2X_3$,\nhere $X_1$, $X_2$, $X_3$ are non terminals, which have some productions. Which of the following statement always holds to find first(A)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$first(A) = first(X_1)$ if $(X_1 \\Rightarrow \\epsilon)$"
+        },
+        {
+          "label": "B",
+          "text": "$first(A) = first(X_1) \\cup first(X_2) \\cup first(X_3)$"
+        },
+        {
+          "label": "C",
+          "text": "$first(A) = first(X_1) \\cup first(X_2) \\cup first(X_3) - \\{\\epsilon\\}$ if $(X_1 \\Rightarrow \\epsilon)$"
+        },
+        {
+          "label": "D",
+          "text": "$first(A) = first(X_1) - \\{\\epsilon\\} \\cup first(X_2X_3)$ if $(X_1 \\Rightarrow \\epsilon)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$first(A) = first(X_1) - \\{\\epsilon\\} \\cup first(X_2X_3)$ if $(X_1 \\Rightarrow \\epsilon)$",
+      "explanation": "first(A) = first ($X_1X_2X_3$) = first($X_1$), if first ($X_1$) contains ‘ε’ then we have to take first ($X_2$). If first ($x_2$) also contains ‘ε’ then go for first ($x_3$) also. If first ($x_3$) contains ‘ε’ then it will be added to ‘A’s first. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "FIRST Sets",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following Grammar:\n$S \\to AB/aAbAd$\n$B \\to a/b/c/\\epsilon$, find follow of the Non-terminal A?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$follow(A) = first(B) - \\{\\epsilon\\}$"
+        },
+        {
+          "label": "B",
+          "text": "$follow(A) = first(B) \\cup \\{d\\}$"
+        },
+        {
+          "label": "C",
+          "text": "$follow(A) = first(B) \\cup \\{\\$,d\\} - \\{\\epsilon\\}$"
+        },
+        {
+          "label": "D",
+          "text": "$follow(A) = first(B) \\cup \\{d,\\$\\} - \\{\\epsilon\\}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$follow(A) = first(B) \\cup \\{d,\\$\\} - \\{\\epsilon\\}$",
+      "explanation": "$follow(A) = \\{a,b,c,d,\\$\\}$\n$follow(A) = first(B) \\cup first(b) \\cup first(d)$\nfirst(B) contains ‘ε’ then ‘A’ is followed by ‘ε’. If a non terminal followed by ‘ε’ then take follow of Left hand side non terminal i.e., follow(A) = follow(S)\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "FOLLOW Sets",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "While constructing LL(1) parsing Table, place production ‘$A \\to \\alpha$’ in the following cells of $M[X,a]$, where ‘a’ is [first (α) contains ‘ε’ and terminals]:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "only first (α) – $\\{\\epsilon\\}$"
+        },
+        {
+          "label": "B",
+          "text": "$first(\\alpha) \\cup follow(A)$"
+        },
+        {
+          "label": "C",
+          "text": "only in follow(A) – $\\{\\epsilon\\}$"
+        },
+        {
+          "label": "D",
+          "text": "$first(\\alpha) \\cup follow(A) - \\{\\epsilon\\}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$first(\\alpha) \\cup follow(A) - \\{\\epsilon\\}$",
+      "explanation": "In LL(1) parsing, place ‘$A \\to \\alpha$’ in first (α) columns. If first (α) contains ‘ε’ also place ‘$A \\to \\alpha$’ in follow (A). Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "LL(1) Parsing Table",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In LL(1) parsing Table, $M[X,\\$]$ contains production if and only if [here $X \\to ABC$]",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "first (X) contains $\\{\\epsilon\\}$"
+        },
+        {
+          "label": "B",
+          "text": "first (A) contains $\\{\\epsilon\\}$"
+        },
+        {
+          "label": "C",
+          "text": "first (AB) contains $\\{\\epsilon\\}$"
+        },
+        {
+          "label": "D",
+          "text": "data is insufficient"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "first (X) contains $\\{\\epsilon\\}$",
+      "explanation": "$ is in follow set only. A production ‘$A \\to \\alpha$’ placed in every symbol follow set if and only if first(α) contains ‘ε’. So ‘$X \\to ABC$’ placed in ‘$’ column if and only if first (ABC) contains ‘ε’. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "LL(1) Parsing Table",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following operator precedence Relational Table. For the string $W = id + id, \\times id$, how many handles are possible to accept?\n\nOperator precedence relational table:\n$\\begin{array}{c|cccc}&id&+&*&\\$\\\\\\hline id&&\\bullet>&\\bullet>&\\bullet>\\\\ +&<\\bullet&\\bullet>&<\\bullet&\\bullet>\\\\ *&<\\bullet&\\bullet>&\\bullet>&\\bullet>\\\\ \\$&<\\bullet&<\\bullet&<\\bullet&\\end{array}$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "Data insufficient"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Compiler_Design_5/compiler_design_5-q034-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "5",
+      "explanation": "The handle-reduction sequence shown in the PDF is:\n1. $\\$ <id> + <id> * <id> \\$$\n2. $\\$ <\\bullet + <\\bullet * \\bullet> \\$$\n3. $\\$ <+> \\$$\n4. Successful\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Compiler_Design_5/compiler_design_5-q034-explanation.png"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Operator Precedence Parsing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_5.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\n\nShared context for question 35: Operator precedence relational table:\n$\\begin{array}{c|cccc}&id&+&*&\\$\\\\\\hline id&&\\bullet>&\\bullet>&\\bullet>\\\\ +&<\\bullet&\\bullet>&<\\bullet&\\bullet>\\\\ *&<\\bullet&\\bullet>&\\bullet>&\\bullet>\\\\ \\$&<\\bullet&<\\bullet&<\\bullet&\\end{array}$",
+      "text": "In the above precedence table, what is the associativity of ‘+’ and ‘*’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "+ is right associative and * is left associative"
+        },
+        {
+          "label": "B",
+          "text": "+ and * Left associative"
+        },
+        {
+          "label": "C",
+          "text": "+ and * Right associative"
+        },
+        {
+          "label": "D",
+          "text": "Data insufficient"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "+ and * Left associative",
+      "explanation": "In operator precedence parsing table $\\theta_1$ and $\\theta_2$ are two Operators and have equal precedence then $\\theta_1 < \\theta_2$ if Right associative; $\\theta_1 > \\theta_2$ if Left associative. So $+ > +$, $* > *$. Left associativity. Choice (B)",
+      "status": "confirmed",
+      "image": "images/Compiler_Design_5/compiler_design_5-q035-explanation.png"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Operator Precedence Parsing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

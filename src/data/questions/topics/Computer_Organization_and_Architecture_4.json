@@ -1,0 +1,2115 @@
+[
+  {
+    "id": "gate-programming-and-data-structures-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A computer ‘A’ uses the following 32-bit floating point representation of real numbers.\n\nS   Mantissa   Exponent\n31  30         87       0\n\nComputer ‘B’ uses the following floating point representation scheme.\n\nS   Mantissa   Exponent\n31  30         76       0\n\nWhich of the following statement is TRUE with regard to computer B’s method of representing floating-point numbers over computer A’s method?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both range and precision are decreased."
+        },
+        {
+          "label": "B",
+          "text": "The range is decreased but the precision is increased."
+        },
+        {
+          "label": "C",
+          "text": "The range is increased but the precision is decreased."
+        },
+        {
+          "label": "D",
+          "text": "Both range and precision remain same."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_4/computer_organization_and_architecture_4-q001-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "The range is decreased but the precision is increased.",
+      "explanation": "The range of a floating point number depends on exponent size. As exponent size in ‘B’ decreases, the range also decreases.\nThe precision specifies number of digits after decimal point, which increases in ‘B’ computer.      Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Floating point representation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The minimum number of control bits required to execute a microprogram which has 50 control signals is _______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "50"
+        },
+        {
+          "label": "D",
+          "text": "100"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "6",
+      "explanation": "Using Vertical Microprogramming, there will be 6-control bits to provide 50 control signals.\n(∵ 2^6 = 64 > 50)                             Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Microprogramming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following instructions:\nBEQ R0, R1, L1\n\nThe opcode is BEQ, which means Branch if Equal. The instruction checks the equality of R0, R1 and if both are equal jump to L1. Which of the following correctly specifies given instruction but with much greater branching distance?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "compare R0, R1 if zero jump to L1"
+        },
+        {
+          "label": "B",
+          "text": "LOAD R0 Branch if equal R1, L1"
+        },
+        {
+          "label": "C",
+          "text": "Branch if not equal R0, R1, L2 Jump L1 L2:"
+        },
+        {
+          "label": "D",
+          "text": "Branch if not Equal R0, R1, L1 Jump L2 L1:"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Branch if not equal R0, R1, L2 Jump L1 L2:",
+      "explanation": "Given instruction BEQ R0, R1, L1.\nThis instruction can be replaced by following instructions, to achieve greater branching distance:\nBNE R0, R1, L2\nJump L1, L2:\nWe get much greater branching distance by using 1-address instruction: Jump L1.\nWe can’t use zero-address as we need to specify the opcode ‘jump’\nBy using the instruction ‘Jump L1’ the address space is more so we can specify much greater branching distance.                                      Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Instruction set / branching",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a loop branch that branches 100 times in a row, then it is not taken once. Assume that the prediction bit for this branch remains in the prediction buffer. The prediction accuracy for this branch by using 1-bit branch history table prediction scheme (in percentage) is _______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "90"
+        },
+        {
+          "label": "B",
+          "text": "95"
+        },
+        {
+          "label": "C",
+          "text": "98"
+        },
+        {
+          "label": "D",
+          "text": "99"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "98",
+      "explanation": "Branch history table is a small memory, which contains a bit that says whether the branch was recently taken or not.\nIn the given problem, the loop executes 100 times but in the 101th time the loop is not taken.\nBut it will be incorrectly predicted by 1-bit branch history table prediction as the loop is taken for 100 times.\nIn the 1st iteration also the predictor specifies incorrect branch prediction as the bit is set to ‘not taken’ in the exit stage of last execution of the program.\n∴ 2 wrong predictions, out of 101 predictions.\n∴ Prediction Accuracy percentage\n= 99/101 × 100 = 98%                       Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Branch prediction",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The biased exponent value for double precision floating point numbers is ________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1023"
+        },
+        {
+          "label": "B",
+          "text": "1024"
+        },
+        {
+          "label": "C",
+          "text": "256"
+        },
+        {
+          "label": "D",
+          "text": "255"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1023",
+      "explanation": "In Double precision floating point format,\nNumber of bits for exponent = 11\n∴ Biased exponent = 2^(k−1) − 1,\nWhere k is the number of bits used for exponent.\nHere k = 11, hence Biased exponent\n= 2^10 − 1 = 1023.                      Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Floating point representation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following instruction:\nADD R1, (R2, R3)\nHere R1, R2, R3 are registers\nThe Sum of data present in the R2 and R3 is stored in a 32-bit register R1.\nWhich of the following mode best reflects the mode of second operand?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Indexed mode"
+        },
+        {
+          "label": "B",
+          "text": "Base Register mode"
+        },
+        {
+          "label": "C",
+          "text": "Base with index mode"
+        },
+        {
+          "label": "D",
+          "text": "Base with index and offset mode"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Base with index mode",
+      "explanation": "If we assume R2 as Base register, R3 as Index register, then the mode will be Base with index mode.                       Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Addressing modes",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider an instruction format with fields containing zeros:\n\nOpcode   Destination Register   Source Register   Immediate value\n\nWhat is the maximum possible number of operations, registers with the given instruction format?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4, 8"
+        },
+        {
+          "label": "B",
+          "text": "4, 16"
+        },
+        {
+          "label": "C",
+          "text": "16, 256"
+        },
+        {
+          "label": "D",
+          "text": "16, 65536"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_4/computer_organization_and_architecture_4-q007-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "16, 256",
+      "explanation": "Number of bits in opcode = 4\n⇒ Number of operations possible = 2^4 = 16\nNumber of bits in src/dest. Registers = 8\n∴ Number of registers = 2^8 = 256          Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Instruction format",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A 64 M-bit DRAM organized as 4 M addresses of 16-bit words each. A memory system is built using 128 M addresses of 256-bit words each. How many DRAM chips that are required for this memory system?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "128"
+        },
+        {
+          "label": "D",
+          "text": "512"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "512",
+      "explanation": "Each DRAM has 4M addresses of 16-bit words.\n⇒ DRAM capacity = 4M × 16\nMemory system capacity = 128M × 256\n∴ Number of chips required = (128 M × 256)/(4 M × 16) = 512\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Memory organization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a hypothetical 64-bit micro-processor having 64-bit instructions composed of two fields: Opcode: 2-bytes. Immediate operand or an operand address: remaining bytes.\nWhat is the maximum directly addressable memory capacity (in bytes)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2^16"
+        },
+        {
+          "label": "B",
+          "text": "2^48"
+        },
+        {
+          "label": "C",
+          "text": "2^64"
+        },
+        {
+          "label": "D",
+          "text": "2^24"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2^48",
+      "explanation": "Instruction size = 64-bits\nOpcode size = 2B = 16-bits\nOperand/Address field = 64 − 16 = 48-bits.\nThe 48-bits can be used to specify a particular address.\n∴ Maximum directly addressable memory = 2^48\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Instruction format and addressing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a machine with a byte addressable main memory of 4 GB and a block size of 16 bytes. Assume that a direct mapped cache consisting of 32 lines is used with this machine. How many bytes of main memory can be stored in the cache?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4096"
+        },
+        {
+          "label": "B",
+          "text": "2^20"
+        },
+        {
+          "label": "C",
+          "text": "512"
+        },
+        {
+          "label": "D",
+          "text": "736"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "512",
+      "explanation": "Number of lines in cache = 32\nThere are 32 lines in cache. Each line will have 16 bytes.\n∴ Total bytes of memory in cache\n= 16 × 32 = 512 bytes                         Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Cache organization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a dynamic RAM that must be given a refresh cycle 64 times per ms. Each refresh operation requires 150 ns; a memory cycle requires 250 ns. What percentage of the memory’s total operating time is given to refreshes?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1%"
+        },
+        {
+          "label": "B",
+          "text": "3%"
+        },
+        {
+          "label": "C",
+          "text": "5%"
+        },
+        {
+          "label": "D",
+          "text": "10%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1%",
+      "explanation": "The DRAM has given a refresh cycle 64 times per ms.\nTime required for one refresh operation = 150 ns\nIn 1 ms, the time required to refresh is 64 × 150 ns\n= 9600 ns\n∴ The fraction of time devoted to memory refresh is\n9600 × 10^-9 / 10^-3 = 0.0096\n∴ Approximate percentage of the memory’s total operating time given to refreshes is 1%.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "DRAM refresh",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A DMA module is transferring characters to memory using cycle stealing, from a device transmitting at 9600 bps. The processor is fetching instructions at the rate of 1 million instructions per second (1 MIPS). By how much the processor is slowed down due to the DMA activity?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.0012%"
+        },
+        {
+          "label": "B",
+          "text": "0.01%"
+        },
+        {
+          "label": "C",
+          "text": "0.001%"
+        },
+        {
+          "label": "D",
+          "text": "0.12%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "0.12%",
+      "explanation": "The DMA is transmitting at a rate of 9600 bits per second i.e., it is transmitting 9600/8 = 1200 characters per second. The processor is processing at a rate of 1 million instructions per second i.e., It will take 1/10^6 = 1μ second to process a single instruction.\nA single character will be processed by DMA in 1/1200 ≈ 833 μs\n∴ Slow down of processor due to DMA\n= 1/833 × 100 = 0.12%                Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "DMA",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Match list-A with list-B and select the correct answer using the code given below the list:\n\nList–A                         List–B\na. Cache                       1. Printer\nb. DMA I/O                     2. Disk\nc. Interrupt I/O               3. High speed RAM",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "a–1, b–2, c–3"
+        },
+        {
+          "label": "B",
+          "text": "a–2, b–3, c–1"
+        },
+        {
+          "label": "C",
+          "text": "a–3, b–2, c–1"
+        },
+        {
+          "label": "D",
+          "text": "a–3, b–1, c–2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_4/computer_organization_and_architecture_4-q013-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "a–3, b–2, c–1",
+      "explanation": "Cache is high speed RAM, DMA I/O is used with disk, Interrupt I/O is used with printer.         Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "I/O organization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The speed gained by a ‘p’ segment pipeline executing ‘q’ tasks is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(q + p − 1) / pq"
+        },
+        {
+          "label": "B",
+          "text": "(p + q) / (pq − 1)"
+        },
+        {
+          "label": "C",
+          "text": "pq / (p + q − 1)"
+        },
+        {
+          "label": "D",
+          "text": "(p + q) / (pq + 1)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "pq / (p + q − 1)",
+      "explanation": "Without pipelining, execution time = pq\nwith pipelining, execution time = p + q − 1\n∴ speed up = pq/(p + q − 1)                                Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pipelining",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The IEEE 32-bit floating point format of –6 is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 10000001 10000000000000000000000"
+        },
+        {
+          "label": "B",
+          "text": "1 00000010 00000000000000000000000"
+        },
+        {
+          "label": "C",
+          "text": "1 00000001 10000000000000000000000"
+        },
+        {
+          "label": "D",
+          "text": "1 10000001 00000000000000000000000"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1 10000001 10000000000000000000000",
+      "explanation": "IEEE 32-bit floating point representation will be in the form of:\n\n6 = 110\nFor –6 sign bit is 1.\n6 = 110 = 1.10 × 2^10\nExponent = 010\nBiased exponent = 127 + 2 = 129 = 10000001\nFraction = 10000000000000000000000\nHence IEEE 32-bit floating point representation of –6 is:\n110000001\n10000000000000000000000                      Choice (A)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_4/computer_organization_and_architecture_4-q015-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "IEEE 754 floating point",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider below code segment:\nLOAD R1, M[1000]\nLOAD R2, M[1002]\nADD R3, R1, R2\nSTORE R3, M[1008]\nLOAD R4, M[1004]\nADD R5, R1, R4\nSTORE R5, M[1010]\n\nAssume that this program is executed on a pipelined processor with 5 stages: FI (Fetch Instruction), RD(Read registers while Decoding), EX (Execute the operation or calculate the address), MEM (Access an operand in data memory), WR (write result into a register). The first operand of each instruction will be the destination. What is the minimum number of stalls that will be there in the reordered code of given code if the processor uses forwarding also?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "0",
+      "explanation": "In given code stalls occur before the ADD instructions.\n2 stalls are there in given code. To minimize stalls, we reorder the code. In the reordered code place LOAD R4, M[1004] before ADD R3, R1, R2.\nThe resultant code will be:\nLOAD R1,                      M[1000]\nLOAD R2,                      M[1002]\nLOAD R4,                      M[1004]\nADD R3, R1, R2\nADD R5, R1, R4\nSTORE R3,                     M[1008]\nSTORE R5,                     M[1010]\nNo stalls in the reordered code.             Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pipeline data hazards",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Consider a 2 × 8 two-dimensional array of elements, M. Assume that each element in the array occupies one word and the array elements are stored in column-major order in the main memory from location 2000 to location 2015. The cache consists of 8 blocks and each block will have just two words.",
+      "text": "Consider a 2 × 8 two-dimensional array of elements, M. Assume that each element in the array occupies one word and the array elements are stored in column-major order in the main memory from location 2000 to location 2015. The cache consists of 8 blocks and each block will have just two words.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1/2"
+        },
+        {
+          "label": "B",
+          "text": "1/4"
+        },
+        {
+          "label": "C",
+          "text": "1/8"
+        },
+        {
+          "label": "D",
+          "text": "1/16"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1/8",
+      "explanation": "The Array M2×8 is stored in column-major order in the main memory, i.e.,\nIn direct mapping, B0 is placed in L0, B1 in L1, B2 in L2, ..., B7 in L7 to access the elements M0, 0 – M0, 7\nThe remaining elements are already in cache. All those accesses will be hits.\nAs all the 8-blocks used, cache utilization is 100%.\nIn Associative mapping, each block of main memory will be placed at anywhere in the cache lines. Also 8-accesses will be misses and the remaining will be hits. No need of replacement and all lines of cache will be used.\n∴ Cache utilization = 100%\nIn 2-way set-Associative mapping, two blocks will be treated as a single set. There will be 4-sets.\nAll the four sets are used. Set 0 consists B0, B4, set 1 contains B1, B5. Like this all sets are used. Hence cache utilization is 100%.                           Choice (C)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_4/computer_organization_and_architecture_4-q017-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Cache mapping and locality",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Consider the given program structure, which is in Main memory:\nThe memory addresses are in decimal. The program consists of two loops along with start and end statements. All the instructions in the program are executed in sequential manner. The program is to be run on a computer that has an instruction cache of size 1 K words organized in a direct-mapped manner. The main memory size is 64 K words with block size of 128 words. Let the cycle time of main memory is 10 ns and cycle time of the cache is 1 ns.",
+      "text": "Consider the given program structure, which is in Main memory:\nThe memory addresses are in decimal. The program consists of two loops along with start and end statements. All the instructions in the program are executed in sequential manner. The program is to be run on a computer that has an instruction cache of size 1 K words organized in a direct-mapped manner. The main memory size is 64 K words with block size of 128 words. Let the cycle time of main memory is 10 ns and cycle time of the cache is 1 ns.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1280"
+        },
+        {
+          "label": "B",
+          "text": "4864"
+        },
+        {
+          "label": "C",
+          "text": "48640"
+        },
+        {
+          "label": "D",
+          "text": "61440"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_4/computer_organization_and_architecture_4-q018-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "61440",
+      "explanation": "Given main memory size = 64 K = 2^16 words\nBlock size = 128 = 2^7 words\nCache size = 1 K = 2^10 words\nWord field size = 7\nNumber of lines = 2^10 / 2^7 = 2^3\n∴ Line field size = 3\n⇒ Tag = 16 – (7 + 3) = 6\nThe cache memory is shown below with main memory block addresses.\nHence the sequence of reads from the main memory blocks into cache line is:\nLine: 0, 1, 2, 3, 4, 5, 6, 7, 0, 1, 0, 1, 0, 1, ...0, 1, 0, 1, 2, 3\ni.e., in pass1 of outer loop the lines 0, 1, 2, 3, 4, 5, 6, 7, 0, 1 will be accessed. In pass 2 0, 1 are accessed for (0 – 127), (128 – 255) and again 0, 1 are accessed for (1024 – 1151), (1152 – 1279).\nIn last pass 0, 1, 0, 1, 2, 3 lines will be accessed.\n∴ Total time for reading the blocks of main memory into the cache\n= (10 + 9 × 4 + 2) × 128 × 10\n= 61440 n sec.                           Choice (D)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_4/computer_organization_and_architecture_4-q018-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Instruction cache",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A pipelined processor has two branch delay slots, An optimizing compiler can fill one of these slots 75% of the time and can fill the second slot only 20% of the time. What is the ratio of improvement in performance achieved by this optimization to without optimization, assuming that 10% of the instructions executed are branch instructions?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1.102"
+        },
+        {
+          "label": "B",
+          "text": "1.086"
+        },
+        {
+          "label": "C",
+          "text": "0.9"
+        },
+        {
+          "label": "D",
+          "text": "1.105"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1.086",
+      "explanation": "Let the number of instruction be 100.\nWithout optimization, time required to execute 100 Instructions = 100 + 10 × 2 = 100 + 20 = 120\nWith optimization time required\n= (120 – 0.75 × 10 – 0.20 × 10) = 110.5\n∴ Improvement using optimization\n= 120/110.5 = 1.086.                       Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Branch delay slots",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Consider a system with a 4 KB, 4-way set associative cache memory with 128 lines, a 1024 word array where each element is a 32-bit word. When a program accesses this array with a scale of D, it means starting with the first element, the program accesses every Dth element. For example, for D = 1, the program accesses every element, for D = 2, the program accesses every second element and so on. Assuming a cache that is initially empty and a program makes one pass over this array with a scale of D, what is the miss rate generated for D = 8?",
+      "text": "Consider a system with a 4 KB, 4-way set associative cache memory with 128 lines, a 1024 word array where each element is a 32-bit word. When a program accesses this array with a scale of D, it means starting with the first element, the program accesses every Dth element. For example, for D = 1, the program accesses every element, for D = 2, the program accesses every second element and so on. Assuming a cache that is initially empty and a program makes one pass over this array with a scale of D, what is the miss rate generated for D = 8?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1/2"
+        },
+        {
+          "label": "B",
+          "text": "1/4"
+        },
+        {
+          "label": "C",
+          "text": "1/8"
+        },
+        {
+          "label": "D",
+          "text": "1/16"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1/4",
+      "explanation": "Number of lines in cache = 128\nAs the cache is a 4-way set associative, each set contains 4-blocks.\n∴ Number of sets = 128/4 = 32\nSo there will be 32 misses.\nBut the program accesses every 8th word.\n∴ Number of misses = 32/8 = 4\nHence miss rate = 1/4                         Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Cache performance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A computer has 32-bit instructions and 12-bit addresses. If there are 240 two-address instructions, how many one-address operations can be formulated?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4096"
+        },
+        {
+          "label": "B",
+          "text": "65536"
+        },
+        {
+          "label": "C",
+          "text": "8192"
+        },
+        {
+          "label": "D",
+          "text": "131072"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "65536",
+      "explanation": "Instruction size = 32-bits\nTwo address instruction format will be\nopcode       address1      address2\n8            12            12\nThere will be 2^8 possible combinations of operations.\nTwo address instructions = 240\nOperations for single address instructions = 256 – 240 = 16\nSingle address instruction format will be\nopcode              address\n12 bits\nTotal one address operations = 16 × 2^12 = 65536.\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_4/computer_organization_and_architecture_4-q021-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Instruction formats",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Consider a pipelined processor with a 5-stage pipeline. Assume that all instructions take 5 cycles. The dynamic instruction count by type, as a percentage of the total, is as follows:\n10% store instructions\n20% load instructions\n30% branch instructions\n40% ALU instructions",
+      "text": "Consider a pipelined processor with a 5-stage pipeline. Assume that all instructions take 5 cycles. The dynamic instruction count by type, as a percentage of the total, is as follows:\n10% store instructions\n20% load instructions\n30% branch instructions\n40% ALU instructions What is the ideal speed-up due to pipelining for this processor?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2.5"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "5",
+      "explanation": "The ideal speed up of a pipelined processor is equal to the number of stages in the pipeline.\n∴ As there are 5-stages the speed will be 5.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pipelining",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. For the data given in Q. No. 22, let stalls due to data hazards occur only under two reasons.\nA stall of two cycles occur when a load instruction is followed by an ALU instruction that uses the result of load. This scenario exists for 40% of the load instructions.\nA stall of three cycles occur when a branch instruction is preceded by an ALU operation whose result is used as a branch condition. This scenario exists for 50% of the branch instructions. What is the decrease in the ideal speed up of pipelining only due to data hazards?",
+      "text": "For the data given in Q. No. 22, let stalls due to data hazards occur only under two reasons.\nA stall of two cycles occur when a load instruction is followed by an ALU instruction that uses the result of load. This scenario exists for 40% of the load instructions.\nA stall of three cycles occur when a branch instruction is preceded by an ALU operation whose result is used as a branch condition. This scenario exists for 50% of the branch instructions. What is the decrease in the ideal speed up of pipelining only due to data hazards?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "50%"
+        },
+        {
+          "label": "B",
+          "text": "75.6%"
+        },
+        {
+          "label": "C",
+          "text": "18.9%"
+        },
+        {
+          "label": "D",
+          "text": "37.8%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "37.8%",
+      "explanation": "Ideal speed up = 5\nSpeed up due to Data hazards\n= Pipeline Depth / [1 + (load frequency × load penalty) + (branch frequency × branch penalty)]\n= 5 / [1 + (0.2 × 0.4 × 2) + (0.3 × 0.5 × 3)]\n= 5 / [1 + 0.16 + 0.45] = 3.11\n∴ Speed up = (5 − 3.11)/5 × 100 = 37.8%                  Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pipeline data hazards",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Given\nx = (0100 0110 1101 1000 0000 0000 0000 0000)2 and\ny = (1011 1110 1110 0000 0000 0000 0000 0000)2,\nrepresenting single precision IEEE 754 floating point numbers. Then the respective values of x + y and x * y in decimal (approximately) are:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "27647.5625 and –12096"
+        },
+        {
+          "label": "B",
+          "text": "27647.5625 and –24192"
+        },
+        {
+          "label": "C",
+          "text": "13823.75 and 24192"
+        },
+        {
+          "label": "D",
+          "text": "13823.75 and –24192"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "27647.5625 and –12096",
+      "explanation": "Given x = 0100 0110 1101 1000 0000 0000 0000 0000\ny = 1011 1110 1110 0000 0000 0000 0000 0000\nIEEE 754 floating point representation numbers has the following format:\nSign       Biased exponent      Mantissa\n1          8                     23\nFor x, sign bit = 0 ⇒ sign = +\nBiased exponent = 100 01101 = 141\nExponent = 141 − 127 (Bias) = 14\nMantissa = 1.101 1000 0000 0000 0000 0000\n∴ x = +1.101 1000 0000 0000 0000 0000 × 2^14\n= +27648\nFor y, sign bit =1 ⇒ sign = −\nBiased exponent = 011 1110 1 = 125\nExponent = 125 − 127 = −2\nMantissa =1.110 0000 0000 0000 0000 0000\n∴ y = −1.110 0000 0000 0000 0000 0000 × 2^−2\n= −0.4375\nx + y = 27648 − 0.4375 = 27647.5625\nx * y = 27648 × 0.4375 = −12096         Choice (A)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_4/computer_organization_and_architecture_4-q024-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "IEEE 754 floating point",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A 5-stage pipeline has the following stages:\nIF: Instruction fetch\nID: Instruction decode and register file read\nEX: Execution or address calculation\nMEM: Data memory access\nWB: Write back\nThe following code executed on this pipeline:\n\nInstruction                 Operation\nADD R1, R2, R3              R1 ← R2 + R3\nSUB R4, R1, R5              R4 ← R1 − R5\nLOAD R6, 200(R1)            R6 ← M[200 + R1]\nADD R7, R1, R6              R7 ← R1 + R6\n\nUse forwarding to resolve data hazards. Then the number of stalls that will occur because of data hazards in given code is _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_4/computer_organization_and_architecture_4-q025-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1",
+      "explanation": "Given code:\nI1: ADD R1, R2, R3\nI2: SUB R4, R1, R5\nI3: LOAD R6, 200(R1)\nI4: ADD R7, R1, R6\nI2, I3, I4 are dependent on I1. I4 dependent on I3.\nThe execution chart is shown below:\nI1 IF ID EX MEM WB\nI2   IF ID EX MEM WB\nI3      IF ID EX MEM WB\nI4         IF Stall ID EX MEM WB\n∴ R1 can be forwarded to I2, I3 and I4, but R6 (in I3) cannot be forwarded to I4 immediately, so one stall occurs.                                 Choice (B)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_4/computer_organization_and_architecture_4-q025-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pipeline data hazards",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a floating point representation: c.r^e where c represents coefficient register of size 10 in which MSB bit is used to represent sign, r represents radix and e represents contents of exponent register of size 5, in which MSB is used to represent sign. Then the contents of coefficient and exponent registers for the number +1001.110 will be:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0100111000, 00100"
+        },
+        {
+          "label": "B",
+          "text": "0001001110, 00100"
+        },
+        {
+          "label": "C",
+          "text": "1001110000, 10100"
+        },
+        {
+          "label": "D",
+          "text": "1001110000, 10101"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "0100111000, 00100",
+      "explanation": "Given number +1001.110\nThen c = 0 1 0 0 1 1 1 0 0 0\nsign          fraction\ne = 0 0 1 0 0\nsign exponent\nThe decimal point will be at 4th position from left.\nChoice (A)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_4/computer_organization_and_architecture_4-q026-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Floating point representation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a 32-bit microprocessor, with a 16-bit external data bus, driven by an 8 MHz input clock. Assume that this microprocessor has a bus cycle whose minimum duration equals four input clock cycles. What is the minimum data transfer rate across the bus that this microprocessor can sustain, in bytes?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 MB/sec"
+        },
+        {
+          "label": "B",
+          "text": "4 MB/sec"
+        },
+        {
+          "label": "C",
+          "text": "6 MB/sec"
+        },
+        {
+          "label": "D",
+          "text": "8 MB/sec"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "4 MB/sec",
+      "explanation": "Input clock frequency = 8 MHz\nclock cycle = 1/(8 MHz) = 125 ns\nGiven that bus cycle = 4 × clock cycle = 4 × 125 = 500 ns\nData bus width = 16-bits = 2 B\n∴ 2 B can be transferred for every 500 ns.\n∴ Transfer rate = 2 B / 500 ns = 4 MB/sec        Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Bus performance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a bus structure in which a single internal bus connects the ALU and all processor registers.\nWhich of the following represents the correct sequence of micro-operations to add a number to the accumulator when the number is an indirect address operand?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "t1: MAR ← (IR(address))\nt2: MBR ← memory\nt3: Y ← (MBR)\nt4: Z ← (AC) + (Y)\nt5: AC ← (Z)"
+        },
+        {
+          "label": "B",
+          "text": "t1: MAR ← (IR(address))\nt2: MBR ← memory\nt3: Z ← (AC) + (MBR)\nt4: AC ← (Z)"
+        },
+        {
+          "label": "C",
+          "text": "t1: MBR ← (IR(address))\nt2: Z ← (AC) + (MBR)\nt3: AC ← (Z)"
+        },
+        {
+          "label": "D",
+          "text": "t1: MAR ← (IR(address))\nt2: MBR ← memory\nt3: MAR ← (MBR)\nt4: MBR ← memory\nt5: Y ← (MBR)\nt6: AC ← (AC) + (Y)\nt7: AC ← (Z)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "t1: MAR ← (IR(address))\nt2: MBR ← memory\nt3: MAR ← (MBR)\nt4: MBR ← memory\nt5: Y ← (MBR)\nt6: AC ← (AC) + (Y)\nt7: AC ← (Z)",
+      "explanation": "As the number is an indirect address operand, the effective address will present in the given address location.\nSo we refer two times to get the actual operand from memory. Hence the correct sequence of micro-operation is                                       Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Micro-operations and addressing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Consider a bus structure in which a single internal bus connects the ALU and all processor registers.\nWhich of the following represents the correct sequence of micro-operations to add a number to the accumulator when the number is an indirect address operand? For the data given in Q. No. 28, what is the number of clock cycles required for above operation if each micro-operation takes one clock cycle?",
+      "text": "For the data given in Q. No. 28, what is the number of clock cycles required for above operation if each micro-operation takes one clock cycle?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "7",
+      "explanation": "As there are 7 micro-operations and each micro-operation takes one clock cycle, the total number of clock cycles for addition with an indirect address operand = 7.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Micro-operations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The access time of a cache memory is 100 ns and that of main memory is 1 ms. 80% of the memory requests are for read and others are for write. Hit ratio for read only accesses is 0.9. A write-through procedure is used. The average access time of the system for both read and write requests is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "160 ns"
+        },
+        {
+          "label": "B",
+          "text": "200 ns"
+        },
+        {
+          "label": "C",
+          "text": "360 ns"
+        },
+        {
+          "label": "D",
+          "text": "720 ns"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "360 ns",
+      "explanation": "Access time of cache = 100 ns\nAccess time of main memory = 1 ms = 10^3 ns\nRead requests = 80%\nWrite requests = 20%\nHit ratio for read only access = 0.9\nWrite-through means main memory is updated while updating cache memory.\nAverage access time of the system\n= 0.8(0.9 × 100 + 0.1(100 + 1000)) + 0.2 × 1000\n= 160 + 200 = 360 ns                          Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Cache performance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a new instruction named branch-on-bit-set.\nThe instruction\n“bbs reg, pos, label”\njumps to label if bit in position ‘pos’ of register operand ‘reg’ is one. A register is 32 bits wide and the bits are numbered 0 to 31, bit in position 0 being the least significant. Consider the following emulation of this instruction on a processor that does not have branch-on-bit-set implemented.\nresult ← reg & mark\nBranch to label if result is non-zero.\nThe variable ‘result’ is temporary register. For correct emulation the variable mask must be generated by:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "mask ← 0xf"
+        },
+        {
+          "label": "B",
+          "text": "mask ← pos"
+        },
+        {
+          "label": "C",
+          "text": "mask ← 0xffff >> pos"
+        },
+        {
+          "label": "D",
+          "text": "mask ← 0x1<< pos"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "mask ← 0x1<< pos",
+      "explanation": "The instruction “bbs reg, pos, label” jumps to label it bit in position ‘pos’ of register operand ‘reg’ is one.\nTo implement this instruction as\nresult ← reg & mask\nWe are performing ‘and’ operation between ‘reg’ and ‘mask’.\nThe mask must be ‘1’ to check a position value of ‘reg’.\nAnd it is left shifted POS number of times to align that 1 to the required position of reg.\nFor example,\nReg = A091 = 1010 0000 1001 0001\nPOS = 2\nUsing bbs, we won’t jump to label as 2nd bit is zero using mask ← ox1 << POS\n← ox1 << 2\n← ox 0100\nNow we perform AND between reg and mask. As the result is zero we won’t jump to label.        Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Instruction emulation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a computer with the following characteristics:\nTotal main memory: 1 MB; word size is 1 byte; Block size of 16 bytes; and cache size of 64 kbytes; for the main memory address F0010, what will be the cache line bits for a direct mapped cache?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1111"
+        },
+        {
+          "label": "B",
+          "text": "0000"
+        },
+        {
+          "label": "C",
+          "text": "0000 0000 0001"
+        },
+        {
+          "label": "D",
+          "text": "000000001000"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "0000 0000 0001",
+      "explanation": "Main memory = 1 MB = 2^20 B\nWord size = 1 B\nBlock size = 16 B = 2^4 B\nCache size = 64 KB = 2^16 B\nFor Direct mapped cache:\ntag    line    word\n20\nword size = 4\nNumber of blocks in cache = 2^16 / 2^4 = 2^12\n∴ Line = 12\ntag + line = 20 − 4 = 16\nTag = 16 − 12 = 4\nGiven address F0010:\nF0010 = 1111 000000000001 000\ntag        line     word\n∴ Line address = 0000 0000 0001              Choice (C)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_4/computer_organization_and_architecture_4-q032-explanation-combined.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Direct mapped cache",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a system in which a data transfer over a bus takes 500 ns. Transfer of bus control in either direction, from processor to I/O device or vice versa, takes 250 ns. One of the I/O devices has a data transfer rate of 50 kb/s and employs DMA. Data is transferred one byte at a time. Suppose we employ DMA in a cycle-stealing mode. When transferring a block of 128 bytes, it would tie up the bus for (in micro seconds) _______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "250"
+        },
+        {
+          "label": "B",
+          "text": "0.2"
+        },
+        {
+          "label": "C",
+          "text": "128"
+        },
+        {
+          "label": "D",
+          "text": "0.4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "0.4",
+      "explanation": "The time required to transfer one byte is:\n= 250 + 500 + 250\n= 1000 ns = 1 μs.\nTo transfer 128 bytes, we require 128 μs.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "DMA cycle stealing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A PC relative mode branch instruction is 2 bytes long. The address of the instruction, in decimal, is 356029. Determine the branch target address if the signed displacement in the instruction is –31.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "356029"
+        },
+        {
+          "label": "B",
+          "text": "356030"
+        },
+        {
+          "label": "C",
+          "text": "356031"
+        },
+        {
+          "label": "D",
+          "text": "356000"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "356000",
+      "explanation": "Instructions size = 2 B\nCurrent instructions address = 356029\nPC always points to the address of the next instruction.\ni.e., 356029 + 2 = 356031\nIn PC-relative addressing mode, the content of PC is added to the displacement, which is given as −31.\nSo the branch target address\n= 356031 − 31 = 356000                      Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "PC-relative addressing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_4.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a system employing interrupt driven I/O for a particular device that transfers data on an average of 10 KB/sec on a continuous basis. Assume that interrupt processing takes 100 ms (i.e., the time to jump to the ISR, execute it and return to the main program). Determine what fraction of processor time is consumed by this I/O device if it interrupts for every byte.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "100"
+        },
+        {
+          "label": "D",
+          "text": "0.8"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1",
+      "explanation": "Data transferred = 10 kB/sec\n= 10000 Bytes/sec\nGiven that interrupts are generated for every 1 Byte.\nThere will be 10000 interrupts and rate of interrupts\n= 1/10000 = 100 μs\n∴ Fraction of processor time consumed by this I/O\n= 100/100 = 1                             Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Interrupt-driven I/O",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_4.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

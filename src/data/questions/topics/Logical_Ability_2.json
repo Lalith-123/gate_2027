@@ -1,0 +1,3029 @@
+[
+  {
+    "id": "gate-logical-ability-test-1-q001",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "4, 27, 25, 343, 121, _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "169"
+        },
+        {
+          "label": "B",
+          "text": "2197"
+        },
+        {
+          "label": "C",
+          "text": "3197"
+        },
+        {
+          "label": "D",
+          "text": "2457"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 1 to 5: Complete the following series."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2197",
+      "explanation": "The given series can be expressed as follows. 2^2, 3^3, 5^2, 7^3, 11^2 where 2, 3, 5, 7, 11 are prime numbers. The next in the series is 13^3 = 2197",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q002",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "11, 25, 77, 157, 473, _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "978"
+        },
+        {
+          "label": "B",
+          "text": "1421"
+        },
+        {
+          "label": "C",
+          "text": "949"
+        },
+        {
+          "label": "D",
+          "text": "1431"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 1 to 5: Complete the following series."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "949",
+      "explanation": "The given series can be expressed as follows. (11 × 2) + 3 = 25; (25 × 3) + 2 = 77; (77 × 2) + 3 = 157 (157 × 3) + 2 = 473; (473 × 2) + 3 = 949",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q003",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "12, 30, 56, 132, 182, _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "240"
+        },
+        {
+          "label": "B",
+          "text": "300"
+        },
+        {
+          "label": "C",
+          "text": "316"
+        },
+        {
+          "label": "D",
+          "text": "306"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 1 to 5: Complete the following series."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "306",
+      "explanation": "The given series can be expressed as follows. 3^2 + 3, 5^2 + 5, 7^2 + 7, 11^2 + 11, 13^2 + 13 with 3, 5, 7, 11, 13 being prime numbers. The next number in the series is 17^2 + 17 = 289 + 17 = 306",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q004",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "53, 61, 71, 79, 89, _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "91"
+        },
+        {
+          "label": "B",
+          "text": "93"
+        },
+        {
+          "label": "C",
+          "text": "101"
+        },
+        {
+          "label": "D",
+          "text": "95"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 1 to 5: Complete the following series."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "101",
+      "explanation": "The given series is the series of alternate prime numbers. The next in the series is 101.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q005",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "19, 58, 175, 526, _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1578"
+        },
+        {
+          "label": "B",
+          "text": "1238"
+        },
+        {
+          "label": "C",
+          "text": "1458"
+        },
+        {
+          "label": "D",
+          "text": "1579"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 1 to 5: Complete the following series."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "1579",
+      "explanation": "The given series can be expressed as 6 × 3 + 1 = 19; 19 × 3 + 1 = 58; 58 × 3 + 1 = 175; 175 × 3 + 1 = 526; 526 × 3 + 1 = 1579",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q006",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "24 : 576 : : 32 : _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "961"
+        },
+        {
+          "label": "B",
+          "text": "1000"
+        },
+        {
+          "label": "C",
+          "text": "1225"
+        },
+        {
+          "label": "D",
+          "text": "1024"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 6 to 10: Find the missing term."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "1024",
+      "explanation": "24 : (24)^2 : : 32 : (32)^2. Square of the first number is the second number. (32)^2 = 1024.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q007",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "4 : 27 : : 25 : _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "64"
+        },
+        {
+          "label": "B",
+          "text": "216"
+        },
+        {
+          "label": "C",
+          "text": "125"
+        },
+        {
+          "label": "D",
+          "text": "36"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 6 to 10: Find the missing term."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "216",
+      "explanation": "4 : 27 : : 25 : _____. (2)^2 : (3)^3 : : (5)^2 : (6)^3. This is of the form (n)^2 : (n + 1)^3. (6)^3 = 216 is the next number.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q008",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "BILK : DLPP : HMTO : _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "JOWQ"
+        },
+        {
+          "label": "B",
+          "text": "JRWS"
+        },
+        {
+          "label": "C",
+          "text": "JPVS"
+        },
+        {
+          "label": "D",
+          "text": "JPXT"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 6 to 10: Find the missing term."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "JPXT",
+      "explanation": "BILK : DLPP : : HMTO : _____. B I L K with +2, +3, +4, +5 gives D L P P. Similarly, H M T O with +2, +3, +4, +5 gives J P X T. Hence, JPXT is the next term.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q009",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Cricket : Game : : Kangaroo : _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Animal"
+        },
+        {
+          "label": "B",
+          "text": "Team"
+        },
+        {
+          "label": "C",
+          "text": "Bird"
+        },
+        {
+          "label": "D",
+          "text": "Fish"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 6 to 10: Find the missing term."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Animal",
+      "explanation": "Cricket is a type of game. Similarly, kangaroo is type of animal.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q010",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Driver : Bus : : _____ : Horse",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Saddle"
+        },
+        {
+          "label": "B",
+          "text": "Jockey"
+        },
+        {
+          "label": "C",
+          "text": "Horseman"
+        },
+        {
+          "label": "D",
+          "text": "Cowboy"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 6 to 10: Find the missing term."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Jockey",
+      "explanation": "Bus is driven by a driver. Similarly, jockey rides a horse.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q011",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Find the odd man out.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "21"
+        },
+        {
+          "label": "C",
+          "text": "31"
+        },
+        {
+          "label": "D",
+          "text": "41"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 11 to 15: Find the odd man out."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "21",
+      "explanation": "All the given numbers except 21 are prime numbers where as 21 is a composite number.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q012",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Find the odd man out.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3527"
+        },
+        {
+          "label": "B",
+          "text": "2357"
+        },
+        {
+          "label": "C",
+          "text": "5723"
+        },
+        {
+          "label": "D",
+          "text": "7532"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 11 to 15: Find the odd man out."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "7532",
+      "explanation": "All the given numbers except 7532 are odd numbers whereas 7532 is an even number.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q013",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Find the odd man out.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Brown"
+        },
+        {
+          "label": "B",
+          "text": "Green"
+        },
+        {
+          "label": "C",
+          "text": "Yellow"
+        },
+        {
+          "label": "D",
+          "text": "Red"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 11 to 15: Find the odd man out."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Brown",
+      "explanation": "All the given colours except brown are the colours in (rainbow) VIBGYOR.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q014",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Find the odd man out.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "June"
+        },
+        {
+          "label": "B",
+          "text": "May"
+        },
+        {
+          "label": "C",
+          "text": "November"
+        },
+        {
+          "label": "D",
+          "text": "September"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 11 to 15: Find the odd man out."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "May",
+      "explanation": "All the given months except May have 30 days where as in May there are 31 days.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q015",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Find the odd man out.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Radish"
+        },
+        {
+          "label": "B",
+          "text": "Carrot"
+        },
+        {
+          "label": "C",
+          "text": "Potato"
+        },
+        {
+          "label": "D",
+          "text": "Cabbage"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 11 to 15: Find the odd man out."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Cabbage",
+      "explanation": "All except Cabbage, grow under the soil.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q016",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "If ‘CENTURY’ is coded as ‘AGLVSTW’, then what is the code for ‘SACHIN’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "QCAFKL"
+        },
+        {
+          "label": "B",
+          "text": "UCEFGL"
+        },
+        {
+          "label": "C",
+          "text": "QCAJGP"
+        },
+        {
+          "label": "D",
+          "text": "UCAJGP"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 20: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "QCAJGP",
+      "explanation": "Word: C E N T U R Y; Code: A G L V S T W; Logic: –2 +2 –2 +2 –2 +2 –2. Similarly, Word: S A C H I N; Code: Q C A J G P; Logic: –2 +2 –2 +2 –2 +2. ∴ QCAJGP is the code for ‘SACHIN’.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q017",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "If the code for ‘AMBITION’ is ‘GSHOZOUT’, then which of the following is coded as ‘VXOTZUAZ’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "PRINTOUT"
+        },
+        {
+          "label": "B",
+          "text": "PRINTING"
+        },
+        {
+          "label": "C",
+          "text": "PREDATOR"
+        },
+        {
+          "label": "D",
+          "text": "PROFOUND"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 20: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "PRINTOUT",
+      "explanation": "Word: A M B I T I O N; Code: G S H O Z O U T; Logic: +6 +6 +6 +6 +6 +6 +6 +6. Similarly, Code: V X O T Z U A Z; Logic: –6 –6 –6 –6 –6 –6 –6 –6; Word: P R I N T O U T. ‘PRINTOUT’ is coded as ‘VXOTZUAZ’.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q018",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "If ‘PRESIDENT’ is coded as ‘KIVHRWVMG’, then ‘MAHENDAR’ is coded as _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "NZTVMWZI"
+        },
+        {
+          "label": "B",
+          "text": "NZTUMWZI"
+        },
+        {
+          "label": "C",
+          "text": "NZSVMWZI"
+        },
+        {
+          "label": "D",
+          "text": "NZSUMWZI"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 20: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "NZSVMWZI",
+      "explanation": "The code for the letter whose place value is ‘n’ is the letter whose place value is (27 – n). ∴ MAHENDAR is coded as NZSVMWZI.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q019",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "In a code language, if pen is called pencil, pencil is called eraser, eraser is called paper, paper is called book, book is called table, table is called chair and chair is called desk, then on which of the following do we sit? (according to that language)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Table"
+        },
+        {
+          "label": "B",
+          "text": "Paper"
+        },
+        {
+          "label": "C",
+          "text": "Desk"
+        },
+        {
+          "label": "D",
+          "text": "Book"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 20: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Desk",
+      "explanation": "We sit on a chair and chair is called desk.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q020",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "In a code language, if shirt means shoe, shoe means wallet, wallet means spectacle, spectacle means fan, fan means cabin and cabin means card, then which of the following do we use when we want some air? (according to that language)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Wallets"
+        },
+        {
+          "label": "B",
+          "text": "Spectacles"
+        },
+        {
+          "label": "C",
+          "text": "Fans"
+        },
+        {
+          "label": "D",
+          "text": "Cabins"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 16 to 20: Select the correct alternative from the given choices."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Spectacles",
+      "explanation": "We use fans when we want air and spectacles means fan.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q021",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "What is the code for the word ‘food’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "gep"
+        },
+        {
+          "label": "B",
+          "text": "fep"
+        },
+        {
+          "label": "C",
+          "text": "qep"
+        },
+        {
+          "label": "D",
+          "text": "pep"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 21 to 25: In a certain code language, the codes for sentences given in column I are given in column II. Each word has a unique code. Answer the questions based on these codes.\n\nColumn I                        Column II\nearth gets heat from sun        pep tep nep mep wep\nmoon gets light from sun        hep kep tep pep nep\nsun gave energy to plants       bep pep dep zep lep\nhuman gets food from plants     qep tep nep dep rep\nheat and light gave life        hep fep sep wep bep\nlife needs food, food needs     fep qep gep qep gep\nlight                           hep"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "qep",
+      "explanation": "The given statements and their codes are as follows. From (6), the words ‘food’ and ‘needs’ are repeated and the codes ‘qep’ and ‘gep’ are repeated. And now from (4) and (6) as only the word food is repeated the code for ‘food’ is ‘qep’ and hence the code for ‘needs’ is ‘gep’.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q021-explanation-code-table.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q022",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "What is the code for the word ‘sun’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "pep"
+        },
+        {
+          "label": "B",
+          "text": "nep"
+        },
+        {
+          "label": "C",
+          "text": "mep"
+        },
+        {
+          "label": "D",
+          "text": "wep"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 21 to 25: In a certain code language, the codes for sentences given in column I are given in column II. Each word has a unique code. Answer the questions based on these codes.\n\nColumn I                        Column II\nearth gets heat from sun        pep tep nep mep wep\nmoon gets light from sun        hep kep tep pep nep\nsun gave energy to plants       bep pep dep zep lep\nhuman gets food from plants     qep tep nep dep rep\nheat and light gave life        hep fep sep wep bep\nlife needs food, food needs     fep qep gep qep gep\nlight                           hep"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "pep",
+      "explanation": "The given statements and their codes are as follows. From (1) and (2), ‘sun’ is common and the common code is ‘pep’.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q021-explanation-code-table.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q023",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Which word is coded as ‘lep’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "gave"
+        },
+        {
+          "label": "B",
+          "text": "energy"
+        },
+        {
+          "label": "C",
+          "text": "to"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 21 to 25: In a certain code language, the codes for sentences given in column I are given in column II. Each word has a unique code. Answer the questions based on these codes.\n\nColumn I                        Column II\nearth gets heat from sun        pep tep nep mep wep\nmoon gets light from sun        hep kep tep pep nep\nsun gave energy to plants       bep pep dep zep lep\nhuman gets food from plants     qep tep nep dep rep\nheat and light gave life        hep fep sep wep bep\nlife needs food, food needs     fep qep gep qep gep\nlight                           hep"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Cannot be determined",
+      "explanation": "The given statements and their codes are as follows. The codes for ‘energy’ and ‘to’ are ‘zep’ and ‘lep’, but they cannot be individually obtained. Hence either ‘energy’ or ‘to’ is coded as ‘lep’.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q021-explanation-code-table.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q024",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "what is the code for ‘earth sun and moon’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "mep kep sep pep"
+        },
+        {
+          "label": "B",
+          "text": "mep tep nep sep"
+        },
+        {
+          "label": "C",
+          "text": "kep qep sep mep"
+        },
+        {
+          "label": "D",
+          "text": "sep pep rep tep"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 21 to 25: In a certain code language, the codes for sentences given in column I are given in column II. Each word has a unique code. Answer the questions based on these codes.\n\nColumn I                        Column II\nearth gets heat from sun        pep tep nep mep wep\nmoon gets light from sun        hep kep tep pep nep\nsun gave energy to plants       bep pep dep zep lep\nhuman gets food from plants     qep tep nep dep rep\nheat and light gave life        hep fep sep wep bep\nlife needs food, food needs     fep qep gep qep gep\nlight                           hep"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "mep kep sep pep",
+      "explanation": "The code for ‘earth sun and moon’ is ‘mep kep sep pep’.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q021-explanation-code-table.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q025",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "What can be the meaning of ‘fep gep zep sep hep’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "life needs energy and light"
+        },
+        {
+          "label": "B",
+          "text": "sun gave light and energy"
+        },
+        {
+          "label": "C",
+          "text": "human needs sun and moon"
+        },
+        {
+          "label": "D",
+          "text": "plants need sun and moon"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 21 to 25: In a certain code language, the codes for sentences given in column I are given in column II. Each word has a unique code. Answer the questions based on these codes.\n\nColumn I                        Column II\nearth gets heat from sun        pep tep nep mep wep\nmoon gets light from sun        hep kep tep pep nep\nsun gave energy to plants       bep pep dep zep lep\nhuman gets food from plants     qep tep nep dep rep\nheat and light gave life        hep fep sep wep bep\nlife needs food, food needs     fep qep gep qep gep\nlight                           hep"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "life needs energy and light",
+      "explanation": "The meaning of ‘fep gep zep sep hep’ can be ‘life needs energy and light’.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q021-explanation-code-table.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q026",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "How is F related to A?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Daughter"
+        },
+        {
+          "label": "B",
+          "text": "Niece"
+        },
+        {
+          "label": "C",
+          "text": "Nephew"
+        },
+        {
+          "label": "D",
+          "text": "Son"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 26 to 30: These questions are based on the following data.\n\nA, B, C, D, E, F and G are the seven members in a family. Among them, there are two couples and each couple has exactly two children. B, who is married, has no siblings and he is not married to E, a female, who is also married. D is the father of G. F, the youngest in the family, has a paternal uncle. A is unmarried while F and C are of the same gender. A and G are of different gender."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Niece",
+      "explanation": "It is given that there are seven members in the family, A, B, C, D, E, F and G. There are two couples in the family and each couple has exactly two children. F, the youngest in the family has a paternal uncle which implies that F’s father has a brother. B, who is a male has no siblings and he is married. Hence, B will come in the first generation and he has two children and a spouse. E is married and is a female. Hence, E is the mother of F and she is married to D. G is the child of D and A is the brother of D. Hence, C is the wife of B. F and C are of same gender. Hence, F is female. A and G are of different gender. Since A is male, G is female. F is A’s brother’s daughter. Hence, F is the niece of A.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q026-explanation-family-diagram.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q027",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "How is C related to E?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mother"
+        },
+        {
+          "label": "B",
+          "text": "Daughter"
+        },
+        {
+          "label": "C",
+          "text": "Daughter-in-law"
+        },
+        {
+          "label": "D",
+          "text": "Mother-in-law"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 26 to 30: These questions are based on the following data.\n\nA, B, C, D, E, F and G are the seven members in a family. Among them, there are two couples and each couple has exactly two children. B, who is married, has no siblings and he is not married to E, a female, who is also married. D is the father of G. F, the youngest in the family, has a paternal uncle. A is unmarried while F and C are of the same gender. A and G are of different gender."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Mother-in-law",
+      "explanation": "It is given that there are seven members in the family, A, B, C, D, E, F and G. E is married and is a female. Hence, E is the mother of F and she is married to D. Hence, C is E’s husband’s mother. C is the mother-in-law of E.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q026-explanation-family-diagram.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q028",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "How is A related to E?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Brother-in-law"
+        },
+        {
+          "label": "B",
+          "text": "Husband"
+        },
+        {
+          "label": "C",
+          "text": "Brother"
+        },
+        {
+          "label": "D",
+          "text": "Father-in-law"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 26 to 30: These questions are based on the following data.\n\nA, B, C, D, E, F and G are the seven members in a family. Among them, there are two couples and each couple has exactly two children. B, who is married, has no siblings and he is not married to E, a female, who is also married. D is the father of G. F, the youngest in the family, has a paternal uncle. A is unmarried while F and C are of the same gender. A and G are of different gender."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Brother-in-law",
+      "explanation": "A is E’s husband’s brother. Hence, A is the brother-in-law of E.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q026-explanation-family-diagram.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q029",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Which among the following is the complete group of females in the family?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "E, F and G"
+        },
+        {
+          "label": "B",
+          "text": "A, C, E and F"
+        },
+        {
+          "label": "C",
+          "text": "C, E, B and F"
+        },
+        {
+          "label": "D",
+          "text": "C, E, F and G"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 26 to 30: These questions are based on the following data.\n\nA, B, C, D, E, F and G are the seven members in a family. Among them, there are two couples and each couple has exactly two children. B, who is married, has no siblings and he is not married to E, a female, who is also married. D is the father of G. F, the youngest in the family, has a paternal uncle. A is unmarried while F and C are of the same gender. A and G are of different gender."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "C, E, F and G",
+      "explanation": "F and C are of same gender. Hence, F is female. A and G are of different gender. Since A is male, G is female. C, E, F and G are the females.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q026-explanation-family-diagram.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q030",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "How is C related to G?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mother"
+        },
+        {
+          "label": "B",
+          "text": "Father"
+        },
+        {
+          "label": "C",
+          "text": "Uncle"
+        },
+        {
+          "label": "D",
+          "text": "Grandmother"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 26 to 30: These questions are based on the following data.\n\nA, B, C, D, E, F and G are the seven members in a family. Among them, there are two couples and each couple has exactly two children. B, who is married, has no siblings and he is not married to E, a female, who is also married. D is the father of G. F, the youngest in the family, has a paternal uncle. A is unmarried while F and C are of the same gender. A and G are of different gender."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Grandmother",
+      "explanation": "C is the grandmother of G.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q026-explanation-family-diagram.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q031",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Who is the dancer?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mythili"
+        },
+        {
+          "label": "B",
+          "text": "Sudha"
+        },
+        {
+          "label": "C",
+          "text": "Anu"
+        },
+        {
+          "label": "D",
+          "text": "Radhika"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 31 to 35: These questions are based on the following data.\n\nFive artists - a violinist, a pianist, a singer, a dancer and an actress-have to present their work one after the other, not necessarily in that order. The five artists are Anu, Gowri, Radhika, Sudha and Mythili. Also\n(i) Mythili presents her work after the singer - not necessarily immediately.\n(ii) the dancer presents her work immediately after Radhika.\n(iii) Gowri, the violinist, plays second.\n(iv) Radhika’s item is not immediately next to Gowri’s.\n(v) Anu is not an actress.\n(vi) Radhika is the singer."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Mythili",
+      "explanation": "From the given information, we have Gowri, the violinist, plays second. Radhika is a singer who does not come immediately after Gowri, Radhika cannot be 3rd since the dancer presents her work immediately after Radhika. Radhika cannot be 1st or 5th so, Mythili comes in the 5th place. Radhika has to be 4th and dancer 5th. So, Anu is a Pianist and Sudha is an actress and they come in the first and the third places – not necessarily in that order. Thus we have Order 1, 2 Gowri Violinist, 3, 4 Radhika Singer, 5 Mythili Dancer.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q031-explanation-artist-table.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q032",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "If the actress plays first, who plays third?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Anu"
+        },
+        {
+          "label": "B",
+          "text": "Mythili"
+        },
+        {
+          "label": "C",
+          "text": "The dancer"
+        },
+        {
+          "label": "D",
+          "text": "Radhika"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 31 to 35: These questions are based on the following data.\n\nFive artists - a violinist, a pianist, a singer, a dancer and an actress-have to present their work one after the other, not necessarily in that order. The five artists are Anu, Gowri, Radhika, Sudha and Mythili. Also\n(i) Mythili presents her work after the singer - not necessarily immediately.\n(ii) the dancer presents her work immediately after Radhika.\n(iii) Gowri, the violinist, plays second.\n(iv) Radhika’s item is not immediately next to Gowri’s.\n(v) Anu is not an actress.\n(vi) Radhika is the singer."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Anu",
+      "explanation": "From the given information, Gowri, the violinist, plays second. Radhika is a singer and Mythili is the dancer. Thus, if the actress plays first, Anu plays third.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q031-explanation-artist-table.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q033",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Who is the actress?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Anu"
+        },
+        {
+          "label": "B",
+          "text": "Sudha"
+        },
+        {
+          "label": "C",
+          "text": "Mythili"
+        },
+        {
+          "label": "D",
+          "text": "Radhika"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 31 to 35: These questions are based on the following data.\n\nFive artists - a violinist, a pianist, a singer, a dancer and an actress-have to present their work one after the other, not necessarily in that order. The five artists are Anu, Gowri, Radhika, Sudha and Mythili. Also\n(i) Mythili presents her work after the singer - not necessarily immediately.\n(ii) the dancer presents her work immediately after Radhika.\n(iii) Gowri, the violinist, plays second.\n(iv) Radhika’s item is not immediately next to Gowri’s.\n(v) Anu is not an actress.\n(vi) Radhika is the singer."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Sudha",
+      "explanation": "Sudha is the actress.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q031-explanation-artist-table.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q034",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "The order in which the artists present their programmes is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "pianist, violinist, actress, singer, dancer."
+        },
+        {
+          "label": "B",
+          "text": "actress, violinist, pianist, dancer, singer."
+        },
+        {
+          "label": "C",
+          "text": "actress, violinist, dancer, pianist, singer."
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 31 to 35: These questions are based on the following data.\n\nFive artists - a violinist, a pianist, a singer, a dancer and an actress-have to present their work one after the other, not necessarily in that order. The five artists are Anu, Gowri, Radhika, Sudha and Mythili. Also\n(i) Mythili presents her work after the singer - not necessarily immediately.\n(ii) the dancer presents her work immediately after Radhika.\n(iii) Gowri, the violinist, plays second.\n(iv) Radhika’s item is not immediately next to Gowri’s.\n(v) Anu is not an actress.\n(vi) Radhika is the singer."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Cannot be determined.",
+      "explanation": "It is not clear whether the actress or the pianist plays first. Hence, cannot be determined.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q031-explanation-artist-table.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q035",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "If the actress plays third, when does Sudha play?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Immediately after Radhika."
+        },
+        {
+          "label": "B",
+          "text": "Immediately before the singer."
+        },
+        {
+          "label": "C",
+          "text": "After the dancer."
+        },
+        {
+          "label": "D",
+          "text": "After Gowri but not immediately."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 31 to 35: These questions are based on the following data.\n\nFive artists - a violinist, a pianist, a singer, a dancer and an actress-have to present their work one after the other, not necessarily in that order. The five artists are Anu, Gowri, Radhika, Sudha and Mythili. Also\n(i) Mythili presents her work after the singer - not necessarily immediately.\n(ii) the dancer presents her work immediately after Radhika.\n(iii) Gowri, the violinist, plays second.\n(iv) Radhika’s item is not immediately next to Gowri’s.\n(v) Anu is not an actress.\n(vi) Radhika is the singer."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Immediately before the singer.",
+      "explanation": "If the actress (Sudha) plays third, then Sudha plays immediately before the singer.(Radhika)",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q031-explanation-artist-table.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q036",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "If he parks his car on the ground floor on Tuesday and in the parking lot on Wednesday, then where should he park it on Friday?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cellar"
+        },
+        {
+          "label": "B",
+          "text": "Parking lot"
+        },
+        {
+          "label": "C",
+          "text": "Ground floor"
+        },
+        {
+          "label": "D",
+          "text": "Garage"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 36 to 39: These questions are based on the following data.\n\nA man goes to work in his car on all days except Sundays. There are 4 different parking spaces near his office. Out of these, the cellar and the ground floor are the closest to his office while the garage and the parking lot are the farthest. Whenever he comes to office, he parks his car in one of the four parking spaces. It is known that\n(i) the parking lot is open on all days of the week but he can afford it for only 2 days a week.\n(ii) the Garage is open on Mondays, Tuesdays and Thursdays but he can use it only once a week.\n(iii) he can use the cellar for 2 days of the week but he cannot use it on Tuesdays, Thursdays and Saturdays.\n(iv) he can use the ground floor for one day of the week, but not on Mondays, Wednesdays, and Fridays.\n(v) as he is always late on Mondays, he likes to park his car close to his office."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Cellar",
+      "explanation": "Let us tabulate the days of the week when different slots are available. In addition, on Mondays he should park the car closest to his office, i.e., cellar or ground floor. But since ground floor cannot be used on Mondays, only the cellar can be used on Mondays. Hence, garage cannot be used on Mondays. If ground floor is used on Tuesday & parking lot on Wednesday, he has to park his car in the cellar on Friday. Otherwise he won’t be able to use the cellar 2 times a week.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q036-explanation-specific-table.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q037",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "If he uses the garage on Tuesday and the parking lot on Thursday, where does he park his car on Wednesday?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cellar"
+        },
+        {
+          "label": "B",
+          "text": "Parking lot"
+        },
+        {
+          "label": "C",
+          "text": "Ground floor"
+        },
+        {
+          "label": "D",
+          "text": "Either (A) or (B)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 36 to 39: These questions are based on the following data.\n\nA man goes to work in his car on all days except Sundays. There are 4 different parking spaces near his office. Out of these, the cellar and the ground floor are the closest to his office while the garage and the parking lot are the farthest. Whenever he comes to office, he parks his car in one of the four parking spaces. It is known that\n(i) the parking lot is open on all days of the week but he can afford it for only 2 days a week.\n(ii) the Garage is open on Mondays, Tuesdays and Thursdays but he can use it only once a week.\n(iii) he can use the cellar for 2 days of the week but he cannot use it on Tuesdays, Thursdays and Saturdays.\n(iv) he can use the ground floor for one day of the week, but not on Mondays, Wednesdays, and Fridays.\n(v) as he is always late on Mondays, he likes to park his car close to his office."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Either (A) or (B)",
+      "explanation": "Let us tabulate the days of the week when different slots are available. On Wednesday, he can park his car in the cellar or in the parking lot.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q037-explanation-table.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q038",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "If he uses the garage on Tuesday and parking lot on Saturday, then which is the place he uses on Thursday?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ground floor or Parking lot"
+        },
+        {
+          "label": "B",
+          "text": "Cellar"
+        },
+        {
+          "label": "C",
+          "text": "Ground floor"
+        },
+        {
+          "label": "D",
+          "text": "Parking lot"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 36 to 39: These questions are based on the following data.\n\nA man goes to work in his car on all days except Sundays. There are 4 different parking spaces near his office. Out of these, the cellar and the ground floor are the closest to his office while the garage and the parking lot are the farthest. Whenever he comes to office, he parks his car in one of the four parking spaces. It is known that\n(i) the parking lot is open on all days of the week but he can afford it for only 2 days a week.\n(ii) the Garage is open on Mondays, Tuesdays and Thursdays but he can use it only once a week.\n(iii) he can use the cellar for 2 days of the week but he cannot use it on Tuesdays, Thursdays and Saturdays.\n(iv) he can use the ground floor for one day of the week, but not on Mondays, Wednesdays, and Fridays.\n(v) as he is always late on Mondays, he likes to park his car close to his office."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Ground floor",
+      "explanation": "Let us tabulate the days of the week when different slots are available. As can be seen, on Thursday only ground floor can be used (because, if he uses the parking lot on Thursday, then no day is available for the ground floor).",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q038-explanation-table.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q039",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "If he uses the parking lot on Tuesday, then what must he use on Thursday?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Parking lot"
+        },
+        {
+          "label": "B",
+          "text": "Garage or Ground floor"
+        },
+        {
+          "label": "C",
+          "text": "Ground floor"
+        },
+        {
+          "label": "D",
+          "text": "Garage"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 36 to 39: These questions are based on the following data.\n\nA man goes to work in his car on all days except Sundays. There are 4 different parking spaces near his office. Out of these, the cellar and the ground floor are the closest to his office while the garage and the parking lot are the farthest. Whenever he comes to office, he parks his car in one of the four parking spaces. It is known that\n(i) the parking lot is open on all days of the week but he can afford it for only 2 days a week.\n(ii) the Garage is open on Mondays, Tuesdays and Thursdays but he can use it only once a week.\n(iii) he can use the cellar for 2 days of the week but he cannot use it on Tuesdays, Thursdays and Saturdays.\n(iv) he can use the ground floor for one day of the week, but not on Mondays, Wednesdays, and Fridays.\n(v) as he is always late on Mondays, he likes to park his car close to his office."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Garage",
+      "explanation": "Let us tabulate the days of the week when different slots are available. Now, garage has only Thursday and no other day left. Hence, garage should be used on Thursday.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q039-explanation-table.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q040",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Who is sitting along the same side as Chandak?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Anand"
+        },
+        {
+          "label": "B",
+          "text": "Palak"
+        },
+        {
+          "label": "C",
+          "text": "Sayan"
+        },
+        {
+          "label": "D",
+          "text": "Rupak"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 40 to 42: These questions are based on the following information.\n\nEight persons – Anand, Brijesh, Chandak, Dweepesh, Sayan, Jagat Rupak and Palak – are sitting around a square table such that two persons are sitting along each side. The following information is known about them.\n(i) Jagat, who is sitting to the immediate right of Rupak, is sitting opposite Chandak who is sitting to the immediate right of Brijesh.\n(ii) Sayan is sitting opposite Dweepesh, who sits along the same side as Brijesh.\n(iii) Palak is not sitting along the same side as Sayan."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Palak",
+      "explanation": "Let us represent the persons by the first letters of each name. From (i), we get the following possibilities. From (ii) as Brijesh and Dweepesh are sitting along the same side, case (b) is not possible. From (ii) we get the final possibility shown in the diagram.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q040-explanation-final-seating.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q041",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Who is sitting opposite Rupak?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Palak"
+        },
+        {
+          "label": "B",
+          "text": "Anand"
+        },
+        {
+          "label": "C",
+          "text": "Brijesh"
+        },
+        {
+          "label": "D",
+          "text": "Data inadequate"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 40 to 42: These questions are based on the following information.\n\nEight persons – Anand, Brijesh, Chandak, Dweepesh, Sayan, Jagat Rupak and Palak – are sitting around a square table such that two persons are sitting along each side. The following information is known about them.\n(i) Jagat, who is sitting to the immediate right of Rupak, is sitting opposite Chandak who is sitting to the immediate right of Brijesh.\n(ii) Sayan is sitting opposite Dweepesh, who sits along the same side as Brijesh.\n(iii) Palak is not sitting along the same side as Sayan."
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Palak",
+      "explanation": "Let us represent the persons by the first letters of each name. From (i), we get the following possibilities. From (ii) as Brijesh and Dweepesh are sitting along the same side, case (b) is not possible. From (ii) we get the final possibility shown in the diagram.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q040-explanation-final-seating.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q042",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Who is sitting to the immediate right of Sayan?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Anand"
+        },
+        {
+          "label": "B",
+          "text": "Rupak"
+        },
+        {
+          "label": "C",
+          "text": "Chandak"
+        },
+        {
+          "label": "D",
+          "text": "Data inadequate"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 40 to 42: These questions are based on the following information.\n\nEight persons – Anand, Brijesh, Chandak, Dweepesh, Sayan, Jagat Rupak and Palak – are sitting around a square table such that two persons are sitting along each side. The following information is known about them.\n(i) Jagat, who is sitting to the immediate right of Rupak, is sitting opposite Chandak who is sitting to the immediate right of Brijesh.\n(ii) Sayan is sitting opposite Dweepesh, who sits along the same side as Brijesh.\n(iii) Palak is not sitting along the same side as Sayan."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Rupak",
+      "explanation": "Let us represent the persons by the first letters of each name. From (iii) the possibility is as shown in the diagram. Rupak is sitting to the immediate right of Sayan.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q040-explanation-final-seating.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q043",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "In how many ways can the team be selected?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 43 to 45: These questions are based on the following information.\n\nThree people are to be selected from a group of six people – M, N, P, Q, R and S under the following constraints.\n(i) If M is not selected, then N is selected.\n(ii) If P is not selected, then Q is selected.\n(iii) If R is not selected, then S is selected."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "8",
+      "explanation": "From (i), M and N can be selected as follows: Only M is selected; Only N is selected; Both M and N are selected. This implies, at least one between M and N must be selected. Similarly, from (ii) and (iii), at least one among P and Q must be selected and at least one among R and S must be selected. As only 3 persons are to be selected, both M and N, both P and Q and both R and S cannot be selected. ∴ Exactly one among M and N, exactly one among P and Q and exactly one among R and S must be selected. ⇒ M / N, P / Q, R / S. The number of possible ways to select the team = 2 × 2 × 2 = 8.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q044",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Who must be there in the team?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "N"
+        },
+        {
+          "label": "B",
+          "text": "Q"
+        },
+        {
+          "label": "C",
+          "text": "S"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 43 to 45: These questions are based on the following information.\n\nThree people are to be selected from a group of six people – M, N, P, Q, R and S under the following constraints.\n(i) If M is not selected, then N is selected.\n(ii) If P is not selected, then Q is selected.\n(iii) If R is not selected, then S is selected."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of these",
+      "explanation": "There is no such person who must always be there in the team.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q045",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Which of the following is a possible team?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "P, R, S"
+        },
+        {
+          "label": "B",
+          "text": "P, Q, S"
+        },
+        {
+          "label": "C",
+          "text": "M, Q, S"
+        },
+        {
+          "label": "D",
+          "text": "More than one of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 43 to 45: These questions are based on the following information.\n\nThree people are to be selected from a group of six people – M, N, P, Q, R and S under the following constraints.\n(i) If M is not selected, then N is selected.\n(ii) If P is not selected, then Q is selected.\n(iii) If R is not selected, then S is selected."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "M, Q, S",
+      "explanation": "M, Q, S is a possible team.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q046",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "T4 can run",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "only on Saturday"
+        },
+        {
+          "label": "B",
+          "text": "only on Sunday"
+        },
+        {
+          "label": "C",
+          "text": "on either day"
+        },
+        {
+          "label": "D",
+          "text": "only if W – Y route is used on Sunday."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Logical_Ability_2/q046-question-route-map.png",
+      "direction": "Directions for questions 46 and 47: Answer the questions on the basis of the following information.\n\nShown below is the layout of the major cities of a state and the rail tracks, connecting those cities.\n\nFive trains – T1, T2, T3, T4 and T5 run only on two days (Saturday and Sunday), along the following routes, between these cities.\nT1 : Y – X – V\nT2 : Z – Y – X – V\nT3 : Z – Y – W – V\nT4 : Z – X – W – V\nT5 : Z – X – W\nRoute Y – W cannot be used on Sunday. On any day, no two trains are scheduled to run on the same track connecting two adjacent cities.\nEach train should run exactly once in these two days."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "only on Sunday",
+      "explanation": "Given that the route Y – W cannot be used on Sunday. Hence T3 can be scheduled to run on Saturday. As it is given that, on any day, no two trains are scheduled to run on the same track connecting two adjacent cities, Z – Y and W – V should not run on Saturday (∵ T3 is covering the route). As T2 is covering Y – X – V on Sunday, T1 has to be scheduled on Saturday. Similarly, T5 is to scheduled on Saturday. Finally, T1, T5, T3 are to be scheduled on Saturdays and T2 and T4 are to be scheduled on Sundays.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q047",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Which of the following is NOT true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "T2 and T4 can be scheduled to run on the same day."
+        },
+        {
+          "label": "B",
+          "text": "T5 cannot be scheduled to run on Sunday."
+        },
+        {
+          "label": "C",
+          "text": "T3 can be scheduled to run on Saturday."
+        },
+        {
+          "label": "D",
+          "text": "T4 and T1 can be scheduled to run on the same day."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Logical_Ability_2/q046-question-route-map.png",
+      "direction": "Directions for questions 46 and 47: Answer the questions on the basis of the following information.\n\nShown below is the layout of the major cities of a state and the rail tracks, connecting those cities.\n\nFive trains – T1, T2, T3, T4 and T5 run only on two days (Saturday and Sunday), along the following routes, between these cities.\nT1 : Y – X – V\nT2 : Z – Y – X – V\nT3 : Z – Y – W – V\nT4 : Z – X – W – V\nT5 : Z – X – W\nRoute Y – W cannot be used on Sunday. On any day, no two trains are scheduled to run on the same track connecting two adjacent cities.\nEach train should run exactly once in these two days."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "T4 and T1 can be scheduled to run on the same day.",
+      "explanation": "From the choices, T4 and T1 can be scheduled on two different days.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q048",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "What is the total number of possible arrangements?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 48 to 50: These questions are based on the data given below.\n\nSix persons – A, B, C, D, E and F – stand in a row. A is to the left of B. C is to the right of D. E and F have two persons standing between them and neither of these two persons is C or A."
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "4",
+      "explanation": "The data is as given below. Let us make all the possible arrangements as per the above data. Positions 2 and 5 would be occupied by E or F. A cannot be at 3 and 4 (condition (iv)) and also A cannot be at 6 (condition (ii)). Hence, A must be at position 1. Similarly, C must be at position 6. Hence, we will get the following arrangement: A E/F B/D D/B F/E C. Therefore, the total number of arrangements are 4.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q048-explanation-row-arrangement.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q049",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "Who among the following stand at the extreme ends of the row?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "E and F"
+        },
+        {
+          "label": "B",
+          "text": "E and C"
+        },
+        {
+          "label": "C",
+          "text": "A and C"
+        },
+        {
+          "label": "D",
+          "text": "F and A"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 48 to 50: These questions are based on the data given below.\n\nSix persons – A, B, C, D, E and F – stand in a row. A is to the left of B. C is to the right of D. E and F have two persons standing between them and neither of these two persons is C or A."
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "A and C",
+      "explanation": "A and C stand at extreme ends.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q048-explanation-row-arrangement.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-logical-ability-test-1-q050",
+    "pdfName": "Logical_Ability_2.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Logical Ability"
+    },
+    "question": {
+      "text": "If A sits to the immediate left of E, then who sits to the immediate right of B?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "D"
+        },
+        {
+          "label": "B",
+          "text": "F"
+        },
+        {
+          "label": "C",
+          "text": "C"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "direction": "Directions for questions 48 to 50: These questions are based on the data given below.\n\nSix persons – A, B, C, D, E and F – stand in a row. A is to the left of B. C is to the right of D. E and F have two persons standing between them and neither of these two persons is C or A."
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Cannot be determined",
+      "explanation": "The arrangement will be as shown below: A E B/D D/B F C. Hence, the person sitting to the immediate right of B cannot be determined.",
+      "status": "confirmed",
+      "image": "images/Logical_Ability_2/q048-explanation-row-arrangement.png"
+    },
+    "classification": {
+      "subject": "Logical Ability",
+      "topic": "Logical Ability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Logical Ability Test 1",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

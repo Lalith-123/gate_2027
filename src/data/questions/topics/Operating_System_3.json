@@ -1,0 +1,2112 @@
+[
+  {
+    "id": "gate-operating-system-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Suppose we have variable logical records of length 10 bytes, 20 bytes and 30 bytes, while the physical block size in disk is 15 bytes. What is the maximum and minimum fragmentation seen in bytes?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 and 5"
+        },
+        {
+          "label": "B",
+          "text": "10 and 0"
+        },
+        {
+          "label": "C",
+          "text": "5 and 0"
+        },
+        {
+          "label": "D",
+          "text": "5 and 5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "10 and 0",
+      "explanation": "Record lengths are 10, 20, 30 Bytes\nPhysical block size = 15 bytes.\nMaximum fragmentation occurs with 20 byte records.\n\n∴ Maximum fragmentation = 10 bytes\nMinimum fragmentation occurs with 30 byte records.\n\n∴ Minimum fragmentation = 0 Bytes. Choice (B)",
+      "status": "confirmed",
+      "image": "images/Operating_System_3/operating_system_3-q001-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "File Systems",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Match the following:\n\nList-A\t\t\tList-B\n1. Contiguous allocation policy\t(i) Internal fragmentation\n2. Chained list allocation\t\t(ii) External Fragmentation\n3. Indexed allocation",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1–(i), 2–(i), 3–(i)"
+        },
+        {
+          "label": "B",
+          "text": "1–(i), 2–(i), 3–(ii)"
+        },
+        {
+          "label": "C",
+          "text": "1–(ii), 2–(i), 3–(i)"
+        },
+        {
+          "label": "D",
+          "text": "1–(ii), 2–(ii), 3–(i)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_3/operating_system_3-q002-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1–(ii), 2–(i), 3–(i)",
+      "explanation": "In Contiguous file Allocation, each file occupies a set of contiguous blocks on the disk. It suffers from external fragmentation. In linked and indexed allocation, there is internal fragmentation.             Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "File Systems",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Suppose that the scheduling algorithm favors those processes that have used the least processor time in the recent past. Then which of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The algorithm favors I/O bound programs."
+        },
+        {
+          "label": "B",
+          "text": "The algorithm favors CPU bound programs."
+        },
+        {
+          "label": "C",
+          "text": "Fair treatment to all the programs."
+        },
+        {
+          "label": "D",
+          "text": "The algorithm favors longer programs."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "The algorithm favors I/O bound programs.",
+      "explanation": "The algorithm favors I/O bound programs because of the relatively short CPU burst request by them.                Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Which of the following is not a necessary condition for deadlock?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mutual exclusion"
+        },
+        {
+          "label": "B",
+          "text": "Hold and wait"
+        },
+        {
+          "label": "C",
+          "text": "Circular wait"
+        },
+        {
+          "label": "D",
+          "text": "Reentrancy"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Reentrancy",
+      "explanation": "The necessary and sufficient conditions for deadlock are Mutual exclusion, Hold-and-wait, No-preemption and Circular wait.                           Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Deadlocks",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "What will be the state of a process after it encounters an I/O instruction?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ready"
+        },
+        {
+          "label": "B",
+          "text": "Blocked"
+        },
+        {
+          "label": "C",
+          "text": "Idle"
+        },
+        {
+          "label": "D",
+          "text": "Running"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Blocked",
+      "explanation": "During I/O instruction execution, a process will be in ‘Blocked’ state.                             Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process States",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Which of the following is used by a program to request a service from an operating system’s kernel that it does not normally have permission to run?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Context switch"
+        },
+        {
+          "label": "B",
+          "text": "Threads"
+        },
+        {
+          "label": "C",
+          "text": "System call"
+        },
+        {
+          "label": "D",
+          "text": "Service call"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "System call",
+      "explanation": "A system call is used to get services of OS’s kernel.                                                  Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "System Calls",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Which of the following is the reason for having threads within a process?\n(i) Threads are lighter in weight than processes.\n(ii) Threads have high performance when the processes have both I/O and CPU activity.\n(iii) Threads are useful on systems with multiple CPU’s.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(i), (iii)"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i), (ii), (iii)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Threads",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Which of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "No protection required between threads."
+        },
+        {
+          "label": "B",
+          "text": "Different threads in a process are always independent."
+        },
+        {
+          "label": "C",
+          "text": "All the threads cannot share open files, child processes."
+        },
+        {
+          "label": "D",
+          "text": "Each thread will maintain Accounting Information."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "No protection required between threads.",
+      "explanation": "No protection is required between threads. (As it is impossible and not necessary). Threads are dependent on each other. Threads can share open files and child processes. Accounting information is maintained by process.                                     Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Threads",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Which of the following is FALSE with respect to a monitor?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only one process can be active in a monitor at any instant."
+        },
+        {
+          "label": "B",
+          "text": "A monitor is a collection of procedures."
+        },
+        {
+          "label": "C",
+          "text": "Procedures declared outside the monitor can access monitor’s internal data structure."
+        },
+        {
+          "label": "D",
+          "text": "Monitors can be used to provide mutual exclusion."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Procedures declared outside the monitor can access monitor’s internal data structure.",
+      "explanation": "Procedures declared outside the monitor can’t access monitor’s internal data.                     Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Monitors",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Which of the following is a reason for process scheduling?\n(i) When a new process is created.\n(ii) When a process exits.\n(iii) When a process blocks.\n(iv) When an interrupt occurs.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(i), (iii), (iv)"
+        },
+        {
+          "label": "C",
+          "text": "(ii), (iii)"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii), (iv)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i), (ii), (iii), (iv)",
+      "explanation": "All the four are reasons for process scheduling.                                                  Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Match the following:\n\nList-A                     List-B\n1. First Come First Serve    I. High throughput\n2. Shortest Process Next     II. Fair treatment of processes\n3. Round Robin               III. Non-preemptive",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1-II, 2-III, 3-II"
+        },
+        {
+          "label": "B",
+          "text": "1-III, 2-I, 3-II"
+        },
+        {
+          "label": "C",
+          "text": "1-I, 2-III, 3-II"
+        },
+        {
+          "label": "D",
+          "text": "1-I, 2-II, 3-III"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_3/operating_system_3-q011-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1-III, 2-I, 3-II",
+      "explanation": "FCFS, SPN both are non-preemptive. FCFS’s throughput is not that much emphasized. It also penalizes short processes. SPN penalizes long processes. Its throughput is high. Round Robin is preemptive and it treats all processes fairly.                            Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "To use process switching in hardware, instead of interrupts, the CPU needs to know about",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Process table data structure"
+        },
+        {
+          "label": "B",
+          "text": "System calls"
+        },
+        {
+          "label": "C",
+          "text": "CPU burst time"
+        },
+        {
+          "label": "D",
+          "text": "PC only"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Process table data structure",
+      "explanation": "To use process switching, the CPU needs to know about process table and state.                     Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process Management",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Which of the following is FALSE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Throughput is the number of processes that complete their execution per unit time."
+        },
+        {
+          "label": "B",
+          "text": "Turnaround time is the amount of time required to execute a particular process."
+        },
+        {
+          "label": "C",
+          "text": "Waiting time is the amount of time, a process has been waiting in the ready queue."
+        },
+        {
+          "label": "D",
+          "text": "Response time is the amount of time taken to get the output."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Response time is the amount of time taken to get the output.",
+      "explanation": "Response time is the amount of time it takes from, when a request was submitted until the first response is produced.                                    Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Which of the following scheduling algorithm is also referred as preemptive version of FCFS?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Shortest Job First"
+        },
+        {
+          "label": "B",
+          "text": "Round Robin"
+        },
+        {
+          "label": "C",
+          "text": "Shortest Remaining Time First"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Round Robin",
+      "explanation": "Round Robin is the preemptive version of FCFS.                                      Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Which of the following malware can result in pop-up ads or can redirect a browser to a commercial site?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Spyware"
+        },
+        {
+          "label": "B",
+          "text": "Adware"
+        },
+        {
+          "label": "C",
+          "text": "Zombie"
+        },
+        {
+          "label": "D",
+          "text": "Backdoor"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Adware",
+      "explanation": "Advertising that is integrated into software is adware.                                      Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Malware",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "In 48-bit machine, with 4 GB RAM and 8 KB page size, how many entries will be there in the page table if it is inverted?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2^{35}$"
+        },
+        {
+          "label": "B",
+          "text": "$2^{20}$"
+        },
+        {
+          "label": "C",
+          "text": "$2^{19}$"
+        },
+        {
+          "label": "D",
+          "text": "$2^{13}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$2^{19}$",
+      "explanation": "In inverted page table, the number of entries is the number of frames in the main memory.\nMain memory capacity = 4 GB = \\(2^{32}\\) B\nPage size = frame size = 8 KB = \\(2^{13}\\) B\n∴ Number of entries = \\(\frac{2^{32}}{2^{13}} = 2^{19}\\)                    Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Paging",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Consider the following process and resource requirement of each process.\n\nAssume that there are a total of 8 instances of resource type 1 and 7 instances of resource type 2. What is the state of this system?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Can go to safe or unsafe state based on sequence."
+        },
+        {
+          "label": "B",
+          "text": "Safe state"
+        },
+        {
+          "label": "C",
+          "text": "Unsafe state"
+        },
+        {
+          "label": "D",
+          "text": "Deadlock state"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_3/operating_system_3-q017-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Deadlock state",
+      "explanation": "Total resources (R) = \n\\[ R = \\begin{bmatrix} R_1 \\\\ R_2 \\end{bmatrix} = \\begin{bmatrix} 8 \\\\ 7 \\end{bmatrix} \\]\nTotal used resources = \\[ \\begin{bmatrix} 7 \\\\ 6 \\end{bmatrix} \\]\nAvailable resources(V) = \\[ \\begin{bmatrix} 1 \\\\ 1 \\end{bmatrix} \\]\nP1 requires (1, 2) resources.\nP2 requires (2, 1) resources.\nP3 requires (2, 3) resources.\nNo process can execute with available resources.\nSo the system is in deadlock.                   Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Deadlocks",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Consider a system that has two CPU’s and each CPU has two threads. Suppose three programs P1, P2 and P3 are started with run times 10, 15 and 25 ms respectively. What is the minimum time required to complete the execution of these programs?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "25 ms"
+        },
+        {
+          "label": "B",
+          "text": "35 ms"
+        },
+        {
+          "label": "C",
+          "text": "45 ms"
+        },
+        {
+          "label": "D",
+          "text": "40 ms"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "25 ms",
+      "explanation": "On one CPU, at a time only one program will be executed. At a time two programs will be in running state.\nIf P1, P2 are executed on CPU1 and P3 executed on another CPU, the execution time will be 25 ms.                 Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Multiprocessor Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "A computer system has enough room to hold five programs in its main memory. These programs are blocked on I/O, half the time. What fraction of the CPU time is wasted?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "96.8%"
+        },
+        {
+          "label": "B",
+          "text": "32%"
+        },
+        {
+          "label": "C",
+          "text": "3.125%"
+        },
+        {
+          "label": "D",
+          "text": "50%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "3.125%",
+      "explanation": "CPU utilization = \\(1 - p^n\\)\nwhere n is the degree of multiprogramming and ‘p’ is the fraction of time a process spends waiting for I/O.\nHere n = 5\np = \\(\\frac{1}{2}\\)\n∴ CPU time wasted = \\(\\left(\\frac{1}{2}\\right)^5 = \\frac{1}{32} = 0.03125 = 3.125\\%\\)                         Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Multiprogramming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "A computer has 4 GB of RAM, of which the operating system occupies 256 MB. The processes are all 128 MB and have the same characteristics. If the goal is 95% CPU utilization, what is the maximum I/O wait that can be tolerated?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "90.4%"
+        },
+        {
+          "label": "B",
+          "text": "85.4%"
+        },
+        {
+          "label": "C",
+          "text": "72%"
+        },
+        {
+          "label": "D",
+          "text": "50%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "90.4%",
+      "explanation": "RAM capacity = 4 GB = \\(2^{32}\\) B\nOS capacity = 256 MB = \\(2^{28}\\)B\nRemaining = \\(2^{32} - 2^{28} = 4026531840\\)\nProcess capacity = 128 MB = \\(2^{27}\\)B\n∴ Number of processes fit in remaining space = \\(\\frac{4026531840}{2^{27}} = 30\\)\n30 processes can be placed in memory at a time.\nLet ‘P’ is the probability that a process has an I/O.\nIf all the 30 processes are in I/O, the probability is \\(P^{30}\\).\nCPU idle percentage = 5%\nBy equating both,\n\\(P^{30} = 0.05 \\Rightarrow P = 0.904\\)\nSo we can tolerate processes with upto 90.4% I/O.                                                    Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Multiprogramming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "A file system with 4 KB blocks can access 64 GB worth of data through an i-node triple indirect block. How many bits does the file system use for block pointers?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "32"
+        },
+        {
+          "label": "D",
+          "text": "64"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "8",
+      "explanation": "Data accessed using inode triple indirect block = 64 GB\nBlock size = 4 KB\n(Number of blocks)³ × block size = Data accessed using triple indirect blocks\n(Number of blocks)³ × 4 K = 64 G\n⇒ (Number of blocks)³ = \\(\\frac{2^{36}}{2^{12}}\\)\n⇒ Number of blocks = \\(2^8\\)\n∴ Bits required for block pointer = 8-bits                                                  Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "File Systems",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "In a File Allocation table, each entry is of size 24-bits. For a 32 GB disk, what is the minimum size of a file allocation in this system?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 KB"
+        },
+        {
+          "label": "B",
+          "text": "2 KB"
+        },
+        {
+          "label": "C",
+          "text": "4 KB"
+        },
+        {
+          "label": "D",
+          "text": "8 KB"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2 KB",
+      "explanation": "Disk capacity = 32 GB = \\(2^{35}\\)B\nEach entry size = 24-bits\nUsing 24-bits, we can access \\(2^{24}\\) B.\n∴ Minimum size of a file allocation = \\(\\frac{2^{35}}{2^{24}} = 2^{11}\\) B = 2 KB                   Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "File Systems",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "On a system with \\(2^{64}\\) bytes of memory and fixed partitions with a partition size of \\(2^{20}\\) bytes, what is the minimum number of bits needed in an entry in the process table to record the partition to which a process has been allocated?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "20-bits"
+        },
+        {
+          "label": "B",
+          "text": "32-bits"
+        },
+        {
+          "label": "C",
+          "text": "36-bits"
+        },
+        {
+          "label": "D",
+          "text": "44-bits"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "44-bits",
+      "explanation": "Memory = \\(2^{64}\\)B\nPartition size = \\(2^{20}\\)B\nNumber of partitions = \\(\\frac{2^{64}}{2^{20}} = 2^{44}\\)\n∴ 44-bits required for an entry in the process table.                                                  Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Memory Management",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Which of the following features are required by an ideal CPU scheduling algorithm?\n(i) Maximize the CPU utilization\n(ii) Maximize the throughput\n(iii) Minimize the turnaround time\n(iv) Minimize the waiting time\n(v) Minimize the response time",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (iii), (v)"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iv), (v)"
+        },
+        {
+          "label": "C",
+          "text": "(i), (ii), (iv), (v)"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii), (iv), (v)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i), (ii), (iii), (iv), (v)",
+      "explanation": "All those features are required by an ideal algorithm.                                      Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Consider the following set of processes:\n\nThe processes are assumed to have arrived in the order P1, P2, P3, P4 and P5 all at time 0. What is the average Turnaround time using Shortest Job First scheduling?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "15"
+        },
+        {
+          "label": "D",
+          "text": "19"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_3/operating_system_3-q025-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "7",
+      "explanation": "In SJF the job with smallest CPU burst will execute first. The Gantt chart for given processes is shown below:\n\nTurn Around Time (TAT) of P1 = 19 (waiting time + CPU burst)\nTAT of P2 = 1\nTAT of P3 = 4\nTAT of P4 = 2\nTAT of P5 = 9\nAverage TAT = \\(\\frac{19 + 1 + 4 + 2 + 9}{5} = \\frac{35}{5} = 7\\) units                     Choice (B)",
+      "status": "confirmed",
+      "image": "images/Operating_System_3/operating_system_3-q025-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "CPU Scheduling",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Consider the given concurrent processes:\nProcess P0:\nwhile (true)\n{\n    while (turn == 1);\n    critical section\n    turn = 1\n    remainder section\n}\nProcess P1:\nwhile (true)\n{\n    while (turn == 0);\n    critical section\n    turn = 0\n    remainder section\n}\n‘turn’ is a global Boolean variable, Which will take either 0 or 1. Which of the following is TRUE for above two processes?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "There is mutual exclusion and progress."
+        },
+        {
+          "label": "B",
+          "text": "There is progress but no mutual exclusion"
+        },
+        {
+          "label": "C",
+          "text": "There is mutual exclusion but no progress."
+        },
+        {
+          "label": "D",
+          "text": "There is no mutual exclusion and no progress."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "There is mutual exclusion but no progress.",
+      "explanation": "Initially ‘turn = 0’ then P0 only can enter the critical section and if P1 tries to enter, it is not possible to enter critical section.\nOnly one process can enter critical section. So there is mutual exclusion. But there is no progress. (∵ A process cannot be able to enter into critical section even if no process is in critical section).                  Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Synchronization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Consider ‘n’ concurrent processes P1, P2, ... Pn whose code is shown below:\nvar mutex : semaphore\nmutex = 1;\nprocess Pi:\n    Repeat\n        wait (mutex);\n             critical section\n        signal (mutex);\n             Remainder section\n        until false;\nThen which of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "There is mutual exclusion."
+        },
+        {
+          "label": "B",
+          "text": "There is no mutual exclusion in the system."
+        },
+        {
+          "label": "C",
+          "text": "There is a deadlock in the system"
+        },
+        {
+          "label": "D",
+          "text": "Both (B) and (C)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "There is mutual exclusion.",
+      "explanation": "Only one process can enter the critical section at a time.\nSo there is mutual exclusion.                    Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Synchronization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Which of the following correctly specifies the ‘wait’ operation of a counting semaphore?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "semvalue = semvalue – 1;\nif semvalue < 0 then\nAdd this process to Blocked queue."
+        },
+        {
+          "label": "B",
+          "text": "semvalue = semvalue + 1 ;\nif semvalue ≤ 0 then\nBlock the process;"
+        },
+        {
+          "label": "C",
+          "text": "semvalue = semvalue – 1;\nif semvalue ≤ 0 then\nBlock the process;"
+        },
+        {
+          "label": "D",
+          "text": "semvalue = semvalue – 1;\nif semvalue < 1 then Block the process"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "semvalue = semvalue – 1;\nif semvalue < 0 then\nAdd this process to Blocked queue.",
+      "explanation": "The wait operation decrements the semaphore value. If it is less than zero, block the process.         Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Semaphores",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Identify the TRUE statements from the following:\n(i) Logical address is generated by the CPU.\n(ii) Physical address is the address seen by the memory unit.\n(iii) The user program always deals with physical address.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(i), (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(ii), (iii)"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "(i), (ii)",
+      "explanation": "User program deals with logical address.                                                      Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Memory Management",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "The correct sequence of steps required for page fault handling from the following is:\n(i) Search in the page table.\n(ii) Search for the page in the backing store.\n(iii) Reset page table\n(iv) Bring in missing page\n(v) Restart instruction\n(vi) The OS takes control on trap.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii), (iv), (v), (vi), (iii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (i), (v), (iv), (iii), (vi)"
+        },
+        {
+          "label": "C",
+          "text": "(i), (vi), (ii), (iv), (v), (iii)"
+        },
+        {
+          "label": "D",
+          "text": "(i), (vi), (ii), (iv), (iii), (v)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i), (vi), (ii), (iv), (iii), (v)",
+      "explanation": "Page fault occurs when the page for which CPU is searching is not in memory. Initially we search in the page table. If it is a trap, the OS takes the control. OS searches the backing store for the required page and places it in memory. Updates the page table and restarts the instruction.                              Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Page Faults",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "If the multiprogramming level increases rapidly then the processor utilization:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "always increases"
+        },
+        {
+          "label": "B",
+          "text": "always decreases"
+        },
+        {
+          "label": "C",
+          "text": "decreases some times"
+        },
+        {
+          "label": "D",
+          "text": "doesn’t effected"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "decreases some times",
+      "explanation": "If the multiprogramming level increases from a small value, then the processor utilization rises.\nBut from a point onwards, the number of page faults rises dramatically and processor utilization collapses.\nThe graph is shown below.                                                     Choice (C)",
+      "status": "confirmed",
+      "image": "images/Operating_System_3/operating_system_3-q031-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Multiprogramming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Common Data for Questions 32 and 33\nConsider a swapping system in which memory consists of the following hole sizes in order:11 KB, 5 KB, 21 KB, 19 KB, 8 KB, 10 KB, 13 KB and 16 KB.",
+      "text": "Consider a swapping system in which memory consists of the following hole sizes in order:11 KB, 5 KB, 21 KB, 19 KB, 8 KB, 10 KB, 13 KB and 16 KB.\n32. Which hole is taken for successive segment requests 13 KB, 11 KB and 10 KB for First-fit?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "13 KB, 11 KB, 10 KB"
+        },
+        {
+          "label": "B",
+          "text": "21 KB, 11 KB,19 KB"
+        },
+        {
+          "label": "C",
+          "text": "11 KB, 5 KB, 21 KB"
+        },
+        {
+          "label": "D",
+          "text": "13 KB, 16 KB, 11 KB"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "21 KB, 11 KB,19 KB",
+      "explanation": "Memory system with given hole sizes is shown below:\nIn first-fit policy, choose the hole from beginning of the memory, using which given request is satisfied.\n13 KB placed in 21 KB.\n11 KB placed in 11 KB.\n10 KB placed in 19 KB.                         Choice (B)",
+      "status": "confirmed",
+      "image": "images/Operating_System_3/operating_system_3-q032-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Memory Allocation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Common Data for Questions 32 and 33\nConsider a swapping system in which memory consists of the following hole sizes in order:11 KB, 5 KB, 21 KB, 19 KB, 8 KB, 10 KB, 13 KB and 16 KB.",
+      "text": "Consider a swapping system in which memory consists of the following hole sizes in order:11 KB, 5 KB, 21 KB, 19 KB, 8 KB, 10 KB, 13 KB and 16 KB.\n33. Which hole is taken for successive segment requests 12 KB, 10 KB, 9 KB for Best-fit?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "21 KB, 19 KB, 11 KB"
+        },
+        {
+          "label": "B",
+          "text": "13 KB, 16 KB, 11 KB"
+        },
+        {
+          "label": "C",
+          "text": "13 KB, 10 KB, 11 KB"
+        },
+        {
+          "label": "D",
+          "text": "13 KB, 11 KB, 10 KB"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "13 KB, 10 KB, 11 KB",
+      "explanation": "Best-fit policy searches for all holes in the memory and selects the smallest hole using which the memory request will be satisfied.\n12 KB placed in 13 KB\n10 KB placed in 10 KB\n9 KB placed in 11 KB                           Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Memory Allocation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Common Data for Questions 34 and 35\nA computer has four page frames. The time of loading, time of last access and modify (M) bits of each page are shown as below.\nPage | Load Time | Last access time | M\n0 | 149 | 198 | 1\n1 | 255 | 280 | 0\n2 | 85 | 293 | 0\n3 | 129 | 285 | 1",
+      "text": "A computer has four page frames. The time of loading, time of last access and modify (M) bits of each page are shown as below.\nPage | Load Time | Last access time | M\n0 | 149 | 198 | 1\n1 | 255 | 280 | 0\n2 | 85 | 293 | 0\n3 | 129 | 285 | 1\n34. Which page will FIFO algorithm replace next?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "page 0"
+        },
+        {
+          "label": "B",
+          "text": "page 1"
+        },
+        {
+          "label": "C",
+          "text": "page 2"
+        },
+        {
+          "label": "D",
+          "text": "page 3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_3/operating_system_3-q034-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "page 2",
+      "explanation": "FIFO will replace the page which entered first into the memory.\nLoad time of page 2 is least\n∴ FIFO replaces page 2.                        Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Page Replacement",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_3.pdf",
+      "direction": "Common Data for Questions 34 and 35\nA computer has four page frames. The time of loading, time of last access and modify (M) bits of each page are shown as below.\nPage | Load Time | Last access time | M\n0 | 149 | 198 | 1\n1 | 255 | 280 | 0\n2 | 85 | 293 | 0\n3 | 129 | 285 | 1",
+      "text": "A computer has four page frames. The time of loading, time of last access and modify (M) bits of each page are shown as below.\nPage | Load Time | Last access time | M\n0 | 149 | 198 | 1\n1 | 255 | 280 | 0\n2 | 85 | 293 | 0\n3 | 129 | 285 | 1\n35. Which page will LRU algorithm replace next?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "page 0"
+        },
+        {
+          "label": "B",
+          "text": "page 1"
+        },
+        {
+          "label": "C",
+          "text": "page 2"
+        },
+        {
+          "label": "D",
+          "text": "page 3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_3/operating_system_3-q035-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "page 0",
+      "explanation": "LRU replaces the page whose access time is least.\nAccess time of page 0 is least. So LRU replaces page 0.                              Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Page Replacement",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

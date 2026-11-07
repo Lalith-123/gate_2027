@@ -1,0 +1,1806 @@
+[
+  {
+    "id": "gate-verbal-ability-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 4: In these questions, you are to analyse the situation on which each question is based and then select the answer choice that is the most appropriate response to the question.",
+      "text": "The residents of a particular locality were administered a particular medicine of a company continuously for three months. The locality which had reported high incidence of Hepatitis B before the administration of the medicine reported no cases at the end of this period. The company claimed that this was because their medicine helped the residents develop immunity against Hepatitis B. Which of the following, if true, most seriously weakens the claim of the company?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A few cases of Hepatitis B were reported in the locality a month after the company started administering the medicine to the residents."
+        },
+        {
+          "label": "B",
+          "text": "The incidence of Hepatitis B is found to be very high during winter, which lasts for about four months in the region, and winter set in three months back."
+        },
+        {
+          "label": "C",
+          "text": "Research shows that any medicine capable of helping develop immunity against Hepatitis B takes about six months to show results."
+        },
+        {
+          "label": "D",
+          "text": "Usually newborn children are more affected by Hepatitis B, and there were no children born in the locality in the past three months."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Research shows that any medicine capable of helping develop immunity against Hepatitis B takes about six months to show results.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical reasoning",
+      "subtopic": "Weakening an argument",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 4: In these questions, you are to analyse the situation on which each question is based and then select the answer choice that is the most appropriate response to the question.",
+      "text": "Ms. E, a serious protagonist of environmental protection, wins a mayoral election to city ‘C’ against Mr. D. The success of Ms. E, against Mr. D in the election could be attributed to her concern for the environment in all of the following cases EXCEPT when",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The citizens of ‘C’ are highly environment conscious."
+        },
+        {
+          "label": "B",
+          "text": "The city administration has powers to act against activities resulting in environmental degradation."
+        },
+        {
+          "label": "C",
+          "text": "Ms. E is also known to possess excellent leadership qualities."
+        },
+        {
+          "label": "D",
+          "text": "Mr. D is a champion of environmental protection."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Mr. D is a champion of environmental protection.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical reasoning",
+      "subtopic": "EXCEPT / inference",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 4: In these questions, you are to analyse the situation on which each question is based and then select the answer choice that is the most appropriate response to the question.",
+      "text": "The life expectancy of the population of a country has increased from forty five (twenty five years ago) to seventy now—due to increased medical facilities and better health consciousness in people. However, an insurance company in the country has not lowered the premium substantially despite the life expectancy going up. Which of the following, if true, would rationalize the action of the insurance company in not lowering the insurance premium?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The increase in life expectancy has been significant only in the past five years."
+        },
+        {
+          "label": "B",
+          "text": "There have been fewer deaths due to cancer in recent years, whereas twenty five years back it was claiming a number of lives."
+        },
+        {
+          "label": "C",
+          "text": "The average age of the population of the country remained at around forty five only due to the increased birth rate in the past twenty five years."
+        },
+        {
+          "label": "D",
+          "text": "The country had been at war with all its neighbours during the past twenty five years, resulting in heavy casualties among its soldiers."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "The country had been at war with all its neighbours during the past twenty five years, resulting in heavy casualties among its soldiers.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical reasoning",
+      "subtopic": "Rationalizing a conclusion",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 4: In these questions, you are to analyse the situation on which each question is based and then select the answer choice that is the most appropriate response to the question.",
+      "text": "A company found that the attrition rate among its employees, especially among the skilled, has been particularly high in the last three months. As the company had introduced night shifts three months ago, it was concluded that this was the reason for the attrition. The employees working in night shifts were, therefore paid per cent extra wages. Which of the following would strongly support the above conclusion?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The wages of the employees compared to those of employees in other companies of comparable size in the same locality are 25% higher."
+        },
+        {
+          "label": "B",
+          "text": "The productivity of employees working in the night shift is higher."
+        },
+        {
+          "label": "C",
+          "text": "The number of night shift employees is less than that of the day shift employees."
+        },
+        {
+          "label": "D",
+          "text": "The attrition rate is higher in the case of night shift employees."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "The attrition rate is higher in the case of night shift employees.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical reasoning",
+      "subtopic": "Supporting an argument",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 5 to 10: Each question has a word followed by four choices. From the choices, identify the one which is opposite in meaning (antonym) to the main word and mark its number as your answer.",
+      "text": "IGNOMINIOUS",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Crooked"
+        },
+        {
+          "label": "B",
+          "text": "Dishonest"
+        },
+        {
+          "label": "C",
+          "text": "Ominous"
+        },
+        {
+          "label": "D",
+          "text": "Laudable"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Laudable",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Antonyms",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 5 to 10: Each question has a word followed by four choices. From the choices, identify the one which is opposite in meaning (antonym) to the main word and mark its number as your answer.",
+      "text": "MELLOWED",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ripened"
+        },
+        {
+          "label": "B",
+          "text": "Sensational"
+        },
+        {
+          "label": "C",
+          "text": "Immature"
+        },
+        {
+          "label": "D",
+          "text": "Ridiculous"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Immature",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Antonyms",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 5 to 10: Each question has a word followed by four choices. From the choices, identify the one which is opposite in meaning (antonym) to the main word and mark its number as your answer.",
+      "text": "ROBUST",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sturdy"
+        },
+        {
+          "label": "B",
+          "text": "Feeble"
+        },
+        {
+          "label": "C",
+          "text": "Muscular"
+        },
+        {
+          "label": "D",
+          "text": "Ridiculous"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Feeble",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Antonyms",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 5 to 10: Each question has a word followed by four choices. From the choices, identify the one which is opposite in meaning (antonym) to the main word and mark its number as your answer.",
+      "text": "VINDICTIVE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Forgiving"
+        },
+        {
+          "label": "B",
+          "text": "Relentless"
+        },
+        {
+          "label": "C",
+          "text": "Revengeful"
+        },
+        {
+          "label": "D",
+          "text": "Disproving"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Forgiving",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Antonyms",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 5 to 10: Each question has a word followed by four choices. From the choices, identify the one which is opposite in meaning (antonym) to the main word and mark its number as your answer.",
+      "text": "ALTRUISM",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kindness"
+        },
+        {
+          "label": "B",
+          "text": "Selfishness"
+        },
+        {
+          "label": "C",
+          "text": "Tenderness"
+        },
+        {
+          "label": "D",
+          "text": "Benevolence"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Selfishness",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Antonyms",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 5 to 10: Each question has a word followed by four choices. From the choices, identify the one which is opposite in meaning (antonym) to the main word and mark its number as your answer.",
+      "text": "BOISTEROUS",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Serene"
+        },
+        {
+          "label": "B",
+          "text": "Rowdy"
+        },
+        {
+          "label": "C",
+          "text": "Violent"
+        },
+        {
+          "label": "D",
+          "text": "Tumultuous"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Serene",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Antonyms",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 11 to 18: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "The angry officer called _____ an explanation from his subordinate for the error.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "on"
+        },
+        {
+          "label": "B",
+          "text": "for"
+        },
+        {
+          "label": "C",
+          "text": "out"
+        },
+        {
+          "label": "D",
+          "text": "in"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "for",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Fill in the blanks",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 11 to 18: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "I shall keep _____ nothing from you regarding my family affairs as you are a close friend.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "on"
+        },
+        {
+          "label": "B",
+          "text": "out"
+        },
+        {
+          "label": "C",
+          "text": "back"
+        },
+        {
+          "label": "D",
+          "text": "in"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "back",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Fill in the blanks",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 11 to 18: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "Mulk Raj Anand is a novelist with a/an _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "attribute"
+        },
+        {
+          "label": "B",
+          "text": "mission"
+        },
+        {
+          "label": "C",
+          "text": "idea"
+        },
+        {
+          "label": "D",
+          "text": "need"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "mission",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Fill in the blanks",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 11 to 18: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "The motivation to _____ comes from a burning desire to achieve a purpose.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "meet"
+        },
+        {
+          "label": "B",
+          "text": "start"
+        },
+        {
+          "label": "C",
+          "text": "succeed"
+        },
+        {
+          "label": "D",
+          "text": "idolize"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "succeed",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Fill in the blanks",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 11 to 18: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "Rainfall _____ the work being done by the fire-fighters at the site of the tragedy.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "protected"
+        },
+        {
+          "label": "B",
+          "text": "cherished"
+        },
+        {
+          "label": "C",
+          "text": "hindered"
+        },
+        {
+          "label": "D",
+          "text": "illuminated"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "hindered",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Fill in the blanks",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 11 to 18: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "The Americans appreciated the _____ made by Pervez Musharraf.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "posture"
+        },
+        {
+          "label": "B",
+          "text": "texture"
+        },
+        {
+          "label": "C",
+          "text": "gesture"
+        },
+        {
+          "label": "D",
+          "text": "resources"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "gesture",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Fill in the blanks",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 11 to 18: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "She ______ the tray on a table next to the bed.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "slowed"
+        },
+        {
+          "label": "B",
+          "text": "kept"
+        },
+        {
+          "label": "C",
+          "text": "set"
+        },
+        {
+          "label": "D",
+          "text": "shook"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "kept",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Fill in the blanks",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 11 to 18: Fill in the blanks in the given sentences so as to make sense. Select the correct word from the answer choices and mark its number as the answer.",
+      "text": "We have ______ some good times together, she and I.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "looked"
+        },
+        {
+          "label": "B",
+          "text": "laughed"
+        },
+        {
+          "label": "C",
+          "text": "smiled"
+        },
+        {
+          "label": "D",
+          "text": "seen"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "seen",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Fill in the blanks",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 19 to 24: Each question gives a word followed by four choices. From the choices, select the most suitable synonym (word which means the same) for the main word and mark its number as the answer.",
+      "text": "ABSTRACT",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Peculiar"
+        },
+        {
+          "label": "B",
+          "text": "Summary"
+        },
+        {
+          "label": "C",
+          "text": "Normal"
+        },
+        {
+          "label": "D",
+          "text": "Diagnostic"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Summary",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Synonyms",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 19 to 24: Each question gives a word followed by four choices. From the choices, select the most suitable synonym (word which means the same) for the main word and mark its number as the answer.",
+      "text": "COMPLACENT",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Disappointed"
+        },
+        {
+          "label": "B",
+          "text": "Evasive"
+        },
+        {
+          "label": "C",
+          "text": "Satisfied"
+        },
+        {
+          "label": "D",
+          "text": "Flimsy"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Satisfied",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Synonyms",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 19 to 24: Each question gives a word followed by four choices. From the choices, select the most suitable synonym (word which means the same) for the main word and mark its number as the answer.",
+      "text": "EXTERMINATE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Evict"
+        },
+        {
+          "label": "B",
+          "text": "Dissociate"
+        },
+        {
+          "label": "C",
+          "text": "Accuse"
+        },
+        {
+          "label": "D",
+          "text": "Annihilate"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Annihilate",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Synonyms",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 19 to 24: Each question gives a word followed by four choices. From the choices, select the most suitable synonym (word which means the same) for the main word and mark its number as the answer.",
+      "text": "UMPTEEN",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Numerous"
+        },
+        {
+          "label": "B",
+          "text": "Youthful"
+        },
+        {
+          "label": "C",
+          "text": "Rainy"
+        },
+        {
+          "label": "D",
+          "text": "Convergent"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Convergent",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Synonyms",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 19 to 24: Each question gives a word followed by four choices. From the choices, select the most suitable synonym (word which means the same) for the main word and mark its number as the answer.",
+      "text": "OSTENSIBLE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Strong"
+        },
+        {
+          "label": "B",
+          "text": "Desirable"
+        },
+        {
+          "label": "C",
+          "text": "Apparent"
+        },
+        {
+          "label": "D",
+          "text": "Fateful"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Apparent",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Synonyms",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 19 to 24: Each question gives a word followed by four choices. From the choices, select the most suitable synonym (word which means the same) for the main word and mark its number as the answer.",
+      "text": "STALWART",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Watchful"
+        },
+        {
+          "label": "B",
+          "text": "Sturdy"
+        },
+        {
+          "label": "C",
+          "text": "Delicate"
+        },
+        {
+          "label": "D",
+          "text": "Encomium"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Sturdy",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Synonyms",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 25 to 26: In each of the following questions, a pair of words in capitals is given followed by four numbered pairs of words. Select from the choices the pair which exhibits the same relationship as the capitalised pair of words and mark the number as your answer.",
+      "text": "PROPERTY : MORTGAGE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Money : Lend"
+        },
+        {
+          "label": "B",
+          "text": "Equity : Interest"
+        },
+        {
+          "label": "C",
+          "text": "Inventory : Merchandise"
+        },
+        {
+          "label": "D",
+          "text": "Security : Price"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Money : Lend",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Word relationships",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 25 to 26: In each of the following questions, a pair of words in capitals is given followed by four numbered pairs of words. Select from the choices the pair which exhibits the same relationship as the capitalised pair of words and mark the number as your answer.",
+      "text": "NEGOTIABLE : CHEQUE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Frozen : Asset"
+        },
+        {
+          "label": "B",
+          "text": "Oil : Seed"
+        },
+        {
+          "label": "C",
+          "text": "Bank : Money"
+        },
+        {
+          "label": "D",
+          "text": "Security : Price"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Frozen : Asset",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Word relationships",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 27 to 30: For the word given on the top of the table, match the dictionary definitions given in the left-hand columns (A, B, C, D) with their corresponding usage given in the right-hand column (E, F, G, H). Out of the four numbered choices given in the boxes below the table, identify the one that has all definitions and usages correctly matched.",
+      "text": "RAISE\nA. Levy or collect or bring together\nB. Cause to be heard or considered\nC. Increase the amount or value or strength of\nD. Bring up; educate\nE. The girl has been raised in a very conservative environment.\nF. We decided to raise some money to help the flood victims.\nG. I will raise this issue at the right moment.\nH. The doctor raised the potency of the drug before administering it to the patient.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A–G, B–H, C–F, D–E"
+        },
+        {
+          "label": "B",
+          "text": "A–F, B–G, C–H, D–E"
+        },
+        {
+          "label": "C",
+          "text": "A–G, B–E, C–H, D–F"
+        },
+        {
+          "label": "D",
+          "text": "A–F, B–H, C–G, D–E"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Verbal_Ability_1/verbal_ability_1-q027-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "A–F, B–G, C–H, D–E",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Dictionary definitions and usage matching",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 27 to 30: For the word given on the top of the table, match the dictionary definitions given in the left-hand columns (A, B, C, D) with their corresponding usage given in the right-hand column (E, F, G, H). Out of the four numbered choices given in the boxes below the table, identify the one that has all definitions and usages correctly matched.",
+      "text": "SENSE\nA. One of the five powers (sight, taste, smell, touch, hearing)\nB. Show or find the meaning of\nC. The ability to think clearly\nD. Be vaguely aware\nE. ‘When will he ever come to his senses?’ she asked exasperated\nF. I could sense that something was amiss in the function.\nG. I cannot make sense of what he says.\nH. We perceive the world through our senses.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A–H, B–G, C–F, D–E"
+        },
+        {
+          "label": "B",
+          "text": "A–G, B–E, C–F, D–H"
+        },
+        {
+          "label": "C",
+          "text": "A–E, B–F, C–H, D–G"
+        },
+        {
+          "label": "D",
+          "text": "A–H, B–G, C–E, D–F"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Verbal_Ability_1/verbal_ability_1-q028-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "A–H, B–G, C–E, D–F",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Dictionary definitions and usage matching",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 27 to 30: For the word given on the top of the table, match the dictionary definitions given in the left-hand columns (A, B, C, D) with their corresponding usage given in the right-hand column (E, F, G, H). Out of the four numbered choices given in the boxes below the table, identify the one that has all definitions and usages correctly matched.",
+      "text": "MATCH\nA. Corresponding in some essential respect with what has been mentioned.\nB. Be as good or equal to\nC. A contest or competition\nD. A person viewed in regard to his or her eligibility for marriage\nE. The match will start at 9:00 a.m.\nF. Australia finally met its match in the finals.\nG. Geetanjali would be a nice match for Govind.\nH. If you buy two shirts, we will give any two matching ties free of cost.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A–H, B–F, C–E, D–G"
+        },
+        {
+          "label": "B",
+          "text": "A–G, B–E, C–H, D–F"
+        },
+        {
+          "label": "C",
+          "text": "A–H, B–G, C–E, D–F"
+        },
+        {
+          "label": "D",
+          "text": "A–G, B–H, C–F, D–E"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Verbal_Ability_1/verbal_ability_1-q029-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "A–G, B–E, C–H, D–F",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Dictionary definitions and usage matching",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_1.pdf",
+      "direction": "Direction for questions 27 to 30: For the word given on the top of the table, match the dictionary definitions given in the left-hand columns (A, B, C, D) with their corresponding usage given in the right-hand column (E, F, G, H). Out of the four numbered choices given in the boxes below the table, identify the one that has all definitions and usages correctly matched.",
+      "text": "MASS\nA. The Eucharist, especially in the Roman Catholic Church\nB. A dense aggregation of objects\nC. The ordinary people; the majority\nD. The quantity of material that something contains\nE. During peak traffic hours, the entire city seems to be just a mass of humanity.\nF. The Mass conducted at the Church was good for the salvation of the soul.\nG. Science students must know that mass and weight are entirely different.\nH. The masses are bothered only about the problems of day-to-day living and therefore, have no time for politics or sports.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A–H, B–G, C–F, D–E"
+        },
+        {
+          "label": "B",
+          "text": "A–G, B–H, C–E, D–F"
+        },
+        {
+          "label": "C",
+          "text": "A–F, B–E, C–H, D–G"
+        },
+        {
+          "label": "D",
+          "text": "A–E, B–F, C–H, D–G"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Verbal_Ability_1/verbal_ability_1-q030-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "A–F, B–E, C–H, D–G",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary",
+      "subtopic": "Dictionary definitions and usage matching",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

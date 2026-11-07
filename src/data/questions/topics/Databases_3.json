@@ -1,0 +1,2117 @@
+[
+  {
+    "id": "gate-databases-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "If the database operations in a transaction do not update the database but only retrieve data, what is that transaction called?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Write-only operation"
+        },
+        {
+          "label": "B",
+          "text": "Read-only operation"
+        },
+        {
+          "label": "C",
+          "text": "Named data item"
+        },
+        {
+          "label": "D",
+          "text": "Granularity"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Read-only operation",
+      "explanation": "Read only operation do not update the database but only retrieves data.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Transactions",
+      "subtopic": "Read-only transactions",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the 2 interleaved transactions T1 and T2:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "r1(x), r2(x), w1(x), r1(y), w1(y), r2(y), C1, C2"
+        },
+        {
+          "label": "B",
+          "text": "r1(x), w1(x), r2(x), r1(y), w1(y), r2(y), C1, C2"
+        },
+        {
+          "label": "C",
+          "text": "r1(x), w1(x), r2(x), r1(y), w1(y), r2(y), C2, C1"
+        },
+        {
+          "label": "D",
+          "text": "r1(x), w1(x), r2(x), r1(y), r2(y), w1(y), C1, C2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_3/databases_3-q002-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "r1(x), w1(x), r2(x), r1(y), w1(y), r2(y), C1, C2",
+      "explanation": "Correct schedule is:\nr1(x), W1(x), r2(x), r1(y), w1 (y), r2(y), C1, C2\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Transactions",
+      "subtopic": "Schedules",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Two operations in a schedule are said to have conflict if\nI. They belong to different transactions.\nII. They access the same data item.\nIII. Atleast one of the operations is write operation.\nIV. Atleast one of the operations is Read operation.\nWhich of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I and II only"
+        },
+        {
+          "label": "B",
+          "text": "II and III only"
+        },
+        {
+          "label": "C",
+          "text": "I, II and III only"
+        },
+        {
+          "label": "D",
+          "text": "II, III and IV only"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "I, II and III only",
+      "explanation": "Two operations in a schedule are said to have conflict if they satisfy I, II and III.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Transactions",
+      "subtopic": "Conflict operations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A Non recoverable schedule must contain which of the following conflict?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "RR conflict"
+        },
+        {
+          "label": "B",
+          "text": "RW conflict"
+        },
+        {
+          "label": "C",
+          "text": "WR conflict"
+        },
+        {
+          "label": "D",
+          "text": "WW conflict"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "RW conflict",
+      "explanation": "Recover ability can be decided by the presence of ‘RW’ conflict in a schedule.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Transactions",
+      "subtopic": "Recoverability",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given schedule:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cascadeless schedule"
+        },
+        {
+          "label": "B",
+          "text": "strict schedule"
+        },
+        {
+          "label": "C",
+          "text": "Non-serial schedule"
+        },
+        {
+          "label": "D",
+          "text": "Non-Recoverable schedule"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_3/databases_3-q005-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Cascadeless schedule",
+      "explanation": "A schedule is said to be cascadeless, if every transaction in the schedule reads only items that were written by committed transactions.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Transactions",
+      "subtopic": "Cascadeless and strict schedules",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In a schedule, transactions can neither read nor write an item ‘X’ until the last transaction that wrote X has committed or Aborted, what is that schedule?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cascadeless schedule"
+        },
+        {
+          "label": "B",
+          "text": "Strict schedule"
+        },
+        {
+          "label": "C",
+          "text": "Recoverable schedule"
+        },
+        {
+          "label": "D",
+          "text": "Non serial schedule"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Strict schedule",
+      "explanation": "More restrictive type of schedule is called a strict schedule, in which transactions can neither read nor write an item ‘X’ until the last transaction that wrote ‘X’ has committed or aborted.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Transactions",
+      "subtopic": "Strict schedules",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given schedule\nWhat is the number of WR conflicts present in the given schedule?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_3/databases_3-q007-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1",
+      "explanation": "r1(x), w1(x), r2(x), w2(x), r1(y)\nOne WR conflict is present.\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Databases_3/databases_3-q007-explanation.png"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Transactions",
+      "subtopic": "Conflict types",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following protocol is based on locking data items to prevent concurrent transactions from interfering with one another, and enforcing an additional condition that guarantees serializability?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 PL"
+        },
+        {
+          "label": "B",
+          "text": "2 PL"
+        },
+        {
+          "label": "C",
+          "text": "3 PL"
+        },
+        {
+          "label": "D",
+          "text": "4 PL"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2 PL",
+      "explanation": "2 PL (2 phase Locking protocol) ensures serializability.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Transactions",
+      "subtopic": "Two-phase locking",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In Random access, for accessing a disk block on a disk, what is the Rotational delay if disk rotates at 10000 rpm (rotations per minute)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 m/sec"
+        },
+        {
+          "label": "B",
+          "text": "9 m/sec"
+        },
+        {
+          "label": "C",
+          "text": "3 m/sec"
+        },
+        {
+          "label": "D",
+          "text": "12 m/sec"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "3 m/sec",
+      "explanation": "If the speed of disk rotation is ‘P’ revolutions per minute (rpm), then the average rotational delay ‘rd’ is given by\nrd = (1/2) * (1/P) min = (60 * 1000)/(2 * P) msec\nrd = 3 msec\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Storage and File Organization",
+      "subtopic": "Disk access time",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Whenever 2 independent 1:N relationships A:B and A:C are mixed in the same relation, then which of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A Transitive Dependency may arise"
+        },
+        {
+          "label": "B",
+          "text": "A Partial Dependency may arise"
+        },
+        {
+          "label": "C",
+          "text": "A Multi-valued Dependency may arise"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "A Multi-valued Dependency may arise",
+      "explanation": "If 2 independent 1:N relationships A:B and A:C are mixed in the same Relation, a multi valued Dependency may arise.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Normalization",
+      "subtopic": "Multivalued dependencies",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following is TRUE about 2NF?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A relation schema R is in 2 NF, if every non prime attribute A in R is not partially dependent on any key of R."
+        },
+        {
+          "label": "B",
+          "text": "If the primary key contains a single attribute, the test need not be applied at all."
+        },
+        {
+          "label": "C",
+          "text": "Test for 2NF involves testing for functional dependencies whose left-hand side attributes are part of the primary key."
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": "All the statements are TRUE.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Normalization",
+      "subtopic": "Second normal form",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the following FD’s:\nX → Y\nWY → Z\nIf pseudo transitive rule is applied on given FD’s, what is the result?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "X → Z"
+        },
+        {
+          "label": "B",
+          "text": "XW → Z"
+        },
+        {
+          "label": "C",
+          "text": "XY → Z"
+        },
+        {
+          "label": "D",
+          "text": "XWY → YZ"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "XW → Z",
+      "explanation": "X → Y\nWY → Z\nXW → Z\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Normalization",
+      "subtopic": "Functional dependencies",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the average time to access a specific Record in a file using sequential scan (Linear search) on unordered file? (Assume that there are ‘b’ blocks)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "b/2"
+        },
+        {
+          "label": "B",
+          "text": "b"
+        },
+        {
+          "label": "C",
+          "text": "log₂ b"
+        },
+        {
+          "label": "D",
+          "text": "2b"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "b/2",
+      "explanation": "The average access time in block accesses to find a specific record in a file with ‘b’ blocks on unordered file is ‘b/2’.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "File Organization",
+      "subtopic": "Sequential search",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In which hashing technique, a type of directory, an array of ‘2^d’ bucket addresses is maintained, where ‘d’ is called the global depth of the directory?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Internal Hashing"
+        },
+        {
+          "label": "B",
+          "text": "Extendible Hashing"
+        },
+        {
+          "label": "C",
+          "text": "Separate Chaining"
+        },
+        {
+          "label": "D",
+          "text": "Static Hashing"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Extendible Hashing",
+      "explanation": "Hashing Technique that allows Dynamic File expansion is extendible hashing,\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "File Organization",
+      "subtopic": "Extendible hashing",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Assume that, a primary index is built on a file with 45 blocks, what is the number of block accesses required to search for a specific Record in a file (Using Binary search)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "45"
+        },
+        {
+          "label": "B",
+          "text": "23"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "7",
+      "explanation": "First search will be conducted on primary index. By using binary search,\n⇒ ⌈log 45⌉ ≅ 6 block accesses\n6 block accesses in primary index + 1 block access in original file.\n∴ 7 block accesses.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Indexing",
+      "subtopic": "Primary index and binary search",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given 2 schedules:\nSa: r1(x), w1(x), r2(x), w1(x), w2(x), r1(y), C1, C2\nSb: r1(x), w1(x), r2(x), w2(x), r1(x), C1, C2\nWhich of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both are conflict serializable"
+        },
+        {
+          "label": "B",
+          "text": "Only Sa is conflict serializable"
+        },
+        {
+          "label": "C",
+          "text": "Only Sb is conflict serializable"
+        },
+        {
+          "label": "D",
+          "text": "Both are not conflict serializable"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Both are not conflict serializable",
+      "explanation": "Sa: r1(x), w1(x), r2(x), w1(x), w2(x), r1(y), C1, C2\nPrecedence Graph:\n∴ ‘Sa’ is not conflict serializable, since cycle is present in Precedence graph.\n\nSb: r1(x), w1(x), r2(x), w2(x), r1(x), C1, C2\nPrecedence Graph:\n∴ Sb is not conflict serializable, since cycle is present in precedence graph.\nChoice (D)",
+      "status": "confirmed",
+      "image": "images/Databases_3/databases_3-q016-explanation.png"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Transactions",
+      "subtopic": "Conflict serializability",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given transaction T1, that follows 2-phase Locking protocol:\n1. Read – Lock(X)\n2. Read – item (X)\n3. Write – Lock(Y)\n4. Unlock(X)\n5. Read – item(Y)\n6. Y = X + Y\n7. Write – item(Y)\n8. Unlock(Y)\nWhich of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Record 1 to Record 3 is Growing phase"
+        },
+        {
+          "label": "B",
+          "text": "Record 4 to Record 8 is shrinking phase"
+        },
+        {
+          "label": "C",
+          "text": "Record 1 to Record 4 is Expanding phase"
+        },
+        {
+          "label": "D",
+          "text": "Both (A) and (B)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_3/databases_3-q017-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Both (A) and (B)",
+      "explanation": "Expanding or growing phase: During which new locks on items can be acquired but none can be released.\nShrinking phase: During which existing locks can be released but no new locks can be acquired.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Transactions",
+      "subtopic": "Two-phase locking",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a disk with track size 70 Kbytes and it rotates at 3600 rpm, what is the transfer rate in bytes/m sec?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3500"
+        },
+        {
+          "label": "B",
+          "text": "3600"
+        },
+        {
+          "label": "C",
+          "text": "4200"
+        },
+        {
+          "label": "D",
+          "text": "4500"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "4200",
+      "explanation": "Transfer rate = (70 × 1000)/(60 × 1000/3600)\n70 × 1000 / 60 × 1000 / 3600 = 4200 bytes/msec\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Storage and File Organization",
+      "subtopic": "Disk transfer rate",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the time required to transfer consecutively ‘k’ non contiguous blocks that are on the same cylinder, where ‘S’ is seek time, ‘rd’ is rotational delay and ‘btt’ is block transfer time?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "S + (k * (rd + btt)) msec"
+        },
+        {
+          "label": "B",
+          "text": "(S + rd + btt) msec"
+        },
+        {
+          "label": "C",
+          "text": "S + rd + (k * btt) msec"
+        },
+        {
+          "label": "D",
+          "text": "S + (k * rd) + btt msec"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "S + (k * (rd + btt)) msec",
+      "explanation": "To transfer consecutively ‘k’ non contiguous blocks that are on the same cylinder, we need approximately,\nS + (k * (rd + btt)) msec.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Storage and File Organization",
+      "subtopic": "Disk block transfer time",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the estimate for transferring consecutive blocks (include interblock gap), the disk manufacturer provides a bulk transfer rate (btr) that takes the gap size into account when reading consecutively stored blocks (B), and the gap size is G bytes?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "btr = (B/(B + G)) * tr bytes/msec"
+        },
+        {
+          "label": "B",
+          "text": "btr = (B/(B + G)) bytes/msec"
+        },
+        {
+          "label": "C",
+          "text": "btr = (B + G) + tr bytes/msec"
+        },
+        {
+          "label": "D",
+          "text": "btr = ((B + G)/B) + tr bytes/msec"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "btr = (B/(B + G)) * tr bytes/msec",
+      "explanation": "Transferring consecutive blocks (including inter block gap)\n⇒ btr = (B/(B + G)) * tr bytes/msec\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Storage and File Organization",
+      "subtopic": "Bulk transfer rate",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Match the following:\nI. 1 NF\nII. 2 NF\nIII. 3 NF\nP. No Non key attribute should be functionally dependent on a part of the primary key.\nQ. Relation should have no nonatomic attributes or nested relations.\nR. Relation should not have a non key attribute functionally determined by another non key attribute.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I–P, II–Q, III–R"
+        },
+        {
+          "label": "B",
+          "text": "I–Q, II–P, III–R"
+        },
+        {
+          "label": "C",
+          "text": "I–Q, II–R, III–P"
+        },
+        {
+          "label": "D",
+          "text": "I–R, II–Q, III–R"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "I–Q, II–P, III–R",
+      "explanation": "I – Q, II – P, III – R is correct match.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Normalization",
+      "subtopic": "Normal forms",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nConsider the given Relation EMP and given functional dependencies:\nF = (E → N\nP → A, L\nEP → H)",
+      "text": "Which of the following is Incorrect closure set with respect to F?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "E⁺ = {E, N}"
+        },
+        {
+          "label": "B",
+          "text": "P⁺ = {P, A, L}"
+        },
+        {
+          "label": "C",
+          "text": "{EP}⁺ = {E, N, P, A, L, H}"
+        },
+        {
+          "label": "D",
+          "text": "{EH}⁺ = {E, N, H, P, A}"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "{EH}⁺ = {E, N, H, P, A}",
+      "explanation": "{EH}+ cannot determine P and A.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Normalization",
+      "subtopic": "Attribute closure",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nConsider the given Relation EMP and given functional dependencies:\nF = (E → N\nP → A, L\nEP → H)",
+      "text": "Consider the functional dependencies given in the above question, EMP Relation is in which Normal Form?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 NF"
+        },
+        {
+          "label": "B",
+          "text": "2 NF"
+        },
+        {
+          "label": "C",
+          "text": "3 NF"
+        },
+        {
+          "label": "D",
+          "text": "BCNF"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1 NF",
+      "explanation": "The key for EMP is {EP} and the functional Dependencies.\nE → N\nP → A, L are partial dependencies.\n∴ EMP is not in 2NF i.e., it is in 1 NF. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Normalization",
+      "subtopic": "Normal forms",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nConsider the given 2 tables:\nPerson\nName | Mobile\nAnil | 9848463\n     | 9440072\nRaj | 9004432\nStudent\nSName | Project\n      | P No. | Hours",
+      "text": "Which of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both tables are in 1 NF"
+        },
+        {
+          "label": "B",
+          "text": "Both tables are not in 1 NF"
+        },
+        {
+          "label": "C",
+          "text": "Person is in 1 NF but not student"
+        },
+        {
+          "label": "D",
+          "text": "Person is in 2 NF and student is in 1 NF"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_3/databases_3-q024-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Both tables are not in 1 NF",
+      "explanation": "Both tables are not in 1 NF, person table has multiple values under mobile column for one name, In student relation, there is another relation project, A relation within a Relation is not allowed in 1 NF.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Normalization",
+      "subtopic": "First normal form",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the schema R(ABCDE) and functional dependencies A → BE, C → D, then the decomposition of R into R1(ABE), R2(CD) is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dependency preserving and lossless join."
+        },
+        {
+          "label": "B",
+          "text": "Dependency preserving and not lossless join."
+        },
+        {
+          "label": "C",
+          "text": "Lossless join but not dependency preserving."
+        },
+        {
+          "label": "D",
+          "text": "Not Dependency preserving and Not lossless join."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Dependency preserving and not lossless join.",
+      "explanation": "It is Dependency preserving, A → BE is in R1 and C → D is in R2.\nChecking for loss less join:\nIt is Not Loss Less JOIN.\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Databases_3/databases_3-q025-explanation.png"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Normalization",
+      "subtopic": "Decomposition",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nConsider a relation R(A, B, C, D, E) with the following Dependencies:\nA → C\nBCD → E\nDE → B",
+      "text": "Identify the candidate keys from the following options?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "AD, ADB"
+        },
+        {
+          "label": "B",
+          "text": "ADB, ADC"
+        },
+        {
+          "label": "C",
+          "text": "ADB, ADE"
+        },
+        {
+          "label": "D",
+          "text": "ADC, ADE"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "ADB, ADE",
+      "explanation": "A → C\nBCD → E\nDE → B\n\n{AD}+ = {ADC}\nADB+ = {ADBCE}\nADC+ = {ADC}\nADE+ = {ADECB}\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Databases_3/databases_3-q026-explanation.png"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Normalization",
+      "subtopic": "Candidate keys",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nConsider a relation R(A, B, C, D, E) with the following Dependencies:\nA → C\nBCD → E\nDE → B",
+      "text": "Consider the Functional Dependencies given in the above question, which of the following are “Prime Attributes”?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "ABCD"
+        },
+        {
+          "label": "B",
+          "text": "ABCE"
+        },
+        {
+          "label": "C",
+          "text": "ABDE"
+        },
+        {
+          "label": "D",
+          "text": "ACDE"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "ABDE",
+      "explanation": "Candidate keys are: ADB, ADE\nPrime Attributes are part of any candidate key, ABDE\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Normalization",
+      "subtopic": "Prime attributes",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a file with fixed length records, one sample record is given below,\nThe file contains 32000 records, and it is stored on a disk with block size 1024 Bytes, what is the blocking factor?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "64"
+        },
+        {
+          "label": "D",
+          "text": "128"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_3/databases_3-q028-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "32",
+      "explanation": "Blocking factor is defined as, the number of records stored on one block.\nBfr = ⌊1024/32⌋ = ⌊2^10/2^5⌋ = 2^5 = 32 Records\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "File Organization",
+      "subtopic": "Blocking factor",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a file with Fixed length Records, one sample record is given below.\nThe file contains 30000 records, what is the number of blocks required to store the file, on a disk with block size 2048 bytes?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "648"
+        },
+        {
+          "label": "B",
+          "text": "840"
+        },
+        {
+          "label": "C",
+          "text": "938"
+        },
+        {
+          "label": "D",
+          "text": "968"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_3/databases_3-q029-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "938",
+      "explanation": "Blocking Factor\n= ⌊2048/64⌋ = ⌊2^11/2^6⌋ = 2^5 = 32 records/block\nNumber of blocks required:\n1 block --------- 32 records\nx ----------------- 30000 records\nx = ⌈30000/32⌉ = ⌈937.5⌉ = 938 blocks\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "File Organization",
+      "subtopic": "Blocking factor and number of blocks",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Construct a B-tree with 6, 4, 5, 9, 7, 2 values, order of B-tree is P = 3, what is the maximum number of node splits?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2",
+      "explanation": "Order P = 3\n∴ 2 Node splits\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Databases_3/databases_3-q030-explanation.png"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Indexing",
+      "subtopic": "B-tree",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a disk with block size B = 512 bytes, number of tracks per surface is 400, this disk pack consists of 16 double sided disks, How many cylinders are there?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "100"
+        },
+        {
+          "label": "B",
+          "text": "200"
+        },
+        {
+          "label": "C",
+          "text": "400"
+        },
+        {
+          "label": "D",
+          "text": "800"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "400",
+      "explanation": "Cylinders = Number of tracks that is 400\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Storage and File Organization",
+      "subtopic": "Disk geometry",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nCommon Data Questions 32 and 33:\nConsider the given schedules\nS1: r1(P), r2(R), r1(R), r3(P), r3(Q), w1(P), C1, w3(Q), C3, r2(Q), w2(R), w2(Q), C2\nS2: r1(P), r2(R), r1(R), r3(P), r3(Q), w1(P), w3(Q), r2(Q), w2(R), w2(Q), C1, C2, C3.",
+      "text": "Which of the following is/are Recoverable schedule(s)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only S1"
+        },
+        {
+          "label": "B",
+          "text": "Only S2"
+        },
+        {
+          "label": "C",
+          "text": "Both S1 and S2"
+        },
+        {
+          "label": "D",
+          "text": "Neither S1 nor S2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Only S1",
+      "explanation": "S1: r1(P), r2(R), r1(R), r3(P), r3(Q), W1(P), C1, w3(Q), C3, r2(Q), w2(R), w2(Q), C2\nTo check recoverability, search for RW conflict. There is one RW conflict, T3 is performing write operation so it has to commit first.\n∴ S1 is Recoverable.\n\nS2: r1(P), r2(R), r1(R), r3(P), r3(Q), w1(P), w3(Q), r2(Q), w2(R), w2(Q), C1, C2, C3.\nT3 has to commit first but T2 has committed first.\n∴ S2 is not a recoverable schedule.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Transactions",
+      "subtopic": "Recoverability",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nCommon Data Questions 32 and 33:\nConsider the given schedules\nS1: r1(P), r2(R), r1(R), r3(P), r3(Q), w1(P), C1, w3(Q), C3, r2(Q), w2(R), w2(Q), C2\nS2: r1(P), r2(R), r1(R), r3(P), r3(Q), w1(P), w3(Q), r2(Q), w2(R), w2(Q), C1, C2, C3.",
+      "text": "Which of the following is/are “cascadeless” schedule(s)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only S1"
+        },
+        {
+          "label": "B",
+          "text": "Only S2"
+        },
+        {
+          "label": "C",
+          "text": "Both S1 and S2"
+        },
+        {
+          "label": "D",
+          "text": "Neither S1 nor S2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Only S1",
+      "explanation": "S1:\nS1 is cascadeless, because, data is taken from committed transactions.\n\nS2:\nT3 should commit before T2\n∴ S2 is not cascadeless schedule.\nChoice (A)",
+      "status": "confirmed",
+      "image": "images/Databases_3/databases_3-q033-explanation.png"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Transactions",
+      "subtopic": "Cascadeless schedules",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nLinked Answer Questions 34 and 35:\nConsider the given table:\nStudent\nSname | Course | Department\nArun | C1 | D1\nArun | C2 | D1\nArun | C1 | D2\nArun | C2 | D2",
+      "text": "Student table has multivalved dependencies, which of the following is correct 4 NF Decomposition?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Student 1 (Sname, course)\nStudent 2 (Course, Department)"
+        },
+        {
+          "label": "B",
+          "text": "Student 1 (Sname, Department)\nStudent 2 (course, Department)"
+        },
+        {
+          "label": "C",
+          "text": "Student 1 (sname, course)\nStudent 2 (sname, Department)"
+        },
+        {
+          "label": "D",
+          "text": "Student 1 (sname, course)\nStudent 2 (sname, Department)\nStudent 3 (Course, Department)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_3/databases_3-q034-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Student 1 (sname, course)\nStudent 2 (sname, Department)",
+      "explanation": "Multi valued dependencies:\nSname → → Course, Sname → → Department\n4NF decomposition is as follows\nStudent 1(Sname, course)\nStudent 2(Sname, Department)\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Normalization",
+      "subtopic": "Fourth normal form",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-databases-test-1-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Databases"
+    },
+    "question": {
+      "pdfName": "Databases_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nLinked Answer Questions 34 and 35:\nConsider the given table:\nStudent\nSname | Course | Department\nArun | C1 | D1\nArun | C2 | D1\nArun | C1 | D2\nArun | C2 | D2",
+      "text": "Which of the following is TRUE, for the above identified correct answer?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "student 1 ⋈ student 2 returns student table"
+        },
+        {
+          "label": "B",
+          "text": "student 1 X student 2 returns student table"
+        },
+        {
+          "label": "C",
+          "text": "student 1 ⋈ student 2 returns student table"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Databases_3/databases_3-q035-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "student 1 ⋈ student 2 returns student table",
+      "explanation": "Student 1 ⋈ student 2 returns student table.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Databases",
+      "topic": "Normalization",
+      "subtopic": "Fourth normal form decomposition",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Databases_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

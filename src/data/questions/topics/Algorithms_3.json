@@ -1,0 +1,2092 @@
+[
+  {
+    "id": "gate-algorithms-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the worst case time complexity of search operation on unordered and ordered List, using Linear search Algorithm respectively?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$O(n)$ and $O(1)$"
+        },
+        {
+          "label": "B",
+          "text": "$O(n)$ and $O(\\log n)$"
+        },
+        {
+          "label": "C",
+          "text": "$O(n)$ and $O(n)$"
+        },
+        {
+          "label": "D",
+          "text": "$O(\\log n)$ and $O(\\log n)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$O(n)$ and $O(n)$",
+      "explanation": "In worst case Linear search takes O(n) time, whether it is ordered list (or) unordered List.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Searching / Linear Search",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following is the Recurrence relation for binary search and What is the time complexity of that Recurrence Relation respectively?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$T(n) = T(n/2) + \\theta(n)$ and $\\theta(\\log n)$"
+        },
+        {
+          "label": "B",
+          "text": "$T(n) = T(n/2) + \\theta(1)$ and $\\theta(\\log n)$"
+        },
+        {
+          "label": "C",
+          "text": "$T(n) = T(n/2) + \\theta(1)$ and $\\theta(n \\log n)$"
+        },
+        {
+          "label": "D",
+          "text": "$T(n) = T(n/2) + \\theta(n)$ and $\\theta(n \\log n)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$T(n) = T(n/2) + \\theta(1)$ and $\\theta(\\log n)$",
+      "explanation": "Recurrence Relation for Binary search is T(n) = T(n/2) + θ(1). Time complexity of Binary search is θ(log n).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Searching / Binary Search",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Given ‘n’ numbers randomly, what is the time complexity of calculating median?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$O(\\log n)$"
+        },
+        {
+          "label": "B",
+          "text": "$O(n \\log n)$"
+        },
+        {
+          "label": "C",
+          "text": "$O(n^2)$"
+        },
+        {
+          "label": "D",
+          "text": "$O(n^2 \\log n)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$O(n \\log n)$",
+      "explanation": "Randomly given ‘n’ numbers are to be sorted first, which takes O(n log n) time and return the (n/2)th element, that is the median of given ‘n’ random elements.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Sorting / Median",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Given an array of ‘n’ elements, what is the time complexity of Finding a number which appears more than (n/2) times in the given array (if it exists)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$O(n/2)$"
+        },
+        {
+          "label": "B",
+          "text": "$O(n \\log n)$"
+        },
+        {
+          "label": "C",
+          "text": "$O(\\log n)$"
+        },
+        {
+          "label": "D",
+          "text": "$O(n^2)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$O(n^2)$",
+      "explanation": "The basic solution is to have two loops and keep track of maximum count for all different elements. If maximum count becomes greater than n/2 then break the loops and return the element having maximum count. If maximum count doesn’t become more than n/2 then majority element doesn’t exist.\n2 loops(nested) ⇒ O(n2).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Searching / Majority Element",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the number of comparisons performed to find the smallest and largest keys in an array A of even size and odd size of n and (n + 1) elements respectively?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{3n}{2}-2$ and $\\frac{3n}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{3n}{2}$ and $\\frac{3n}{2}-2$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{3n}{2}-2$ and $\\frac{3n}{2}-\\frac{3}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{3n}{2}-2$ and $\\frac{3n}{2}+1$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\frac{3n}{2}-2$ and $\\frac{3n}{2}-\\frac{3}{2}$",
+      "explanation": "Number of comparisons\nIf ‘n’ is even 3n/2 − 2\nIf ‘n’ is odd 3n/2 − 3/2.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Analysis / Comparison Counting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the time complexity of an algorithm, for finding Fourth Largest element in the given input list of n elements?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2n – 3"
+        },
+        {
+          "label": "B",
+          "text": "2n – 4"
+        },
+        {
+          "label": "C",
+          "text": "2n – 5"
+        },
+        {
+          "label": "D",
+          "text": "2(2n – 5)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "2(2n – 5)",
+      "explanation": "To find First Largest element (n – 1) comparisons are required, for second largest (n – 2), for Third largest (n – 3) and For fourth largest (n – 4).\n∴ Total ⇒ (n – 1) + (n – 2) + (n – 3) + (n – 4)\n∴ 4n – 10 ⇒ 2(2n – 5).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Analysis / Selection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The Bellman-Ford algorithm solves the single-source shortest path problem in the case in which edge weights may be negative, what is the time complexity of running Bellman-Ford Algorithm?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$O(V^2)$"
+        },
+        {
+          "label": "B",
+          "text": "$O(V * E)$"
+        },
+        {
+          "label": "C",
+          "text": "$O(V + E)$"
+        },
+        {
+          "label": "D",
+          "text": "$O(E \\log V)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$O(V * E)$",
+      "explanation": "The algorithms makes |V| – 1 passes over the edges of the graph (E)\n(V – 1) * E\nO(V * E).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graphs / Bellman-Ford",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Construct a Hash table with size ‘8’, hash function is h(k) = (2k + 1) mod 8, with elements 3, 8, 16, 9, 1, 4. What is the Location of key ‘4’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Location 1"
+        },
+        {
+          "label": "B",
+          "text": "Location 2"
+        },
+        {
+          "label": "C",
+          "text": "Location 4"
+        },
+        {
+          "label": "D",
+          "text": "Location 5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Location 5",
+      "explanation": "Linear Probing:\nh(k) = (2k + 1) mod 8\nh(3) = 7 mod 8 = 7\nh(8) = 17 mod 8 = 1\nh(16) = 33 mod 8 = 1\n(collision occurred at location 1)\nSearch for next empty slot\nfrom the point of collision.\nh(9) = 19 mod 8 = 3\nh(1) = 3 mod 8 = 3 (collision)\nh(4) = 9 mod 8 = 1 (collision).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Hashing / Linear Probing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given two strings str1 and str2.\nLet str1 = < A B R A C A D A B R O A >\nstr2 = < Y A B B A D A B B A D O O B A >\nThen the length of longest common subsequence would be ___________.",
+      "type": "NAT",
+      "options": [],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "8",
+      "correctText": "8",
+      "explanation": "The longest common subsequence would be A B A D A B O A.\nThe length is ‘8’.",
+      "status": "confirmed",
+      "image": "images/Algorithms_3/algorithms_3-q009-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Dynamic Programming / Longest Common Subsequence",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following is the regular expression to the string of the form $a^m b^{2n} c^{3p}$, where m, n, p ≥2.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "a* b* c*"
+        },
+        {
+          "label": "B",
+          "text": "aa* (bb)(bb)* ccc(ccc)*"
+        },
+        {
+          "label": "C",
+          "text": "aaa* (bbbb)(bb)* cccccc(ccc)*"
+        },
+        {
+          "label": "D",
+          "text": "aa(aa)* (bbbb)(bbbb)* cccccc (cccccc)*"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "aaa* (bbbb)(bb)* cccccc(ccc)*",
+      "explanation": "The string form is a^m b^2n c^3p, m, n, p ≥ 2.\ni.e., The strings are aabbbbcccccc, aaabbbbbbccccccccc, ……..\nThe regular expression will be\n(aa)a* (bbbb) (bb)* (cccccc)(ccc)*\n(minimum two a’s four b’s, six c’s will be there in the string).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Theory of Computation / Regular Expressions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following statements are TRUE.\n(i) 3^n + 1 ∈ O(3^n)\n(ii) 100n log n ∈ O(n log n)\n(iii) 2^n ≠ O(n^k); K is a constant.\n(iv) 0 < i < j; n^j ∈ O(n^i)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i, ii, iii)"
+        },
+        {
+          "label": "B",
+          "text": "(i, ii, iv)"
+        },
+        {
+          "label": "C",
+          "text": "(ii, iii)"
+        },
+        {
+          "label": "D",
+          "text": "(i, ii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "(i, ii, iii)",
+      "explanation": "0 < i < j\nn^j ≤ c * n^i which is false.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic Analysis / Big-O",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Suppose that we want to encode strings over the 8-character alphabet C = {a, b, c, d, e, f, g, h} by using Fixed Length Encoding, and the frequencies are given below:\na – 11, b – 13, c – 12, d – 10, e – 9, f – 7, g – 5, h – 3\nThe number of bits required to store string ‘abfeg’ is ______.",
+      "type": "NAT",
+      "options": [],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "15",
+      "correctText": "15",
+      "explanation": "If there are 8 characters, 7 merging operations would be performed. In fixed length coding each character takes same number of encoded bits, each character takes 3-bits.\n‘a b f e g’, 5 characters ⇒ 5 × 3 = 15 bits.",
+      "status": "confirmed",
+      "image": "images/Algorithms_3/algorithms_3-q012-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Greedy / Fixed-Length Encoding",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In Depth First search Algorithm, _____ number of times all the vertices are accessed, in a graph G(V, E):",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "one"
+        },
+        {
+          "label": "B",
+          "text": "two"
+        },
+        {
+          "label": "C",
+          "text": "three"
+        },
+        {
+          "label": "D",
+          "text": "four"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "two",
+      "explanation": "In Depth First search Algorithm, First all elements (V) will be pushed onto stack and followed by (V) pop operations.\n∴ Total V * V = 2V.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graphs / Depth First Search",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the number of substrings of any length excluding empty string, of a given string of length ‘n’, that can be formed?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "n^2"
+        },
+        {
+          "label": "B",
+          "text": "n log n"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{n(n+1)}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{n(n-1)}{2}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\frac{n(n+1)}{2}$",
+      "explanation": "Since the length of the given string is n, there are ‘n’ sub strings possible (excluding empty string) with first character. Similarly, (n – 1) substrings possible with second character and so on.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Strings / Substrings",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the time complexity of running Bellman-Ford Algorithm on K-Regular graph (K ≥ 3)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$O(n^2 \\log n)$"
+        },
+        {
+          "label": "B",
+          "text": "$O(n^3)$"
+        },
+        {
+          "label": "C",
+          "text": "$O(2^n)$"
+        },
+        {
+          "label": "D",
+          "text": "$O(n \\log n)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$O(n^3)",
+      "explanation": "K-Regular graph (K_n+1-graph) that is complete graph. Hence O(n^3).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graphs / Bellman-Ford",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given array\n4  2  6  4  2  6\nFor finding the first element in the array which is repeated, which of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sort the given array, in this sorted array, the first element is the repeated element."
+        },
+        {
+          "label": "B",
+          "text": "Use brute force method, every element is checked with all the other elements, return the first element which is repeated."
+        },
+        {
+          "label": "C",
+          "text": "Sort the given array in descending order, in this sorted array the first element is the repeated element."
+        },
+        {
+          "label": "D",
+          "text": "Both (A) and (B)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Use brute force method, every element is checked with all the other elements, return the first element which is repeated.",
+      "explanation": "In the sorted array First repeating element is ‘2’, but in the given array 4 is the first repeating element.\nSorted array in descending order:\n6  6  4  4  2  2\nIn the sorted array (descending order), The first repeating element is ‘6’.",
+      "status": "confirmed",
+      "image": "images/Algorithms_3/algorithms_3-q016-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Arrays / Duplicate Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nConsider the given multi stage graph.",
+      "text": "What is the shortest path from node ‘S’ to node ‘G’ using Greedy Approach?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "19"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_3/algorithms_3-q017-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "16",
+      "explanation": "Greedy Approach, pick the least possible weight at each phase.\n⇒ 2 + 5 + 9 = 16.",
+      "status": "confirmed",
+      "image": "images/Algorithms_3/algorithms_3-q017-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graphs / Shortest Path",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nConsider the given multi stage graph.",
+      "text": "What is the shortest path from node ‘S’ to node ‘G’ using Dynamic programming?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "16"
+        },
+        {
+          "label": "D",
+          "text": "19"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_3/algorithms_3-q018-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "6",
+      "explanation": "Shortest distance from node ‘u’ to node ‘v’ is shown by δ(u, v ) δ(A, G) = min {6 + δ(D, G), 5 + δ(E , G )}\nδ(C , G ) = min {1 + δ(F , G ), 6 + δ(F , G )}\nδ(E , G ) = 9",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Dynamic Programming / Shortest Path",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given Huffman code:\n110  100  11110 110\nHuffman code is constructed for the following set of letters whose frequencies are based on the first 8 Fibonacci numbers?\na – 1, b – 1, c – 2, d – 3, e – 5, f – 8, g – 13, h – 21\nWhich of the following sequence of letters correctly matches the given Huffman code?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "f g h a d"
+        },
+        {
+          "label": "B",
+          "text": "f g h c e"
+        },
+        {
+          "label": "C",
+          "text": "f g h d f"
+        },
+        {
+          "label": "D",
+          "text": "f g h d e"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_3/algorithms_3-q019-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "f g h d f",
+      "explanation": "a – 1, b – 1, c – 2, d – 3, e – 5, f – 8, g – 13, h – 21\nHuffman codes\na – 1111110\nb – 1111111\nc – 111110\nd – 11110\ne – 1110\nf – 110\ng – 10\nh – 0\nGiven code 110 10 0 11110 110\n      f   g h  d  f.",
+      "status": "confirmed",
+      "image": "images/Algorithms_3/algorithms_3-q019-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Greedy / Huffman Coding",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Implement Breadth-First search on the graph given below, starting at vertex A. Assume that the adjacency lists are in sorted order. Example when exploring vertex E, the algorithm considers the edge E – B, before E – C, E – F, E – G, or E – H. Which of the following is the order of vertices that are enqueued on the FIFO queue?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A, B, C, E, G, H, I, D, F"
+        },
+        {
+          "label": "B",
+          "text": "A, B, C, E, H, G, D, I, F"
+        },
+        {
+          "label": "C",
+          "text": "A, B, C, D, E, G, H, I, F"
+        },
+        {
+          "label": "D",
+          "text": "A, B, C, E, G, H, D, I, F"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_3/algorithms_3-q020-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "A, B, C, E, G, H, D, I, F",
+      "explanation": "Queue\ndequeue A, and enqueue its neighbours in lexicographic order\nDequeue B\nDequeue C\nDequeue E\nDequeue G\nDequeue H\nDequeue D\nDequeue I\nDequeue F",
+      "status": "confirmed",
+      "image": "images/Algorithms_3/algorithms_3-q020-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graphs / Breadth First Search",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the given graph\nImplement Depth First search Algorithm on the given graph, which of the following cannot be the sequence of poped elements?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "a, b, c, d, g, f, e"
+        },
+        {
+          "label": "B",
+          "text": "c, d, g, f, b, a, e"
+        },
+        {
+          "label": "C",
+          "text": "c, d, g, f, b, e, a"
+        },
+        {
+          "label": "D",
+          "text": "f, g, d, c, a, e, b"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_3/algorithms_3-q021-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "f, g, d, c, a, e, b",
+      "explanation": "a, b, c, d, g, f, e\npop ‘a’ and push its neighbours\npop ‘b’ pop ‘c’ pop ‘d’\npop ‘g’\npop ‘f’ pop ‘e’\npopped elements ⇒ a, b, c, d, g, f, e\nIn the same way check all the options.\nChoice (D) is incorrect.",
+      "status": "confirmed",
+      "image": "images/Algorithms_3/algorithms_3-q021-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graphs / Depth First Search",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nConsider the given graph.",
+      "text": "Consider the graph given in the above Question, Implement Breadth First search on the given graph, Which of the following cannot be the sequence of nodes Dequeued?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "d, c, g, f, b, a, e"
+        },
+        {
+          "label": "B",
+          "text": "g, f, d, c, b, a, e"
+        },
+        {
+          "label": "C",
+          "text": "f, c, g, b, d, a, e"
+        },
+        {
+          "label": "D",
+          "text": "e, a, c, d, g, f, b"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_3/algorithms_3-q022-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "e, a, c, d, g, f, b",
+      "explanation": "Option (A): d, c, g, f, b, a, e\ndequeue ‘d’ and Enqueue its neighbours \ndequeue 'c’ and Enqueue its neighbours \ndequeue 'g’ and Enqueue its neighbours \ndequeue 'f’\ndequeue ‘b’\ndequeue ‘a’\ndequeue ‘e’\nIn the same way, check all the option, options (D) is incorrect.",
+      "status": "confirmed",
+      "image": "images/Algorithms_3/algorithms_3-q022-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graphs / Breadth First Search",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The keys 22, 31, 46, 42, 58, 61, 64, 71, 83, 97 are inserted into an initially empty hash table of length 10 using open addressing with hash function h(k) = k mod 10 and Linear probing. What is the Resultant hash table?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Visual table shown for option A in the question image."
+        },
+        {
+          "label": "B",
+          "text": "Visual table shown for option B in the question image."
+        },
+        {
+          "label": "C",
+          "text": "Visual table shown for option C in the question image."
+        },
+        {
+          "label": "D",
+          "text": "Visual diagram shown for option D in the question image."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_3/algorithms_3-q023-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Visual table shown for option B in the question image.",
+      "explanation": "Linear Probing: when collision occurs, search for next empty slot from the place of collision, treat array as circular array.",
+      "status": "confirmed",
+      "image": "images/Algorithms_3/algorithms_3-q023-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Hashing / Linear Probing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the number of bits required to store a file of 200 characters, The frequencies of a, b, c, d are as follows a – 25, b – 50, c – 100, d – 25 using Fixed Length Encoding?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "200 bits"
+        },
+        {
+          "label": "B",
+          "text": "800 bits"
+        },
+        {
+          "label": "C",
+          "text": "400 bits"
+        },
+        {
+          "label": "D",
+          "text": "600 bits"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "400 bits",
+      "explanation": "a – 25, b – 50, c – 100, d – 25\nAfter Encoding\na – 00(2 bits)\nb – 01(2 bits)\nc – 10(2 bits)\nd – 11(2 bits)\nNumber of bits required\n= 25 × 2 + 50 × 2 + 100 × 2 + 25 × 2\n= 50 + 100 + 200 + 50\n= 400 bits.",
+      "status": "confirmed",
+      "image": "images/Algorithms_3/algorithms_3-q024-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Greedy / Fixed-Length Encoding",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nConsider the data given in the above question: a – 25, b – 50, c – 100, d – 25.",
+      "text": "Consider the data given in the above question what is the number of bits required to store the file using variable Length Encoding scheme?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "200 bits"
+        },
+        {
+          "label": "B",
+          "text": "250 bits"
+        },
+        {
+          "label": "C",
+          "text": "300 bits"
+        },
+        {
+          "label": "D",
+          "text": "350 bits"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "350 bits",
+      "explanation": "Variable Length Encoding is also called “Huffman coding”\nArrange the characters in increasing order\na – 25, d – 25, b – 50, c – 100\nAfter Encoding:\na – 000 (3 bits)\nb – 01 (2 bits)\nc – 1 (1 bit)\nd – 001 (3 bits)\nNumber of bits required\n= 25 × 3 + 50 × 2 + 25 × 3 + 100 × 1\n= 75 + 100 + 75 + 100\n= 350 bits.",
+      "status": "confirmed",
+      "image": "images/Algorithms_3/algorithms_3-q025-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Greedy / Huffman Coding",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the tasks T1, T2, T3, T4, T5. Following table shows, Deadlines and profits of the given tasks\nTask | Deadline | Profit\nT1 | 2 | 20\nT2 | 2 | 50\nT3 | 1 | 30\nT4 | 1 | 40\nT5 | 4 | 60\nWhich tasks are not executed?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "T1 and T2"
+        },
+        {
+          "label": "B",
+          "text": "T1 and T5"
+        },
+        {
+          "label": "C",
+          "text": "T1 and T3"
+        },
+        {
+          "label": "D",
+          "text": "T2 and T5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_3/algorithms_3-q026-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "T1 and T3",
+      "explanation": "Arrange the tasks in decreasing order according to their profits.\nT5  T2  T4  T3  T1\n4   2   1   1   2\n60  50  40  30  20\nT4  T2  T5\nT3 and T1 cannot be executed because their deadlines are 1 and 2 respectively.",
+      "status": "confirmed",
+      "image": "images/Algorithms_3/algorithms_3-q026-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Greedy / Job Sequencing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nConsider the tasks T1, T2, T3, T4, T5. Following table shows, Deadlines and profits of the given tasks\nTask | Deadline | Profit\nT1 | 2 | 20\nT2 | 2 | 50\nT3 | 1 | 30\nT4 | 1 | 40\nT5 | 4 | 60",
+      "text": "For the data given in the above question, what is the profit made from the tasks executed?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "150"
+        },
+        {
+          "label": "B",
+          "text": "90"
+        },
+        {
+          "label": "C",
+          "text": "120"
+        },
+        {
+          "label": "D",
+          "text": "130"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "150",
+      "explanation": "The executed Tasks are T2, T4 and T5 and the profit made is 40 + 50 + 60 = 150.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Greedy / Job Sequencing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nCommon Data for questions 28 and 29:\nConsider the given code:\nint fun (int k[ ], int n)\n{\nint counter = 0, max = 0;\nfor (int i = 0; i<n; i ++)\n{\ncounter = 0;\nfor (int j = 0; j <n; j++)\n{\nif (k[i] = = k[j])\ncounter ++;\n}\nif (counter >max)\nmax = counter;\n}\nreturn max;\n}",
+      "text": "What is the task performed by the given code?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Counting the number of swaps."
+        },
+        {
+          "label": "B",
+          "text": "Finding the element which appears maximum number of times in the array."
+        },
+        {
+          "label": "C",
+          "text": "Finding the element which appears minimum number of times in the array."
+        },
+        {
+          "label": "D",
+          "text": "Counting the number of comparisons."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Finding the element which appears maximum number of times in the array.",
+      "explanation": "The given code performs, For each input element, check whether there is any element with same value and for each such occurrence, increment the counter. Every time, check the current counter with the max and update it, if this value is greater than counter.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Analysis / Nested Loops",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nCommon Data for questions 28 and 29:\nConsider the given code:\nint fun (int k[ ], int n)\n{\nint counter = 0, max = 0;\nfor (int i = 0; i<n; i ++)\n{\ncounter = 0;\nfor (int j = 0; j <n; j++)\n{\nif (k[i] = = k[j])\ncounter ++;\n}\nif (counter >max)\nmax = counter;\n}\nreturn max;\n}",
+      "text": "What is the time complexity in executing the given code?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$O(\\log n)$"
+        },
+        {
+          "label": "B",
+          "text": "$O(n \\log n)$"
+        },
+        {
+          "label": "C",
+          "text": "$O(n^2)$"
+        },
+        {
+          "label": "D",
+          "text": "$O(n\\sqrt{n})$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$O(n^2)",
+      "explanation": "There are 2 nested loops, each loop will be executed ‘n’ times\n∴ n × n = O(n2).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Analysis / Time Complexity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nCommon Data for Questions 30 and 31:\nConsider the following code:\nvoid fun1(int k[ ], int n, int X)\n{\nfor (int i = 0; i < n; i++)\n{\nfor (j = i; j < n; j++)\n{\nif (k[i] + k[j] = = X)\n{\nprintf(“Items found”)\nreturn;\n}\n}\n}\nprintf(“Items Not found”);\n}",
+      "text": "The above code performs",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The sum of 2 array elements is equal to given ‘X’ value."
+        },
+        {
+          "label": "B",
+          "text": "Sum of adjacent elements whose sum is equal to given ‘X’ value."
+        },
+        {
+          "label": "C",
+          "text": "The sum of adjacent elements if they are equal."
+        },
+        {
+          "label": "D",
+          "text": "The sum of adjacent elements which are equal and equal to given ‘X’ value."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "The sum of 2 array elements is equal to given ‘X’ value.",
+      "explanation": "The given code performs sum of 2 array elements which is equal to given ‘X’ value.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Analysis / Code Complexity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nCommon Data for Questions 30 and 31:\nConsider the following code:\nvoid fun1(int k[ ], int n, int X)\n{\nfor (int i = 0; i < n; i++)\n{\nfor (j = i; j < n; j++)\n{\nif (k[i] + k[j] = = X)\n{\nprintf(“Items found”)\nreturn;\n}\n}\n}\nprintf(“Items Not found”);\n}",
+      "text": "What is the time complexity of given code?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$O(n \\log n)$"
+        },
+        {
+          "label": "B",
+          "text": "$O(n^2)$"
+        },
+        {
+          "label": "C",
+          "text": "$O(n^3)$"
+        },
+        {
+          "label": "D",
+          "text": "$O(\\log n)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$O(n^2)",
+      "explanation": "Outer loop executes ‘n + 1’ times\nInner loop executes ‘n – 1’ times\n∴ O(n2).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Analysis / Nested Loops",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nCommon Data for Questions 32 and 33:\nConsider the given graph,",
+      "text": "What is the eccentricity of node ‘d’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_3/algorithms_3-q032-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "6",
+      "explanation": "Eccentricity of a node is the maximum of minimum path from other nodes to the given node.\nmax { Min path (a − d) = 3, Min path (b − d) = 5, Min path (c − d) = 1, Min path (e − d) = 6 }\nEccentricity = 6",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graphs / Eccentricity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nCommon Data for Questions 32 and 33:\nConsider the given graph,",
+      "text": "What is the center of given graph?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Node ‘a’"
+        },
+        {
+          "label": "B",
+          "text": "Node ‘c’"
+        },
+        {
+          "label": "C",
+          "text": "Node ‘b’"
+        },
+        {
+          "label": "D",
+          "text": "Either Node ‘d’ or Node ‘e’"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_3/algorithms_3-q032-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Node ‘b'",
+      "explanation": "Center of a graph is a node with minimum eccentricity.\nEccentricity of Node ‘a’\nmax { dist (b − a) = 3, dist (c − a) = 6, dist (d − a) = 7, dist (e − a) = 4 } = 7\nEccentricity of Node ‘b’\nmax { dist (a − b) = 2, dist (c − b) = 3, dist (d − b) = 4, dist (e − b) = 1 } = 7\nEccentricity of Node ‘c’\nmax { dist (a − c) = 2, dist (b − c) = 4, dist (d − c) = 8, dist (e − c) = 5 } = 8\nEccentricity of Node ‘d’ is given in the above solution that is ‘6’\nEccentricity of Node ‘e’\nmax { dist (a − e) = 4, dist (b − e) = 6, dist (c − e) = 2, dist (d − e) = 3 } = 6\nCenter of a graph is min of all eccentricities min (7, 4, 8, 6, 6) = Node.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graphs / Graph Center",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nStatement for linked Answer questions 34 and 35:\n34. Consider the given graph",
+      "text": "Which of the following can be the sequence of edges added to minimum spanning tree using “Prims Algorithm”?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(a – b), (b – d), (d – c), (d – f ), ( f – g), ( f – e), (e – h)"
+        },
+        {
+          "label": "B",
+          "text": "(a – b), (b – d), (d – c), (d – f ), ( f – e), (e – g), (e – h)"
+        },
+        {
+          "label": "C",
+          "text": "(e – h), (e – f ), (e – g), ( f – d), (d – b), (b – a), (d – c)"
+        },
+        {
+          "label": "D",
+          "text": "(e – h), (e – f ), (e – g), (d – b), ( f – d), (b – a), (d – c)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_3/algorithms_3-q034-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "(e – h), (e – f ), (e – g), ( f – d), (d – b), (b – a), (d – c)",
+      "explanation": "If we start Prims Algorithm with edge (a – b) the sequence will be\n(a – b), (b – d), (d – c), (d – f ), ( f – e), (e – h), (e – g)\nIf it starts with edge (e – h) the sequence will be\n(e – h)(e – f )(e – g), ( f – d), (d – b), (b – a), (d – c).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graphs / Minimum Spanning Tree / Prim's Algorithm",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_3.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\nStatement for linked Answer questions 34 and 35:\n34. Consider the given graph",
+      "text": "What is the total weight of spanning tree (correct edge sequence) identified in the above question?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "17"
+        },
+        {
+          "label": "B",
+          "text": "19"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "21"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_3/algorithms_3-q035-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "19",
+      "explanation": "For the correct sequence\n(e – h) (e – f ) (e – g), ( f – d) (d – b) (b – a) (d – c)\n2 + 3 + 4 + 5 + 1 + 2 + 2 = 19.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graphs / Minimum Spanning Tree",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_3.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

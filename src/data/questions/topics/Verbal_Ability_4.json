@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "gate-verbal-ability-test-3-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 1 to 10: In each question the word at the top is used in four different ways. Select the option in which the usage of the word is INCORRECT or INAPPROPRIATE.",
+      "text": "COMMUNICATE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The deaf and dumb communicate by means of sign language."
+        },
+        {
+          "label": "B",
+          "text": "The excitement was palpable and communicated itself to the crowd."
+        },
+        {
+          "label": "C",
+          "text": "People living in the suburbs have to communicate a long distance every day."
+        },
+        {
+          "label": "D",
+          "text": "A contagious disease is communicated through physical contact."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "People living in the suburbs have to communicate a long distance every day.",
+      "explanation": "In sentence 3 the intended word is ‘commute’ (travel regularly by bus, train etc between your place of work and home) and not “communicate” (to exchange information, ideas etc).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary Usage",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 1 to 10: In each question the word at the top is used in four different ways. Select the option in which the usage of the word is INCORRECT or INAPPROPRIATE.",
+      "text": "OPPOSITE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Being an adolescent, Mrinal felt shy talking to members of the opposite sex."
+        },
+        {
+          "label": "B",
+          "text": "I expected the bride to be shy and quiet, but she was just the opposite."
+        },
+        {
+          "label": "C",
+          "text": "The Raos live further down, on the opposite side of the road."
+        },
+        {
+          "label": "D",
+          "text": "The bank is opposite to the supermarket."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "The bank is opposite to the supermarket.",
+      "explanation": "In sentence 4 opposite is a preposition meaning “on the other side of a particular area from something” and does not require ‘to’.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary Usage",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 1 to 10: In each question the word at the top is used in four different ways. Select the option in which the usage of the word is INCORRECT or INAPPROPRIATE.",
+      "text": "RAW",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dostovsky’s novels often portray life in the raw."
+        },
+        {
+          "label": "B",
+          "text": "Women labourers often get raw deal from contractors."
+        },
+        {
+          "label": "C",
+          "text": "Her own experiences provided the raw material for her first novel."
+        },
+        {
+          "label": "D",
+          "text": "Being marooned on the island forced them to eat raw meat."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Women labourers often get raw deal from contractors.",
+      "explanation": "In sentence 2 it should be ‘a raw deal’. The idiom means ‘the fact of somebody being treated unfairly’.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary Usage",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 1 to 10: In each question the word at the top is used in four different ways. Select the option in which the usage of the word is INCORRECT or INAPPROPRIATE.",
+      "text": "PICTURE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "There have been a number of changes recently - let me put you in picture."
+        },
+        {
+          "label": "B",
+          "text": "Atticus always told the old lady that she looked a picture."
+        },
+        {
+          "label": "C",
+          "text": "Ever since he went into pictures the couple have been drifting apart."
+        },
+        {
+          "label": "D",
+          "text": "From the reports, the picture for the service sector is encouraging."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "There have been a number of changes recently - let me put you in picture.",
+      "explanation": "Sentence 1 should read … in the picture. The idiomatic expression ‘to put somebody in the picture’ means to give somebody the information they need in order to understand a situation. In sentence 2 ‘to look a picture’ means to look very beautiful or special.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary Usage",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 1 to 10: In each question the word at the top is used in four different ways. Select the option in which the usage of the word is INCORRECT or INAPPROPRIATE.",
+      "text": "MASTER",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Vivek realised that he was expected to master Japanese before leaving for Japan."
+        },
+        {
+          "label": "B",
+          "text": "Tilak has a masters in Business Administration."
+        },
+        {
+          "label": "C",
+          "text": "The master bedroom was spacious and comfortable."
+        },
+        {
+          "label": "D",
+          "text": "“Don’t be led by others, be your own master,” Sampath said severely."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Tilak has a masters in Business Administration.",
+      "explanation": "When ‘masters’ refers to a university degree it takes the apostrophe, hence ‘Master’s in Business Administration’.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary Usage",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 1 to 10: In each question the word at the top is used in four different ways. Select the option in which the usage of the word is INCORRECT or INAPPROPRIATE.",
+      "text": "CLOSE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The soldiers advanced in a close formation."
+        },
+        {
+          "label": "B",
+          "text": "Over the next few months we have to keep a close eye on sales."
+        },
+        {
+          "label": "C",
+          "text": "Alind closed down in the nineties."
+        },
+        {
+          "label": "D",
+          "text": "The police often close ranks when one of their officers is accused."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "The soldiers advanced in a close formation.",
+      "explanation": "In sentence 1 ‘close’ means ‘without space’. Hence it is ‘close formation’ not ‘a close formation’. To “close ranks” (sentence 4) means to work closely together to defend themselves.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary Usage",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 1 to 10: In each question the word at the top is used in four different ways. Select the option in which the usage of the word is INCORRECT or INAPPROPRIATE.",
+      "text": "BACKGROUND",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The name ‘TIME’ is written in red on a white background."
+        },
+        {
+          "label": "B",
+          "text": "The film has good background music by Rehman."
+        },
+        {
+          "label": "C",
+          "text": "The elections in Sri Lanka took place on a background of violence."
+        },
+        {
+          "label": "D",
+          "text": "The Director asked for more background on the company’s financial position."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "The elections in Sri Lanka took place on a background of violence.",
+      "explanation": "In sentence 3, background refers to the past. It should be ‘. . . against a background of violence’ but not ‘on’.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary Usage",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 1 to 10: In each question the word at the top is used in four different ways. Select the option in which the usage of the word is INCORRECT or INAPPROPRIATE.",
+      "text": "DEFENCE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Whenever Roja was criticized, her brother leapt to her defence."
+        },
+        {
+          "label": "B",
+          "text": "Why don’t you give a chance for the body’s natural defence mechanism to protect it?"
+        },
+        {
+          "label": "C",
+          "text": "No cost is too high when it is for the defence of the country."
+        },
+        {
+          "label": "D",
+          "text": "News of an imminent attack forced the troops onto the defence."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "News of an imminent attack forced the troops onto the defence.",
+      "explanation": "Sentence 4 should read ‘ . . . onto the defensive’ - an idiom that means acting in a way that shows that you expect to be attacked or criticized.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary Usage",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 1 to 10: In each question the word at the top is used in four different ways. Select the option in which the usage of the word is INCORRECT or INAPPROPRIATE.",
+      "text": "CHANGE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The property changed hands several times in the last decade."
+        },
+        {
+          "label": "B",
+          "text": "Expecting a change of heart from that stubborn mule is useless."
+        },
+        {
+          "label": "C",
+          "text": "Some of my old dresses will have to be changed to fit me now."
+        },
+        {
+          "label": "D",
+          "text": "Marriage has changed Sania for better."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Some of my old dresses will have to be changed to fit me now.",
+      "explanation": "‘Change’ is a very general term that is used to describe any act of making something different. In sentence 3 the right word is ‘alter’ not ‘change’. You ‘alter’ something by making a difference in its appearance, character or use. You cannot use ‘change’ here.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary Usage",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 1 to 10: In each question the word at the top is used in four different ways. Select the option in which the usage of the word is INCORRECT or INAPPROPRIATE.",
+      "text": "EARTH",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yasho was the happiest person on earth when she won the gold medal."
+        },
+        {
+          "label": "B",
+          "text": "Aditya flung his bike on the earth and rushed inside when he saw smoke emanating form the house."
+        },
+        {
+          "label": "C",
+          "text": "The good earth always gives back several times what you put in."
+        },
+        {
+          "label": "D",
+          "text": "Be sure to earth household electrical gadgets so that they are safe to handle."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Aditya flung his bike on the earth and rushed inside when he saw smoke emanating form the house.",
+      "explanation": "To talk about our planet we use ‘earth’. Earth is also used to refer to the soil. As a verb it means making an electrical equipment safe by connecting it to the ground by a wire. But when we refer to the hard surface we walk on, we use ‘ground’ for outside and ‘floor’ for inside. In sentence 2 it should be ‘ground’ not earth.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Vocabulary Usage",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 11 to 20: In each of the following questions, a paragraph with a ‘blank’ is given. From the four choices, select the sentence, which can go into the blank to make the paragraph logically coherent.",
+      "text": "India has the distinction of becoming a country with a billion people. Thus, it becomes the second largest populated country in the world. (____.)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The global population has almost touched the six billion mark."
+        },
+        {
+          "label": "B",
+          "text": "Statistically speaking, every sixth person in the world is an Indian."
+        },
+        {
+          "label": "C",
+          "text": "Forced population control is not desirable."
+        },
+        {
+          "label": "D",
+          "text": "It is difficult to judge how many forests have been encroached upon."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Statistically speaking, every sixth person in the world is an Indian.",
+      "explanation": "The topic is about India. Global population, population, forests are irrelevant. Hence, option B is the only relevant choice.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 11 to 20: In each of the following questions, a paragraph with a ‘blank’ is given. From the four choices, select the sentence, which can go into the blank to make the paragraph logically coherent.",
+      "text": "In the armed forces, before independence, Muslims constituted around 35 percent of the total strength. (____.) Why so few Muslims?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Most of them were recruited from Punjab and nearby areas."
+        },
+        {
+          "label": "B",
+          "text": "Today, it has gone down to just a mere two percent out of a total close to a million."
+        },
+        {
+          "label": "C",
+          "text": "This is basically due to a lack of lobby."
+        },
+        {
+          "label": "D",
+          "text": "This can be attributed to a change in human behaviour."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Today, it has gone down to just a mere two percent out of a total close to a million.",
+      "explanation": "Option B is the only statement that leads to the question, “Why so few Muslims?”",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 11 to 20: In each of the following questions, a paragraph with a ‘blank’ is given. From the four choices, select the sentence, which can go into the blank to make the paragraph logically coherent.",
+      "text": "It would be a Herculean task to remodel our settlements to keep them clean through proper waste disposal systems. As such we have already realized that, recycling of waste liquids and solids would be a saner approach. (____.)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Now we are very used to human interference with nature."
+        },
+        {
+          "label": "B",
+          "text": "We may not be able to survive utilising the available resources."
+        },
+        {
+          "label": "C",
+          "text": "But organising such measures will involve considerable time, effort, management and education."
+        },
+        {
+          "label": "D",
+          "text": "Many of our organisation lack this foresight."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "But organising such measures will involve considerable time, effort, management and education.",
+      "explanation": "The first line has the words “Herculean task” indicating that the task is not easy. Option C brings out the aspect that such measures will require a lot in terms of time, effort, management and education. Option C is the right answer.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 11 to 20: In each of the following questions, a paragraph with a ‘blank’ is given. From the four choices, select the sentence, which can go into the blank to make the paragraph logically coherent.",
+      "text": "When a bird hits an aircraft, it can cause potentially catastrophic damage. (____.) So a team at Britain’s Defence Evaluation and Research Agency plans to use crystals that glow when fractured to warn of such unseen damage.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "This makes visual inspection of damage unreliable."
+        },
+        {
+          "label": "B",
+          "text": "This is one of the greatest dangers of information technology."
+        },
+        {
+          "label": "C",
+          "text": "This is the ease with which communication goes on these days."
+        },
+        {
+          "label": "D",
+          "text": "But in planes made of carbon composites, such damage may be impossible to spot."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "But in planes made of carbon composites, such damage may be impossible to spot.",
+      "explanation": "Choice D is the only relevant statement. Since, the damage could be impossible to spot, an agency is coming up with a new alternative (as suggested by the last line).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 11 to 20: In each of the following questions, a paragraph with a ‘blank’ is given. From the four choices, select the sentence, which can go into the blank to make the paragraph logically coherent.",
+      "text": "The General Electric Company is setting up India’s first multi-disciplinary research centre. (____.) It will contribute to the development of multi-disciplinary engineering capabilities in India.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Named the GE India Technology centre, it is also the largest of its kind."
+        },
+        {
+          "label": "B",
+          "text": "It plans to recruit 500 research scientists."
+        },
+        {
+          "label": "C",
+          "text": "This will help develop GE’s global business."
+        },
+        {
+          "label": "D",
+          "text": "The project will be over by December, 2000."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Named the GE India Technology centre, it is also the largest of its kind.",
+      "explanation": "Stylistically, the flow of the sentences is as follows: GE is going to set up a research center. Named . . ., it is . . . largest of its kind. It will (this research center will) contribute to . . . Hence, option A is the right answer, as it fits the blank perfectly.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 11 to 20: In each of the following questions, a paragraph with a ‘blank’ is given. From the four choices, select the sentence, which can go into the blank to make the paragraph logically coherent.",
+      "text": "One major change in careers is that one can work from home. (_____.) So far, only work relating to Information Technology has been thus affected. It is expected that many other careers will afford this flexibility in the future.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Therefore one should develop a confident, outgoing personality."
+        },
+        {
+          "label": "B",
+          "text": "There is no such thing as a permanent job."
+        },
+        {
+          "label": "C",
+          "text": "New technologies ensure that geographical distance is not a hindrance to one’s work."
+        },
+        {
+          "label": "D",
+          "text": "While it is true that people will switch jobs faster than ever before, one must be loyal to one’s organisation."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "New technologies ensure that geographical distance is not a hindrance to one’s work.",
+      "explanation": "Sentence 3 is the ideal choice because it supports the previous sentence and explains the subsequent sentences.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 11 to 20: In each of the following questions, a paragraph with a ‘blank’ is given. From the four choices, select the sentence, which can go into the blank to make the paragraph logically coherent.",
+      "text": "(____.) There are several cave paintings, stone engravings and carved figures which bear this out. The Neanderthal man attempted this too, but his drawings of the tools he used show that they were rather crude.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Prehistoric man used sophisticated tools for drawing and carving figures."
+        },
+        {
+          "label": "B",
+          "text": "The Cro-Magnon man, who was the forerunner of modern man, earned his daily bread through paintings."
+        },
+        {
+          "label": "C",
+          "text": "The Cro-Magnon man, who was the forerunner of modern man, was the first fine artist in the history of man’s evolution."
+        },
+        {
+          "label": "D",
+          "text": "Prehistoric man pursued painting and carving figures as a hobby."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Prehistoric man used sophisticated tools for drawing and carving figures.",
+      "explanation": "The second line states, “There were . . . Figures which bear this out. He attempted to create his daily life through this. The Neanderthal man attempted this too, but his drawings of the tools . . . So, we need a statement in the blank which is a general statement on the pre-historic man and drawing/painting. Our choice narrows down to (A) and (D). Out of these two choices, option A is better because it contrasts the sophisticated tools used by pre historic man with crude ones used by Neanderthal man.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 11 to 20: In each of the following questions, a paragraph with a ‘blank’ is given. From the four choices, select the sentence, which can go into the blank to make the paragraph logically coherent.",
+      "text": "The natural atmosphere which man has inherited from the past, has been deteriorating under the impact of industrialization. Factories pump millions of tons of dust into the air, vehicles spread fumes and sprays are used to kill agricultural pests – all combine to change the ideal picture. (____.) The situation near big cities and heavily industrialized areas has become particularly bad, and the air is not fit for breathing.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Movement of vehicular traffic on the roads should be restricted."
+        },
+        {
+          "label": "B",
+          "text": "The pollution of air has become a matter of great concern because it continues to increase as civilization spreads."
+        },
+        {
+          "label": "C",
+          "text": "Society will have to move towards stricter pollution control."
+        },
+        {
+          "label": "D",
+          "text": "The atmosphere should be protected as it is a great and irreplaceable resource for living."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "The pollution of air has become a matter of great concern because it continues to increase as civilization spreads.",
+      "explanation": "Sentence 2 explains how air pollution has increased with the spread of civilization. This sentence explains the last sentence of the paragraph.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 11 to 20: In each of the following questions, a paragraph with a ‘blank’ is given. From the four choices, select the sentence, which can go into the blank to make the paragraph logically coherent.",
+      "text": "In recent times, the number of working women has increased considerably in urban areas. With more and more women opting for career-oriented courses, offices and business establishments are flooded with applications from qualified women. (____.) Women are working side by side with men in all walks of life.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A working woman’s life is not a bed of roses."
+        },
+        {
+          "label": "B",
+          "text": "In fact, there are very few workplaces today which do not have single women."
+        },
+        {
+          "label": "C",
+          "text": "It is possible to maintain a good standard of living only if the woman contributes to the family income."
+        },
+        {
+          "label": "D",
+          "text": "Even in small towns and villages, most women are employed."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Even in small towns and villages, most women are employed.",
+      "explanation": "Choice (D) best supports the argument put forth in the paragraph.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 11 to 20: In each of the following questions, a paragraph with a ‘blank’ is given. From the four choices, select the sentence, which can go into the blank to make the paragraph logically coherent.",
+      "text": "For several thousands of years, the moon has been the only satellite of the earth. Today, however, the earth has many other satellites – all made by man. (____.) However, some of them will still be going around the earth thousands of years from now.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Artificial satellites do not fall because they are not affected by earth’s gravity."
+        },
+        {
+          "label": "B",
+          "text": "They travel in an orbit around the earth."
+        },
+        {
+          "label": "C",
+          "text": "As they speed along, they tend to go straight off into space."
+        },
+        {
+          "label": "D",
+          "text": "These artificial satellites are very much smaller than the moon."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "These artificial satellites are very much smaller than the moon.",
+      "explanation": "Choice (D) speaks about artificial satellites, which though smaller than the moon will revolve around the earth even after several years. The sentence emphasizes the power of artificial satellites.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 21 to 30: In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words are suggested, one of which fits the blank appropriately. Find the appropriate word in each case and mark its number as your answer. In most developed and developing nations, the illicit trade in live wild animals is (21). Each year millions of (22) are wrenched from their natural habitats by people (23) to make quick money, then routed through a ragtag chain of middlemen and international dealers to meet the (24) demand of private collectors in Saudi Arabia, pet shops in Germany, Japan and the U.S.; zoos and circuses in Eastern Europe and folk healers in Asia. According to a wildlife expert, it is the third biggest (25) business, after drugs and arms. Though many exotic species can be purchased (26) trade in animals and birds that are in (27) danger of extinction is (28) under the United Nations Convention on International Trade in Endangered Species (CITES), which has been signed by 120 nations. The treaty also regulates trade in other species that are seriously threatened, but its provisions are widely (29), even in signatory countries. Tigers have all but (30) from China and are fast disappearing from India and Siberia.",
+      "text": "Blank (21) in the following passage.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "diminishing"
+        },
+        {
+          "label": "B",
+          "text": "unfavourable"
+        },
+        {
+          "label": "C",
+          "text": "miserable"
+        },
+        {
+          "label": "D",
+          "text": "flourishing"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "flourishing",
+      "explanation": "The illicit trade in wild animals is prospering or growing or ‘flourishing’ in most developed and developing nations. The passage goes on to explain how it is ‘flourishing’. All the other choices are negative terms which are inappropriate in this context.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Cloze Test",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 21 to 30: In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words are suggested, one of which fits the blank appropriately. Find the appropriate word in each case and mark its number as your answer. In most developed and developing nations, the illicit trade in live wild animals is (21). Each year millions of (22) are wrenched from their natural habitats by people (23) to make quick money, then routed through a ragtag chain of middlemen and international dealers to meet the (24) demand of private collectors in Saudi Arabia, pet shops in Germany, Japan and the U.S.; zoos and circuses in Eastern Europe and folk healers in Asia. According to a wildlife expert, it is the third biggest (25) business, after drugs and arms. Though many exotic species can be purchased (26) trade in animals and birds that are in (27) danger of extinction is (28) under the United Nations Convention on International Trade in Endangered Species (CITES), which has been signed by 120 nations. The treaty also regulates trade in other species that are seriously threatened, but its provisions are widely (29), even in signatory countries. Tigers have all but (30) from China and are fast disappearing from India and Siberia.",
+      "text": "Blank (22) in the following passage.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "creatures"
+        },
+        {
+          "label": "B",
+          "text": "categories"
+        },
+        {
+          "label": "C",
+          "text": "people"
+        },
+        {
+          "label": "D",
+          "text": "characters"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "creatures",
+      "explanation": "Animals live in their natural habitat. These ‘creatures’ are wrenched or harshly pulled away from their natural habitat.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Cloze Test",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 21 to 30: In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words are suggested, one of which fits the blank appropriately. Find the appropriate word in each case and mark its number as your answer. In most developed and developing nations, the illicit trade in live wild animals is (21). Each year millions of (22) are wrenched from their natural habitats by people (23) to make quick money, then routed through a ragtag chain of middlemen and international dealers to meet the (24) demand of private collectors in Saudi Arabia, pet shops in Germany, Japan and the U.S.; zoos and circuses in Eastern Europe and folk healers in Asia. According to a wildlife expert, it is the third biggest (25) business, after drugs and arms. Though many exotic species can be purchased (26) trade in animals and birds that are in (27) danger of extinction is (28) under the United Nations Convention on International Trade in Endangered Species (CITES), which has been signed by 120 nations. The treaty also regulates trade in other species that are seriously threatened, but its provisions are widely (29), even in signatory countries. Tigers have all but (30) from China and are fast disappearing from India and Siberia.",
+      "text": "Blank (23) in the following passage.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "hopeless"
+        },
+        {
+          "label": "B",
+          "text": "agreeable"
+        },
+        {
+          "label": "C",
+          "text": "desperate"
+        },
+        {
+          "label": "D",
+          "text": "susceptible"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "desperate",
+      "explanation": "Who are the people who wrench these creatures away from their natural habitat? They are those who are ‘desperately’ looking for quick money. The ‘desperate’ desire to make quick money drives these people to get themselves involved in this illicit trade.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Cloze Test",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 21 to 30: In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words are suggested, one of which fits the blank appropriately. Find the appropriate word in each case and mark its number as your answer. In most developed and developing nations, the illicit trade in live wild animals is (21). Each year millions of (22) are wrenched from their natural habitats by people (23) to make quick money, then routed through a ragtag chain of middlemen and international dealers to meet the (24) demand of private collectors in Saudi Arabia, pet shops in Germany, Japan and the U.S.; zoos and circuses in Eastern Europe and folk healers in Asia. According to a wildlife expert, it is the third biggest (25) business, after drugs and arms. Though many exotic species can be purchased (26) trade in animals and birds that are in (27) danger of extinction is (28) under the United Nations Convention on International Trade in Endangered Species (CITES), which has been signed by 120 nations. The treaty also regulates trade in other species that are seriously threatened, but its provisions are widely (29), even in signatory countries. Tigers have all but (30) from China and are fast disappearing from India and Siberia.",
+      "text": "Blank (24) in the following passage.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "fulfilled"
+        },
+        {
+          "label": "B",
+          "text": "imperative"
+        },
+        {
+          "label": "C",
+          "text": "unavoidable"
+        },
+        {
+          "label": "D",
+          "text": "insatiable"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "insatiable",
+      "explanation": "The paragraph goes on to give a list of people who are interested in this trade – from private collectors to folk healers. Hence there is always a heavy demand or an ‘insatiable’ (impossible to satisfy) demand for these animals.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Cloze Test",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 21 to 30: In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words are suggested, one of which fits the blank appropriately. Find the appropriate word in each case and mark its number as your answer. In most developed and developing nations, the illicit trade in live wild animals is (21). Each year millions of (22) are wrenched from their natural habitats by people (23) to make quick money, then routed through a ragtag chain of middlemen and international dealers to meet the (24) demand of private collectors in Saudi Arabia, pet shops in Germany, Japan and the U.S.; zoos and circuses in Eastern Europe and folk healers in Asia. According to a wildlife expert, it is the third biggest (25) business, after drugs and arms. Though many exotic species can be purchased (26) trade in animals and birds that are in (27) danger of extinction is (28) under the United Nations Convention on International Trade in Endangered Species (CITES), which has been signed by 120 nations. The treaty also regulates trade in other species that are seriously threatened, but its provisions are widely (29), even in signatory countries. Tigers have all but (30) from China and are fast disappearing from India and Siberia.",
+      "text": "Blank (25) in the following passage.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "licensed"
+        },
+        {
+          "label": "B",
+          "text": "virtual"
+        },
+        {
+          "label": "C",
+          "text": "authentic"
+        },
+        {
+          "label": "D",
+          "text": "illegal"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "illegal",
+      "explanation": "But this trade in live wild animals is an ‘illegal’ business and is rated next to drugs and arms business at the global level. It cannot be ‘authentic’ or ‘licensed’ or ‘legal’ as the second para goes on to explain the directives of the CITES treaty made by various nations in order to protect the endangered species from extinction.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Cloze Test",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 21 to 30: In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words are suggested, one of which fits the blank appropriately. Find the appropriate word in each case and mark its number as your answer. In most developed and developing nations, the illicit trade in live wild animals is (21). Each year millions of (22) are wrenched from their natural habitats by people (23) to make quick money, then routed through a ragtag chain of middlemen and international dealers to meet the (24) demand of private collectors in Saudi Arabia, pet shops in Germany, Japan and the U.S.; zoos and circuses in Eastern Europe and folk healers in Asia. According to a wildlife expert, it is the third biggest (25) business, after drugs and arms. Though many exotic species can be purchased (26) trade in animals and birds that are in (27) danger of extinction is (28) under the United Nations Convention on International Trade in Endangered Species (CITES), which has been signed by 120 nations. The treaty also regulates trade in other species that are seriously threatened, but its provisions are widely (29), even in signatory countries. Tigers have all but (30) from China and are fast disappearing from India and Siberia.",
+      "text": "Blank (26) in the following passage.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "inequitably"
+        },
+        {
+          "label": "B",
+          "text": "immorally"
+        },
+        {
+          "label": "C",
+          "text": "legally"
+        },
+        {
+          "label": "D",
+          "text": "profitably"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "legally",
+      "explanation": "Some of these exotic species can be purchased. The use of ‘though’ indicates that this purchase is considered ‘legal’ with reference to certain species of animals and birds which are available in plenty. Further the sentence goes on to say that trade in some species of birds and animals that are near extinction is not allowed under the UN convention. Hence ‘legally’ is the most appropriate word.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Cloze Test",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 21 to 30: In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words are suggested, one of which fits the blank appropriately. Find the appropriate word in each case and mark its number as your answer. In most developed and developing nations, the illicit trade in live wild animals is (21). Each year millions of (22) are wrenched from their natural habitats by people (23) to make quick money, then routed through a ragtag chain of middlemen and international dealers to meet the (24) demand of private collectors in Saudi Arabia, pet shops in Germany, Japan and the U.S.; zoos and circuses in Eastern Europe and folk healers in Asia. According to a wildlife expert, it is the third biggest (25) business, after drugs and arms. Though many exotic species can be purchased (26) trade in animals and birds that are in (27) danger of extinction is (28) under the United Nations Convention on International Trade in Endangered Species (CITES), which has been signed by 120 nations. The treaty also regulates trade in other species that are seriously threatened, but its provisions are widely (29), even in signatory countries. Tigers have all but (30) from China and are fast disappearing from India and Siberia.",
+      "text": "Blank (27) in the following passage.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "imminent"
+        },
+        {
+          "label": "B",
+          "text": "preliminary"
+        },
+        {
+          "label": "C",
+          "text": "precursory"
+        },
+        {
+          "label": "D",
+          "text": "terrible"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "imminent",
+      "explanation": "There are certain species of animals and birds that are in ‘imminent’ (impending) danger of extinction. Trading of such animals and birds are considered illegal.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Cloze Test",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 21 to 30: In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words are suggested, one of which fits the blank appropriately. Find the appropriate word in each case and mark its number as your answer. In most developed and developing nations, the illicit trade in live wild animals is (21). Each year millions of (22) are wrenched from their natural habitats by people (23) to make quick money, then routed through a ragtag chain of middlemen and international dealers to meet the (24) demand of private collectors in Saudi Arabia, pet shops in Germany, Japan and the U.S.; zoos and circuses in Eastern Europe and folk healers in Asia. According to a wildlife expert, it is the third biggest (25) business, after drugs and arms. Though many exotic species can be purchased (26) trade in animals and birds that are in (27) danger of extinction is (28) under the United Nations Convention on International Trade in Endangered Species (CITES), which has been signed by 120 nations. The treaty also regulates trade in other species that are seriously threatened, but its provisions are widely (29), even in signatory countries. Tigers have all but (30) from China and are fast disappearing from India and Siberia.",
+      "text": "Blank (28) in the following passage.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "authorized"
+        },
+        {
+          "label": "B",
+          "text": "recommended"
+        },
+        {
+          "label": "C",
+          "text": "sanctioned"
+        },
+        {
+          "label": "D",
+          "text": "banned"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "banned",
+      "explanation": "It is considered illegal because it has been ‘banned’ by the CITES, a world organisation established in order to protect endangered species of birds and animals globally.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Cloze Test",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 21 to 30: In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words are suggested, one of which fits the blank appropriately. Find the appropriate word in each case and mark its number as your answer. In most developed and developing nations, the illicit trade in live wild animals is (21). Each year millions of (22) are wrenched from their natural habitats by people (23) to make quick money, then routed through a ragtag chain of middlemen and international dealers to meet the (24) demand of private collectors in Saudi Arabia, pet shops in Germany, Japan and the U.S.; zoos and circuses in Eastern Europe and folk healers in Asia. According to a wildlife expert, it is the third biggest (25) business, after drugs and arms. Though many exotic species can be purchased (26) trade in animals and birds that are in (27) danger of extinction is (28) under the United Nations Convention on International Trade in Endangered Species (CITES), which has been signed by 120 nations. The treaty also regulates trade in other species that are seriously threatened, but its provisions are widely (29), even in signatory countries. Tigers have all but (30) from China and are fast disappearing from India and Siberia.",
+      "text": "Blank (29) in the following passage.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "defended"
+        },
+        {
+          "label": "B",
+          "text": "ignored"
+        },
+        {
+          "label": "C",
+          "text": "cherished"
+        },
+        {
+          "label": "D",
+          "text": "maintained"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "ignored",
+      "explanation": "The treaty not only ‘bans’ the trade of certain endangered species but also regulates trade in other species that are threatened. But still the illegal trade of all these animals continues to flourish even in the 120 countries that have signed the treaty. This means that the treaty and its directives are ‘ignored’ even by these countries. All the other choices are positive and conveys an opposite meaning and hence are incorrect.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Cloze Test",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 21 to 30: In the following passage there are blanks, each of which has been numbered. These numbers are printed below the passage and against each, five words are suggested, one of which fits the blank appropriately. Find the appropriate word in each case and mark its number as your answer. In most developed and developing nations, the illicit trade in live wild animals is (21). Each year millions of (22) are wrenched from their natural habitats by people (23) to make quick money, then routed through a ragtag chain of middlemen and international dealers to meet the (24) demand of private collectors in Saudi Arabia, pet shops in Germany, Japan and the U.S.; zoos and circuses in Eastern Europe and folk healers in Asia. According to a wildlife expert, it is the third biggest (25) business, after drugs and arms. Though many exotic species can be purchased (26) trade in animals and birds that are in (27) danger of extinction is (28) under the United Nations Convention on International Trade in Endangered Species (CITES), which has been signed by 120 nations. The treaty also regulates trade in other species that are seriously threatened, but its provisions are widely (29), even in signatory countries. Tigers have all but (30) from China and are fast disappearing from India and Siberia.",
+      "text": "Blank (30) in the following passage.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "departed"
+        },
+        {
+          "label": "B",
+          "text": "depleted"
+        },
+        {
+          "label": "C",
+          "text": "withdrawn"
+        },
+        {
+          "label": "D",
+          "text": "vanished"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "vanished",
+      "explanation": "The last sentence says that tigers are fast disappearing from India and Siberia. Preceding this, it says tigers have already disappeared from China. Hence ‘vanished’ is the most appropriate choice. ‘Deplete’ or ‘withdrawn’ or ‘depart’ shows that they are decreasing. But the sentence suggests that tigers have already disappeared from China. Hence choice D is most appropriate.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Cloze Test",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 31 to 40: In each of the following questions a pair of words in capitals is given followed by four numbered pairs of words. Select from the choices the pair which exhibits the same relationship as the capitalised pair of words and mark the number as your answer.",
+      "text": "COGENT : CONVINCING",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Insane : Distinguished"
+        },
+        {
+          "label": "B",
+          "text": "Laconic : Pithy"
+        },
+        {
+          "label": "C",
+          "text": "Illogical : Reasonable"
+        },
+        {
+          "label": "D",
+          "text": "Jovial : Abstruse"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Laconic : Pithy",
+      "explanation": "Cogent and convincing are synonyms as are laconic and pithy.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Analogy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 31 to 40: In each of the following questions a pair of words in capitals is given followed by four numbered pairs of words. Select from the choices the pair which exhibits the same relationship as the capitalised pair of words and mark the number as your answer.",
+      "text": "RETROSPECTION : PAST",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Syllogism : Logic"
+        },
+        {
+          "label": "B",
+          "text": "Idiosyncrasy : Coherence"
+        },
+        {
+          "label": "C",
+          "text": "Prognostication : Future"
+        },
+        {
+          "label": "D",
+          "text": "Transience : Rigidity"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Prognostication : Future",
+      "explanation": "Retrospection is analysis of something related to the past. Prognostication means prediction, which is related to the future.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Analogy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 31 to 40: In each of the following questions a pair of words in capitals is given followed by four numbered pairs of words. Select from the choices the pair which exhibits the same relationship as the capitalised pair of words and mark the number as your answer.",
+      "text": "EULOGISE : LAMBAST",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mystify : Narrate"
+        },
+        {
+          "label": "B",
+          "text": "Dissemble : Besmirch"
+        },
+        {
+          "label": "C",
+          "text": "Invigorate : Debilitate"
+        },
+        {
+          "label": "D",
+          "text": "Malinger : Adhere"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Invigorate : Debilitate",
+      "explanation": "Eulogise means praise, whereas lambast indicates criticism. Hence, option (C) is the answer as this choice also has a pair of antonyms. ‘Invigorate’ means ‘to energise’ and ‘debilitate’ means to ‘weaken’.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Analogy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 31 to 40: In each of the following questions a pair of words in capitals is given followed by four numbered pairs of words. Select from the choices the pair which exhibits the same relationship as the capitalised pair of words and mark the number as your answer.",
+      "text": "LION : PRIDE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rabbit : Burrow"
+        },
+        {
+          "label": "B",
+          "text": "Pup : Litter"
+        },
+        {
+          "label": "C",
+          "text": "Whale : Consort"
+        },
+        {
+          "label": "D",
+          "text": "Sow : Sty"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Pup : Litter",
+      "explanation": "A group of lions is referred to as a ‘pride’, whereas a group of pups (puppies) is called ‘litter’.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Analogy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 31 to 40: In each of the following questions a pair of words in capitals is given followed by four numbered pairs of words. Select from the choices the pair which exhibits the same relationship as the capitalised pair of words and mark the number as your answer.",
+      "text": "PENURIOUS : AFFLUENCE",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Interrogation : Accusation"
+        },
+        {
+          "label": "B",
+          "text": "Garnishment : Command"
+        },
+        {
+          "label": "C",
+          "text": "Taciturn : Verbosity"
+        },
+        {
+          "label": "D",
+          "text": "Condemnation : Mischief"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Taciturn : Verbosity",
+      "explanation": "Antonyms",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Analogy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q036",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 31 to 40: In each of the following questions a pair of words in capitals is given followed by four numbered pairs of words. Select from the choices the pair which exhibits the same relationship as the capitalised pair of words and mark the number as your answer.",
+      "text": "MACHIAVELLIAN : DECEIT",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Amphibious : Plants"
+        },
+        {
+          "label": "B",
+          "text": "Acquisition : Assumption"
+        },
+        {
+          "label": "C",
+          "text": "Acquittal : Suit"
+        },
+        {
+          "label": "D",
+          "text": "Naïve : Gullibility"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Naïve : Gullibility",
+      "explanation": "A machiavellian person indulges in deceit. A naïve person shows gullibility.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Analogy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q037",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 31 to 40: In each of the following questions a pair of words in capitals is given followed by four numbered pairs of words. Select from the choices the pair which exhibits the same relationship as the capitalised pair of words and mark the number as your answer.",
+      "text": "BENEVOLENT : GRASPING",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Repulsive : Pushing"
+        },
+        {
+          "label": "B",
+          "text": "Euphonious : Discordant"
+        },
+        {
+          "label": "C",
+          "text": "Churlish : Impolite"
+        },
+        {
+          "label": "D",
+          "text": "Rebellious : Disorderly"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Euphonious : Discordant",
+      "explanation": "Antonymous relationship",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Analogy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q038",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 31 to 40: In each of the following questions a pair of words in capitals is given followed by four numbered pairs of words. Select from the choices the pair which exhibits the same relationship as the capitalised pair of words and mark the number as your answer.",
+      "text": "FRIGHTEN : PETRIFY",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Enamour : Protect"
+        },
+        {
+          "label": "B",
+          "text": "Sneer : Appreciate"
+        },
+        {
+          "label": "C",
+          "text": "Abbreviate : Interest"
+        },
+        {
+          "label": "D",
+          "text": "Humiliate : Mortify"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Humiliate : Mortify",
+      "explanation": "Relationship of degree. Petrify indicates extreme fright. Mortify indicates extreme humiliation.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Analogy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q039",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 31 to 40: In each of the following questions a pair of words in capitals is given followed by four numbered pairs of words. Select from the choices the pair which exhibits the same relationship as the capitalised pair of words and mark the number as your answer.",
+      "text": "MUNIFICENT : STINGY",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Inclement : Merciless"
+        },
+        {
+          "label": "B",
+          "text": "Incorrigible : Recalcitrant"
+        },
+        {
+          "label": "C",
+          "text": "Articulate : Obscure"
+        },
+        {
+          "label": "D",
+          "text": "Egregious : Outstanding"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Articulate : Obscure",
+      "explanation": "A munificent person is generous (not stingy) Likewise, any argument which is articulate is very clear (not obscure).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Analogy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-3-q040",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_4.pdf",
+      "direction": "Directions for questions 31 to 40: In each of the following questions a pair of words in capitals is given followed by four numbered pairs of words. Select from the choices the pair which exhibits the same relationship as the capitalised pair of words and mark the number as your answer.",
+      "text": "EUPHORIC : ECSTASY",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Modified : Version"
+        },
+        {
+          "label": "B",
+          "text": "Redundant : Relevant"
+        },
+        {
+          "label": "C",
+          "text": "Licentious : Sentiment"
+        },
+        {
+          "label": "D",
+          "text": "Cryptic : Enigma"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Cryptic : Enigma",
+      "explanation": "Cryptic and enigma are also synonymous. In both the first is an adjective and the second a noun.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Word Analogy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_4.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

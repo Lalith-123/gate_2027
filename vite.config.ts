@@ -4,5 +4,11 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: './'
+  base: './',
+  build: {
+    // Question crops are tiny but numerous. Keep them as separate files instead
+    // of inlining base64 into the bundle, so the JS stays small and cacheable.
+    assetsInlineLimit: (filePath) =>
+      filePath.replace(/\\/g, '/').includes('/questions/images/') ? false : undefined,
+  },
 })
