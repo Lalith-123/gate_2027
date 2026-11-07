@@ -1,0 +1,2110 @@
+[
+  {
+    "id": "gate-quantitative-ability-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In how many ways can five boys and five girls be arranged around a circular table such that on either side of every boy, a girl must sit?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2560"
+        },
+        {
+          "label": "B",
+          "text": "2880"
+        },
+        {
+          "label": "C",
+          "text": "120"
+        },
+        {
+          "label": "D",
+          "text": "1440"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2880",
+      "explanation": "First arrange the girls in the circle as shown in the diagram. They can be arranged in $(5-1)!$ ways.\n\nThen there are 5 gaps and the 5 boys can be seated in these gaps in 5! Ways.\n\nThe total number of arrangements is $4!\\times5!=2880$. Choice (B)",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_6/quantitative_ability_6-q001-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Circular permutations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Twelve boys have to be seated in a row such that two particular boys occupy the middle two positions. In how many ways can they be seated?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{12!}{2!}$"
+        },
+        {
+          "label": "B",
+          "text": "$10! 2!$"
+        },
+        {
+          "label": "C",
+          "text": "$12!$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{10!}{2!}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$10! 2!$",
+      "explanation": "There are two middle positions (6th and 7th). The two particular boys can occupy the middle two positions in 2! ways. The remaining 10 boys can be seated in 10! ways.\n\nThe total number of ways = $(10!)(2!)$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Linear permutations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "How many five letter words can be formed using the letters of the word “QUESTION” so that the word contains 2 vowels and 3 consonants?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5670"
+        },
+        {
+          "label": "B",
+          "text": "120"
+        },
+        {
+          "label": "C",
+          "text": "2880"
+        },
+        {
+          "label": "D",
+          "text": "1440"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "2880",
+      "explanation": "The word QUESTION, contains 4 vowels and 4 consonants; 2 vowels and 3 consonants can be selected from 4 vowels and 4 consonants in $^4C_2 . ^4C_3$ ways. = 6 × 4 = 24.\n\nAgain these 5 letters can be rearranged among themselves in 5! ways.\n\nThe total number of 5 letter words formed = $5!\\times24=120\\times24=2880$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Selection and arrangement",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "There are seven pairs of shoes. In how many ways can one select 4 shoes from them such that no complete pair is included among them?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "840"
+        },
+        {
+          "label": "B",
+          "text": "420"
+        },
+        {
+          "label": "C",
+          "text": "13440"
+        },
+        {
+          "label": "D",
+          "text": "560"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "560",
+      "explanation": "Since there are 7 pairs of shoes and 4 shoes are to be selected without any complete pair being included in it, the 4 shoes must be from 4 different pairs.\n\nThis can be done in $^7C_4$ ways (choosing 4 pairs from the 7 pairs). Now from each of these 4 pairs, one can select a shoe in 2 ways (i.e., any one of the two shoes present in each pair).\n\nTherefore the total number of ways in which one can select 4 shoes from 7 pairs of shoes such that no complete pair is included among them = $^7C_4(2)(2)(2)(2)=35(16)=560$ ways. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Combinations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "There are 4 apples, 3 oranges and 6 mangoes in a basket. In how many ways can one select one or more fruits from the basket?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "139"
+        },
+        {
+          "label": "B",
+          "text": "140"
+        },
+        {
+          "label": "C",
+          "text": "71"
+        },
+        {
+          "label": "D",
+          "text": "72"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "139",
+      "explanation": "We can choose the apples in 5 ways i.e., either choosing 0 apples or 1 apple or 2 apples or 3 apples or 4 apples. Similarly the oranges can be chosen in 4 ways and the mangoes can be chosen in 7 ways.\n\nTherefore the total number of ways in which one can select one or more fruits from 4 apples, 3 oranges and 6 mangoes = 5 × 4 × 7 − 1 = 139 ways.\n(we subtract 1 for the case where we select 0 apples, 0 oranges and 0 mangoes i.e., no fruit at all). Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Combinations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "There are 10 questions in a paper each with four options, of which only one is correct. In how many ways can a student get exactly 7 questions correct given that he attempted all the questions?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2400"
+        },
+        {
+          "label": "B",
+          "text": "2880"
+        },
+        {
+          "label": "C",
+          "text": "3240"
+        },
+        {
+          "label": "D",
+          "text": "3600"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "3240",
+      "explanation": "In each question, there are 3 wrong options and exactly one correct option.\n\nThe number of ways in which a student gets exactly 7 questions correct = $^{10}C_7(3)^3$.\n$^{10}C_7$ gives us the number of ways in which the student selects seven questions (in which the student marks correct option) from the given 10 questions.\n$3^3$ gives us the number of ways in which the student answers the 3 questions which he gets wrong.\nTherefore the required number of ways = 3240. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Selections",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A number is formed using the digits 5, 8, 1, 4 and 3. When we arrange the numbers in ascending order find the rank of the number 58413. (Each digit occurs at most once in each number)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "228"
+        },
+        {
+          "label": "B",
+          "text": "290"
+        },
+        {
+          "label": "C",
+          "text": "299"
+        },
+        {
+          "label": "D",
+          "text": "300"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "300",
+      "explanation": "The number of single digit numbers = 5.\nGiven digits are {5, 8, 1, 3, 7}.\nThe number of two digit numbers formed with the digits is $^5P_2=20$. The number of three digit numbers formed with the digits is $^5P_2=60$.\nThe number of four digit numbers formed with digits is $^5P_4=120$.\nThe number of five digit numbers formed which begin with either 1 or 3 or 4 is 4!.\nThe number of five digit numbers formed which begin with 51 or 53 or 54 is 3!.\nThe number of 5 digit numbers which begin with 581 or 583 is 21.\nThe next number 58413.\nThe rank of the number 58413 is 5 + 20 + 60 + 120 + 3(24) + 3(6) + 2(2) + 1 = 300. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Rank of permutations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A team of 11 is to be selected from two groups A and B, which consist of 10 and 8 persons respectively. In how many ways can this team be selected such that exactly five members are selected from the first eight persons of group A?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "11,760"
+        },
+        {
+          "label": "B",
+          "text": "10,760"
+        },
+        {
+          "label": "C",
+          "text": "12,760"
+        },
+        {
+          "label": "D",
+          "text": "11,670"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "11,760",
+      "explanation": "In group A, there are 10 persons.\nFrom first 8 persons 5 can be selected in $^8C_5$ ways and remaining 6 must be selected from the remaining 2 persons of group A and 8 persons from group B. This can be done in $^{10}C_6$.\n\nThe required number of ways = $^8C_5 ^{10}C_6 = 11760$. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Combinations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In how many arrangements of the word MATHEMATICS, the two A’s are separated?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{10!}{2!2!2!}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{9!}{2!2!2!}$"
+        },
+        {
+          "label": "C",
+          "text": "$9\\times10!$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{9\\times10!}{2!2!2!}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\frac{9\\times10!}{2!2!2!}$",
+      "explanation": "The total number of words that can be formed is $\\frac{11!}{2!2!2!}$.\nNumber of arrangements in which the 2 A’s are together = $\\frac{10!}{2!2!}$.\n\nTotal number of arrangements in which the A’s are separated = Total number of words − number of words, in which the two A’s together.\n\n$=\\frac{10!}{2!2!}\\left(\\frac{11}{2}-1\\right)=\\frac{9(10!)}{2!2!2!}$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Repeated letters",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Find the number of ways of arranging the letters of the word CALENDAR in such a way that exactly two letters are present in between L and D?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2640"
+        },
+        {
+          "label": "B",
+          "text": "3600"
+        },
+        {
+          "label": "C",
+          "text": "2600"
+        },
+        {
+          "label": "D",
+          "text": "7200"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "3600",
+      "explanation": "CALENDAR\n12345678\nThere are 5 positions to fix the L and D i.e., (1, 4), (2, 5), (3, 6), (4, 7) and (5, 8) and L and D can be interchanged. The remaining 6 letters can be arranged in $\\frac{6!}{2!}$ ways.\n\nRequired number of ways = $\\frac{6!}{2!}\\times5\\times2=360\\times10=3600$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Repeated letters",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "There are 12 men and 7 women. In how many ways can a team of six members be formed such that there are atmost two women?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "16,683"
+        },
+        {
+          "label": "B",
+          "text": "16,386"
+        },
+        {
+          "label": "C",
+          "text": "16,863"
+        },
+        {
+          "label": "D",
+          "text": "16,638"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "16,863",
+      "explanation": "The following table gives the complete possibilities of selecting the team as per the given conditions.\n\nTotal number of ways of selecting the team = $^{12}C_4 ^7C_2 + ^{12}C_5 ^7C_1 + ^{12}C_6$\n= 10395 + 5544 + 924 = 16863. Choice (C)",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_6/quantitative_ability_6-q011-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Combinations with restrictions",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Three bags X, Y and Z contain six, five and four marbles respectively. A person has to choose 11 marbles at random. In how many ways can this be done such that at least 3 marbles are to be chosen from each bag.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "860"
+        },
+        {
+          "label": "B",
+          "text": "840"
+        },
+        {
+          "label": "C",
+          "text": "960"
+        },
+        {
+          "label": "D",
+          "text": "870"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "870",
+      "explanation": "The following table will give the number of marbles selected from each bag and the number of ways of selecting them.\n\nTotal number of ways = 870. Choice (D)",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_6/quantitative_ability_6-q012-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Combinations with lower bounds",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In a factory there are three class I employees, two class II employees, three class III employees and four class IV employees. A team of five members is to be formed. In how many ways can this be done if the team must have at least one class I and at most two class IV employees?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "590"
+        },
+        {
+          "label": "B",
+          "text": "491"
+        },
+        {
+          "label": "C",
+          "text": "600"
+        },
+        {
+          "label": "D",
+          "text": "591"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "591",
+      "explanation": "The following table gives the number of persons of each category and the number of ways of selecting them as per the given conditions.\n\nTotal = 591. Choice (D)",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_6/quantitative_ability_6-q013-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Combinations with category constraints",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "There are two groups X and Y in a colony. X consists of five boys and four girls, Y consists of four boys and five girls. They plan an educational tour of four boys and four girls such that exactly four persons are selected from each of the two groups. In how many ways can this be done?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5626"
+        },
+        {
+          "label": "B",
+          "text": "5026"
+        },
+        {
+          "label": "C",
+          "text": "15876"
+        },
+        {
+          "label": "D",
+          "text": "43758"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "5626",
+      "explanation": "The following table shows the number of persons and the number of ways of selecting them as per the given conditions.\n\nTotal = 5626. Choice (A)",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_6/quantitative_ability_6-q014-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Combinations with group constraints",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "There are 20 players and 6 of them are from Hyderabad. In how many ways can a team of 12 players be formed so that exactly three persons of the team are from Hyderabad?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4004"
+        },
+        {
+          "label": "B",
+          "text": "20020"
+        },
+        {
+          "label": "C",
+          "text": "40040"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "40040",
+      "explanation": "There are 20 players, of them 6 are from Hyderabad. Exactly 3 players can be selected from 6 players in $^6C_3$ ways and the remaining 9 players are to be selected from the remaining 14 players. This can be done in $^{14}C_9$ ways.\n\nTotal number of ways of selecting the team = $^6C_3 ^{14}C_9 = 40040$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Combinations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In how many ways can five men and five women be seated in a row, so that all men are sitting together and all women are sitting together?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(5!)^2$"
+        },
+        {
+          "label": "B",
+          "text": "$(5!)^2 2!$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{(5!)^2}{2!}$"
+        },
+        {
+          "label": "D",
+          "text": "$(5!)^2 4!$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$(5!)^2 2!$",
+      "explanation": "There are 5 men and 5 women.\nAs all men and all women are to sit together, treat all men as one unit and all women as one unit.\nThe two units can be arranged in 2! ways.\nBut five men and five women can arrange among themselves in 5! 5! ways.\n\nTotal number of ways they can sit is given by $(5!)^2 2!$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Block permutations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "For a company board meeting, eight directors and a chairperson have to be seated around a circle. If two particular directors are seated on either sides of the chairperson, in how many ways can they be seated?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1440"
+        },
+        {
+          "label": "B",
+          "text": "1200"
+        },
+        {
+          "label": "C",
+          "text": "10080"
+        },
+        {
+          "label": "D",
+          "text": "1080"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1440",
+      "explanation": "As two particular directors are to sit on either sides of the chairperson we treat these three as one unit. The remaining six directors and this one unit of three persons can sit around a circular table in $(7-1)!=6!$ ways.\n\nBut the two directors sitting on either side of the chairperson can arrange themselves in 2! ways.\nThe required number of arrangements possible = $6!2!=1440$ ways. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Circular permutations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In how many ways can seven persons be selected from 14 persons such that two particular persons are selected and three other particular persons are not selected?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "120"
+        },
+        {
+          "label": "B",
+          "text": "126"
+        },
+        {
+          "label": "C",
+          "text": "300"
+        },
+        {
+          "label": "D",
+          "text": "240"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "126",
+      "explanation": "Total there are 14 persons, of them two particular persons are always selected.\nWe need to select only 5 persons from 14 − 2 = 12 persons. As three other particular persons are not to be selected, keeping them away there are only nine persons left from which we have to select any five persons.\nThis is possible in $^9C_5=126$ ways. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Restricted combinations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "There are six different consonants and three different vowels of the English alphabet. The number of words that can be formed using them such that each word contains two vowels and three consonants is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3600"
+        },
+        {
+          "label": "B",
+          "text": "1800"
+        },
+        {
+          "label": "C",
+          "text": "2400"
+        },
+        {
+          "label": "D",
+          "text": "7200"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "7200",
+      "explanation": "There are 6 consonants, of them 3 can be selected in $^6C_3$ ways. Similarly, 2 vowels can be selected in $^3C_2$ ways.\nThese 3 consonants and 2 vowels can be arranged in 5! Ways.\n\nTotal number of words that can be formed = $^6C_3\\times{}^3C_2\\times5!=7200$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Word formation",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Find the number of sides of a regular polygon in which the number of diagonals is equal to one and half times the number of its sides.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "6",
+      "explanation": "The number of diagonals of a regular polygon of n sides = $\\frac{n(n-3)}{2}$.\n\nIt is given that, $\\frac{n(n-3)}{2}=\\frac{3}{2}n\\Rightarrow n=6$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Combinatorial geometry",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Find the number of ways of arranging the letters of the word RAINBOW such that the vowels occupy odd places.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "7!"
+        },
+        {
+          "label": "B",
+          "text": "720"
+        },
+        {
+          "label": "C",
+          "text": "576"
+        },
+        {
+          "label": "D",
+          "text": "120"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "576",
+      "explanation": "There are seven letters in the word RAINBOW, of them three are vowels and four are consonants.\nThere are four odd places, three vowels can occupy four places in $^4P_3$ ways and the remaining 4 places can be occupied by the remaining 4 consonants in 4! ways.\n\nTotal number of arrangements possible in given by $^4P_3\\times4!=576$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Arrangements with positional restrictions",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "On Sports Day in a school, some competitions are held. Every student has to play exactly one game with every other student. It was found that in 36 games both players were girls and in 126 games one player was a boy and the other was a girl. Find the number of games played in which both players were boys.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "56"
+        },
+        {
+          "label": "B",
+          "text": "72"
+        },
+        {
+          "label": "C",
+          "text": "91"
+        },
+        {
+          "label": "D",
+          "text": "45"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "91",
+      "explanation": "Let m boys and n girls participate in the competitions.\nGiven the number of games in which both players are girls = 36.\n$\\Rightarrow{}^nC_2=36$\n$\\Rightarrow\\frac{n(n-1)}{2}=36\\Rightarrow n=9$.\n\nNumber of girls = n = 9.\nThe number of games in which one boy and one girl participated = 126.\n$^mC_1 nC_1=126$\n$m(9)=126\\Rightarrow m=14$.\nNumber of boys, m = 14.\nNumber of games, in which both players were boys = $^mC_2=^{14}C_2=\\frac{14(13)}{1(2)}=91$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Combinations from pair counts",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A box contains coins of denominations 50 paisa, ₹1, ₹2 and ₹5. Given that there are unlimited coins of each type, find the number of ways of selecting the coins so that any such selection gives a total amount of ₹10.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "49"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "48"
+        },
+        {
+          "label": "D",
+          "text": "46"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "49",
+      "explanation": "The number of ₹5 coins that can be selected is 0, 1 or 2. Let x, y and z represent the number of 50 paise, ₹1 and ₹2 coins respectively to be selected.\n\nCase 1 : When the number of ₹5 coins selected is zero, then $\\frac{x}{2}+y+2z=10$ i.e., $x+2y+4z=20$.\n\nIf z = 0, then y = 0, 1, 2, …10; the number of solutions = 11.\nz = 1, then y = 0, 1, 2, …8; the number of solutions = 9.\n\nz = 5, then y = 0 and x = 0; the number of solutions = 1.\n\nThe number of possible selections in this case = 1 + 3 + 5 + 7 + 9 + 11 = 36.\nSimilarly, we can show that, the number of selections when one 5 rupee coin is selected = 12.\nThe number of selections when two 5 rupee coins are selected = 1.\nHence, the total number of possible selections = 36 + 12 + 1 = 49. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Coin-selection combinations",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Find the number of ways in which the letters of the word THURSDAY can be arranged such that no word starts with T or ends with Y.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "9360"
+        },
+        {
+          "label": "B",
+          "text": "31680"
+        },
+        {
+          "label": "C",
+          "text": "29520"
+        },
+        {
+          "label": "D",
+          "text": "30960"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "30960",
+      "explanation": "The number of words that start with T and end with Y = 6!.\nKeeping T and Y fixed in the first and the last places, the remaining 6 letters can be arranged in 6! or 720 ways.\n\nThe number of words starting with T = 7!.\nKeeping T fixed in the first place, the remaining seven letters can be arranged in the remaining seven places in 7! or 5040 ways.\n\nTherefore (5040 − 720) words start with T but do not end with Y. Similarly (5040 − 720) words end with Y but do not start with T. The total number of words that can be formed using all the letters in the given word = 8!.\n\nTherefore, the number of words that do not start with T or end with Y = 8! − 4320 − 4320 − 720 = 30960. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Inclusion-exclusion",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "How many natural numbers are there from 10000 to 1000000 for which the sum of the digits is 3?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "36"
+        },
+        {
+          "label": "C",
+          "text": "27"
+        },
+        {
+          "label": "D",
+          "text": "35"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "36",
+      "explanation": "It could be five–a digit or a six–digit number.\n\nCase I: It is a five digit number.\nDigits used (in that order) / No of values:\n3, 0: 3---- : 1\n2, 1: 2---- : $^4C_1=4$\n1, 2: 1---- : $^4C_1=4$\n1, 1, 1: 1---- : $^4C_2=6$\nTotal 15\n\nCase II: It is a six–digit number.\nDigits used / No. of values:\n3, 0: 3----- : 1\n2, 1: 2----- : $^5C_1=5$\n1, 2: 1----- : $^5C_1=5$\n1, 1, 1: 1----- : $^5C_2=10$\nTotal 21\n\nTherefore the total number of natural numbers from 10000 to 1000000 such that the sum of the digits is 3 = 15 + 21 = 36. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Digit-sum counting",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The number of ways of posting seven different letters into three post boxes so that at least one letter is posted in each post box is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1806"
+        },
+        {
+          "label": "B",
+          "text": "1803"
+        },
+        {
+          "label": "C",
+          "text": "2184"
+        },
+        {
+          "label": "D",
+          "text": "2059"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1806",
+      "explanation": "The possible combinations, internal arrangements and total number of ways in case of each combination are listed below.\n\nTotal = 1806. Choice (A)",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_6/quantitative_ability_6-q026-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Distribution into boxes",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A palindrome is a word, which spells the same when read from left to right or from right to left. How many palindromes of length 8 can be formed using the operative symbols +, –, ÷ and ×?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "8!"
+        },
+        {
+          "label": "B",
+          "text": "$2^{16}$"
+        },
+        {
+          "label": "C",
+          "text": "256"
+        },
+        {
+          "label": "D",
+          "text": "243"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "256",
+      "explanation": "The first and eighth places must be filled with the same symbol. This can be done in 4 ways. Similarly the second and seventh place must be filled with same symbol. This can be done in 4 ways.\n\nSimilarly, the other entries can be filled.\n\nThe number of ways for forming a palindrome of length 8 symbols is $4^4=256$. Choice (C)",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_6/quantitative_ability_6-q027-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Palindromes",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Six identical balls have to be placed in the square cells of the given figure such that each row contains at least one ball. In how many ways can this be done? (Given that each square can take at the most one ball)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "84"
+        },
+        {
+          "label": "B",
+          "text": "76"
+        },
+        {
+          "label": "C",
+          "text": "77"
+        },
+        {
+          "label": "D",
+          "text": "81"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_6/quantitative_ability_6-q028-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "81",
+      "explanation": "There are 9 boxes in total, so the 6 identical balls can be placed in these boxes in $^9C_6$ ways. These include 3 ways in which the balls are placed in exactly two rows.\n\nRequired number of ways = $^9C_6 − 3 = 84 − 3 = 81$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Grid placement",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The number of two digit codes that can be formed using the digits 0 to 9 with ‘0’ not taking the tens place and an odd number taking the units place is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "40"
+        },
+        {
+          "label": "B",
+          "text": "50"
+        },
+        {
+          "label": "C",
+          "text": "45"
+        },
+        {
+          "label": "D",
+          "text": "36"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "45",
+      "explanation": "Units place can be filled with 1, 3, 5, 7 or 9 and the tens can be filled with any of the 9 non-zero digits.\n\nThe number of two digit codes that can be formed = 9 × 5 = 45. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Code formation",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "There are 5 balls of different colours and 5 boxes of colours the same as those of the balls. The number of ways in which the balls, one in each box can be placed such that a ball does not go to a box of its own colour is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "40"
+        },
+        {
+          "label": "B",
+          "text": "44"
+        },
+        {
+          "label": "C",
+          "text": "42"
+        },
+        {
+          "label": "D",
+          "text": "36"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "44",
+      "explanation": "Required number of ways\n\n$=n!\\left(1-\\frac1{1!}+\\frac1{2!}-\\frac1{3!}+\\cdots+(-1)^n\\frac1{n!}\\right)$\n\n$=5!\\left(1-\\frac1{1!}+\\frac1{2!}-\\frac1{3!}+\\frac1{4!}-\\frac1{5!}\\right)$\n\n$=5!\\left(\\frac1{2!}-\\frac1{3!}+\\frac1{4!}-\\frac1{5!}\\right)$\n$=60-20+5-1=44$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Derangements",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A question paper consists of 5 problems, each problem having 3 internal choices. In how many ways can a candidate attempt one or more problems?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "63"
+        },
+        {
+          "label": "B",
+          "text": "511"
+        },
+        {
+          "label": "C",
+          "text": "1023"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1023",
+      "explanation": "Given that, the question paper consists of 5 problems.\nFor each problem, one or two or three or none of the choices can be attempted.\n\nHence, the required number of ways = $4^5-1=2^{10}-1=1024-1=1023$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Counting choices",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Six points are marked on a straight line and five points marked on another line which is parallel to the first line. How many straight lines, including the first two, can be formed with these points?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "29"
+        },
+        {
+          "label": "B",
+          "text": "33"
+        },
+        {
+          "label": "C",
+          "text": "55"
+        },
+        {
+          "label": "D",
+          "text": "32"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "32",
+      "explanation": "We know that, the number of straight lines that can be formed by the ‘n’ points in which r points are collinear and no other set of three points, except those that can be selected out of these r points are collinear) is $^nC_2-^rC_2+1$.\n\nHence, the required number of straight lines = $^{11}C_2-^6C_2-^5C_2+1+1 = 55-15-10+2 = 32$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Collinear points",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Sixteen guests have to be seated around two circular tables, each accommodating 8 members. 3 particular guests desire to sit at one particular table and 4 others at the other table. The number of ways of arranging these guests is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$^9C_5$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{9!(7!)}{4!5!}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{9!(7!)^2}{4!5!}$"
+        },
+        {
+          "label": "D",
+          "text": "$(7!)^2$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\frac{9!(7!)^2}{4!5!}$",
+      "explanation": "After arranging 3 and 4 particular guests, the remaining number of people is 9.\nTo arrange on first table we require 5 members. They can be selected in $^9C_5$ ways.\nTo arrange on the second table, we require 4 members. They can be selected in $^4C_4$ ways.\n\nHence, required arrangements is = $^9C_5 (7!) (7!) = ^9C_5 (7!)^2$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Circular table distributions",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In how many ways can one or more of 5 letters be posted into 4 mail boxes, if any letter can be posted into any of the boxes?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$5^4$"
+        },
+        {
+          "label": "B",
+          "text": "$4^5$"
+        },
+        {
+          "label": "C",
+          "text": "$5^5-1$"
+        },
+        {
+          "label": "D",
+          "text": "$4^5-1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$5^5-1$",
+      "explanation": "Let the letters be L₁, L₂, L₃, L₄ and L₅ and the mail boxes be B₁, B₂, B₃, B₄. Now L₁ can be dealt in 5 ways i.e., either post it into B₁ or B₂ or B₃ or B₄ or do not post it at all (since one or more letters have to be posted, there is a possibility of not posting L₁ at all). Similarly each of L₂, L₃, L₄ and L₅ can be dealt in 5 ways, giving us a total of 5⁵ possibilities which includes the case of not posting any of the letters, which has to be ruled out. Hence the required ways are 5⁵ − 1. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Distribution into boxes",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The number of non negative integral solutions to the equation a + b + c = 14 is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "78"
+        },
+        {
+          "label": "B",
+          "text": "45"
+        },
+        {
+          "label": "C",
+          "text": "120"
+        },
+        {
+          "label": "D",
+          "text": "110"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "120",
+      "explanation": "We know that, the number of non negative integral solutions of a₁ + a₂ + a₃ +-------+ aᵣ = n is ⁿ⁺ʳ⁻¹Cᵣ⁻¹ here n = 14 r = 3.\n\nRequired answer is (14 + 3 − 1) C₃−₁ = ¹⁶C₂ = 120. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Stars and bars",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

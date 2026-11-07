@@ -1,0 +1,1806 @@
+[
+  {
+    "id": "gate-algorithms-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The worst case running time of an algorithm means",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The algorithm will never take any longer."
+        },
+        {
+          "label": "B",
+          "text": "The algorithm will take less time than running time"
+        },
+        {
+          "label": "C",
+          "text": "The algorithm will run in a finite time"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "The algorithm will never take any longer.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Algorithm analysis and complexity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Analyzing an algorithm involves",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Evaluating the complexity"
+        },
+        {
+          "label": "B",
+          "text": "Validating the Algorithm"
+        },
+        {
+          "label": "C",
+          "text": "Both A and B"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both A and B",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Algorithm analysis and complexity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "$f(n)=\\theta(g(n))$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$g(n)$ is asymptotic lower bound for $f(n)$"
+        },
+        {
+          "label": "B",
+          "text": "$g(n)$ is asymptotic tight bound for $f(n)$"
+        },
+        {
+          "label": "C",
+          "text": "$g(n)$ is asymptotic upper bound for $f(n)$"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$g(n)$ is asymptotic tight bound for $f(n)$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic notation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which case yields the necessary information about an algorithm’s behaviour on a random input?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Best-case"
+        },
+        {
+          "label": "B",
+          "text": "Worst-case"
+        },
+        {
+          "label": "C",
+          "text": "Average-case"
+        },
+        {
+          "label": "D",
+          "text": "Both A and C"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Average-case",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Algorithm analysis and complexity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Algorithms that require an exponential number of operations are practical for solving.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only problems of very small size"
+        },
+        {
+          "label": "B",
+          "text": "Problems of large size"
+        },
+        {
+          "label": "C",
+          "text": "Problems of any size"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Only problems of very small size",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Algorithm analysis and complexity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Problems that can be solved in polynomial time are called",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tractable"
+        },
+        {
+          "label": "B",
+          "text": "Decidable"
+        },
+        {
+          "label": "C",
+          "text": "Solvable"
+        },
+        {
+          "label": "D",
+          "text": "Computable"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Tractable",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Complexity classes",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Problems that cannot be solved at all by any algorithm are known as",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tractable"
+        },
+        {
+          "label": "B",
+          "text": "Undecidable"
+        },
+        {
+          "label": "C",
+          "text": "Untractable"
+        },
+        {
+          "label": "D",
+          "text": "Unsolvable"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Undecidable",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Decidability and computability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following problems is decidable but intractable?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hamiltonian circuit"
+        },
+        {
+          "label": "B",
+          "text": "Traveling sales man"
+        },
+        {
+          "label": "C",
+          "text": "Knapsack problem"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Complexity classes",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which method is used to solve recurrences?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Substitution method"
+        },
+        {
+          "label": "B",
+          "text": "Recursion-tree method"
+        },
+        {
+          "label": "C",
+          "text": "Master method"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Recurrence relations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the following\n(i) Input\n(ii) Output\n(iii) Finiteness\n(iv) Definiteness means clear and unambiguous\n(v) Effectiveness\n\nWhich of the following is not a property of an algorithm?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(iv) only"
+        },
+        {
+          "label": "B",
+          "text": "(iv) and (v) only"
+        },
+        {
+          "label": "C",
+          "text": "(iii) and (iv) only"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of the above",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Properties of algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Finiteness of an algorithm means",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The steps of the algorithm should be finite"
+        },
+        {
+          "label": "B",
+          "text": "The algorithm should terminate after finite time"
+        },
+        {
+          "label": "C",
+          "text": "Algorithm must terminate after a finite number of steps"
+        },
+        {
+          "label": "D",
+          "text": "Algorithm should consume very less space"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Algorithm must terminate after a finite number of steps",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Properties of algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Asymptotic analysis on efficiency of algorithm means",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The efficiency of the algorithm on a particular machine"
+        },
+        {
+          "label": "B",
+          "text": "How the running time of an algorithm increases as the size increases without bound"
+        },
+        {
+          "label": "C",
+          "text": "How efficiently the algorithm is applied to solve a problem without thinking of input size."
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of the above",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "What is the input size of a problem?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Number of variables used to solve the problem"
+        },
+        {
+          "label": "B",
+          "text": "Number of constants used to solve the problem"
+        },
+        {
+          "label": "C",
+          "text": "it is problem specific that is in case of graph it is number of edges and vertices and so on."
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "it is problem specific that is in case of graph it is number of edges and vertices and so on.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Algorithm analysis and complexity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "(i) An algorithm must take input\n(ii) An algorithm must give out put\nWhich is true in the following options?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) Only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) Only"
+        },
+        {
+          "label": "C",
+          "text": "(i) and (ii) Only"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "(ii) Only",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Properties of algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "As $n\\to\\infty$\n\nWhich of the following is efficient?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\theta(n^3)$"
+        },
+        {
+          "label": "B",
+          "text": "$\theta(n^2)$"
+        },
+        {
+          "label": "C",
+          "text": "$\theta(2^n)$"
+        },
+        {
+          "label": "D",
+          "text": "$\theta(n^4)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\theta(n^2)$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Suppose\n$T_1(n)=O(f(n))$\n$T_2(n)=O(f(n))$\nwhich of the following is true,.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$T_1(n)+T_2(n)=O(f(n))$"
+        },
+        {
+          "label": "B",
+          "text": "$\frac{T_1(n)}{T_2(n)}=O(1)$"
+        },
+        {
+          "label": "C",
+          "text": "$T_1(n)=O(T_2(n))$"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$T_1(n)+T_2(n)=O(f(n))$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The following program computes $n!$\nFind the complexity?\nInput: A non-negative integer\nOutput: Value of $n!$\nIf $n=0$ return 1\nElse return $F(n-1)\\ n$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\theta(n)$"
+        },
+        {
+          "label": "B",
+          "text": "$\theta(n\\log n)$"
+        },
+        {
+          "label": "C",
+          "text": "$\theta(n^2)$"
+        },
+        {
+          "label": "D",
+          "text": "$\theta(n^3)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\theta(n)$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Recursion and time complexity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following functions are often referred as ‘exponential growth function’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2^n$, $\\log n$"
+        },
+        {
+          "label": "B",
+          "text": "$2^n$, $n!$"
+        },
+        {
+          "label": "C",
+          "text": "$n!$, $n\\log n$"
+        },
+        {
+          "label": "D",
+          "text": "$n!$, $\\log n$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$2^n$, $n!$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Growth rates",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the following code\n```text\nsort (a, n)\n{\n    for i = 1 to n do\n    {\n        j = i;\n        for k = i + 1 to n do\n            if (a[k] < a [j]) then j = k;\n        t = a[i];\n        a[i] = a[j];\n        a[j] = t;\n    }\n}\n```\nThe above code implements which sorting?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Merge sort"
+        },
+        {
+          "label": "B",
+          "text": "selection sort"
+        },
+        {
+          "label": "C",
+          "text": "Insertion sort"
+        },
+        {
+          "label": "D",
+          "text": "Radix sort"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Merge sort",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Sorting algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Assume that the number of disks in a ‘Towers of Hanoi problem’ is ‘n’, with ‘3’ towers, Initially all disks are placed on tower 1, to get the largest disk are placed on tower 1, to get the largest disk to the bottom of 2nd tower, How many moves are required?\n(∴ n = 3)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$n$"
+        },
+        {
+          "label": "B",
+          "text": "$(n-1)$"
+        },
+        {
+          "label": "C",
+          "text": "$(n+1)$"
+        },
+        {
+          "label": "D",
+          "text": "$2n$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$(n+1)$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Recursion and Towers of Hanoi",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Each new term in Fibonacci sequence is obtained by taking the sum of the two previous terms. The first term of the sequence is $f_0=0$, and the second term $f_1=1$. Which of the following gives Fibonacci sequence?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$f_n=f_{n+1}+f_{n-2},\\ n\\geq 2$"
+        },
+        {
+          "label": "B",
+          "text": "$f_n=f_{n-1}+f_{n-2},\\ n\\geq 2$"
+        },
+        {
+          "label": "C",
+          "text": "$f_n=f_{n-1}+f_{n+1},\\ n\\geq 2$"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$f_n=f_{n-1}+f_{n-2},\\ n\\geq 2$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Recurrence relations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the binary search tree\n\nDelete node ‘31’, what would be the parent node in the new binary search tree?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "36"
+        },
+        {
+          "label": "B",
+          "text": "40"
+        },
+        {
+          "label": "C",
+          "text": "81"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_1/algorithms_1-q022-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "36",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Binary search trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the given array [4, 6, 7, 8, 21, 9, 3, 10, 13, 16, 31] after performing ‘1’ delete max operation, on the max heap. What would be the sequence of elements in the array?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "9, 21, 13, 16, 3, 7, 10, 8, 4, 6"
+        },
+        {
+          "label": "B",
+          "text": "21, 9, 13, 16, 7, 3, 10, 8, 4, 6"
+        },
+        {
+          "label": "C",
+          "text": "21, 9, 13, 16, 3, 7, 10, 8, 4, 6"
+        },
+        {
+          "label": "D",
+          "text": "21, 9, 13, 16, 7, 3, 10, 4, 8, 6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "21, 9, 13, 16, 7, 3, 10, 8, 4, 6",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Heaps",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the given Di-graph\n\nHow many strongly connected components does the above graph contain?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "many"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_1/algorithms_1-q024-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Directed graphs and strongly connected components",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the given graph.\n\nWhich of the following shows the adjacency matrix of the above graph?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\begin{bmatrix}0&1&1&0&0&0&0&0\\1&0&1&0&0&0&0&0\\1&1&0&1&1&0&0&0\\0&0&1&0&0&0&0&0\\0&0&1&0&0&1&1&0\\0&0&0&0&1&0&0&0\\0&0&0&0&1&0&0&1\\0&0&0&0&0&0&1&0\\end{bmatrix}"
+        },
+        {
+          "label": "B",
+          "text": "\\begin{bmatrix}0&1&1&0&0&0&0&0\\1&0&1&0&0&0&0&0\\1&1&0&1&1&0&0&0\\0&0&1&0&0&0&0&0\\0&0&1&0&0&1&1&0\\0&0&0&0&1&0&0&0\\0&0&0&0&1&0&0&1\\0&0&0&0&1&0&1&0\\end{bmatrix}"
+        },
+        {
+          "label": "C",
+          "text": "\\begin{bmatrix}0&1&1&0&0&0&0&0\\1&0&1&0&0&0&0&0\\1&1&0&1&1&0&0&0\\0&0&1&0&0&0&0&0\\0&0&1&0&0&1&1&0\\0&0&0&0&1&0&0&0\\0&0&0&0&0&1&0&1\\0&0&0&0&0&0&1&0\\end{bmatrix}"
+        },
+        {
+          "label": "D",
+          "text": "\\begin{bmatrix}0&1&1&0&0&0&0&0\\1&0&1&0&0&0&0&0\\1&1&0&1&1&0&0&0\\0&0&1&0&0&0&0&0\\0&0&1&0&0&1&1&0\\0&0&0&0&1&0&0&0\\0&0&0&0&1&0&0&1\\0&0&0&0&1&1&0&1\\end{bmatrix}"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_1/algorithms_1-q025-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "\\begin{bmatrix}0&1&1&0&0&0&0&0\\1&0&1&0&0&0&0&0\\1&1&0&1&1&0&0&0\\0&0&1&0&0&0&0&0\\0&0&1&0&0&1&1&0\\0&0&0&0&1&0&0&0\\0&0&0&0&1&0&0&1\\0&0&0&0&0&0&1&0\\end{bmatrix}",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graph representations and adjacency matrices",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the given adjacency list\n\nThe above list is representation of which of the following graph?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Graph shown in option A"
+        },
+        {
+          "label": "B",
+          "text": "Graph shown in option B"
+        },
+        {
+          "label": "C",
+          "text": "Graph shown in option C"
+        },
+        {
+          "label": "D",
+          "text": "Graph shown in option D"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_1/algorithms_1-q026-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Graph shown in option C",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graph representations and adjacency lists",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following is FALSE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "In dynamic programming an optimal sequence of decisions is obtained by making explicit appeal to the principle of optimality"
+        },
+        {
+          "label": "B",
+          "text": "In greedy method only one decision sequence is generated."
+        },
+        {
+          "label": "C",
+          "text": "In dynamic programming, many decision sequences may be generated."
+        },
+        {
+          "label": "D",
+          "text": "In greedy method many decision sequences are generated."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "In greedy method many decision sequences are generated.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Greedy method and dynamic programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider an array $a[n]$ of ‘n’ numbers that has ‘n/2’ distinct elements and ‘n/2’ copies of another element, to identify that repeated element, how many steps are required in the worst case?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$n/2$"
+        },
+        {
+          "label": "B",
+          "text": "$n/2+1$"
+        },
+        {
+          "label": "C",
+          "text": "$n/2+2$"
+        },
+        {
+          "label": "D",
+          "text": "$n$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$n/2+2$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Algorithm analysis and complexity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Match the following, for a very large value of ‘n’\nI. $36n^3+2n^2$\nII. $5n^2-6n$\nIII. $n^{1.001}+n\\log n$\nP. $\theta(n^2)$\nQ. $\\Omega(n^3)$\nR. $\theta(n^{1.001})$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I – P, II – Q, III – R"
+        },
+        {
+          "label": "B",
+          "text": "I – Q, II – P, III – R"
+        },
+        {
+          "label": "C",
+          "text": "I – R, II – Q, III – P"
+        },
+        {
+          "label": "D",
+          "text": "I – R, II – P, III – R"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "I – Q, II – P, III – R",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic notation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the following code\n```text\nT(a, n)\n{\n    for i = 1 to n – 1 do\n        for j = i + 1 to n do\n        {\n            t = a[i, j];\n            a[i, j] = a[j, i];\n            a[j, i] = t;\n        }\n}\n```\nThe above code performs",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Matrix multiplication"
+        },
+        {
+          "label": "B",
+          "text": "Matrix addition"
+        },
+        {
+          "label": "C",
+          "text": "Matrix transpose"
+        },
+        {
+          "label": "D",
+          "text": "Matrix chain multiplication"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Matrix transpose",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Matrix operations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_1.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

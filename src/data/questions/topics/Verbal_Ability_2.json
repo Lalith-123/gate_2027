@@ -1,0 +1,2422 @@
+[
+  {
+    "id": "gate-verbal-ability-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 5: Each of the given sentences has four underlined parts. One of them has a mistake. Mark the number of the wrong part as answer.",
+      "text": "In the Sub-Saharan countries incidences of Sunstrokes correlates positively withthe level of Solar radiation.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "In the Sub-Saharan countries incidences of"
+        },
+        {
+          "label": "B",
+          "text": "Sunstrokes correlates positively"
+        },
+        {
+          "label": "C",
+          "text": "withthe level of"
+        },
+        {
+          "label": "D",
+          "text": "Solar radiation."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Sunstrokes correlates positively withthe level of",
+      "explanation": "Indences correlate.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 5: Each of the given sentences has four underlined parts. One of them has a mistake. Mark the number of the wrong part as answer.",
+      "text": "Either you transfer the data which was demanded nor file a report explaining why you did not submit the overall annual figures.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Either you transfer"
+        },
+        {
+          "label": "B",
+          "text": "the data which was demanded"
+        },
+        {
+          "label": "C",
+          "text": "nor file a report explaining why you did not"
+        },
+        {
+          "label": "D",
+          "text": "submit the overall annual figures."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "nor file a report explaining why you did not",
+      "explanation": "‘Nor’ must be replaced by ‘or’.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 5: Each of the given sentences has four underlined parts. One of them has a mistake. Mark the number of the wrong part as answer.",
+      "text": "Neither the judge nor I am ready toannounce who the winner is.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Neither the judge"
+        },
+        {
+          "label": "B",
+          "text": "nor I am"
+        },
+        {
+          "label": "C",
+          "text": "ready toannounce"
+        },
+        {
+          "label": "D",
+          "text": "who the winner is."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "who the winner is.",
+      "explanation": "‘Who the winner is’ is redundeant. Use only ‘the winner’.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 5: Each of the given sentences has four underlined parts. One of them has a mistake. Mark the number of the wrong part as answer.",
+      "text": "He went about the bad phase in his career with philosophical clam",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "He went about"
+        },
+        {
+          "label": "B",
+          "text": "the bad phase"
+        },
+        {
+          "label": "C",
+          "text": "in his career with"
+        },
+        {
+          "label": "D",
+          "text": "philosophical clam"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "He went about the bad phase in his career with",
+      "explanation": "‘Went about’ is the wrong phrase in the context of the given sentence.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 5: Each of the given sentences has four underlined parts. One of them has a mistake. Mark the number of the wrong part as answer.",
+      "text": "A score of apple is purchased by him for his consumption.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A score of apple"
+        },
+        {
+          "label": "B",
+          "text": "is purchased"
+        },
+        {
+          "label": "C",
+          "text": "by him"
+        },
+        {
+          "label": "D",
+          "text": "for his consumption."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "A score of apple is purchased by him",
+      "explanation": "“A score of apples’ is the correct phrase, as ‘score’ means twenty or a set of twenty.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 6 to 10: Read each sentence to find out whether there is any error in it. The error, if any, will be in one part of the sentence. Identify the error and mark the number of the erroneous part as your answer.",
+      "text": "All the members of the club was present at the special meeting.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "All the members"
+        },
+        {
+          "label": "B",
+          "text": "of the club"
+        },
+        {
+          "label": "C",
+          "text": "was present"
+        },
+        {
+          "label": "D",
+          "text": "at the special meeting."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "was present",
+      "explanation": "Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 6 to 10: Read each sentence to find out whether there is any error in it. The error, if any, will be in one part of the sentence. Identify the error and mark the number of the erroneous part as your answer.",
+      "text": "Over the course of the twentieth century the internal combustion engine has replaced the horse to the basic means of transport.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Over the course of the twentieth century"
+        },
+        {
+          "label": "B",
+          "text": "the internal combustion engine"
+        },
+        {
+          "label": "C",
+          "text": "has replaced the horse"
+        },
+        {
+          "label": "D",
+          "text": "to the basic means of transport."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "to the basic means of transport.",
+      "explanation": "Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 6 to 10: Read each sentence to find out whether there is any error in it. The error, if any, will be in one part of the sentence. Identify the error and mark the number of the erroneous part as your answer.",
+      "text": "We must never give up with trying to enhance the quality of life.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "We must"
+        },
+        {
+          "label": "B",
+          "text": "never give up with"
+        },
+        {
+          "label": "C",
+          "text": "trying to enhance"
+        },
+        {
+          "label": "D",
+          "text": "the quality of life."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "never give up with",
+      "explanation": "Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 6 to 10: Read each sentence to find out whether there is any error in it. The error, if any, will be in one part of the sentence. Identify the error and mark the number of the erroneous part as your answer.",
+      "text": "It will profit a man nothing if he was to gain the world and lose his own soul.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "It will profit a man nothing"
+        },
+        {
+          "label": "B",
+          "text": "if he was"
+        },
+        {
+          "label": "C",
+          "text": "to gain the world"
+        },
+        {
+          "label": "D",
+          "text": "and lose his own soul."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "if he was",
+      "explanation": "Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 6 to 10: Read each sentence to find out whether there is any error in it. The error, if any, will be in one part of the sentence. Identify the error and mark the number of the erroneous part as your answer.",
+      "text": "Injustice and discrimination can never be tolerated by no one.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Injustice and discrimination"
+        },
+        {
+          "label": "B",
+          "text": "can never be"
+        },
+        {
+          "label": "C",
+          "text": "tolerated by"
+        },
+        {
+          "label": "D",
+          "text": "no one."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "no one.",
+      "explanation": "Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 5: Each of the given sentences has four underlined parts. One of them has a mistake. Mark the number of the wrong part as answer.",
+      "text": "Alas! How lovely and fragrant these flowers are!",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Alas!"
+        },
+        {
+          "label": "B",
+          "text": "How lovely"
+        },
+        {
+          "label": "C",
+          "text": "and fragrant"
+        },
+        {
+          "label": "D",
+          "text": "these flowers are!"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Alas!",
+      "explanation": "Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 5: Each of the given sentences has four underlined parts. One of them has a mistake. Mark the number of the wrong part as answer.",
+      "text": "Your story is so ridiculous that it could not be believed.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Your story is"
+        },
+        {
+          "label": "B",
+          "text": "so ridiculous that"
+        },
+        {
+          "label": "C",
+          "text": "it could not"
+        },
+        {
+          "label": "D",
+          "text": "be believed."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "it could not",
+      "explanation": "Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 5: Each of the given sentences has four underlined parts. One of them has a mistake. Mark the number of the wrong part as answer.",
+      "text": "Government schools has too many students in a class for a teacher to control.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Government schools"
+        },
+        {
+          "label": "B",
+          "text": "has too many students"
+        },
+        {
+          "label": "C",
+          "text": "in a class"
+        },
+        {
+          "label": "D",
+          "text": "for a teacher to control."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "has too many students",
+      "explanation": "Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 5: Each of the given sentences has four underlined parts. One of them has a mistake. Mark the number of the wrong part as answer.",
+      "text": "Either of the methods lead to the same result.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Either of"
+        },
+        {
+          "label": "B",
+          "text": "the methods"
+        },
+        {
+          "label": "C",
+          "text": "lead to the"
+        },
+        {
+          "label": "D",
+          "text": "same result."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "lead to the",
+      "explanation": "Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 5: Each of the given sentences has four underlined parts. One of them has a mistake. Mark the number of the wrong part as answer.",
+      "text": "The doctor has advised him to avoid the sugar in his milk.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The doctor has"
+        },
+        {
+          "label": "B",
+          "text": "advised him"
+        },
+        {
+          "label": "C",
+          "text": "to avoid the sugar"
+        },
+        {
+          "label": "D",
+          "text": "in his milk."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "to avoid the sugar",
+      "explanation": "Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 16 to 20: Each sentence given below is divided into four parts. One of them has an error. Mark the number of the incorrect part as your answer.",
+      "text": "The church accepts this popular sentiment gives it a religious significance and crystallizes in a system",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The church accepts this popular sentiment"
+        },
+        {
+          "label": "B",
+          "text": "gives it a religious significance"
+        },
+        {
+          "label": "C",
+          "text": "and crystallizes"
+        },
+        {
+          "label": "D",
+          "text": "in a system"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "and crystallizes",
+      "explanation": "The third part of the sentence should be ‘and crystallizes it’. Crystallizes is a verb which takes an object.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 16 to 20: Each sentence given below is divided into four parts. One of them has an error. Mark the number of the incorrect part as your answer.",
+      "text": "The government of the Tudors were masters in the art of disguising common place, and sometimes sordid, motives beneath a glittering façade of imposing principles.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The government of the Tudors"
+        },
+        {
+          "label": "B",
+          "text": "were masters in the art of disguising"
+        },
+        {
+          "label": "C",
+          "text": "common place, and sometimes sordid, motives"
+        },
+        {
+          "label": "D",
+          "text": "beneath a glittering façade of imposing principles."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "were masters in the art of disguising",
+      "explanation": "Part 2 of the sentence is faulty as the preposition used should be ‘of’ and not ‘in’. One is the ‘master of the art’ not in the art.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 16 to 20: Each sentence given below is divided into four parts. One of them has an error. Mark the number of the incorrect part as your answer.",
+      "text": "The increasing reluctance of the sun to rise, the extra nip in the breeze, the patten of shed leaves dropping - all the evidences of fall drifting in winter were clearer each day.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The increasing reluctance of the sun to rise,"
+        },
+        {
+          "label": "B",
+          "text": "the extra nip in the breeze"
+        },
+        {
+          "label": "C",
+          "text": "the patten of shed leaves dropping - all the evidences of fall"
+        },
+        {
+          "label": "D",
+          "text": "drifting in winter were clearer each day."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "drifting in winter were clearer each day.",
+      "explanation": "The fourth part of the sentence is faulty, as ‘drifting into winter’ is correct - it indicates motion. ‘In’ does not indicate motion.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 16 to 20: Each sentence given below is divided into four parts. One of them has an error. Mark the number of the incorrect part as your answer.",
+      "text": "Because of it’s hardness this steel is used principally for making razors.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Because of it’s hardness"
+        },
+        {
+          "label": "B",
+          "text": "this steel is"
+        },
+        {
+          "label": "C",
+          "text": "used principally"
+        },
+        {
+          "label": "D",
+          "text": "for making razors."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Because of it’s hardness",
+      "explanation": "In the first part of the sentence ‘its’ is in the genitive case, so there need not be an apostrophe, ‘Because of its hardness’ is correct.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 16 to 20: Each sentence given below is divided into four parts. One of them has an error. Mark the number of the incorrect part as your answer.",
+      "text": "Laying aside all hindrance thrusting away all private aims devote yourself unswerving and unflinchingly to the vigorous and successful prosecution of this war",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Laying aside all hindrance"
+        },
+        {
+          "label": "B",
+          "text": "thrusting away all private aims"
+        },
+        {
+          "label": "C",
+          "text": "devote yourself unswerving and unflinchingly"
+        },
+        {
+          "label": "D",
+          "text": "to the vigorous and successful prosecution of this war"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "devote yourself unswerving and unflinchingly",
+      "explanation": "The third part of the sentence should read ‘devote yourself unswervingly and unflinchingly’ to maintain parallelism in construction.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 21 to 25: In each question below, two sentences are given. These two sentences are to be combined into a single sentence without changing their meaning. Three probable starters of the combined sentence are given which are denoted by (A), (B) and (C). Any one or more or none of them may be correct. Find out the correct starter(s) and accordingly select your answer from among the given five answer choices.",
+      "text": "I am a layman. I do not know how a computer works.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A and B"
+        },
+        {
+          "label": "B",
+          "text": "B and C"
+        },
+        {
+          "label": "C",
+          "text": "A and C"
+        },
+        {
+          "label": "D",
+          "text": "B only"
+        },
+        {
+          "label": "E",
+          "text": "A only"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "A and B",
+      "explanation": "The two sentences can be combined into a simple sentence by changing the verb ‘am’ into ‘v + ing’ (i.e.) ‘being’. Hence ‘A’ is possible. The conjunction ‘as’ also can be used, as it shows reason. But ‘C’ cannot be used as the sentence cannot be combined with the conjunction ‘while’.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Combination",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 21 to 25: In each question below, two sentences are given. These two sentences are to be combined into a single sentence without changing their meaning. Three probable starters of the combined sentence are given which are denoted by (A), (B) and (C). Any one or more or none of them may be correct. Find out the correct starter(s) and accordingly select your answer from among the given five answer choices.",
+      "text": "He always listened to good advice. He rose to a good position in life.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A and B"
+        },
+        {
+          "label": "B",
+          "text": "B and C"
+        },
+        {
+          "label": "C",
+          "text": "A only"
+        },
+        {
+          "label": "D",
+          "text": "B only"
+        },
+        {
+          "label": "E",
+          "text": "C only"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "B and C",
+      "explanation": "The sentence donates a positive meaning. Hence it cannot begin with ‘though’. The conjunction ‘as’ and ‘since’ can begin the sentence. But here ‘B’ begins with the second sentence which changes the meaning of the given sentence.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Combination",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 21 to 25: In each question below, two sentences are given. These two sentences are to be combined into a single sentence without changing their meaning. Three probable starters of the combined sentence are given which are denoted by (A), (B) and (C). Any one or more or none of them may be correct. Find out the correct starter(s) and accordingly select your answer from among the given five answer choices.",
+      "text": "The soldiers saw the camp of the enemy. They started attacking the enemy.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "B and C"
+        },
+        {
+          "label": "B",
+          "text": "A and C"
+        },
+        {
+          "label": "C",
+          "text": "B only"
+        },
+        {
+          "label": "D",
+          "text": "A only"
+        },
+        {
+          "label": "E",
+          "text": "C only"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "B only",
+      "explanation": "The sentences cannot give the same meaning if the conjunctions ‘while’ or ‘because’ are used. It shows a particular time and hence ‘when’ would be the right way to begin the sentence.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Combination",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 21 to 25: In each question below, two sentences are given. These two sentences are to be combined into a single sentence without changing their meaning. Three probable starters of the combined sentence are given which are denoted by (A), (B) and (C). Any one or more or none of them may be correct. Find out the correct starter(s) and accordingly select your answer from among the given five answer choices.",
+      "text": "The weather is warm. I like to go for swimming now.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A and B"
+        },
+        {
+          "label": "B",
+          "text": "A only"
+        },
+        {
+          "label": "C",
+          "text": "B only"
+        },
+        {
+          "label": "D",
+          "text": "C only"
+        },
+        {
+          "label": "E",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "C only",
+      "explanation": "‘If’ or ‘whenever’ can also begin the sentence. But here it is not a general statement. It specifies that particular time as ‘now’ is used. Hence ‘as’ is the most appropriate way to begin this sentence.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Combination",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 21 to 25: In each question below, two sentences are given. These two sentences are to be combined into a single sentence without changing their meaning. Three probable starters of the combined sentence are given which are denoted by (A), (B) and (C). Any one or more or none of them may be correct. Find out the correct starter(s) and accordingly select your answer from among the given five answer choices.",
+      "text": "We cannot achieve our goals. We lack confidence in our abilities.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A and B"
+        },
+        {
+          "label": "B",
+          "text": "A only"
+        },
+        {
+          "label": "C",
+          "text": "B only"
+        },
+        {
+          "label": "D",
+          "text": "C only"
+        },
+        {
+          "label": "E",
+          "text": "B and C"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "B only",
+      "explanation": "The sentence is about ‘not achieving’. ‘B’ and ‘C’ talk about ‘achieving’ and hence cannot be appropriate.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Combination",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 26 to 30: Each sentence has a missing part. Choose the best option from those given below the statement to make up the missing part.",
+      "text": "Given the long and porous border between the two countries and, more important, the links _______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "among Nepalese and Indian rebel groups, New Delhi cannot afford ignoring the Maoists threat of Nepal"
+        },
+        {
+          "label": "B",
+          "text": "between Nepalese and Indian rebel groups, New Delhi cannot afford the ignorance of the Maoists threat in Nepal"
+        },
+        {
+          "label": "C",
+          "text": "among Nepalese and Indian rebel groups, New Delhi cannot afford to ignore the Maoists threat of Nepal"
+        },
+        {
+          "label": "D",
+          "text": "between Nepalese and Indian rebel groups, New Delhi cannot afford to ignore the Maoists threat in Nepal"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "between Nepalese and Indian rebel groups, New Delhi cannot afford to ignore the Maoists threat in Nepal",
+      "explanation": "‘Between’ is better than ‘among’ since only two – the Indian and Nepalese – rebel groups are mentioned. (Between is used for two or more, among for three or more). We are talking of the threat in Nepal not of Nepal. New Delhi cannot ignore (disregard intentionally) not ignorance (lacking knowledge).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 26 to 30: Each sentence has a missing part. Choose the best option from those given below the statement to make up the missing part.",
+      "text": "At a time when Beijing’s officially scripted anti-Japanese protests are bound to prompt a rethink in Japan about the advisability of continued investment in China, India should be __________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "persuading aggressively Japanese business to shifting at least some of their mammoth investments to its secure location"
+        },
+        {
+          "label": "B",
+          "text": "aggressively persuading Japanese business to shifting at least some of their mammoth investments to its secure location"
+        },
+        {
+          "label": "C",
+          "text": "aggressively persuading Japanese business to shift at least some of their mammoth investments to its secure location"
+        },
+        {
+          "label": "D",
+          "text": "persuading aggressively Japanese business to shift at least some of their mammoth investments to its secure location"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "aggressively persuading Japanese business to shift at least some of their mammoth investments to its secure location",
+      "explanation": "The adverb ‘aggressively’ qualifies ‘persuading’ and hence must precede it (rules out choices 1 and 4). Choice 2 is wrong because ‘to shifting’ is incorrect.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 26 to 30: Each sentence has a missing part. Choose the best option from those given below the statement to make up the missing part.",
+      "text": "________, that they could compete successfully, even with the higher techniques of production, which were being established in England.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "So efficient and highly organized were Indian methods of production, and such was the skill of India’s artisans and craftsmen"
+        },
+        {
+          "label": "B",
+          "text": "So efficiently and highly organized were Indian methods of production, and such were the skill of India’s artisans and craftsmen"
+        },
+        {
+          "label": "C",
+          "text": "So efficient and highly organized were Indian methods of production, and such was the skill of India’s artisan and craftsman"
+        },
+        {
+          "label": "D",
+          "text": "So efficiently and highly organized were Indian methods of production, and such were the skill of India’s artisan and craftsman"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "So efficient and highly organized were Indian methods of production, and such was the skill of India’s artisans and craftsmen",
+      "explanation": "Since the verb at the beginning of the sentence is ‘were’ (plural) it must be ‘efficient and highly organized’. If it were ‘efficiently’ then both (efficiently and highly) qualify ‘organized’ and the verb would be was (rules out 2 and 4). We are talking of artisans and craftsmen (plural again not singular)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 29 to 33: In the following questions, two sentences are given. There may be an error in the sentence(s). Mark as your answer (A) if there is an error only in the first sentence; (B) if there is an error only in the second sentence; (C) if there are errors in both the sentences and (D) if there is no error in either of the two sentences.",
+      "text": "I. He said that he will come, but he didn’t.\nII. I admit, ‘No news is good news now - a -days’.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "if there is an error only in the first sentence"
+        },
+        {
+          "label": "B",
+          "text": "if there is an error only in the second sentence"
+        },
+        {
+          "label": "C",
+          "text": "if there are errors in both the sentences"
+        },
+        {
+          "label": "D",
+          "text": "if there is no error in either of the two sentences"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "if there is an error only in the first sentence",
+      "explanation": "The past tense should be used. The first sentence should be “He said that he would come, but he didn’t”.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 29 to 33: In the following questions, two sentences are given. There may be an error in the sentence(s). Mark as your answer (A) if there is an error only in the first sentence; (B) if there is an error only in the second sentence; (C) if there are errors in both the sentences and (D) if there is no error in either of the two sentences.",
+      "text": "I. I and my friend like to play tennis in grass court.\nII. Each of the mistakes have to be corrected before printing.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "if there is an error only in the first sentence"
+        },
+        {
+          "label": "B",
+          "text": "if there is an error only in the second sentence"
+        },
+        {
+          "label": "C",
+          "text": "if there are errors in both the sentences"
+        },
+        {
+          "label": "D",
+          "text": "if there is no error in either of the two sentences"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "if there are errors in both the sentences",
+      "explanation": "The second person must come first. Statement 1 should be “My friend and I like to play tennis on grass court.”\nStatement 2 Each of the mistakes has to be corrected before printing.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 29 to 33: In the following questions, two sentences are given. There may be an error in the sentence(s). Mark as your answer (A) if there is an error only in the first sentence; (B) if there is an error only in the second sentence; (C) if there are errors in both the sentences and (D) if there is no error in either of the two sentences.",
+      "text": "I. I cannot see anything wrong with the plan.\nII. You may read the book if you have enough time.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "if there is an error only in the first sentence"
+        },
+        {
+          "label": "B",
+          "text": "if there is an error only in the second sentence"
+        },
+        {
+          "label": "C",
+          "text": "if there are errors in both the sentences"
+        },
+        {
+          "label": "D",
+          "text": "if there is no error in either of the two sentences"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "if there is no error in either of the two sentences",
+      "explanation": "No error in both the sentences.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 29 to 33: In the following questions, two sentences are given. There may be an error in the sentence(s). Mark as your answer (A) if there is an error only in the first sentence; (B) if there is an error only in the second sentence; (C) if there are errors in both the sentences and (D) if there is no error in either of the two sentences.",
+      "text": "I. There is a little truth in what we have heard.\nII. You are not going to the theatre, isn’t it?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "if there is an error only in the first sentence"
+        },
+        {
+          "label": "B",
+          "text": "if there is an error only in the second sentence"
+        },
+        {
+          "label": "C",
+          "text": "if there are errors in both the sentences"
+        },
+        {
+          "label": "D",
+          "text": "if there is no error in either of the two sentences"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "if there is an error only in the second sentence",
+      "explanation": "You are not going to the theatre, are you?",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 29 to 33: In the following questions, two sentences are given. There may be an error in the sentence(s). Mark as your answer (A) if there is an error only in the first sentence; (B) if there is an error only in the second sentence; (C) if there are errors in both the sentences and (D) if there is no error in either of the two sentences.",
+      "text": "I. He informed me before he had posted the letter yesterday.\nII. No one is as happy as he.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "if there is an error only in the first sentence"
+        },
+        {
+          "label": "B",
+          "text": "if there is an error only in the second sentence"
+        },
+        {
+          "label": "C",
+          "text": "if there are errors in both the sentences"
+        },
+        {
+          "label": "D",
+          "text": "if there is no error in either of the two sentences"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "if there is an error only in the first sentence",
+      "explanation": "He informed me before he posted the letter yesterday.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Error Detection",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 34 to 40: A sentence is given in four different forms. Only one of them is correct grammatically. Mark the number of the correct one as the answer.",
+      "text": "34.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "My sister likes painting, dancing and to cooking."
+        },
+        {
+          "label": "B",
+          "text": "My sister likes painting, dancing and to cook."
+        },
+        {
+          "label": "C",
+          "text": "My sister like painting, dancing and cooking."
+        },
+        {
+          "label": "D",
+          "text": "My sister likes painting, dancing and cooking."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "My sister likes painting, dancing and cooking.",
+      "explanation": "The gerund form should be maintained throughout a sentence.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Correct Sentence",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 34 to 40: A sentence is given in four different forms. Only one of them is correct grammatically. Mark the number of the correct one as the answer.",
+      "text": "35.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "If you want to play well, you must practise."
+        },
+        {
+          "label": "B",
+          "text": "If you want to play well, one must practise."
+        },
+        {
+          "label": "C",
+          "text": "If one want to play well, you must practise."
+        },
+        {
+          "label": "D",
+          "text": "If one wants to play well, he must practise."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "If you want to play well, you must practise.",
+      "explanation": "‘You’ must be followed by ‘you’. ‘One’ must be followed ‘one’. Therefore, Choice (A) is right and the other choices are incorrect.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Correct Sentence",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q036",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 34 to 40: A sentence is given in four different forms. Only one of them is correct grammatically. Mark the number of the correct one as the answer.",
+      "text": "36.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Einstein was more cleverer than any other scientist."
+        },
+        {
+          "label": "B",
+          "text": "Einstein was more cleverer than any scientist."
+        },
+        {
+          "label": "C",
+          "text": "Einstein was cleverer than any other scientist."
+        },
+        {
+          "label": "D",
+          "text": "Einstein was cleverer than any scientist."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Einstein was cleverer than any other scientist.",
+      "explanation": "……. Cleverer than any other………",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Correct Sentence",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q037",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 34 to 40: A sentence is given in four different forms. Only one of them is correct grammatically. Mark the number of the correct one as the answer.",
+      "text": "37.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "An argument developed among his sister and him."
+        },
+        {
+          "label": "B",
+          "text": "An argument developed between his sister and he."
+        },
+        {
+          "label": "C",
+          "text": "An argument developed between his sister and his."
+        },
+        {
+          "label": "D",
+          "text": "An argument developed between his sister and him."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "An argument developed between his sister and him.",
+      "explanation": "‘Between’ should be followed by the objective case ‘him’ and not the subjective case ‘he’.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Correct Sentence",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q038",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 34 to 40: A sentence is given in four different forms. Only one of them is correct grammatically. Mark the number of the correct one as the answer.",
+      "text": "38.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The youngster will benefit from the experience."
+        },
+        {
+          "label": "B",
+          "text": "The youngster will benefit by the experience."
+        },
+        {
+          "label": "C",
+          "text": "The youngster will benefit of the experience."
+        },
+        {
+          "label": "D",
+          "text": "The youngster will benefit out of the experience."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "The youngster will benefit from the experience.",
+      "explanation": "You benefit from something. Correct preposition.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Correct Sentence",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q039",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 34 to 40: A sentence is given in four different forms. Only one of them is correct grammatically. Mark the number of the correct one as the answer.",
+      "text": "39.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "There were lesser children in the class than expected."
+        },
+        {
+          "label": "B",
+          "text": "There were fewer children in the class than expected."
+        },
+        {
+          "label": "C",
+          "text": "There were a little children in the class than expected."
+        },
+        {
+          "label": "D",
+          "text": "There were a small children in the class than expected."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "There were fewer children in the class than expected.",
+      "explanation": "In case of numbers we use ‘fewer’. ‘Less/Lesser’ are used in the case of weight and ‘little/small’ in the case of size.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Correct Sentence",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-1-q040",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_2.pdf",
+      "direction": "Directions for questions 34 to 40: A sentence is given in four different forms. Only one of them is correct grammatically. Mark the number of the correct one as the answer.",
+      "text": "40.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The child can’t hardly wait till its birthday."
+        },
+        {
+          "label": "B",
+          "text": "The child can wait till it’s birthday."
+        },
+        {
+          "label": "C",
+          "text": "The child can hardly wait till its birthday."
+        },
+        {
+          "label": "D",
+          "text": "The child can wait hardly till its birthday."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "The child can hardly wait till its birthday.",
+      "explanation": "‘Hardly’ indicates ‘cannot’. So, ‘the child cannot wait for its birthday’ is being intended.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Grammar / Correct Sentence",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

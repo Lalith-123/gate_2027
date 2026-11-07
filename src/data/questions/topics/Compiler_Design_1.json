@@ -1,0 +1,1803 @@
+[
+  {
+    "id": "gate-compiler-design-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The most powerful parsing method is",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "LALR"
+        ],
+        [
+          "B",
+          "LR"
+        ],
+        [
+          "C",
+          "CLR"
+        ],
+        [
+          "D",
+          "LL (1)"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "LALR",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Parsing methods / LR parsing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "In which phase ‘type checking’ is done?",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "Lexical analysis"
+        ],
+        [
+          "B",
+          "Code optimization"
+        ],
+        [
+          "C",
+          "Syntax analysis"
+        ],
+        [
+          "D",
+          "Semantic analysis"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Semantic analysis",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Compiler phases / semantic analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "A shift reduces parser carries out the actions specified within braces immediately after reducing the corresponding rule of grammar, as below:\n$S \\rightarrow aaD$ {Print “1”}.\n$S \\rightarrow b$ {Print “2”}\n$D \\rightarrow Sc$ {Print “3”}\nWhat is the translation of ‘aaaabcc’ using the syntax directed translation scheme described by the above rules?",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "33211"
+        ],
+        [
+          "B",
+          "11233"
+        ],
+        [
+          "C",
+          "11231"
+        ],
+        [
+          "D",
+          "23131"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "23131",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Syntax-directed translation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.\n\nGrammar: $E \\rightarrow TE′$; $E′ \\rightarrow +TE′/∈$; $T \\rightarrow FT′$; $T′ \\rightarrow *FT′/∈$; $F \\rightarrow (E)/id$.\nFrom above grammar, FOLLOW (E) is",
+      "text": "Consider the following grammar:\n$E \\rightarrow TE′$\n$E′ \\rightarrow + TE′/∈$\n$T \\rightarrow FT′$\n$T′ \\rightarrow * FT′/∈$\n$F \\rightarrow (E)/id$\nFrom above grammar, FOLLOW (E) is",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "{ ), $}"
+        ],
+        [
+          "B",
+          "{$, *)}"
+        ],
+        [
+          "C",
+          "{(, id}"
+        ],
+        [
+          "D",
+          "{+, ), $}"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "{ ), $}",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "FIRST and FOLLOW",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "To eliminate backtracking, which one is used?",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "Left Recursion"
+        ],
+        [
+          "B",
+          "Left Factoring"
+        ],
+        [
+          "C",
+          "Right Recursion"
+        ],
+        [
+          "D",
+          "Right Factoring"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Left Factoring",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Left factoring / predictive parsing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the grammar\n$T \\rightarrow (T) | ∈$\nLet the number of states in SLR (1), LR (1) and LALR (1) parsers for the grammar be $n_1$, $n_2$ and $n_3$ respectively.\nWhich relationship holds well?",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "$n_1=n_2=n_3$"
+        ],
+        [
+          "B",
+          "$n_1 \\ge n_3 \\ge n_2$"
+        ],
+        [
+          "C",
+          "$n_1=n_3<n_2$"
+        ],
+        [
+          "D",
+          "$n_1<n_2<n_3$"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$n_1=n_3<n_2$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "LR parser state counts",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "If w is a string of terminals and A, B are two non-terminals then which of the following are left-linear grammars?",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "$A \\rightarrow wB/w$"
+        ],
+        [
+          "B",
+          "$A \\rightarrow Bw/w$"
+        ],
+        [
+          "C",
+          "$A \\rightarrow wB$"
+        ],
+        [
+          "D",
+          "None of the above"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$A \\rightarrow Bw/w$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Regular grammars / linear grammars",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The grammar $E \\rightarrow E * E/E + E/a$, is",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "Ambiguous"
+        ],
+        [
+          "B",
+          "Unambiguous"
+        ],
+        [
+          "C",
+          "Will not depend on the given sentence"
+        ],
+        [
+          "D",
+          "None of these"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Ambiguous",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Grammar ambiguity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Shift-reduce parsers are",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "Bottom up parsers"
+        ],
+        [
+          "B",
+          "Top down parsers"
+        ],
+        [
+          "C",
+          "Both (A) and (B)"
+        ],
+        [
+          "D",
+          "None of these"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Bottom up parsers",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Shift-reduce parsing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the following grammars:\nI. $E \\rightarrow TE′$\n$E′ \\rightarrow +TE′/∈$\n$T \\rightarrow FT′$\n$T′ \\rightarrow *FT′/∈$\n$F \\rightarrow (E)/id$\nII. $S \\rightarrow iCtSS′ | a$\n$S′ \\rightarrow eS | ∈$\n$C \\rightarrow b$\nWhich of the following is true?",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "II is LL (1)"
+        ],
+        [
+          "B",
+          "I is LL (1)"
+        ],
+        [
+          "C",
+          "Both (A) and (B)"
+        ],
+        [
+          "D",
+          "None of these"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "I is LL (1)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "LL(1) grammar",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the following grammar:\n$S \\rightarrow iCtSS′/a$\n$S′ \\rightarrow eS/∈$\n$C \\rightarrow b$\nFirst (S′) is",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "{i, a}"
+        ],
+        [
+          "B",
+          "{$, e}"
+        ],
+        [
+          "C",
+          "{e, ∈}"
+        ],
+        [
+          "D",
+          "{b}"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "{e, ∈}",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "FIRST set",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.\n\nGrammar: $S \\rightarrow iCtSS′/a$; $S′ \\rightarrow eS/∈$; $C \\rightarrow b$.\nFrom the above grammar Follow(S) is.",
+      "text": "From the above grammar Follow(S) is.",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "{$, e}"
+        ],
+        [
+          "B",
+          "{$}"
+        ],
+        [
+          "C",
+          "{e}"
+        ],
+        [
+          "D",
+          "{$,), e}"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "{$, e}",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "FOLLOW set",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Find the LEADING (S) from the following grammar:\n$S \\rightarrow a | ^ | (T)$\n$T \\rightarrow T,S / S$",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "{a, ^, ( }"
+        ],
+        [
+          "B",
+          "{, a,)}"
+        ],
+        [
+          "C",
+          "{, a, ( }"
+        ],
+        [
+          "D",
+          "{, a, ^,)}"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "{a, ^, ( }",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "LEADING and TRAILING",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.\n\nGrammar: $S \\rightarrow a | ^ | (T)$; $T \\rightarrow T,S / S$.\nFrom above grammar find the TRAILING (T).",
+      "text": "From above grammar find the TRAILING (T).",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "{a,)}"
+        ],
+        [
+          "B",
+          "{a, ^,)}"
+        ],
+        [
+          "C",
+          "{),}"
+        ],
+        [
+          "D",
+          "{, a,)}"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "{),}",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "LEADING and TRAILING",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following remarks logically follows?",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "FIRST (∈) = {∈}."
+        ],
+        [
+          "B",
+          "If FOLLOW (A) contains $, then A may or may not be the start symbol."
+        ],
+        [
+          "C",
+          "If $A \\rightarrow w$, is a production in the given grammar G, then FIRST$_k$ (A) contains FIRST$_k$ (w)."
+        ],
+        [
+          "D",
+          "All of the above"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All of the above",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "FIRST and FOLLOW properties",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the following grammar:\n$S \\rightarrow AB$\n$B \\rightarrow ab$\n$A \\rightarrow aa$\n$A \\rightarrow a$\n$B \\rightarrow b$.\nThe grammar is",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "Ambiguous"
+        ],
+        [
+          "B",
+          "Unambiguous"
+        ],
+        [
+          "C",
+          "Can’t predictable"
+        ],
+        [
+          "D",
+          "None of these"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Ambiguous",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Grammar ambiguity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "If a handle has been found but there is no production with this handle as a right side, then we discover",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "Logical error"
+        ],
+        [
+          "B",
+          "Runtime error"
+        ],
+        [
+          "C",
+          "Syntactic error"
+        ],
+        [
+          "D",
+          "All of the above"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Syntactic error",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Handle / bottom-up parsing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The function of syntax phase is",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "To build a literal table"
+        ],
+        [
+          "B",
+          "To build an uniform symbol table"
+        ],
+        [
+          "C",
+          "To parse the tokens produced by lexical analyzer"
+        ],
+        [
+          "D",
+          "None of these"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "To parse the tokens produced by lexical analyzer",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Syntax analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following are cousins of compilers?",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "Pre-processor and Assembler"
+        ],
+        [
+          "B",
+          "Assembler and LEX"
+        ],
+        [
+          "C",
+          "Pre-processor and YACC"
+        ],
+        [
+          "D",
+          "LEX and YACC."
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Pre-processor and Assembler",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Compiler-related tools",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Error is detected in predictive parsing when ____ hold(s).\n(i) ‘a’ on top of stack and next input symbol is ‘b’.\n(ii) When ‘a’ is on top of stack, ‘a’ is next input symbol and parsing table entry $M[A,a]$ is empty.",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "Neither (i) nor (ii)"
+        ],
+        [
+          "B",
+          "Both (i) and (ii)"
+        ],
+        [
+          "C",
+          "only (i)"
+        ],
+        [
+          "D",
+          "only (ii)"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Both (i) and (ii)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Predictive parsing errors",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which one indicates abstract syntax tree (AST) of “a * b + c” with following grammar:\n$E \\rightarrow E * T/T$\n$T \\rightarrow T + F/F$\n$F \\rightarrow id$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "AST shown in the PDF figure (option A)"
+        },
+        {
+          "label": "B",
+          "text": "AST shown in the PDF figure (option B)"
+        },
+        {
+          "label": "C",
+          "text": "AST shown in the PDF figure (option C)"
+        },
+        {
+          "label": "D",
+          "text": "AST shown in the PDF figure (option D)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Compiler_Design_1/compiler_design_1-q021-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "AST shown in option C (the figure is preserved in question.image).",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Abstract syntax tree",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The parse tree is constructed and then it is traversed and the semantic rules are evaluated in a particular order by a",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "Recursive evaluator"
+        ],
+        [
+          "B",
+          "Bottom up translation"
+        ],
+        [
+          "C",
+          "Top down translation"
+        ],
+        [
+          "D",
+          "Phase tree method"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Recursive evaluator",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Syntax-directed translation / semantic evaluation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The following grammar indicates\n$S \\rightarrow aab|bac|ab$\n$S \\rightarrow aS|b$\n$S \\rightarrow abb/ab$\n$S \\rightarrow abdb/b$",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "LR (0) grammar"
+        ],
+        [
+          "B",
+          "SLR grammar"
+        ],
+        [
+          "C",
+          "Regular grammar"
+        ],
+        [
+          "D",
+          "None of these"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of these",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Regular grammar",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "If the attributes of the child depends on the attributes of the parent node then it is ____ attribute.",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "Inherited"
+        ],
+        [
+          "B",
+          "Directed"
+        ],
+        [
+          "C",
+          "Synthesised"
+        ],
+        [
+          "D",
+          "TAC"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Inherited",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Inherited and synthesized attributes",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The semantic rule is evaluated and the intermediate code is generated when the production is expanded in _____",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "Parse tree method"
+        ],
+        [
+          "B",
+          "Bottom up translation"
+        ],
+        [
+          "C",
+          "Top down translation"
+        ],
+        [
+          "D",
+          "Recursive evaluator model"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Top down translation",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Syntax-directed translation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the grammar shown below:\n$S \\rightarrow CC$\n$C \\rightarrow cC/a$\nThe grammar is",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "LL (1)"
+        ],
+        [
+          "B",
+          "SLR (1) But not LL (1)"
+        ],
+        [
+          "C",
+          "LALR (1) but not SLR (1)"
+        ],
+        [
+          "D",
+          "LR (1) but not LALR"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "LL (1)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "LL(1) grammar",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The class of grammars for which we can construct predictive parsers looking k-symbols ahead in the input is called",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "LR (k)"
+        ],
+        [
+          "B",
+          "CLR (k)"
+        ],
+        [
+          "C",
+          "LALR (k)"
+        ],
+        [
+          "D",
+          "LL (k)"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "LL (k)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "LL(k) grammars",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "A compiler is a program that",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "Places programs into memory and prepares them for execution."
+        ],
+        [
+          "B",
+          "Automates the translation of assembly language into machine language."
+        ],
+        [
+          "C",
+          "Accepts a program written in a high level language and produces an object program."
+        ],
+        [
+          "D",
+          "Appears to execute a source program as if it were machine language."
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Accepts a program written in a high level language and produces an object program.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "Compiler definition",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Common data for questions 29 and 30:\nConsider the grammar\nE → TE′\nE′ → + TE′ | ∈\nT → FT′\nT′ → * FT′ | ∈\nF → (E) | id.",
+      "text": "Which one is FOLLOW (F)?",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "{+, ), $}"
+        ],
+        [
+          "B",
+          "{+, (, ), *}"
+        ],
+        [
+          "C",
+          "{*, ), $}"
+        ],
+        [
+          "D",
+          "{+, *, ), $}"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "{+, *, ), $}",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "FIRST and FOLLOW",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-compiler-design-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Compiler Design"
+    },
+    "question": {
+      "pdfName": "Compiler_Design_1.pdf",
+      "direction": "Common data for questions 29 and 30:\nConsider the grammar\nE → TE′\nE′ → + TE′ | ∈\nT → FT′\nT′ → * FT′ | ∈\nF → (E) | id.",
+      "text": "FIRST (E) will be as same as",
+      "type": "MCQ",
+      "options": [
+        [
+          "A",
+          "FIRST (T)"
+        ],
+        [
+          "B",
+          "FIRST (F)"
+        ],
+        [
+          "C",
+          "Both (A) and (B)"
+        ],
+        [
+          "D",
+          "None of these"
+        ]
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both (A) and (B)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Compiler Design",
+      "topic": "FIRST and FOLLOW",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Compiler_Design_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

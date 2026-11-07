@@ -1,0 +1,1813 @@
+[
+  {
+    "id": "gate-theory-of-computation-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Phrase structure languages, context-sensitive languages, context-free languages and regular languages are commonly referred to as languages of type-0, 1, 2, and 3 respectively. Then, Chomsky’s Hierarchy states that",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "type-0 $\\supseteq$ type-1 $\\supseteq$ type-2 $\\supseteq$ type-3"
+        },
+        {
+          "label": "B",
+          "text": "type-0 $\\supset$ type-1 $\\supset$ type-2 $\\supset$ type-3"
+        },
+        {
+          "label": "C",
+          "text": "type-0 $\\subset$ type-1 $\\subset$ type-2 $\\subset$ type-3"
+        },
+        {
+          "label": "D",
+          "text": "type-0 $\\subseteq$ type-1 $\\subseteq$ type-2 $\\subseteq$ type-3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "type-0 $\\supset$ type-1 $\\supset$ type-2 $\\supset$ type-3",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Formal languages and Chomsky hierarchy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Let L be a language recognizable by a finite automaton. The language Reverse (L) = {x such that x is the reverse of y where y ∈ L} is a",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Regular language"
+        },
+        {
+          "label": "B",
+          "text": "Context-sensitive language"
+        },
+        {
+          "label": "C",
+          "text": "Context-free language"
+        },
+        {
+          "label": "D",
+          "text": "Phrase-structure language"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Regular language",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular languages and closure properties",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following statement is true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is possible to construct an NFA with more number of states than its equivalent minimum DFA."
+        },
+        {
+          "label": "B",
+          "text": "There can be a DFA with more than one start state."
+        },
+        {
+          "label": "C",
+          "text": "Both (A) and (B)"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "It is possible to construct an NFA with more number of states than its equivalent minimum DFA.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Finite automata",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following is an equivalent DFA for the NFA shown below:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "DFA diagram (Option A); see question.image for the exact diagram."
+        },
+        {
+          "label": "B",
+          "text": "DFA diagram (Option B); see question.image for the exact diagram."
+        },
+        {
+          "label": "C",
+          "text": "DFA diagram (Option C); see question.image for the exact diagram."
+        },
+        {
+          "label": "D",
+          "text": "DFA diagram (Option D); see question.image for the exact diagram."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_1/theory_of_computation_1-q004-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "DFA diagram (Option B); see question.image for the exact diagram.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "NFA to DFA conversion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which one of the following regular expressions over {0, 1} denotes the set of strings not containing 100 as a substring?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$0^*(1^*0)^*$"
+        },
+        {
+          "label": "B",
+          "text": "$0^*1^*01^*$"
+        },
+        {
+          "label": "C",
+          "text": "$(0^*(10+1^*))^*$"
+        },
+        {
+          "label": "D",
+          "text": "$0^*1010^*$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$0^*1^*01^*$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular expressions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The following transition diagram of a finite automaton accepts",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "All word over sigma (a, b) such that symbol a and b alternate."
+        },
+        {
+          "label": "B",
+          "text": "Only empty string."
+        },
+        {
+          "label": "C",
+          "text": "Only the λ₁ meaning this automaton accepts no string of length greater than zero."
+        },
+        {
+          "label": "D",
+          "text": "All words over sigma (a, b) except λ."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_1/theory_of_computation_1-q006-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Only empty string.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Finite automata",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Sentence that can be generated from the following production grammar is S→aS/bA, A→d/ccA",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "aabccccd"
+        },
+        {
+          "label": "B",
+          "text": "ababccccd"
+        },
+        {
+          "label": "C",
+          "text": "bccddd"
+        },
+        {
+          "label": "D",
+          "text": "aaccdb"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "aabccccd",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Context-free grammars",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Pumping lemma is generally used for proving",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A given grammar is regular"
+        },
+        {
+          "label": "B",
+          "text": "A given grammar is non-regular"
+        },
+        {
+          "label": "C",
+          "text": "Whether two given regular expression are equivalent or not"
+        },
+        {
+          "label": "D",
+          "text": "Both (A) and (C)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "A given grammar is non-regular",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Pumping lemma",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Finite state machine can recognize",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only context-free grammar"
+        },
+        {
+          "label": "B",
+          "text": "Only regular grammar"
+        },
+        {
+          "label": "C",
+          "text": "Any unambiguous grammar"
+        },
+        {
+          "label": "D",
+          "text": "Any grammar"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Only regular grammar",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Finite automata and regular grammar",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following is false?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Regular sets are closed under reversal."
+        },
+        {
+          "label": "B",
+          "text": "Regular sets are closed under substitution."
+        },
+        {
+          "label": "C",
+          "text": "Regular sets are closed under intersection."
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of these",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Closure properties of regular languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "For the DFA shown below δ(A, 01) will be",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "{B, D}"
+        },
+        {
+          "label": "B",
+          "text": "{C, D}"
+        },
+        {
+          "label": "C",
+          "text": "{A, B, C}"
+        },
+        {
+          "label": "D",
+          "text": "{A, B, C, D}"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_1/theory_of_computation_1-q011-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "{C, D}",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Finite automata transition computation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "‘NFA can be simulated by a DFA’. The statement is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "True"
+        },
+        {
+          "label": "B",
+          "text": "False"
+        },
+        {
+          "label": "C",
+          "text": "Depends on NFA"
+        },
+        {
+          "label": "D",
+          "text": "Depends on DFA"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "True",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "NFA and DFA equivalence",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Given an arbitrary non-deterministic finite automaton (NFA) with N states, the maximum number of states in an equivalent minimized DFA is at least",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$N^2$"
+        },
+        {
+          "label": "B",
+          "text": "$2^N$"
+        },
+        {
+          "label": "C",
+          "text": "$2N$"
+        },
+        {
+          "label": "D",
+          "text": "$N!$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$2^N$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "NFA to DFA state complexity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Let M = (K, Σ, δ, S, F) be a finite state automaton, Where K = {A, B}, Σ = {a, b}, S = A, F = {B}, δ(A, a) = A, δ(A, b) = B, δ(B, a) = B and δ(B, b) = A. A grammar to generate the language accepted by M can be specified as G = (V, Σ, R, S), where V = K ∪ Σ, and S = A. Which one of the following set of rules will make L(G) = L(M)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "{A→aB, A→bA, B→bA, B→aA, B→∈}"
+        },
+        {
+          "label": "B",
+          "text": "{A→aA, A→bB, B→aB, B→bA, B→∈}"
+        },
+        {
+          "label": "C",
+          "text": "{A→bB, A→aB, B→aA, B→bA, B→∈}"
+        },
+        {
+          "label": "D",
+          "text": "{A→aA, A→bA, B→aB, B→bA, A→∈}"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "{A→aA, A→bB, B→aB, B→bA, B→∈}",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular grammar and finite automata",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "A deterministic finite automaton M shown below has a start state A and accepting state D. Which of the following regular expression denotes the set of all words accepted by M?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "001"
+        },
+        {
+          "label": "B",
+          "text": "10*1*10"
+        },
+        {
+          "label": "C",
+          "text": "1*0*001"
+        },
+        {
+          "label": "D",
+          "text": "(0/1)*011"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_1/theory_of_computation_1-q015-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(0/1)*011",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "DFA to regular expression",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following regular expression is/are true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(x^*)^* = x^*$"
+        },
+        {
+          "label": "B",
+          "text": "$(x+y)^* = x^* + y^*$"
+        },
+        {
+          "label": "C",
+          "text": "$x^*y^* = x^* + y^*$"
+        },
+        {
+          "label": "D",
+          "text": "All of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$(x^*)^* = x^*$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular expressions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the FA shown in the figure given below, where ‘−’ is the start sate and ‘+’ is the ending state. The language accepted by the FA is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(a+b)^*b$"
+        },
+        {
+          "label": "B",
+          "text": "$(a+b)^*a$"
+        },
+        {
+          "label": "C",
+          "text": "$a^*b$"
+        },
+        {
+          "label": "D",
+          "text": "$a^*b^*$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_1/theory_of_computation_1-q017-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$(a+b)^*a$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Finite automata and regular expressions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following statement is false?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The family of regular language is closed under the complementary operation."
+        },
+        {
+          "label": "B",
+          "text": "If L is a regular language, $L_1 = \\{UV: U \\in L,\\ |V|=2\\}$ is also regular."
+        },
+        {
+          "label": "C",
+          "text": "If L is a regular language, $L_1 = \\{UV: U \\in L,\\ V \\in L^R\\}$ is also regular."
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of these",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Closure properties of regular languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following is false?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$L=\\{0^i1^m2^m:i\\ge1,m\\ge1\\}$ over $\\Sigma=\\{0,1,2\\}$ is regular."
+        },
+        {
+          "label": "B",
+          "text": "$L=\\{a^n b^l a^k:k\\ge n+l\\}$ is not regular."
+        },
+        {
+          "label": "C",
+          "text": "$L=\\{UWW^2V:U,V,W\\in\\{a,b\\}^+\\}$ is regular."
+        },
+        {
+          "label": "D",
+          "text": "$L=\\{a^n b^k:n>k\\}\\cup\\{a^n b^k:n\\ne k-1\\}$ is not regular."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$L=\\{0^i1^m2^m:i\\ge1,m\\ge1\\}$ over $\\Sigma=\\{0,1,2\\}$ is regular.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular languages and non-regular languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider a DFA over Σ = {a, b} accepting all strings which have number of a’s divisible by 6 and number of b’s divisible by 8. What is the minimum number of states that the DFA will have?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "15"
+        },
+        {
+          "label": "C",
+          "text": "48"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "15",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "DFA state complexity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "For the NFA M given below. Let the language, accepted by M be L. Let L₁ be the language accepted by the NFA M₁, obtained by changing the accepting state of M to a non-accepting state and by changing the non-accepting states of M to accepting states. Which of the following statement is true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$L_1=A$"
+        },
+        {
+          "label": "B",
+          "text": "$L_1\\subseteq L$"
+        },
+        {
+          "label": "C",
+          "text": "$L_1=\\{0,1\\}^*$"
+        },
+        {
+          "label": "D",
+          "text": "$L_1=\\{0,1\\}^*-L$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_1/theory_of_computation_1-q021-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$L_1=\\{0,1\\}^*$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "NFA and complementation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The following finite state machine accepts all those binary strings in which the number of 1’s and 0’s are respectively.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Divisible by 3 and 2"
+        },
+        {
+          "label": "B",
+          "text": "Odd and even"
+        },
+        {
+          "label": "C",
+          "text": "Even and odd"
+        },
+        {
+          "label": "D",
+          "text": "Divisible by 2 and 5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_1/theory_of_computation_1-q022-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Divisible by 3 and 2",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Finite automata and divisibility",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "In the automaton below, s is the start state and t is only final state. Consider the strings U=abbaba, V=bab and W=aabb. Which of the following statement is true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The automaton accepts U and V but not W."
+        },
+        {
+          "label": "B",
+          "text": "The automaton accepts each of U, V and W."
+        },
+        {
+          "label": "C",
+          "text": "The automaton rejects U, V and W."
+        },
+        {
+          "label": "D",
+          "text": "The automaton accepts U but rejects V and W."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_1/theory_of_computation_1-q023-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "The automaton accepts U but rejects V and W.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "NFA string acceptance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which regular expression best describe the language accepted by the non-deterministic automaton below?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(a+b)^*a(a+b)b$"
+        },
+        {
+          "label": "B",
+          "text": "$(a+b)^*a(a+b)b(a+b)^*$"
+        },
+        {
+          "label": "C",
+          "text": "$(abb)^*$"
+        },
+        {
+          "label": "D",
+          "text": "$(a+b)^*$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_1/theory_of_computation_1-q024-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$(a+b)^*a(a+b)b(a+b)^*$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "NFA to regular expression",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following strings are accepted by the regular expression: (0/1)* 0(0/1) (0/1)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "000 or 001"
+        },
+        {
+          "label": "B",
+          "text": "001 or 010"
+        },
+        {
+          "label": "C",
+          "text": "010 or 011"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular expressions and language membership",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The above diagram represents NFA of regular expression.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(ab)^*(a/b/\\epsilon)$"
+        },
+        {
+          "label": "B",
+          "text": "$(ab)^*(a/b)$"
+        },
+        {
+          "label": "C",
+          "text": "$(ab)^*(a/\\epsilon)$"
+        },
+        {
+          "label": "D",
+          "text": "$(ab)^*(b/\\epsilon)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_1/theory_of_computation_1-q026-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$(ab)^*(a/b/\\epsilon)$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "NFA and regular expression",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "If ‘a’ is a terminal and S, A, B are three (3) non-terminals, then which of the following is regular grammar.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A → aB/aA"
+        },
+        {
+          "label": "B",
+          "text": "A → B a/B a a"
+        },
+        {
+          "label": "C",
+          "text": "A → a B"
+        },
+        {
+          "label": "D",
+          "text": "S → ∈; B → bA; A → aS/b"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "S → ∈; B → bA; A → aS/b",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular grammar",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the grammar S → ABc/Abc; BA → AB; Ab → ab; Aa → aa. Which of the following sentences can be derived by this grammar?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "aab"
+        },
+        {
+          "label": "B",
+          "text": "abcc"
+        },
+        {
+          "label": "C",
+          "text": "abab"
+        },
+        {
+          "label": "D",
+          "text": "abc"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "abc",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Grammar derivation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The language recognized by the following finite automation is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$aabb^*+bab^*$"
+        },
+        {
+          "label": "B",
+          "text": "$(aab(bab^*))^*$"
+        },
+        {
+          "label": "C",
+          "text": "$(aab+ba)(bab)^*$"
+        },
+        {
+          "label": "D",
+          "text": "$(aab^*+bab^*)^*$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_1/theory_of_computation_1-q029-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$(aab+ba)(bab)^*$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Finite automata to regular expression",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "From the following regular expressions over an alphabet {a, b} given below, which can yield all the possible strings over Σ (a, b)? (i) (a*b*) (ii) (a + b)*",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only (i)"
+        },
+        {
+          "label": "B",
+          "text": "Only (ii)"
+        },
+        {
+          "label": "C",
+          "text": "Both (A) and (B)"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Only (ii)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular expressions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

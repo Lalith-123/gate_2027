@@ -1,0 +1,1481 @@
+[
+  {
+    "id": "gate-probability-and-statistics-test-4-q001",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "If $A$, $B$ and $C$ are mutually exclusive such that $5P(B)=8P(A)$, $4P(C)=3P(B)$ and $19P(A\\cup B)=13$ then $P(A\\cup B\\cup C)$ is ________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$0.75$"
+        },
+        {
+          "label": "B",
+          "text": "$1$"
+        },
+        {
+          "label": "C",
+          "text": "$0.625$"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$1$",
+      "explanation": "Given $5P(B)=8P(A)$ and $4P(C)=3P(B)$\n$$P(A)=\\frac{5}{8}P(B)\\quad\\text{and}\\quad P(C)=\\frac{3}{4}P(B).$$\nNow $19P(A\\cup B)=13\\Rightarrow P(A\\cup B)=\\frac{13}{19}$.\nSince $A$ and $B$ are mutually exclusive,\n$$P(A)+P(B)=\\frac{13}{19}.$$\nTherefore,\n$$\\frac{5}{8}P(B)+P(B)=\\frac{13}{19},$$\nso $P(B)=\\frac{8}{19}$.\nNow\n$$P(A\\cup B\\cup C)=P(A)+P(B)+P(C)=\\frac58P(B)+P(B)+\\frac34P(B)=\\frac{19}{8}P(B)=1.$$\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q002",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "240 passengers travelling in a plane from Hyderabad to Sharjah like one or more of the three meals among sandwich, burger and pizza as given below. 140 passengers like sandwich, 110 passengers like burger and 90 passengers like pizza. 40 of them like both sandwich and burger, 50 of them like both Sandwich and Pizza, 40 of them like both burger and pizza where as 30 of them like all the three meals. What is the probability that a randomly selected passenger likes pizza only?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$0.125$"
+        },
+        {
+          "label": "B",
+          "text": "$0.250$"
+        },
+        {
+          "label": "C",
+          "text": "$0.375$"
+        },
+        {
+          "label": "D",
+          "text": "$0.500$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$0.125$",
+      "explanation": "The total number of passengers = 240.\nLet $S$, $B$ and $P$ denote the sets of passengers who like sandwich, burger and pizza respectively.\n$$n(S)=140,\\ n(B)=110,\\ n(P)=90,$$\n$$n(S\\cap B)=40,\\ n(B\\cap P)=40,\\ n(P\\cap S)=50$$\nand $n(S\\cap B\\cap P)=30$.\nProbability that a randomly selected passenger likes only pizza\n$$=\\frac{n(P)-n(P\\cap S)-n(B\\cap P)+n(S\\cap B\\cap P)}{240}$$\n$$=\\frac{90-50-40+30}{240}=\\frac18=0.125.$$\nChoice (A)",
+      "status": "confirmed",
+      "image": "images/Engineering_mathematics_5/gate-engineering-mathematics-test-4-q002-explanation-figure.png"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q003",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "Let $S$ be the set of all 4 digit numbers that can be formed using the digits 2, 3, 5, 7, 8 and 9. Probability that a randomly selected number of $S$ has all digits distinct is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{5}{12}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{5}{18}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5}{24}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{5}{36}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\frac{5}{18}$",
+      "explanation": "The number of 4 digit numbers that can be formed using the digits 2, 3, 5, 7, 8 and 9 = the number of elements of $S=6^4$.\nThe number of 4 digit numbers of $S$ that have all digits distinct = the number of 4 digit numbers that can be formed using the digits 2, 3, 5, 7, 8 and 9 = ${}^6P_4$.\nTherefore,\n$$P(\\text{all digits distinct})=\\frac{{}^6P_4}{6^4}=\\frac{5}{18}.$$\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q004",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "An unbiased coin is tossed until it shows up the same face in two consecutive throws. What is the probability that the number of tosses is not more than 4?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac34$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac18$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac78$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac14$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\frac78$",
+      "explanation": "The number of tosses may be 2 or 3 or 4.\nThe possible cases and their corresponding probabilities:\nCase 1: $HH$ OR $TT\\rightarrow2\\left(\\frac12\\right)^2$.\nCase 2: $HTT$ OR $THH\\rightarrow2\\left(\\frac12\\right)^3$.\nCase 3: $HTHH$ OR $THTT\\rightarrow2\\left(\\frac12\\right)^4$.\nHence, the required probability is\n$$2\\left[\\frac14+\\frac18+\\frac1{16}\\right]=\\frac78.$$\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q005",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "What is the probability that a quadratic equation $ax^2+bx+c=0$ has equal roots if $a$, $b$ and $c$ are distinct and are taken from $\\{1,2,3,4,6,8,9\\}$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac1{35}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac2{35}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac1{105}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac2{105}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\frac1{105}$",
+      "explanation": "Considering different values of $a$, $b$ and $c$ from the set $\\{1,2,3,4,6,8,9\\}$, we get different quadratic equations.\nAs $a$, $b$ and $c$ are distinct, ${}^7P_3=210$ different quadratic equations can be formed.\nFor the quadratic equation $ax^2+bx+c=0$ to have equal roots, $b^2=4ac$.\nThe possible combinations of $a$, $b$ and $c$ respectively are $(1,6,9)$ and $(9,6,1)$.\nHence favourable cases are 2.\n$$\\text{Required probability}=\\frac{2}{210}=\\frac1{105}.$$\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q006",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "A bag contains 4 five rupee coins, 3 two rupee coins and 3 one rupee coins. If 6 coins are drawn from the bag at random, what are the odds in favour of the draw yielding maximum amount?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1:70$"
+        },
+        {
+          "label": "B",
+          "text": "$1:69$"
+        },
+        {
+          "label": "C",
+          "text": "$69:70$"
+        },
+        {
+          "label": "D",
+          "text": "$70:1$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$1:69$",
+      "explanation": "We have 4 five rupee coins, 3 two rupee coins and 3 one rupee coins.\nFor the draw to yield a maximum amount, of the 6 coins drawn 4 should be five rupee coins and 2 should be two rupee coins. The required probability is\n$$\\frac{{}^4C_4\\times{}^3C_2}{{}^{10}C_6}=\\frac3{210}=\\frac1{70}.$$\nHence, odds in favour are favourable ways : unfavourable ways $=1:69$.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q007",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "Kids and Toys factory is transporting balls of 5 different colours – yellow, blue, red, green and white. Mr. Bholeram, a worker in the factory has to separate these balls as per their colours into different boxes and label them with the corresponding coloured labels.\n\nMr. Bholeram, after separating the balls, sealed the boxes and then labelled the boxes at random. What is the probability that all the boxes are incorrectly labelled?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1$"
+        },
+        {
+          "label": "B",
+          "text": "$0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{11}{120}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{11}{30}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\frac{11}{30}$",
+      "explanation": "There are 5 boxes and 5 labels. Hence the boxes can be labelled in $5!=120$ different ways.\n$$P(\\text{all labelled incorrectly})=\\frac1{2!}-\\frac1{3!}+\\frac1{4!}-\\frac1{5!}=\\frac{44}{120}=\\frac{11}{30}.$$\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q008",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "While shuffling a pack of cards, 4 cards are accidentally dropped. The probability that all of them are numbered cards (2 to 10) of the same suit is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{4\\times{}^9C_4}{{}^{52}C_4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{({}^9C_4)^4}{{}^{52}C_4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{4\\times{}^9C_1}{{}^{52}C_4}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{({}^9C_1)^4}{{}^{52}C_4}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\frac{4\\times{}^9C_4}{{}^{52}C_4}$",
+      "explanation": "There are 9 numbered cards in each suit.\n$$P(\\text{all the 4 cards are numbered cards of same suit})\n=\\frac{{}^9C_4+{}^9C_4+{}^9C_4+{}^9C_4}{{}^{52}C_4}\n=\\frac{4\\times{}^9C_4}{{}^{52}C_4}.$$\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q009",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "Arpit and Bipin pick up a ball at random from a bag containing 5 violet, 2 red and 3 orange balls one after the other, replacing it every time till one of them gets an orange ball and the one who first gets an orange ball is declared a winner. If Arpit begins the game, then the probability of Bipin winning the game is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{10}{17}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{7}{17}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{7}{10}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac3{10}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\frac{7}{17}$",
+      "explanation": "The probability of picking up an orange ball is $\\frac3{10}$ while not picking up an orange ball is $\\frac7{10}$.\nWe compute the probability of Arpit (the beginner) winning the game.\nLet $A$ and $B$ be the events of Arpit and Bipin picking up an orange ball respectively.\nThe winning sequence of Arpit can be $A,\\ A\\bar B A,\\ A\\bar B A\\bar B A,\\ldots$.\nAs the above sequence indicates, Arpit may pick an orange ball right in the 1st trial with a probability of $\\frac3{10}$, or in the third trial with probability $\\left(\\frac7{10}\\right)^1\\frac3{10}$, or in the fifth trial with probability $\\left(\\frac7{10}\\right)^2\\frac3{10}$ and so on.\n$$P(A)=\\frac3{10}+\\left(\\frac7{10}\\right)^1\\frac3{10}+\\left(\\frac7{10}\\right)^2\\frac3{10}+\\cdots$$\n$$=\\frac{\\frac3{10}}{1-\\left(\\frac7{10}\\right)^2}=\\frac{30}{51}=\\frac{10}{17}.$$\nProbability of Bipin winning is the same as probability of Arpit losing, i.e.,\n$$P(B)=P(\\bar A)=1-\\frac{10}{17}=\\frac7{17}.$$\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q010",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "An urn A contains 6 white balls and 7 black balls. And urn B contains 8 white balls and 6 black balls. A person draws a ball at random from one of the two urns. It turns out to be black. What is the probability that the ball was drawn from urn A?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac7{14}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{49}{88}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{39}{88}$"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\frac{49}{88}$",
+      "explanation": "Probability of selecting urn A is $P(A)=\\frac12$ and that of selecting urn B is $P(B)=\\frac12$.\nProbability of drawing a black ball (event $E$) when urn A is selected\n$$P\\left(\\frac{E}{A}\\right)=\\frac{{}^7C_1}{{}^{13}C_1}$$\nand probability of $E$ when urn B is selected\n$$P\\left(\\frac{E}{B}\\right)=\\frac{{}^6C_1}{{}^{14}C_1}.$$\nTherefore,\n$$P(E)=P(A)P\\left(\\frac EA\\right)+P(B)P\\left(\\frac EB\\right).$$\nThe required probability\n$$P\\left(\\frac AE\\right)=\\frac{P(A)P(E/A)}{P(E)}=\\frac{49}{88}.$$\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q011",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "The bivariate probability distribution of $X$ and $Y$ is as follows.\n\nFind $P(X\\le1,Y=2)$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac25$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac15$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac3{10}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac1{10}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\frac1{10}$",
+      "explanation": "The marginal distributions are given below.\n$$P(X\\le1,Y=2)=P(X=0,Y=2)+P(X=1,Y=2)$$\n$$=\\frac3{40}+\\frac1{40}=\\frac4{40}=\\frac1{10}.$$\nChoice (D)",
+      "status": "confirmed",
+      "image": "images/Engineering_mathematics_5/gate-engineering-mathematics-test-4-q011-question-table.png"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q012",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "In a book of 500 pages, there are 50 typing errors. Assuming that the number of errors per page follows poisson distribution, find the probability that randomly chosen 5 pages will contain no error.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$0.6065$"
+        },
+        {
+          "label": "B",
+          "text": "$0.6078$"
+        },
+        {
+          "label": "C",
+          "text": "$0.6538$"
+        },
+        {
+          "label": "D",
+          "text": "$0.3935$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$0.6065$",
+      "explanation": "Average number of errors per page $\\lambda=\\frac{50}{500}=\\frac1{10}$.\nAverage number of errors per 5 pages $=5\\times\\frac1{10}=\\frac12$.\nProbability of $k$ errors per page is\n$$P(x=k)=\\frac{\\lambda^k}{k!}e^{-\\lambda}.$$\nHere $k=0$, so\n$$P(k=0)=e^{-1/2}.$$\nProbability that a random sample of 5 pages has no error $=e^{-0.5}=0.6065$.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q013",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "The continuous random variable $X$ is uniformly distributed with mean 2 and variance 12. Find $P(X>0)$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac13$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac45$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac23$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac15$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\frac23$",
+      "explanation": "We know that $X$ is uniform random variable in the interval $[a,b]$ then\n$$p(x)=\\frac1{b-a},\\quad a<x<b$$\nand\n$$\\text{mean}=\\frac{a+b}{2},\\qquad \\text{variance}=\\frac{(b-a)^2}{12}.$$\nGiven mean $=2$,\n$$\\frac{a+b}{2}=2\\Rightarrow a+b=4.\\tag{1}$$\nVariance $=12$,\n$$\\frac{(b-a)^2}{12}=12\\Rightarrow(b-a)^2=144\\Rightarrow b-a=12.\\tag{2}$$\nSolving (1) and (2), $a=-4,b=8$.\nTherefore\n$$P(X>0)=\\int_0^8\\frac1{12}\\,dx=\\frac8{12}=\\frac23.$$\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q014",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "$X$ and $Y$ are two independent normal variates with means 3, 6 and variances, 1, 9 respectively. Find the value of $k$ such that $P(X+Y\\le k)=P(9X-Y\\ge2k)$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$9.3$"
+        },
+        {
+          "label": "B",
+          "text": "$9.6$"
+        },
+        {
+          "label": "C",
+          "text": "$8.6$"
+        },
+        {
+          "label": "D",
+          "text": "$10.3$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$9.6$",
+      "explanation": "Given mean of $X=3$, variance of $X=1$, mean of $Y=6$, variance of $Y=9$.\n$X=N(3,1)$, $Y=N(6,3)$ and $X$ and $Y$ are independent.\nLet $u=x+y$ and $v=9x-y$.\nThen $u,v$ are also normal variates.\n$$U=x+y=N(3+6,1+9)=N(9,10)$$\n$$V=9x-y=N(9(3)-6,81(1)+9)=N(21,90).$$\nBy definition,\n$$Z=\\frac{u-9}{\\sqrt{10}},\\quad Z=\\frac{k-9}{\\sqrt{10}}=z.$$\nAgain\n$$z=\\frac{v-21}{\\sqrt{90}},\\quad Z=\\frac{2k-21}{\\sqrt{90}}=z_1.$$\nGiven $P(x+y\\le k)=P(9x-y\\ge2k)$,\n$$P(z\\le z_1)=P(z\\ge z_2)=P(z\\le-z_2).$$\nThus\n$$\\frac{k-9}{\\sqrt{10}}=-\\frac{2k-21}{\\sqrt{90}}.$$\nSolving gives $5k=48$, hence $k=\\frac{48}{5}=9.6$.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q015",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "Bag $A$ contains 9 white balls and 5 green balls. Bag $B$ contains 6 white balls and 7 green balls. One ball is drawn from bag $A$ and is placed in bag $B$. Now one ball is drawn at random from bag $B$. It is found that the ball is green. Find the probability that white ball is transferred from bag $A$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{20}{103}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{63}{103}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{80}{103}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{75}{103}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\frac{63}{103}$",
+      "explanation": "Let $B_1$: transfer of white ball to bag $B$.\n$B_2$: transfer of green ball to bag $B$.\n$$P(B_1)=\\frac9{14};\\qquad P(B_2)=\\frac5{14}.$$\nLet $E$ be the event of drawing a green ball from bag $B$ after transfer.\n$$P\\left(\\frac E{B_1}\\right)=\\frac7{14}$$\nand\n$$P\\left(\\frac E{B_2}\\right)=\\frac8{14}.$$\nTherefore\n$$P(E)=P(B_1)P(E/B_1)+P(B_2)P(E/B_2)$$\n$$=\\frac9{14}\\cdot\\frac7{14}+\\frac5{14}\\cdot\\frac8{14}=\\frac{103}{196}.$$\nThe required probability\n$$P\\left(\\frac{B_1}{E}\\right)=\\frac{P(B_1)P(E/B_1)}{P(E)}\n=\\frac{63}{103}.$$\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q016",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "A dice is rolled twice the sum of the numbers appearing is 7, what is the probability that at least one dice shows 3?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac37$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac23$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac13$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac47$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\frac13$",
+      "explanation": "Let $A$ be the event that the number 3 appears atleast once.\n$B$ be the event that sum of the numbers appearing is 7.\n$A\\cap B$ be the event that the sum is 7 and 3 appear atleast once.\n$$P(B)=\\frac6{36}\\Rightarrow P(A\\cap B)=\\frac2{36}.$$\n$A/B$ denotes atleast one number show 3 while the sum of the numbers is 7.\n$$P\\left(\\frac AB\\right)=\\frac{P(B\\cap A)}{P(B)}\n=\\frac{2/36}{6/36}=\\frac13.$$\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q017",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "A random variable $X$ has the following probability distribution.\n\nThen find $P(X\\ge2)$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac45$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac15$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac25$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac1{15}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\frac45$",
+      "explanation": "We know $\\sum P(X=x_i)=1$.\n$$k+2k+3k+4k+5k=1$$\n$$15k=1\\Rightarrow k=\\frac1{15}.$$\n$$P(X\\ge2)=P(X=2)+P(X=3)+P(X=4)$$\n$$=3k+5k+4k=12k=\\frac{12}{15}=\\frac45.$$\nChoice (A)",
+      "status": "confirmed",
+      "image": "images/Engineering_mathematics_5/gate-engineering-mathematics-test-4-q017-question-table.png"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q018",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "The standard error is _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "accepting the null hypothesis when it is false."
+        },
+        {
+          "label": "B",
+          "text": "rejecting the null hypothesis when it is true."
+        },
+        {
+          "label": "C",
+          "text": "the standard deviation of the sampling distribution of a statistic."
+        },
+        {
+          "label": "D",
+          "text": "the probability that the test statistic does not lie in the critical region."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "the standard deviation of the sampling distribution of a statistic.",
+      "explanation": "By definition.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q019",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "In large sampling, the sampling distribution of means follows _____",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Normal distribution"
+        },
+        {
+          "label": "B",
+          "text": "t – distribution"
+        },
+        {
+          "label": "C",
+          "text": "F – distribution"
+        },
+        {
+          "label": "D",
+          "text": "$\\chi^2$ – distribution"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Normal distribution",
+      "explanation": "Standard Result.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q020",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "Which of the following distributions is used to test the equality of variances of two populations from which two small random samples are drawn?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Normal distribution"
+        },
+        {
+          "label": "B",
+          "text": "t – distribution"
+        },
+        {
+          "label": "C",
+          "text": "F – distribution"
+        },
+        {
+          "label": "D",
+          "text": "$\\chi^2$ – distribution"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "F – distribution",
+      "explanation": "Standard Result.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q021",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "If a statistic $s$ follows $t$ – distribution with $\\nu=10$ degrees of freedom, then $s^2$ follows $F$ – distribution with degrees of freedom $(\\nu_1,\\nu_2)=$ _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(1,9)$"
+        },
+        {
+          "label": "B",
+          "text": "$(1,10)$"
+        },
+        {
+          "label": "C",
+          "text": "$(1,11)$"
+        },
+        {
+          "label": "D",
+          "text": "$(9,1)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$(1,10)$",
+      "explanation": "We know that, if a statistic ‘s’ follows t-distribution with degrees of freedom $=\\nu$, then ‘$s^2$’ follows F–distribution with degrees of freedom $(1,\\nu)$.\nHere $\\nu=10$.\n∴ ‘$s^2$’ follows F-distribution with degrees of freedom $=(1,\\nu)=(1,10)$.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q022",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "In testing of hypothesis, if the test statistic is outside the critical region, then we will\n$P$: Accept the null hypothesis\n$Q$: Reject the null hypothesis\n$R$: Accept the alternative hypothesis\n$S$: Reject the alternative hypothesis\nWhich of the following is true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "P only"
+        },
+        {
+          "label": "B",
+          "text": "R only"
+        },
+        {
+          "label": "C",
+          "text": "P and S only"
+        },
+        {
+          "label": "D",
+          "text": "Q and R only"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "P and S only",
+      "explanation": "When the test statistic is outside the critical region, it lies in the acceptance region. So, we will accept the null hypothesis and reject the alternative hypothesis.\n∴ Both $P$ and $S$ are true.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q023",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "Three letters are placed into three addressed envelopes randomly. A random variable $X$ denotes the number of letters placed into corresponding envelopes. Find the variance of $X$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac56$"
+        },
+        {
+          "label": "B",
+          "text": "$2$"
+        },
+        {
+          "label": "C",
+          "text": "$1$"
+        },
+        {
+          "label": "D",
+          "text": "$3$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$1$",
+      "explanation": "Three letters are placed into 3 addressed envelopes randomly in $3!=6$ ways.\n$X$ denotes the number of letters placed into corresponding addressed envelopes. The probability distribution table is as follows.\n\nThe mean\n$$M=\\sum X_iP(x=x_i)\n=0\\times\\frac26+1\\times\\frac36+2\\times0+3\\times\\frac16=1.$$\nVariance\n$$=\\sum x_i^2P(x=x_i)-\\mu^2\n=0\\times\\frac26+1\\times\\frac36+4\\times0+9\\times\\frac16-1=1.$$\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Engineering_mathematics_5/gate-engineering-mathematics-test-4-q023-explanation-table.png"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q024",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "The variance of the data $x,x+3,x+5,x+7,x+10$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$11.2$"
+        },
+        {
+          "label": "B",
+          "text": "$11.6$"
+        },
+        {
+          "label": "C",
+          "text": "$11.6+x$"
+        },
+        {
+          "label": "D",
+          "text": "$11.2+x$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$11.6$",
+      "explanation": "We know that variance $(x,x+3,x+5,x+7,x+10)$\n$=$ variance $(0,3,5,7,10)$.\n$$AM(0,3,5,7,10)=\\frac{0+3+5+7+10}{5}=\\frac{25}{5}=5.$$\n$$\\text{Variance}(0,3,5,7,10)=\\frac{\\sum(x_i-A)^2}{n}$$\n$$=\\frac{(0-5)^2+(3-5)^2+(5-5)^2+(7-5)^2+(10-5)^2}{5}$$\n$$=\\frac{25+4+0+4+25}{5}=\\frac{58}{5}=11.6.$$\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-probability-and-statistics-test-4-q025",
+    "pdfName": "Engineering_mathematics_5.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Probability and Statistics"
+    },
+    "question": {
+      "text": "The median of the following data can be 3, 8, 12, 28, 16, 15, $x$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$13$"
+        },
+        {
+          "label": "B",
+          "text": "$14$"
+        },
+        {
+          "label": "C",
+          "text": "$15$"
+        },
+        {
+          "label": "D",
+          "text": "Any of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Any of the above",
+      "explanation": "The ascending order of the given data except $x$ is 3, 8, 12, 15, 16, 28.\nIf $x<12$, the fourth observation is 12 hence median is 12.\nIf $x>15$, the fourth observation is 15, hence median is 15.\nIf $12<x<15$, the fourth observation is $x$, hence median is $x$.\nMedian is always lies between $[12,15]$.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Probability and Statistics",
+      "topic": null,
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 4",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

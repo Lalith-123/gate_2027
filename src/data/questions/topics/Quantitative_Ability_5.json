@@ -1,0 +1,1836 @@
+[
+  {
+    "id": "gate-quantitative-ability-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 1 to 4: These questions are based on the information given below.\nVinod Melkote, HR Manager of XYZ Ltd. received partial information from his subordinates about the employees for annual appraisal.\nVinod also received the following information.\n(1) One-third of the total employees are above average performers.\n(2) 25% of the males are below average performers.\n(3) The total number of females is twice the number of average performing males.",
+      "text": "How many people are above average performers?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "48"
+        },
+        {
+          "label": "B",
+          "text": "60"
+        },
+        {
+          "label": "C",
+          "text": "66"
+        },
+        {
+          "label": "D",
+          "text": "54"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q001-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "60",
+      "explanation": "Given that 25% of the males are below average performers. Hence their number is 25% of 96 = 24. As the total number of below average performers is 48 and 24 of them are males, remaining 24 are females. Given, number of females = 2 (Number of male average performers). Let the number of male average performers be x. Then, we get the following table. Given, above average performers = one-third (total number of employees), i.e., x + 18 = one-third (2x + 96). ⇒ 3x + 54 = 2x + 96 ⇒ x = 42. Number of above average performers = x + 18 i.e., 60. Choice (B)",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q001-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 1 to 4: These questions are based on the information given below.\nVinod Melkote, HR Manager of XYZ Ltd. received partial information from his subordinates about the employees for annual appraisal.\nVinod also received the following information.\n(1) One-third of the total employees are above average performers.\n(2) 25% of the males are below average performers.\n(3) The total number of females is twice the number of average performing males.",
+      "text": "How many females are there?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "54"
+        },
+        {
+          "label": "B",
+          "text": "72"
+        },
+        {
+          "label": "C",
+          "text": "90"
+        },
+        {
+          "label": "D",
+          "text": "84"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q001-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "84",
+      "explanation": "Given that 25% of the males are below average performers. Hence their number is 25% of 96 = 24. As the total number of below average performers is 48 and 24 of them are males, remaining 24 are females. Given, number of females = 2 (Number of male average performers). Let the number of male average performers be x. Then, we get the following table. Given, above average performers = one-third (total number of employees), i.e., x + 18 = one-third (2x + 96). ⇒ 3x + 54 = 2x + 96 ⇒ x = 42. Number of females = 2x i.e., 2(42) = 84. Choice (D)",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q001-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 1 to 4: These questions are based on the information given below.\nVinod Melkote, HR Manager of XYZ Ltd. received partial information from his subordinates about the employees for annual appraisal.\nVinod also received the following information.\n(1) One-third of the total employees are above average performers.\n(2) 25% of the males are below average performers.\n(3) The total number of females is twice the number of average performing males.",
+      "text": "What is the difference between the total number of average performers and that of males?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "24"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q001-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "24",
+      "explanation": "Given that 25% of the males are below average performers. Hence their number is 25% of 96 = 24. As the total number of below average performers is 48 and 24 of them are males, remaining 24 are females. Given, number of females = 2 (Number of male average performers). Let the number of male average performers be x. Then, we get the following table. Given, above average performers = one-third (total number of employees), i.e., x + 18 = one-third (2x + 96). ⇒ 3x + 54 = 2x + 96 ⇒ x = 42. Total number of average performers = x + 30 i.e., 72. Also as the number of males = 96, the required difference is 96 - 72 = 24. Choice (C)",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q001-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 1 to 4: These questions are based on the information given below.\nVinod Melkote, HR Manager of XYZ Ltd. received partial information from his subordinates about the employees for annual appraisal.\nVinod also received the following information.\n(1) One-third of the total employees are above average performers.\n(2) 25% of the males are below average performers.\n(3) The total number of females is twice the number of average performing males.",
+      "text": "What is the ratio of the number of average performers and the number of females?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 : 7"
+        },
+        {
+          "label": "B",
+          "text": "11 : 12"
+        },
+        {
+          "label": "C",
+          "text": "3 : 4"
+        },
+        {
+          "label": "D",
+          "text": "2 : 3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q001-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "6 : 7",
+      "explanation": "Given that 25% of the males are below average performers. Hence their number is 25% of 96 = 24. As the total number of below average performers is 48 and 24 of them are males, remaining 24 are females. Given, number of females = 2 (Number of male average performers). Let the number of male average performers be x. Then, we get the following table. Given, above average performers = one-third (total number of employees), i.e., x + 18 = one-third (2x + 96). ⇒ 3x + 54 = 2x + 96 ⇒ x = 42. Required ratio of above average performers : Number of females = x + 30 : 2x i.e., 72 : 84 = 6 : 7. Choice (A)",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q001-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 5 to 8: These questions are based on the following line graph.",
+      "text": "If the profit of X in 2010-11 is ₹120 lakhs, then what is its income in 2010-11? (in ₹lakhs)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "520"
+        },
+        {
+          "label": "B",
+          "text": "200"
+        },
+        {
+          "label": "C",
+          "text": "320"
+        },
+        {
+          "label": "D",
+          "text": "140"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q005-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "520",
+      "explanation": "Given profit of X in 2010-11 = ₹120 lakhs. Profit percentage of X in 2010-11 = 30%. As profit % = Profit / Expenditure × 100. 30 = 120 lakhs / expenditure × 100 = ₹400 lakhs. ∴ Expenditure of X in 2010–11 is ₹400 lakhs. Hence, its income in 2010–11 = ₹520 lakhs. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 5 to 8: These questions are based on the following line graph.",
+      "text": "If the income of Y in 2013-14 is thrice that of X in 2009-10, then what is the ratio of profits of X and Y in 2013-14?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "12 : 1"
+        },
+        {
+          "label": "B",
+          "text": "12 : 13"
+        },
+        {
+          "label": "C",
+          "text": "1 : 13"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q005-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of these",
+      "explanation": "As the income of X in 2013–14 is not known, the required ratio cannot be determined. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 5 to 8: These questions are based on the following line graph.",
+      "text": "If in 2009-10, the ratio of profits of X, Y and Z is 4 : 2 : 3, then what is the ratio of their expenditures in that year?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 : 6 : 4"
+        },
+        {
+          "label": "B",
+          "text": "2 : 2 : 1"
+        },
+        {
+          "label": "C",
+          "text": "3 : 2 : 4"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q005-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2 : 2 : 1",
+      "explanation": "Given, 20% of X; 10% of Y : 30% of Z = 4 : 2 : 3, i.e., X : Y : Z = 20 : 20 : 10 = 2 : 2 : 1. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 5 to 8: These questions are based on the following line graph.",
+      "text": "If both Y and Z had the same profit in 2011-12, then what is the ratio of their incomes in that year?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 : 3"
+        },
+        {
+          "label": "B",
+          "text": "1 : 1"
+        },
+        {
+          "label": "C",
+          "text": "26 : 21"
+        },
+        {
+          "label": "D",
+          "text": "2 : 3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q005-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "26 : 21",
+      "explanation": "Let the profit of Y and Z in 2011-12 be ₹x. Then, using the graph, we have x / exp Q = 30 and x / exp R = 40. Let exp Q = 400x and exp R = 300x. ∴ 30(exp Q) = 40(exp R) ⇒ Expenditures of X and Y are in the ratio 4 : 3. Incomes ratio = 520x : 420x = 26 : 21. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 9 to 13: These questions are based on the following bar graph.",
+      "text": "From the year 2010 to 2011, the trade with India by which of the following countries showed the highest percentage increase?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "USA"
+        },
+        {
+          "label": "B",
+          "text": "Japan"
+        },
+        {
+          "label": "C",
+          "text": "U.K"
+        },
+        {
+          "label": "D",
+          "text": "Germany"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q009-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Germany",
+      "explanation": "The percentage increase in the trade volume from 2010 to 2011 for USA = 354/1604 × 100 < 25%; for Japan = 711/1871 × 100 < 40%; for UK = 311/1836 × 100 < 20%; for Germany = 652/1417 × 100 > 40%. The percentage increase in trade volume is the greatest for Germany. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 9 to 13: These questions are based on the following bar graph.",
+      "text": "In the year 2013, the trade volume by the given countries constitutes 62.5% of the total trade volume of India. What is the trade volume (in ₹’00 crores) by all other countries with India in that year?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4590"
+        },
+        {
+          "label": "B",
+          "text": "5430"
+        },
+        {
+          "label": "C",
+          "text": "6140"
+        },
+        {
+          "label": "D",
+          "text": "7250"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q009-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "4590",
+      "explanation": "Total trade volume by the given countries in 2013 = 2210 + 1936 + 2340 + 1164 = 7650. Given that 62.5% of the total trade volume = 7650. Then 37.5% of the total trade volume = (37.5/62.5) × 7650 = 3/5 × 7650 = ₹4590 Crores. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 9 to 13: These questions are based on the following bar graph.",
+      "text": "During which year is the total trade volume by the given countries with India the highest?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2010"
+        },
+        {
+          "label": "B",
+          "text": "2011"
+        },
+        {
+          "label": "C",
+          "text": "2012"
+        },
+        {
+          "label": "D",
+          "text": "2014"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q009-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "2014",
+      "explanation": "By observation, we find that the total trade volume is the least in 2010 and 2013. By comparing the total trade volume in 2011 and that in 2012, we find that the trade volume in 2012 is lower. Now, by comparing the total trade volume in 2011 and that in 2014 we find that the total trade volume in 2014 is the highest. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 9 to 13: These questions are based on the following bar graph.",
+      "text": "In how many of the given years is the trade volume of Netherlands with India greater than the average trade volume per year by the Netherlands in India in the given period?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q009-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "3",
+      "explanation": "We can observe that the trade volume by the Netherlands in India is less than 2000 in one year and more than that in four years. By assuming the average to be 2000, we find the average of the deviations = (−164 + 147 + 476 + 340 + 651) / 5 = 1450/5 = 290. The average = 2290. Three values are more than the average. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 9 to 13: These questions are based on the following bar graph.",
+      "text": "For which country is the percentage increase in the trade volume with India in any year when compared to that in the previous year, the greatest?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "USA"
+        },
+        {
+          "label": "B",
+          "text": "Japan"
+        },
+        {
+          "label": "C",
+          "text": "UK"
+        },
+        {
+          "label": "D",
+          "text": "Germany"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q009-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Germany",
+      "explanation": "The trade volume from Germany registered more than 40% growth. By observation, we find that for no other country there is more than 40% growth in the trade volume in any two successive years. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 14 to 18: These questions are based on the following pie-charts which show the percentage distribution of births in different areas, during the two years 2013 and 2014.",
+      "text": "What is the difference in the number of births in the year 2013 and 2014 in rural areas?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "16,400"
+        },
+        {
+          "label": "B",
+          "text": "19,200"
+        },
+        {
+          "label": "C",
+          "text": "18,600"
+        },
+        {
+          "label": "D",
+          "text": "17,600"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q014-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "19,200",
+      "explanation": "No. of births in rural area in 2013 = 22% of 3.6 lakh = 79,200. No. of births in rural area in 2014 = 20% of 3 lakh = 60,000. Difference = 79,200 − 60,000 = 19,200. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 14 to 18: These questions are based on the following pie-charts which show the percentage distribution of births in different areas, during the two years 2013 and 2014.",
+      "text": "The percentage increase/decrease in the number of births in semi-urban areas from 2013 to 2014 is _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "16.66% decrease"
+        },
+        {
+          "label": "B",
+          "text": "20% increase"
+        },
+        {
+          "label": "C",
+          "text": "16.66% increase"
+        },
+        {
+          "label": "D",
+          "text": "20% decrease"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q014-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "16.66% decrease",
+      "explanation": "The number of births in semi-urban area in 2013 = 18% of 3.6 lakh = 64,800. The number of births in semi-urban area in 2014 = 18% of 3 lakh = 54,000. Percentage decrease = (64,800 − 54,000) / 64,800 × 100 = 16.66%. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 14 to 18: These questions are based on the following pie-charts which show the percentage distribution of births in different areas, during the two years 2013 and 2014.",
+      "text": "What is the ratio of the number of births in the metropolitans in 2013 to that in 2014?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "36 : 25"
+        },
+        {
+          "label": "B",
+          "text": "15 : 17"
+        },
+        {
+          "label": "C",
+          "text": "3 : 7"
+        },
+        {
+          "label": "D",
+          "text": "7 : 3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q014-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "36 : 25",
+      "explanation": "The number of births in metropolitan area in 2013 = 36% of 3.6 lakh = 1,29,600. The number of births in metropolitan area in 2014 = 30% of 3 lakh = 90,000. Required ratio = 129600 : 90000 = 36 : 25. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 14 to 18: These questions are based on the following pie-charts which show the percentage distribution of births in different areas, during the two years 2013 and 2014.",
+      "text": "The number of births in tribal areas in the year 2013 is what percentage of that in 2014?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "56%"
+        },
+        {
+          "label": "B",
+          "text": "64%"
+        },
+        {
+          "label": "C",
+          "text": "72%"
+        },
+        {
+          "label": "D",
+          "text": "84%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q014-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "72%",
+      "explanation": "The number of births in tribal area in 2013 = 6% of 3.6 lakh = 21,600. The number of births in tribal area in 2014 = 10% of 3 lakh = 30,000. ∴ Required percentage = 21600 / 30000 × 100 = 72%. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 14 to 18: These questions are based on the following pie-charts which show the percentage distribution of births in different areas, during the two years 2013 and 2014.",
+      "text": "If 18% of the children born in 2013 and 16% of the children born in 2014 lacked good medical facilities in the same year, then what is the total number of children (in lakhs) who doesn’t lacked good medical facilities in these two years?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6.329"
+        },
+        {
+          "label": "B",
+          "text": "5.472"
+        },
+        {
+          "label": "C",
+          "text": "4.289"
+        },
+        {
+          "label": "D",
+          "text": "5.689"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q014-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "5.472",
+      "explanation": "The number of children lacking good medical facilities in 2013 = 82% of 3.6 lakh = 2,95,200. The number of children lacking good medical facilities in 2014 = 84% of 3 lakh = 2,52,000. ∴ Total number of children who does not lack good medical facilities = 2,95,200 + 2,52,000 = 5,47,200 = 5.472 lakhs. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 19 to 20: Select the correct alternative from the given Choices.",
+      "text": "A total of 600 persons participated in a survey. Each respondent was asked whether he/she owned a vehicle. Any respondent owning a vehicle was asked to mention whether he/she owned a two-wheeler or four wheeler or both. The results of the survey are tabulated below. What percent of the respondents do not own a four wheeler?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "60%"
+        },
+        {
+          "label": "B",
+          "text": "40%"
+        },
+        {
+          "label": "C",
+          "text": "30%"
+        },
+        {
+          "label": "D",
+          "text": "80%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q019-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "40%",
+      "explanation": "A total of 80 + 68 + 120 + 92, viz., 360 persons own a four wheeler. ∴ The remaining 60 + 40 + 40 + 100, viz., 240 of the respondents do not own a four wheeler, i.e., 40% of the respondents do not own a four-wheeler. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 19 to 20: Select the correct alternative from the given Choices.",
+      "text": "The monthly rainfall chart for a certain city was prepared, based on 40 years of data. The graph below shows the x (x percentile means that for x% of the 40 years, the rainfall was less than the indicated value. Which of following statements can be concluded? (i) The average rainfall in December is less than that in June. (ii) Each year, the amount of rainfall in July is more than that in February. (iii) In May, there is at least 250mm of rainfall each year. (iv) The rainfall in August can be estimated with better certainty than the rainfall in November.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) and (iii)"
+        },
+        {
+          "label": "B",
+          "text": "(i) and (iv)"
+        },
+        {
+          "label": "C",
+          "text": "(ii) and (iv)"
+        },
+        {
+          "label": "D",
+          "text": "(ii) and (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q020-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "(i) and (iv)",
+      "explanation": "(i) The average rainfall in December is 150mm. The average rainfall in June is between 400mm and 500mm. ∴ (i) is true. (ii) For each month, we know the average rainfall, the 10 percentile value (i.e., the value below which 10 percent of the data falls) and the 90 percentile value. In a particular year, the rainfall in July may be less than that in February. (ii) cannot be concluded. (iii) This statement does not follow (From the explanation in (ii) above). (iv) We see a narrow gap between any two of the three curves in August and a significant gap between any two of the three curves in November. ∴ (iv) follows. Only (i) and (iv) follow. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 21 and 22: Study the following table and pie chart carefully to the answer the questions.\nPercentage of two wheelers of the total vehicles manufactured in a year by a certain company.\nThe two wheelers are manufactured in three models as shown in the pie chart.\nNote: The above percentages mentioned in the table are applicable for all models. The total number of vehicles produced in that year is 70,000.",
+      "text": "What is the total number of 150 cc bikes produced by the company in that year?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "9000"
+        },
+        {
+          "label": "B",
+          "text": "9600"
+        },
+        {
+          "label": "C",
+          "text": "9500"
+        },
+        {
+          "label": "D",
+          "text": "9800"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q021-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "9800",
+      "explanation": "Total number of vehicles produced = 70,000. Scooters without gear = 25% of 70,000 = 17,500. 100 cc scooters without gear = 17,500 × 70/100 = 12,250. 150 cc scooters without gear = 17,500 − 12,250 = 5,250. Number of scooters with gear = 35% of 70,000 = 24,500. 100 cc scooters with gear = 24,500 × 40/100 = 9,800. 150 cc scooters with gear = 24,500 × 60/100 = 14,700. Number of bikes = 70,000 × 40/100 = 28,000. 100 cc bikes = 28,000 × 65/100 = 18,200. 150 cc bikes = 28,000 × 35/100 = 9,800. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 21 and 22: Study the following table and pie chart carefully to the answer the questions.\nPercentage of two wheelers of the total vehicles manufactured in a year by a certain company.\nThe two wheelers are manufactured in three models as shown in the pie chart.\nNote: The above percentages mentioned in the table are applicable for all models. The total number of vehicles produced in that year is 70,000.",
+      "text": "Which of the following numbers is the least?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "100 cc bikes"
+        },
+        {
+          "label": "B",
+          "text": "150 cc bikes"
+        },
+        {
+          "label": "C",
+          "text": "100 cc scooters with gear"
+        },
+        {
+          "label": "D",
+          "text": "150 cc scooters without gear"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q021-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "150 cc scooters without gear",
+      "explanation": "Of the four options the number of 150 cc scooters without gear is the least in number i.e., 5,250. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 23 and 24: These questions are based on the following table which gives the percentage by weight of proteins, carbohydrates, minerals and fats in four formulations – A, B, C and D.",
+      "text": "What is the cost of a mixture containing 100 g each of A, B, C and D?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹96.5"
+        },
+        {
+          "label": "B",
+          "text": "₹98"
+        },
+        {
+          "label": "C",
+          "text": "₹98.5"
+        },
+        {
+          "label": "D",
+          "text": "₹99"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q023-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "₹98.5",
+      "explanation": "The cost of 100 g of A = 4(1) + 3(2) + 2(2.5) + (4.5) = 19.5. 100 g of B (in ₹) = 26.5. 100 g of C (in ₹) = 25. 100 g of D (in ₹) = 27.5. The cost of the required mixture = 19.5 + 26.5 + 25 + 27.5 = ₹98.5. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 23 and 24: These questions are based on the following table which gives the percentage by weight of proteins, carbohydrates, minerals and fats in four formulations – A, B, C and D.",
+      "text": "Which of the following would cost the least?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "400 g of B"
+        },
+        {
+          "label": "B",
+          "text": "400 g of C"
+        },
+        {
+          "label": "C",
+          "text": "200 g of A and 200 g of D"
+        },
+        {
+          "label": "D",
+          "text": "300 g of A and 150 g of D"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q023-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "200 g of A and 200 g of D",
+      "explanation": "Cost of 400 g of B = ₹106. 400 g of C = ₹100. 200 g of A and 200 g of D = ₹94. 300 g of A and 150 g of D = ₹99.75. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for question 25: Select the correct alternative from the given choices.",
+      "text": "The table below shows the test batting averages of 5 cricket players from 2010 to 2014. The test batting average of any batsman in any number of matches is his total score in those matches divided by the number of those matches. Who among the five players had the least percentage increase in the test batting average from 2010 to 2014?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "P"
+        },
+        {
+          "label": "B",
+          "text": "Q"
+        },
+        {
+          "label": "C",
+          "text": "T"
+        },
+        {
+          "label": "D",
+          "text": "S"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q025-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "P",
+      "explanation": "Among the five players, only P, Q and T had an increase in the test batting average from 2010 to 2014. Percentage increase in the test batting average from 2010 to 2014 of P = (48 − 44)/44 × 100% = 9 1/11%. Q = (52 − 46)/46 × 100% = 13 1/23%. T = (39 − 19)/19 × 100% which is > 100%. P had the least percentage increase in the test batting average. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 26 and 27: These questions are based on the data given below.\nA survey was conducted among 100 students in a hostel to find their favourite breakfast dish. Five students liked cutlet and sandwich only. 21 students liked omlette only. 25 students liked sandwich and 30 liked cutlet. There are 3 students who liked both sandwich and omlette. 48 students liked exactly one dish among the three. 2 students liked all the three dishes.",
+      "text": "How many students like at least one dish?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "69"
+        },
+        {
+          "label": "B",
+          "text": "100"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "21"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "69",
+      "explanation": "From the given data we get the following diagram. (i) Only cutlet = 10; (ii) Only omlette = 21; (iii) Only sandwich = 17; (iv) All the three = 2; (v) Exactly two dishes = 13 + 5 + 1 = 19; (vi) At least two dishes = 19 + 2 = 21; (vii) Cutlet = 10 + 5 + 2 + 13 = 30; (viii) Sandwich = 5 + 2 + 1 + 17 = 25; (ix) Omlette = 13 + 2 + 1 + 21 = 37; (x) None = 100 − (10 + 17 + 21 + 5 + 13 + 1 + 2) = 31. The number of students who like at least one dish = sum of the elements = 69. Choice (A)",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q026-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 26 and 27: These questions are based on the data given below.\nA survey was conducted among 100 students in a hostel to find their favourite breakfast dish. Five students liked cutlet and sandwich only. 21 students liked omlette only. 25 students liked sandwich and 30 liked cutlet. There are 3 students who liked both sandwich and omlette. 48 students liked exactly one dish among the three. 2 students liked all the three dishes.",
+      "text": "How many students like cutlet or sandwich but not both?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "48"
+        },
+        {
+          "label": "B",
+          "text": "41"
+        },
+        {
+          "label": "C",
+          "text": "31"
+        },
+        {
+          "label": "D",
+          "text": "62"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "41",
+      "explanation": "From the given data we get the following diagram. (i) Only cutlet = 10; (ii) Only omlette = 21; (iii) Only sandwich = 17; (iv) All the three = 2; (v) Exactly two dishes = 13 + 5 + 1 = 19; (vi) At least two dishes = 19 + 2 = 21; (vii) Cutlet = 10 + 5 + 2 + 13 = 30; (viii) Sandwich = 5 + 2 + 1 + 17 = 25; (ix) Omlette = 13 + 2 + 1 + 21 = 37; (x) None = 100 − (10 + 17 + 21 + 5 + 13 + 1 + 2) = 31. The number of students who like cutlet or sandwich but not both is given by 10 + 13 + 17 + 1 = 41. Choice (B)",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q026-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for question 28: Select the correct alternative from the given choices.\nTen companies produce the same tool. Each of those companies rejects all the defective units of the tool produced. The table below gives the percentage of accepted units and the number of rejected units among all the units produced by the companies in month M.",
+      "text": "The company which produced the greatest total number of units in month M is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "C10"
+        },
+        {
+          "label": "B",
+          "text": "C9"
+        },
+        {
+          "label": "C",
+          "text": "C2"
+        },
+        {
+          "label": "D",
+          "text": "C4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q028-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "C10",
+      "explanation": "The number of units produced by C1, C2, C3 … C10 are respectively i.e. 160, 290, 180, 200, 150, 200, 125, 175, 400 and 600. ∴ C10 produced the greatest total number of units in month M. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 29 and 30: These questions are based on the pie charts given below. Pie chart – 1 represents the distribution of income of Manohar and pie chart – 2 represents the split up of expenditure on education.\nNote: Total income of Manohar is ₹15000.",
+      "text": "Which of the following statement/s is/are true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The expenditure on food is ₹2800 more than the expenditure towards college fee."
+        },
+        {
+          "label": "B",
+          "text": "The expenditure on education is ₹2,250 less than the remaining expenditure."
+        },
+        {
+          "label": "C",
+          "text": "The tuition fee is ₹2,460."
+        },
+        {
+          "label": "D",
+          "text": "Both (B) and (C)."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q029-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "The expenditure on education is ₹2,250 less than the remaining expenditure.",
+      "explanation": "Statement A is not true as (30% – 40% of 40%) of 15000 ≠ 2800. Statement B is true, since the expenditure on education = (40/100)(15000) = 6000. The remaining expenditure = (15 + 10 + 30)/100 (15000) = 8250. ∴ Difference is ₹2250. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_5(1).pdf",
+      "direction": "Directions for questions 29 and 30: These questions are based on the pie charts given below. Pie chart – 1 represents the distribution of income of Manohar and pie chart – 2 represents the split up of expenditure on education.\nNote: Total income of Manohar is ₹15000.",
+      "text": "The expenditure on books is how much more/less than the expenditure on food?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹750 more"
+        },
+        {
+          "label": "B",
+          "text": "₹750 less"
+        },
+        {
+          "label": "C",
+          "text": "₹3,000 more"
+        },
+        {
+          "label": "D",
+          "text": "₹3,000 less"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_5/quantitative_ability_5-q029-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "₹3,000 less",
+      "explanation": "Expenditure on books = 15000(40/100)(25/100) = 1500. The expenditure on food = (30/100)(15000) = 4500. Expenditure on books is less than the expenditure on food by 4500 − 1500 = ₹3000. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Data Interpretation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_5(1).pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

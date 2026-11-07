@@ -1,0 +1,2127 @@
+[
+  {
+    "id": "gate-programming-and-data-structures-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "The following flip flop is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "D flip flop when $A=0$"
+        },
+        {
+          "label": "B",
+          "text": "D flip flop when $A=B$"
+        },
+        {
+          "label": "C",
+          "text": "T flip flop when $A=0$"
+        },
+        {
+          "label": "D",
+          "text": "T flip flop when $A=B$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q001-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "T flip flop when $A=B$",
+      "explanation": "The characteristic equation of $SR$ flip flop is: $Q_{n+1}=S+\\overline{R}Q_n$. Given (from circuit) $S=A\\cdot\\overline{Q_n}, R=B\\cdot Q_n$. $Q_{n+1}=A\\overline{Q_n}+\\overline{B}Q_n$. The equation is like JK flip flop equation. (JK equation $Q_{n+1}=J\\overline{Q_n}+\\overline{K}Q_n$) So it works like T flip flop if $A=B$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Flip-Flops",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "If $a\\le b$, which of the following is true",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "P, Q"
+        },
+        {
+          "label": "B",
+          "text": "P, R"
+        },
+        {
+          "label": "C",
+          "text": "Q, R"
+        },
+        {
+          "label": "D",
+          "text": "P, Q, R"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q002-explanation.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "P, R",
+      "explanation": "If $a\\le b$ then a small truth table gives $a^1+b=1$ and $ab^1=0$; $ab=10$ is not a valid condition for $a\\le b$. We can observe that $a^1\\ge b^1$, so only (P) $a^1+b=1$, (R) $ab^1=0$ are true. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Boolean Algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "If $a=(b+c)(b^1+c^1)$, then the value of $b$ is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(a^1+c)(a+c^1)$"
+        },
+        {
+          "label": "B",
+          "text": "$a^1c+ac^1$"
+        },
+        {
+          "label": "C",
+          "text": "$a^1c^1+a^1c$"
+        },
+        {
+          "label": "D",
+          "text": "$(a^1+c^1)(a+c^1)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$a^1c+ac^1$",
+      "explanation": "From given $a=(b+c)(b^1+c^1)=bc^1+b^1c=b\\oplus c$. EXOR with $c$ both sides: $a\\oplus c=b\\oplus c\\oplus c=b\\oplus0=b$. So, $b=a\\oplus c=a^1c+ac^1$ or $(a+c)(a^1+c^1)$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Boolean Algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Calculate switching function realized by this network in minimized SOP form",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$PQ+\\overline{Q}R$"
+        },
+        {
+          "label": "B",
+          "text": "$PQR+\\overline{Q}R$"
+        },
+        {
+          "label": "C",
+          "text": "$PR+\\overline{Q}R$"
+        },
+        {
+          "label": "D",
+          "text": "$P\\overline{Q}+R$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q004-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$PR+\\overline{Q}R$",
+      "explanation": "f=(PQ+\\overline{Q}R)R=PQR+\\overline{Q}R=(PQ+\\overline{Q})R=(P+\\overline{Q})R=PR+\\overline{Q}R. Choice (C)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_7/q004-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Boolean Algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "In the above circuit the function $F(a,b)$ in POS form",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(a+b)(a^1+b^1)$"
+        },
+        {
+          "label": "B",
+          "text": "$(a^1+b)(a+b^1)$"
+        },
+        {
+          "label": "C",
+          "text": "$(a+b^1)(a^1+b^1)$"
+        },
+        {
+          "label": "D",
+          "text": "$(a+b)(a^1+b)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q005-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$(a^1+b)(a+b^1)$",
+      "explanation": "Given circuit is Demultiplexer. Output equation are $Y_0=I\\overline{S_1}\\overline{S_0}$, $Y_1=I\\overline{S_1}S_0$, $Y_2=IS_1\\overline{S_0}$, $Y_3=IS_1S_0$. $F(a,b)=\\overline{Y_0}\\cdot\\overline{Y_3}=\\overline{Y_0}+Y_3=1\\cdot a^1b^1+1\\cdot ab=a^1b^1+ab=(a^1+ab)(b^1+ab)$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Multiplexers and Demultiplexers",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "A combinational circuit takes input in the range of 000 to 101, (remaining combinations are unused) The output of the circuit is 1 when ever input is a power of 2 (in decimal). Find the minimized expression for output, if $x,y,z$ are inputs of the combinational circuit.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x^1y\\oplus z^1$"
+        },
+        {
+          "label": "B",
+          "text": "$(x+y)\\odot z$"
+        },
+        {
+          "label": "C",
+          "text": "$x^1y^1\\oplus z$"
+        },
+        {
+          "label": "D",
+          "text": "$(x+y)\\oplus z$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q006-explanation.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$(x+y)\\oplus z$",
+      "explanation": "If the output of the circuit is $F$ then $F(x,y,z)=\\Sigma(1,2,4)+d(6,7)$ in the given range 000 to 101, only for inputs 001, 010, 100 output is 1 (min terms) 110, 111 are unused combinations (don’t cares). $F(x,y,z)=xz^1+yz^1+x^1y^1z=(x+y)z^1+x^1y^1z=(x^1y^1)^1z^1+(x^1y^1)z=(x+y)z^1+(x+y)^1z=x^1y^1\\odot z=(x+y)\\oplus z$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Boolean Algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "A boolean function defined as $f(a,b,c,d,e)=b+d(c+ae)$ How many number of min terms will be present for the function $f(a,b,c,d,e)$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "20"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "28"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "20",
+      "explanation": "$f=b+cd+ade$. $b=1$ gives 16 min terms ($2^4$). $cd=--11-$ gives 8 min terms ($2^3$); in these 8 terms, 4 terms will have $b=1$, so $8-4=4$ terms. $ade=1--11$ gives 4 min terms ($2^2$); these 4 terms are already present in first 16 terms so no need to count them. Total = $16+4=20$. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Boolean Algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "The characteristic equation of the flip-flop with functional table given below is, $(Q_{n+1})=$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\overline{X}Q_n+\\overline{Y}\\overline{Q_n}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\overline{X}Q_n+YQ_n$"
+        },
+        {
+          "label": "C",
+          "text": "$\\overline{X}\\overline{Q_n}+\\overline{Y}Q_n$"
+        },
+        {
+          "label": "D",
+          "text": "$\\overline{X}\\overline{Q_n}+YQ_n$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q008-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\overline{X}\\overline{Q_n}+YQ_n$",
+      "explanation": "Given functional table is same as JK flipflop with $J=\\overline{X}, K=\\overline{Y}$, so $Q_{n+1}=\\overline{X}\\overline{Q_n}+YQ_n$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Flip-Flops",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Consider reading a block from a disk using DMA technique. Then which of the following factors will limit the rate of transfer?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iii) only"
+        },
+        {
+          "label": "C",
+          "text": "(i), (iii) only"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i), (ii), (iii)",
+      "explanation": "Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "DMA and I/O",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "If a normal processor memory Read (RD) and write (WR) control outputs are connected to I/O interface adapters, then which type of I/O technique is used?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Memory mapped"
+        },
+        {
+          "label": "B",
+          "text": "Isolated I/O"
+        },
+        {
+          "label": "C",
+          "text": "Both Memory mapped and Isolated I/O"
+        },
+        {
+          "label": "D",
+          "text": "Interrupt-driven I/O"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Memory mapped",
+      "explanation": "Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "I/O Organization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "What is the signed decimal equivalent of the 2’s complement number: 00001111",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "–15"
+        },
+        {
+          "label": "B",
+          "text": "–240"
+        },
+        {
+          "label": "C",
+          "text": "+15"
+        },
+        {
+          "label": "D",
+          "text": "+241"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "+15",
+      "explanation": "Given number: 00001111. The sign is ‘0’, so the number is positive. ∴ Decimal equivalent = +15. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Arithmetic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Right arithmetic shift of ones complement of –6 is (in 8-bits)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "00000011"
+        },
+        {
+          "label": "B",
+          "text": "01000011"
+        },
+        {
+          "label": "C",
+          "text": "01111100"
+        },
+        {
+          "label": "D",
+          "text": "11111100"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q012-explanation.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "11111100",
+      "explanation": "In one’s complement, $-6=11111001$. Arithmetic Right shift of $-6=11111100$ (sign bit must be same). Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Arithmetic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "LRU is an effective cache replacement policy primarily because",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Programs exhibit locality of reference."
+        },
+        {
+          "label": "B",
+          "text": "Programs usually have small working sets."
+        },
+        {
+          "label": "C",
+          "text": "Programs read data much more frequently than write data."
+        },
+        {
+          "label": "D",
+          "text": "Program can generate addresses that collide in the cache."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Programs exhibit locality of reference.",
+      "explanation": "LRU replaces locations that have the lowest probability of being accessed in the cache. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Cache Memory",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "“The purpose of cache memory is to increase the size of main memory”. This statement is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Always true"
+        },
+        {
+          "label": "B",
+          "text": "Always False"
+        },
+        {
+          "label": "C",
+          "text": "Sometimes true"
+        },
+        {
+          "label": "D",
+          "text": "Sometimes false"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Always False",
+      "explanation": "Cache memory doesn’t extend the size of main memory but useful in faster program execution. Cache memory contains only some replica of main memory. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Cache Memory",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "A memory has $2^{36}$ addressable locations. What is the smallest width in bits that the address can be, while still being able to address all $2^{36}$ locations?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "36-bits"
+        },
+        {
+          "label": "B",
+          "text": "72-bits"
+        },
+        {
+          "label": "C",
+          "text": "18-bits"
+        },
+        {
+          "label": "D",
+          "text": "9-bits"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "36-bits",
+      "explanation": "Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Memory Addressing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "A counter formed with $T,JK$ flip flops, as shown above, preset (Pr), clear (clr) are active low, asynchronous inputs, $T,J,K$ are synchronous inputs. The modulus of the counter is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q016-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "5",
+      "explanation": "Given circuit is an Asynchronous counter (ripple counter). All flip flops are in toggle mode. $Q_A$ is LSB (clk input is connected to $Q_A$). Negative edge Clk is connected from Q, so it works as UP counter. $Q_CQ_BQ_A$ is the sequence, UP counter. The NAND gate connected from $Q_BQ_C$ i.e., whenever output $Q_CQ_BQ_A$ becomes 110 or 111, the NAND gate output is zero. i.e., the same zero applied to the active low asynchronous inputs pr, clr of $Q_A,Q_B,Q_C$. so initial state is 001. [State table shown in explanation.] So total 5 different states. ∴ Given circuit is mod-5 counter. Choice (B)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_7/q016-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Counters",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "The flip flops used in this circuit are master-slave JK flip flops. If the counter is initially at reset state after how many clock pulses it gets reset?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q017-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "3",
+      "explanation": "Master slave flip flop also works like normal flip flop only, to eliminate race around condition in JK latch, we go for JK master slave flip flop. From the circuit $J_0=\\overline{Q_1}, K_0=1, J_1=Q_0, K_1=\\overline{Q_0}$. [State table shown in explanation.] ∴ 3 clk pulses required to reset again. Choice (B)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_7/q017-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Counters",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "The counter shown above has initial state $Q_2Q_1Q_0=111(7)$, then the next states of $(Q_2Q_1Q_0)$ (in decimal) are?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "7, 6, 2, 1, 4, 3, 5"
+        },
+        {
+          "label": "B",
+          "text": "7, 3, 5, 2, 6, 1, 4"
+        },
+        {
+          "label": "C",
+          "text": "7, 3, 2, 4, 1, 6, 5"
+        },
+        {
+          "label": "D",
+          "text": "7, 5, 1, 4, 2, 3, 6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q018-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "7, 3, 2, 4, 1, 6, 5",
+      "explanation": "We can observe that $SR$ connected in $D$ flip flop mode, $S,R$ are connected with normal $(Q)$, complemented $(\\overline{Q})$ output forms. We can draw the circuit as follows. From given circuit $D_0=Q_2, D_1=Q_0$. $D_2=(Q_1+Q_0)(\\overline{Q_1}\\cdot\\overline{Q_0})=(Q_1+Q_0)(\\overline{Q_1}+\\overline{Q_0})=Q_1\\oplus Q_0$. [State table shown in explanation.] ∴ The state sequences of given circuit are 7, 3, 2, 4, 1, 6, 5, 7 . . . Choice (C)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_7/q018-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Flip-Flops and Counters",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "The max term expression of a four variable even function is?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\pi M(0,2,4,6,8,10,12,14)$"
+        },
+        {
+          "label": "B",
+          "text": "$\\pi M(1,3,5,7,9,11,13,15)$"
+        },
+        {
+          "label": "C",
+          "text": "$\\pi M(0,3,5,6,9,10,12,15)$"
+        },
+        {
+          "label": "D",
+          "text": "$\\pi M(1,2,4,7,8,11,13,14)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\pi M(1,2,4,7,8,11,13,14)$",
+      "explanation": "Even function is a Boolean function, which will be equal to 1, if the input variables have an even number of 0’s. (odd function is a Boolean function for which output is 1, for input combinations with odd number of 1’s) So for 4 variables, even number of zeroes occur for input combinations 0000, 0011, 0101, 0110, 1001, 1010, 1100, 1111. For these combinations, even function output is 1. So remaining terms are max terms. So $f_{even}=\\prod M(1,2,4,7,8,11,13,14)$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Boolean Functions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "If $(3.5)_{base\\ 6}+(2.3)_{base\\ 6}=(X)_{base\\ 6}$ then the value of $X$ is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5.8"
+        },
+        {
+          "label": "B",
+          "text": "10.2"
+        },
+        {
+          "label": "C",
+          "text": "6.2"
+        },
+        {
+          "label": "D",
+          "text": "5.6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "10.2",
+      "explanation": "$3.5+2.3$: $5+3=8$; $(8)_{10}=(12)_6$, so result is 2 and carry is 1. Then $3.5+2.3$: $1+3+2=6$; $(6)_{10}=(10)_6$, so result is 0 and carry is 1. Therefore $10.2$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Number Systems",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "If the following circuit is converted to all-NAND network, then How many number of NAND gates are required? (inverted inputs are available)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q021-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "3",
+      "explanation": "Given function has to be in SOP form, so it can be implemented by AND-OR gates, same as NAND-NAND gates. $f(a,b,c,d,e)=(a+b^1)c+cd^1+(d^1+e)=ac+b^1c+cd^1+d^1+e$. [NAND implementation diagram shown in explanation.] $=ac+b^1c+d^1+e$ Choice (A)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_7/q021-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Boolean Algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "A 4-bit shift register is connected as shown with initial states $Q_3Q_2Q_1Q_0=0100$. What is state $Q_3Q_2Q_1Q_0$ after 5 clock pulses?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0111"
+        },
+        {
+          "label": "B",
+          "text": "1100"
+        },
+        {
+          "label": "C",
+          "text": "1111"
+        },
+        {
+          "label": "D",
+          "text": "1001"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q022-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "1001",
+      "explanation": "[State table shown in explanation.] Choice (D)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_7/q022-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Shift Registers",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "For the counter shown above the initial state is $Q_2Q_1Q_0$ is 101, what is state after 5 clock pulses?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "111"
+        },
+        {
+          "label": "B",
+          "text": "011"
+        },
+        {
+          "label": "C",
+          "text": "100"
+        },
+        {
+          "label": "D",
+          "text": "000"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q023-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "111",
+      "explanation": "Given circuit can be drawn as shown. As JK flip flop is used in Data mode $(J=\\overline{K})$. [State table shown in explanation.] Choice (A)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_7/q023-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Counters",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "A cache access requires one clock cycle and handling cache miss stalls the processor for an additional 4 clock cycles. Which of the following cache hit rates comes closest to achieve an average memory access of 2 cycles?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "75%"
+        },
+        {
+          "label": "B",
+          "text": "80%"
+        },
+        {
+          "label": "C",
+          "text": "85%"
+        },
+        {
+          "label": "D",
+          "text": "90%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "75%",
+      "explanation": "Average access time = 2. Cache access time = 1. Time to handle miss = 5. Let cache hit rate = $x$. $2=1\\times x+5(1-x)$. $\\Rightarrow x+5-5x=2$. $\\Rightarrow -4x=-3$. $\\Rightarrow x=\\frac{3}{4}=0.75$. ∴ Hit ratio = 75%. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Cache Memory",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Consider a byte-addressable system with 16-bit addresses associated a cache, which has a two-way set-associative write-back cache with perfect LRU replacement. The Tag store requires a total of 4608 bits of storage. What is the block size of the cache?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 B"
+        },
+        {
+          "label": "B",
+          "text": "5 B"
+        },
+        {
+          "label": "C",
+          "text": "32 B"
+        },
+        {
+          "label": "D",
+          "text": "Data insufficient"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "32 B",
+      "explanation": "In 2-way set-associative cache, $t$(Tag) + $s$(Set) + $w$(Word) = 16$. For LRU, use 1-bit per set. For Valid bit, Dirty bit use 1 bit per block for each. Let tag has $t$-bits per block. Number of sets = $2^s$. Number of blocks = $2\\times2^s$. Tag store size = $2^s+2\\times2^s(2+t)$. Given tag store size = 4608 bits. $2^s+4\\times2^s+2^{s+1}t=4608$. $\\Rightarrow 5\\times2^s+t\\times2^{s+1}=2^{12}+2^9$. $\\Rightarrow 2^s(2t+5)=2^9\\times9$. $\\Rightarrow s=9,t=2\\Rightarrow w=5$. ∴ Block size = $2^5=32$ bytes. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Cache Memory",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Consider a system employing interrupt-driven I/O for a particular device that transfers data at an average of 10 KB/sec on a continuous basis. Assume that interrupt processing takes about 200 ms. What fraction of processor time is consumed by this I/O device if it interrupts for every byte?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.2"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "200"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2",
+      "explanation": "The device generates 10000 interrupts per second i.e., one for every 100 µs. Each interrupt requires 200 µs, then fraction of processor time consumed = $\\frac{200}{100}=2$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Interrupt-driven I/O",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Consider a program which takes 200 seconds to execute. Of his time, 30% is used for multiplication, 40% for memory access instructions and 30% for other tasks. To enhance the performance, make multiply instructions run four times faster than before. What will be the speed up be if you improve the multiply instruction time?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.29"
+        },
+        {
+          "label": "B",
+          "text": "0.71"
+        },
+        {
+          "label": "C",
+          "text": "1.29"
+        },
+        {
+          "label": "D",
+          "text": "1.71"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1.29",
+      "explanation": "Speed up = $\\frac{1}{(1-\\text{fraction})+\\frac{\\text{Fraction}_{enh}}{\\text{Speedup}_{enh}}}=\\frac{1}{(1-0.3)+\\frac{0.3}{4}}$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "CPU Performance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Consider the following code sequence (First operand is destination):\nLOOP: LOAD R0, 0(R10)\nMUL R0, R0, R2\nLOAD R4, 0(R11)\nADD R0, R0, R4\nSTORE R0, 0(R11)\nSUB R10, R10, #8\nSUB R11, R11, #8\nBNEZ R10, LOOP\nHow many ‘WAW’ hazards are there in given code?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "0"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "3",
+      "explanation": "There are three WAW hazards. (1) LOAD R0, 0(R10) / MUL R0, R0, R2. (2) MUL R0, R0, R2 / ADD R0, R0, R4. (3) LOAD R0, 0(R10) / ADD R0, R0, R4. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pipeline Hazards",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Suppose we have an instruction ‘LOAD 100’. The memory and register $R_1$ contain the values as given below. Assuming $R_1$ is implied in the indexed addressing mode, what will be the actual value loaded into accumulator in immediate, direct, indirect and indexed mode respectively:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "140, 140, 130, 100"
+        },
+        {
+          "label": "B",
+          "text": "100, 140, 130, 100"
+        },
+        {
+          "label": "C",
+          "text": "140, 100, 130, 20"
+        },
+        {
+          "label": "D",
+          "text": "–, 100, 140, 120"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q029-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "100, 140, 130, 100",
+      "explanation": "Immediate: Data is present in instruction i.e., $AC=100$. Direct: Instruction contains effective address of operand i.e., $AC=M[100]=140$. Indirect: Instruction contains address of address of operand. i.e., $AC=M[M[100]]=M[140]=130$. Indexed: Address part of instruction is added with IR. i.e., $AC=M[IR+100]=M[20+100]=M[120]=100$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Addressing Modes",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "How many bits would you need, to address a $2G\\times32$ memory, if the memory is byte-addressable and word addressable respectively?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "36, 31"
+        },
+        {
+          "label": "B",
+          "text": "31, 31"
+        },
+        {
+          "label": "C",
+          "text": "31, 36"
+        },
+        {
+          "label": "D",
+          "text": "36, 36"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "36, 31",
+      "explanation": "Memory capacity: $2G\\times32=2^{31}\\times2^5$. Byte Addressable requires 36-bits for an address. Word addressable requires 31-bits. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Memory Addressing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices",
+      "text": "Suppose a computer using direct mapped cache has $2^{20}$ words of main memory and a cache of 32 blocks, where each cache block contains 16 words. To which cache block will the memory reference $(0DB63)_{16}$ map?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "22"
+        },
+        {
+          "label": "C",
+          "text": "32"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "22",
+      "explanation": "Main memory = $2^{20}$. Number of blocks in cache = 32. Block size = 16 words. [Tag/Line/Word decomposition shown in explanation.] Given address $(0DB63)_{16}$, Line = 10110 = (22)10. Choice (B)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_7/q031-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Cache Memory",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices\n\nCommon Data for Questions 32 and 33: Consider the following circuit involving three D-type flip flops used in a certain type of counter configuration.",
+      "text": "If at some instance prior to the occurrence of the clock edge $x,y,z$ have a value 0, 1, and 1, what shall be the value of $xyz$ after the clock edge?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "000"
+        },
+        {
+          "label": "B",
+          "text": "100"
+        },
+        {
+          "label": "C",
+          "text": "010"
+        },
+        {
+          "label": "D",
+          "text": "101"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q032-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "100",
+      "explanation": "From the given circuit, inputs are. As all flip flops are D flip flops, output (as of input) will be same as D-state. Given initially $xyz=011$. So $D_x=1,D_y=0,D_z=0$. So next state $xyz=100$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Flip-Flops and Counters",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices\n\nCommon Data for Questions 32 and 33: Consider the following circuit involving three D-type flip flops used in a certain type of counter configuration.",
+      "text": "If all the flip flops were reset to 0 at power on, what is the total number of distinct outputs (states) represented by $xyz$ generated by the counter?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_7/q032-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "4",
+      "explanation": "[State table shown in explanation.] After 4 clk pulses again come back to original state (000) so number of states are 4. Choice (A)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_7/q033-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Flip-Flops and Counters",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices\n\nCommon Data for Questions 34 and 35: A processor requires 2000 cycles to perform a context switch and start an interrupt handler or 1000 cycles to poll an I/O device. An I/O device attached to that processor makes 100 requests per second, each of which takes 10,000 cycles to resolve once the handler has been started. By default, the processor polls every 0.5 ms if it is not using interrupts.",
+      "text": "How many cycles per second does the CPU spend handling I/O from the device if interrupts are used?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1400000"
+        },
+        {
+          "label": "B",
+          "text": "1200000"
+        },
+        {
+          "label": "C",
+          "text": "14000"
+        },
+        {
+          "label": "D",
+          "text": "12000"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1400000",
+      "explanation": "I/O device generates 100 requests. Each request requires an interrupt. The time taken for one request is = 2000 + 10000 + 2000 = 14000 (to start handler, execute handler, switch to original program). Total there are 100 requests so cycles required = 14000 × 100 = 1400000. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Interrupt-driven I/O",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_7.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices\n\nCommon Data for Questions 34 and 35: A processor requires 2000 cycles to perform a context switch and start an interrupt handler or 1000 cycles to poll an I/O device. An I/O device attached to that processor makes 100 requests per second, each of which takes 10,000 cycles to resolve once the handler has been started. By default, the processor polls every 0.5 ms if it is not using interrupts.",
+      "text": "How many cycles per second are spent on I/O if polling is used?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1000000"
+        },
+        {
+          "label": "B",
+          "text": "2000000"
+        },
+        {
+          "label": "C",
+          "text": "3000000"
+        },
+        {
+          "label": "D",
+          "text": "5000000"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "3000000",
+      "explanation": "The processor polls for every 0.5 ms. In one second there will be $\\frac{1}{0.5\\times10^{-3}}$ polls i.e., 2000 times. Each poll requires 1000 cycles. So it requires 2000000 cycles. There are 100 requests, each requires 10000 cycles, total 1000000 cycles to complete. ∴ Total time spent on I/O each second = 2000000 + 1000000 = 3000000. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "I/O Organization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_7.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

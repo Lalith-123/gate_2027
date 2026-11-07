@@ -1,0 +1,2121 @@
+[
+  {
+    "id": "gate-programming-and-data-structures-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The output of the following circuit is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\\\overline{AB}+\\\\overline{BC}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\\\overline{AB}+\\\\overline{BC}+\\\\overline{AC}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\\\overline{A}+\\\\overline{B}+\\\\overline{C}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\\\overline{AB+BC}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q001-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\\\overline{A}+\\\\overline{B}+\\\\overline{C}$",
+      "explanation": "In the circuit NAND – NOR structure can be redrawn as AND – AND Structure. $A\\cdot ABC\\cdot C=ABC=\\overline{A}+\\overline{B}+\\overline{C}$ Choice (C)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q001-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Match the following:\nList I (Numbers in Decimal)\nList II (equivalents in signed 2’s complement representation)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "P–3, Q–4, R–1, S–2"
+        },
+        {
+          "label": "B",
+          "text": "P–4, Q–3, R–1, S–2"
+        },
+        {
+          "label": "C",
+          "text": "P–3, Q–4, R–2, S–1"
+        },
+        {
+          "label": "D",
+          "text": "P–4, Q–3, R–1, S–2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q002-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "P–3, Q–4, R–2, S–1",
+      "explanation": "Positive numbers will be represented in their original binary magnitude but sign bit will be zero (0) to make it as positive number. Negative Numbers are represented as 2’s complement of their positive number representation in 2’s complement signed number. +43 = 00101011; –43 = 11010101 (By taking 2’s complement); +78 = 01001110; –78 = 10110010 (By taking 2’s complement); +54 = 00110110; +96 = 01100000 Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Arithmetic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which one of the following function will satisfy the property, “Dual of function = complement of the function”?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$f(A,B,C)=\\Sigma m(0,1,2,3)$"
+        },
+        {
+          "label": "B",
+          "text": "$f(A,B,C)=\\Sigma m(4,5,6,7)$"
+        },
+        {
+          "label": "C",
+          "text": "$f(A,B,C)=\\Sigma m(0,2,4,6)$"
+        },
+        {
+          "label": "D",
+          "text": "$f(A,B,C)=\\Sigma m(0,1,6,7)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$f(A,B,C)=\\Sigma m(0,1,6,7)$",
+      "explanation": "Dual of function can be obtained by making min terms to max terms, i.e., 0 to 1, 1 to 0. Dual of 000 ↔ 111; 001 ↔ 110; 010 ↔ 101; 011 ↔ 100. $f=\\Sigma m(0,1,6,7)$. Dual is $f^D=\\Pi m(7,6,1,0)=\\Pi m(0,1,6,7)=\\Sigma m(2,3,4,5)$. Which is equal to $\\bar f$ (complement of f). Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The number of min terms for the function $F(a,b,c,d,e)=b+cd$ is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "24"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "32"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "20",
+      "explanation": "$F=b+cd$. The term ‘b’ will have 16 min terms, the term $cd$ will have 8 min terms out of those 4 min terms, have ‘b’. So remaining are $8-4=4$. So total min terms = $16+4=20$ Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following will work like an inverter?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "P, Q"
+        },
+        {
+          "label": "B",
+          "text": "Q, R"
+        },
+        {
+          "label": "C",
+          "text": "R, S"
+        },
+        {
+          "label": "D",
+          "text": "P, S"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q005-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "P, Q",
+      "explanation": "$P$ is $1\\oplus A=\\bar A\\cdot1+A\\cdot\\bar1=\\bar A$. $Q$ is $A\\oplus0=\\bar A\\cdot1+A\\cdot0=\\bar A$. $R$ is $0\\oplus A=\\bar A\\cdot0+A\\cdot\\bar0=A$. $S$ is $1\\oplus A=1\\cdot A+0\\cdot\\bar A=A$. So P, Q work like inverter. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Perform the following operation in 2’s complement signed representation, and specify the result in 2’s complement signed notation. $(-13)_{10}+(-28)_{10}=?$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10101001"
+        },
+        {
+          "label": "B",
+          "text": "11010111"
+        },
+        {
+          "label": "C",
+          "text": "11010110"
+        },
+        {
+          "label": "D",
+          "text": "00101001"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "11010111",
+      "explanation": "$(-13)_{10}+(-28)_{10}=(-41)_{10}$. The operation in 2’s complement signed representation also given the same answer. $(-41)_{10}$ is signed 2’s complement representation is 11010111 ($\\because +41=00101001$) Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Arithmetic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Convert the following number to base 9. $(1101222.201121)_3$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1358.647"
+        },
+        {
+          "label": "B",
+          "text": "4172.647"
+        },
+        {
+          "label": "C",
+          "text": "4178.153"
+        },
+        {
+          "label": "D",
+          "text": "1358.153"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1358.647",
+      "explanation": "Base 9 and base 3 are related ($3^2=9^1$). 2 digits of base 3 is equal to base 9. Given number in base 3 is $01\\ 10\\ 12\\ 22\\cdot20\\ 11\\ 21$ = $1\\ 3\\ 5\\ 8\\cdot6\\ 4\\ 7=(1358\\cdot647)_9$ Choice (A)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q007-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Number Systems",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following is usually regarded as a bottle-neck to von-Neumann computer Architecture?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "ALU"
+        },
+        {
+          "label": "B",
+          "text": "Instruction set"
+        },
+        {
+          "label": "C",
+          "text": "Processor/memory interface"
+        },
+        {
+          "label": "D",
+          "text": "Control unit"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Processor/memory interface",
+      "explanation": "In Von-Neumann computer architecture, most of the time is used for transferring data or instructions from memory to CPU. This is the bottleneck of Von-Neumann computer. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Computer Architecture",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following is the largest storage unit in a usual memory hierarchy?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cache memory"
+        },
+        {
+          "label": "B",
+          "text": "Main memory"
+        },
+        {
+          "label": "C",
+          "text": "Register"
+        },
+        {
+          "label": "D",
+          "text": "Hard disk"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Hard disk",
+      "explanation": "Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Memory Hierarchy",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which type of cache miss does not occur in fully-Associative cache memory?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Capacity miss"
+        },
+        {
+          "label": "B",
+          "text": "Conflict miss"
+        },
+        {
+          "label": "C",
+          "text": "Compulsory miss"
+        },
+        {
+          "label": "D",
+          "text": "Cold start miss"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Conflict miss",
+      "explanation": "In full-Associative cache, we can place any block of main memory at any line of cache. So there will be no conflict miss. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Cache Memory",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following statement is FALSE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Pipelining does not improve the execution time of a single task."
+        },
+        {
+          "label": "B",
+          "text": "Pipelining improves the throughput of the total work load."
+        },
+        {
+          "label": "C",
+          "text": "Pipeline speed is limited by the slowest pipeline stage."
+        },
+        {
+          "label": "D",
+          "text": "In pipelining, only one task is processed at a time."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "In pipelining, only one task is processed at a time.",
+      "explanation": "In pipelining, several tasks are processed simultaneously. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pipelining",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the execution time per stage of a pipeline that has 4 equal stages and a mean overhead of 12 cycles?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 cycles"
+        },
+        {
+          "label": "B",
+          "text": "4 cycles"
+        },
+        {
+          "label": "C",
+          "text": "6 cycles"
+        },
+        {
+          "label": "D",
+          "text": "12 cycles"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "4 cycles",
+      "explanation": "If there are $k$ stages and each stage take $T$ cycles then $(k-1)T=$ Pipeline mean overhead. $\\Rightarrow(4-1)\\times T=12$. $\\Rightarrow T=4$ cycles. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pipelining",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "How many bits are needed to represent a direct address on a 64-bit machine?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6-bits"
+        },
+        {
+          "label": "B",
+          "text": "64-bits"
+        },
+        {
+          "label": "C",
+          "text": "32-bits"
+        },
+        {
+          "label": "D",
+          "text": "$2^{64}$-bits"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "64-bits",
+      "explanation": "A 64-bit machine has $2^{64}$ locations. To address these locations, we require 64-bits. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Memory Addressing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A program has 5% divide instructions. Any non-divide instruction takes one cycle. All divide instructions take 25 cycles. What percent of CPU time is spent just doing divides?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "100%"
+        },
+        {
+          "label": "B",
+          "text": "95%"
+        },
+        {
+          "label": "C",
+          "text": "56.82%"
+        },
+        {
+          "label": "D",
+          "text": "28.41%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "56.82%",
+      "explanation": "Total time required to execute the given program = $(0.95)\\times1+(0.05)\\times25=0.95+1.25=2.2$. Time taken for Divide Operations = $0.05\\times25=1.25$. Percentage of CPU time spent on divides $=\\frac{1.25}{2.2}\\times100=56.82\\%$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "CPU Performance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following is not an advantage of memory mapped technique?\n(i) Simple hardware\n(ii) Simple instruction size\n(iii) All address modes available\n(iv) More memory address space",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (iv) only"
+        },
+        {
+          "label": "B",
+          "text": "(iv) only"
+        },
+        {
+          "label": "C",
+          "text": "(i), (ii), (iii) only"
+        },
+        {
+          "label": "D",
+          "text": "(iii), (iv) only"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "(iv) only",
+      "explanation": "Using memory mapped technique, the memory address space will be reduced. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "I/O Organization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "How many number of 2-input NAND gates are required to implement $f(A,B,C,D)=\\Sigma m(1,3,4,5,6,7,9,11,12,13,14,15)$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "3",
+      "explanation": "$f(A,B,C,D)=\\Sigma m(1,3,4,5,6,7,9,11,12,13,14,15)$. From the K-map, $F=B+D$. So 3, 2-input NAND gates are required to implement $F(A,B,C,D)$. Choice (B)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q016-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The output of the following Multiplexer circuit is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x^1+yz$"
+        },
+        {
+          "label": "B",
+          "text": "$x^1y+z$"
+        },
+        {
+          "label": "C",
+          "text": "$(x^1+y)z$"
+        },
+        {
+          "label": "D",
+          "text": "$x^1y^1+yz+xy^1z$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q017-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$x^1y+z$",
+      "explanation": "The first multiplexer output is $y=I_0\bar s+I_1s=x^1\\cdot\bar x^1+zx=x^1+zx=x^1+z$. $F=(x^1+z)y+z\\cdot y^1=x^1y+yz+y^1z=x^1y+(y+y^1)z=x^1y+z$ Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Multiplexers",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Initially $Q_n=0$, $\\bar Q_n=1$, after clock pulse $Q_{n+1}=1$, $\\bar Q_{n+1}=0$, which of the following correctly specifies about the inputs $a,b,c$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "two or more inputs should be 1."
+        },
+        {
+          "label": "B",
+          "text": "only one input has to be 1, or all inputs should be 1."
+        },
+        {
+          "label": "C",
+          "text": "$c$ should be zero, $a,b$ can be either 11 or 00"
+        },
+        {
+          "label": "D",
+          "text": "All inputs should be zero."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q018-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "only one input has to be 1, or all inputs should be 1.",
+      "explanation": "$Q_n=0,Q_{n+1}=1$, i.e., the state gets toggled i.e., when $J=1,K=1$ or the next state is set, $Q_{n+1}=1$ i.e., when $J=1,K=0$ so $J=1,k=x$ (either zero or 1) so sum should be one, carry either zero or one. So $a,b,c$ should have only one 1 (sum = 1, carry = 0). All inputs $a,b,c$ can be 1 so that sum = 1, carry = 1. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Flip-Flops and Sequential Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The states of $Q,\\bar Q$ after a clock pulse are:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0, 1"
+        },
+        {
+          "label": "B",
+          "text": "1, 0"
+        },
+        {
+          "label": "C",
+          "text": "1, 1"
+        },
+        {
+          "label": "D",
+          "text": "cannot be determined without initial states"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q019-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1, 0",
+      "explanation": "$J=Q_n\\oplus\\bar Q_n$ (EXOR of Q, $\\bar Q$) = 1. $K=Q_n\\odot\\bar Q_n$ (EXNOR of Q, $\\bar Q$) = 0. When $J=1,K=0$, next clock pulse will give $Q=1,\\bar Q=0$ Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Flip-Flops and Sequential Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The initial state of counter is $AB=01$. What is the output $(AB)$ after first clock pulse?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "11"
+        },
+        {
+          "label": "C",
+          "text": "01"
+        },
+        {
+          "label": "D",
+          "text": "00"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q020-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "11",
+      "explanation": "Given circuit is an Asynchronous counter, as clock is connected to rising edge. $\\bar Q$ connected to rising edge means this is an UP counter. A is LSB, B is MSB. $\\bar Q_A$ connected to rising edge. i.e., for every falling edge of $Q_A$, B will change so $AB=11$. Choice (B)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q020-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Counters",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A switching circuit has four inputs as shown below. $A$ and $B$ represent the first and second bits of a binary number $N_1$, $C$ and $D$ represent the first and second bits of a binary number $N_2$. The output is 1 only, if the product $N_1\\times N_2$ is less than or equal to 2. The minimum POS form of $F(A,B,C,D)$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\bar A\\bar B+\\bar C\\bar D+\\bar A\\bar C+\\bar A\\bar D+\\bar B\\bar C$"
+        },
+        {
+          "label": "B",
+          "text": "$(A+C)(A+B+D)(B+C+D)$"
+        },
+        {
+          "label": "C",
+          "text": "$(\\bar A+\\bar D)(\\bar A+\\bar B+\\bar D)(\\bar B+C+\\bar D)$"
+        },
+        {
+          "label": "D",
+          "text": "$(\\bar A+\\bar C)(\\bar A+\\bar B+\\bar D)(\\bar B+\\bar C+\\bar D)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q021-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$(\\bar A+\\bar C)(\\bar A+\\bar B+\\bar D)(\\bar B+\\bar C+\\bar D)$",
+      "explanation": "The max terms will be (for POS form). So $F=(\\bar A+\\bar C)(\\bar B+\\bar C+\\bar D)(\\bar A+\\bar B+\\bar D)$ Choice (D)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q021-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Boolean Algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The synchronous counter which follows $(Q_1,Q_0)$ 00 → 10 → 11 → 01 → 00 by using JK-flip flop and D-flip flop, has inputs as",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$J_1=\\bar Q_1,K_1=Q_0,D_0=Q_0$"
+        },
+        {
+          "label": "B",
+          "text": "$J_1=Q_1,K_1=\\bar Q_1,D_0=Q_0$"
+        },
+        {
+          "label": "C",
+          "text": "$J_1=\\bar Q_0,K_1=Q_0,D_0=Q_1$"
+        },
+        {
+          "label": "D",
+          "text": "$J_1=Q_0,K_1=\\bar Q_0,D_0=Q_1$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q022-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$J_1=\\bar Q_0,K_1=Q_0,D_0=Q_1$",
+      "explanation": "From the above table, writing the inputs interms of present state $D_0=Q_1,J_1=\\bar Q_0,K_1=Q_0$ Choice (C)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q022-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Counters",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The minimum SOP form of:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\bar P+QR$"
+        },
+        {
+          "label": "B",
+          "text": "$\\bar P+Q$"
+        },
+        {
+          "label": "C",
+          "text": "$\\overline{PQ}+R$"
+        },
+        {
+          "label": "D",
+          "text": "$P"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\bar P+QR$",
+      "explanation": "Given function is in standard POS Form $F(P,Q,R)=\\Pi M(5,6,4)=\\Sigma m(0,1,2,3,7)$. $F(P,Q,R)=\\bar P+QR$ Choice (A)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q023-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Boolean Algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A combinational circuit has 3 inputs $A,B,C$, and 3 outputs $X,Y,Z$. And the functions $f(A,B,C)$ and $g(A,B,C)$ are generated from the combinational logic circuit as shown here with NAND, AND gates. Find the least possible minterm expression for $Y(A,B,C)$. $f(A,B,C)=\\Sigma m(1,3,4,5,7)$, $g(A,B,C)=\\Sigma m(4,6)$, $Y(A,B,C)=\\Sigma m(?)$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\Sigma m(0,2,3,6,7)$"
+        },
+        {
+          "label": "B",
+          "text": "$\\Sigma m(1,3,4,5,7)$"
+        },
+        {
+          "label": "C",
+          "text": "$\\Sigma m(0,2,4,6)$"
+        },
+        {
+          "label": "D",
+          "text": "$\\Sigma m(0,2,4)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q024-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\Sigma m(0,2,4,6)$",
+      "explanation": "When we consider two min terms product, $m_i,m_j=0$ if $i\\ne j$. If two functions ANDed with min terms, then resultant is common min terms of the two functions. Example: If $f_1(a,b,c)=m_1+m_2+m_3$, $f_2(a,b,c)=m_3+m_4$, $f_1\\cdot f_2=(m_1+m_2+m_3)(m_3+m_4)=m_3$ (all other terms will be zero). In the given problem $f(A,B,C)=X\\cdot Y=\\Sigma m(1,3,4,5,7)$. So $X,Y=\\Sigma m(0,2,6)$ (the remaining min terms). $g(A,B,C)=Y\\cdot Z=\\Sigma m(4,6)$. X and Y are having (0,2,6) min terms in common, i.e., Y will have all these 3 min terms. Similarly Y and Z have (4,6) min terms in common, So Y will have these 2 min terms also. So $Y=\\Sigma m(0,2,4,6)$ Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. A combinational circuit has 3 inputs A, B, C, and 3 outputs X, Y, Z. And the functions f(A, B, C) and g(A, B, C) are generated from the combinational logic circuit as shown here with NAND, AND gates. Find the least possible minterm expression for Y(A, B, C). f(A, B, C) = Σm (1, 3, 4, 5, 7); g(A, B, C) = Σm (4, 6); Y(A, B, C) = Σm (?)",
+      "text": "From the above data, for which input A, B, C. The outputs all X, Y, Z will become 111 (i.e., XYZ = 1)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "010"
+        },
+        {
+          "label": "B",
+          "text": "101"
+        },
+        {
+          "label": "C",
+          "text": "100"
+        },
+        {
+          "label": "D",
+          "text": "110"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q025-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "110",
+      "explanation": "From the above solution $f(A,B,C)=XY=\\Sigma m(1,3,4,5,7)$; $X\\cdot Y=\\Sigma m(0,2,6)$; $g(A,B,C)=YZ=\\Sigma m(4,6)$. The min terms common to XY and YZ are $XY\\cdot YZ=XYZ=\\Sigma m(6)$. i.e., The output X = 1, Y = 1, Z = 1 only for the min term 6, i.e., $ABC=110$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the speed up of the pipeline, which is executing 10 tasks. Consider the mean overhead of the pipeline as 5 and an execution time per stage as 1 cycle.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4.5"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "4",
+      "explanation": "Pipeline mean overhead = 5. Let there are $k$ stages. Given each stage take 1 cycle. $(k-1)T=$ Pipeline overhead. $\\Rightarrow(k-1)\\times1=5$. $\\Rightarrow k=6$. Speed up = nonpipeline execution time / pipeline execution time $=\\frac{10\\times6}{10+6-1}=\\frac{60}{15}=4$ Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pipelining",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a 32-bit computer that has an on-chip 16 Kbyte four-way set-associative cache. Assume that the cache has a line size of four 32-bit words. Then what will be Tag, Set and Word fields respectively:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "18, 8, 6"
+        },
+        {
+          "label": "B",
+          "text": "18, 10, 4"
+        },
+        {
+          "label": "C",
+          "text": "20, 8, 4"
+        },
+        {
+          "label": "D",
+          "text": "20, 10, 2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "20, 8, 4",
+      "explanation": "32-bits. Cache capacity = 16 KB = $2^{14}$ bytes. Line size = 4 × 32-bit words = 4 × 4 Bytes = 16 Bytes = $2^4$B. Number of lines in cache = $2^{14}/2^4=2^{10}$. 4 × Number of sets = $2^{10}$. $\\Rightarrow$ Number of sets = $2^8$. Set size = 8. Tag = 32 – (8 + 4) = 20. Choice (C)",
+      "status": "confirmed",
+      "image": "images/Computer_Organization_and_Architecture_6/computer_organization_and_architecture_6-q027-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Cache Memory",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a memory of 64 blocks (labelled 0 through 63) and a cache of 8 lines (labelled 0 through 7). Using direct mapping, which of the following blocks of memory contend for line 2 of the cache?\n(i) Block 10\n(ii) Block 15\n(iii) Block 20\n(iv) Block 55\n(v) Block 42\n(vi) Block 63",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (iii), (v) only"
+        },
+        {
+          "label": "B",
+          "text": "(i), (v) only"
+        },
+        {
+          "label": "C",
+          "text": "(i), (ii), (iv) only"
+        },
+        {
+          "label": "D",
+          "text": "All the six"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "(i), (v) only",
+      "explanation": "Main memory has 64-blocks (0–63). Cache has 8 lines (0–7). To place a particular block of main memory in a line of cache, use the following formula: Cache line number = Block number % number of cache lines. In cache line number 2, at a time any one of the blocks 2, 10, 18, 26, 34, ..., 58 can be placed. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Cache Memory",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Convert the decimal number –30.375 to IEEE 754 Floating-point format. Which of the following correctly specifies the hexa-decimal equivalent of converted number?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "C1F30000"
+        },
+        {
+          "label": "B",
+          "text": "82830000"
+        },
+        {
+          "label": "C",
+          "text": "02830000"
+        },
+        {
+          "label": "D",
+          "text": "41F30000"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "C1F30000",
+      "explanation": "–30.375 = –11110.011 = –1.1110011 × $2^4$. Sign = 1. Mantissa = 11100110000000000000000. Exponent = 4. Biased exponent = 127 + 4 = 131 = 10000011. ∴ –30.375 in IEEE standard is 1100 0001 1 111 0011 0000 0 000 0 000 0 000 = (C1F30000)$_{16}$. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Floating Point Representation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider a main memory system that consists of Eight memory modules attached to the system bus, which is one word wide. When a write request is made the bus in occupied for 100 ns by the data, address and control signals. During the same 100 ns and for 500 ns thereafter, the addressed memory module executes one cycle accepting and storing the data. The internal operation of different memory modules may overlap in time, but only one request can be on the bus at any time. What is the maximum number of stores that can be initiated in one second?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$10^9$"
+        },
+        {
+          "label": "B",
+          "text": "$10^7$"
+        },
+        {
+          "label": "C",
+          "text": "$10^5$"
+        },
+        {
+          "label": "D",
+          "text": "$10^2$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$10^7$",
+      "explanation": "First write operation requires 600 ns. (100 ns for bus, 500 ns for store). During the store operation of first write another request may be given to bus. So we can start a write operation after every 100 ns. Maximum number of stores that can be initiated in one second $=\\frac{1}{100\\text{ ns}}=\\frac{10^9}{10^2}=10^7$ Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Memory Systems",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Suppose a bus protocol requires 15 ns for devices to make requests, 15 ns for arbitration and 20 ns to complete each operation. How many operations can be completed per second?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$10^7$"
+        },
+        {
+          "label": "B",
+          "text": "$2\\times10^7$"
+        },
+        {
+          "label": "C",
+          "text": "$5\\times10^7$"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$2\\times10^7$",
+      "explanation": "Total time taken for one operation = 15 + 15 + 20 = 50 ns. One operation requires $50\\times10^{-9}$ sec. In one second, number of operations completed $=\\frac{1}{50\\times10^{-9}}=2\\times10^7$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Bus Organization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A computer truncates the significant to four decimal places and gives the results in normalized form. What is the resultant of $(0.2233\\times10^2)+(0.6688\\times10^1)$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$0.2901\\times10^2$"
+        },
+        {
+          "label": "B",
+          "text": "$2.9018\\times10^1$"
+        },
+        {
+          "label": "C",
+          "text": "$0.2902\\times10^2$"
+        },
+        {
+          "label": "D",
+          "text": "$29.018"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$0.2901\\times10^2$",
+      "explanation": "0.2233 × $10^2$ + 0.6688 × $10^1$. First equate the exponents: 0.6688 × $10^1$ = 0.06688 × $10^2$. 0.22330 × $10^2$ + 0.06688 × $10^2$ = 0.29018 × $10^2$. The resultant must have four decimal places (by truncation). Sum is 0.2901 × $10^2$. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Floating Point Arithmetic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "For each of the following cases, specify whether SRAM or DRAM would be more appropriate building block for the memory system?\n(i) A memory system where performance is the most important goal.\n(ii) A memory system where cost is the most important goal.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "SRAM, SRAM"
+        },
+        {
+          "label": "B",
+          "text": "SRAM, DRAM"
+        },
+        {
+          "label": "C",
+          "text": "DRAM, SRAM"
+        },
+        {
+          "label": "D",
+          "text": "DRAM, DRAM"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "SRAM, DRAM",
+      "explanation": "For high performance use SRAM and for low cost use DRAM. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Memory Technology",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Linked answer questions 34 and 35: Consider an unpipelined processor. Assume that it has 1 ns clock cycle and it uses 3 cycles for ALU operations, 5 cycles for branch instructions and 4 cycles for memory operations. Assume that the relative frequencies of these operations are 80%, 10% and 10% respectively. Suppose that due to clock skew and set up, pipelining the processor adds 0.1 ns of overhead to the clock.",
+      "text": "What is the average instruction execution time on a pipelined processor?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4.3 ns"
+        },
+        {
+          "label": "B",
+          "text": "4.4 ns"
+        },
+        {
+          "label": "C",
+          "text": "1.1 ns"
+        },
+        {
+          "label": "D",
+          "text": "1 ns"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1.1 ns",
+      "explanation": "Average instruction time on a pipelined processor = 1 ns + 0.1 ns = 1.1 ns. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pipelining",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Computer_Organization_and_Architecture_6.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices. Linked answer questions 34 and 35: Consider an unpipelined processor. Assume that it has 1 ns clock cycle and it uses 3 cycles for ALU operations, 5 cycles for branch instructions and 4 cycles for memory operations. Assume that the relative frequencies of these operations are 80%, 10% and 10% respectively. Suppose that due to clock skew and set up, pipelining the processor adds 0.1 ns of overhead to the clock.",
+      "text": "By ignoring latency impact, what is the speedup gain in the instruction execution rate using pipeline?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4.3"
+        },
+        {
+          "label": "B",
+          "text": "3.9"
+        },
+        {
+          "label": "C",
+          "text": "1.1"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "3.9",
+      "explanation": "Average instruction time on a non-pipelined processor = 1 + ((3 × 0.8) + (5 × 0.1) + (4 × 0.1)) = 4.3 ns. Speed up = $\\frac{4.3}{1.1}=3.9$ Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pipelining",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Organization_and_Architecture_6.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

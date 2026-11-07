@@ -1,0 +1,1517 @@
+[
+  {
+    "id": "gate-programming-and-data-structures-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following data structure(s) can be used to represent Stack, Queue, Binary Tree, Hash Table, Heap and Graph?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Array"
+        },
+        {
+          "label": "B",
+          "text": "Singly linked list"
+        },
+        {
+          "label": "C",
+          "text": "Doubly linked list"
+        },
+        {
+          "label": "D",
+          "text": "Both (A) and (C)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Array",
+      "explanation": "Array can be used to represent all the above data structures.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Data structures",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is a min heap?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Visual diagram shown for option A in the question image."
+        },
+        {
+          "label": "B",
+          "text": "Visual diagram shown for option B in the question image."
+        },
+        {
+          "label": "C",
+          "text": "Visual diagram shown for option C in the question image."
+        },
+        {
+          "label": "D",
+          "text": "Visual diagram shown for option D in the question image."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Programming_and_Data_Structure_5/programming_and_data_structures_5-q002-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "The diagram shown for option C.",
+      "explanation": "Min Heap is a complete Binary tree, with parent node value less than both the child nodes if they exist.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Heaps",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which traversal of a binary search tree will give the result in an ascending order of elements?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Preorder"
+        },
+        {
+          "label": "B",
+          "text": "In-order"
+        },
+        {
+          "label": "C",
+          "text": "Post-order"
+        },
+        {
+          "label": "D",
+          "text": "None of the above (a special code is required to print elements in ascending order)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "In-order",
+      "explanation": "Inorder is the traversal of tree which prints data elements in an ascending order.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Binary search trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following cannot be implemented using self-referential structure?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Graphs"
+        },
+        {
+          "label": "B",
+          "text": "AVL trees"
+        },
+        {
+          "label": "C",
+          "text": "Splay trees"
+        },
+        {
+          "label": "D",
+          "text": "B-Trees"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Graphs",
+      "explanation": "Graphs uses adjacency matrix (or) linked representation.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Data structures",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is TRUE about the AVL tree?\n(1) AVL tree is a binary tree.\n(2) The search time of AVL tree will be always less than (or) equal to the search time of binary search tree.\n(3) AVL tree is binary search tree with maximum balancing factor of 2.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only (1)"
+        },
+        {
+          "label": "B",
+          "text": "Only (1) and (2)"
+        },
+        {
+          "label": "C",
+          "text": "Only (1) and (3)"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Only (1) and (2)",
+      "explanation": "AVL tree is binary search tree with balancing factor as 0, +1, –1 and search time as O (log n).\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "AVL trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is suitable for the data that contains a relationship between pairs of elements, which is not necessarily hierarchical in nature?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Heaps"
+        },
+        {
+          "label": "B",
+          "text": "AVL Trees"
+        },
+        {
+          "label": "C",
+          "text": "Graphs"
+        },
+        {
+          "label": "D",
+          "text": "B-Trees"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Graphs",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Graphs",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What is the Number of Null links in a Binary Tree of ‘n’ nodes?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "n"
+        },
+        {
+          "label": "B",
+          "text": "n + 1"
+        },
+        {
+          "label": "C",
+          "text": "n – 1"
+        },
+        {
+          "label": "D",
+          "text": "n/2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "n + 1",
+      "explanation": "For n nodes it will be (n + 1) Null links.\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Programming_and_Data_Structure_5/programming_and_data_structures_5-q007-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Binary trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What is the number of stacks that should be used to implement a queue?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2",
+      "explanation": "2 stacks required; use one for the Enqueue and the other for Dequeue.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Stacks and queues",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the recursive function for fibonacci sequence:\nfib (n)\n{\nif (n ==0)\nreturn 0;\nelse if (n==1)\nreturn 1;\nelse\nreturn fib (n – 1) + fib (n – 2);\n}\nWhat is the Number of additions required, when fib(n) is invoked ?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "fib (n + 1) – 1"
+        },
+        {
+          "label": "B",
+          "text": "fib (n + 1) + 1"
+        },
+        {
+          "label": "C",
+          "text": "fib (n + 1) – n"
+        },
+        {
+          "label": "D",
+          "text": "fib (n + 1) + n"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "fib (n + 1) – 1",
+      "explanation": "Number of additions in a fibonacci sequence will be fib (n + 1) – 1.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Recursion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following tree traversals are necessary to get the unique pattern of a tree structure?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only In-order"
+        },
+        {
+          "label": "B",
+          "text": "In-order and pre-order"
+        },
+        {
+          "label": "C",
+          "text": "Post-order and pre-order"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "In-order and pre-order",
+      "explanation": "For unique pattern of tree either\n(pre order + in order) or (post order + in order) are } necessary.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Tree traversals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Common data for questions 11 and 12:\nConsider the following routines:\n\nvoid F1 (struct Binary *t)\n{\n    if (t)\n    {\n        printf(\"%d\", t → data);\n        F2(t → Left);\n        F2(t → Right);\n    }\n}\n\nvoid F2(struct binary * t)\n{\n    if (t)\n    {\n        F1(t → Left);\n        printf(\"%d\", t → data);\n        F1 (t → Right);\n    }\n}\n\nLet us consider a tree",
+      "text": "If F1(t) is called on the above tree with t as root node (A), what is its output?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "ABCDEF"
+        },
+        {
+          "label": "B",
+          "text": "ACBFED"
+        },
+        {
+          "label": "C",
+          "text": "ABDCFE"
+        },
+        {
+          "label": "D",
+          "text": "ACBEFD"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Programming_and_Data_Structure_5/programming_and_data_structures_5-q011-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "ACBEFD",
+      "explanation": "Traverse the routines on the tree.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Tree traversals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Common data for questions 11 and 12:\nConsider the following routines:\n\nvoid F1 (struct Binary *t)\n{\n    if (t)\n    {\n        printf(\"%d\", t → data);\n        F2(t → Left);\n        F2(t → Right);\n    }\n}\n\nvoid F2(struct binary * t)\n{\n    if (t)\n    {\n        F1(t → Left);\n        printf(\"%d\", t → data);\n        F1 (t → Right);\n    }\n}\n\nLet us consider a tree",
+      "text": "When F2(t) is called on this tree, with root as the parameter that is (F2(root)), what is its output?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "BCADEF"
+        },
+        {
+          "label": "B",
+          "text": "BCDEFA"
+        },
+        {
+          "label": "C",
+          "text": "DEFBCA"
+        },
+        {
+          "label": "D",
+          "text": "DEFABC"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Programming_and_Data_Structure_5/programming_and_data_structures_5-q011-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "BCADEF",
+      "explanation": "Traverse the routines on the tree.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Tree traversals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What is the prefix expression of the expression a + b ∗ c/d ∧ e ∧ f – g",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "– / ∗ + a b c d ∧ ∧ e f g"
+        },
+        {
+          "label": "B",
+          "text": "– + a / ∗ b c ∧ d ∧ e f g"
+        },
+        {
+          "label": "C",
+          "text": "– + a ∧ ∧ / ∗ b c d e f g"
+        },
+        {
+          "label": "D",
+          "text": "∧ ∧ + a / ∗ b c d e – f g"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "– + a / ∗ b c ∧ d ∧ e f g",
+      "explanation": "a + b * c/ d ∧ e ∧ f – g\na+b*c/d∧∧ef–g\na+b*c/∧d∧ef–g\na+*bc/∧d∧ef–g\na + / * b c ∧ d ∧ e f –g\n+a/*bc∧d∧ef–g\n– + a / * b c ∧ d ∧ e f g.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Expressions and expression conversion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What does the function DO( ) does on a queue?\nvoid DO( )\n{\nif (!Q is empty)\n{\nint temp = dequeue ( );\nDO ( );\nenqueue (temp);\n}\n}",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "queue remains same"
+        },
+        {
+          "label": "B",
+          "text": "elements will get reversed in a queue"
+        },
+        {
+          "label": "C",
+          "text": "elements are removed and reinserted in the same queue"
+        },
+        {
+          "label": "D",
+          "text": "queue remains empty"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "elements will get reversed in a queue",
+      "explanation": "Let us consider a queue with 3 elements a, b, c.\nTrace the routine\nTemp a\nTemp b\nTemp c\nEnqueue (temp) (3 times)\nc, b, a is the resultant Queue.\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Programming_and_Data_Structure_5/programming_and_data_structures_5-q014-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Queues and recursion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Fill in the blanks for the routine A( ).\nA( ) will delete the elements in circular queue.\nInitially Front = Rear = –1\nA(Q, N, Front, Rear, Y) // N is size of a queue, Q is an array to store circular Queue.\n{\nif (Front == –1)\n{\nprintf(\"Queue is underflow\");\nexit (1);\n}\nY = Q(Front);\nif(I)\nFront = Rear = –1;\nelse\n{\nif (Front == N)\n(II);\nelse\nFront = Front + 1;\n}\nreturn Y;\n}",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I. Front == Rear +1    II. Front = –1"
+        },
+        {
+          "label": "B",
+          "text": "I. Front == Rear    II. Front = –1"
+        },
+        {
+          "label": "C",
+          "text": "I. Front == (Rear +1)    II. Front = 0"
+        },
+        {
+          "label": "D",
+          "text": "I. Front == Rear    II. Front = 0"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "I. Front == Rear    II. Front = 0",
+      "explanation": "Circular queue deletion routine.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Circular queues",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following routine:\nstruct node\n{\nint data;\nstruct node → link;\n};\nvoid DO (struct node → p, struct node → q)\n{\nif (q)\n{\nDO (q, q → link);\nq → link = p;\n}\nelse\nhead = p;\n}\nWhen DO(head, head → link) is implemented on singly linked list, the resultant list,",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "is a reversal of given list"
+        },
+        {
+          "label": "B",
+          "text": "remains the same"
+        },
+        {
+          "label": "C",
+          "text": "is a circular linked list"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "is a reversal of given list",
+      "explanation": "It reverses the list.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Linked lists",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the graph below;\nWhich of the following orderings are not possible using depth first search graph traversal:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A C G F E D B"
+        },
+        {
+          "label": "B",
+          "text": "A D E F C G B"
+        },
+        {
+          "label": "C",
+          "text": "A C G B F E D"
+        },
+        {
+          "label": "D",
+          "text": "C G B A D E F"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Programming_and_Data_Structure_5/programming_and_data_structures_5-q017-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "A D E F C G B",
+      "explanation": "Let us consider option (B)\nAt (F) it can’t reach to vertex (C) as it is not adjacent to (F).\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Programming_and_Data_Structure_5/programming_and_data_structures_5-q017-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Depth-first search",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What is the time complexity for attaining maximum element from Max heap?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "O(n log n)"
+        },
+        {
+          "label": "B",
+          "text": "O(n)"
+        },
+        {
+          "label": "C",
+          "text": "O(log n)"
+        },
+        {
+          "label": "D",
+          "text": "O(1)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "O(1)",
+      "explanation": "Let us consider a max heap\nAs the maximum element is at the root. To attain root element it takes O(1) time.\nChoice (D)",
+      "status": "confirmed",
+      "image": "images/Programming_and_Data_Structure_5/programming_and_data_structures_5-q018-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Heaps",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Minimum number of nodes in AVL tree of height 5 is (with root at height = 1)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "12",
+      "explanation": "Choice (B)",
+      "status": "confirmed",
+      "image": "images/Programming_and_Data_Structure_5/programming_and_data_structures_5-q019-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "AVL trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a Binary search Tree ‘T’ in which every node will be having only right child, there are ‘n’ nodes ∈ tree ‘T’. Time complexity for searching an element will be:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "O(log n)"
+        },
+        {
+          "label": "B",
+          "text": "O(log(n/2))"
+        },
+        {
+          "label": "C",
+          "text": "O(n)"
+        },
+        {
+          "label": "D",
+          "text": "O(n/2)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "O(n)",
+      "explanation": "Let us consider 5 nodes\nTo search an element (E) it has to compare 5 elements\n∴ it is O(n).\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Programming_and_Data_Structure_5/programming_and_data_structures_5-q020-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Binary search trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider post-order and in-order traversal of a tree:\nPOSTORDER :- DCBGFEA\nINORDER :- BDCAFGE\nWhen tree is constructed from above tree traversals then what are the leaf nodes?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "D, G"
+        },
+        {
+          "label": "B",
+          "text": "C, F"
+        },
+        {
+          "label": "C",
+          "text": "D, E"
+        },
+        {
+          "label": "D",
+          "text": "C, G"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "D, G",
+      "explanation": "POST: DCBGFEA\nIN: BDCAFGE\nConsider in order\nChoice (A)",
+      "status": "confirmed",
+      "image": "images/Programming_and_Data_Structure_5/programming_and_data_structures_5-q021-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Tree construction from traversals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Linked Answer for Questions 22 and 23:\nConstruct an AVL tree with the elements\n21, 26, 30, 9, 4, 14, 28, 18",
+      "text": "What will be the root node for the AVL tree?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "26"
+        },
+        {
+          "label": "B",
+          "text": "21"
+        },
+        {
+          "label": "C",
+          "text": "28"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "21",
+      "explanation": "From the above elements AVL tree will be:",
+      "status": "confirmed",
+      "image": "images/Programming_and_Data_Structure_5/programming_and_data_structures_5-q022-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "AVL trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Linked Answer for Questions 22 and 23:\nConstruct an AVL tree with the elements\n21, 26, 30, 9, 4, 14, 28, 18",
+      "text": "What will be the post order predecessor of the root node, in the above resultant tree?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "26"
+        },
+        {
+          "label": "B",
+          "text": "21"
+        },
+        {
+          "label": "C",
+          "text": "28"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "28",
+      "explanation": "Post order for the above tree is 4 18 14 9 26 30 28 21.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "AVL trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Linked Answer for Questions 24 and 25:\nConsider the circular doubly linked list given below.\n\nConsider the routine below:\n\nstruct node\n{\n    sturct node *Lptr ;\n    int data;\n    struct node * Rptr;\n};\n\nvoid A ( )\n{\n    struct node → t = head → Rptr;\n    while (t != head)\n    {\n        swap (t → Lptr, t → Rptr)\n        t = t → Lptr;\n    }\n    swap (head → Lptr, head → Rptr);\n}.",
+      "text": "When A( ) routine is applied on the given list, the head Right pointer maps to:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Node containing data field as ‘a’"
+        },
+        {
+          "label": "B",
+          "text": "Node containing data field as ‘b’"
+        },
+        {
+          "label": "C",
+          "text": "Node containing data field as ‘c’"
+        },
+        {
+          "label": "D",
+          "text": "The head pointer points to itself"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Programming_and_Data_Structure_5/programming_and_data_structures_5-q024-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Node containing data field as ‘c’",
+      "explanation": "The A( ) routine will reverse the given list\n∴ Head pointer maps to node containing data field as ‘c’.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Circular doubly linked lists",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_5.pdf",
+      "direction": "Linked Answer for Questions 24 and 25:\nConsider the circular doubly linked list given below.\n\nConsider the routine below:\n\nstruct node\n{\n    sturct node *Lptr ;\n    int data;\n    struct node * Rptr;\n};\n\nvoid A ( )\n{\n    struct node → t = head → Rptr;\n    while (t != head)\n    {\n        swap (t → Lptr, t → Rptr)\n        t = t → Lptr;\n    }\n    swap (head → Lptr, head → Rptr);\n}.",
+      "text": "To which node N (pointer) points when the following operation is performed on the new list formed in the previous question.\n(struct node ∗ N)\nN = Head → Rptr → Rptr → Lptr → Lptr → Rptr;",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Head node"
+        },
+        {
+          "label": "B",
+          "text": "Node containing data field as ‘a’"
+        },
+        {
+          "label": "C",
+          "text": "Node containing data field as ‘b’"
+        },
+        {
+          "label": "D",
+          "text": "Node containing data field as ‘c’"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Programming_and_Data_Structure_5/programming_and_data_structures_5-q024-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Node containing data field as ‘c’",
+      "explanation": "Traversing the above list with given operation make to point to node containing c.\nChoice (D)",
+      "status": "confirmed",
+      "image": "images/Programming_and_Data_Structure_5/programming_and_data_structures_5-q025-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Circular doubly linked lists",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

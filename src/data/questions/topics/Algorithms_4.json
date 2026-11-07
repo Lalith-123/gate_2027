@@ -1,0 +1,1508 @@
+[
+  {
+    "id": "gate-algorithms-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Given the following input 564, 816, 726, 903, 1321, 1345, 1498 and the Hash function is h(k) = k mod 3. Which of the following statements are CORRECT?\nI. 564, 816, 726, 903 will hash to same Location.\nII. 1321, 1345, 1498 will hash to same Location.\nIII. 816, 1345, 903 will hash to same Location.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I and III"
+        },
+        {
+          "label": "B",
+          "text": "I and II"
+        },
+        {
+          "label": "C",
+          "text": "II and III"
+        },
+        {
+          "label": "D",
+          "text": "I, II and III"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "I and II",
+      "explanation": "h(k) = k mod 3\n564 mod 3 = 0\n816 mod 3 = 0\n726 mod 3 = 0\n903 mod 3 = 0\n1321 mod 3 = 1\n1345 mod 3 = 1\n1498 mod 3 = 1\n564, 816, 726, 903 will hash to same location,\n1321, 1345, 1498 will hash to same location.\nStatement III is not TRUE.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Hashing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Let M be an integer greater than 1. Which of the following represents the order of growth of the expression \\(\\sum_{i=1}^{n} M^i\\) as a function of ‘n’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\(\\Theta(n^M)\\)"
+        },
+        {
+          "label": "B",
+          "text": "\\(\\Theta(M^{2n+1})\\)"
+        },
+        {
+          "label": "C",
+          "text": "\\(\\Theta(M^n \\log n)\\)"
+        },
+        {
+          "label": "D",
+          "text": "\\(\\Theta(M^n)\\)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "\\(\\Theta(M^n)\\)",
+      "explanation": "Let M value be ‘3’\n\n\\(\\sum_{i=1}^{n} 3^i = 3^1 + 3^2 + 3^3 + ... + 3^n\\)\n\nThe sequence is in Geometric Progression.\nFirst term = 3 = a\n\\(r = \\frac{3^2}{3} = 3\\)\n\nAs r > 1 ⇒ sum = \\(a\\frac{r^n-1}{r-1}\\)\n\n\\(3\\frac{(3^n-1)}{3-1} = \\frac{3(3^n-1)}{2}\\)\n\\(= \\frac{3\\cdot3^n-3\\cdot1}{2} = \\frac{3^{n+1}-3^1}{2}\\)\n\n\\(=3^{n+1} \\Rightarrow 3^n\\) (Ignore constants in Asymptotic Notations)\n\n∴ \\(\\Theta(M^n)\\) is the order of growth of given expression.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic Analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.\n\nCommon Data For Questions 3 and 4:\nTo compute the Matrix product M1 M2, where M1 has ‘p’ rows and ‘q’ columns and M2 has ‘q’ rows and ‘r’ columns, takes time proportional to ‘pqr’, and result is a matrix of ‘p’ rows and ‘r’ columns. Consider the given 5 matrices, A1, A2, A3, A4, and A5 and their dimensions are P0 × P1, P1 × P2, P2 × P3, P3 × P4, P4 × P5, respectively. The values are P0 = 10, P1 = 5, P2 = 15, P3 = 20, P4 = 40, P5 = 25.",
+      "text": "MATRIX-CHAIN-ORDER computes the rows from bottom to top and from left to right, The value of X (where X = M[1, 2]) is ________",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "600"
+        },
+        {
+          "label": "B",
+          "text": "750"
+        },
+        {
+          "label": "C",
+          "text": "800"
+        },
+        {
+          "label": "D",
+          "text": "900"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_4/algorithms_4-q003-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "750",
+      "explanation": "Computing the matrix product A_i...k A_k+1...j takes P_i−1 P_k P_j scalar multiplications.\nM[i, j] = { 0 if i = j; min_{i ≤ k < j} {M[i, k] + M[k + 1, j] + P_{i−1} P_k P_j}, if i < j }\n\nX = M[1, 2]\ni = 1, j = 2\nk = 1 (∵ i ≤ k < j)\nP0 = 10, P1 = 5, P2 = 15, P3 = 20, P4 = 40, P5 = 25\nM[1, 1] = 0\nM[2, 2] = 0\nM[3, 3] = 0\nM[4, 4] = 0\nM[5, 5] = 0\nM[1, 2] = min_{i ≤ k < j} [M[i, k] + M[k + 1, j] + P_{i−1} P_k P_j]\n\nK = 1 ⇒ M[1, 2] = M[1, 1] + M[2, 2] + P0 P1 P2\n0 + 0 + 10 × 5 × 15\n= 750\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Dynamic Programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.\n\nCommon Data For Questions 3 and 4:\nTo compute the Matrix product M1 M2, where M1 has ‘p’ rows and ‘q’ columns and M2 has ‘q’ rows and ‘r’ columns, takes time proportional to ‘pqr’, and result is a matrix of ‘p’ rows and ‘r’ columns. Consider the given 5 matrices, A1, A2, A3, A4, and A5 and their dimensions are P0 × P1, P1 × P2, P2 × P3, P3 × P4, P4 × P5, respectively. The values are P0 = 10, P1 = 5, P2 = 15, P3 = 20, P4 = 40, P5 = 25.",
+      "text": "The value of Y (where Y = M[2, 4]) is ________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1500"
+        },
+        {
+          "label": "B",
+          "text": "5500"
+        },
+        {
+          "label": "C",
+          "text": "15000"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_4/algorithms_4-q004-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "5500",
+      "explanation": "M[2, 4] → The possible values for ‘K’ are 2, 3.\n(1) M[2, 4] = M[2, 2] + M[3, 4] + P1 P2 P4, k = 2\n(2) M[2, 4] = M[2, 3] + M[4, 4] + P1 P3 P4, k = 3\n\nWe need to get the values of M[3, 4] and M[2, 3]\nM[3, 4] = M[3, 3] + M[4, 4] + P2 P3 P4, k = 3\n0 + 0 + 15 × 20 × 40 = 12000\nM[2, 3] = M[2, 2] + M[3, 3] + P1 P2 P3, k = 2\n= 0 + 0 + 5 × 15 × 20\n= 1500\n\nChoose min of (1) and (2)\nM[2, 4] = M[2, 2] + M[3, 4] + P1 P2 P4, k = 2\n0 + 12000 + 5 × 15 × 40\n= 12000 + 3000 = 15000\nM[2, 4] = M[2, 3] + M[4, 4] + P1 P3 P4, k = 3\n= 1500 + 0 + 5 × 20 × 40\n= 1500 + 4000 = 5500\n∴ M[2, 4] = min{15000, 5500} = 5500\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Dynamic Programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following cannot be the time complexity of Quick sort algorithm, under any of the Average, Best, Worst cases?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\(O(n \\log n)\\)"
+        },
+        {
+          "label": "B",
+          "text": "\\(O(n^2)\\)"
+        },
+        {
+          "label": "C",
+          "text": "\\(O(n^3)\\)"
+        },
+        {
+          "label": "D",
+          "text": "\\(O(\\log n)\\)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "\\(O(\\log n)\\)",
+      "explanation": "Average and Best case time complexities are O(n log n) and O(n log n)\nWorst case time complexity is O(n²)\nSince (n log n) and n² are less than n³, O(n³) is also valid.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Sorting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following:\nI. If f(n) = O(g(n)) and g(n) = O(h(n)) then f(n) = Ω(h(n))\nII. The asymptotically tight upper bound for T(n) = T(n − 2) + 1 is O(log n)\nWhich of the following is correct?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I–TRUE, II–TRUE"
+        },
+        {
+          "label": "B",
+          "text": "I–TRUE, II–False"
+        },
+        {
+          "label": "C",
+          "text": "I–False, II–TRUE"
+        },
+        {
+          "label": "D",
+          "text": "I–False, II–False"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "I–False, II–False",
+      "explanation": "I. f(n) = O(g(n)) and g(n) = O(h(n)) then f(n) = Ω(h(n))\nLets assume\nf(n) = n\ng(n) = n²\nh(n) = n³\nf(n) ≤ g(n)\n⇒ n ≤ n²\ng(n) ≤ h(n) ⇒ n² ≤ n³\nThen f(n) ≥ h(n)\n⇒ n ≥ n³ (false)\n\nII. T(n) = T(n − 2) + 1\nGives O(n) time complexity (False)\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic Analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Let\n\\(f(n) = 6n + 8n^2 + 200n^3,\\)\n\\(g(n) = n^2 \\log n\\)\nWhich of the following is valid?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "f(n) = O(g(n))"
+        },
+        {
+          "label": "B",
+          "text": "f(n) = Θ(g(n))"
+        },
+        {
+          "label": "C",
+          "text": "f(n) = Ω(g(n))"
+        },
+        {
+          "label": "D",
+          "text": "g(n) = Ω(f(n))"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "f(n) = Ω(g(n))",
+      "explanation": "f(n) = 6n + 8n² + 200n³ ⇒ n³\ng(n) = n² log n\nOption (A):\nn³ ≤ c * n² log n (false)\nOption (B):\nn³ = c * n² log n (false)\nOption (C):\nn³ ≥ c * n² log n (TRUE)\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic Analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If f(n) = n log n then which of the following is FALSE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "f(n) = O(n² log n)"
+        },
+        {
+          "label": "B",
+          "text": "f(n) = Θ(n log n)"
+        },
+        {
+          "label": "C",
+          "text": "f(n) = Ω(n²)"
+        },
+        {
+          "label": "D",
+          "text": "f(n) = Ω(log n * log n)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "f(n) = Ω(n²)",
+      "explanation": "Option (A):\nn log n ≤ c * n² log n (TRUE)\nOption (B):\nn log n = c * n log n (TRUE)\nOption (C):\nn log n ≥ c * n² (False)\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic Analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What is the average time complexity of the sequential search algorithm where the searched item is sequentially compared to each element in the list of ‘n’ elements?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "\\(\\frac{n}{2}\\)"
+        },
+        {
+          "label": "B",
+          "text": "\\(\\log n\\)"
+        },
+        {
+          "label": "C",
+          "text": "\\(\\frac{n+1}{2}\\)"
+        },
+        {
+          "label": "D",
+          "text": "\\(\\frac{n-1}{2}\\)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "\\(\\frac{n+1}{2}\\)",
+      "explanation": "In an average case, the probability that ‘X’ is in the Kth array slot is 1/n, hence the average number of comparisons is\n\n\\(\\sum_{i=1}^{n}\\left(K\\times\\frac{1}{n}\\right)=\\frac{1}{n}\\sum_{k=1}^{n}K\\)\n\\(=\\frac{1}{n}\\times\\frac{n(n+1)}{2}=\\frac{n+1}{2}\\)\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Searching",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the given data:\n— Let n be the number of elements\n— Number of levels used in sorting: O(log n)\n— At each level O(n) amount of work\nThe given data is related to:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Heap sort"
+        },
+        {
+          "label": "B",
+          "text": "Merge sort"
+        },
+        {
+          "label": "C",
+          "text": "Selection sort"
+        },
+        {
+          "label": "D",
+          "text": "Bubble sort"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Merge sort",
+      "explanation": "In the worst, average, best cases, merge sort procedure will have O(log n) levels.\nIn each level O(n) work is required.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Sorting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a graph, with all distinct Edge weights, which of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The shortest path is unique between every pair of vertices"
+        },
+        {
+          "label": "B",
+          "text": "The maximal matching is unique"
+        },
+        {
+          "label": "C",
+          "text": "The minimum spanning tree is unique"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "The minimum spanning tree is unique",
+      "explanation": "Option (A):\n\n∴ There are 2 shortest paths From ‘a’ to ‘c’\n1. a – b – c\n2. a – d – c\n\nOption (B):\n\nMaximal matching 1\n\nMaximal matching 2\n\nOption (C)\nFor any graph, there will be unique spanning tree.\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Algorithms_4/algorithms_4-q011-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graphs",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The Hash function h(k) = k mod 7 with Linear probing is used to insert the keys 37, 38, 72, 68, 98, 11, 74 into hash table indexed (0 – 6), The location of Key 74 is ________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1",
+      "explanation": "Hash function h(k) = k mod 7\nGiven elements are: 37, 38, 72, 68, 98, 11, 74\n37 mod 7 = 2\n38 mod 7 = 3\n72 mod 7 = 2\n68 mod 7 = 5\n98 mod 7 = 0\n11 mod 7 = 4\n74 mod 7 = 4\nChoice (A)",
+      "status": "confirmed",
+      "image": "images/Algorithms_4/algorithms_4-q012-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Hashing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Given an undirected graph G = (V, E) and a positive integer ‘K’, does ‘G’ have ‘K’ vertices that form a complete sub graph and if it does, then what is the minimum value of ‘K’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "2",
+      "explanation": "It is a complete sub graph, with K = 2. Choice (A)",
+      "status": "confirmed",
+      "image": "images/Algorithms_4/algorithms_4-q013-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graphs",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "In the Build-Heap algorithm, the Heapify routine is invoked ‘n’ times. This indicates that Build-Heap Complexity is _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "O(log n)"
+        },
+        {
+          "label": "B",
+          "text": "O(n)"
+        },
+        {
+          "label": "C",
+          "text": "O(n log n)"
+        },
+        {
+          "label": "D",
+          "text": "O(n²)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "O(n²)",
+      "explanation": "Heapify routine takes O(log n) time, if it is invoked ‘n’ times then Build Heap takes n * log n ⇒ O(n log n).\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Heaps",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Give asymptotically tight Big-O bounds for the following recurrence relations. (By using Iterative substitution method)\n\\(T(n) = T(n − 2) + 1\\) if n > 2\n\\(T(n) = 1\\) if n ≤ 2",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "O(n log n)"
+        },
+        {
+          "label": "B",
+          "text": "O(n)"
+        },
+        {
+          "label": "C",
+          "text": "O(n²)"
+        },
+        {
+          "label": "D",
+          "text": "O(log n)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "O(n)",
+      "explanation": "Given Recurrence Relation:\nT(n) = T(n − 2) + 1\nAssume n = 16\nT(16) = T(14) + 1\nT(14) = T(12) + 1\nT(12) = T(10) + 1\nT(10) = T(8) + 1\nT(8) = T(6) + 1\nT(6) = T(4) + 1\nT(4) = T(2) + 1\nT(2) = 1\nT(4) = 2\nT(6) = 3\nT(8) = 4\nT(10) = 5\nT(12) = 6\nT(14) = 7\nT(16) = 8\n⇒ n/2 ⇒ O(n/2) ⇒ O(n)\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Recurrence Relations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the given code:\npublic static int f2(int n){\n    int x = 0;\n    for (int i= 0; i < n; i++)\n        for (int j = 0; j < i * i; j++)\n            x++;\n    return x;\n}\nWhat is the order of growth of the above code?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "O(log n)"
+        },
+        {
+          "label": "B",
+          "text": "O(n²)"
+        },
+        {
+          "label": "C",
+          "text": "O(n³)"
+        },
+        {
+          "label": "D",
+          "text": "O(2ⁿ)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "O(n³)",
+      "explanation": "Each iteration of the inner loop is quadratic in the outer loop variable. The simplest way to do this is to realize we are just summing Si², which will just be O(n³), if we use the integration trick.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Complexity Analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following:\nI. (3n)! = O(n!³)\nII. log(n!) = Θ(n log n)\nWhich of the following is correct?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I–False, II–False"
+        },
+        {
+          "label": "B",
+          "text": "I–False, II–TRUE"
+        },
+        {
+          "label": "C",
+          "text": "I–TRUE, II–False"
+        },
+        {
+          "label": "D",
+          "text": "I–TRUE, II–TRUE"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "I–False, II–False",
+      "explanation": "Let us assume some value for n\nn = 5\n\nI.\n(3 × 5)! = 15! = very large number\n(5!)³ = 120³ = 1728000\n(3n)! < O(n!³)\nI–false\n\nII.\nlog(n!) = Θ(n log n)\nlets take n = 8\nlog(n!) = log(8!) = log(40320) = 15.299\nn log n = 24\nlog(n!) < (n log n)\nII–false\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic Analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The Floyd-Warshall all pairs shortest path algorithm for finding the shortest distances between nodes in a graph is an example of:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "An iterative based divide - and - conquer"
+        },
+        {
+          "label": "B",
+          "text": "A Dynamic programming formulation"
+        },
+        {
+          "label": "C",
+          "text": "A greedy algorithm"
+        },
+        {
+          "label": "D",
+          "text": "A recursive based divide - and - conquer"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "A Dynamic programming formulation",
+      "explanation": "The Floyd-warshall all pairs shortest path algorithm in a graph is an example of a dynamic programming formulation.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Dynamic Programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is not having O(n²) complexity?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "n + 2000n"
+        },
+        {
+          "label": "B",
+          "text": "n^1.999"
+        },
+        {
+          "label": "C",
+          "text": "10⁶n + 2⁶n"
+        },
+        {
+          "label": "D",
+          "text": "\\(\\frac{n^3}{\\sqrt n}\\)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "\\(\\frac{n^3}{\\sqrt n}\\)",
+      "explanation": "Option (A)\nn + 2000n ≤ c * n²\n⇒ n ≤ c * n² (TRUE)\n\nOption (B)\nn^1.999 ≤ c * n² (TRUE)\n\nOption (C)\n10⁶n + 2⁶n ≤ c * n²\nn ≤ c * n² (TRUE)\n\nOption (D)\n\\(\\frac{n^3}{\\sqrt n}\\) ≤ c * n² (False)\nn^2.5 ≤ c * n² (False)\n∴ for a very large value of ‘n’\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic Analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the given two strings str1 and str2.\nLet str1 = ⟨ A B R A C A D A B R O A ⟩\nstr2 = ⟨ Y A B B A D A B B A D O O B A ⟩\nThen the length of longest common subsequence would be ___________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "8",
+      "explanation": "str1 = A B R A C A D A B R O A\nstr2 = Y A B B A D A B B A D O O B A\nThe longest common subsequence would be A B A D\nA B O A.\nThe length is ‘8’.\nChoice (D)",
+      "status": "confirmed",
+      "image": "images/Algorithms_4/algorithms_4-q020-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Dynamic Programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What is the computational complexity of the following piece of code:\nfor (i = n; i > 0; i/= 2){\n    for (int j = 1; j < n; j *= 2){\n        for (int k = 0; k < n; k += 2){\n            sum += (i + j * k);\n        }\n    }\n}",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "O(n³)"
+        },
+        {
+          "label": "B",
+          "text": "O(n² log n)"
+        },
+        {
+          "label": "C",
+          "text": "O(log n * log n * log n)"
+        },
+        {
+          "label": "D",
+          "text": "O(n * log n * log n)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "O(n * log n * log n)",
+      "explanation": "In the outer for loop, the variable ‘i’ keeps halving, so it goes a round (log n) times. For each ‘i’ next loop goes round also (log n) times, because of doubling the variable j. The inner most loop by ‘k’ goes round n/2 times. Loops are nested, so the bounds may be multiplied to give that the algorithm is O(n * log n * log n)\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Complexity Analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the modified binary search algorithm so that it splits the input not into 2 sets of sizes equal sizes, but into three sets of sizes approximately one-third. What is the recurrence for this ternary search algorithm?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "T(n) = T(n/2) + T(n − 2) + C"
+        },
+        {
+          "label": "B",
+          "text": "T(n) = T(n/3) + C"
+        },
+        {
+          "label": "C",
+          "text": "T(n) = T(3n/4) + T(n/4) + C"
+        },
+        {
+          "label": "D",
+          "text": "T(n) = T(n/3) + log n"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "T(n) = T(n/3) + C",
+      "explanation": "By analogy, we divide the elements instead of 2 sub-sets, we divide them into three subsets.\n∴ T(n) = T(n/3) + c\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Searching",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Sort the following growth rate classes in increasing order of time complexity:\nExponential, quadratic, logarithmic, cubic, and factorial.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Logarithmic, quadratic, cubic, exponential, factorial"
+        },
+        {
+          "label": "B",
+          "text": "Logarithmic, quadratic, cubic, factorial, exponential"
+        },
+        {
+          "label": "C",
+          "text": "Quadratic, cubic, logarithmic, exponential, factorial"
+        },
+        {
+          "label": "D",
+          "text": "Quadratic, cubic, logarithmic, factorial, exponential"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Logarithmic, quadratic, cubic, exponential, factorial",
+      "explanation": "logarithmic → log n\ncubic → n³\nquadratic → n²\nExponential → 2ⁿ\nFactorial → n!\nlog n < n² < n³ < 2ⁿ < n!\nLogarithmic, quadratic, cubic, exponential, Factorial.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic Analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Determine if ‘x’ is present in an array of n-elements:\nfor i = 0 to n\n    if (a[i] = x) return TRUE\n    else\n    return false\nWhat is the worst case, best case time complexities and space complexity respectively?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "O(n), O(1), O(n)"
+        },
+        {
+          "label": "B",
+          "text": "O(n), O(1), O(1)"
+        },
+        {
+          "label": "C",
+          "text": "O(n), O(log n), O(1)"
+        },
+        {
+          "label": "D",
+          "text": "O(log n), O(log n), O(n)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "O(n), O(1), O(1)",
+      "explanation": "The procedure given in problem performs linear search,\nWorst case ⇒ O(n)\nBest case ⇒ O(1)\nWe do not require extra space to search for an element in an array, so space complexity is O(1). Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Searching",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What is the space complexity of following sorting algorithms respectively?\nI. Quick sort                 II. Merge sort\nIII. Selection sort           IV. Insertion sort",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "O(n), O(n), O(1), O(1)"
+        },
+        {
+          "label": "B",
+          "text": "O(1), O(n), O(1), O(n)"
+        },
+        {
+          "label": "C",
+          "text": "O(1), O(n), O(1), O(1)"
+        },
+        {
+          "label": "D",
+          "text": "O(1), O(n), O(n), O(1)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "O(1), O(n), O(1), O(1)",
+      "explanation": "Quick sort, selection sort, insertion sort are ‘In-place’ algorithms means they do not take extra space.\n∴ O(1), O(1), O(1)\nMerge sort is Not In-Place algorithm.\nIt needs extra space\n∴ O(n).\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Sorting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

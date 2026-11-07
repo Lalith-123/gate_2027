@@ -1,0 +1,1511 @@
+[
+  {
+    "id": "gate-theory-of-computation-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is FALSE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I only"
+        },
+        {
+          "label": "B",
+          "text": "II only"
+        },
+        {
+          "label": "C",
+          "text": "Both I and II"
+        },
+        {
+          "label": "D",
+          "text": "Neither I nor II"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "II only",
+      "explanation": "Every regular language is a CFL but not vice versa. Every CFL has a PDA but that PDA need not be a deterministic PDA. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular and context-free languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following figure correctly specifies the relation between regular languages (R), deterministic CFL’s (DC) and CFL’s (C)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Figure shown in option (A)."
+        },
+        {
+          "label": "B",
+          "text": "Figure shown in option (B)."
+        },
+        {
+          "label": "C",
+          "text": "Figure shown in option (C)."
+        },
+        {
+          "label": "D",
+          "text": "Figure shown in option (D)."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_2/theory_of_computation_2-q002-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Figure shown in option (B).",
+      "explanation": "Regular ⊂ DCFL ⊂ CFL Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular, deterministic context-free, and context-free languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the regular expression, RE = $ab^* + ba^*$. Then the reversal of RE, given by $RE^R$ is equal to:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$ab^* + ba^*$"
+        },
+        {
+          "label": "B",
+          "text": "$a^*b$"
+        },
+        {
+          "label": "C",
+          "text": "$b^*a + a^*b$"
+        },
+        {
+          "label": "D",
+          "text": "$(a^*b)(b^*a)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$b^*a + a^*b$",
+      "explanation": "Given regular expression, $RE = ab^* + ba^*$. $RE^R = (ab^* + ba^*)^R = (ab^*)^R + (ba^*)^R = (b^*)^R a^R + (a^*)^R b^R = (b^R)^*a + (a^R)^*b = b^*a + a^*b$ Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular expressions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The statement: ‘For every regular language L, every subset of L is regular as well’ is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "TRUE"
+        },
+        {
+          "label": "B",
+          "text": "False"
+        },
+        {
+          "label": "C",
+          "text": "TRUE, only if L is CFG"
+        },
+        {
+          "label": "D",
+          "text": "False, only if L is CFG."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "False",
+      "explanation": "Given statement is false. Ex: $L = \\{a,b\\}^*$; subset of L is $\\{a^n b^n \\mid n \\in N\\}$, which is not regular. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular languages and closure properties",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following strings are not accepted by the language $L\\;(((010 \\cup 10)^*1)^*)$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "0101"
+        },
+        {
+          "label": "C",
+          "text": "10101110"
+        },
+        {
+          "label": "D",
+          "text": "01001011"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "10101110",
+      "explanation": "Given language, $L(((010 \\cup 10)^*1)^*)$. The regular expressions which are accepted by ‘L’ are of the form $((m)^*1)^*$, where $m = 010 \\cup 10$. Any string in L is either $e$ or ends with ‘1’. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular expressions and language membership",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is FALSE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(L_1^*)^* = L_1^*$"
+        },
+        {
+          "label": "B",
+          "text": "$L_1^* = (L_1L_1)^*$"
+        },
+        {
+          "label": "C",
+          "text": "$L_1 \\subset L_2$ then $L_1^* \\subset L_2^*$"
+        },
+        {
+          "label": "D",
+          "text": "If $L_1$ is finite then it is regular."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$L_1^* = (L_1L_1)^*$",
+      "explanation": "$L_1^* = (L_1L_1)^*$ is false. Let $L_1 = \\{a\\}$ then $L_1^*$ will have ‘a’ but $(L_1L_1)^*$ do not have ‘a’. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular languages and regular-expression identities",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following strings are generated by the regular expression, $R = (abe)^*(a+b)ba$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (iii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(ii), (iv)"
+        },
+        {
+          "label": "D",
+          "text": "(i), (iv)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "(ii), (iv)",
+      "explanation": "Given regular expression, $R = (abe)^*(a+b)ba$. ‘e’ is not accepted. ‘aba’ is accepted. ‘ababba’ is not accepted. ‘abababa’ is accepted. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular expressions and language membership",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The regular expression $R = (abe)^*((a+b)\\cdot\\phi)ba$ is equivalent to",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(abe)^*(a+b)ba$"
+        },
+        {
+          "label": "B",
+          "text": "$(abe)^*ba$"
+        },
+        {
+          "label": "C",
+          "text": "$ba$"
+        },
+        {
+          "label": "D",
+          "text": "$\\phi$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\phi$",
+      "explanation": "$\\phi R = R\\phi = \\phi$, so $(a+b)\\phi = \\phi$. $\\phi \\cdot ba = \\phi$, $(abe)^*\\cdot \\phi = \\phi$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular expressions and empty language",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following identity is FALSE for regular expressions?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii), (iii)"
+        },
+        {
+          "label": "B",
+          "text": "(i) only"
+        },
+        {
+          "label": "C",
+          "text": "(ii), (iii)"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of these",
+      "explanation": "All the three are valid identities of regular expressions. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular-expression identities",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following language is Regular?\nI: $\\{ww\\mid w\\in\\{0,1\\}^*\\}$\nII: $\\{w\\mid w=w^R,\\;w\\in\\{0,1\\}^*\\}$\nIII: $\\{ww^R\\mid w\\in\\{0,1\\}^*\\}$\nIV: Set of all strings with un-equal number of 0’s and 1’s.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I, III only"
+        },
+        {
+          "label": "B",
+          "text": "II, IV only"
+        },
+        {
+          "label": "C",
+          "text": "IV only"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of the above",
+      "explanation": "None of the four languages is regular. Finite automata cannot check the equality of two substrings of a string. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular versus non-regular languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following NFA. Which of the following gives the language accepted by given NFA?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "All strings of the form $a^k$, $k \\ge 0$."
+        },
+        {
+          "label": "B",
+          "text": "All strings of the form $\\{a^m a^n\\mid m\\ge 0,\\;n\\ge 0\\}$"
+        },
+        {
+          "label": "C",
+          "text": "All strings of the form $\\{a^m a^n\\mid m$ is a multiple of 2 and $n$ is multiple of 3$\\}$"
+        },
+        {
+          "label": "D",
+          "text": "All strings of the form $\\{a^k\\mid k$ is a multiple of 2 or 3$\\}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_2/theory_of_computation_2-q011-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All strings of the form $\\{a^k\\mid k$ is a multiple of 2 or 3$\\}$",
+      "explanation": "Given NFA accepts number of a’s which is a multiple of 2 or 3. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "NFA and regular languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is not context-free language?\n(i) $\\{a^k\\mid k\text{ is a perfect square}\\}$\n(ii) $\\{a^i b^j c^i d^j\\mid i,j\\ge 0\\}$\n(iii) $\\{a^i b^{2i} a^i\\mid i\\ge 0\\}$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(i), (iii)"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i), (ii), (iii)",
+      "explanation": "$\\{a^k\\mid k\text{ is a perfect square}\\}$ This is not context-free. The PDA can’t check whether a number is perfect square or not. $\\{a^i b^j c^i d^j\\mid i,j\\ge 0\\}$ Not context free. PDA can check the equality of a, b and c, d or a, d and b, c but not a, c and b, d. $\\{a^i b^{2i} a^i\\mid i\\ge 0\\}$ is also not recognized by a PDA. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Context-free languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following DFA D:\nWhich of the following is TRUE?\n(i) D accepts all strings which contain the sub-word ‘ab’ two times only.\n(ii) D accepts all strings which terminate with ‘b’.\n(iii) The strings baabb, abbba are not in the language.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii) only"
+        },
+        {
+          "label": "B",
+          "text": "(iii) only"
+        },
+        {
+          "label": "C",
+          "text": "(ii), (iii)"
+        },
+        {
+          "label": "D",
+          "text": "(i), (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_2/theory_of_computation_2-q013-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "(iii) only",
+      "explanation": "Given DFA accepts all strings which contain at least two sub-words ‘ab’. It do not accept baabb, abbba. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "DFA and language recognition",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following FA. Which of the following states are equivalent?\n(i) $q_0,q_1$\n(ii) $q_2,q_3$\n(iii) $q_3,q_4$\n(iv) $q_0,q_4$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iv)"
+        },
+        {
+          "label": "C",
+          "text": "(iii) only"
+        },
+        {
+          "label": "D",
+          "text": "(ii), (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_2/theory_of_computation_2-q014-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(ii), (iii)",
+      "explanation": "In given FA, non-final states are $\\{q_0,q_2,q_3,q_4\\}$ and final state is $\\{q_1\\}$. A state is equivalent to another state if both are either non-final or final states. Also each transition from those states leads to either final state or non final state only. ∴ $q_0,q_1$ are not equivalent. $q_0,q_4$ are not equivalent. $q_2,q_3$ are equivalent as both are non-final states and $q_2,q_3$ with ‘a’ reaches a final state and $q_2,q_3$ with ‘b’ reaches a non-final state. Similarly, $q_3,q_4$ are also equivalent. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "FA state equivalence",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following FA. The number of states in the minimized FA is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_2/theory_of_computation_2-q015-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "3",
+      "explanation": "Given FA is the minimal FA. No minimization is possible. (∵ With transition ‘1’, both the non-final states are reaching a final and non-final state). Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "FA minimization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following represents a language in automata theory?\n(i) $S^*$\n(ii) $\\epsilon$\n(iii) $\\phi$\n(iv) $\\{\\phi\\}$\n(v) $\\{\\epsilon\\}$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (iii) only"
+        },
+        {
+          "label": "B",
+          "text": "(i), (iii), (v) only"
+        },
+        {
+          "label": "C",
+          "text": "(ii), (iv) only"
+        },
+        {
+          "label": "D",
+          "text": "(iv), (v) only"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "(i), (iii), (v) only",
+      "explanation": "$S^*$, $\\phi$ (empty), $\\{\\epsilon\\}$ are languages. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Languages and sets",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following NFA. The number of states in its equivalent DFA is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_2/theory_of_computation_2-q017-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "5",
+      "explanation": "Given NFA. The DFA equivalent to given NFA is given as, with transition table shown in the explanation. ∴ Number of states in the equivalent DFA is 5. Choice (B)",
+      "status": "confirmed",
+      "image": "images/Theory_of_Computation_2/theory_of_computation_2-q017-explanation.png"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "NFA to DFA conversion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following language is regular?\n(i) $\\{x=y+z\\mid x,y,z\text{ are binary integers and }x\text{ is the sum of }y\text{ and }z\\}$\n(ii) $\\{w\\mid w\text{ is a binary representation of a number greater than 3}\\}$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) only"
+        },
+        {
+          "label": "C",
+          "text": "Both (i) and (ii)"
+        },
+        {
+          "label": "D",
+          "text": "Neither (i) nor (ii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "(ii) only",
+      "explanation": "(i) is not regular. (This will be shown using pumping Lemma). (ii) is regular and the expression is given as $0^*1(0+1)(0+1)(0+1)^*$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following grammar:\n$S\to PaP$\n$P\to \\epsilon\\mid PaPbP\\mid PbPaP\\mid Pa\\mid aP$\nWhat is the language generated by this grammar over $\\{a,b\\}$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Set of all strings with more a’s than b’s"
+        },
+        {
+          "label": "B",
+          "text": "Set of all strings with more b’s than a’s"
+        },
+        {
+          "label": "C",
+          "text": "Set of all strings with twice a’s than b’s"
+        },
+        {
+          "label": "D",
+          "text": "Set of all strings with equal number of a’s and b’s."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Set of all strings with more a’s than b’s",
+      "explanation": "Given grammar is $S\to PaP$, $P\to \\epsilon|PaPbP|PbPaP|Pa|aP$. Consider some derivations: 1. $S\to PaP\to a$; 2. $S\to PaP\to PaaP\to aa$; 3. $S\to PaP\to PaPbPaP\to aba$; 4. $S\to PaP\to baa$. ∴ More a’s than b’s. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Context-free grammar and language generation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a regular language L. A new language $DELchar(L)=\\{W\\mid W\text{ is some string from }L\text{ with exactly one character deleted}\\}$ is defined. Then $DELchar(L)$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "a regular language"
+        },
+        {
+          "label": "B",
+          "text": "a CFG but not regular"
+        },
+        {
+          "label": "C",
+          "text": "neither CFG nor regular"
+        },
+        {
+          "label": "D",
+          "text": "not accepted by a PDA"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "a regular language",
+      "explanation": "DELChar (L) is a regular language. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Closure properties of regular languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following grammar:\n$S\to aSb\\mid P$\n$P\to bP\\mid Pa\\mid \\epsilon$\nWhich of the following language represents the grammar?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "${a^n b^n\\mid n\\in N}$"
+        },
+        {
+          "label": "B",
+          "text": "${a^n b^m b^n\\mid m,n\\in N}$"
+        },
+        {
+          "label": "C",
+          "text": "${a^n b^m a^p b^n\\mid n,m,p\\in N}$"
+        },
+        {
+          "label": "D",
+          "text": "${a^n b^m\\mid n>m}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "${a^n b^m a^p b^n\\mid n,m,p\\in N}$",
+      "explanation": "Given grammar, $S\to aSb|P$, $P\to bP|Pa|\\epsilon$. The strings generated by given grammar are $S\to P\to \\epsilon$; $S\to aSb\to aPb\to ab$; $S\to aSb\to aPb\to aPab\to aab$; $S\to aSb\to aPb\to abPb\to abb$; $S\to aSb\to aaSbb\to aabbb$. In the starting and end of the string we need to have equal number of a’s and b’s. in between there will be any number of b’s and a’s. ∴ The language accepted by given grammar is $\\{a^n b^m a^p b^n\\mid n,m,p\\in N\\}$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Context-free grammar and language generation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Let $M_1$ and $M_2$ are two DFA’s with 5-tuple format as given below:\n$M_1=(Q_1,\\Sigma,\\delta_1,S_1,F_1)$\n$M_2=(Q_2,\\Sigma,\\delta_2,S_2,F_2)$\nwhere $Q_1,Q_2$ are set of states; $\\Sigma$ is the alphabet set; $\\delta_1,\\delta_2$ are transition functions; $S_1,S_2$ are start states; $F_1,F_2$ are final states. Then which of the following are necessary for $L(M_1)=L(M_2)$?\n(i) $Q_1=Q_2$\n(ii) $F_1=F_2$\n(iii) $S_1=S_2$\n(iv) $\\delta_1=\\delta_2$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(i), (ii), (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(i), (ii), (iii), (iv)"
+        },
+        {
+          "label": "D",
+          "text": "(iii), (iv)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "(i), (ii), (iii), (iv)",
+      "explanation": "$L(M_1)=L(M_2)$ if $Q_1=Q_2; F_1=F_2; S_1=S_2; \\delta_1=\\delta_2$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "DFA definitions and language equality",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following language is both regular and context free?\n(i) $\\{a^n(bc)^n:n\\ge 0\\}$\n(ii) $\\{a^n a^n a^n:n\\ge 0\\}$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) only"
+        },
+        {
+          "label": "C",
+          "text": "Both (i) and (ii)"
+        },
+        {
+          "label": "D",
+          "text": "Neither (i) nor (ii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "(ii) only",
+      "explanation": "(i) is CFL but not regular. (Checking the equality of a’s and (bc) is not done using FA). (ii) is regular and CFL. $\\{a^{3n}\\mid n\\ge 0\\}$ is regular. Every regular language is CFL. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular and context-free languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Match the following:\nList I: 1. $r^*s+s$; 2. $\\phi^*$; 3. $\\epsilon^*$; 4. $(\\epsilon+r)^*$\nList II: A. $r^*$; B. $\\phi$; C. $\\epsilon$; D. $r^*s$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1–a, 2–b, 3–c, 4–d"
+        },
+        {
+          "label": "B",
+          "text": "1–d, 2–c, 3–c, 4–a"
+        },
+        {
+          "label": "C",
+          "text": "1–a, 2–c, 3–c, 4–d"
+        },
+        {
+          "label": "D",
+          "text": "1–d, 2–c, 3–b, 4–a"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_2/theory_of_computation_2-q024-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1–d, 2–c, 3–c, 4–a",
+      "explanation": "$r^*s+s = r^*s$; $\\phi^* = \\epsilon^* = \\epsilon$; $(\\epsilon+r)^* = r^*$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Regular-expression identities",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_2.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following FA. What is the language accepted by above FA?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\{w\\mid w\\in\\{0,1\\}^*\text{ and }w\text{ do not end with }1\\}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\{w\\mid w\\in\\{0,1\\}^*\text{ and }w\text{ contains more zeros than 1’s}\\}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\{w\\mid w\\in\\{0,1\\}^*\text{ and }w\text{ do not end with }01\\}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\{w\\mid w\\in\\{0,1\\}^*\text{ and }w\text{ do not have consequent 0’s and 1’s}\\}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_2/theory_of_computation_2-q025-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\{w\\mid w\\in\\{0,1\\}^*\text{ and }w\text{ do not end with }01\\}$",
+      "explanation": "Given FA do not accept the strings which will terminate with ‘01’. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "DFA and language recognition",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

@@ -1,0 +1,2103 @@
+[
+  {
+    "id": "gate-quantitative-ability-test-2-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the percentage change in the volume of a cylinder if its height increases by 20% and radius remains the same?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "No change"
+        },
+        {
+          "label": "B",
+          "text": "10% increase"
+        },
+        {
+          "label": "C",
+          "text": "20% decrease"
+        },
+        {
+          "label": "D",
+          "text": "20% increase"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "20% increase",
+      "explanation": "Volume of a cylinder = $\\pi r^2h$. As $\\pi$ is constant and there is no change in radius, volume varies only with height. New height = $(1.2)h$. ∴ New volume = $1.2\\pi r^2h$ i.e., the volume increases by 20%. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Mensuration",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "30% of a number when subtracted from twice the number equals to 33 less than five times the same number. What is the number?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "10",
+      "explanation": "Let the number be = $x$. According to the problem, $2x-0.3x=5x-33$. ⇒ $3.3x=33$ ⇒ $x=10$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In the second and the third match of a series Dravid’s score increases by 10% and $21\\frac{7}{33}\\%$ respectively over the previous match. By what percentage did his score increase in the third match as compared to the first match?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$33\\frac{1}{3}\\%$"
+        },
+        {
+          "label": "B",
+          "text": "$31\\frac{7}{33}\\%$"
+        },
+        {
+          "label": "C",
+          "text": "$35\\frac{15}{33}\\%$"
+        },
+        {
+          "label": "D",
+          "text": "$37\\frac{9}{33}\\%$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$33\\frac{1}{3}\\%$",
+      "explanation": "Let Dravid’s score in the first match be $x$. It increases by 10% in the second to $\\frac{110}{100}x=\\frac{11x}{10}$. In the third match it increases by $21\\frac{7}{33}\\%=\\frac{700}{33}\\%$ to $\\left(100+\\frac{700}{33}\\right)\\%=\\frac{4000}{33}\\%$, i.e., score in the third match is $\\left(\\frac{1}{100}\\right)\\left(\\frac{4000}{33}\\right)\\left(\\frac{11x}{10}\\right)=\\frac{4x}{3}$. Over the two year it increases by $\\frac{4x}{3}-x=\\frac{x}{3}$. Fractional increase = $\\frac{x/3}{x}=\\frac{1}{3}=33\\frac{1}{3}\\%$. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Percentages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Two tests are given with maximum marks of 300 and 200 respectively. A student scores an overall percentage of 60%. If he has scored 40% in the second test, then how many marks did he score in the first test?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "200"
+        },
+        {
+          "label": "B",
+          "text": "180"
+        },
+        {
+          "label": "C",
+          "text": "220"
+        },
+        {
+          "label": "D",
+          "text": "240"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "220",
+      "explanation": "The two tests together had $300+200=500$ marks. The student scored an overall percentage of 60% ∴ Total marks scored by the student = $500\\times0.6=300$. Marks scored by the student in the second test = $200\\times0.4=80$. Hence marks scored in the first test = $300-80=220$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Percentages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "If a kerosene dealer sells kerosene at ₹8 per litre, he loses ₹400, but if he sells at ₹10 per litre he makes a profit of ₹400. Then, how many litres of kerosene did the dealer sell?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "250"
+        },
+        {
+          "label": "B",
+          "text": "200"
+        },
+        {
+          "label": "C",
+          "text": "350"
+        },
+        {
+          "label": "D",
+          "text": "400"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "400",
+      "explanation": "Let the quantity of kerosene sold by the dealer be $x$ litres. ∴ CP − $8x=400$ and $10x$ − CP = 400. ⇒ $8x+400=10x-400$ ⇒ $5x=400$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Profit and Loss",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "By selling 50 metres of cloth, a merchant gains the cost of 10 metres. Find the gain percentage.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "25%"
+        },
+        {
+          "label": "B",
+          "text": "$33\\frac{1}{3}\\%$"
+        },
+        {
+          "label": "C",
+          "text": "20%"
+        },
+        {
+          "label": "D",
+          "text": "30%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "20%",
+      "explanation": "Let the cost price of 1m = CP. Let the sale price of 1m = SP. Given $50SP=50CP+10CP$ i.e., $60CP=50SP$. ∴ % Profit = $(60-50)\\times100/50=20\\%$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Profit and Loss",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "By selling 60 metres of cloth, a merchant gains the selling price of 10 metres. The gain percentage is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "25%"
+        },
+        {
+          "label": "B",
+          "text": "20%"
+        },
+        {
+          "label": "C",
+          "text": "15%"
+        },
+        {
+          "label": "D",
+          "text": "$16\\frac{2}{3}\\%$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "20%",
+      "explanation": "Let the cost price of 1m = CP. Let the sale price of 1m = SP. Given $60SP=60CP+10SP$ i.e., $60CP=50SP$. ∴ %Profit = $(60-50)\\times100/50=20\\%$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Profit and Loss",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "If 3/5th of B’s income is 25% less than A’s income, then what percentage of B’s income is A’s income?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "60%"
+        },
+        {
+          "label": "B",
+          "text": "80%"
+        },
+        {
+          "label": "C",
+          "text": "120%"
+        },
+        {
+          "label": "D",
+          "text": "125%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "80%",
+      "explanation": "Let A’s and B’s increase be $a$ and $b$. $\\frac{3b}{5}=a-\\frac{25a}{100}=a\\left(\\frac{3}{4}\\right)$. ∴ $a=\\frac{4}{5}b=\\frac{80}{100}b$. $a$ is 80% of $b$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Percentages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "If a dealer gets a commission of 10% on the list price from the company, then the profit made by the company is 50% of its manufacturing cost. If the dealer’s commission is increased to 25%, then what will be the profit percentage on the cost of manufacturing for the company?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10%"
+        },
+        {
+          "label": "B",
+          "text": "25%"
+        },
+        {
+          "label": "C",
+          "text": "30%"
+        },
+        {
+          "label": "D",
+          "text": "20%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "25%",
+      "explanation": "Let the list price be = LP. If 10% of LP is given as commission to the dealer the profit for the company is 50% ⇒ $0.9LP=1.5CP$. If 25% commission is given then $0.75LP=0.75\\times(1.5CP/0.9)=1.25CP$. % of profit = 25%. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Profit and Loss",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Chetan started a cable TV service with an investment of ₹2,00,000. After a few months David joined him with an investment of ₹1,50,000. If at the end of the year David’s share was ₹3,00,000 out of a total profit of ₹7,80,000 after how many months did David join Chetan?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "2",
+      "explanation": "Chetan’s total investment = $2,00,000\\times12$. David’s total investment = $1,50,000\\times x$ (where $x$ is the period of investment of David). Chetan’s share in total profit = $7,80,000-3,00,000=Rs.4,80,000$. Now, $\\frac{2,00,000\\times12}{1,50,000\\times x}=\\frac{4,80,000}{3,00,000}\\Rightarrow x=10$. ∴ David joined after 2 months. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Partnership",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A man sells an article at a profit of 25%. Had he bought it at 25% less and sold for ₹25 less, he would still have gained 25%. Find the cost of the article.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹80"
+        },
+        {
+          "label": "B",
+          "text": "₹40"
+        },
+        {
+          "label": "C",
+          "text": "₹60"
+        },
+        {
+          "label": "D",
+          "text": "₹50"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "₹80",
+      "explanation": "SP = 1.25 CP. Also given SP − 25 = $1.25\\times0.75$ CP. Solving the above equations CP = 80. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Profit and Loss",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A man sold a Doberman and a German Shepherd for ₹5,750 each. On the Doberman he made a profit of 25%, and on the German Shepherd he made a profit of 15%. Find the approximate profit percentage on the whole transaction.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "23%"
+        },
+        {
+          "label": "B",
+          "text": "16%"
+        },
+        {
+          "label": "C",
+          "text": "18%"
+        },
+        {
+          "label": "D",
+          "text": "20%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "20%",
+      "explanation": "Total selling price = $5750\\times2=₹11,500$. Total cost price = $\\frac{5750}{1.25}+\\frac{5750}{1.15}=4600+5000=₹9600$. ∴ Overall profit percentage = $\\frac{1900}{9600}\\times100\\cong20$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Profit and Loss",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A, B, and C invested capitals in the ratio 4 : 5 : 6. At the end of the year, they received the profits in the ratio 6 : 5 : 4. Find the ratio of time periods for which they invested their capitals.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "9 : 6 : 2"
+        },
+        {
+          "label": "B",
+          "text": "9 : 8 : 6"
+        },
+        {
+          "label": "C",
+          "text": "9 : 3 : 4"
+        },
+        {
+          "label": "D",
+          "text": "9 : 6 : 4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "9 : 6 : 4",
+      "explanation": "Ratio of time is $\\frac{6}{4}:\\frac{5}{5}:\\frac{4}{6}=\\frac{6\\times60}{4}:\\frac{5\\times60}{5}:\\frac{4\\times60}{6}=9:6:4$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Partnership",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A man purchases a certain number of chocolates at 2 per rupee and the same number of pepper-mints at 5 per rupee. He mixes them together and sells them at 3 per rupee. What is his approximate profit or loss percentage?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5% profit"
+        },
+        {
+          "label": "B",
+          "text": "5% loss"
+        },
+        {
+          "label": "C",
+          "text": "4% profit"
+        },
+        {
+          "label": "D",
+          "text": "4% loss"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "5% loss",
+      "explanation": "Let the number of éclairs be $x$. Their CP = $x/2$. CP of peppermint = $x/5$. Therefore total CP = $\\frac{x}{2}+\\frac{x}{5}=\\frac{7x}{10}$. Total SP = $\\frac{2x}{3}$. P% = $\\frac{\\frac{2x}{3}-\\frac{7x}{10}}{\\frac{7x}{10}}\\times100$. Therefore loss = 5%. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Profit and Loss",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A shopkeeper bought a table marked at ₹600 at successive discounts of 10% and 20% respectively. He spent ₹8 on transportation and sold the table for ₹450. Find his profit percentage.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2\\frac{7}{11}\\%$"
+        },
+        {
+          "label": "B",
+          "text": "$2\\frac{3}{11}\\%$"
+        },
+        {
+          "label": "C",
+          "text": "$2\\frac{5}{11}\\%$"
+        },
+        {
+          "label": "D",
+          "text": "$2\\frac{8}{11}\\%$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$2\\frac{3}{11}\\%$",
+      "explanation": "CP = $600(.9)(.8)=432$. Total CP = $432+8=440$. SP = 450. P% = $\\frac{10}{440}\\times100=2\\frac{3}{11}\\%$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Profit and Loss",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A sum of money is invested at a certain rate of simple interest. Find the annual rate of interest if the sum becomes 84% more in 6 years.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "12%"
+        },
+        {
+          "label": "B",
+          "text": "14%"
+        },
+        {
+          "label": "C",
+          "text": "16%"
+        },
+        {
+          "label": "D",
+          "text": "18%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "14%",
+      "explanation": "If a sum of money invested under simple interest at $R\\%$ p.a. becomes $N$ times after $t$ years, $R$ is given by $\\frac{100(N-1)}{t}$. As $N=1.84$ and $t=6$ years, $R=\\frac{100(1.84-1)}{6}=14$. ∴ the rate is 14% p.a. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Simple Interest",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A sum of money becomes $\\frac{191}{125}$ times itself, when invested at compound interest at 20% p.a. Find the duration of the investment.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 year"
+        },
+        {
+          "label": "B",
+          "text": "2 years"
+        },
+        {
+          "label": "C",
+          "text": "3 years"
+        },
+        {
+          "label": "D",
+          "text": "4 years"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "3 years",
+      "explanation": "Let the sum of money be ₹$p$ and duration of the investment be $n$ years. $1\\frac{91}{125}p=\\frac{216}{125}p=p\\left(1+\\frac{20}{100}\\right)^n$. $\\left(\\frac65\\right)^3=\\left(\\frac65\\right)^n\\Rightarrow n=3$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Compound Interest",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Two sums of money in the ratio 3:4 are lent for a period of 5 years. The rates of interest on the two sums are in the ratio 1:2. The difference in the simple interest on the two sums is ₹1000. Find the total simple interest on the two sums.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹2000"
+        },
+        {
+          "label": "B",
+          "text": "₹2200"
+        },
+        {
+          "label": "C",
+          "text": "₹2400"
+        },
+        {
+          "label": "D",
+          "text": "₹2500"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "₹2200",
+      "explanation": "Let the two sums of money be $3x$ and $4x$ and the rates of interest on the two sums be $R\\%$ p.a. and $2R\\%$ p.a. respectively. Difference in the simple interest on the two sums = $\\frac{(4x)(2R)(5)}{100}-\\frac{(3x)(R)(5)}{100}=1000$. ⇒ $\\frac{xR}{4}=1000$ ⇒ $xR=4000$. Total simple interest on the two sums = $\\frac{(4x)(2R)(5)}{100}+\\frac{(3x)(R)(5)}{100}=\\frac{55xR}{100}=₹2200$. (∵ $xR=4000$) Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Simple Interest",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Two litres of 20% H$_2$SO$_4$ solution, three litres of water and five litres of 10% H$_2$SO$_4$ are mixed together. How many litres of the resulting solution must be mixed with thirty litres of 18% H$_2$SO$_4$ solution so as to get a 15% H$_2$SO$_4$ solution?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "30"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "15"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "15",
+      "explanation": "Concentration of H$_2$SO$_4$ in the resulting solution = $\\frac{2(0.2)+3(0)+5(0.1)}{2+3+5}=9\\%$. Let the amount of the resulting solution that is being mixed with 30 lt of 0.18 H$_2$SO$_4$ be $x$. $(0.09)x+0.18(30)=0.15(x+30)$. $0.9=0.06x\\Rightarrow x=15$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Mixtures",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In which of the following ratios by weight should three alloys of gold of purity 18, 20 and 22 carats be mixed to form a fourth alloy whose purity is $20\\frac{1}{3}$ carats?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 : 4 : 5"
+        },
+        {
+          "label": "B",
+          "text": "4 : 3 : 5"
+        },
+        {
+          "label": "C",
+          "text": "4 : 5 : 6"
+        },
+        {
+          "label": "D",
+          "text": "6 : 5 : 4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "3 : 4 : 5",
+      "explanation": "Let the weight of 18, 20 and 22 carat gold be $x,y$ and $z$ respectively. $\\frac{18x+20y+22z}{x+y+z}=\\frac{61}{3}$. Only option (1) satisfies this condition. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Mixtures",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A family consists of a grandfather, a grandmother, father, mother and three children. The average age of father, mother and the 3 children is 25 years. The average age of the three children is 15 years. The average age of parents and grandparents is 50 years, then find the average age of the grand parents (in years).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "70"
+        },
+        {
+          "label": "B",
+          "text": "68"
+        },
+        {
+          "label": "C",
+          "text": "58"
+        },
+        {
+          "label": "D",
+          "text": "60"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "60",
+      "explanation": "Average age of children and parents 5 members = 25. ∴ Sum of ages = 125 years. Average age of 3 children = 15. Sum of ages of 3 children = 45. ∴ Sum of ages of parents = 80. Sum of the ages of parents and grand parents = $50(4)=200$. Sum of the ages of grand parents = 120. Average = $120/2=60$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Averages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Groundnuts contain 70% oil by weight. Oil is partially extracted and what is left behind is groundnut cake which contains 17% oil by weight. What is the weight of the groundnuts which yield 1 kilogram of cake?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3.77 kg"
+        },
+        {
+          "label": "B",
+          "text": "2.67 kg"
+        },
+        {
+          "label": "C",
+          "text": "3.58 kg"
+        },
+        {
+          "label": "D",
+          "text": "2.77 kg"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "2.77 kg",
+      "explanation": "Since groundnut contains 70% of oil, it means in 1kg of groundnut there is 30% of (or 0.3kg) solid material. From this 1kg of groundnut, 0.3kg is solid which translates to 83% of cake. ∴ The cake in 1kg of groundnut is $\\frac{0.3}{0.83}$ kg. Groundnut cake $\\frac{0.3}{0.83}$ kg — Groundnut 1 kg. 1kg — ? ⇒ $\\frac{1(1kg)}{(0.3/0.83)}=2.77kg$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Mixtures",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "One-third of a bottle full of pure listerine is replaced with water. Find the ratio of water and listerine if the above process is carried out for a total of four times.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "16 : 65"
+        },
+        {
+          "label": "B",
+          "text": "16 : 89"
+        },
+        {
+          "label": "C",
+          "text": "89 : 16"
+        },
+        {
+          "label": "D",
+          "text": "65 : 16"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "65 : 16",
+      "explanation": "Let the capacity of the bottle be 1 litre. The fraction of listerine left after repeating the process 4 times = $\\left(\\frac{3-1}{3}\\right)^4=\\left(\\frac23\\right)^4=\\frac{16}{81}$. ⇒ For every 81 lt of mixture, listerine is 16 lt and water is $81-16=65$ lt. ∴ The ratio of water and listerine is 65 : 16. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Mixtures",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The number of matches played by a cricketer in the year 2003 is one-fourth of the total number of matches played by him upto the end of 2002. His average score (i.e., runs scored per match played) upto the end of the year 2003 is four-thirds of his average upto the end of the year 2002. What is the ratio of the runs scored in the year 2003 to that of the total scored upto the end of the year 2002?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 : 3"
+        },
+        {
+          "label": "B",
+          "text": "3 : 2"
+        },
+        {
+          "label": "C",
+          "text": "3 : 4"
+        },
+        {
+          "label": "D",
+          "text": "15 : 16"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "2 : 3",
+      "explanation": "The number of matches and average score are tabulated below. Score upto end of 2002 = $(3x)(4n)=12xn$. Score upto end of 2003 = $(4x)(5n)=20xn$. Score in 2003 = $8xn$. Required ratio = $8xn:12xn=2:3$. Choice (A)",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_2/quantitative_ability_2-q024-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Averages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The weighted average of the scores of all the students of three sections X, Y and Z of a class is $33\\frac{1}{3}\\%$ more than the average of the section X. The weighted average of sections Y and Z is $65\\frac{5}{11}$. If section X has a strength of 40 and an average score of 45, what is the combined strength of the section Y and Z?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "60"
+        },
+        {
+          "label": "B",
+          "text": "75"
+        },
+        {
+          "label": "C",
+          "text": "110"
+        },
+        {
+          "label": "D",
+          "text": "85"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "110",
+      "explanation": "Let $A_{(x+y+z)}$ be the average score of the three section combined. It is given that $A_{(x+y+z)}=(1+33\\frac{1}{3}\\%)$ of Average of $x=(4/3)45=60$..... (1). Let $n$ be the combined strength of sections Y and Z. Average of the two sections Y and Z together = $65\\frac{5}{11}$. Total strength of X + Total strength of (Y and Z) = Total score of (X+Y+Z). ⇒ $(45)(40)+n(65\\frac{5}{11})=(n+40)(60)$. ⇒ $1800+\\frac{720n}{11}=60n+2400$ ⇒ $\\frac{60n}{11}=600$ ⇒ $n=110$. ∴ The combined strength of section Y and Z = 110. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Averages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Find the expression for the sum of n terms of an arithmetic progression, if the tenth term is 40 and the 12th term is 44.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$10n+25n^2$"
+        },
+        {
+          "label": "B",
+          "text": "$20n+20n^2$"
+        },
+        {
+          "label": "C",
+          "text": "$25n+15n^2$"
+        },
+        {
+          "label": "D",
+          "text": "$n^2+21n$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$n^2+21n$",
+      "explanation": "If the first term of the A.P is $a$ and the common difference is $d$, we have the tenth term as $a+9d=40$ ….. (1) and the twelfth term as $a+11d=44$ …. (2). Subtracting (1) from (2), we have $2d=44-40$, $d=2$. Substituting the value of $d$ in (1) we get, $a=22$. The sum of $n$ terms of the A.P. = $\\frac n2[2a+(n-1)d]=\\frac n2[2(22)+(n-1)2]=\\frac n2[44+2n-2]=\\frac n2[42+2n]=21n+n^2$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Arithmetic Progression",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The first term of an arithmetic progression consisting of 30 terms is 10 and the common difference is 5. Find the ratio of the sum of the 30 terms of the arithmetic progression to the sum of the last 20 terms of the A.P.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "99 : 13"
+        },
+        {
+          "label": "B",
+          "text": "96 : 17"
+        },
+        {
+          "label": "C",
+          "text": "99 : 86"
+        },
+        {
+          "label": "D",
+          "text": "99 : 68"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "99 : 86",
+      "explanation": "Sum of the first 30 terms of the A.P = $\\frac{30}{2}[2(10)+29(5)]=15[20+145]=15[165]=2475$. Sum of the first 10 terms of the A.P = $\\frac{10}{2}[2(10)+9(5)]=5[20+45]=5[65]=325$. Ratio of the sum of the first 30 terms of the A.P. to the sum of the last 20 terms of the A.P = $(2475):(2475-325)=2475:2150=99:86$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Arithmetic Progression",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "If the sum of the fifth, thirteenth and eighteenth terms of an A.P is zero, find the 12th term of the arithmetic progression.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "-2"
+        },
+        {
+          "label": "B",
+          "text": "-1"
+        },
+        {
+          "label": "C",
+          "text": "0"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "0",
+      "explanation": "If the first term is $a$ and the common difference is $d$, we have the sum of the fifth, thirteenth and eighteenth terms as $(a+4d)+(a+12d)+(a+17d)\\Rightarrow3a+33d=0$. Dividing by 3, we have $a+11d=0$. Hence the 12th term of the A.P is 0. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Arithmetic Progression",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Find the sum of the first 10 terms of the series: $3(2^2)+4(3^2)+5(4^2)+\\ldots$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3009"
+        },
+        {
+          "label": "B",
+          "text": "4860"
+        },
+        {
+          "label": "C",
+          "text": "3408"
+        },
+        {
+          "label": "D",
+          "text": "3608"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "4860",
+      "explanation": "$S=3(2^2)+4(3^2)+5(4^2)+\\ldots$ 10 terms. $=(2+1)2^2+(3+1)3^2+(4+1)4^2+\\ldots$ 10 terms $=(2^3+2^2)+(3^3+3^2)+(4^3+4^2)+\\ldots$ 10 terms $=(1^3+2^3+3^3+\\ldots+11^3)+(1^2+2^2+3^2+\\ldots+11^2)-1^3-1^2=4355+505=4860$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Series",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The sum of the first eight terms of a geometric progression is 510 and the sum of the first four terms of the geometric progression is 30. Find the first term of the geometric progression, given that it is positive.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "2",
+      "explanation": "If the first term of the G.P is $a$ and the common ratio is $r$, we have $\\frac{a(r^8-1)}{r-1}=510$ … (1) and $\\frac{a(r^4-1)}{r-1}=30$ …. (2). Dividing (1) by (2) we have $\\frac{r^8-1}{r^4-1}=\\frac{510}{30}=17$. $r^4+1=17$. $r^4=16$. $r=\\pm\\sqrt[4]{16}=\\pm2$. First term of the G.P, $a=\\frac{510(r-1)}{r^8-1}$. As first term is positive, $r=2$ is taken. $a=\\frac{510(2-1)}{2^8-1}=\\frac{510(1)}{255}=2$. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Geometric Progression",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The terms of an arithmetic progression are all positive. The square of fourth term equals the sum of the squares of the previous two terms. The sum of the first four terms is 14. Find the common difference.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1",
+      "explanation": "Let the first term and the common difference be $a$ and $d$ respectively. $(a+3d)^2=(a+2d)^2+(a+d)^2$. $a^2+6ad+9d^2=2a^2+6ad+5d^2\\Rightarrow a=\\pm2d$. As all the terms are positive, $a=2d$. $a+a+d+a+2d+a+3d=14\\Rightarrow d=1$. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Arithmetic Progression",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The first, second and third terms of a geometric progression are equal to the first, seventh and twelfth terms of an arithmetic progression. If the first term and common difference have opposite signs, find the 37th term of the arithmetic progression.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "0",
+      "explanation": "Let the first term of either progression be $a$. Let the common difference of the arithmetic progression be $d$. $d(a+36d)=0$ as $a$ and $d$ have opposite signs, $d\\ne0$. $a+36d=0$. 37th term = 0. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Progressions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Find the sum of the terms of the series $(1)\\times(20),(2)\\times(19),(3)\\times(18),\\ldots(20)\\times(1)$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1750"
+        },
+        {
+          "label": "B",
+          "text": "1645"
+        },
+        {
+          "label": "C",
+          "text": "1540"
+        },
+        {
+          "label": "D",
+          "text": "1435"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1540",
+      "explanation": "The terms of the series are in the form $x(21-x)$. Required sum = $\\sum_{x=1}^{20}x(21-x)=\\frac{(21)(20)(21)}{2}-\\frac{(20)(21)(41)}{6}=1540$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Series",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In a geometric progression, each term is the sum of all the terms following it. The sum to infinity of the terms is 32. If all the terms are positive, then find the first term.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "$16\\sqrt{2}$"
+        },
+        {
+          "label": "C",
+          "text": "64"
+        },
+        {
+          "label": "D",
+          "text": "$8\\sqrt{2}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "16",
+      "explanation": "Let the first term and the common ratio be $a$ and $r$ respectively. First term = sum of all the terms following it: $a=\\frac{ar}{1-r}$. $a(1-2r)=0$. As all the terms are positive, $a\\ne0$. $1-2r=0$. $r=1/2$. $\\frac{a}{1-r}=16$. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Geometric Progression",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The sum of five numbers in geometric progression is 62. The sum of their reciprocals is $\\frac{31}{32}$. Find the square of the third number.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "100"
+        },
+        {
+          "label": "B",
+          "text": "121"
+        },
+        {
+          "label": "C",
+          "text": "36"
+        },
+        {
+          "label": "D",
+          "text": "64"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "64",
+      "explanation": "Let the first number and the common ratio be $a$ and $r$ respectively. $\\frac ar+a+ar+ar^2=62$ …. (1). $\\frac{r^2}{a}+\\frac r a+\\frac1a+\\frac1{ar}+\\frac1{ar^2}=\\frac{31}{32}$. (1) ÷ (2) ⇒ $a^2=\\frac{62}{31/32}=64$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Geometric Progression",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

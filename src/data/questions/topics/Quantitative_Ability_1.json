@@ -1,0 +1,1803 @@
+[
+  {
+    "id": "gate-quantitative-ability-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "P, Q, R, and S have a total amount of ₹220 with them. P has ₹30 more than Q. S has half the amount with Q. R has ₹10 more than S. Find the amount with S (in ₹).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "20"
+        },
+        {
+          "label": "B",
+          "text": "40"
+        },
+        {
+          "label": "C",
+          "text": "30"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "30",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Arithmetic / Algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "In a room, there are some girls and some benches. If 5 girls sit on each bench, three girls will have no bench to sit on. If there is one bench less, 6 girls can sit on each bench. Find the number of benches.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "9",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Arithmetic / Algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "A test has 60 questions. Each correct answer fetches 1 mark. For each wrong answer and each unanswered question 1 mark is deducted. A candidate who wrote this test scored 20 marks. Find the number of questions he correctly answered.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "50"
+        },
+        {
+          "label": "B",
+          "text": "45"
+        },
+        {
+          "label": "C",
+          "text": "35"
+        },
+        {
+          "label": "D",
+          "text": "40"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "40",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Arithmetic / Algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "If $\\frac{a+b-c}{x}=\\frac{a-b+c}{y}=\\frac{c+b-a}{z}$ then $x(b-a)+y(a-c)+z(c-b)=$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "0",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The value of a diamond varies directly with the cube of its weight. It broke into two pieces whose weights are in the ratio 3 : 4. The loss due to breakage is ₹504000. Find its initial value (in ₹).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1029000"
+        },
+        {
+          "label": "B",
+          "text": "686000"
+        },
+        {
+          "label": "C",
+          "text": "1372000"
+        },
+        {
+          "label": "D",
+          "text": "1715000"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "686000",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Ratio and Proportion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The average of 25 observations is 120. By mistake one of the observations, 144, is taken as 169. Find the average of the 25 observations, after the mistake is corrected.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "120"
+        },
+        {
+          "label": "B",
+          "text": "119"
+        },
+        {
+          "label": "C",
+          "text": "125"
+        },
+        {
+          "label": "D",
+          "text": "132"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "119",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Averages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The average of 13 observations is 50. The average of first seven observations is 45 and the average of last seven observations is 52. Find the value of seventh observation.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "41"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "29"
+        },
+        {
+          "label": "D",
+          "text": "62"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "29",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Averages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "A container contains 100 litres of milk. 10 litres of milk is replaced by 10 litres of water. From the solution formed, 10 litres of solution is replaced by 10 litres of water, and this process is repeated one more time. Find the percentage of water in the resulting solution.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "33.3%"
+        },
+        {
+          "label": "B",
+          "text": "67%"
+        },
+        {
+          "label": "C",
+          "text": "36.5%"
+        },
+        {
+          "label": "D",
+          "text": "27.1%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "27.1%",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Mixtures",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "In a 729 ml of solution, the ratio of acid to water is 7 : 2. How much more water should be mixed so that the resulting mixture contains acid and water in the ratio 7 : 3 (in ml)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "100"
+        },
+        {
+          "label": "B",
+          "text": "40"
+        },
+        {
+          "label": "C",
+          "text": "37"
+        },
+        {
+          "label": "D",
+          "text": "81"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "81",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Mixtures",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "A merchant buys sulphuric acid at a certain rate per gallon and after mixing it with water, sells it at the same rate. If the merchant makes a profit of 20%, how many gallons of water are there per gallon of acid?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.2"
+        },
+        {
+          "label": "B",
+          "text": "0.5"
+        },
+        {
+          "label": "C",
+          "text": "0.7"
+        },
+        {
+          "label": "D",
+          "text": "0.25"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "0.2",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Mixtures",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "If A travelled a certain distance at 6 km/h, he would have reached his destination 10 minutes early. If he travelled it at 4 km/h, he would have reached his destination 10 minutes late. Find the speed at which he must travel to reach his destination on time (in km/h).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "5.4"
+        },
+        {
+          "label": "C",
+          "text": "4.8"
+        },
+        {
+          "label": "D",
+          "text": "4.5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "4.8",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "A car travelled the first hour of its journey at 30 km/h, the next 5 hours of its journey at 50 km/h, and the remaining 4 hours of its journey at 75 km/h. Find its average speed for its journey (in km/h).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "56"
+        },
+        {
+          "label": "B",
+          "text": "60"
+        },
+        {
+          "label": "C",
+          "text": "58"
+        },
+        {
+          "label": "D",
+          "text": "62"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "58",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Without stoppages, a train can cover 54 km in an hour. With stoppages it can cover 36 km in an hour. Find its stoppage time per hour in a journey it covers with stoppages (in minutes).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "18"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "20",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "A and B can complete a job in 40 days. B and C can complete it in 30 days. A and C can complete it in 20 days. Find the time taken by A to complete it (in days).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{180}{7}$"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "48"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{240}{7}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "48",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time and Work",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "3 men and 4 women can complete a job in 10 days. 24 men and 2 women can complete it in 2 days. Find the time taken by 5 men and 10 women to complete it (in days).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "5",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time and Work",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Abhilash spends 25% of his income towards rent, 20% of the remaining income towards food, 8% of the remaining towards medical expenses, and 25% of the remaining towards miscellaneous expenses. If he saves ₹82,800, what is his income?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹2,00,000"
+        },
+        {
+          "label": "B",
+          "text": "₹2,25,000"
+        },
+        {
+          "label": "C",
+          "text": "₹2,40,000"
+        },
+        {
+          "label": "D",
+          "text": "₹2,50,000"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "₹2,00,000",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Percentages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "By selling 30 articles, a shopkeeper gained the selling price of 10 articles. Find the profit percent.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "20%"
+        },
+        {
+          "label": "B",
+          "text": "30%"
+        },
+        {
+          "label": "C",
+          "text": "50%"
+        },
+        {
+          "label": "D",
+          "text": "40%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "50%",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Profit and Loss",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "When 1036 is divided by N, the remainder is 12 and when 1545 is divided by N, the remainder is 9. Find the greatest possible value of N.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "128"
+        },
+        {
+          "label": "B",
+          "text": "512"
+        },
+        {
+          "label": "C",
+          "text": "250"
+        },
+        {
+          "label": "D",
+          "text": "64"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "512",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Number Theory",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Five bells toll at regular intervals of 10, 15, 20, 25, and 30 seconds, respectively. If they toll together at 8:00 am, then at what time will they toll together for the first time after 8:00 am?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "8:04 am"
+        },
+        {
+          "label": "B",
+          "text": "8:06 am"
+        },
+        {
+          "label": "C",
+          "text": "8:05 am"
+        },
+        {
+          "label": "D",
+          "text": "8:07 am"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "8:05 am",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Number Theory",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Find the value of $\\frac{3}{\\sqrt{2}+\\sqrt{11}}+\\frac{3}{\\sqrt{5}+\\sqrt{8}}+\\frac{3}{\\sqrt{8}+\\sqrt{11}}+\\cdots+\\frac{3}{\\sqrt{26}+\\sqrt{29}}$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\sqrt{29}-\\sqrt{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\sqrt{26}+\\sqrt{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\sqrt{29}+\\sqrt{26}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\sqrt{26}-\\sqrt{8}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\sqrt{29}-\\sqrt{2}$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "If $a+b+c=0$, find the value of $(3a^8)^{\\frac{1}{a^6bc}}(3b^8)^{\\frac{1}{ab^6c}}(3c^8)^{\\frac{1}{abc^6}}$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "27"
+        },
+        {
+          "label": "D",
+          "text": "81"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "27",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Algebra",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "If $3^{x+3}-3^{x+2}=486$, then find $x$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "3",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Exponents",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "$\\log_p q=\\frac{5}{4},\\ \\log_r q=\\frac{5}{6}$ and $\\log_r p=3x$, then find $x$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{9}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{1}{18}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{2}{9}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\frac{2}{9}$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Logarithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "$\\frac{5}{1+\\log_p qr}+\\frac{5}{1+\\log_q pr}+\\frac{5}{1+\\log_r pq}=$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "5",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Logarithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "If $\\log_{10}2=0.3010$ then find the number of digits in $2^{55}$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "17"
+        },
+        {
+          "label": "B",
+          "text": "11"
+        },
+        {
+          "label": "C",
+          "text": "18"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "17",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Logarithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The maximum sum of the arithmetic progression 45, 41, 37, ... is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "256"
+        },
+        {
+          "label": "B",
+          "text": "274"
+        },
+        {
+          "label": "C",
+          "text": "276"
+        },
+        {
+          "label": "D",
+          "text": "264"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "276",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Sequences and Series",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The greatest value of $n$ such that $1+3+3^2+3^3+\\cdots+3^n$, which is less than 3000 will be:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "7",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Sequences and Series",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "$3+33+333+\\cdots+$ upto $n$ terms =",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{10^n-1}{3}-n$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{10(10^n-1)}{27}-n$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{10^n-1}{3}-\\frac{n}{9}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{10(10^n-1)}{27}-\\frac{n}{3}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\frac{10(10^n-1)}{27}-\\frac{n}{3}$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Sequences and Series",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "What is the minimum value of the function $f(x)=x^2-15x+9$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{289}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$-\\frac{200}{9}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{295}{2}$"
+        },
+        {
+          "label": "D",
+          "text": "$-\\frac{189}{4}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$-\\frac{189}{4}$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Quadratic Equations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_1.pdf",
+      "direction": "Direction for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Find the area of the shaded region, where PQR is a triangle and QRS is a quadrant. PQ = 6 cm and QR = 8 cm.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$4\\pi-8$ sq. cm."
+        },
+        {
+          "label": "B",
+          "text": "$2\\pi-3$ sq. cm."
+        },
+        {
+          "label": "C",
+          "text": "$8\\pi-16$ sq. cm."
+        },
+        {
+          "label": "D",
+          "text": "$16\\pi-24$ sq. cm."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_1/quantitative_ability_1-q030-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$16\\pi-24$ sq. cm.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Geometry",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  }
+]

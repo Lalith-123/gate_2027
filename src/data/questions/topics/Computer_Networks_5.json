@@ -1,0 +1,1505 @@
+[
+  {
+    "id": "gate-computer-networks-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following IP address belongs to class A network?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "130. 140. 180. 210"
+        },
+        {
+          "label": "B",
+          "text": "127. 190. 120. 191"
+        },
+        {
+          "label": "C",
+          "text": "125. 150. 160. 189"
+        },
+        {
+          "label": "D",
+          "text": "132. 131. 139. 134"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "125. 150. 160. 189",
+      "explanation": "Class A IP address range is 1–126 is in the first octet. In the given options, option (C) has the 125 in the first octet. So, 125.150.160, belongs to class A network.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "IP addressing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What will be the destination address if host A with IP address 156.180.190.16 wants to send data to all the members in network with network ID 19?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "255.255.255.255"
+        },
+        {
+          "label": "B",
+          "text": "19.255.255.255"
+        },
+        {
+          "label": "C",
+          "text": "156.19.255.255"
+        },
+        {
+          "label": "D",
+          "text": "156.180.255.255"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "19.255.255.255",
+      "explanation": "Direct Broadcasting address for the network ID 19 will be 19.255.255.255. Direct Broadcasting address in the same network is 255.255.255.255.             Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "IP addressing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following work stations does not implement network layer?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Switch"
+        },
+        {
+          "label": "B",
+          "text": "Brouter"
+        },
+        {
+          "label": "C",
+          "text": "Gate way"
+        },
+        {
+          "label": "D",
+          "text": "Router"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Switch",
+      "explanation": "Switch has only two layers, i.e. Physical layer and data link layer.                                  Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Networking devices",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "_____ layer responds when packet gets discarded due to its TTL (when TTL becomes 0)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Application layer"
+        },
+        {
+          "label": "B",
+          "text": "Transport layer"
+        },
+        {
+          "label": "C",
+          "text": "Network layer"
+        },
+        {
+          "label": "D",
+          "text": "Physical layer"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Network layer",
+      "explanation": "When packet gets discarded with TTL = 0, then the network layer sends the message to source, so that it can choose another route.                        Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network layer",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following algorithm is not related to private key cryptography?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "DES"
+        },
+        {
+          "label": "B",
+          "text": "RSA"
+        },
+        {
+          "label": "C",
+          "text": "AES"
+        },
+        {
+          "label": "D",
+          "text": "IDEA"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "RSA",
+      "explanation": "RSA is public key cryptography.            Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Cryptography",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What is the minimum positive integer ‘p’ such that 3^p mod 17 = 1?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "16",
+      "explanation": "3^16 mod 17 = 1.                              Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Cryptography / modular arithmetic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "X. 21 is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "a method of determining which device has access to the transmission medium at any time"
+        },
+        {
+          "label": "B",
+          "text": "a method for access control techniques for multiple access transmission media"
+        },
+        {
+          "label": "C",
+          "text": "a very common bit oriented data link protocol"
+        },
+        {
+          "label": "D",
+          "text": "a network access standard for connecting stations to a circuit switched networks"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "a network access standard for connecting stations to a circuit switched networks",
+      "explanation": "X.21 is a network access standard for connecting stations to a circuit switched networks.      Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data communication standards",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The network topology that supports bi-directional links between each possible node is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "ring"
+        },
+        {
+          "label": "B",
+          "text": "star"
+        },
+        {
+          "label": "C",
+          "text": "tree"
+        },
+        {
+          "label": "D",
+          "text": "mesh"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "mesh",
+      "explanation": "In mesh topology, each node is connected to the other nodes with a link, so in Mesh topology it support bidirectional links. Mostly, Mesh topology is used in Internet.                                  Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network topology",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Match the following:\n\nColumn–I: (a) Logical addressing system; (b) Physical addressing system; (c) Port addressing system.\nColumn–II: (i) 16 bit; (ii) 32 bit; (iii) 48 bit",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "a–(i) b–(ii) c–(iii)"
+        },
+        {
+          "label": "B",
+          "text": "a–(ii), b–(i), c–(iii)"
+        },
+        {
+          "label": "C",
+          "text": "a–(ii), b–(iii), c–(i)"
+        },
+        {
+          "label": "D",
+          "text": "a–(iii), b–(i), c–(ii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Networks_5/computer_networks_5-q009-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "a–(ii), b–(iii), c–(i)",
+      "explanation": "Logical addressing system (IP address) takes a 32-bits. Physical addressing system takes 48-bits. Part addressing system takes 16-bits.\n\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Addressing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "In TCP the flags syn = 0 and ack = 1 indicates:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "open connection packet"
+        },
+        {
+          "label": "B",
+          "text": "open connection ack"
+        },
+        {
+          "label": "C",
+          "text": "data packet"
+        },
+        {
+          "label": "D",
+          "text": "reply packet"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "data packet",
+      "explanation": "When SYN = 0 and ACK = 1, it indicates the data packet in TCP.                                Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "TCP",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "A user ‘A’ got an email containing multi media (requires high band width) if the band width is limited then:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "user can open the mail using SMTP"
+        },
+        {
+          "label": "B",
+          "text": "user can download the message using the POP3"
+        },
+        {
+          "label": "C",
+          "text": "user can partially download email using IMAP4"
+        },
+        {
+          "label": "D",
+          "text": "user cannot open (or) download the email"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "user can partially download email using IMAP4",
+      "explanation": "User can download partially using IMAP4 protocol, when the network bandwidth is low.            Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Application layer / email protocols",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "MIME supports",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Text in character sets other than ASCII"
+        },
+        {
+          "label": "B",
+          "text": "Non text attachments"
+        },
+        {
+          "label": "C",
+          "text": "Message bodies with multiple parts"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": "MIME is used for the message having Multimedia objects.                                      Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Application layer / MIME",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "For a link having bandwidth 10 Mbps, calculate the time to wrap the sequence numbers of TCP? (approximate value)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3436 minutes"
+        },
+        {
+          "label": "B",
+          "text": "100 seconds"
+        },
+        {
+          "label": "C",
+          "text": "57 minutes"
+        },
+        {
+          "label": "D",
+          "text": "10 minutes"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "57 minutes",
+      "explanation": "TCP uses 32-bit sequence number, we have $2^{32}$ distinct numbers\\nWarp around time\\n\\n$= \\frac{2^{32} \\times 8}{10 \\times 10^6}$\\n\\n$= 57$ minutes (approximately)\\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "TCP sequence numbers",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Sender’s window size in TCP is determined by\n(i) Receiver window size\n(ii) Congestion window size",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both (i) and (ii)"
+        },
+        {
+          "label": "B",
+          "text": "Only (i)"
+        },
+        {
+          "label": "C",
+          "text": "Only (ii)"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Both (i) and (ii)",
+      "explanation": "Sender’s window size is determined by using Receiver window size and congestion window size. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "TCP flow and congestion control",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the connection establishment in TCP using 3 way handshaking",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "seq = arbitrary number ack = 16001"
+        },
+        {
+          "label": "B",
+          "text": "seq = 4000 ack = arbitrary number"
+        },
+        {
+          "label": "C",
+          "text": "seq = 4000 ack = 16001"
+        },
+        {
+          "label": "D",
+          "text": "seq = 4001 ack = 16002"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Networks_5/computer_networks_5-q015-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "seq = 4000 ack = 16001",
+      "explanation": "As the cluent received reply with sequence number 16000, it sends the ACK with sequence number 16001 and as it is not sending any data packet it sends with same sequence number. i.e. sent in request i.e. 4000.               Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "TCP connection establishment",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following can be used for only source IP in a packet header?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10.1.1.1"
+        },
+        {
+          "label": "B",
+          "text": "0.0.0.0"
+        },
+        {
+          "label": "C",
+          "text": "0.1.1.1"
+        },
+        {
+          "label": "D",
+          "text": "127.1.1.1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "0.0.0.0",
+      "explanation": "0.0.0.0 Address can be used as only source address in DHCP.                                         Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "IP addressing / DHCP",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If WAN link is 2 Mbps and round trip time between source and destination is 300 m sec, what would be the optional TCP window size needed to fully utilize the line?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "60,000 bits"
+        },
+        {
+          "label": "B",
+          "text": "75,000 bytes"
+        },
+        {
+          "label": "C",
+          "text": "75,000 bits"
+        },
+        {
+          "label": "D",
+          "text": "60,000 bytes"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "75,000 bytes",
+      "explanation": "In one sec we can send $2 \\times 10^6$ bits\\nIn $300 \\times 10^{-3}$ sec we can send\\n\\n$= 300 \\times 10^{-3} \\times 2 \\times 10^6$ bits\\n$= 600 \\times 10^3$ bits\\n$= 6,00,000$ bits (or) 75000 bytes.\\n                                                  Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "TCP flow control",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Device A IP address is 172.16.17.30/20 Device B IP address is 172.16.28.15/20, which one of the following statement is correct?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both devices are in the same subnet"
+        },
+        {
+          "label": "B",
+          "text": "Devices are in different subnets"
+        },
+        {
+          "label": "C",
+          "text": "Variable length subnet mask is used in the network"
+        },
+        {
+          "label": "D",
+          "text": "Insufficient data"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Both devices are in the same subnet",
+      "explanation": "Subnet mask for devices will be 255.255.240.0 as it has borrowed 4 bits from host ID, if AND operation is performed between subnet mask and IP address, then the result for both will be 172.16.16.0.          Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Subnetting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If the IP address is 130.45.34.56 and subnet mask is 255.255.240.0, then what is the subnet address?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "130.45.0.0"
+        },
+        {
+          "label": "B",
+          "text": "130.45.34.0"
+        },
+        {
+          "label": "C",
+          "text": "130.45.32.0"
+        },
+        {
+          "label": "D",
+          "text": "130.45.32.56"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "130.45.32.0",
+      "explanation": "If we perform AND operation between IP and mask we will get subnetwork address\\nIP = 10000010.00101101.0010000.00111000\\nSubnet mask\\n11111111.11111111.11110000.00000000\\n___________________________________.\\n130 . 45 . 32 .0.                             Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Subnetting / subnet address",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If the IP address is 196.196.64.170 and subset mask is 255.255.255.240, what is the broadcasting address to the subnet?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "196.196.64.255"
+        },
+        {
+          "label": "B",
+          "text": "255.255.255.255"
+        },
+        {
+          "label": "C",
+          "text": "196.196.240.170"
+        },
+        {
+          "label": "D",
+          "text": "196.196.64.175"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "196.196.64.175",
+      "explanation": "Subnet mask = 255.255.255.240\\n11111111.11111111.11111111.11110000\\n\\nIP = 196.196.64.10101010\\nFrom the above we can identify that if IP belongs to the subnet whose id is 160 with host as 10\\nThe broadcast address will be196.196.64.175.\\n                                                  Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Subnetting / broadcast address",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following Networks 206.82.2.0, 206.82.3.0, 206.82.4.0 and 206.82.5.0; the Super net mask will be:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "255.255.252.0"
+        },
+        {
+          "label": "B",
+          "text": "255.255.244.0"
+        },
+        {
+          "label": "C",
+          "text": "255.255.255.82"
+        },
+        {
+          "label": "D",
+          "text": "206.82.1.0/22"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "255.255.244.0",
+      "explanation": "the IP addresses are:\\n206.82.00000010.0\\n206.82.0000000.11.0\\n206.82.00000100.0\\n206.82.00000101.0\\nThe super net mask is 255.255.244.0           Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Supernetting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the sub net mask of IP address 255.0.0.0 to which class of IP address this super net mask belongs to?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "class A"
+        },
+        {
+          "label": "B",
+          "text": "class B"
+        },
+        {
+          "label": "C",
+          "text": "class C"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "class B",
+      "explanation": "255.0.0.0 can be a subnet for class A, supernet for class B and class C.                                  Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Classful addressing / supernetting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Linked Answer Questions 23 and 24: RSA algorithm is used by choosing two prime number p = 3, q = 11.",
+      "text": "What are the encryption and decryption keys?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3, 7"
+        },
+        {
+          "label": "B",
+          "text": "2, 6"
+        },
+        {
+          "label": "C",
+          "text": "5, 7"
+        },
+        {
+          "label": "D",
+          "text": "8, 12"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "3, 7",
+      "explanation": "(A) p = 3 q = 11\n\nn = p × q = 33\n\nz = (p – 1) (q – 1) = 20\n\ngcd (d, z) = 1\ngcd (d, 20) = 1\n∴ d = 7\n(e × 7) mod 20 = 1\n∴ e = 3.                        Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "RSA cryptography",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Linked Answer Questions 23 and 24: RSA algorithm is used by choosing two prime number p = 3, q = 11.",
+      "text": "What will be the encrypted message for GATE (if A = 1, B = 2)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1311426"
+        },
+        {
+          "label": "B",
+          "text": "2416513"
+        },
+        {
+          "label": "C",
+          "text": "10134261"
+        },
+        {
+          "label": "D",
+          "text": "1421331"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1311426",
+      "explanation": "G A T E\n7 1 20 5\nEncrypted message\n\n$= 7^3$ mod 33 = 13\n$1^3$ mod 33 = 1\n$20^3$ mod 33 = 14\n$5^3$ mod 33 = 26\nMessage is = 1311426.                         Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "RSA cryptography",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is TRUE for authentication and key management among two parties?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 hand shake is necessary for the authentication with each handshake done with private key cryptography"
+        },
+        {
+          "label": "B",
+          "text": "3 handshake is necessary for the authentication and key management with each hand shake, done with public key cryptography"
+        },
+        {
+          "label": "C",
+          "text": "3 hand shake is necessary for the authentication and key management with 2 hand shakes one with public key cryptography and one with private key cryptography"
+        },
+        {
+          "label": "D",
+          "text": "3 hand shake is necessary for the authentication and key management with handshake as public key cryptography and 2 handshakes as private key cryptography"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "3 hand shake is necessary for the authentication and key management with 2 hand shakes one with public key cryptography and one with private key cryptography",
+      "explanation": "$E_{K_{uB}}(A,R_A)$\n$E_{K_{uK}}(A,R_A)$\n$E_{K_{uA}}(R_A,R_B,K_S)$\n$E_{K_S}(R_B)$\n\n$R_A$ = random number generated by $A$\n$R_B$ = random number generated by $B$\n$K_S$ = session key\nThe first two handshakes are public key cryptography and last one is private key cryptography. Choice (C)",
+      "status": "confirmed",
+      "image": "images/Computer_Networks_5/computer_networks_5-q025-explanation.png"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Authentication and key management",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

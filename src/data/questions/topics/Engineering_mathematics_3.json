@@ -1,0 +1,1478 @@
+[
+  {
+    "id": "gate-engineering-mathematics-test-2-q001",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The directional derivative of $f(x,y)=x^3y^2+3xy$ at $(1,2)$ in the direction of unit vector which makes an angle of $\\frac{\\pi}{4}$ with the $x$-axis is ________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$16\\sqrt{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$8\\sqrt{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{15}{\\sqrt{2}}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{25}{\\sqrt{2}}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\frac{25}{\\sqrt{2}}$",
+      "explanation": "Given $f(x,y,z)=x^3y^2+3xy$. $\\nabla f=(3x^2y^2+3y)\\mathbf i+(2x^3y+3x)\\mathbf j$. At $(1,2)$, $(\\nabla f)(1,2)=18\\mathbf i+7\\mathbf j$. The unit vector making an angle $\\frac{\\pi}{4}$ with the $x$-axis is $\\mathbf b=\\cos\\frac{\\pi}{4}\\mathbf i+\\sin\\frac{\\pi}{4}\\mathbf j=\\frac{\\mathbf i+\\mathbf j}{\\sqrt2}$. Therefore the directional derivative is $(18\\mathbf i+7\\mathbf j)\\cdot\\frac{\\mathbf i+\\mathbf j}{\\sqrt2}=\\frac{25}{\\sqrt2}$. Choice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q002",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If the vector $e^{px-y-z}(\\mathbf i+\\mathbf j+\\mathbf k)$ is solenoidal, then the value of $p$ is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$-3$"
+        },
+        {
+          "label": "B",
+          "text": "$3$"
+        },
+        {
+          "label": "C",
+          "text": "$-2$"
+        },
+        {
+          "label": "D",
+          "text": "$2$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$2$",
+      "explanation": "Given $\\mathbf V=e^{px-y-z}(\\mathbf i+\\mathbf j+\\mathbf k)$ is solenoidal. We know that if $\\mathbf V$ is solenoidal, $\\operatorname{div}\\mathbf V=0$. Thus $\\frac{\\partial V_1}{\\partial x}+\\frac{\\partial V_2}{\\partial y}+\\frac{\\partial V_3}{\\partial z}=0$, giving $e^{px-y-z}(p-1-1)=0$. Hence $p=2$. Choice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q003",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "Evaluate $\\displaystyle\\int_C (x^2+3yz)\\,ds$ where $C$ is the curve defined by $x=6y$, $z=4$ from $\\left(3,\\frac12,4\\right)$ to $(6,1,4)$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$15\\sqrt{37}$"
+        },
+        {
+          "label": "B",
+          "text": "$2\\sqrt{37}$"
+        },
+        {
+          "label": "C",
+          "text": "$199$"
+        },
+        {
+          "label": "D",
+          "text": "$37\\sqrt{33}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$15\\sqrt{37}$",
+      "explanation": "Let $x=t$, $y=\\frac t6$, $z=4$ and $3\\le t\\le6$. Then $ds=\\sqrt{(dx/dt)^2+(dy/dt)^2}\\,dt=\\frac{\\sqrt{37}}6dt$. Substituting and integrating from $3$ to $6$ gives $15\\sqrt{37}$. Choice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q004",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The unit normal vector to the surface $xy^3+3yz=3$ at the point $(3,-1,-2)$ is ________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{-\\mathbf i-3\\mathbf j-3\\mathbf k}{\\sqrt{19}}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{-\\mathbf i+3\\mathbf j-3\\mathbf k}{\\sqrt{19}}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\mathbf i+3\\mathbf j-3\\mathbf k}{\\sqrt{19}}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{\\mathbf i-3\\mathbf j-3\\mathbf k}{\\sqrt{19}}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\frac{-\\mathbf i+3\\mathbf j-3\\mathbf k}{\\sqrt{19}}$",
+      "explanation": "Let $f(x,y,z)=xy^3+3yz-3$. The normal vector is $\\nabla f=y^3\\mathbf i+(3xy^2+3z)\\mathbf j+3y\\mathbf k$. At $(3,-1,-2)$, $\\nabla f=-\\mathbf i+3\\mathbf j-3\\mathbf k$. Therefore the unit normal vector is $\\frac{-\\mathbf i+3\\mathbf j-3\\mathbf k}{\\sqrt{19}}$. Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q005",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "Evaluate the integral $\\displaystyle\\int_C (yz+z+z^2)\\,dx+(xz-1)\\,dy+(xy+x+2xz)\\,dz$ from $(2,3,3)$ to $(3,4,5)$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "146"
+        },
+        {
+          "label": "B",
+          "text": "107"
+        },
+        {
+          "label": "C",
+          "text": "39"
+        },
+        {
+          "label": "D",
+          "text": "185"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "107",
+      "explanation": "The integral is independent of the path $C$ because it is an exact differential. A potential function is $\\phi=xyz+xz+xz^2-y+k$. Hence the required integral is $[xyz+xz+xz^2-y]_{(2,3,3)}^{(3,4,5)}=146-39=107$. Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q006",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "Evaluate the integral $\\displaystyle\\oint_C (x+2y)\\,dx+x^2y\\,dy$, $C$ is the triangle with vertices at $(0,0)$, $(3,0)$ and $(3,3)$ taken in that order.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$18$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{45}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{37}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$15$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\frac{45}{4}$",
+      "explanation": "By Green's theorem, $\\oint_C (x+2y)\\,dx+x^2y\\,dy=\\iint_R(2xy-2)\\,dx\\,dy$. Using the triangular region shown in the figure, $0\\le x\\le3$ and $0\\le y\\le x$. Therefore $\\int_0^3\\int_0^x(2xy-2)\\,dy\\,dx=\\frac{45}{4}$. Choice (B).",
+      "status": "confirmed",
+      "image": "images/Engineering_mathematics_3/gate-engineering-mathematics-test-2-q006-explanation-figure.png"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q007",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "Evaluate the surface integral $\\displaystyle\\iint_S \\mathbf F\\cdot\\hat n\\,dA$, where $\\mathbf F=z^2\\mathbf i+xy\\mathbf j+y^2\\mathbf k$ and $S$ is the portion of the surface of the cylinder $x^2+y^2=49$; $0\\le z\\le5$ included in first octant.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$518$"
+        },
+        {
+          "label": "B",
+          "text": "$2590$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{2590}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "$624$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\frac{2590}{3}$",
+      "explanation": "Let $f(x,y,z)=x^2+y^2-49$. Then $\\nabla f=2x\\mathbf i+2y\\mathbf j$ and $\\hat n=\\frac{1}{7}(x\\mathbf i+y\\mathbf j)$. Consider the projection of $S$ on the $yz$-plane, a rectangle with sides $7$ and $5$. Thus $dA=\\frac{dy\\,dz}{\\hat n\\cdot\\mathbf i}=\\frac{7}{x}dy\\,dz$. Hence $\\mathbf F\\cdot\\hat n=\\frac{xz^2+xy^2}{7}$ and the surface integral becomes $\\int_0^5\\int_0^7(z^2+y^2)\\,dy\\,dz=\\frac{2590}{3}$. Choice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q008",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $\\mathbf V=(2x-y)\\mathbf i-yz^2\\mathbf j-y^2z\\mathbf k$, then evaluate $\\displaystyle\\oint_C\\mathbf V\\cdot d\\mathbf r$ where $C$ is the curve bounding the projection on the hemisphere $x^2+y^2+z^2=9$, $z>0$, in the $xy$ plane.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$18\\pi$"
+        },
+        {
+          "label": "B",
+          "text": "$6\\pi$"
+        },
+        {
+          "label": "C",
+          "text": "$8\\pi$"
+        },
+        {
+          "label": "D",
+          "text": "$9\\pi$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$9\\pi$",
+      "explanation": "By Stokes' theorem, $\\oint_C\\mathbf V\\cdot d\\mathbf r=\\iint_S(\\nabla\\times\\mathbf V)\\cdot\\hat n\\,dA$. Here $\\nabla\\times\\mathbf V=\\mathbf k$. For $f=x^2+y^2+z^2-9$, $\\hat n=\\frac{x\\mathbf i+y\\mathbf j+z\\mathbf k}{3}$, so $(\\nabla\\times\\mathbf V)\\cdot\\hat n=z/3$. The projection is the circular region $x^2+y^2\\le9$, and using $dA=\\frac{z}{3}\\,dx\\,dy$ gives $\\iint_R dx\\,dy=9\\pi$. Choice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q009",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $\\mathbf r=2x\\mathbf i+3y\\mathbf j+z\\mathbf k$ and $V$ is the volume of the sphere $x^2+y^2+z^2=16$ then $\\displaystyle\\iint_S\\mathbf r\\cdot\\hat n\\,dA=$ _______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$38\\pi$"
+        },
+        {
+          "label": "B",
+          "text": "$512\\pi$"
+        },
+        {
+          "label": "C",
+          "text": "$438\\pi$"
+        },
+        {
+          "label": "D",
+          "text": "$348\\pi$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$512\\pi$",
+      "explanation": "By the divergence theorem, $\\iint_S\\mathbf r\\cdot\\hat n\\,dA=\\iiint_V\\operatorname{div}\\mathbf r\\,dV$. Since $\\operatorname{div}\\mathbf r=2+3+1=6$ and the sphere has radius $4$, the volume is $\\frac43\\pi(4)^3$. Hence the integral is $6\\times\\frac43\\pi(4)^3=512\\pi$. Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q010",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The work done by the force $\\mathbf F=2xy\\mathbf i+y^2\\mathbf j+z\\mathbf k$ in moving a particle over the circular path $x^2+y^2=9$, $z=0$ from $(3,0,0)$ to $(0,3,0)$ is ________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$17$"
+        },
+        {
+          "label": "B",
+          "text": "$-12$"
+        },
+        {
+          "label": "C",
+          "text": "$-9$"
+        },
+        {
+          "label": "D",
+          "text": "$6$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$-9$",
+      "explanation": "Put $x=3\\cos t$, $y=3\\sin t$, $z=0$, with $0\\le t\\le\\frac\\pi2$. Then $dx=-3\\sin t\\,dt$, $dy=3\\cos t\\,dt$. Therefore $\\int_C\\mathbf F\\cdot d\\mathbf r=-\\int_0^{\\pi/2}27\\sin^2t\\cos t\\,dt=-9$. Choice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q011",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The solution of $3(x\\,dy+y\\,dx)=2xy\\,dy$ when $x=1$, $y=1$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$3\\log(xy)-2y+2=0$"
+        },
+        {
+          "label": "B",
+          "text": "$\\log(xy)+y-2=0$"
+        },
+        {
+          "label": "C",
+          "text": "$\\log x+\\log y+2=0$"
+        },
+        {
+          "label": "D",
+          "text": "$\\log(xy)-5y+2=0$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$3\\log(xy)-2y+2=0$",
+      "explanation": "Rearranging, $x(3-2y)dy+3y\\,dx=0$. Thus $\\left(\\frac3y-2\\right)dy+3\\frac{dx}{x}=0$. Integrating gives $3\\log(xy)-2y=\\log C$. With $x=1,y=1$, $\\log C=-2$. Hence $3\\log(xy)-2y+2=0$. Choice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q012",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "Solve $dy=(9x+y-1)^2dx$ when $x=0$, $y=1$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$3\\tan x=3x+y-1$"
+        },
+        {
+          "label": "B",
+          "text": "$3\\tan(3x)=9x+y-1$"
+        },
+        {
+          "label": "C",
+          "text": "$\\tan x=9x+y-1$"
+        },
+        {
+          "label": "D",
+          "text": "$3\\tan3x=9x-y+1$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$3\\tan(3x)=9x+y-1$",
+      "explanation": "Let $9x+y-1=u$. Then $du/dx-9=u^2$, so $du/(u^2+9)=dx$. Integrating, $3\\tan^{-1}(u/3)=x+c$. Using $x=0,y=1$ gives $c=0$. Hence $3\\tan(3x)=9x+y-1$. Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q013",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The solution of the differential equation $\\displaystyle\\frac{x\\,dy-y\\,dx}{x}=\\cos^2\\left(\\frac yx\\right)dx$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\tan\\left(\\frac yx\\right)=\\log(cx)$"
+        },
+        {
+          "label": "B",
+          "text": "$\\tan\\left(\\frac yx\\right)=x+c$"
+        },
+        {
+          "label": "C",
+          "text": "$\\tan^{-1}\\left(\\frac yx\\right)=\\log(cx)$"
+        },
+        {
+          "label": "D",
+          "text": "$\\tan\\left(\\frac xy\\right)=\\log x+c$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\tan\\left(\\frac yx\\right)=\\log(cx)$",
+      "explanation": "Dividing by $x\\cos^2(y/x)$ gives $\\left(\\frac{x\\,dy-y\\,dx}{x^2}\\right)\\sec^2(y/x)=dx/x$. Thus $d[\\tan(y/x)]=d(\\log x)$. Integrating gives $\\tan(y/x)=\\log x+\\log c=\\log(cx)$. Choice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q014",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The integrating factor of $\\displaystyle\\frac{dy}{dx}-y\\tan x-\\cos x=0$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\cos x$"
+        },
+        {
+          "label": "B",
+          "text": "$\\sin x$"
+        },
+        {
+          "label": "C",
+          "text": "$\\sec x$"
+        },
+        {
+          "label": "D",
+          "text": "$\\cosec x$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\cos x$",
+      "explanation": "Rewrite as $\\frac{dy}{dx}-y\\tan x=\\cos x$, which is of the form $\\frac{dy}{dx}+Py=Q$. The integrating factor is $e^{\\int Pdx}=e^{-\\int\\tan x\\,dx}=e^{\\log\\cos x}=\\cos x$. Choice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q015",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "Solve the differential equation $\\displaystyle\\frac{dy}{dx}=\\frac{x^2+y^2}{2xy}$ with the boundary conditions $x=1$, $y=1$.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x^2+y^2=3$"
+        },
+        {
+          "label": "B",
+          "text": "$x^2-y^2=0$"
+        },
+        {
+          "label": "C",
+          "text": "$x-y=2$"
+        },
+        {
+          "label": "D",
+          "text": "$x^2+y^2=2$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$x^2-y^2=0$",
+      "explanation": "Write $(x^2+y^2)dx-2xy\\,dy=0$. Here $M=x^2+y^2$ and $N=-2xy$. The integrating factor is $x^{-2}$. Multiplying gives $\\left(1+\\frac{y^2}{x^2}\\right)dx-\\frac{2y}{x}dy=0$. Integrating gives $x-\\frac{y^2}{x}=C$. With $x=1,y=1$, $C=0$. Hence $x^2-y^2=0$. Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q016",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The solution of the differential equation $y\\,dx=(x+3y^3)\\,dy$ when $x=1$, $y=1$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x=3y^2-1$"
+        },
+        {
+          "label": "B",
+          "text": "$3x=y(2y^2-1)$"
+        },
+        {
+          "label": "C",
+          "text": "$2x=y(3y^2+1)$"
+        },
+        {
+          "label": "D",
+          "text": "$2x=y(3y^2-1)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$2x=y(3y^2-1)$",
+      "explanation": "From $y\\,dx=(x+3y^3)dy$, $dx/dy-x/y=3y^2$. This is a linear equation in $x$ with integrating factor $1/y$. Hence $x/y=\\frac32y^2+C$. Using $x=1,y=1$ gives $C=-\\frac12$. Therefore $\\frac{x}{y}=\\frac32y^2-\\frac12$, or $2x=y(3y^2-1)$. Choice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q017",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The particular integral solution of the differential equation $\\displaystyle\\frac{d^3y}{dx^3}-5\\frac{d^2y}{dx^2}+7\\frac{dy}{dx}-3y=e^{4x}\\sinh x$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac18[e^{5x}-2e^{3x}]$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac1{16}[e^{3x}-xe^{-5x}]$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac1{64}[e^{5x}-8e^{3x}]$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac14[xe^{5x}-2e^{3x}]$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\frac1{64}[e^{5x}-8e^{3x}]$",
+      "explanation": "Since $e^{4x}\\sinh x=\\frac{e^{5x}-e^{3x}}2$, the differential equation is $(D^3-5D^2+7D-3)y=\\frac{e^{5x}-e^{3x}}2$. The particular integral is evaluated separately for $e^{5x}$ and $e^{3x}$, giving $\\frac1{64}[e^{5x}-8e^{3x}]$. Choice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q018",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The solution of the differential equation $(D^3+5D^2)y=4$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$y=C_1+C_2e^{-5x}+\\frac15x^2$"
+        },
+        {
+          "label": "B",
+          "text": "$y=C_1+C_2x+C_3e^{-5x}+\\frac25x^2$"
+        },
+        {
+          "label": "C",
+          "text": "$y=(C_1+C_2x)e^{5x}+\\frac25x^2$"
+        },
+        {
+          "label": "D",
+          "text": "$y=(C_1+C_2x)e^x+\\frac25x^2+e^{5x}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$y=C_1+C_2x+C_3e^{-5x}+\\frac25x^2$",
+      "explanation": "The auxiliary equation is $m^3+5m^2=0$, i.e. $m^2(m+5)=0$, giving roots $0,0,-5$. Thus the complementary function is $(C_1+C_2x)+C_3e^{-5x}$. The particular integral is $\\frac25x^2$. Hence $y=C_1+C_2x+C_3e^{-5x}+\\frac25x^2$. Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q019",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The particular integral of the differential equation given by $(D^2-2D+4)y=x^2e^x$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac19e^x(3x^2-2)$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac16e^x(2x^2-3)$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac18e^x(3x^2-1)$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac13e^x(2x^2-3)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\frac19e^x(3x^2-2)$",
+      "explanation": "For the particular integral, $PI=\\frac{e^x x^2}{(D^2-2D+4)}=e^x\\frac{x^2}{D^2+3}$. Expanding the inverse operator gives $\\frac{e^x}{3}\\left(x^2-\\frac23\\right)=\\frac19e^x(3x^2-2)$. Choice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q020",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The solution of the differential equation $(D^4+D^2+36D+52)y=0$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$y=(C_1+C_2x)e^{-2x}+(C_3+C_4x)e^{2x}$"
+        },
+        {
+          "label": "B",
+          "text": "$y=(C_1+C_2x+C_3\\cos3x+C_4\\sin3x)e^{2x}$"
+        },
+        {
+          "label": "C",
+          "text": "$y=(C_1+C_2x+(C_3\\cos3x+C_4\\sin3x)e^{-2x}$"
+        },
+        {
+          "label": "D",
+          "text": "$y=(C_1+C_2x)e^{-2x}+(C_3\\cos3x+C_4\\sin3x)e^{2x}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$y=(C_1+C_2x)e^{-2x}+(C_3\\cos3x+C_4\\sin3x)e^{2x}$",
+      "explanation": "The auxiliary equation is $m^4+m^2+36m+52=0$. The roots are $m=-2,-2,2\\pm3i$. Therefore the solution is $y=(C_1+C_2x)e^{-2x}+e^{2x}(C_3\\cos3x+C_4\\sin3x)$. Choice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q021",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The Laplace Transform of the function $f(t)=t^2\\sin3t$, $t>0$ is _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{s^2-2s+9}{(s^2+9)^3}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{18(s^2-3)}{(s^2+9)^3}$"
+        },
+        {
+          "label": "C",
+          "text": "$-\\frac{s^2-2s+9}{(s^2+9)^3}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{6(s^2-2s+9)}{(s^2+9)^3}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\frac{18(s^2-3)}{(s^2+9)^3}$",
+      "explanation": "Let $g(t)=\\sin3t$, so $f(t)=t^2g(t)$. Since $L[g(t)]=\\frac{3}{s^2+9}$, use $L[t^2g(t)]=\\frac{d^2}{ds^2}L[g(t)]$. Differentiating twice gives $\\frac{18(s^2-3)}{(s^2+9)^3}$. Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q022",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "If $u(t-a)$ denotes the unit step function, then the Laplace Transform of $(t^2+3)u(t-2)$ is _______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\left(\\frac{2}{s^3}+\\frac{4}{s^2}+\\frac{7}{s}\\right)e^{-2s}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\left(\\frac{2}{s^3}+\\frac{3}{s}\\right)e^{-2s}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\left(\\frac{2}{s^2}+3\\right)e^{-2s}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\left(\\frac{1}{s^3}+\\frac{4}{s^2}+\\frac{7}{s}\\right)e^{-2s}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\left(\\frac{2}{s^3}+\\frac{4}{s^2}+\\frac{7}{s}\\right)e^{-2s}$",
+      "explanation": "Write $t^2+3=(t-2)^2+4(t-2)+7$. Therefore the function is $[(t-2)^2+4(t-2)+7]u(t-2)$. Let $g(t)=t^2+4t+7$, so $L[g(t)]=\\frac{2}{s^3}+\\frac{4}{s^2}+\\frac7s$. By the second shifting theorem, $L[g(t-2)u(t-2)]=e^{-2s}L[g(t)]$. Hence the required transform is $\\left(\\frac2{s^3}+\\frac4{s^2}+\\frac7s\\right)e^{-2s}$. Choice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q023",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The Laplace Transform of solution of the initial value problem $\\frac{d^2y}{dt^2}-2\\frac{dy}{dt}-8y=0$, $y(0)=1$ and $y'(0)=-2$ will be ____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{(s-4)(s+2)}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{1}{s-4}$"
+        },
+        {
+          "label": "C",
+          "text": "$-\\frac{1}{(s-4)(s+2)}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{1}{s+2}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\frac{1}{s+2}$",
+      "explanation": "Applying the Laplace transform gives $(s^2-2s-8)Y=s-4$. Since $s^2-2s-8=(s-4)(s+2)$, $Y=\\frac{s-4}{(s-4)(s+2)}=\\frac1{s+2}$. Choice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q024",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The inverse Laplace Transform of $\\displaystyle\\frac32\\left[\\frac{1}{\\sqrt{s^5}}-\\frac{1}{s^3}\\right]$ is _______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\sqrt{\\frac{t}{\\pi}}(2t-3)$"
+        },
+        {
+          "label": "B",
+          "text": "$\\sqrt{\\frac{t}{\\pi}}(4t-3)$"
+        },
+        {
+          "label": "C",
+          "text": "$\\sqrt{\\frac{\\pi}{t}}(2t+3)$"
+        },
+        {
+          "label": "D",
+          "text": "$\\sqrt{\\frac{\\pi}{t}}(4t+3)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\sqrt{\\frac{t}{\\pi}}(2t-3)$",
+      "explanation": "We have $L^{-1}\\left[\\frac32\\left(\\frac1{s^{5/2}}-\\frac1{s^{3/2}}\\right)\\right]$. Using $L^{-1}(s^{-\\alpha})=\\frac{t^{\\alpha-1}}{\\Gamma(\\alpha)}$, this becomes $\\frac{\\sqrt{t}}{\\sqrt\\pi}(2t-3)$. Thus the answer is $\\sqrt{\\frac{t}{\\pi}}(2t-3)$. Choice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-2-q025",
+    "pdfName": "Engineering_mathematics_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "text": "The inverse Laplace Transform of $\\displaystyle\\frac{4(2s+3)}{s^2+4s+20}$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$e^{2t}[2\\cos4t-\\sin4t]$"
+        },
+        {
+          "label": "B",
+          "text": "$e^{2t}[2\\sin4t-\\cos4t]$"
+        },
+        {
+          "label": "C",
+          "text": "$e^{-2t}[2\\cos4t-\\sin4t]$"
+        },
+        {
+          "label": "D",
+          "text": "$e^{-2t}[2\\sin4t-\\cos4t]$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$e^{-2t}[2\\cos4t-\\sin4t]$",
+      "explanation": "Complete the square: $s^2+4s+20=(s+2)^2+16$. Also $2s+3=2(s+2)-1$. Hence the inverse transform is $4L^{-1}\\left[\\frac{2(s+2)}{(s+2)^2+4^2}\\right]-4L^{-1}\\left[\\frac1{(s+2)^2+4^2}\\right]=e^{-2t}[2\\cos4t-\\sin4t]$. Choice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Ordinary Differential Equations, Calculus (Vector Calculus)",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

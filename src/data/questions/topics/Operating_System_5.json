@@ -1,0 +1,1515 @@
+[
+  {
+    "id": "gate-operating-system-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Suppose that, the time to service a page fault is 10 sec on average, memory access time is 1 m sec. If a page fault occurs for every 10000 references, what is the average memory access time?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1.9999 m sec"
+        },
+        {
+          "label": "B",
+          "text": "1 m sec"
+        },
+        {
+          "label": "C",
+          "text": "9.999 m sec"
+        },
+        {
+          "label": "D",
+          "text": "1.9999 µ sec"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1.9999 m sec",
+      "explanation": "EAT = H*MAT + (1 – H)*(P.F.T)\nH = 0.9999 (1 page fault for every 10000)\nMAT = 1 m sec\nP.F.T = 10 sec\nEAT = 0.9999 * 1 m sec + (0.0001)* 10 sec.\n= 0.9999 + 1 m sec\n= 1.9999 m sec                            Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Demand paging",
+      "subtopic": "effective access time",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If an instruction takes ‘n’ micro seconds and page fault takes an additional ‘m’ micro seconds. If the average page fault occurs for every ‘k’ instructions, then effective access time is ____. ",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(n + m)/k"
+        },
+        {
+          "label": "B",
+          "text": "m + n/k"
+        },
+        {
+          "label": "C",
+          "text": "n + m/k"
+        },
+        {
+          "label": "D",
+          "text": "n + m * k"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "n + m/k",
+      "explanation": "EAT = H * MAT + (1 – H)*(P.F.T + MAT)\n= ((k − 1)/k) × n + (1/k)(m + n)\n= n + m/k                                   Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Demand paging",
+      "subtopic": "effective access time",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The overlay tree of the program is shown below: What will be the minimum partition size required to execute the program?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "50K"
+        },
+        {
+          "label": "B",
+          "text": "11K"
+        },
+        {
+          "label": "C",
+          "text": "8K"
+        },
+        {
+          "label": "D",
+          "text": "20K"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_5/operating_system_5-q003-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "20K",
+      "explanation": "The maximum memory required when module M8 is under execution, which is 20K.     Choice (D)",
+      "status": "confirmed",
+      "image": "images/Operating_System_5/operating_system_5-q003-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Overlays",
+      "subtopic": "memory allocation",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Dirty bit for a page table _______. (i) helps to reduce number of page faults (ii) helps to reduce page fault penalty (iii) helps to avoid unnecessary writes on a paging device. Which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(i) (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(ii) (iii)"
+        },
+        {
+          "label": "D",
+          "text": "(i) (ii) and (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "(ii) (iii)",
+      "explanation": "Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Paging",
+      "subtopic": "dirty bit",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "A 2000 KB memory is managed using variable partitions but with no compaction. If, there exists two free partitions with sizes 400 KB and 250 KB. The smallest allocation request that could be denied is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "225K"
+        },
+        {
+          "label": "B",
+          "text": "375K"
+        },
+        {
+          "label": "C",
+          "text": "425K"
+        },
+        {
+          "label": "D",
+          "text": "650K"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "425K",
+      "explanation": "Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Memory allocation",
+      "subtopic": "fragmentation",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The address sequence generated during the execution of a program is given below: 681 351 357 421 499 099 118 129 654 454. There exists only one free frame, with the size 100 records per frame. If pure demand paging is used, what is the number of page faults?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "7",
+      "explanation": "681 351 357 421 499 019 118 129 654 454\nPF PF PH PF PH PF PF PH PF PF\nPF → Page Fault, PH → Page Hit\nNumber of PFs = 7              Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Demand paging",
+      "subtopic": "page faults",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following heap. The hatched regions are not free. The sequence of requests for the blocks of size 250, 25, 75, 50 can be satisfied if we use: (i) First fit (ii) Best fit (iii) Worst fit",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii) (iii)"
+        },
+        {
+          "label": "C",
+          "text": "(i) (iii)"
+        },
+        {
+          "label": "D",
+          "text": "(i) (ii) and (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_5/operating_system_5-q007-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "(i) (iii)",
+      "explanation": "First Fit:\n25, 75, 250, 50\nBest Fit:\n75, 25, 250, 25, 25; 50 cannot be allocated.\nWorst Fit:\n25, 250, 50\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Operating_System_5/operating_system_5-q007-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Memory allocation",
+      "subtopic": "fit algorithms",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a system with 128 MB physical memory and a 32-bit virtual address space. If the page size is 2 KB, what is the approximate page table size?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 MB"
+        },
+        {
+          "label": "B",
+          "text": "4 MB"
+        },
+        {
+          "label": "C",
+          "text": "8 MB"
+        },
+        {
+          "label": "D",
+          "text": "16 MB"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "4 MB",
+      "explanation": "Number of page = (Virtual memory size)/(Page size)\nNumber of frames = Main Memory size/Page size = 2^27/2^11 = 2^16\nPage Table size = Number of pages * Number of bits to address frame\n= 2^21 * 16 bits\n= 2^21 * 2 B = 4 MB                     Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Paging",
+      "subtopic": "page table size",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Match the following:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "p q r s"
+        },
+        {
+          "label": "B",
+          "text": "s q r p"
+        },
+        {
+          "label": "C",
+          "text": "q p s r"
+        },
+        {
+          "label": "D",
+          "text": "s r q p"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_5/operating_system_5-q009-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "p q r s",
+      "explanation": "Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Memory concepts",
+      "subtopic": "locality",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Let a memory has five free blocks 2k, 4k, 6k, 8k and 20k. These blocks are allocated using best fit strategy. The allocations requests are stored in a queue as shown below: The time at which the process ‘P7’ will be completed is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "14"
+        },
+        {
+          "label": "C",
+          "text": "21"
+        },
+        {
+          "label": "D",
+          "text": "39"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_5/operating_system_5-q010-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "14",
+      "explanation": "On completion of P5, Block 4 will be allocated to P7.\nHence completion time of P7 is = 6 + 8 = 14\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Operating_System_5/operating_system_5-q010-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Memory allocation",
+      "subtopic": "best fit",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a memory consisting of the following holes in the given order: 20K, 15K, 28K, 18K, 23K, 24K and 30K. For the request sequence 24K, 22K and 18K, the first fit allocates the Blocks ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "24K, 23K, 18K"
+        },
+        {
+          "label": "B",
+          "text": "28K, 23K, 20K"
+        },
+        {
+          "label": "C",
+          "text": "28K, 24K, 20K"
+        },
+        {
+          "label": "D",
+          "text": "28K, 23K, 24K"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "28K, 23K, 20K",
+      "explanation": "Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Memory allocation",
+      "subtopic": "first fit",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following statements: S1: Segmentation may suffer from external fragmentation. S2: Paging may suffer from internal fragmentation. S3: Segmentation may suffer from internal fragmentation. S4: Paging may suffer from external fragmentation. Which of the following are true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "S1, S3"
+        },
+        {
+          "label": "B",
+          "text": "S3, S4"
+        },
+        {
+          "label": "C",
+          "text": "S1, S2"
+        },
+        {
+          "label": "D",
+          "text": "S1, S2, S3, S4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "S1, S2",
+      "explanation": "Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Segmentation and paging",
+      "subtopic": "fragmentation",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Inverted Page Table contains,",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Page Number, Process ID, Offset."
+        },
+        {
+          "label": "B",
+          "text": "Page Number, Frame Number, Link Field"
+        },
+        {
+          "label": "C",
+          "text": "Page Number, Process ID, Link field"
+        },
+        {
+          "label": "D",
+          "text": "Page Number, Frame Number, Process ID"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Page Number, Process ID, Link field",
+      "explanation": "Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Inverted page table",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a simple paging system with 4 GB main memory and 256 MB virtual memory. The page size is 1 KB. Based on this data, Match the following:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "r p s q"
+        },
+        {
+          "label": "B",
+          "text": "p q r s"
+        },
+        {
+          "label": "C",
+          "text": "r p q s"
+        },
+        {
+          "label": "D",
+          "text": "r s p q"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_5/operating_system_5-q014-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "r p s q",
+      "explanation": "Virtual memory = 256 MB = 2^28 B\nBits in logical address = 28\nNumber of frames = 4 GB / 1 kB = 2^32 / 2^10 = 2^22\nNumber of bits in frame Number = 22\nNumber of pages = 256 MB / 1 kB = 2^28 / 2^10 = 2^18\nNumber of entries in page table = 2^18\nNumber of bits in page number = 18         Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Paging",
+      "subtopic": "address bits",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following page reference sequence: 2, 1, 5, 2, 2, 1, 3, 6, 4, 2, 5, 1, 3, 6. How many page faults will occur using LRU, FIFO and optimal respectively, if the memory contains 6 frames?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6     6     6"
+        },
+        {
+          "label": "B",
+          "text": "6     5     4"
+        },
+        {
+          "label": "C",
+          "text": "5     6     4"
+        },
+        {
+          "label": "D",
+          "text": "7     8     6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "6     6     6",
+      "explanation": "Number of pages referred is 6, Number of frames also 6. Hence for any algorithm, number of page faults are 6.     Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Page replacement algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "In a particular Unix OS, the i-node block of size 2K, contains 10 direct data block, addresses, one address for single indirect block. One for double indirect block, and one for Triple indirect block. Each block can contain 128 addresses. The approximate maximum size of the file in the file system is __________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 GB"
+        },
+        {
+          "label": "B",
+          "text": "4 GB"
+        },
+        {
+          "label": "C",
+          "text": "8 GB"
+        },
+        {
+          "label": "D",
+          "text": "16 GB"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "4 GB",
+      "explanation": "Maximum file size\n[1 + 10 + (1 + 128) + (1 + 128 + 128 × 128) + (1 + 128 + 128 × 128 + 128 × 128 × 128)] × 2k (Block size) ≅ 4 GB                                                    Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "File system",
+      "subtopic": "indexed allocation",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a system with four files of sizes 11150 B, 4970 B, 5520 B and 10640 B. For storing these files on disk we can use either 100 B blocks or 200 B blocks but not both. For each block 4 B are used for book information. A disk block can store either book keeping information or file data, but not both. What is the total number of blocks required for files using 100 B blocks and 200 B blocks respectively?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "340 and 338"
+        },
+        {
+          "label": "B",
+          "text": "340 and 169"
+        },
+        {
+          "label": "C",
+          "text": "340 and 170"
+        },
+        {
+          "label": "D",
+          "text": "315 and 163"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "340 and 169",
+      "explanation": "File Size | 100B Data Blocks | Book Keeping Blocks\n11150 | 112 | 5\n4970 | 50 | 2\n5520 | 56 | 3\n10640 | 107 | 5\nTotal | 325 | 15\nTotal = 340\n\nFile Size | 200B Data Blocks | Book Keeping Blocks\n11150 | 56 | 2\n4970 | 25 | 1\n5520 | 28 | 1\n10640 | 54 | 2\nTotal | 163 | 6\nTotal = 169                                                 Choice (B)",
+      "status": "confirmed",
+      "image": "images/Operating_System_5/operating_system_5-q017-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "File system",
+      "subtopic": "block allocation",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Hard disk transfers 20 MB/sec using DMA. The processor runs at 1.2 GHz takes 600 and 1800 clocks to initiate and terminate DMA transfer respectively. If the size of transfer is 10 KB, what is the percentage of processor time consumed for the transfer operation?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4%"
+        },
+        {
+          "label": "B",
+          "text": "0.4%"
+        },
+        {
+          "label": "C",
+          "text": "1%"
+        },
+        {
+          "label": "D",
+          "text": "10%"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "0.4%",
+      "explanation": "Transfer Time:\n20 MB – 1 sec\n10 KB – x\nx*20 MB = 1 sec * 10 KB\nx = ½ m sec = 500 µ sec\nCPU Time:\n1.2 GHz ⇒ 1.2 * 10^9 clocks/sec\n= 1200 * 10^6 clocks/sec\nCPU Time consumed = 600 + 1800\n= 2400 clocks\n1200 * 10^6 clocks – 1 sec\n2400 clocks – y\ny * 1200 × 10^6 = 1 sec * 2400\ny = 2 µs\nPercentage of CPU involvement = (2 µs / 500 µs) × 100 = 0.4%                                     Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "DMA",
+      "subtopic": "I/O",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a disk pack with 16 platters, each with 2 surfaces, 256 tracks per surface, 512 sectors per track and 1 KB sector size. The capacity of the disk and number bits required to address a sector uniquely in the disk are respectively:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "8 GB, 32 bits"
+        },
+        {
+          "label": "B",
+          "text": "4 GB, 22 bits"
+        },
+        {
+          "label": "C",
+          "text": "4 GB, 32 bits"
+        },
+        {
+          "label": "D",
+          "text": "16 GB, 22 bits"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "4 GB, 22 bits",
+      "explanation": "Disk Capacity = 16 * 2 * 256 * 512 * 1 KB = 4 GB\nNumber of sectors = 16 × 2 × 256 × 512 = 2^22\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Disk organization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following request set will cause the head to change its direction after servicing every request assuming that the head does not change direction if there is a tie in SSTF and all the requests arrive before the servicing starts?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1, 129, 160, 168, 171, 174, 191, 255"
+        },
+        {
+          "label": "B",
+          "text": "0, 128, 160, 168, 171, 175, 191, 255"
+        },
+        {
+          "label": "C",
+          "text": "0, 129, 159, 168, 171, 174, 191, 255"
+        },
+        {
+          "label": "D",
+          "text": "0, 128, 160, 168, 171, 175, 190, 255"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "0, 128, 160, 168, 171, 175, 191, 255",
+      "explanation": "Assume the head at track 170 (Based on choices). Then\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Operating_System_5/operating_system_5-q020-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Disk scheduling",
+      "subtopic": "SSTF",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What is the maximum cardinality of request set, so that head changes its direction for every request service, if there exists a total of 4096 tracks and head can start from any track?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "11"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "13"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "12",
+      "explanation": "4096 = 2^12 tracks\nHence cardinality = 12                                      Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Disk scheduling",
+      "subtopic": "SSTF",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a disk with 100 cylinders. The per track seek time is 2 m sec. The requests to access the cylinders occurs in the following sequence: 5, 40, 15, 12, 24, 65, 3, 18, 10. Assuming that the head is currently at 55 cylinder, what is the time taken to satisfy all the requests using SSTF.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "72 m sec"
+        },
+        {
+          "label": "B",
+          "text": "144 m sec"
+        },
+        {
+          "label": "C",
+          "text": "204 m sec"
+        },
+        {
+          "label": "D",
+          "text": "102 m sec"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "144 m sec",
+      "explanation": "Total tracks moved = 72\nTotal seek time = 72 × 2 = 144 m sec                      Choice (B)",
+      "status": "confirmed",
+      "image": "images/Operating_System_5/operating_system_5-q022-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Disk scheduling",
+      "subtopic": "SSTF",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a disk with 100 cylinders. The per track seek time given as 3 m sec. The requests to access the cylinders occurs in the following sequence: 25, 45, 65, 32, 75, 15, 50, 20. What is the total seek time using FCFS disk scheduling. Assume that the initial position of head is at track 0.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "269"
+        },
+        {
+          "label": "B",
+          "text": "300"
+        },
+        {
+          "label": "C",
+          "text": "807"
+        },
+        {
+          "label": "D",
+          "text": "225"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "807",
+      "explanation": "Total tracks moved = |0 – 25| + |25 – 45| + |45 – 65| + |65 – 32| + |32 – 75| + |75 – 12| + |15 – 50| + |50 – 20|\n= 25 + 20 + 20 + 33 + 43 + 63 + 35 + 30 = 269\nTotal seek time = 269 * 3 = 807               Choice (C)",
+      "status": "confirmed",
+      "image": "images/Operating_System_5/operating_system_5-q023-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Disk scheduling",
+      "subtopic": "FCFS",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices. Consider a system with 3 memory frames and the following reference string over 8 pages: 1, 2, 3, 4, 2, 8, 1, 3, 5, 7, 6, 1, 2.",
+      "text": "Consider a system with 3 memory frames and the following reference string over 8 pages: 1, 2, 3, 4, 2, 8, 1, 3, 5, 7, 6, 1, 2. What will be the final content of memory if FIFO replacement policy used.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6       1       2"
+        },
+        {
+          "label": "B",
+          "text": "1       2       6"
+        },
+        {
+          "label": "C",
+          "text": "1       6       2"
+        },
+        {
+          "label": "D",
+          "text": "2       1       6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "6       1       2",
+      "explanation": "Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Page replacement",
+      "subtopic": "FIFO",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices. Consider a system with 3 memory frames and the following reference string over 8 pages: 1, 2, 3, 4, 2, 8, 1, 3, 5, 7, 6, 1, 2.",
+      "text": "For the above count what will be the number of page faults if LRU is used?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "11"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "13"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "12",
+      "explanation": "1, 2, 3, 4, 2, 8, 1, 3, 5, 7, 6, 1, 2\nx x x ✓ x x x x x x x x x\n\n14172\n236\n3851\nx ⇒ Page Fault\n✓ ⇒ Page Hit\nChoice (C)",
+      "status": "confirmed",
+      "image": "images/Operating_System_5/operating_system_5-q025-explanation.png"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Page replacement",
+      "subtopic": "LRU",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

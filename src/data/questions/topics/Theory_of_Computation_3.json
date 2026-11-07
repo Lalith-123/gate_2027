@@ -1,0 +1,1503 @@
+[
+  {
+    "id": "gate-theory-of-computation-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is TRUE for Turing Machines?\n(i) Turing machines accepts Type-0 languages.\n(ii) Turing machines are used for computing functions.\n(iii) Turing machines are used for determining the undecidability of certain languages.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii) only"
+        },
+        {
+          "label": "B",
+          "text": "(i), (iii) only"
+        },
+        {
+          "label": "C",
+          "text": "(ii), (iii) only"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i), (ii), (iii)",
+      "explanation": "Turing machines accepts type-0 languages. They are used for computing functions and for determining the undecidability of languages. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Turing Machines",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following operations are not performed on Turing machines?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Writing a new symbol in the cell being currently scanned."
+        },
+        {
+          "label": "B",
+          "text": "Moving to the cell left of the present cell."
+        },
+        {
+          "label": "C",
+          "text": "Moving to the cell right of the present cell."
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of the above",
+      "explanation": "A Turing machine can write into some cell, move left or right. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Turing Machines",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If the languages $L_1$ and $L_2$ are decidable then which of the following are also decidable?\n(i) $\\overline{L_1}\\cup\\overline{L_2}$\n(ii) $\\overline{L_1}\\cap\\overline{L_2}$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) only"
+        },
+        {
+          "label": "C",
+          "text": "Both (i) and (ii)"
+        },
+        {
+          "label": "D",
+          "text": "Neither (i) nor (ii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both (i) and (ii)",
+      "explanation": "If a language is decidable then its complement is also decidable. The union and intersection of two decidable languages is also decidable. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Decidability and Closure Properties",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If $L_1$ and $L_2$ are Turing-recognizable languages then which of the following are not Turing-recognizable?\n(i) $L_1\\cup L_2$\n(ii) $L_1\\cap L_2$\n(iii) $L_1-L_2$\n(iv) $\\overline{L_1}$\n(v) $L_1^*$\n(vi) $L_1\\circ L_2$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(iv), (v)"
+        },
+        {
+          "label": "B",
+          "text": "(iii), (iv)"
+        },
+        {
+          "label": "C",
+          "text": "(i), (ii), (vi)"
+        },
+        {
+          "label": "D",
+          "text": "(ii), (iv), (v)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "(iii), (iv)",
+      "explanation": "Turing-recognizable languages (i.e. Recursively-enumerable) are not closed under subtraction and complement operations. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Turing-Recognizable Languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following statement is FALSE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The set of decidable languages is closed under symmetric difference."
+        },
+        {
+          "label": "B",
+          "text": "If $L_1$ is undecidable and $L_2$ is decidable then the symmetric difference of $L_1$ and $L_2$ is undecidable."
+        },
+        {
+          "label": "C",
+          "text": "The intersection of a recognizable language and an unrecognizable language is always unrecognizable."
+        },
+        {
+          "label": "D",
+          "text": "All of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "The intersection of a recognizable language and an unrecognizable language is always unrecognizable.",
+      "explanation": "Decidable languages are closed under symmetric difference.\nIf $L_1$ is undecidable and $L_2$ is decidable then the difference of $L_1$ and $L_2$ is undecidable.\nLet $L_1$ is a recognizable language and $L_1=\\emptyset$, $L_2$ is unrecognizable. Then $L_1\\cap L_2=\\emptyset$ which is recognizable. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Decidability and Closure Properties",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If $L_1$ and $L_2$ are recursive languages, then which of the following also belongs to recursive languages?\n(i) $L_1\\cup L_2$\n(ii) $L_1L_2$\n(iii) $\\overline{L_1}$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(i), (ii)"
+        },
+        {
+          "label": "C",
+          "text": "(ii), (iii)"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i), (ii), (iii)",
+      "explanation": "Recursive languages are closed under union, intersection, complementation, concatenation and Kleene closure. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Recursive Languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following correctly specifies the relation between Turing decidable (TD), Turing recognizable (TR) and ‘not Turing recognizable’ (NTR) languages?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Diagram (A)"
+        },
+        {
+          "label": "B",
+          "text": "Diagram (B)"
+        },
+        {
+          "label": "C",
+          "text": "Diagram (C)"
+        },
+        {
+          "label": "D",
+          "text": "Diagram (D)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Theory_of_Computation_3/theory_of_computation_3_1-q007-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Diagram (A)",
+      "explanation": "Regular ⊂ Context-free ⊂ TD ⊂ TR ⊂ NTR. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Language Classes and Turing Recognizability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following DFA problems are Decidable?\n(A) The language of all DFA’s with an empty language.\n(B) The language of all pairs of DFA’s that have the same language.\n(C) $A_{DFA}=\\{\\langle D,\\omega\\rangle\\mid D$ is a DFA, $\\omega$ is a word and $D$ accepts $\\omega\\}$\n(D) All of the above",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The language of all DFA’s with an empty language."
+        },
+        {
+          "label": "B",
+          "text": "The language of all pairs of DFA’s that have the same language."
+        },
+        {
+          "label": "C",
+          "text": "$A_{DFA}=\\{\\langle D,\\omega\\rangle\\mid D$ is a DFA, $\\omega$ is a word and $D$ accepts $\\omega\\}$"
+        },
+        {
+          "label": "D",
+          "text": "All of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All of the above",
+      "explanation": "Some of the decidable properties of DFA are\n• Universality\n• Kleene-closedness\n• Inclusion\n• Disjointness\n• Membership\n• Emptyness\n• Equivalence\nAll the problems in given choices are Decidable. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "DFA Decidability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following language is accepted by a Turing machine?\n(i) $\\{a^n\\#a^n\\#a^n:n\\geq0\\}$ and $\\Sigma=\\{a,\\#\\}$\n(ii) $\\{a^n\\#b^{2n}:n\\geq0\\}$, $\\Sigma=\\{a,b\\}$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) only"
+        },
+        {
+          "label": "C",
+          "text": "Both (i) and (ii)"
+        },
+        {
+          "label": "D",
+          "text": "Neither (i) nor (ii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both (i) and (ii)",
+      "explanation": "A TM can be designed to accept, $\\{a^n\\#a^n\\#a^n\\}$. In the input write x for an ‘a’. Traverse till # and again write x for an ‘a’ and traverse till next # and write x for an ‘a’. Traverse left till left most x and repeat this for next ‘a’. If no more a’s left in any part, accept the language.\nSimilarly, a TM can be constructed for $\\{a^n\\#b^{2n}:n\\geq0\\}$. Replace a with x and traverse till # and replace n b’s with x and traverse left till x and repeat this. If no more symbols left then accept the language. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Turing Machines and Language Recognition",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "For which of the following languages, no Turing-machines will exist?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Recursive languages"
+        },
+        {
+          "label": "B",
+          "text": "Recursively-enumerable languages"
+        },
+        {
+          "label": "C",
+          "text": "Non-Recursively enumerable."
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Non-Recursively enumerable.",
+      "explanation": "Recursive: TM always halts.\nRecursively enumerable: TM either halts or halts in non-final state or loops.\nNon-Recursively-enumerable: No TM exists. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Turing Machines and Language Classes",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If $L_1$ is a recursive language and $L_2$ is a recursively enumerable language then which of the following is also recursively enumerable?\n(i) $L_1\\cup L_2$\n(ii) $L_1\\cap L_2$\n(iii) $L_1L_2$\n(iv) $L_1-L_2$\n(v) $L_2-L_1$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii), (iii)"
+        },
+        {
+          "label": "B",
+          "text": "(i), (iii), (iv)"
+        },
+        {
+          "label": "C",
+          "text": "(iii), (iv), (v)"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii), (v)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i), (ii), (iii), (v)",
+      "explanation": "$L_1-L_2$ is not recursively enumerable. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Closure Properties of RE Languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is False, if $A$ is mapping reducible to $B$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "If $B$ is decidable then $A$ is decidable."
+        },
+        {
+          "label": "B",
+          "text": "If $B$ is recursively enumerable then $A$ is recursively enumerable."
+        },
+        {
+          "label": "C",
+          "text": "If $A$ is undecidable then $B$ is undecidable."
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of the above",
+      "explanation": "If $A$ is a mapping reducible to $B$, then based on some basic Theorems,\n• $B$ is decidable then $A$ is decidable\n• $A$ is undecidable then $B$ is undecidable\n• $B$ is Turing-recognizable then $A$ is Turing recognizable.\n\\therefore All are TRUE. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Mapping Reducibility",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following language is Recursive?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$L_1=\\{\\langle M\\rangle\\mid M$ is a TM and there exists an input on which $M$ halts in less than $|\\langle M\\rangle|$ steps.$\\}$"
+        },
+        {
+          "label": "B",
+          "text": "$L_2=\\{\\langle M\\rangle\\mid M$ is a TM and $|L(M)|\\leq3\\}$"
+        },
+        {
+          "label": "C",
+          "text": "$L_3=\\{\\langle M\\rangle\\mid M$ is a TM and $|L(M)|\\geq3\\}$"
+        },
+        {
+          "label": "D",
+          "text": "All of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$L_1=\\{\\langle M\\rangle\\mid M$ is a TM and there exists an input on which $M$ halts in less than $|\\langle M\\rangle|$ steps.$\\}$",
+      "explanation": "$L_1$ is a recursive language. First find the length of M and store it. Then it runs M on all inputs of length atmost $|\\langle M\\rangle|$ steps and accepts if M accepts atleast one of the strings within the specified number of steps. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Recursive Languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The language $\\{\\langle M\\rangle\\mid M$ is a Turing machine and $L(M)$ is finite$\\}$ is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "recursive"
+        },
+        {
+          "label": "B",
+          "text": "recursively enumerable"
+        },
+        {
+          "label": "C",
+          "text": "not recursively-enumerable"
+        },
+        {
+          "label": "D",
+          "text": "decidable"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "not recursively-enumerable",
+      "explanation": "Given language is not recursively enumerable and undecidable. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Undecidability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following problem is Recursive?\n(i) $\\{\\langle M\\rangle\\mid M$ is a DFA and $L(M)$ is finite$\\}$\n(ii) $\\{\\langle M\\rangle\\mid M$ is a DFA and $L(M)=\\Sigma^*\\}$\n(iii) $\\{\\langle M,x\\rangle\\mid M$ is a DFA and M accepts x$\\}$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(iii) only"
+        },
+        {
+          "label": "C",
+          "text": "(ii), (iii)"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i), (ii), (iii)",
+      "explanation": "All the given problems are decidable and hence recursive. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "DFA Decidability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is not accepted by a PDA but accepted by a TM?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\{a^n b^n c a^n b^n\\mid n>0\\}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\{a^n b^{2n}c^{3n}\\mid n\\geq0\\}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\{a^n b^{n+m}c^m d^m\\mid m,n\\geq0\\}$"
+        },
+        {
+          "label": "D",
+          "text": "All of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All of the above",
+      "explanation": "$\\{a^n b^n c a^n b^n\\mid n>0\\}$. PDA can check equality of number of a’s and b’s. But it can’t able to compare this number of a’s and b’s with next a’s and b’s. But this can be accepted by a TM. Similarly for $\\{a^n b^{2n}c^{3n}\\mid n\\geq0\\}$ and $\\{a^n b^{n+m}c^m d^m\\mid m,n\\geq0\\}$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "PDA vs Turing Machines",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following has same power as Turing machine?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "NDFA"
+        },
+        {
+          "label": "B",
+          "text": "2-PDA"
+        },
+        {
+          "label": "C",
+          "text": "k-tape TM"
+        },
+        {
+          "label": "D",
+          "text": "Both (B) and (C)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Both (B) and (C)",
+      "explanation": "A TM has same power as k-tape TM ($k\\geq1$) and 2-PDA has same power as TM. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Computational Power of Models",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The language $L=\\{a^n b^n c^n\\mid n\\geq0\\}$ can be accepted by a:\n(i) 2-PDA\n(ii) TM",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) only"
+        },
+        {
+          "label": "C",
+          "text": "Both (i) and (ii)"
+        },
+        {
+          "label": "D",
+          "text": "Neither (i) nor (ii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both (i) and (ii)",
+      "explanation": "A 2-PDA (i.e., 2-stack PDA) has same power as TM. A TM can accept L. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "PDA vs Turing Machines",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If $A\\leq_m B$ (i.e., A is reducible to B) and if B is regular language then does it implies that A is a regular language?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yes"
+        },
+        {
+          "label": "B",
+          "text": "No"
+        },
+        {
+          "label": "C",
+          "text": "Data insufficient"
+        },
+        {
+          "label": "D",
+          "text": "Reduction is not possible with regular languages."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "No",
+      "explanation": "Given $A\\leq_m B$.\nB is regular then it does not imply that A is regular.\nEx: $\\{a^n b^n\\mid n\\geq0\\}\\leq_m\\{a^n\\mid n\\geq0\\}$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Mapping Reducibility",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If a language $L$ is recursively enumerable and $L\\leq_m\\overline{L}$ then, which of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "L is recursive"
+        },
+        {
+          "label": "B",
+          "text": "L may or may not be recursive"
+        },
+        {
+          "label": "C",
+          "text": "L is undecidable"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "L is recursive",
+      "explanation": "Given L is recursively enumerable and $L\\leq_m\\overline{L}$.\nAs $L\\leq_m\\overline{L}$ then $\\overline{L}\\leq_m L$.\n($\\because A\\leq_m B$ then $\\overline{A}\\leq_m\\overline{B}$).\nL is RE, so $\\overline{L}$ is also RE. As both L and $\\overline{L}$ are RE then L is recursive. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Mapping Reducibility",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following language(s) is/are undecidable?\n$L_1=\\{\\langle M\\rangle\\mid M$ is a TM and $L(M)$ is a CFL$\\}\n$L_2=\\{\\langle M\\rangle\\mid M$ is a TM and $L(M)$ is finite$\\}",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$L_1$ only"
+        },
+        {
+          "label": "B",
+          "text": "$L_2$ only"
+        },
+        {
+          "label": "C",
+          "text": "Both $L_1$ and $L_2$"
+        },
+        {
+          "label": "D",
+          "text": "Neither $L_1$ nor $L_2$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both $L_1$ and $L_2$",
+      "explanation": "$\\{\\langle M,w\\rangle: M$ is a TM and M accepts input string w$\\}$ is a known undecidable problem. We can reduce this to $L_1$ and $L_2$ also. So both $L_1$ and $L_2$ are undecidable. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Undecidability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "For which of the following language(s) a Turing machine exists?\n(i) $\\emptyset$\n(ii) $\\{\\epsilon\\}$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) only"
+        },
+        {
+          "label": "C",
+          "text": "Both (i) and (ii)"
+        },
+        {
+          "label": "D",
+          "text": "Neither (i) nor (ii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both (i) and (ii)",
+      "explanation": "A TM can exist for both languages. (i) rejects everything. (ii) accepts ‘ε’ only. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Turing Machines",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "A language $L$ is recursive if",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$L$ is recursively enumerable."
+        },
+        {
+          "label": "B",
+          "text": "$\\overline{L}$ is recursively enumerable."
+        },
+        {
+          "label": "C",
+          "text": "Both $L$ and $\\overline{L}$ are recursively enumerable."
+        },
+        {
+          "label": "D",
+          "text": "$L$ is not recursively enumerable."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both $L$ and $\\overline{L}$ are recursively enumerable.",
+      "explanation": "If a language L and its complement $\\overline{L}$ are recursively enumerable, then L is recursive. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Recursive Languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If a Language $L$ is recursively enumerable but not recursive then $\\overline{L}$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "is recursive"
+        },
+        {
+          "label": "B",
+          "text": "is recursively enumerable"
+        },
+        {
+          "label": "C",
+          "text": "is not recursively enumerable"
+        },
+        {
+          "label": "D",
+          "text": "is decidable"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "is not recursively enumerable",
+      "explanation": "Both L and $\\overline{L}$ are recursively enumerable if L is recursive. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Undecidability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-theory-of-computation-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Theory of Computation"
+    },
+    "question": {
+      "pdfName": "Theory_of_Computation_3.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "A decision problem is undecidable if\n(i) it has no algorithm to solve\n(ii) it has no TM that halts on every input\n(iii) it specifies a language which is not recursive.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii) only"
+        },
+        {
+          "label": "C",
+          "text": "(i), (iii)"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i), (ii), (iii)",
+      "explanation": "An undecidable problem has no algorithm, no TM and is also not recursive. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Theory of Computation",
+      "topic": "Undecidability",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Theory_of_Computation_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

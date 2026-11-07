@@ -1,0 +1,1803 @@
+[
+  {
+    "id": "gate-operating-system-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "A program is _____ entity, while a process is _____ entity.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Active, passive"
+        },
+        {
+          "label": "B",
+          "text": "Active, sometimes active"
+        },
+        {
+          "label": "C",
+          "text": "Passive, active"
+        },
+        {
+          "label": "D",
+          "text": "Both (B) and (C)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Passive, active",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process and program concepts",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "All the information associated with a specific process is contained in:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Process control block"
+        },
+        {
+          "label": "B",
+          "text": "Program control block"
+        },
+        {
+          "label": "C",
+          "text": "TLB"
+        },
+        {
+          "label": "D",
+          "text": "Heap"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Process control block",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process management",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Kernel-level threads and user-level threads are supported, respectively, by _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Operating system and operating system"
+        },
+        {
+          "label": "B",
+          "text": "Operating system and user"
+        },
+        {
+          "label": "C",
+          "text": "User and user"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Operating system and user",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Threads",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following is false about user-level threads?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "User-level threads are visible to the programmer and are unknown to the Kernel."
+        },
+        {
+          "label": "B",
+          "text": "These are faster to create."
+        },
+        {
+          "label": "C",
+          "text": "Kernel never interferes."
+        },
+        {
+          "label": "D",
+          "text": "There is no effect of a system call () on process."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "There is no effect of a system call () on process.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Threads",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following interprocess communication models are implemented using system calls?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Shared memory"
+        },
+        {
+          "label": "B",
+          "text": "Message passing"
+        },
+        {
+          "label": "C",
+          "text": "Both (A) and (B)"
+        },
+        {
+          "label": "D",
+          "text": "Neither (A) nor (B)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Message passing",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Interprocess communication",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Peterson’s solution\n(i) is restricted to two processes\n(ii) share two data items turn and flag [i]\n(iii) mutual exclusion is achieved\n(iv) is a hardware solution\nWhich of the above are true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii), (iii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iii), (iv)"
+        },
+        {
+          "label": "C",
+          "text": "(iv), (i), (ii)"
+        },
+        {
+          "label": "D",
+          "text": "(i), (ii), (iii), (iv)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "(i), (ii), (iii)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process synchronization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which of the following requires a mode switch from one thread to another?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "One process multiple thread"
+        },
+        {
+          "label": "B",
+          "text": "User-level thread"
+        },
+        {
+          "label": "C",
+          "text": "Kernel-level threads"
+        },
+        {
+          "label": "D",
+          "text": "Both (B) and (C)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Kernel-level threads",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Threads",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "When a process is created, its state is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "New"
+        },
+        {
+          "label": "B",
+          "text": "Ready"
+        },
+        {
+          "label": "C",
+          "text": "Block"
+        },
+        {
+          "label": "D",
+          "text": "Suspend"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "New",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process states",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The data section of a process in memory contains",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Local variables, function parameters"
+        },
+        {
+          "label": "B",
+          "text": "Return addresses"
+        },
+        {
+          "label": "C",
+          "text": "Global variables"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Global variables",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process memory",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Which one of the following is true about process states?\n(i) A process which is running must have terminated as next state.\n(ii) From running state process can go to either waiting, ready or terminated state.\n(iii) Only one process can run at any instant.\n(iv) Ready process can go to waiting state.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii), (iii)"
+        },
+        {
+          "label": "B",
+          "text": "(ii) and (iii) only"
+        },
+        {
+          "label": "C",
+          "text": "(i) and (iv) only"
+        },
+        {
+          "label": "D",
+          "text": "(ii), (iii), (iv)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "(ii) and (iii) only",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process states",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Message passing model of inter process communication can be",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Blocking only"
+        },
+        {
+          "label": "B",
+          "text": "Blocking and non-blocking"
+        },
+        {
+          "label": "C",
+          "text": "Synchronous and asynchronous"
+        },
+        {
+          "label": "D",
+          "text": "Both (B) and (C)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Both (B) and (C)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Interprocess communication",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The definition of wait( ) is as follows:\nwait (S) {\nwhile (S <=0);\nS - - ;\n}\nThe semicolon after while statement, signifies",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Infinite looping"
+        },
+        {
+          "label": "B",
+          "text": "Blank statement"
+        },
+        {
+          "label": "C",
+          "text": "Depends on interpretation of compiler"
+        },
+        {
+          "label": "D",
+          "text": "No operation"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "No operation",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Semaphores",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "To avoid race condition, the number of processes using the critical sections is/are:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "More than 3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process synchronization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The ‘Critical Section’ is the region in which",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Any number of processes can enter without any permission"
+        },
+        {
+          "label": "B",
+          "text": "Only one process enters at a time and others wait for it."
+        },
+        {
+          "label": "C",
+          "text": "Section is very critical"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Only one process enters at a time and others wait for it.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Critical section",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "What does process control block contain?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Process Identification"
+        },
+        {
+          "label": "B",
+          "text": "Process state information"
+        },
+        {
+          "label": "C",
+          "text": "Process control information"
+        },
+        {
+          "label": "D",
+          "text": "All of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All of the above",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process control block",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Match the following\n(i) Multiprogramming — (x) Managing multiple processes executing on multiple computers\n(ii) Multiprocessing — (y) Management of multiple processes within a uniprocessor system.\n(iii) Distributed process Management — (z) Management of multiple processes within a multiprocessor.\n\nThe table in the PDF presents these as Column-I/Column-II matching items.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) –y (ii) –z (iii) –x"
+        },
+        {
+          "label": "B",
+          "text": "(i) –z (ii) –x (iii) –y"
+        },
+        {
+          "label": "C",
+          "text": "(i) –y (ii) –x (iii) –z"
+        },
+        {
+          "label": "D",
+          "text": "Ambiguous"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Operating_System_1/operating_system_1-q016-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "(i) –y (ii) –z (iii) –x",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Multiprogramming and multiprocessing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "For ‘n’ number of fork( ) system call, how many parent and child processes will be created?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1, 2ⁿ – 1, respectively"
+        },
+        {
+          "label": "B",
+          "text": "1, 2ⁿ, respectively"
+        },
+        {
+          "label": "C",
+          "text": "2ⁿ – 1, 1, respectively"
+        },
+        {
+          "label": "D",
+          "text": "n, 2n, respectively"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1, 2ⁿ – 1, respectively",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process creation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "If the value of binary semaphore is initialized with 1 and three wait( ) operations are performed, how many processes are there in the block list?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "2",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Semaphores",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "A counting semaphore is initialized with the value 3. A list of ‘P’ and ‘V’ operations are performed on the semaphore as: 1P, 2V, 2P, 3V, 5P, 7V, 2P, 3V. The final value of semaphore is?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "8",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Semaphores",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "The final value of semaphore after 10 ‘P’ operations and 23 ‘V’ operations is 1. What will be the initial value of this counting semaphore?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "−14"
+        },
+        {
+          "label": "B",
+          "text": "−13"
+        },
+        {
+          "label": "C",
+          "text": "−12"
+        },
+        {
+          "label": "D",
+          "text": "−11"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "−12",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Semaphores",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "For a machine-instruction approach to enforce mutual exclusion, following are its properties:\n(i) starvation and deadlock free\n(ii) it is applicable to any number of processes.\n(iii) it can be used to support multiple critical sections, each defined by its own variable.\n(iv) it is simple, easy to verify and employed with busy waiting\nWhich of the above is false?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(iv) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii), (iii) only"
+        },
+        {
+          "label": "C",
+          "text": "(i), (ii) only"
+        },
+        {
+          "label": "D",
+          "text": "(i) only"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "(i) only",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Mutual exclusion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the following code:\nif (fork( ) == 0)\n{\na = a + 5;\nprintf(“%d,%d\\n”,a,&a);\n}\nelse\n{\na = a – 5;\nprintf(“%d,%d\\n”,a,&a);\n}\nLet p, q be the values printed by the parent process, and s, t be the values printed by the child process. Which one of the following is true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "p = s + 10 and q = t"
+        },
+        {
+          "label": "B",
+          "text": "p = s + 10 and q ≠ t"
+        },
+        {
+          "label": "C",
+          "text": "p + 10 = s and q = t"
+        },
+        {
+          "label": "D",
+          "text": "p + 10 = s and q ≠ t"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "p + 10 = s and q ≠ t",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process creation and fork",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the following statements with respect to user-level threads:\n(i) Context switch is faster with kernel-supported threads.\n(ii) For user-level threads, a system call can block the entire process.\n(iii) Kernel-supported threads can be scheduled independently.\n(iv) User-level threads are transparent to the Kernel.\nWhich of the above statements are true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (iii) and (iv) only"
+        },
+        {
+          "label": "B",
+          "text": "(ii) and (iii) only"
+        },
+        {
+          "label": "C",
+          "text": "(i) and (iii) only"
+        },
+        {
+          "label": "D",
+          "text": "(i) and (ii) only"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "(ii) and (iii) only",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Threads",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Suppose there are ‘n’ CPUs and ‘m’ processes such that m > n. What will be the minimum and maximum number of ready, running and blocked process, respectively?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0, 0, 0 and m, n, m"
+        },
+        {
+          "label": "B",
+          "text": "1, m, 1 and n, n, n"
+        },
+        {
+          "label": "C",
+          "text": "m, 1, 0 and m, m, n"
+        },
+        {
+          "label": "D",
+          "text": "0, 0, 0 and n, m, m"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "0, 0, 0 and m, n, m",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process states",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the following signal semaphore code signal (semaphore *s)\n{\ns.value++;\nif( ____(I)____ )\n{\nremove a process P from S.list;\n____(II)____\n}\n}\nChoose the suitable options for (I) and (II), respectively",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "S.value = 0 and wakeup(P);"
+        },
+        {
+          "label": "B",
+          "text": "S.value <= 0 and wakeup(P);"
+        },
+        {
+          "label": "C",
+          "text": "S.value <0 and block( );"
+        },
+        {
+          "label": "D",
+          "text": "S.value <= 0 and block( );"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "S.value <= 0 and wakeup(P);",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Semaphores",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the methods used by processes P₁ and P₂ for accessing their critical sections whenever needed. The initial values of shared Boolean variables S₁ and S₂ are randomly assigned.\nMethod used by P₁\nWhile (S₁ == S₂);\nCritical section\nS₁ = S₂;\nMethod used by P₂\nWhile (S₁ != S₂);\nCritical section\nS₂ = !(S₁);\nWhich of the following statements describes the properties achieved?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mutual exclusion but not progress"
+        },
+        {
+          "label": "B",
+          "text": "Progress only"
+        },
+        {
+          "label": "C",
+          "text": "Bounded waiting, progress"
+        },
+        {
+          "label": "D",
+          "text": "Mutual exclusion, progress, bounded waiting"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Mutual exclusion but not progress",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Process synchronization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices.",
+      "text": "Consider the following statements regarding spin locks:\n(i) No context switch is required when a process wait on a lock\n(ii) Spin locks are useful when locks are expected to be held for short times.\n(iii) They are often employed on multiprocessor systems\n(iv) Process ‘spins’ while waiting for a lock\nChoose the correct option:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i), (ii), (iii), (iv) are true"
+        },
+        {
+          "label": "B",
+          "text": "Only (i) and (ii) are true"
+        },
+        {
+          "label": "C",
+          "text": "(iii) is false"
+        },
+        {
+          "label": "D",
+          "text": "(ii) is true and (iv) is false"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "(i), (ii), (iii), (iv) are true",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Spin locks",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Common data for questions 28, 29 and 30: From the Readers-Writers problem, the data structure for reader process is:\nsemaphore mutex, wrt;\nint readcount;",
+      "text": "Mutual exclusion for readers is attained by",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Wrt"
+        },
+        {
+          "label": "B",
+          "text": "Mutex"
+        },
+        {
+          "label": "C",
+          "text": "Readcount"
+        },
+        {
+          "label": "D",
+          "text": "Both (A) and (B)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Mutex",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Readers-Writers problem",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Common data for questions 28, 29 and 30: From the Readers-Writers problem, the data structure for reader process is:\nsemaphore mutex, wrt;\nint readcount;",
+      "text": "Which of the following semaphore or semaphores is used by the first or last reader that enters or exits the critical section?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Wrt"
+        },
+        {
+          "label": "B",
+          "text": "Mutex"
+        },
+        {
+          "label": "C",
+          "text": "Readcount"
+        },
+        {
+          "label": "D",
+          "text": "Both (A) and (B)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Wrt",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Readers-Writers problem",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-operating-system-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Operating System"
+    },
+    "question": {
+      "pdfName": "Operating_System_1.pdf",
+      "direction": "Common data for questions 28, 29 and 30: From the Readers-Writers problem, the data structure for reader process is:\nsemaphore mutex, wrt;\nint readcount;",
+      "text": "The readcount variable keeps track of how many processes are ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Currently reading the object"
+        },
+        {
+          "label": "B",
+          "text": "Currently writing the object"
+        },
+        {
+          "label": "C",
+          "text": "Waiting in the queue"
+        },
+        {
+          "label": "D",
+          "text": "Reading the shared data"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Currently reading the object",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Operating System",
+      "topic": "Readers-Writers problem",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Operating_System_1.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

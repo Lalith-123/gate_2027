@@ -1,0 +1,1803 @@
+[
+  {
+    "id": "gate-computer-networks-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "What is the Hamming distance between 000, 011?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "2",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Error Detection and Correction",
+      "subtopic": "Hamming distance",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "Consider the given data:\n\nFind the minimum hamming distance?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Networks_1/computer_networks_1-q002-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "3",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Error Detection and Correction",
+      "subtopic": "Code distance",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "In Go-back-n, what should be the Window size?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2^m$"
+        },
+        {
+          "label": "B",
+          "text": "$2^{m-1}$"
+        },
+        {
+          "label": "C",
+          "text": "$2^{m-2}$"
+        },
+        {
+          "label": "D",
+          "text": "$2^{2m}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$2^m$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Link Layer",
+      "subtopic": "Go-Back-N",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "If there are 16 sequence numbers, what are the sender and receiver window sizes in go-back-n and selective repeat respectively?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(15, 1) (8, 8)"
+        },
+        {
+          "label": "B",
+          "text": "(14, 2) (8, 8)"
+        },
+        {
+          "label": "C",
+          "text": "(15, 1) (7, 8)"
+        },
+        {
+          "label": "D",
+          "text": "(15, 1) (8, 7)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "(15, 1) (8, 8)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Link Layer",
+      "subtopic": "Sliding Window Protocols",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "A code needs to be designed with 8 data bits and r check bits. What is the minimum value of r in order to correct single bit errors?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "4",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Error Detection and Correction",
+      "subtopic": "Hamming Code",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "A code has hamming distance of 6. What is the maximum number of bit errors that can be corrected?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Error Detection and Correction",
+      "subtopic": "Error Correction",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "In the above case what is the number of errors that can be detected?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "5",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Error Detection and Correction",
+      "subtopic": "Error Detection",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "CRC is being used to do error detection and correction. The frame with data 101001001 needs to be sent and the generator polynomial being used is $x^4 + x + 1$. What is the final transmitted frame?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1010010011110"
+        },
+        {
+          "label": "B",
+          "text": "1010010010010"
+        },
+        {
+          "label": "C",
+          "text": "1010010011010"
+        },
+        {
+          "label": "D",
+          "text": "1010010010000"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "1010010010000",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Error Detection and Correction",
+      "subtopic": "CRC",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "OSI model seven layer is based on which of the following principles:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A layer should be created where a different level of abstraction is needed"
+        },
+        {
+          "label": "B",
+          "text": "Each layer should perform a well defined function"
+        },
+        {
+          "label": "C",
+          "text": "The layer boundaries should be chosen to minimize the information flow across the interfaces"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "OSI Reference Model",
+      "subtopic": "Layering Principles",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "Which of the following is/are the tasks of physical layer?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "How to link two or more devices physically"
+        },
+        {
+          "label": "B",
+          "text": "What type of data flow is needed between two devices"
+        },
+        {
+          "label": "C",
+          "text": "Type of topology required"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Physical Layer",
+      "subtopic": "Physical Layer Functions",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "The functions of the data link layer are",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "It provides services to network layer and accepts services from physical layer"
+        },
+        {
+          "label": "B",
+          "text": "It is responsible for error control and detection within the network."
+        },
+        {
+          "label": "C",
+          "text": "It regulates the amount of data that can be transmitted on one line"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Link Layer",
+      "subtopic": "Data Link Layer Functions",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "Which one of the following layers deals with problems that arise when packet travels from one network to another?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Transport layer"
+        },
+        {
+          "label": "B",
+          "text": "Physical layer"
+        },
+        {
+          "label": "C",
+          "text": "Data link layer"
+        },
+        {
+          "label": "D",
+          "text": "Network layer"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Network layer",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network Layer",
+      "subtopic": "Network Layer Functions",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "What is the main function of the network layer?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Routing"
+        },
+        {
+          "label": "B",
+          "text": "Congestion control"
+        },
+        {
+          "label": "C",
+          "text": "Both (A) and (B)"
+        },
+        {
+          "label": "D",
+          "text": "None of these."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Both (A) and (B)",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network Layer",
+      "subtopic": "Routing and Congestion Control",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "Which layer ensures interoperability among the communicating devices, and also computers to communicate even if their internal representation is different?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Session layer"
+        },
+        {
+          "label": "B",
+          "text": "Transport layer"
+        },
+        {
+          "label": "C",
+          "text": "Presentation layer"
+        },
+        {
+          "label": "D",
+          "text": "Application layer"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Presentation layer",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "OSI Reference Model",
+      "subtopic": "Presentation Layer",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "Which of the following is not a layer in TCP/IP reference model?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Application layer"
+        },
+        {
+          "label": "B",
+          "text": "Transport layer"
+        },
+        {
+          "label": "C",
+          "text": "Data link layer"
+        },
+        {
+          "label": "D",
+          "text": "Host to Network layer"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Data link layer",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "TCP/IP Reference Model",
+      "subtopic": "TCP/IP Layers",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "Suppose we want to transmit a character ‘C’, the binary value is 1000011 if we pass through an even parity generator then the output is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10000110"
+        },
+        {
+          "label": "B",
+          "text": "10000111"
+        },
+        {
+          "label": "C",
+          "text": "1000011"
+        },
+        {
+          "label": "D",
+          "text": "1000010"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "10000111",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Error Detection and Correction",
+      "subtopic": "Parity",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "What type of frames can be recognized by stop and wait protocols?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Damaged frames"
+        },
+        {
+          "label": "B",
+          "text": "Lost frames"
+        },
+        {
+          "label": "C",
+          "text": "Lost of acknowledgement frames"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Link Layer",
+      "subtopic": "Stop-and-Wait Protocol",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "IEEE project 802 divides the data link layer into two sub layers. What is the upper sublayer?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "LLC"
+        },
+        {
+          "label": "B",
+          "text": "MAC"
+        },
+        {
+          "label": "C",
+          "text": "PDU"
+        },
+        {
+          "label": "D",
+          "text": "HDLC"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "LLC",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Link Layer",
+      "subtopic": "LLC and MAC",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices\n\nCommon data for questions 19 and 20: When a data frame, arrives at the receiver, instead of sending an acknowledgement separately the receiver rests itself and waits until the network layer passes it the next packet. The acknowledgement is attached to the outgoing data frame.",
+      "text": "The technique of temporarily delaying outgoing ACK so that they can be hooked onto the next outgoing data frame is called______",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Pipelining"
+        },
+        {
+          "label": "B",
+          "text": "Piggybacking"
+        },
+        {
+          "label": "C",
+          "text": "Flooding"
+        },
+        {
+          "label": "D",
+          "text": "None"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Piggybacking",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Link Layer",
+      "subtopic": "Piggybacking",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices\n\nCommon data for questions 19 and 20: When a data frame, arrives at the receiver, instead of sending an acknowledgement separately the receiver rests itself and waits until the network layer passes it the next packet. The acknowledgement is attached to the outgoing data frame.",
+      "text": "Which layer implements technique of piggybacking?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Physical layer"
+        },
+        {
+          "label": "B",
+          "text": "Data link layer"
+        },
+        {
+          "label": "C",
+          "text": "Transport layer"
+        },
+        {
+          "label": "D",
+          "text": "Session layer"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Data link layer",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Link Layer",
+      "subtopic": "Piggybacking",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "What is the protocol used in one bit sliding window protocol?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Unrestricted simplex"
+        },
+        {
+          "label": "B",
+          "text": "Simplex stop and wait"
+        },
+        {
+          "label": "C",
+          "text": "Simplex protocol for noisy channel"
+        },
+        {
+          "label": "D",
+          "text": "Restricted duplex."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Simplex stop and wait",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Link Layer",
+      "subtopic": "Sliding Window Protocols",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "The technique of keeping the sender window appropriately in such a way, that it can continuously transmit frames for a time equal to the round trip time, so that acknowledgement of first frame will arrive just after transmitting the last frame, is called",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Flooding"
+        },
+        {
+          "label": "B",
+          "text": "Piggy backing"
+        },
+        {
+          "label": "C",
+          "text": "Pipelining"
+        },
+        {
+          "label": "D",
+          "text": "Selective repeat"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Pipelining",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Link Layer",
+      "subtopic": "Pipelining",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "Pick the incorrect statement from the following",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Go-Back-N method requires more storage at the receiving side."
+        },
+        {
+          "label": "B",
+          "text": "Selective repeat involves complex logic than Go-back-N"
+        },
+        {
+          "label": "C",
+          "text": "Go-back-N has better line utilization"
+        },
+        {
+          "label": "D",
+          "text": "Selective repeat has better line utilization"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Go-back-N has better line utilization",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Link Layer",
+      "subtopic": "Go-Back-N and Selective Repeat",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "In stop and wait flow control, to send ‘n’ data packets how many acknowledgements are needed.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$n$"
+        },
+        {
+          "label": "B",
+          "text": "$2n$"
+        },
+        {
+          "label": "C",
+          "text": "$n-1$"
+        },
+        {
+          "label": "D",
+          "text": "$n+1$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$n$",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Flow Control",
+      "subtopic": "Stop-and-Wait Flow Control",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "In sliding window flow control, if the window size is 64 what is the range of sequence numbers?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0 to 63"
+        },
+        {
+          "label": "B",
+          "text": "0 to 64"
+        },
+        {
+          "label": "C",
+          "text": "1 to 63"
+        },
+        {
+          "label": "D",
+          "text": "1 to 64"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "0 to 63",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Flow Control",
+      "subtopic": "Sliding Window",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "In Go-Back-N Automatic Repeat Request (ARR), if frames 4, 5, 6 are received successfully, the receiver will send which ACK number to the sender?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "7",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Link Layer",
+      "subtopic": "Go-Back-N ARQ",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "Which of the following are the responsibilities of a token ring monitor station?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Check to see that token is not lost"
+        },
+        {
+          "label": "B",
+          "text": "Taking action when ring breaks"
+        },
+        {
+          "label": "C",
+          "text": "Clearing the ring when garbled frames appear"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Link Layer",
+      "subtopic": "Token Ring",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices\n\nCommon data for questions 28 and 29: In ISO-OSI reference model the layer that provides necessary translation of different control codes, character set and graphic character and it ensures interoperability among communicating devices.",
+      "text": "The above explanation is about which of the following layers?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Session layer"
+        },
+        {
+          "label": "B",
+          "text": "Data link layer"
+        },
+        {
+          "label": "C",
+          "text": "Presentation layer"
+        },
+        {
+          "label": "D",
+          "text": "Application layer"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Presentation layer",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "OSI Reference Model",
+      "subtopic": "Presentation Layer",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices\n\nCommon data for questions 28 and 29: In ISO-OSI reference model the layer that provides necessary translation of different control codes, character set and graphic character and it ensures interoperability among communicating devices.",
+      "text": "What are the other tasks performed by the above layer?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Encryption and compression"
+        },
+        {
+          "label": "B",
+          "text": "Token management and synchronization"
+        },
+        {
+          "label": "C",
+          "text": "Error detection and error correction"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Encryption and compression",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "OSI Reference Model",
+      "subtopic": "Presentation Layer",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_1.pdf",
+      "direction": "Directions for questions 1 to 30: Select the correct alternative from the given choices",
+      "text": "The layer that takes a raw transmission and transforms it into a line that appears free of undetected transmission errors and it takes care of traffic regulation to keep fast transmitter from drowning slow receiver. The layer that provides these services is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Physical layer"
+        },
+        {
+          "label": "B",
+          "text": "Transport layer"
+        },
+        {
+          "label": "C",
+          "text": "Data link layer"
+        },
+        {
+          "label": "D",
+          "text": "Application layer"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Data link layer",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Link Layer",
+      "subtopic": "Data Link Layer Functions",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_1.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": false
+    }
+  }
+]

@@ -1,0 +1,2105 @@
+[
+  {
+    "id": "gate-quantitative-ability-test-2-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "Two men, two women and six part-time workers take 12 days to complete a job. The same job can be completed by 10 men and 18 part-timers in 4 days. If two men and three women take 16 days to complete that job, find the time taken by one woman to complete that job (in days).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "96"
+        },
+        {
+          "label": "B",
+          "text": "60"
+        },
+        {
+          "label": "C",
+          "text": "75"
+        },
+        {
+          "label": "D",
+          "text": "100"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "96",
+      "explanation": "Let the work done by 1 man, 1 woman and part-timer in a day be $m$, $w$ and $p$ units respectively.\nGiven $(2m+2w+6p)12=(10m+18p)4$.\n$24w=16m\\Rightarrow m=\\frac{3}{2}w$.\nWork done by 2 men and 3 women in 16 days $=[3w+3w]16=96w$.\nTime taken by 1 woman to complete that job $=\\frac{96w}{w}=96$ days. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Work and Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "A can complete a job in 20 days. B works twice as fast as A. They both work together for 5 days. On the 6th day, they complete the job with the help of C. Find the time taken by C alone to complete the job (in days).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "10",
+      "explanation": "A can do $\\frac{1}{20}$th of the job in a day. B can do $\\frac{1}{10}$th of the job in a day. In 6 days they will together complete $\\frac{9}{10}$th of the job. The balance $\\frac{1}{10}$th of the job is done by C on 6th day. Hence C would take 10 days to complete the job independently. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Work and Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "Four men take ten days to complete one-third of a work. How many more men are required to complete the remaining work in five days?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "14"
+        },
+        {
+          "label": "C",
+          "text": "15"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "12",
+      "explanation": "Four men can do one-third of the work in 10 days. In 5 days, one-third of the work can be completed by 8 men. Two-thirds of the work can be completed by 16 men. As there are 4 men, 12 men are required additionally. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Work and Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "A and B working separately can do a piece of work in 5 days and 10 days respectively. They work on alternate days starting with B on the first day. In how many days will the work be completed?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "7",
+      "explanation": "A can do the work in 5 days. The part of the work done by A in one day $=\\frac15$.\nB can do the work in 10 days. The part of the work done by B in one day $=\\frac1{10}$.\nBoth A and B in two days $=\\frac15+\\frac1{10}=\\frac3{10}$.\nThe part of the work done in 6 days $=3\\times\\frac3{10}=\\frac9{10}$.\nThe part of the remaining work $=1-\\frac9{10}=\\frac1{10}$.\nAs B starts the work, $\\frac1{10}$ of the work can be done by B on 7th day.\n$\\therefore$ In 7 days, the work will be completed. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Work and Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "A tank is fitted with three pipes A, B and C. The three pipes can be used as inlet or outlet pipes with the same flow rates. When one among A, B and C in turns works as outlet pipe and the other two as inlet pipes, it takes 30, 40 and 24 minutes to fill the tank respectively. Find the time taken by A to fill the empty tank (in minutes).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "30"
+        },
+        {
+          "label": "B",
+          "text": "40"
+        },
+        {
+          "label": "C",
+          "text": "25"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "30",
+      "explanation": "Let the time (in minutes) taken by A, B and C to either fill or empty the tank be $a,b,c$ respectively.\n$\\frac1b+\\frac1c-\\frac1a=\\frac1{30}$.\n$\\frac1c+\\frac1a-\\frac1b=\\frac1{40}$.\n$\\frac1a+\\frac1b-\\frac1c=\\frac1{24}$.\nAdding the above three equations, $\\frac1a+\\frac1b+\\frac1c=\\frac1{10}$.\nSubtracting the first equation from this, $\\frac2a=\\frac2{30}$, hence $a=30$. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Pipes and Cisterns",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "A and B take respectively 12 days and 27 days more time to complete a piece of work, working alone, than when they work together. Find the time taken by them to complete the work working together.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 days"
+        },
+        {
+          "label": "B",
+          "text": "20 days"
+        },
+        {
+          "label": "C",
+          "text": "24 days"
+        },
+        {
+          "label": "D",
+          "text": "18 days"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "18 days",
+      "explanation": "Let the time taken by A and B working together to complete the work be $t$ days. Time taken by A alone and B alone to complete the work is $(t+12)$ days and $(t+27)$ days respectively.\nWork done by A and B working together in a day $=\\frac1{t+12}+\\frac1{t+27}$ which is equal to $\\frac1t$.\n$\\frac1{t+12}+\\frac1{t+27}=\\frac1t$.\n$\\frac{2t+39}{(t+12)(t+27)}=\\frac1t$.\n$2t^2+39t=t^2+39t+324$.\n$t^2=324\\Rightarrow t=18$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Work and Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "A, B and C work together to complete a job. A gets ₹600 out of the total share of ₹2400. If A works twice as fast as B, find the share of C.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "₹1200"
+        },
+        {
+          "label": "B",
+          "text": "₹1500"
+        },
+        {
+          "label": "C",
+          "text": "₹1000"
+        },
+        {
+          "label": "D",
+          "text": "₹1600"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "₹1500",
+      "explanation": "As A gets $\\frac14$th of the total share, he completes $\\frac14$th of the total work. B, whose rate is half that of A, completes $\\frac18$th of the total work, for which he gets ₹300.\n$\\therefore$ Share of C $=2400-600-300=₹1500$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Work and Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "A, B and C work at the same rate. A starts the job and after 25% of the work is completed, he leaves. B and C take over and complete the remaining work together in 18 more days. Find the time for which A worked (in days).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "24"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "12",
+      "explanation": "The time taken by B and C together to complete $\\frac34$th of the work is 18 days.\n$\\therefore$ The time taken to complete 1 unit of work $=18\\times\\frac43=24$ days.\nThe time taken by each alone to complete the work $=(24)(2)=48$ days.\n$\\therefore$ The time taken by A to complete $\\frac14$th of the work $=\\frac14(48)=12$ days. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Work and Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "Six taps working together take 12 minutes to fill a tank. Find the time taken (in minutes) by 24 taps working together to fill a tank twice as big.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "24"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "6",
+      "explanation": "Time taken by 24 taps working together to fill the tank would be $\\frac14$ of the time taken by 6 taps working together, i.e. 3 minutes. To fill a tank twice as big, 24 taps would take 6 minutes working together. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Pipes and Cisterns",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "P can do a piece of work in 12 days working 6 hrs a day. Q can do the same work in 18 days working 5 hrs a day. If P and Q work together 4 hrs a day, then in how many days can they complete the work?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "11"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "10",
+      "explanation": "Time taken by P to complete the work in $12\\times6$, i.e. 72 man hours.\nTime taken by Q to complete the work in $18\\times5$, i.e. 90 man hours.\nThe part of the work done by P and Q in 1 hr $=\\frac1{72}+\\frac1{90}=\\frac{90+72}{72(90)}=\\frac1{40}$.\n$\\therefore$ They complete the work in 40 hours.\nBy working 4 hrs per day, they can complete in $\\frac{40}{4}=10$ days. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Work and Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "A, B and C can complete a piece of work in 20, 30 and 20 days respectively. They start the work together but A leaves after 5 days. After some more days C leaves. B completes the remaining work in 5/3 more days. For how many days does B work?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{10}{3}$"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{14}{3}$"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "10",
+      "explanation": "Let the total work be 1 unit.\n$\\frac5{20}+\\frac{x+5}{20}+\\frac{x+5+\\frac53}{30}=1$.\n$\\Rightarrow x=\\frac{10}{3}$.\nTime for which B worked $=x+5+\\frac53=10$ days. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Work and Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "A, B and C take 20, 30 and 60 days to complete a job. A works along with B on the 1st day and with C on the 2nd day. If they continue in this manner, then find the time taken (in days) to complete the work.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$12\\frac{5}{6}$"
+        },
+        {
+          "label": "B",
+          "text": "$18\\frac{4}{5}$"
+        },
+        {
+          "label": "C",
+          "text": "$14\\frac{1}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$13\\frac{1}{4}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$13\\frac{1}{4}$",
+      "explanation": "A and B complete $\\frac1{20}+\\frac1{30}$, i.e. $\\frac1{12}$ of the work on 1st day. A and C complete $\\frac1{20}+\\frac1{60}$, i.e. $\\frac1{15}$ of the work on the 2nd day. In 2 days, $\\frac3{20}$ of the work would be completed. Working in this way, $\\frac9{10}$ of the work would be completed in 12 days. Of the balance $\\frac1{10}$ of the work, A and B would complete $\\frac1{12}$ of the work the next day. A and C would complete the balance $\\frac1{60}$ of the work in another $\\frac14$ of a day. Hence a total of $13\\frac14$ days would be taken to complete the work. Choice (D)\n\nAlternate method:\nAssume the work (in units) to be the LCM of the individual time taken by A, B and C to complete the job i.e., 60 units. Capacities of A, B and C would be 6 units a day. A and B would complete 5 units the first day. A and C would complete 4 units the second day. Hence 9 units would be completed in two days. In 12 days, 54 units would be completed. Of the balance 6 units, 5 units would be completed the 13th day. The balance 1 unit would be completed in $\\frac14$th of the 14th day. Hence a total of $13\\frac14$ days would be taken to complete the work. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Work and Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "Amar can complete a job in 15 days, while Bhavan can complete it in 10 days. They start working together and two days before the work was expected to be completed, Bhavan left. Find the time taken by Amar to complete the remaining work (in days).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "5",
+      "explanation": "Amar and Bhavan would have taken 6 days to complete the job working together. Bhavan left after 4 days of the start of the work. In 4 days, Bhavan would have completed $\\frac4{10}$ i.e. $\\frac25$ of the work. Amar completes the remaining $\\frac35$ of the work for which he would have taken $\\frac35(15)$ i.e., 9 days. Hence Amar completes the remaining work in 5 days. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Work and Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "A pipe can fill a 1000 litre tank in 10 minutes while another pipe can empty a 600 litre tank in 8 minutes. If they work together, then how long will they take (in minutes) to fill a 500 litre tank?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "15"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "25"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "20",
+      "explanation": "Filling rate of first pipe $=\\frac{1000\\text{ lit}}{10\\text{ min}}=100$ lit/min.\nEmptying rate of second pipe $=\\frac{600\\text{ lit}}{8\\text{ min}}=75$ lit/min.\nWorking together they can fill 25 lit/min. Time taken by them working together to fill a 500 litre tank $=\\frac{500}{25}=20$ minutes. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Pipes and Cisterns",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "A and B can complete a job in 25 days and 20 days respectively, working alone. With the help of C, they can complete the job in $6\\frac{2}{3}$ days. Find the percentage of work completed by the fastest worker of the three.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$20\\frac{1}{3}\\\\%$"
+        },
+        {
+          "label": "B",
+          "text": "25%"
+        },
+        {
+          "label": "C",
+          "text": "40%"
+        },
+        {
+          "label": "D",
+          "text": "$16\\\\frac{2}{3}\\\\%$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "40%",
+      "explanation": "Let us assume that the third person takes $c$ days to complete the work independently. Total work completed by the three in a day, working together $=\\frac1{25}+\\frac1{20}+\\frac1c=\\frac1{6\\frac23}$.\n$\\frac1c=\\frac3{50}$.\nAs the third person completes most of the work in a day, he is the fastest.\nRatio of work completed by the three persons $=\\frac1{25}:\\frac1{20}:\\frac3{50}=4:5:6$.\nPercentage of work done by the third person $=\\frac6{4+5+6}(100\\%)=40\\%$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Work and Time",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 1 to 16: Select the correct alternative from the given choices.",
+      "text": "A tank has three inlet pipes I, II and III fitted to it whose flow rates are in the ratio 2 : 5 : 6. Pipe III takes 1 hour less than pipe II to fill the tank. Find the time (in hours) taken by pipe I to fill the tank.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "15",
+      "explanation": "Let the volume of the tank be $V$ litres. Let the filling rates of pipes I, II and III be $2x$, $5x$ and $6x$ respectively (in litres/hour).\n$\\frac{V}{6x}=\\frac{V}{5x}-1\\Rightarrow V=30x$.\nTime taken by pipe I to fill the tank $=\\frac{30x}{2x}=15$ hours. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Pipes and Cisterns",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 17 and 18: These questions are based on the following data.\nIn a city there are 5 major traffic junctions – A, B, C, D and E. There are no direct roads connecting AC, BE or CE but for every other pair of junctions, there are direct connecting roads, which all happen to be of equal length. Traffic moves at recommended uniform speeds on each road – at 20 km/hr on BD and AD, at 30 km/hr on AE, at 40 km/hr on BC and CD, and at 60 km/hr on AB and DE (Assume any direct connecting road is straight line).",
+      "text": "A traffic inspector wants to visit any three traffic junctions in the shortest possible time, starting from A. What are the three points that he can visit (other than A) in order if he drives at the recommended speed on each road?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "BCD"
+        },
+        {
+          "label": "B",
+          "text": "EDB"
+        },
+        {
+          "label": "C",
+          "text": "BDC"
+        },
+        {
+          "label": "D",
+          "text": "BDE"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "BCD",
+      "explanation": "The routes and recommended speeds are shown in the figure below. The routes and the time taken are tabulated below. We can take $AB=BC=CD=DB=AD=DE=EA=r$ km.\nRoute times:\n$(1)\\ ABCD=\\frac r{60}+\\frac r{40}+\\frac r{40}$.\n$(2)\\ AEDC=\\frac r{30}+\\frac r{60}+\\frac r{40}$.\n$(3)\\ AEDB=\\frac r{30}+\\frac r{60}+\\frac r{20}$.\n$(4)\\ ABDE=\\frac r{60}+\\frac r{20}+\\frac r{60}$.\nMultiplying all the time by LCM $(60,40,30,20)$ or 120, we get $8r,12r,9r,10r$ respectively. $\\therefore$ For ABCD the time is the least. Choice (A)",
+      "status": "confirmed",
+      "image": "images/Quantitative_Ability_3/quantitative_ability_3-q017-explanation.png"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 17 and 18: These questions are based on the following data.\nIn a city there are 5 major traffic junctions – A, B, C, D and E. There are no direct roads connecting AC, BE or CE but for every other pair of junctions, there are direct connecting roads, which all happen to be of equal length. Traffic moves at recommended uniform speeds on each road – at 20 km/hr on BD and AD, at 30 km/hr on AE, at 40 km/hr on BC and CD, and at 60 km/hr on AB and DE (Assume any direct connecting road is straight line).",
+      "text": "A new direct connecting road is constructed joining A and C with its recommended speed fixed at 50 km/hr. If AB = 10 km, find the time (in minutes) in which the traffic inspector can complete the round trip ABCA.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$12+25\\\\sqrt{3}$"
+        },
+        {
+          "label": "B",
+          "text": "$25+12\\\\sqrt{3}$"
+        },
+        {
+          "label": "C",
+          "text": "$24+12.5\\\\sqrt{3}$"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$25+12\\\\sqrt{3}$",
+      "explanation": "If AC and BE are also connected, each distance would be $\\sqrt3r$. The time for the round trip ABCD is\n$\\frac r{60}+\\frac r{40}+\\frac{\\sqrt3r}{50}\n=\\frac{10r+15r+12\\sqrt3r}{600}\n=\\frac{(25+12\\sqrt3)(10)}{600}$, since $r=10$ km.\n$=25+12\\sqrt3$ min. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 19 and 20: These questions are based on the following data.\nCities P, Q and A are in different time zones. P and Q are located at 4500 km, east and west of A respectively. The table below describes the schedule of an airline operating non-stop flights between A and P, A and Q. All the times indicated are local and on the same day.\nDeparture | Arrival\nCity | Time | City | Time\nA | 7 : 00 am | P | 3 : 00 pm\nA | 9 : 00 am | Q | 12 : 00 noon\nPlanes cruise at the same speed to both the cities but effective speed is influenced by a steady wind blowing from east to west at 75 kmph.",
+      "text": "What is the plane’s cruising speed (in kmph)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "825"
+        },
+        {
+          "label": "B",
+          "text": "900"
+        },
+        {
+          "label": "C",
+          "text": "875"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_3/quantitative_ability_3-q019-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "825",
+      "explanation": "Let the speed of the plane be $x$ km. Let the time difference between A and P be $t$ hours (i.e., P is $t$ hours ahead of A).\n$\\therefore$ The time difference between A and Q is $t$ hours (Q is $t$ hours behind A).\nWe have:\n$\\frac{4500}{x-75}=8-t$ … (1)\n$\\frac{4500}{x+75}=3+t$ … (2)\n(1) + (2) $\\Rightarrow 4500\\left[\\frac{2x}{x^2-75^2}\\right]=11$.\n$\\Rightarrow 11x^2-11(75)^2=9000x$.\n$\\therefore x=\\frac{9000+\\sqrt{(9000)^2-4(11)(-11)75^2}}{2(11)}\n=\\frac{9000+150(61)}{22}=825$.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 19 and 20: These questions are based on the following data.\nCities P, Q and A are in different time zones. P and Q are located at 4500 km, east and west of A respectively. The table below describes the schedule of an airline operating non-stop flights between A and P, A and Q. All the times indicated are local and on the same day.\nDeparture | Arrival\nCity | Time | City | Time\nA | 7 : 00 am | P | 3 : 00 pm\nA | 9 : 00 am | Q | 12 : 00 noon\nPlanes cruise at the same speed to both the cities but effective speed is influenced by a steady wind blowing from east to west at 75 kmph.",
+      "text": "What is the time difference between cities A and Q?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 hour"
+        },
+        {
+          "label": "B",
+          "text": "$2\\\\frac{1}{2}$ hours"
+        },
+        {
+          "label": "C",
+          "text": "2 hours"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Quantitative_Ability_3/quantitative_ability_3-q020-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "2 hours",
+      "explanation": "From (1), $\\frac{4500}{825-75}=8-t$.\n$\\Rightarrow 6=8-t\\Rightarrow t=2$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 21 to 35: Select the correct alternative from the given choices.",
+      "text": "Amar covered the first one-fourth of a certain distance at 2 km/hr, half of the remaining distance at 3 km/hr and the remaining distance at 4 km/hr. Find his average speed (in km/hr) for the entire journey.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2\\\\frac{7}{11}$"
+        },
+        {
+          "label": "B",
+          "text": "$2\\\\frac{8}{11}$"
+        },
+        {
+          "label": "C",
+          "text": "$2\\\\frac{9}{11}$"
+        },
+        {
+          "label": "D",
+          "text": "$2\\\\frac{10}{11}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$2\\\\frac{10}{11}$",
+      "explanation": "Let the total distance covered by Amar be $d$ km. Amar covered $\\frac d4$ km at 2 km/hr, $\\frac{3d}{8}$ km at 3 km/hr and $\\frac{3d}{8}$ km at 4 km/hr.\nTotal travel time of Amar $=\\frac d2+\\frac d8+\\frac{3d}{32}=\\frac{11d}{32}$ hours.\nAverage speed of Amar $=\\frac{\\text{Total distance he travelled}}{\\text{His total travel time}}\n=\\frac d{11d/32}=2\\frac{10}{11}$ hours. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 21 to 35: Select the correct alternative from the given choices.",
+      "text": "A man starts from P at 8 a.m. and reaches Q by 9 : 30 a.m. At what time should he start from Q to reach R at 11 : 30 a.m., where PQ : QR = 10 : 11?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 : 01 a.m."
+        },
+        {
+          "label": "B",
+          "text": "9 : 59 a.m."
+        },
+        {
+          "label": "C",
+          "text": "9 : 50 a.m."
+        },
+        {
+          "label": "D",
+          "text": "9 : 51 a.m."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "9 : 51 a.m.",
+      "explanation": "From Q to R, he has to cover $\\frac{11}{10}$ of the distance from P to Q.\n$\\therefore$ Time taken by him to reach R from Q will be $\\frac{11}{10}$ times the time taken by him to reach Q from P, i.e. $90$ minutes $\\times\\frac{11}{10}$.\n$\\therefore$ He needs 99 minutes.\nTo reach R by 11 : 30 a.m. he should start from Q at 9 : 51 a.m. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 21 to 35: Select the correct alternative from the given choices.",
+      "text": "A boat covered a certain distance upstream and returned to the starting point. If the speed of the boat in still water is doubled and the speed of the stream is tripled, it would have taken the same time for the round trip. Find the ratio of the speed of the boat in still water to the speed of the stream.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\\\sqrt{5}:\\\\sqrt{2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\\\sqrt{3}:\\\\sqrt{2}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\\\sqrt{7}:\\\\sqrt{2}$"
+        },
+        {
+          "label": "D",
+          "text": "3 : 2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\\\sqrt{7}:\\\\sqrt{2}$",
+      "explanation": "Let the distance travelled in each direction (upstream as well as downstream) be $d$ km. Let the speed of the boat in still water be $x$ km/hr and the speed of the stream be $y$ km/hr. Total travel time of the boat\n$=\\frac d{x+y}+\\frac d{x-y}$.\nNow the speed of the boat in still water and the speed of the stream are $2x$ km/hr and $3y$ km/hr respectively.\nTotal travel time $=\\frac d{2x+3y}+\\frac d{2x-3y}$.\nGiven,\n$\\frac d{x+y}+\\frac d{x-y}=\\frac d{2x+3y}+\\frac d{2x-3y}$.\n$\\frac{2dx}{x^2-y^2}=\\frac{4dx}{4x^2-9y^2}$.\n$dx(2x^2-7y^2)=0$.\nAs $dx$ cannot be 0, $\\frac{x}{y}=\\frac{\\sqrt7}{\\sqrt2}$\nActually from $2x^2-7y^2=0$, $\\frac{x}{y}=\\sqrt{\\frac72}=\\frac{\\sqrt7}{\\sqrt2}$. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Boats and Streams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 21 to 35: Select the correct alternative from the given choices.",
+      "text": "A boat started travelling downstream from a point A on a river. After it had travelled 12 km, a log started floating from A. The boat travels for 2 more hours in the same direction and then turns around and meets the log at a point 12 km from A. If the speed of the boat in still water is thrice the speed of the stream, find the speed of the stream (in km/hr).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 km/hr"
+        },
+        {
+          "label": "B",
+          "text": "2 km/hr"
+        },
+        {
+          "label": "C",
+          "text": "$\\\\frac{3}{2}$ km/hr"
+        },
+        {
+          "label": "D",
+          "text": "4 km/hr"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2 km/hr",
+      "explanation": "Let the point 12 km from A and the point where the boat turns back be B and C respectively. If the speed of the stream is $y$ km/hr, speed of the boat in still water $=3y$ km/hr. It travels for 2 hrs to cover BC.\n$\\therefore BC=(3y+y)2=8y$ km.\nTime taken by the boat to travel from C to B $=\\frac{8y}{3y-y}=4$ hr.\nAs the boat takes 6 hours to travel from B to C and back, $\\frac{12}{y}=6$ or $y=2$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Boats and Streams",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 21 to 35: Select the correct alternative from the given choices.",
+      "text": "In a race, A gives B a start of 25 m and C a start of 50 m. If B runs 50% faster than C and all the three reach the finishing point simultaneously, then find the ratio of the speeds of A and C.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 : 1"
+        },
+        {
+          "label": "B",
+          "text": "4 : 3"
+        },
+        {
+          "label": "C",
+          "text": "5 : 4"
+        },
+        {
+          "label": "D",
+          "text": "3 : 1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "2 : 1",
+      "explanation": "Let the length of the race be $x$ m. By the time A finishes the race, B and C would have run $(x-25)$ and $(x-50)$ m respectively.\nAs B is 50% faster than C, $\\frac{x-25}{x-50}=\\frac32\\Rightarrow x=100$.\nRatio of the speeds of A and C $=x:(x-50)=2:1$. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 21 to 35: Select the correct alternative from the given choices.",
+      "text": "In a 200 m race, A gives B a start of 10 m and beats him by 10 m or 2 seconds. Find the speed of A (in m/s).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\\\frac{200}{17}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\\\frac{150}{17}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\\\frac{125}{17}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\\\frac{50}{9}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\\\frac{50}{9}$",
+      "explanation": "Speed of B $=10/2=5$ m/s.\nTime for which B would have run when A finishes the race $=\\frac{200-(10+10)}5=36$ seconds.\nSo, A takes 36 seconds to run the race.\n$\\therefore$ Speed of A $=\\frac{200}{36}=\\frac{50}{9}$ m/s. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 21 to 35: Select the correct alternative from the given choices.",
+      "text": "On a 900 m long circular track, A, B and C start running from the same point simultaneously. A runs in the clockwise direction at 2 m/s while B and C run in the anti-clockwise direction at 3 m/s and 4 m/s respectively. Find the time interval (in seconds) between A and C meeting for the first time at the starting point and B and C meeting for the first time.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "600"
+        },
+        {
+          "label": "B",
+          "text": "450"
+        },
+        {
+          "label": "C",
+          "text": "750"
+        },
+        {
+          "label": "D",
+          "text": "800"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "450",
+      "explanation": "Time taken by A and C to meet for the first time at the starting point $=\\operatorname{LCM}\\left(\\frac{900}{2},\\frac{900}{4}\\right)=450$ sec.\nTime taken by B and C to meet for the first time $=\\frac{900}{\\text{Difference of the speeds of B and C}}=900$ seconds.\nRequired time interval is 450 seconds. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 21 to 35: Select the correct alternative from the given choices.",
+      "text": "A, B and C run along a circular track with speeds in the ratio 1 : 2 : 4 starting from the same point simultaneously. If A takes 3 minutes to complete one round of the track, find the time taken (in minutes) by the three to meet at the starting point for the first time.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "$\\\\frac{3}{2}$"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "3",
+      "explanation": "Let the speeds (in m/min) of A, B and C be $x,2x$ and $4x$ respectively. Let the length of the track be $L$ m. Given that the time taken by A to complete one round $=L/x=3$ minutes.\nTime taken by all the three to meet for the first time $=\\operatorname{LCM}\\left(\\frac Lx,\\frac L{2x},\\frac L{4x}\\right)=\\frac Lx=3$ minutes. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 21 to 35: Select the correct alternative from the given choices.",
+      "text": "Two men A and B start from two points P and Q simultaneously towards each other. They meet after two hours of their starting, B takes 3 hours less to reach P than A takes to reach Q. Find the ratio of the speeds of A and B.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 : 2"
+        },
+        {
+          "label": "B",
+          "text": "2 : 1"
+        },
+        {
+          "label": "C",
+          "text": "1 : 2"
+        },
+        {
+          "label": "D",
+          "text": "3 : 1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1 : 2",
+      "explanation": "Let the speeds of A and B be $x$ km/hr and $y$ km/hr respectively. Distance from P and Q to their first meeting point are $2x$ km and $2y$ km respectively. Times taken by A and B to reach Q and P from their first meeting point are $\\frac{2y}{x}$ hours and $\\frac{2x}{y}$ hours respectively.\n$\\frac{2y}{x}=\\frac{2x}{y}+3$.\nSubstituting the choices in the above equation, only $\\frac{x}{y}=\\frac12$ satisfies the condition. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 21 to 35: Select the correct alternative from the given choices.",
+      "text": "A man travels 51 km in 61 minutes and 30 seconds with an usual speed of 50 km/hr. There are some speed breakers on the road. Each speed breaker reduces his speed to 80% of his usual speed for a distance of 50 m about the speed breaker. Find the number of speed breakers that he crossed.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "20"
+        },
+        {
+          "label": "B",
+          "text": "25"
+        },
+        {
+          "label": "C",
+          "text": "30"
+        },
+        {
+          "label": "D",
+          "text": "35"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "20",
+      "explanation": "If the man covers the entire distance at the usual speed, he takes $\\frac{51}{50}$ hr or 1.02 hr $=1$ hr 1 min 12 s.\nBut he actually takes 1 hr 1 min 30 s, i.e., 18 s more.\nFor one speed breaker, he takes a certain extra time, which is\n$\\left(\\frac{0.05}{40}-\\frac{0.05}{50}\\right)$ hr\n$=\\frac{0.05}{10}\\left(\\frac1{4}\\right)$ hr\n$=\\frac5{200}$ s\n$=0.9$ s.\n$\\therefore$ He has to cross $\\frac{18}{0.9}=20$ speed breakers. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 21 to 35: Select the correct alternative from the given choices.",
+      "text": "When the speed of a train is increased by 5 m/s, it would take 40 seconds to cross a 200 m long platform. If it crosses a 300 m long platform in 50 seconds, at its original speed, then find the original speed of the train (in m/s).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "35"
+        },
+        {
+          "label": "B",
+          "text": "15"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "30"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "30",
+      "explanation": "Let the length of the train be $L$ m and speed of the train be $s$ m/sec. Time taken by the train to cross a 200 m long platform at increased speed $=\\frac{L+200}{s+5}=40$.\n$\\Rightarrow L=40s$.\nTime taken by the train to cross a 300 m long platform (in seconds) $=\\frac{L+300}{s}=50$.\nAs $L=40s$, $40s+300=50s$.\n$s=30$. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 21 to 35: Select the correct alternative from the given choices.",
+      "text": "Two trains take 80 seconds to cross each other, when travelling in the same direction. They take 60 seconds to cross each other, when travelling in opposite directions. Find the ratio of the speeds of the faster and the slower train.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 : 1"
+        },
+        {
+          "label": "B",
+          "text": "7 : 1"
+        },
+        {
+          "label": "C",
+          "text": "3 : 1"
+        },
+        {
+          "label": "D",
+          "text": "6 : 1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "7 : 1",
+      "explanation": "Let the lengths of the two trains be $L_1$ and $L_2$. Let the speeds of the faster and slower trains be $S_1$ and $S_2$ respectively.\n$\\frac{L_1+L_2}{S_1-S_2}=80\\Rightarrow L_1+L_2=80(S_1-S_2)$.\n$\\frac{L_1+L_2}{S_1+S_2}=60\\Rightarrow L_1+L_2=60(S_1+S_2)$.\n$80(S_1-S_2)=60(S_1+S_2)$.\n$20S_1=140S_2\\Rightarrow\\frac{S_1}{S_2}=7$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 21 to 35: Select the correct alternative from the given choices.",
+      "text": "There are two cars 80 km apart. When they travel in the same direction, they would take twice the time to meet, compared to the time they would take to meet while travelling towards each other. Find the ratio of their speeds.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 : 1"
+        },
+        {
+          "label": "B",
+          "text": "2 : 1"
+        },
+        {
+          "label": "C",
+          "text": "4 : 3"
+        },
+        {
+          "label": "D",
+          "text": "3 : 2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "3 : 1",
+      "explanation": "Let the speeds (in km/hr) of the faster and slower cars be $x$ and $y$ respectively. Time taken by the cars to meet when they travel in the same direction and in the opposite direction are $\\frac{80}{x-y}$ hours and $\\frac{80}{x+y}$ hours respectively.\n$\\frac{80}{x-y}=2\\left(\\frac{80}{x+y}\\right)$.\n$80(x+y)=160(x-y)$.\n$240y=80x$.\n$\\frac{x}{y}=3$. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 21 to 35: Select the correct alternative from the given choices.",
+      "text": "By travelling 20% faster than his usual speed, a person reaches his office from home 10 minutes earlier than his usual time. By how many minutes would he be delayed as compared with his usual time, if he travels 25% slower than his usual speed?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "15"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "25"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "20",
+      "explanation": "Let the usual speed of the man be $S$ km/hr. If he travels 20% faster, he would travel at $S+\\frac{20}{100}S=\\frac65S$ km/hr.\nAs his speed is $\\frac65$th of his usual speed, he would take $\\frac56$th of the usual time to travel to office. He saves one-sixth of his usual time = 10 minutes.\n$\\therefore$ His usual time = 60 minutes.\nIf he travels 25% slower than his usual speed, he would travel at $S-\\frac{25}{100}S=\\frac34S$.\nIf his speed is $\\frac34$ths of his usual speed, he would take $\\frac43$rds of the usual time to travel to office. He would be late by $\\frac13$rd of the usual time i.e. 20 minutes. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-quantitative-ability-test-2-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Quantitative Ability"
+    },
+    "question": {
+      "pdfName": "Quantitative_Ability_3.pdf",
+      "direction": "Directions for questions 21 to 35: Select the correct alternative from the given choices.",
+      "text": "A frog spots a snake 30 m behind it. It starts moving away from it at 12 m/s. After 5 seconds, it sees that the snake has just begun to move towards it at 20 m/s and increases its speed by 3 m/s. Find the time taken by the snake (in seconds) to catch the frog.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "18"
+        },
+        {
+          "label": "C",
+          "text": "21"
+        },
+        {
+          "label": "D",
+          "text": "24"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "18",
+      "explanation": "In 5 seconds, the frog would move 60 m. When the snake is spotted by the frog, the frog would be 90 m ahead of the snake.\nTime the snake would take to catch the frog (in seconds)\n$=\\frac{90}{\\text{Difference of speeds of snake and frog}}\n=\\frac{90}{20-15}=18$. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Quantitative Ability",
+      "topic": "Time, Speed and Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Quantitative_Ability_3.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

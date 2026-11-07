@@ -1,0 +1,1480 @@
+[
+  {
+    "id": "gate-engineering-mathematics-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "Find\n\\[\n\\lim_{x\\to0}\\frac{5^x-1}{\\sqrt{x^2-x+1}-1}.\n\\]",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\log_e 5$"
+        },
+        {
+          "label": "B",
+          "text": "$2\\log_e 5$"
+        },
+        {
+          "label": "C",
+          "text": "$-2\\log_e 5$"
+        },
+        {
+          "label": "D",
+          "text": "1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$-2\\log_e 5$",
+      "explanation": "Multiply numerator and denominator by \\(\\sqrt{x^2-x+1}+1\\). The expression becomes\n\\[\n\\lim_{x\\to0}\\frac{5^x-1}{x}\\cdot\n\\frac{\\sqrt{x^2-x+1}+1}{x-1}.\n\\]\nHence the value is\n\\[\n\\log_e5\\cdot\\frac{2}{-1}=-2\\log_e5.\n\\]\nChoice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Limits",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "If\n\\[\nf(x)=\n\\begin{cases}\nx^2+5x-13,&x<1,\\\\\nx-8,&x\\ge1,\n\\end{cases}\n\\]\nthen \\(\\displaystyle\\lim_{x\\to1}f(x)=\\)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "−8"
+        },
+        {
+          "label": "B",
+          "text": "−7"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "does not exist"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "−7",
+      "explanation": "We know\n\\[\n\\lim_{x\\to1}f(x)=\\lim_{x\\to1^-}f(x)=\\lim_{x\\to1^+}f(x).\n\\]\nThe left-hand limit is\n\\[\n\\lim_{x\\to1^-}(x^2+5x-13)=-7,\n\\]\nand the right-hand limit is\n\\[\n\\lim_{x\\to1^+}(x-8)=-7.\n\\]\nTherefore \\(\\lim_{x\\to1}f(x)=-7\\). Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Limits and continuity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "For \\(x\\ne0\\), let\n\\[\nf(x)=\\frac{e^{1/x}}{1-e^{1/x}},\n\\]\nand \\(f(0)=0\\). Then \\(f(x)\\) is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "continuous at \\(x=0\\)."
+        },
+        {
+          "label": "B",
+          "text": "not continuous at \\(x=0\\)."
+        },
+        {
+          "label": "C",
+          "text": "continuous everywhere."
+        },
+        {
+          "label": "D",
+          "text": "none of these."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "not continuous at \\(x=0\\).",
+      "explanation": "As \\(x\\to0^-\\),\n\\[\n\\lim_{x\\to0^-}\\frac{e^{1/x}}{1-e^{1/x}}=\\frac{0}{1-0}=0.\n\\]\nAs \\(x\\to0^+\\),\n\\[\n\\lim_{x\\to0^+}\\frac{e^{1/x}}{1-e^{1/x}}\n=\\lim_{x\\to0^+}\\frac{1}{e^{-1/x}-1}=-1.\n\\]\nSince the left- and right-hand limits are unequal, \\(f(x)\\) is not continuous at \\(x=0\\). Choice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Continuity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "If \\(f(x)=a[x-5]+b[x+5]\\) is continuous at \\(x=5\\), then the value of \\(a+b\\) (\\([x]\\) is the greatest integer less than or equal to \\(x\\)) is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "0",
+      "explanation": "Write\n\\[\nf(x)=a([x]-5)+b([x]+5).\n\\]\nFor \\(x\\to5^-\\),\n\\[\n\\lim_{x\\to5^-}f(x)=-a+9b.\n\\]\nFor \\(x\\to5^+\\),\n\\[\n\\lim_{x\\to5^+}f(x)=10b.\n\\]\nContinuity at \\(x=5\\) gives \\(-a+9b=10b\\), hence \\(a+b=0\\). Choice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Continuity and greatest integer function",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "If\n\\[\nf(x)=\n\\begin{cases}\n\\dfrac{\\sqrt{x}-3}{x-9},&x\\ne9,\\\\\n3k,&x=9,\n\\end{cases}\n\\]\nis continuous everywhere, then \\(k\\) is equal to ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac12$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac13$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac19$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac1{18}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\frac1{18}$",
+      "explanation": "Since \\(f(x)\\) is continuous at \\(x=9\\),\n\\[\n\\lim_{x\\to9}\\frac{\\sqrt{x}-3}{x-9}=3k.\n\\]\nBy L'Hospital's Rule,\n\\[\n\\lim_{x\\to9}\\frac{1}{2\\sqrt{x}}=\\frac16=3k.\n\\]\nTherefore\n\\[\nk=\\frac1{18}.\n\\]\nChoice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Continuity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "If \\(y=ax^2+3\\log x+bx\\) has its extreme value at \\(x=1\\) and \\(x=-1\\), then the value of \\(2a-b\\) is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "0"
+        },
+        {
+          "label": "C",
+          "text": "−1"
+        },
+        {
+          "label": "D",
+          "text": "−3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "−3",
+      "explanation": "Let \\(f(x)=ax^2+3\\log x+bx\\). Then\n\\[\nf'(x)=2ax+\\frac3x+b.\n\\]\nGiven that \\(f(x)\\) has extreme values at \\(x=-1\\) and \\(x=1\\), \\(f'(-1)=0\\) and \\(f'(1)=0\\). From \\(f'(-1)=0\\),\n\\[\n-2a+b=3,\n\\]\nso\n\\[\n2a-b=-3.\n\\]\nChoice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Maxima and minima",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "If \\(xy=6\\), then find the minimum value of \\(2x+3y\\), \\(x,y\\in\\mathbb{R}^+\\).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "15"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "12",
+      "explanation": "Given \\(xy=6\\), \\(y=6/x\\). Therefore\n\\[\n2x+3y=2x+\\frac{18}{x}.\n\\]\nLet \\(f(x)=2x+18/x\\). Then\n\\[\nf'(x)=2-\\frac{18}{x^2},\\qquad f''(x)=\\frac{36}{x^3}>0.\n\\]\nFor a maximum or minimum, \\(f'(x)=0\\):\n\\[\n2-\\frac{18}{x^2}=0\\Rightarrow x=3.\n\\]\nThen \\(y=6/x=2\\). Hence the minimum value is\n\\[\n2(3)+3(2)=12.\n\\]\nChoice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Maxima and minima",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "Which of the following functions have neither maximum nor minimum?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{1}{2x}$"
+        },
+        {
+          "label": "B",
+          "text": "$4x+7$"
+        },
+        {
+          "label": "C",
+          "text": "$e^{5x+1}$"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": "For \\(f(x)=1/(2x)\\), \\(f'(x)\\ne0\\) for real \\(x\\) in its domain. For \\(f(x)=4x+7\\), \\(f'(x)=4\\ne0\\). For \\(f(x)=e^{5x+1}\\), \\(f'(x)=5e^{5x+1}\\ne0\\). Hence none of the three functions has either a maximum or minimum value. Choice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Maxima and minima",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "Find the maximum value of the function \\(f(x)=3x^4-2x^3-6x^2+6x+1\\) in the interval \\([-1,2]\\).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{39}{16}$"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "21"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "21",
+      "explanation": "Let\n\\[\nf(x)=3x^4-2x^3-6x^2+6x+1.\n\\]\nThen\n\\[\nf'(x)=12x^3-6x^2-12x+6.\n\\]\nSetting \\(f'(x)=0\\),\n\\[\n2x^3-x^2-2x+1=0=(x-1)(x+1)(2x-1).\n\\]\nThus \\(x=\\pm1,\\frac12\\). Evaluate at the critical points and endpoints:\n\\[\n\\max\\left\\{f(-1),f\\left(\\frac12\\right),f(1),f(2)\\right\\}\n=\\max\\left\\{-6,\\frac{39}{16},2,21\\right\\}=21.\n\\]\nChoice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Maxima and minima",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "Let \\(f(x)\\) and \\(g(x)\\) be two continuous functions in \\([a,b]\\) and differentiable in \\((a,b)\\) and \\(g'(x)\\ne0\\) for any \\(x\\in(a,b)\\), then there exists at least one value \\(c\\in(a,b)\\), by Cauchy mean value theorem which of the following is true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\displaystyle\\frac{f^2(c)}{g'(c)}=\\frac{f(b)-g(a)}{g(b)+f(a)}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\displaystyle\\frac{g'(c)}{f'(c)}=\\frac{f(b)+g(b)}{f(a)+f(b)}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\displaystyle\\frac{f'(c)}{g'(c)}=\\frac{f'(b)-f'(a)}{g'(b)-g'(a)}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\displaystyle\\frac{f'(c)}{g'(c)}=\\frac{f(b)-f(a)}{g(b)-g(a)}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\displaystyle\\frac{f'(c)}{g'(c)}=\\frac{f(b)-f(a)}{g(b)-g(a)}$",
+      "explanation": "This is the standard result of Cauchy's mean value theorem. Choice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Cauchy's mean value theorem",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "If the function \\(f(x)=(\\sin2x)e^{-2x}\\) satisfies Rolle's theorem in the interval \\(\\left(0,\\frac{\\pi}{2}\\right)\\), then the value of \\(c\\in\\left(0,\\frac{\\pi}{2}\\right)\\) such that \\(f'(c)=0\\) is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{\\pi}{8}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac{\\pi}{4}$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\pi}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{\\pi}{3}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\frac{\\pi}{8}$",
+      "explanation": "Given \\(f(x)=e^{-2x}\\sin2x\\),\n\\[\nf'(x)=\\sin2x(-2e^{-2x})+2\\cos2x\\,e^{-2x}\n=2e^{-2x}(\\cos2x-\\sin2x).\n\\]\nFor \\(f'(c)=0\\),\n\\[\n\\sin2c=\\cos2c\\Rightarrow\\tan2c=1.\n\\]\nThus\n\\[\nc=\\frac{\\pi}{8}\\in\\left(0,\\frac{\\pi}{2}\\right).\n\\]\nChoice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Rolle's theorem",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "By using Lagrange's mean value theorem for \\(f(x)=x(x+2)(x-1)\\), find \\(c\\) for \\(c\\in(-1,0)\\).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$-\\frac13$"
+        },
+        {
+          "label": "B",
+          "text": "$-\\frac34$"
+        },
+        {
+          "label": "C",
+          "text": "$-\\frac23$"
+        },
+        {
+          "label": "D",
+          "text": "$-\\frac45$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$-\\frac23$",
+      "explanation": "Given \\(f(x)=x(x+2)(x-1)\\), it is continuous on \\([-1,0]\\) and differentiable on \\((-1,0)\\). Here \\(a=-1,\\ b=0\\),\n\\[\nf(b)=0,\\qquad f(a)=(-1)(1)(-2)=2,\n\\]\nand\n\\[\nf'(x)=3x^2+2x-2.\n\\]\nBy Lagrange's mean value theorem,\n\\[\nf'(c)=\\frac{f(b)-f(a)}{b-a}=\\frac{0-2}{1}=-2.\n\\]\nHence\n\\[\n3c^2+2c-2=-2\\Rightarrow3c^2+2c=0.\n\\]\nThus \\(c=0\\) or \\(c=-\\frac23\\). Since \\(c\\in(-1,0)\\),\n\\[\nc=-\\frac23.\n\\]\nChoice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Lagrange's mean value theorem",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "If\n\\[\nu=\\tan^{-1}\\left(\\frac{x^3-y^3}{x+y}\\right),\n\\]\nthen the value of\n\\[\nx\\frac{\\partial u}{\\partial x}+y\\frac{\\partial u}{\\partial y}\n\\]\nis",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2\\sin u$"
+        },
+        {
+          "label": "B",
+          "text": "$2\\tan u$"
+        },
+        {
+          "label": "C",
+          "text": "$\\sin2u$"
+        },
+        {
+          "label": "D",
+          "text": "$2\\cos2u$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\sin2u$",
+      "explanation": "Let\n\\[\n\\tan u=\\frac{x^3-y^3}{x+y}.\n\\]\nThis is a homogeneous function of degree \\(2\\). By Euler's theorem,\n\\[\nx\\frac{\\partial(\\tan u)}{\\partial x}\n+y\\frac{\\partial(\\tan u)}{\\partial y}=2\\tan u.\n\\]\nSince\n\\[\n\\frac{\\partial(\\tan u)}{\\partial x}=\\sec^2u\\frac{\\partial u}{\\partial x},\n\\qquad\n\\frac{\\partial(\\tan u)}{\\partial y}=\\sec^2u\\frac{\\partial u}{\\partial y},\n\\]\nwe get\n\\[\nx\\frac{\\partial u}{\\partial x}+y\\frac{\\partial u}{\\partial y}\n=\\frac{2\\tan u}{\\sec^2u}\n=2\\sin u\\cos u\n=\\sin2u.\n\\]\nChoice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Euler's theorem for homogeneous functions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "If \\(f(x,y)\\) is a homogeneous function of degree \\(n\\), then the value of\n\\[\ny\\frac{\\partial^2f}{\\partial y^2}\n+x\\frac{\\partial^2f}{\\partial x\\,\\partial y}\n=\n\\]",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$n\\frac{\\partial f}{\\partial x}$"
+        },
+        {
+          "label": "B",
+          "text": "$(n-1)\\frac{\\partial f}{\\partial y}$"
+        },
+        {
+          "label": "C",
+          "text": "$(n-1)\\frac{\\partial f}{\\partial x}$"
+        },
+        {
+          "label": "D",
+          "text": "$n\\frac{\\partial f}{\\partial y}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$(n-1)\\frac{\\partial f}{\\partial y}$",
+      "explanation": "By Euler's theorem,\n\\[\nx\\frac{\\partial f}{\\partial x}+y\\frac{\\partial f}{\\partial y}=nf.\n\\]\nDifferentiating partially with respect to \\(y\\),\n\\[\nx\\frac{\\partial^2f}{\\partial x\\partial y}\n+\\frac{\\partial f}{\\partial y}\n+y\\frac{\\partial^2f}{\\partial y^2}\n=n\\frac{\\partial f}{\\partial y}.\n\\]\nTherefore\n\\[\ny\\frac{\\partial^2f}{\\partial y^2}\n+x\\frac{\\partial^2f}{\\partial x\\partial y}\n=(n-1)\\frac{\\partial f}{\\partial y}.\n\\]\nChoice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Euler's theorem for homogeneous functions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "If\n\\[\nu=\\cos^{-1}\\left(\\frac{x^3+2y^3-4z^3}{x^7-y^7-z^7}\\right),\n\\]\nthen the value of\n\\[\n\\sum_{x,y,z}x\\frac{\\partial u}{\\partial x}\n\\]\nis",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$4\\cot u$"
+        },
+        {
+          "label": "B",
+          "text": "$-4\\tan u$"
+        },
+        {
+          "label": "C",
+          "text": "$-4\\cos u$"
+        },
+        {
+          "label": "D",
+          "text": "$-4\\sin u$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$4\\cot u$",
+      "explanation": "Let\n\\[\n\\cos u=\\frac{x^3+2y^3-4z^3}{x^7-y^7-z^7}=f.\n\\]\nThe function \\(f\\) is homogeneous of degree \\(-4\\). By Euler's theorem,\n\\[\nx\\frac{\\partial f}{\\partial x}\n+y\\frac{\\partial f}{\\partial y}\n+z\\frac{\\partial f}{\\partial z}=-4f.\n\\]\nSince \\(f=\\cos u\\),\n\\[\n-\\left(\nx\\frac{\\partial u}{\\partial x}\\sin u+\ny\\frac{\\partial u}{\\partial y}\\sin u+\nz\\frac{\\partial u}{\\partial z}\\sin u\n\\right)=-4\\cos u.\n\\]\nHence\n\\[\nx\\frac{\\partial u}{\\partial x}\n+y\\frac{\\partial u}{\\partial y}\n+z\\frac{\\partial u}{\\partial z}=4\\cot u.\n\\]\nChoice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Euler's theorem for homogeneous functions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "If \\(z=\\ln(x^2+y^3)\\), then",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$3x\\frac{\\partial z}{\\partial x}=2y\\frac{\\partial z}{\\partial y}$"
+        },
+        {
+          "label": "B",
+          "text": "$3x\\frac{\\partial z}{\\partial x}+2y\\frac{\\partial z}{\\partial y}=6$"
+        },
+        {
+          "label": "C",
+          "text": "$x\\frac{\\partial z}{\\partial x}-y\\frac{\\partial z}{\\partial y}=0$"
+        },
+        {
+          "label": "D",
+          "text": "$2y\\frac{\\partial z}{\\partial x}+3x\\frac{\\partial z}{\\partial y}=6$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$3x\\frac{\\partial z}{\\partial x}+2y\\frac{\\partial z}{\\partial y}=6$",
+      "explanation": "Given \\(z=\\ln(x^2+y^3)\\),\n\\[\n\\frac{\\partial z}{\\partial x}=\\frac{2x}{x^2+y^3},\n\\qquad\n\\frac{\\partial z}{\\partial y}=\\frac{3y^2}{x^2+y^3}.\n\\]\nTherefore\n\\[\n3x\\frac{\\partial z}{\\partial x}\n+2y\\frac{\\partial z}{\\partial y}\n=\\frac{6x^2+6y^3}{x^2+y^3}=6.\n\\]\nChoice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Partial differentiation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "The value of the definite integral\n\\[\n\\int_0^1(x^2-2x+3)e^{-x}\\,dx\n\\]\nis ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$3+4e$"
+        },
+        {
+          "label": "B",
+          "text": "$3-4e$"
+        },
+        {
+          "label": "C",
+          "text": "$3+\\frac4e$"
+        },
+        {
+          "label": "D",
+          "text": "$3-\\frac4e$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$3-\\frac4e$",
+      "explanation": "Using integration by parts,\n\\[\n\\int (x^2-2x+3)e^{-x}\\,dx\n=(x^2-2x+3)(-e^{-x})-(2x-2)(e^{-x})+2(-e^{-x}).\n\\]\nEvaluating from \\(0\\) to \\(1\\) gives\n\\[\n3-4e^{-1}=3-\\frac4e.\n\\]\nChoice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Definite integration",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "Evaluate\n\\[\n\\int_0^{\\pi/2}\\frac{3\\sec x+4\\cosec x}{\\sec x+\\cosec x}\\,dx.\n\\]",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{7\\pi}{4}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac72$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{5\\pi}{4}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{7\\pi}{2}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\frac{7\\pi}{4}$",
+      "explanation": "Using\n\\[\n\\int_0^a f(x)\\,dx=\\int_0^a f(a-x)\\,dx,\n\\]\nlet\n\\[\nI=\\int_0^{\\pi/2}\\frac{3\\sec x+4\\cosec x}{\\sec x+\\cosec x}\\,dx.\n\\]\nReplacing \\(x\\) by \\(\\frac\\pi2-x\\) gives\n\\[\nI=\\int_0^{\\pi/2}\\frac{3\\cosec x+4\\sec x}{\\cosec x+\\sec x}\\,dx.\n\\]\nAdding the two expressions,\n\\[\n2I=\\int_0^{\\pi/2}7\\,dx=\\frac{7\\pi}{2}.\n\\]\nHence\n\\[\nI=\\frac{7\\pi}{4}.\n\\]\nChoice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Definite integration",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "Evaluate\n\\[\n\\int_0^\\infty\\frac{x^2}{(1+x^2)^{5/2}}\\,dx.\n\\]",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac23$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac13$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\pi}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{\\pi}{3}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\frac13$",
+      "explanation": "Let \\(x=\\tan\\theta\\), so \\(dx=\\sec^2\\theta\\,d\\theta\\). When \\(x=0\\), \\(\\theta=0\\), and when \\(x=\\infty\\), \\(\\theta=\\frac\\pi2\\). Then\n\\[\nI=\\int_0^{\\pi/2}\n\\frac{\\tan^2\\theta\\,\\sec^2\\theta}{(1+\\tan^2\\theta)^{5/2}}\\,d\\theta\n=\\int_0^{\\pi/2}\\sin^2\\theta\\cos\\theta\\,d\\theta\n=\\left[\\frac{\\sin^3\\theta}{3}\\right]_0^{\\pi/2}\n=\\frac13.\n\\]\nChoice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Improper integrals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "Evaluate\n\\[\n\\int_1^4\\frac{dx}{(x-2)(x-3)}.\n\\]",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac12$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac13$"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac23$"
+        },
+        {
+          "label": "D",
+          "text": "diverges"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "diverges",
+      "explanation": "Split the integral at its discontinuities:\n\\[\n\\int_1^4\\frac{dx}{(x-2)(x-3)}\n=\n\\int_1^2\\frac{dx}{(x-2)(x-3)}\n+\\int_2^3\\frac{dx}{(x-2)(x-3)}\n+\\int_3^4\\frac{dx}{(x-2)(x-3)}.\n\\]\nSince the integrand has a discontinuity at \\(x=2\\), the first integral diverges. Hence the given integral diverges. Choice (D).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Improper integrals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "Evaluate\n\\[\n\\int_0^\\infty\\frac{dx}{9+x^2}.\n\\]",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac{\\pi}{2}$"
+        },
+        {
+          "label": "B",
+          "text": "−"
+        },
+        {
+          "label": "C",
+          "text": "$\\frac{\\pi}{6}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\frac{\\pi}{3}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\frac{\\pi}{6}$",
+      "explanation": "Write\n\\[\n\\int_0^\\infty\\frac{dx}{9+x^2}\n=\\lim_{a\\to\\infty}\\int_0^a\\frac{dx}{9+x^2}\n=\\lim_{a\\to\\infty}\\frac13\\left[\\tan^{-1}\\left(\\frac{x}{3}\\right)\\right]_0^a.\n\\]\nThus\n\\[\n\\lim_{a\\to\\infty}\\frac13\\tan^{-1}\\left(\\frac a3\\right)\n=\\frac13\\cdot\\frac\\pi2\n=\\frac\\pi6.\n\\]\nChoice (C).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Improper integrals",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "The area bounded by the curve \\(y^2=x+2\\) and \\(y=x-4\\) (in sq units) is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$20\\frac56$"
+        },
+        {
+          "label": "B",
+          "text": "$15\\frac56$"
+        },
+        {
+          "label": "C",
+          "text": "$12\\frac23$"
+        },
+        {
+          "label": "D",
+          "text": "$18\\frac34$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$20\\frac56$",
+      "explanation": "The curves \\(y^2=x+2\\) and \\(y=x-4\\) intersect at \\((2,-2)\\) and \\((7,3)\\). Therefore\n\\[\n\\text{Area}=\\int_{-2}^{3}\\left[(y+4)-(y^2-2)\\right]dy.\n\\]\nHence\n\\[\n\\text{Area}\n=\\left[\\frac{y^2}{2}+4y-\\frac{y^3}{3}+2y\\right]_{-2}^{3}\n=\\frac{125}{6}\n=20\\frac56\\text{ sq units}.\n\\]\nChoice (A).",
+      "status": "confirmed",
+      "image": "images/Engineering_mathematics_2/gate-engineering-mathematics-test-1-q022-explanation-figure.png"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Area between curves",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "The area bounded by the curves \\(y^2=9ax\\) and \\(x^2=9ay\\) is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$54a^2$"
+        },
+        {
+          "label": "B",
+          "text": "$48a^2$"
+        },
+        {
+          "label": "C",
+          "text": "$36a^2$"
+        },
+        {
+          "label": "D",
+          "text": "$27a^2$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$27a^2$",
+      "explanation": "The two curves intersect at \\((0,0)\\) and \\((9a,9a)\\). The required area is\n\\[\n\\int_0^{9a}\\left(\\sqrt{9ax}-\\frac{x^2}{9a}\\right)dx.\n\\]\nTherefore\n\\[\n=3\\sqrt a\\left[\\frac{x^{3/2}}{3/2}\\right]_0^{9a}\n-\\frac1{9a}\\left[\\frac{x^3}{3}\\right]_0^{9a}\n=54a^2-27a^2\n=27a^2.\n\\]\nChoice (D).",
+      "status": "confirmed",
+      "image": "images/Engineering_mathematics_2/gate-engineering-mathematics-test-1-q023-figure.png"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Area between curves",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "The volume of the solid formed by the revolution of the area \\(A\\) about \\(y\\)-axis is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\displaystyle\\iint_A 2\\pi x\\,dx\\,dy$"
+        },
+        {
+          "label": "B",
+          "text": "$\\displaystyle\\iint_A 2\\pi y\\,dx\\,dy$"
+        },
+        {
+          "label": "C",
+          "text": "$\\displaystyle\\iint_A \\pi x^2\\,dx\\,dy$"
+        },
+        {
+          "label": "D",
+          "text": "$\\displaystyle\\iint_A \\pi y^2\\,dx\\,dy$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\displaystyle\\iint_A 2\\pi x\\,dx\\,dy$",
+      "explanation": "Standard result. Choice (A).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Volume by revolution",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-engineering-mathematics-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Engineering Mathematics"
+    },
+    "question": {
+      "pdfName": "Engineering_mathematics_2.pdf",
+      "text": "The Taylor's series expansion of \\(2e^x+3\\sin x\\) about \\(x=0\\) is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\displaystyle 2+5x+x^2+\\frac{x^3}{6}+\\frac{x^4}{12}+\\frac{x^5}{24}+\\cdots$"
+        },
+        {
+          "label": "B",
+          "text": "$\\displaystyle 2+5x+x^2-\\frac{x^3}{6}+\\frac{x^4}{12}+\\frac{x^5}{24}+\\cdots$"
+        },
+        {
+          "label": "C",
+          "text": "$\\displaystyle 2+5x+x^2+\\frac{x^3}{6}-\\frac{x^4}{12}+\\frac{x^5}{24}+\\cdots$"
+        },
+        {
+          "label": "D",
+          "text": "$\\displaystyle 2+5x+x^2+\\frac{x^3}{6}+\\frac{x^4}{12}+\\frac{x^5}{24}+\\cdots$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\displaystyle 2+5x+x^2-\\frac{x^3}{6}+\\frac{x^4}{12}+\\frac{x^5}{24}+\\cdots$",
+      "explanation": "Using the Taylor series,\n\\[\n2e^x+3\\sin x\n=2\\left(1+x+\\frac{x^2}{2!}+\\frac{x^3}{3!}+\\frac{x^4}{4!}+\\cdots\\right)\n+3\\left(x-\\frac{x^3}{3!}+\\frac{x^5}{5!}-\\cdots\\right).\n\\]\nCombining terms,\n\\[\n2+5x+x^2-\\frac{x^3}{3!}+\\frac{x^4}{12}+\\frac{x^5}{24}+\\cdots.\n\\]\nChoice (B).",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Taylor series",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 1",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

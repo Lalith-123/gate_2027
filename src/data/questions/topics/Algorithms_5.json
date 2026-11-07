@@ -1,0 +1,1513 @@
+[
+  {
+    "id": "gate-algorithms-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Suppose ‘G’ is an undirected graph, Then which of the following is TRUE?\nI. If G is a tree, there is a unique path between any 2 vertices in G.\nII. If G = (V, E) is connected and E = V − 1, then G is a tree.\nIII. Deleting an edge from a cycle cannot disconnect a graph.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only II"
+        },
+        {
+          "label": "B",
+          "text": "Only III"
+        },
+        {
+          "label": "C",
+          "text": "Only I, II"
+        },
+        {
+          "label": "D",
+          "text": "I, II and III"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "I, II and III",
+      "explanation": "All the statements are TRUE.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graph theory",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider an array with ‘n’ values, to return the maximum sum of 3 values in an array. What is the time complexity of performing this task?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "O(n)"
+        },
+        {
+          "label": "B",
+          "text": "O(n² log n)"
+        },
+        {
+          "label": "C",
+          "text": "O(n²)"
+        },
+        {
+          "label": "D",
+          "text": "O(log n)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "O(n²)",
+      "explanation": "First sort the given array with ‘n’ values. In the worst case sorting takes O(n²) time.\nLast ‘3’ values in the array can be added in constant time.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Sorting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What is the length of longest increasing subsequence of ‘6, 4, 5, 2, 7, 11, 8, 12, 13, 9, 10’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "3",
+      "explanation": "6 4 5 2 7 11 8 12 13 9 10\nLongest increasing subsequence length is 3\n(i) 2 7 11\n(ii) 8 12 13. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Dynamic programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider 2 sequences, S = gacggattag, and X = gatcggaatag. What is the length of Longest common subsequence?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "11"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "9",
+      "explanation": "S = gac gga t tag\nX = ga t c gga a tag\nLCS = {g a c g g a t a g}\nLength = 9. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Dynamic programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "How does the key in a node compared to the keys of its children in\nI. Binary search tree\nII. A Max HEAP\nP. node. key > node.left.key, node.right.key\nQ. node.left.key < node.key < node.right.key\nWhich of the following is correct?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I–P, II–Q"
+        },
+        {
+          "label": "B",
+          "text": "I–P, II–P"
+        },
+        {
+          "label": "C",
+          "text": "I–Q, II–P"
+        },
+        {
+          "label": "D",
+          "text": "I–Q, II–Q"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "I–Q, II–P",
+      "explanation": "Binary search tree:\nnode ⋅ left. key < node. key < node × right. key\nmax heap:\nnode. key > node. left . key, node. right. key.\n\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Trees",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "A hash table has 11 slots, uses the hash function h(k) = k mod 11 and collisions are resolved by separate chaining, what is the minimum chain length in the hash table, after inserting these elements:\n3, 43, 8, 11, 14, 25",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "0",
+      "explanation": "Hash function is h(k) = k mod 11\n3 mod 11 = 3\n43 mod 11 = 10\n8 mod 11 = 8\n11 mod 11 = 0\n14 mod 11 = 3\n25 mod 11 = 3\nThe minimum chain length is ‘0’, from the hash values it is clear that, the chains with slot numbers 1, 2, 4, 5, 6, 7, 9 are empty.\nWe do not need to construct a hash table to check the chain lengths.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Hashing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which priority queue implementations, with N elements allow for new entries to be inserted in O(1) time?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sorted array"
+        },
+        {
+          "label": "B",
+          "text": "MAX HEAP"
+        },
+        {
+          "label": "C",
+          "text": "MIN HEAP"
+        },
+        {
+          "label": "D",
+          "text": "Unsorted array"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Unsorted array",
+      "explanation": "To insert an element in a sorted array we need to check for the correct position of the element. In the worst case it will take ‘n’ comparisons.\nIn max-heap and min-heap, we need (log n) time to insert an element.\nIn unsorted array simply keep the element at the end of the array.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Priority queues",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "In order to search for an element in a dynamic set, which of the following techniques is the asymptotically most time efficient in the worst case for the search operation?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Store the element in an unsorted array and apply linear search."
+        },
+        {
+          "label": "B",
+          "text": "Store the element in a hash table and use hashing."
+        },
+        {
+          "label": "C",
+          "text": "Store the element in a sorted array and apply binary search."
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Store the element in a hash table and use hashing.",
+      "explanation": "Searching an element in a hash table using hashing takes constant time usually, it is the efficient search method, but its implementation depends on hash function, table size etc. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Hashing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following problems have solutions (algorithms) that run in θ(n) time in the worst case?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Finding the median of ‘n’ integers"
+        },
+        {
+          "label": "B",
+          "text": "Finding the sum of ‘n’ integers"
+        },
+        {
+          "label": "C",
+          "text": "Finding the largest of ‘n’ integers"
+        },
+        {
+          "label": "D",
+          "text": "All the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All the above",
+      "explanation": "• Median of ‘n’ integers can be finded by traversing the entire list. It takes θ(n) time.\n• Sum of ‘n’ integers take (n − 1) computation which requires θ(n) time.\n• For finding largest of ‘n’ number it requires (n − 1) comparisions which requires θ(n) time.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Asymptotic analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following: (Here h( ) is a hash function).\nI. h(k₁) = h(k₂) even for k₁ ≠ k₂\nII. h(k₁) ≠ h(k₂) for k₁ < k₂ always\nIII. h(k₁) = h(k₂) for k₁ > k₂ always\nWhich of the following is TRUE?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I only"
+        },
+        {
+          "label": "B",
+          "text": "I and II"
+        },
+        {
+          "label": "C",
+          "text": "II and III"
+        },
+        {
+          "label": "D",
+          "text": "I, II and III"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "I only",
+      "explanation": "Suppose h(k) = k mod 5\nk₁ = 10, k₂ = 15\nI. I–TRUE\nII. k₁ = 6, k₂ = 11\n6 mod 5 = 1, 11 mod 5 = 1\nII–False\nIII. k₁ = 16, k₂ = 14\n16 mod 5 = 1, 14 mod 5 = 4\nIII–false. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Hashing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Let ‘OPT’ be an optimal solution and ‘x’ the solution we found.\nIf OPT equals x then we are done otherwise, we can find another optimal solution that ‘agrees more with x’ which of the following algorithm has in first attempt ‘OPT = x’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fractional knapsack"
+        },
+        {
+          "label": "B",
+          "text": "Travelling sales person problem"
+        },
+        {
+          "label": "C",
+          "text": "Kruskals algorithm"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Kruskals algorithm",
+      "explanation": "Kruskals algorithm is used to construct a minimum spanning tree, in the first attempt itself we will get optimal solution. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Greedy algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Match the following algorithm with its time complexity.\nI. Dijkstras algorithm — P. O(E + V) log V\nII. Prims algorithm — Q. O(E + V)\nIII. Breadth first search\nIV. Depth first search",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I–P, II–P, III–P, IV–Q"
+        },
+        {
+          "label": "B",
+          "text": "I–P, II–P, III–Q, IV–Q"
+        },
+        {
+          "label": "C",
+          "text": "I–Q, II–Q, III–P, IV–P"
+        },
+        {
+          "label": "D",
+          "text": "I–Q, II–P, III–P, IV–Q"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_5/algorithms_5-q012-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "I–P, II–P, III–Q, IV–Q",
+      "explanation": "Dijkstras Algorithm and prims algorithm implementation is similar.\nTime complexity is O(E + V) log V\nDepth first search and Breadth first search has same time complexity O(E + V). Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graph algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The distance matrix of a graph with vertices A, B, C, and D is given below:\n\\[\n\\begin{array}{c|cccc}\n & A & B & C & D\\\\\nA&0&1&\\infty&\\infty\\\\\nB&\\infty&0&2&4\\\\\nC&3&\\infty&0&1\\\\\nD&1&\\infty&\\infty&0\n\\end{array}\n\\]\nThe shortest path from B to D consists of edge(s) ________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "BC and CD"
+        },
+        {
+          "label": "B",
+          "text": "BD"
+        },
+        {
+          "label": "C",
+          "text": "AB and CD"
+        },
+        {
+          "label": "D",
+          "text": "There is no shortest path"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_5/algorithms_5-q013-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "BC and CD",
+      "explanation": "From the given matrix, the graph is drawn\nShortest path from B to D ⇒ = (BC − CD)\n= 2 + 1 =3. Choice (A)",
+      "status": "confirmed",
+      "image": "images/Algorithms_5/algorithms_5-q013-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graph algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Match the following:\nSorting algorithm / Programming paradigm\nI. Insertion sort — P. Dynamic programming\nII. Selection sort — Q. Divide and conquer\nIII. Merge sort — R. Greedy algorithm\nIV. Quick sort — S. Back tracking",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I–P, II–R, III–Q, IV–Q"
+        },
+        {
+          "label": "B",
+          "text": "I–P, II–R, III–Q, IV–S"
+        },
+        {
+          "label": "C",
+          "text": "I–R, II–P, III–Q, IV–Q"
+        },
+        {
+          "label": "D",
+          "text": "I–R, II–P, III–Q, IV–S"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_5/algorithms_5-q014-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "I–P, II–R, III–Q, IV–Q",
+      "explanation": "• Insertion sort is a quadratic time sorting algorithm. It is an example of dynamic programming.\n• Selection sort is a quadratic time sorting algorithm, It is an example of greedy algorithm.\n• Merge sort and Quick sort are examples of Divide and conquer approach. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Sorting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Given a set of objects with (Weight, Profit) pair, and a knapsack of limited weight capacity (M), find a subset of objects for the knapsack to maximize total profit ‘p’.\nObjects (Weight, Profit) = {(3, 2), (4, 3), (10, 21), (6, 4)}\nM = 9 (using 0/1 knapsack)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "21"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "6",
+      "explanation": "M = 9\n(i) Weight = 3 + 4 ≤ 9\nProfit = 2 + 3 = 5\n(ii) Weight = 3 + 6 ≤ 9\nProfit = 2 + 4 = 6. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Dynamic programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "There are multiple ways to order the multiplication of 4 matrices A, B, C, D: (A(BC)D), A(B(CD)), (AB) (CD), ((AB)C)D, A((BC)D).\nEfficiency depends on number of scalar multiplications, in the case of (A(BC))D it is\n1 × 4 × 3 + 5 × 1 × 3 + 5 × 3 × 6 = 117\nIn the case of (A(B(CD))), it is\n4 × 3 × 6 + 1 × 4 × 6 + 5 × 1 × 6 = 126\nWhat are the dimensions of A, B, C, D respectively?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5 × 1, 1 × 4, 4 × 6, 6 × 3"
+        },
+        {
+          "label": "B",
+          "text": "4 × 3, 3 × 5, 5 × 6, 6 × 1"
+        },
+        {
+          "label": "C",
+          "text": "5 × 1, 1 × 4, 4 × 3, 3 × 6"
+        },
+        {
+          "label": "D",
+          "text": "1 × 4, 4 × 3, 3 × 5, 5 × 6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "5 × 1, 1 × 4, 4 × 3, 3 × 6",
+      "explanation": "(A (B (CD)) = 4 × 3 × 6 + 1 × 4 × 6 + 5 × 1 × 6\nFirst (CD) = 4 × 3 × 6\n[C]₄×₃ × [D]₃×₆ = [Res 1]₄×₆\n(B Res 1) = 1 × 4 × 6\n[B]₁×₄ [Res 1]₄×₆ = [Res 2]₁×₆\n(A Res 2) = 5 × 1 × 6\n[A]₅×₁ [Res 2]₁×₆ = [Res 3]₅×₆\n∴ A = 5 × 1,\nB = 1 × 4,\nC = 4 × 3,\nD = 3 × 6. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Dynamic programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Suppose that the symbols a, b, c, d, e occur with frequencies \\(\\frac{1}{36}, \\frac{1}{36}, \\frac{1}{12}, \\frac{1}{9}, \\frac{5}{36}\\), then what is the Huffman Encoding of the alphabets a, b, c respectively?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1101, 111, 1101"
+        },
+        {
+          "label": "B",
+          "text": "1100, 1101, 111"
+        },
+        {
+          "label": "C",
+          "text": "1100, 10, 0"
+        },
+        {
+          "label": "D",
+          "text": "1101, 1100, 111"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_5/algorithms_5-q017-explanation.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1100, 1101, 111",
+      "explanation": "a = 1/36 = 0.02\nb = 1/36 = 0.02\nc = 1/12 = 0.08\nd = 1/9 = 0.11\ne = 5/36 = 0.13\nHuffman tree:\nHuffman codes\na = 1100, b = 1101, c = 111, d = 10, e = 0. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Greedy algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "We are given ‘n’ positive integers a₁, ..., aₙ. The goal is to select a subset of the numbers with maximal sum such that no three consecutive numbers are selected.\nSequence is ‘7 5 6 3 8 12 9 13 14 10 11’\nWhat is the maximal sum?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "66"
+        },
+        {
+          "label": "B",
+          "text": "68"
+        },
+        {
+          "label": "C",
+          "text": "69"
+        },
+        {
+          "label": "D",
+          "text": "72"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "69",
+      "explanation": "7 5 6 3 8 12 9 13 14 10 11\n12 + 11 + 22 + 21 = 66\n7 5 6 3 8 12 9 13 14 10 11\n11 + 20 + 27 + 11 = 69. Choice (C)",
+      "status": "confirmed",
+      "image": "images/Algorithms_5/algorithms_5-q018-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Dynamic programming",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the coin change problem with coin values 1, 5, 6, Does the greedy algorithm always find an Optional solution?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "No, for even numbers"
+        },
+        {
+          "label": "B",
+          "text": "Yes, for odd numbers"
+        },
+        {
+          "label": "C",
+          "text": "Yes, for even numbers"
+        },
+        {
+          "label": "D",
+          "text": "No"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "No",
+      "explanation": "Coin values 1, 5, 6.\nValue = 20\n(i) Greedy Algorithm\n6 + 6 + 6 + 1 + 1\n⇒ 5 coins\n(ii) Brute-Force\n5 + 5 + 5 + 5\n⇒ 4 coins\nValue = 21\n(iii) Greedy Algorithm\n6 + 6 + 6 + 1 + 1 + 1\n⇒ 6 coins\n(iv) Brute Force\n5 + 5 + 5 + 5 + 1\n⇒ 5 coins. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Greedy algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "If a data structure supports an operation ‘foo’ such that a sequence of ‘n’ foo operations take θ(n log n) time to perform in the worst case, then the amortized time of a ‘foo’ operation is θ(____)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "θ(n)"
+        },
+        {
+          "label": "B",
+          "text": "θ(log n)"
+        },
+        {
+          "label": "C",
+          "text": "θ(log n)"
+        },
+        {
+          "label": "D",
+          "text": "θ(n)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "θ(log n)",
+      "explanation": "Amortized time is θ (log n)\nWorst case time is θ (n log n). Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Amortized analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following statements:\nI. Computing the median of ‘n’ elements takes Ω(n log n) time for any algorithm working in the comparison based model.\nII. Let ‘T’ be a minimum spanning tree of G, then for any pair of vertices ‘a’ and ‘b’ the shortest path from ‘a’ to ‘b’ in G is the path from ‘a’ to ‘b’ in T.\nWhich of the following is CORRECT?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I–TRUE, II–False"
+        },
+        {
+          "label": "B",
+          "text": "I–TRUE, II–TRUE"
+        },
+        {
+          "label": "C",
+          "text": "I–False, II–TRUE"
+        },
+        {
+          "label": "D",
+          "text": "I–False, II–False"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "I–False, II–False",
+      "explanation": "• Computing a median of ‘n’ elements takes θ(n) time as it has to traverse ‘n’ elements.\n• The shortest path between 2 vertices need not be same in the Minimum spanning tree and in graph.\nConsider following graph G\nThe MST for the above graph ‘G’ is\nThe shortest path from A to C is 1 in graph ‘G’ where as, it is 2 in MST. Choice (D)",
+      "status": "confirmed",
+      "image": "images/Algorithms_5/algorithms_5-q021-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Graph algorithms",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Below are the contents of an array of some sorting algorithm sorting it.\nIdentify the algorithm from given steps:\n12 39 2 94 23 77 52 9\n12 39 2 94 23 77 52 9\n2 12 39 94 23 77 52 9\n2 12 39 94 23 77 52 9\n2 12 23 39 94 77 52 9\n2 12 23 39 77 94 52 9\n2 12 23 39 52 77 94 9\n2 9 12 23 39 52 77 94",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Quick sort"
+        },
+        {
+          "label": "B",
+          "text": "Selection sort"
+        },
+        {
+          "label": "C",
+          "text": "Insertion sort"
+        },
+        {
+          "label": "D",
+          "text": "Bubble sort"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Insertion sort",
+      "explanation": "12 39 2 94 23 77 52 9\n2 39 12 94 23 77 52 9\n2 12 39 94 23 77 52 9\n2 12 23 39 94 77 52 9\n2 12 23 39 77 94 52 9\n2 12 23 39 77 52 9\n2 12 23 39 52 77 94 9\n∴ 2 9 12 23 39 52 77 94\n∴ Insertion sort. Choice (C)",
+      "status": "confirmed",
+      "image": "images/Algorithms_5/algorithms_5-q022-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Sorting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Below are the contents of an array of some sorting algorithm sorting it.\nIdentify the algorithm from given steps:\n12 39 02 94 23 77 52 09\n12 02 52 23 94 77 39 09\n02 09 12 23 39 52 77 94",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Selection sort"
+        },
+        {
+          "label": "B",
+          "text": "Heap sort"
+        },
+        {
+          "label": "C",
+          "text": "Bubble sort"
+        },
+        {
+          "label": "D",
+          "text": "Radix sort"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Radix sort",
+      "explanation": "Given elements 12 39 02 94 23 77 52 09\nFirst sort elements based on least significant digit\n12 02 52 23 94 77 39 09.\nSort the above elements based on second least significant digit.\n02 09 12 23 39 52 77 94\n∴ The above sorting algorithm is ‘Radix–Sort’. Choice (D)",
+      "status": "confirmed",
+      "image": "images/Algorithms_5/algorithms_5-q023-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Sorting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Suppose that we have possible keys [0, 1, ..., n² − 1] for a hash table of size ‘n’, what is the greatest number of distinct keys the table can hold with each of the following separate chaining, Linear probing, Quadratic probing, collision resolution strategies respectively?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "n, n, n²"
+        },
+        {
+          "label": "B",
+          "text": "n², n, n²"
+        },
+        {
+          "label": "C",
+          "text": "n², n, n"
+        },
+        {
+          "label": "D",
+          "text": "n², n², n²"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "n², n, n",
+      "explanation": "The available elements are [0, 1, 2, ..., n² − 1]\nThere are n² elements.\nSeparate chaining has unlimited space, it can save all the n² elements.\nLinear probing:\nIt will have ‘n’ slots, so maximum we can store ‘n’ values.\nQuadratic probing:\nLike linear probing, it will also have ‘n’ slots.\nWe can store only ‘n’ values. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Hashing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-algorithms-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Algorithms"
+    },
+    "question": {
+      "pdfName": "Algorithms_5.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Given these 2 states of an array, the second one results from the first pass of which sorting algorithm?\n14 5 21 4 16 31 17 8 11\n5 14 4 16 21 17 8 11 31",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Insertion sort"
+        },
+        {
+          "label": "B",
+          "text": "Selection sort"
+        },
+        {
+          "label": "C",
+          "text": "Merge sort"
+        },
+        {
+          "label": "D",
+          "text": "Bubble sort"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Algorithms_5/algorithms_5-q025-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Bubble sort",
+      "explanation": "Bubble sort, compares adjacent elements, if not in order swaps them.\n14 5 21 4 16 31 17 8 11\n5 14 21 4 16 31 17 8 11\n5 14 4 21 16 31 17 8 11\n5 14 4 16 21 31 17 8 11\n5 14 4 16 21 17 31 8 11\n5 14 4 16 21 17 8 31 11\n5 14 4 16 21 17 8 11 31.\nChoice (D)",
+      "status": "confirmed",
+      "image": "images/Algorithms_5/algorithms_5-q025-explanation.png"
+    },
+    "classification": {
+      "subject": "Algorithms",
+      "topic": "Sorting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Algorithms_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

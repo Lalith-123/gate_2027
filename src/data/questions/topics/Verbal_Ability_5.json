@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "gate-verbal-ability-test-4-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 1 to 8: Four alternative summaries are given below each text. Choose the option that best captures the essence of the text.",
+      "text": "An experiment is an observation that can be repeated, isolated and varied. The more frequently you can repeat an observation, the more likely are you to see clearly what is there and to describe accurately what you have seen. The more strictly you can isolate an observation, the easier does your task of observation become, and the less danger is there of being led astray by irrelevant circumstances, or of placing emphasis on the wrong point. The more widely you can vary an observation, the more clearly will the uniformity of experience stand out and the better is your chance of discovering laws.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is essential that scientific experiments be repeated, isolated and varied because repetition increases accuracy, isolation facilitates observation and variety increases the chance of discovering laws."
+        },
+        {
+          "label": "B",
+          "text": "Isolation and repetition of experiments help in reducing the possibility of error in observation. The lesser the margin of error, the better is the chance of discovering new laws."
+        },
+        {
+          "label": "C",
+          "text": "Scientific experiments should be isolated, repeated and varied. Repetition helps to see clearly and isolation reduces the chance of being led astray. But it is uniformity in the variety that gives a better chance of discovering laws."
+        },
+        {
+          "label": "D",
+          "text": "An experiment should be isolated, repeated and varied. They help in observing things clearly and accurately. They also increase the chance of discovering new laws."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "It is essential that scientific experiments be repeated, isolated and varied because repetition increases accuracy, isolation facilitates observation and variety increases the chance of discovering laws.",
+      "explanation": "The main points are:\n(1) An experiment is repeated to increase accuracy.\n(2) It is isolated to make the task of observation easier.\n(3) Variety in experiments gives a better chance of discovering laws.\nChoice A covers all the important points and hence can be called its summary. Choice B does not say anything about ‘variety’. Choice C is not as clear or comprehensible as choice A. Choice D does not specify what helps in what aspect.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Summary / Reading Comprehension",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 1 to 8: Four alternative summaries are given below each text. Choose the option that best captures the essence of the text.",
+      "text": "Aristotle in his little treatise on ‘Definitions’ suggests that every good definition has two parts, stands on two solid feet: first it assigns the object in question to a class or group whose general characteristics are also its own - so man is, first of all, an animal : and secondly, it indicates wherein the object differs from all the other members in its class - so man, in Aristotelian system, is a rational animal, his ‘specific difference’ is that unlike all other animals he is rational. Aristotle drops an object into the ocean of its class, then takes it out all dripping with generic meaning with the marks of its kind and group; while its individuality and difference shine out all the more clearly for this juxtaposition with other objects that resemble it so much and are so different.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A good definition is like a man standing on two solid feet. It not only helps in assigning an object to a generic group but also shows the differences and dissimilarities to make it shine out of the group."
+        },
+        {
+          "label": "B",
+          "text": "Aristotle suggests that man as an object has to be defined first as an animal and then shown to be different from other animals in his rationality. Such an interpretation helps in revealing the unique characteristic of an object."
+        },
+        {
+          "label": "C",
+          "text": "In order to define an object, Aristotle first assigns it to its class and then points out its dissimilarities. Such a comparison makes its individuality more conspicuous."
+        },
+        {
+          "label": "D",
+          "text": "According to Aristotle, any good definition of an object has two parts, one that identifies it with its group and the other that shows its uniqueness. A definition that includes both these will help in identifying the individuality of the object."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "In order to define an object, Aristotle first assigns it to its class and then points out its dissimilarities. Such a comparison makes its individuality more conspicuous.",
+      "explanation": "The main points are:\n(1) Aristotle says any good definition of an object has two parts.\n(2) The first is to assign the object to its class or genre with which it has common features.\n(3) The second is to indicate where and how it is unique.\n(4) Juxtaposing it with objects of the same kind helps in identifying its individuality.\nChoice A does not mention ‘Aristotle’ and Choice B focuses on the definition of ‘man’ in particular and then says ‘object’. Hence A and B can be ruled out. Choice C summarises the passage. The idea given in the last sentence of choice D is incorrect.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Summary / Reading Comprehension",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 1 to 8: Four alternative summaries are given below each text. Choose the option that best captures the essence of the text.",
+      "text": "Sociologists are often criticized for their use of jargon, their apparent predilection to develop new words while at the same time giving new and often strange meanings to old and familiar terms. The charges are often justified. Equally often they go beyond reason. Systematic discussion is impossible if one does not work with more or less precisely defined terms. Without a technical language, scientific communication becomes cumbersome and inefficient. In the humanities too, the desire to be more precise in analysis leads to the elaboration of technical terms.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sociologists are often criticized for the use of strange jargon and for giving extended meaning to familiar terms. But they are justified in doing so as such usage makes their analysis more precise and systematic."
+        },
+        {
+          "label": "B",
+          "text": "Critics are justified in their charge against the sociologists for their use of strange jargon or for giving extended meaning to familiar terms. But the sociologists give the example of the scientists to justify their stand."
+        },
+        {
+          "label": "C",
+          "text": "In a desire to be more precise in their analysis sociologists develop new words or give strange meaning to old terms. Their justification is that only such extension of meaning can help them in systematic discussions."
+        },
+        {
+          "label": "D",
+          "text": "While critics are justified in accusing sociologists of using strange jargons and for giving extended meaning to familiar terms, sociologist use such terms in their desire to be more precise and systematic in their discussions and analysis."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "While critics are justified in accusing sociologists of using strange jargons and for giving extended meaning to familiar terms, sociologist use such terms in their desire to be more precise and systematic in their discussions and analysis.",
+      "explanation": "The main points are:\n(1) Sociologists use strange jargon or give extended meaning to familiar terms.\n(2) They are criticized for doing this.\n(3) But they have their reasons.\n(4) They do it in a desire to be more precise and systematic in their analysis.\nChoice A is incorrect as it says’ . . . They are justified to do so . . .’ which is not stated in the passage. It is the critics ‘who are justified’. The second sentence in choice B makes it incorrect. ‘The charges/criticism . . .’ is not mentioned in choice C. Choice D precisely summarizes the passage.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Summary / Reading Comprehension",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 1 to 8: Four alternative summaries are given below each text. Choose the option that best captures the essence of the text.",
+      "text": "How big is your footprint? We’re not talking about whether you walk around in dainty Cinderalla’s slippers or size 18 Wellington boots, but rather the size of the damaging dent that you leave in the Earth’s environment and its resources while going about your daily life. One way of finding out if your impact on the world is like teetering on tiptoes or stomping about in steel-capped boots is to measure your personal ecological and carbon footprints. A carbon foot print is a measurement of the effect you have on the climate in terms of the total amount of greenhouse gases that your actions cause to be produced, while an ecological footprint is a measure of the amount of productive land required to support your resource demands and to absorb the waste you produce.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Is your footprint on the environment like walking on tiptoe or stomping around in steel boots? That is what is measured by ecological footprint - the land you require for resources to meet your needs, the waste you dump and the greenhouse gases that you cause."
+        },
+        {
+          "label": "B",
+          "text": "How much we impact our environment is measured by carbon footprint and ecological footprint - the former a measure of the greenhouse gases we are responsible for and the latter the land we need for resources and waste."
+        },
+        {
+          "label": "C",
+          "text": "If one walks around daintily like Cinderella, one harms the environment less than if one tramps around in boots. The greenhouse gases one emits, the waste one generates and the resources one needs, all measure the damage one inflicts on one’s surrounding."
+        },
+        {
+          "label": "D",
+          "text": "The effect our actions have on our environment is measured by carbon footprint, the amount of land we need to sustain ourselves, the waste and greenhouse gases generated by us are noted to arrive at this figure."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "How much we impact our environment is measured by carbon footprint and ecological footprint - the former a measure of the greenhouse gases we are responsible for and the latter the land we need for resources and waste.",
+      "explanation": "The main points in the text are:\n(1) The damage we inflict on our surrounding is measured by carbon footprint and ecological footprint.\n(2) Carbon footprint measures the greenhouse gases that is emitted because of us.\n(3) Ecological footprint measures the land we need for resources and for dumping waste.\nChoice A misses carbon footprint.\nChoice B is the right answer.\nThe first sentence in choice C makes an absurd suggestion.\nChoice D mixes up the concept of ecological footprint and carbon footprint.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Summary / Reading Comprehension",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 1 to 8: Four alternative summaries are given below each text. Choose the option that best captures the essence of the text.",
+      "text": "It’s clear that in many countries protected areas are seriously compromised. The dramatic rise of hunting for bushmeat in west and central Africa over the past 30 years has been well documented, as has the explosion in the past decade of illegal logging in southeast Asia. But elsewhere, protected areas face more insidious threats. The Dong Hua Sao National Biodiversity Conservation Area in Laos, for example, has suffered a gradual erosion of its boundaries at the hands of coffee growers keen to take advantage of its rich volcanic soil. The reasons for such pressures are varied and complex, but they often include population growth, land pressure, poverty, corruption and poor law enforcement.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "While hunting and logging are generally considered the main threat to protected areas, a greater evil is the gradual occupation of land by people living around who are attracted by its fertile land."
+        },
+        {
+          "label": "B",
+          "text": "Population growth, poverty, and corruption have led people in Laos to gradually occupy the land under conservation for biodiversity. Thus it is a greater challenge than the rise in hunting for bushmeat in west and central Africa or logging in southeast Asia."
+        },
+        {
+          "label": "C",
+          "text": "Protected areas are threatened by hunting and logging as also by subtle actions like poaching on its land for cultivation. The main reason for the threat are population pressure on land, poverty and corruption."
+        },
+        {
+          "label": "D",
+          "text": "Poaching by coffee growers of protected land is as much a threat as hunting and logging in Asia. The villain of the piece is, however, corruption and poor law enforcement."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Protected areas are threatened by hunting and logging as also by subtle actions like poaching on its land for cultivation. The main reason for the threat are population pressure on land, poverty and corruption.",
+      "explanation": "The main points in the text are:\n(1) Hunting and logging are a threat to protected areas.\n(2) A more subtle threat is illegal occupation of forest land by cultivators.\n(3) The reason for all the above is pressure of population on land, poverty, corruption and poor law enforcement.\nChoice A is wrong because it calls poaching ‘a greater evil’, not stated in the passage. Choice B becomes too specific by mentioning Laos, west and central Africa and southeast Asia. Choice D is again specific as it talks of coffee growers. Choice C is appropriate.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Summary / Reading Comprehension",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 1 to 8: Four alternative summaries are given below each text. Choose the option that best captures the essence of the text.",
+      "text": "Two decades after the event, and the word ‘Chernobyl’ still carries a lot of baggage but then, we’re still 25,000 years away from being clean. The meltdown at Reactor 4 of the Soviet nuclear power station was caused by an unnecessary low-power test, an experiment to determine whether the reactor could restart itself with all external power shut off. The result was a black fireball that blew the reactor’s roof off and spread radiation across much of the Northern Hemisphere. Equally toxic was the Soviet government’s initial response : a three-day silence as to the dangers of the situation. Protective foam was sprayed around the nearby towns, Chernobyl and Pripyat, whose combined population was 135,000, but otherwise, life proceeded as normal - children played in the foam, marched in the May Day parade and breathed in the contaminated air. While the official death toll remains at 41, who knows how many fatalities resulted from the delay in evacuating these towns?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Twenty years after Chernobyl, caused by an experiment, we are still emotionally involved and haven’t been able to wipe out the radiation that spread over the Northern Hemisphere. No one knows how many deaths have resulted from the Soviet government’s refusal to evacuate the people in the region."
+        },
+        {
+          "label": "B",
+          "text": "Chernobyl was caused by an unnecessary test that affected millions. The Soviet government’s low-keyed response led to many more deaths though officially it is only 41. We are still emotionally swayed by the memory and are far from cleaning up the mess."
+        },
+        {
+          "label": "C",
+          "text": "The Soviet government’s reaction to Chernobyl was as poisonous as the gas it emitted. The government’s apathy led to millions of avertable deaths and we still do not know how to stop the radiation from continuing and spreading."
+        },
+        {
+          "label": "D",
+          "text": "Chernobyl spread radiation across the Northern Hemisphere and affected so many that two decades later we are still emotionally affected by the memory. The Soviet government put up a brave front by not evacuating the people and spraying foam to contain the radiation."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Chernobyl was caused by an unnecessary test that affected millions. The Soviet government’s low-keyed response led to many more deaths though officially it is only 41. We are still emotionally swayed by the memory and are far from cleaning up the mess.",
+      "explanation": "The main points in the text are:\n(1) Chernobyl still evokes poignant memories after 20 years and we are far from cleaning up the mess.\n(2) It was caused by an unnecessary experiment.\n(3) The Soviet government did not act immediately and we do not know how many deaths were caused by the failure of the government to evacuate the people.\nThe original para does not mention that the Soviet government refused to evacuate people. It was reluctant and delayed the process. So, choice A is a distortion. Choice C distorts in calling the radiation ‘a gas’, and it leaves out many important points. Choice D distorts in saying ‘the Soviet government put up a brave front’ – not stated in the text. Choice B is concise and correct.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Summary / Reading Comprehension",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 1 to 8: Four alternative summaries are given below each text. Choose the option that best captures the essence of the text.",
+      "text": "Down syndrome babies are generally born to older mothers. The probability of having a Down syndrome baby grows rapidly and exponentially as the age of the mother increases, from 1 in 2,300 at the age of twenty to 1 in 100 at forty. It is for this reason alone that Down embryos are the principal victims or their mothers the principal users, of genetic screening. In most countries amniocentesis is now offered to - perhaps even imposed on - all older mothers to check whether the foetus carries an extra chromosome. If it does, the mother is offered or cajoled into an abortion. The reason given is that despite the happy demeanor of these children, most people would rather not be parent of a Down child. If you are of one opinion, you see this as a manifestation of benign science, miraculously preventing the birth of cruelly incapacitated people at no suffering. If you are of another opinion you see the officially encouraged murder of a sacred human life in the dubious name of human perfection and to the disrespect of disability. You see, in effect, eugenics still in action, more than fifty years after it was grotesquely discredited by Nazi atrocities.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Since Down syndrome babies are born to women over forty, they are often forced to have amniocentesis. This has been controversial. Some see the prevention of the birth of a disabled child as kindness while others think the state is indulging in eugenics as did the Nazis."
+        },
+        {
+          "label": "B",
+          "text": "The probability of having a child with Down syndrome increases as the age of the mother increases. So older women take the amniocentesis test and abort a Down embryo even though this amounts to a murder. The killing of the disabled is similar to the practices of the Nazis."
+        },
+        {
+          "label": "C",
+          "text": "The amniocentesis has been a controversial test since it is used to identify and do away with a Down embryo in older women. While some think it is kindness to prevent the birth and unnecessary suffering that a Down child suffers, others think they are murdering the disabled to selectively breed a healthy generation."
+        },
+        {
+          "label": "D",
+          "text": "Mothers over forty are more likely to have a Down child. They are persuaded or forced to have amniocentesis. The abortion of Down embryo can be seen as an expression of benevolent science or as officially sanctioned murder of disabled, that is eugenics fifty years after the Nazis."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Mothers over forty are more likely to have a Down child. They are persuaded or forced to have amniocentesis. The abortion of Down embryo can be seen as an expression of benevolent science or as officially sanctioned murder of disabled, that is eugenics fifty years after the Nazis.",
+      "explanation": "The main points in the text are:\n(1) Older women, those over forty, are more likely to have a child with Down syndrome.\n(2) As such they are offered, or forced to have, amniocentesis.\n(3) The abortion of a Down embryo can be seen as a benign aspect of science or as officially encouraged murder.\n(4) It is eugenics, fifty years after the Nazis.\nChoice A is not the best summary because it is not amniocentesis but abortion that is controversial. Choice B is not apt since it says older women take the test and abort, as if the initiative is theirs. Choice C makes the test controversial. Choice D is apt.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Summary / Reading Comprehension",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 1 to 8: Four alternative summaries are given below each text. Choose the option that best captures the essence of the text.",
+      "text": "“I place economy among the first and most important of Republican virtues and public debt as the greatest of the dangers to be feared”. So wrote Thomas Jefferson in 1816 in a letter to William Plumer, the governor of New Hampshire. However, contrary to the wisdom of the great man, national debt is by no means an inherently bad thing. Borrowing money is a historically tried-and-tested method of expanding the productive capacity of an economy, if not a pre-requisite. The USA would go on to amass an enormous debt, but this was used relatively sensibly to bring about a more-than-proportionate growth in the size of its economy.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Though Jefferson warned against public debt, the USA accumulated enormous debt as it considered it to be an essential prerequisite for an economy to grow."
+        },
+        {
+          "label": "B",
+          "text": "As the USA amassed an enormous debt, Jefferson felt public debt to be an evil that should be avoided. But it is essential for an economy to grow."
+        },
+        {
+          "label": "C",
+          "text": "Though Jefferson called public debt ‘the greatest of dangers’ yet the example of the USA reaffirms it to be a proven method of bringing about growth in the economy."
+        },
+        {
+          "label": "D",
+          "text": "Jefferson said public debt would lead to the weakening of an economy but his own country showed that it is one of the means of achieving a more than proportionate progress."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Though Jefferson called public debt ‘the greatest of dangers’ yet the example of the USA reaffirms it to be a proven method of bringing about growth in the economy.",
+      "explanation": "The main points in the text are :\n(1) Jefferson warned against public debt.\n(2) But it is a tried-and-tested method. The USA being an example.\nChoice A distorts the meaning when it says the USA considered it to be a prerequisite. Choice B distorts in saying that because the USA amassed debt Jefferson warned against it. Choice C is an apt summary. Choice D appears to be right but Jefferson never said (as per the passage) that public debt would weaken economy.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Summary / Reading Comprehension",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 9 to 18: A number of sentences are given below which, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of sentences from among the four given choices to construct a coherent paragraph.",
+      "text": "(a) Here is the world’s newest temple of modern art, an artistic triumph in itself, and combinig grandeur, originality and stunning power.\n(b) It can be compared to a cathedral, in that it occupies such a vast space as inspires awe.\n(c) One of the unique elements of this edifice is a monstrous steel spider that must surely have been inspired by a horror movie.\n(d) The place is a huge physical entity, vast, and stupendous.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "abdc"
+        },
+        {
+          "label": "B",
+          "text": "cdba"
+        },
+        {
+          "label": "C",
+          "text": "adbc"
+        },
+        {
+          "label": "D",
+          "text": "cadb"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "adbc",
+      "explanation": "A and C are our possible starting parts. ‘One of the’ in C indicates that it is a continuation of ‘a them’ rather than a starting part and hence C is rejected as our start- ing part which leaves A as the only possible starting part. “The place’ in D relates to ‘the newest temple’ in A and hence D follows A. ‘Vast space’ in B connects with ‘huge physical entity’ in D and hence B follows D.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Para Jumbles",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 9 to 18: A number of sentences are given below which, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of sentences from among the four given choices to construct a coherent paragraph.",
+      "text": "(a) In the South, freshly grated coconut is the usual gamish.\n(b) In other parts, fresh coriander leaves provide the mandatory finishing touch.\n(c) Besides the tempering exercise, the fat-laden coconut helps to release fat-soluble carotence, from a carrot for example.\n(d) Traditional gamishes are another characteristic feature of our cooking.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "cabd"
+        },
+        {
+          "label": "B",
+          "text": "dacb"
+        },
+        {
+          "label": "C",
+          "text": "acdb"
+        },
+        {
+          "label": "D",
+          "text": "cbda"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "dacb",
+      "explanation": "As per the choices A, C and D are our possible starting parts. ‘Besides’ in C rules it out as our starting part and out of A and D, D is a better starting part as it is a more generalized statement than A. ‘Usal garnish’ in A follows ‘garnishes’ in D. ‘Fat-laden coconut’ in C links up with ‘freshly greated cocounut’ in A and hence C follows A. B provides a contrast to A and hence follows C.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Para Jumbles",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 9 to 18: A number of sentences are given below which, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of sentences from among the four given choices to construct a coherent paragraph.",
+      "text": "(a) Every ceramic object is a sculpture in miniature, and constitutes a study in several kinds of paradox.\n(b) The fragility of material culture is nowhere more manifest than it is in the art of pottery.\n(c) At the formal level, the solidity of the ceramic object conveys a sense of permanence and enduring value.\n(d) At the same time, the baked earth, from which it is made, renders it fragile, frangible, a hostage to chance and threat of damage.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "bacd"
+        },
+        {
+          "label": "B",
+          "text": "abcd"
+        },
+        {
+          "label": "C",
+          "text": "bcda"
+        },
+        {
+          "label": "D",
+          "text": "acdb"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "acdb",
+      "explanation": "The ‘paradoz’ associated with ceramic sculptures is elaborated in C and D. C says that the ceramic object’s solidity gives a sense of permanence but this is contrasted by D which states that the baked earth form which this sculpture is made makes it more prone to damage on account of its fragile nature. “fragility in B connets with ‘fragile, frangible’ in D and hence B follows D.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Para Jumbles",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 9 to 18: A number of sentences are given below which, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of sentences from among the four given choices to construct a coherent paragraph.",
+      "text": "(a) It is more than 200 years since Tipu Sultan’s mysterious death occurred while defending his fort in Srirangapattana near Mysore in India.\n(b) As a warrior, he was a formidable and implacable enemy.\n(c) His reputation in the annals of British history puts him in the same class as Chenghis Khan, Attila the Hun and Emperor Napoleon.\n(d) But his legend in India and in the West, is still going stron.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "abcd"
+        },
+        {
+          "label": "B",
+          "text": "adcb"
+        },
+        {
+          "label": "C",
+          "text": "acbd"
+        },
+        {
+          "label": "D",
+          "text": "adbc"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "adbc",
+      "explanation": "A is our starting part ‘but’ in D offers a contrast by emphasizing the fact that though 200 years have elapsed since Tipu’s death yet his fame is growing and hence D follows A. B describes Tipu and hence follows D. ‘Reputation’ in C is a logical extension of ‘formidable and implacable’ in B.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Para Jumbles",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 9 to 18: A number of sentences are given below which, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of sentences from among the four given choices to construct a coherent paragraph.",
+      "text": "(a) Puranic literature describes the progression of the cosmos which passes through various yugas, each of which is measured in precise numerical terms.\n(b) But in the cosmic scheme of Time, it does not amount to much.\n(c) Ten centuries may be a substantial time-span in human reckoning.\n(d) In that calculation, our millennium, just over, does not form even a small fraction of the Kaliyuga, the last of the four cosmic cycles.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "cdba"
+        },
+        {
+          "label": "B",
+          "text": "abcd"
+        },
+        {
+          "label": "C",
+          "text": "adbc"
+        },
+        {
+          "label": "D",
+          "text": "cbad"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "cbad",
+      "explanation": "A and C are our possible starting part of which C is better as it is a very general statement. ‘It’ in B refers to the ‘ten centuries’ in C and hence B follows C. ‘In that calculation’ in D refers to the ‘yugas’ in A and hence D follows A.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Para Jumbles",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 9 to 18: A number of sentences are given below which, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of sentences from among the four given choices to construct a coherent paragraph.",
+      "text": "(a) My boss asked me to call on one of the Ministers he knew there.\n(b) I was leaving for Delhi on work as usual.\n(c) This meeting was supposed to sort out the mess he was in, created by a new amendment to excise duty provisions on export of cotton.\n(d) At Delhi I sought an appointment with the Minister concerned.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "dabc"
+        },
+        {
+          "label": "B",
+          "text": "bdca"
+        },
+        {
+          "label": "C",
+          "text": "bacd"
+        },
+        {
+          "label": "D",
+          "text": "cdab"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "bacd",
+      "explanation": "B is the opening sentence (it makes a generalized statement). A follows - it explains what the work (mentioned in B) is. C follows A – ‘This meeting’ in C linking it ‘to call on….’ In A. D concludes with what he did.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Para Jumbles",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 9 to 18: A number of sentences are given below which, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of sentences from among the four given choices to construct a coherent paragraph.",
+      "text": "(a) Since then sponsorship and endorsements started playing a big role, with the profit motive becoming all pervasive.\n(b) Recent reports trace the corruption of Olympic movement to the total commercialisation of games in 1984.\n(c) Sordid behind the scenes going on in the IOC have been finally exposed.\n(d) Salt Lake city which is bidding for Winter Olympics bent all the norms and even bribed IOC members.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "cdba"
+        },
+        {
+          "label": "B",
+          "text": "cabd"
+        },
+        {
+          "label": "C",
+          "text": "cdab"
+        },
+        {
+          "label": "D",
+          "text": "dcba"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "cdba",
+      "explanation": "C is a better opening sentence than D, as it is a generalized statement. D follows C – it explains what the ‘sordid’ going on mentioned in C are. A follows B – ‘sponsorship and endorsements’ in A linking it to ‘commercialization’ in B.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Para Jumbles",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 9 to 18: A number of sentences are given below which, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of sentences from among the four given choices to construct a coherent paragraph.",
+      "text": "(a) Which pump out an enormous quantity of smoke, poisonous gases and other wastes in the surrounding environs.\n(b) The land to accommodate huge population was obtained by cutting down trees.\n(c) Area cleared by chopping down forests was used to set up industries, thermal plants etc.\n(d) Acre after acre of forest is cleared in one day leaving the atmosphere susceptible to pollution and the earth poorer.\n(e) The speed of cutting down forest has increased ever since.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "cabde"
+        },
+        {
+          "label": "B",
+          "text": "ecdba"
+        },
+        {
+          "label": "C",
+          "text": "bcaed"
+        },
+        {
+          "label": "D",
+          "text": "dcbae"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "bcaed",
+      "explanation": "B is the opening sentence. C follows B – ‘Areas cleared’ in C linking it to ‘land..... obtained by cutting down trees’ in B. A follows C – ‘set up industries ….. which pump out …..’. E and D follow – The speed of cutting down has increased and its consequences.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Para Jumbles",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 9 to 18: A number of sentences are given below which, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of sentences from among the four given choices to construct a coherent paragraph.",
+      "text": "(a) No place in the house seemed secure.\n(b) I remembered the agonies of my own childhood when my sister discovered I was writing poems and began to tease me by chanting them in public.\n(c) When my daughter began to write her memories, at the age of four, I decided that she must have a place to keep them, if only a section of a bureau drawer or as it happened, a box with a key.\n(d) It seems to me that we can’t learn too early in life to respect the privacy of the individual.\n(e) I tried desperately to hide the notebook of poems.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "bcdae"
+        },
+        {
+          "label": "B",
+          "text": "dcbea"
+        },
+        {
+          "label": "C",
+          "text": "cedba"
+        },
+        {
+          "label": "D",
+          "text": "aecbd"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "dcbea",
+      "explanation": "D is the opening sentence – ‘privacy’ is the central idea of the para. C follow D giving an example to elaborate the need for privacy. B follows C – the author’s child hood experience compared to his daughter’s. E and A follow to complete the author’s reminiscence.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Para Jumbles",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 9 to 18: A number of sentences are given below which, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a letter. Choose the most logical order of sentences from among the four given choices to construct a coherent paragraph.",
+      "text": "(a) My father and mother were the complements of each other.\n(b) Her face was responsive, my father’s impassive.\n(c) My mother was fragile, my father robust.\n(d) My mother was not intellectual her natural propensity was intuitive. Her face illustrated that saying “Appearances are deceptive: for it did not show the immense strength of her moral convictions.\n(e) My mother’s face rippled to emotions as waters to the wind.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "acbed"
+        },
+        {
+          "label": "B",
+          "text": "cabde"
+        },
+        {
+          "label": "C",
+          "text": "ecbad"
+        },
+        {
+          "label": "D",
+          "text": "dbcea"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "acbed",
+      "explanation": "A is the opening sentence – it sets out the basic idea of the para. C follows A – explaining (very briefly) how his parents were the complements of each other. B follows C – one more instance of complementing. E and D follow elaborating the qualities of his mother.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Para Jumbles",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 19 to 23: In each question below, a paragraph or a statement is given followed by four statements. Classify each of the four statements as per the following categories and from among the answer choices, select the one that gives the sequence of letters that matches with your categorization. Categorise the statement as (A) if it is a CONCLUDING ASSERTION (B) if it is a SUPPORTING REASON (C) if it is a STATEMENT OF ARGUMENT (D) if it is a COUNTER ARGUMENT",
+      "text": "With globalisation making its presence felt, a number of foreign influences are gradually seeping into our culture. And these are felt in food as well. Moreover, with the break-up of the joint family system and more and more working couples setting up homes on their own, people prefer eating out to returning home to cook after a hectic day’s work. Capitalising on this new trend, established as well as upcoming restaurateurs feel that constant improvisation and innovation is the key to a successful restaurant.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Most restaurateurs feel that sticking to the cuisine of the 60’s evokes feelings of nostalgia and improves sales."
+        },
+        {
+          "label": "B",
+          "text": "Customers want to experiment and wish to tryout cuisine from other countries."
+        },
+        {
+          "label": "C",
+          "text": "Similar changes have been noticed in the entertainment industry where viewers now give preference to comedies and action parked adventure movies."
+        },
+        {
+          "label": "D",
+          "text": "Restaurants which improvise and innovate will definitely be successful."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Similar changes have been noticed in the entertainment industry where viewers now give preference to comedies and action parked adventure movies.",
+      "explanation": "The passage states that globalisation has made its impact on the food tastes of the masses, it goes on to state that people prefer innovation in cooking.\nA - states a point that runs counter to the argument given in the passage regarding the changing tastes of the masses hence it is a COUNTER ARGUMENT.\nB - gives one more reason for the changing states and hence it is a SUPPORTING ARGUMENT.\nC - states a point that is not mentioned in the passage and hence this is a STATEMENT OF ARGUMENT.\nD - categorically states that restaurants which cater to the changed tastes will be definitely successful and hence it is a CONCLUDING ASSERTION.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Statement Classification / Critical Reasoning",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 19 to 23: In each question below, a paragraph or a statement is given followed by four statements. Classify each of the four statements as per the following categories and from among the answer choices, select the one that gives the sequence of letters that matches with your categorization. Categorise the statement as (A) if it is a CONCLUDING ASSERTION (B) if it is a SUPPORTING REASON (C) if it is a STATEMENT OF ARGUMENT (D) if it is a COUNTER ARGUMENT",
+      "text": "Organization of the Petroleum Exporting Countries (Opec) has used output curbs to maintain average oil prices over the past three years in its $ 22 to $ 28 target range. Opec was worried that rising supplies from rival non-Opec nations and another year of modest demand growth could cause a downward price spiral. It is particularly vulnerable to a price fall during the second quarter when demand eases. Forecasts from the Paris based International Energy Agency backed this outlook. It is estimated that if Opec keeps pumping unchecked it will overwhelm world demand next year by 1.8 million BPb causing a huge stock build-up.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The existence of a similar cartel in the global coal market would have definitely pushed up the price of coal."
+        },
+        {
+          "label": "B",
+          "text": "A price range of $ 22 - $ 28 ensures that the producers make the minimum possible profit out of their operations required to keep their economy in shape."
+        },
+        {
+          "label": "C",
+          "text": "Any excess production by OPEC would be mopped up in an energy hungry global market and thus OPEC need not worry about excess production."
+        },
+        {
+          "label": "D",
+          "text": "OPEC countries should concentrate on developing their non oil based economy so as to be able to absorb any adverse shocks as a result of decreasing oil reverses."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "The existence of a similar cartel in the global coal market would have definitely pushed up the price of coal.",
+      "explanation": "The passage talks about the efforts made by Opec to maintain he level of prices at a certain level and also the scenario that emerges as a result of the efforts that it makes to achieve this objective.\nA - talks about a hypothetical case of how the coal prices would have benefited from the existence of such a cartel. Hence this is a STATEMENT OF ARGUMENT.\nB - gives a reason as to why the Opec nations would want to maintain the oil prices in a specific range and hence it is a SUPPORTING REASON.\nC - This point runs against the view of the passage that excess production by Opec would result in a decrease of the general price of oil and hence it is a COUNTER ARGUMENT.\nD - talks about a possible remedy to the problem and as such it is a new argument that has been proposed. Hence, it is a STATEMENT OF ARGUMENT.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Statement Classification / Critical Reasoning",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 19 to 23: In each question below, a paragraph or a statement is given followed by four statements. Classify each of the four statements as per the following categories and from among the answer choices, select the one that gives the sequence of letters that matches with your categorization. Categorise the statement as (A) if it is a CONCLUDING ASSERTION (B) if it is a SUPPORTING REASON (C) if it is a STATEMENT OF ARGUMENT (D) if it is a COUNTER ARGUMENT",
+      "text": "The recent elections have thrown up so many critical weaknesses in the American electoral system - inconsistent voting procedures from state to state, early declaration of the winner by the media before the polls closed and partisanship of breathtaking proportions that intensified after the balloting. Surely a set of statutory rules about the counting and recounting of votes could have saved the US all this embarrassment.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The adoption of a set of rules to be uniformly applied all over the country would most certainly eradicate the weakness in the electoral system."
+        },
+        {
+          "label": "B",
+          "text": "Countries which had adopted similar procedures have now started reaping the benefits."
+        },
+        {
+          "label": "C",
+          "text": "The media should be banned from pronouncing the winner before the polls close so as to prevent any sort of malpractice from taking place."
+        },
+        {
+          "label": "D",
+          "text": "Different voting procedures in various states and the massive media involvement ensures free and fair polls and thus are invaluable."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Countries which had adopted similar procedures have now started reaping the benefits.",
+      "explanation": "The passage talks about the weakness by the American electoral system and gives a few examples to substantiate this.\nA - states categorically that the adoption of a system of rules across the country would correct the system and stress the root hence, this is an ASSERTION.\nB - gives a SUPPORTING REASON as to how other countries have benefited by implementing the rules.\nC - the role played by the media has been specified in the passage but the question of banning it has not been discussed and as such C which proposes that the media be banned from announcing results is a STATEMENT OF ARGUMENT.\nD - gives a reason in support of the measures being proposed in the passage to remedy the situation and as such it is a SUPPORTING REASON.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Statement Classification / Critical Reasoning",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 19 to 23: In each question below, a paragraph or a statement is given followed by four statements. Classify each of the four statements as per the following categories and from among the answer choices, select the one that gives the sequence of letters that matches with your categorization. Categorise the statement as (A) if it is a CONCLUDING ASSERTION (B) if it is a SUPPORTING REASON (C) if it is a STATEMENT OF ARGUMENT (D) if it is a COUNTER ARGUMENT",
+      "text": "Memory may have been found to be affected by genes, but no gene has been found to have even a small causative relationship with normal ‘intelligence’. Intelligence has never been successfully defined or measured, unless one refers to highly specialized, arbitrary, narrowly defined and largely learned skills measured by standard IQ tests. Why should genetic intelligence have evolved along the lines of IQ tests when better measures could have been evolved is something inexplicable.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Genes that influence ‘intelligence’ are masked by chemicals produced in the brain and are thus difficult to detect."
+        },
+        {
+          "label": "B",
+          "text": "IQ tests are the most accurate way of measuring intelligence exhibited by humans and no other measure is required."
+        },
+        {
+          "label": "C",
+          "text": "IQ tests are not the best measure of intelligence as these tests can be taken quite successfully by people who have practiced hard enough."
+        },
+        {
+          "label": "D",
+          "text": "IQ levels in a human being are function of the nutrition that one receives in childhood."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Genes that influence ‘intelligence’ are masked by chemicals produced in the brain and are thus difficult to detect.",
+      "explanation": "The passage states the relation between memory and genes and says that intelligence has not been defined clearly and talks about how ineffective IQ tests are in measuring intelligence.\nA - this contradicts the first line of the passage and hence this is a COUNTER ARGUMENT.\nB - also contradicts what is stated in the passage and hence it is a COUNTER ARGUMENT.\nC - provides support to the view given in the passage and hence it is a SUPPORTING REASON.\nD - states a new point not mentioned hitherto in the passage and hence it is a STATEMENT OF ARGUMENT.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Statement Classification / Critical Reasoning",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 19 to 23: In each question below, a paragraph or a statement is given followed by four statements. Classify each of the four statements as per the following categories and from among the answer choices, select the one that gives the sequence of letters that matches with your categorization. Categorise the statement as (A) if it is a CONCLUDING ASSERTION (B) if it is a SUPPORTING REASON (C) if it is a STATEMENT OF ARGUMENT (D) if it is a COUNTER ARGUMENT",
+      "text": "After Rwanda and Kosovo, another dark page of modern history is being written in East Timor by the Indonesian army. It’s a shame the international community did not react faster in condemning Indonesia and preventing the genocide, which has been on-going since the mid 70’s in East Timor. Above all political and economic considerations, the international community should never forget that the brave people of East Timor are struggling and dying for something that is so dear to all of us - freedom.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The international community has not found any evidence of wrong doing by the Indonesian army and hence has been averse to condemning it."
+        },
+        {
+          "label": "B",
+          "text": "The East Timorians are waging a battle not for freedom but because of the fact that most of them are being forced to convert to Christianity."
+        },
+        {
+          "label": "C",
+          "text": "Genocide in any place under any pretext is abominable and it is the responsibility of the international forum to put a stop to it."
+        },
+        {
+          "label": "D",
+          "text": "History has proved that freedom is a concept for which people have sacrificed their lives and hold it in high esteem."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Genocide in any place under any pretext is abominable and it is the responsibility of the international forum to put a stop to it.",
+      "explanation": "The passage laments the apathy shown by the international community towards the genocide being perpetrated in East Timor by the Indonesian army in order to the quell the demand for freedom.\nA - contradicts what is stated in the passage and hence it is a COUNTER ARGUMENT.\nB - introduces a new angle to the problem stated and hence it is a STATEMENT OF ARGUMENT.\nC - firmly states that genocide is an aberration or civil society and must be stopped and hence this is an assertion.\nD - substantiates what is given in the passage and hence it is a supporting reason.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Statement Classification / Critical Reasoning",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 24 to 28: Each of the following questions has a paragraph from which a sentence has been deleted. From the given options, choose the sentence that completes the paragraph in the most appropriate way.",
+      "text": "This is a rare moment in the history of economic globalisation. Policy making across the developed and developing world has never been so uniform and homogenised. Whether it is G-7 or G-20 economies the only buzz word among policy makers is ‘inject more liquidity”. President George Bush himself made the unusal gesture of walking into the meeting of G-20 countries, seeking their active support in mitigating the impact of the financial meltdown. _____________",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "At a macro level, the attempt by the G-7 governments is to ensure that the big asset bubble built over the past six years must not be allowed to burst."
+        },
+        {
+          "label": "B",
+          "text": "There are clear pointers that the global financial crises will result in loss of demand across the board."
+        },
+        {
+          "label": "C",
+          "text": "The thirst for more money seems unending."
+        },
+        {
+          "label": "D",
+          "text": "Never before have the heads of state met only to discuss how to put in extra cash in the global financial system."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Never before have the heads of state met only to discuss how to put in extra cash in the global financial system.",
+      "explanation": "The central idea of the paragraph is the notion that the meeting of G-20 nations to discuss how to inject more liquidity was a rare or unusual event. This idea reaches its natural conclusion in 4.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 24 to 28: Each of the following questions has a paragraph from which a sentence has been deleted. From the given options, choose the sentence that completes the paragraph in the most appropriate way.",
+      "text": "At the heart of the wellness concept is the most romantic notion of all: the suggestion that we might postpone, halt and even reverse the aging process itself. While some scientists are doing research on ageing and on human mortality, many wellness buffs-and even some reasonably accredited scientists-are promising that we may soon penetrate the secret of the ageing process and with this knowledge, actually extend Homo Sapiens’ normal life span. __________________",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "While some may search for a magic elixir, others stress on diet and exercise as the keys."
+        },
+        {
+          "label": "B",
+          "text": "The death barrier may actually be broken."
+        },
+        {
+          "label": "C",
+          "text": "Wellness is a kind of superstate of mental and physical well being."
+        },
+        {
+          "label": "D",
+          "text": "Those who remain impervious to these romantic hopes have other incentives or coercions."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "The death barrier may actually be broken.",
+      "explanation": "The paragraph harps on the fact that wellness can reverse the ageing process. The penultimate sentence refers to ‘extending life span’. This leads to the conclusion that death may be conquered which is presented in option B. Choice D begins another idea and so cannot conclude this paragraph.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 24 to 28: Each of the following questions has a paragraph from which a sentence has been deleted. From the given options, choose the sentence that completes the paragraph in the most appropriate way.",
+      "text": "To test the role of cognition in hypocrisy, scientists had volunteers assign themselves an easy task and a stranger an onerous one. But before judging the fairness of their actions they had to memorize seven numbers. This play keeps the brain’s thinking regions too tied up to think about anything else, and it worked: hypocrisy vanished. People judged their own behaviour as harshly as they did others’-strong evidence that moral hypocrisy requires a high-order cognitive process. _____________",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "When ‘people like us’ torture, it is justified; when people unlike us do, it is an atrocity."
+        },
+        {
+          "label": "B",
+          "text": "When the thinking part of the brain is otherwise engaged, we are left with gut-level reaction and instinctively condemn bad behaviour."
+        },
+        {
+          "label": "C",
+          "text": "Scientists have long wondered whether hypocrisy is driven by emotion or reason."
+        },
+        {
+          "label": "D",
+          "text": "When we judge our own transgressions less harshly than we judge the same transgressions in others it may be because we have this instinct to preserve our self-image."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "When the thinking part of the brain is otherwise engaged, we are left with gut-level reaction and instinctively condemn bad behaviour.",
+      "explanation": "The focus of the paragraph is on the role of cognition in hypocrisy and the revelation that when the mind is busy thinking about other things morality becomes a gut-reaction. This conclusion is brought out in option (B) which summarizes the result of the experiment and is hence a good conclusion.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 24 to 28: Each of the following questions has a paragraph from which a sentence has been deleted. From the given options, choose the sentence that completes the paragraph in the most appropriate way.",
+      "text": "Celebrity has become the primary commodity of popular culture. Fans used to fall for a specific album or film, but now the public tends to base its consumption on the aura of celebrity attached to any given product. Singers can act in films and actors can record albums, not thanks to any special talent but because their brand is big enough to transcend categories. _____________",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Witness the birth of the celebrity luxury fashion brand."
+        },
+        {
+          "label": "B",
+          "text": "Fashion magazines have all but abandoned the practice of putting models on the cover of their magazines."
+        },
+        {
+          "label": "C",
+          "text": "Celebrities have wised up to their incredibly powerful market potential, moving from endorsing someone else’s high end products to producing their own."
+        },
+        {
+          "label": "D",
+          "text": "The most successful start-ups have been those by celebrities with iconic personal style."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Celebrities have wised up to their incredibly powerful market potential, moving from endorsing someone else’s high end products to producing their own.",
+      "explanation": "The paragraph focuses on the idea that celebrity status sells. Awareness of celebrities regarding their brand value has led to the stars producing their own products instead of endorsing those of others. This is the logical conclusion found in option C. Option A can continue the para rather than conclude it. Option D can begin a new paragraph.\nChoice (3)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 24 to 28: Each of the following questions has a paragraph from which a sentence has been deleted. From the given options, choose the sentence that completes the paragraph in the most appropriate way.",
+      "text": "The growth stories of China and India have always been different–China is well known for being the world’s factory, while India’s new wealth has been built on services. But the result is the same. Over the next twenty years 213 million Chinese households and 123 million Indian ones will begin to have discretionary income. ______________",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "If both countries continue roughly on their current growth paths we will witness the creation of massive new consumer markets."
+        },
+        {
+          "label": "B",
+          "text": "The speed of the change will rival Japan’s economic miracle of the 1950s."
+        },
+        {
+          "label": "C",
+          "text": "That will lead to an Asian shopping spree of historic proportions."
+        },
+        {
+          "label": "D",
+          "text": "The projection is that incomes will grow eight fold cutting China’s poverty rate to just 16 percent."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "That will lead to an Asian shopping spree of historic proportions.",
+      "explanation": "The central idea of the paragraph is the growth track of India and China and the fact that this will lead to greater disposable incomes in both countries. Sentence 3 which states the consequence of such incomes is the logical conclusion of the idea. Sentence 1 can be ruled out because the ‘if’ in the sentences raises doubts about the growth pattern and thus contradicts what has been stated earlier.\nChoice (3)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Sentence Completion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 29 to 40: Select the correct alternative from the given choices.",
+      "text": "Manufacturers of a food drink claim that their product is a complete planned food containing all the nutrients necessary for the health and growth of a child. However, it is better that children are given a well-balanced diet consisting of a variety of foods for health and growth. Which of the following, if true would best support the position above?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The flavour of the food drink does not appeal to many children."
+        },
+        {
+          "label": "B",
+          "text": "Children who are used to taking the food drink do not take natural foods rich in these nutrients."
+        },
+        {
+          "label": "C",
+          "text": "The nutrients contained in a well-balanced diet are more easily absorbed by the body for effective use."
+        },
+        {
+          "label": "D",
+          "text": "The contention of the manufacturers that the food drinks are complete planned foods is yet to be proved right."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "The contention of the manufacturers that the food drinks are complete planned foods is yet to be proved right.",
+      "explanation": "Argument evaluation:\nSituation: Manufacturers claim that their food drinks contain all the nutrients necessary for a child. But a balanced diet containing variety of foods is better.\nReasoning: A well balanced diet is preferable to a food drink because it acts better for the child.\n(A) ‘Flavour’ is irrelevant to the argument.\n(B) Children’s preference is not the issue.\n(C) Also outside the scope of the argument.\n(D) Correct. It properly identifies the statement which supports the argument.\nD is correct.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical Reasoning / Argument Evaluation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 29 to 40: Select the correct alternative from the given choices.",
+      "text": "A recent study conducted with school children aged ten to fifteen showed that a plan where these children were provided with a proper meal at school ensured that they were less likely to remain absent from the school than other children. Thus providing a proper meal at school plays a role in reducing student absenteeism. So such a plan must be introduced in schools to reduce absenteeism. Under which of the following conditions will the breakfast plan work best?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "In a locality where student absenteeism is significant."
+        },
+        {
+          "label": "B",
+          "text": "In a school where there are more boys, (who are more likely to remain absent), than girls."
+        },
+        {
+          "label": "C",
+          "text": "In schools, where a majority of students have both parents working."
+        },
+        {
+          "label": "D",
+          "text": "In schools where the students are wards of those who cannot afford a square meal a day."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "In schools where the students are wards of those who cannot afford a square meal a day.",
+      "explanation": "Evaluation of plan:\nSituation: Providing a meal to school going children is likely to reduce absenteeism.\nReasoning: A proper meal provided to school going children reduces absenteeism. This plan will best work only where the absenteeism has been due to non-availability of a good meal to the children.\n(A) The absenteeism may be due to other reasons and hence the plan to provide as usual may not work.\n(B) The composition of the students whether they are boys or girls is beyond the scope of the argument.\n(C) ‘Working parents’ doesn’t provide ground for providing breakfast and hence reducing absenteeism.\n(D) Correct. It properly identifies the condition under which the breakfast plan will succeed.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical Reasoning / Evaluation of Plan",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 7
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 29 to 40: Select the correct alternative from the given choices.",
+      "text": "It is generally said that radiations emitted by cell phones cause immediate damage to the membrane in the ear and results in hearing impairment. Hence one is advised to avoid using a cell phone to prevent total loss of hearing. Which of the following, if true, seriously weakens the above argument?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Use of electronic gadgets such as computers also impairs hearing besides affecting eyesight."
+        },
+        {
+          "label": "B",
+          "text": "Electronic gadgets such as i pods do not damage hearing in users."
+        },
+        {
+          "label": "C",
+          "text": "A majority of those who use hearing-aids are found to have never used cell phones in their lives."
+        },
+        {
+          "label": "D",
+          "text": "It is found in a survey that ninety per cent of employees working as telephone operators have been regular users of cell phones for years."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "It is found in a survey that ninety per cent of employees working as telephone operators have been regular users of cell phones for years.",
+      "explanation": "Argument evaluation:\nSituation: Radiations from cell phones cause hearing defects. Hence cell phones must be avoided.\nReasoning: The argument is that cell phones should not be used as they cause heaving defects. Hence the statement which tells us that cell phones do not affect the ears weakens the argument.\n(A) The effect of using ‘computers’ is beyond the scope of the argument.\n(B) Use of a `Ipod’ is not the question.\n(C) It is not necessary that all those who are defective in hearing must use hearing aids.\n(D) Correct. It properly identifies the statement which weakens the argument. Since the telephone operators’ job involves having, the fact that their hearing is not impaired despite using cell phones regularly weakens the argument.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical Reasoning / Argument Evaluation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 7
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 29 to 40: Select the correct alternative from the given choices.",
+      "text": "Last year, Alpha University implemented a procedure that encouraged students to evaluate the teaching effectiveness of their professors. Which of the following principles can the above plan be taken to be based upon?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The effectiveness of any service depends on how useful it actually is to the receiver of the service."
+        },
+        {
+          "label": "B",
+          "text": "The effectiveness of any service is measured by the perception of the receiver of the service regarding its utility."
+        },
+        {
+          "label": "C",
+          "text": "The receiver of a service should have the freedom to choose the mode of delivery."
+        },
+        {
+          "label": "D",
+          "text": "The service provided should take care of the ultimate beneficiary of the services."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "The effectiveness of any service is measured by the perception of the receiver of the service regarding its utility.",
+      "explanation": "Evaluation of a plan:\nSituation: The students of Alpha University were asked to evaluate the teaching effectiveness of their professors.\nReasoning: The university asks the students, the recipients of the service, to evaluate the effectiveness of teaching of the professors, the providers of services. So the plan is based on the principle that the effectiveness of a service rendered is measured by how the receiver views it.\n(A) The plan doesn’t measure the actual effectiveness of teaching which must have been done by evaluating the students not the teachers.\n(B) Correct. The statement properly identifies the principle on which the plan is based.\n(C) It is irrelevant to the argument.\n(D) This may be the purpose of the plan but not the principle on which it is based.\nB is correct.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical Reasoning / Evaluation of Plan",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 7
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 29 to 40: Select the correct alternative from the given choices.",
+      "text": "A recent study indicates that Venadial, a new medicine currently produced in the country X only, actually reduces cholesterol levels. Venadial, derived from the resin of pine trees, works by activating a metabolic response that is not yet well understood. However, cholesterol levels fell fifteen to twenty per cent among participants in the study who consumed Venadial daily and reduced the risk of heart attack by one-third. Therefore company A in country Y should obtain the exclusive right to sell Venadial in Y. The profits are sure to increase within a short span of time. Which of the following, if possible must first be done in order to translate the above optimism into reality?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A publicity campaign informing the public of cholesterol and its permissible levels."
+        },
+        {
+          "label": "B",
+          "text": "A publicity campaign advertising the role of Venadial in reducing heart attacks."
+        },
+        {
+          "label": "C",
+          "text": "Conducting research on the metabolic response to Venadial which is not yet well understood."
+        },
+        {
+          "label": "D",
+          "text": "Convince the government to allow import without restraint."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "A publicity campaign advertising the role of Venadial in reducing heart attacks.",
+      "explanation": "Evaluation of a plan:\nSituation: Venadial is effective in reducing cholesterol levels and the risk of heart attack according to a study. Company A in country Y should sell the medicine, as its sole selling agent, to earn profit in a short span of time.\nReasoning: To realise the optimism expressed above people must be made aware of the effectiveness of Venadial in reducing heart attacks.\n(A) Knowing the permissible cholesterol level will not induce the public to go for the medicine.\n(B) Correct. It properly identifies the course to be adopted.\n(C) Research on the metabolic response to Venadial is irrelevant to the issue.\n(D) This is also irrelevant to the argument.\nB is correct.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical Reasoning / Evaluation of Plan",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 7
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 29 to 40: Select the correct alternative from the given choices.",
+      "text": "Software companies have grown by leaps and bounds. The employees required to man these companies far outnumber the available candidates with academic skills relevant to the jobs that they are required to perform. Which of the following plans, if possible, can allow such companies to meet their manpower requirements?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The institutions can enhance the pay of the existing employees to encourage them to take up additional work."
+        },
+        {
+          "label": "B",
+          "text": "The institutions can scale down their operations to the extent where the requirements can be met with the number of available persons with the needed academic skills."
+        },
+        {
+          "label": "C",
+          "text": "The institutions can recruit even those who do not have the necessary skills and give them training to enable them to perform their jobs."
+        },
+        {
+          "label": "D",
+          "text": "The institutions can enter into agreements with the academic institutions like colleges and universities to absorb their students in toto."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "The institutions can recruit even those who do not have the necessary skills and give them training to enable them to perform their jobs.",
+      "explanation": "Evaluation of a plan:\nSituation: Software companies find the persons required outnumbering the availability. The plan is to meet the requirement.\nReasoning: The available candidates with necessary academic skills is insufficient to meet the requirement. So the only way is to recruit even those without the necessary academic skills, but impart them training to make them fit for the jobs.\n(A) It is irrelevant to the discussion as ‘pay’ is the issue.\n(B) The question is of a plan to meet the enhanced demand. So scaling down operations is not the answer.\n(C) Correct. It properly identifies the correct plan to meet the increased need.\n(D) As it is already stated that the number of candidates with necessary skills is insufficient, entering into agreement to absorb the students in to will not help.\nC is correct.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical Reasoning / Evaluation of Plan",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 7
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 29 to 40: Select the correct alternative from the given choices.",
+      "text": "Smoking is a serious health concern as it affects not only those who smoke, but also others who don’t, as they inhale the polluted air. The Government is concerned about this. So it has decided to rope in film celebrities for its campaign against smoking, through documentary films. Which of the following, if true, most strengthens the plan of the Government in its campaign against smoking?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The general public abides by the advice of film celebrities on the screen."
+        },
+        {
+          "label": "B",
+          "text": "The film celebrities are role models for the common man."
+        },
+        {
+          "label": "C",
+          "text": "Film celebrities earn huge sums of money and it is in the fitness of things that they contribute to a social cause."
+        },
+        {
+          "label": "D",
+          "text": "It is easier to produce such films with film personalities as they are already well versed in acting."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "The general public abides by the advice of film celebrities on the screen.",
+      "explanation": "Evaluation of plan:\nSituation: The Government wants to involve film celebrities in anti smoking campaigns as it is concerned about the health hazards that smoking causes to the public.\nReasoning: The Government plans to involve film celebrities in its anti smoking campaign. This plan will be successful if the general public heeds the film celebrities words on the screen.\n(A) Correct. It properly identifies the situation when the Government’s plans will be successful.\n(B) The film celebrities may be smokers in real life and hence if the public emulates their lives, the plan will not be successful.\n(C) ‘Why the film celebrities need to be involved in social causes’ is beyond the scope of the argument.\n(D) It may be helpful in production of the film but it does not strengthens the achievement of the purpose of the plan.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical Reasoning / Evaluation of Plan",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 7
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q036",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 29 to 40: Select the correct alternative from the given choices.",
+      "text": "It is true that there are international laws against drug traffic. But if the Government takes stern action to plug its entry in one place, drugs will enter the country through other sources. Which of the following is most like the argument above in its logical structure?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is true that the officials of the police department are expected to be incorruptible. But if they are paid poorly, they may resort to graft to sustain a decent living."
+        },
+        {
+          "label": "B",
+          "text": "It is true that most of the terrorists are religious fundamentalists. But there are several persons who are deeply religious but they are not terrorists."
+        },
+        {
+          "label": "C",
+          "text": "It is true that there are severe laws against violation of copy rights. But some company would have done it if the defendant had not done it first."
+        },
+        {
+          "label": "D",
+          "text": "It is true that adoption of third degree methods against prisoners to extract confessions is against law. But it cannot be helped in certain cases where the prisoner does not reveal all the truth."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "It is true that there are severe laws against violation of copy rights. But some company would have done it if the defendant had not done it first.",
+      "explanation": "Argument constructions:\nSituation: Though laws exist against drug trafficking, it is bound to exist. Even if the Government plugs one source, as it will enter through others.\nReasoning: The situation is one where there is a law against something. But even if it is curbed at one end, it is bound to be committed by someone else.\n(A) It is not similar. It provides a reason for why the police may be corrupt despite laws.\n(B) It only says that all religious persons need not be terrorists.\n(C) Correct. It properly identifies the situation which is a similar argument to the one given.\n(D) It gives an explanation as to why third degree methods become inevitable.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical Reasoning / Argument Structure",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 8
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q037",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 29 to 40: Select the correct alternative from the given choices.",
+      "text": "Balance of trade refers to the difference between the exports and imports of a country. It is said to be positive when exports are more than imports and negative if imports are more than exports. The exports of a country ‘C’ increased over the previous years’ exports. However the balance of trade has become negative though it was positive last year. Which of the following cannot be true if the above statements are true?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The imports during this year are more than last year’s."
+        },
+        {
+          "label": "B",
+          "text": "Exports during the previous year were more than imports."
+        },
+        {
+          "label": "C",
+          "text": "Last year’s imports were more than this year’s exports."
+        },
+        {
+          "label": "D",
+          "text": "The imports during this year are more than the exports."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Last year’s imports were more than this year’s exports.",
+      "explanation": "Argument construction:\nSituation: Last year exports were more than imports. This year imports were more than exports. Also exports during this year were more than last year’s exports.\nReasoning: Last year E, > I, (E – Exports and I – Imports). This year I2 > E2. Also E2 > E1. So I2 > E2 > E1 > I1. Any statement contradicting the cannot be an inference.\n(A) It is correct because I2 > I1 so it is not the answer.\n(B) It is correct as E1 > I1, so it is not the correct choice.\n(C) Correct. It properly identifies a situation which cannot be inferred. This statement implies I1 > E2. This is not possible as E2 >I1.\n(D) It can be inferred as I2 > E2.\nC is correct.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical Reasoning / Argument Construction",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 8
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q038",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 29 to 40: Select the correct alternative from the given choices.",
+      "text": "The town administration of a hill station where tourists far outnumber the local residents, found that the tourists were using non biodegradable plastic cups, plates and polyethylene bags in the place of substitutes made out of paper which are environmentally preferable. In order to reduce the use of non biodegradable goods but at the same time not to annoy the tourists the administration encouraged the sale of both plastic and paper made goods, but the paper-made goods were sold at substantially very low rates compared to the plastic goods. Which of the following, if true, would undermine the purpose for which paper - made goods are sold at very low rates by the administration?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The shop keepers were found to sell the plastic goods at a price higher than that fixed by the administration."
+        },
+        {
+          "label": "B",
+          "text": "The tourists were found to possess a higher value for aestheticism (which they find in plastic goods compared to the paper goods) than for costs."
+        },
+        {
+          "label": "C",
+          "text": "The tourists themselves were well aware of the desirability of using biodegradable goods as against non biodegradable ones."
+        },
+        {
+          "label": "D",
+          "text": "A similar strategy adopted in another hill station in the same country did not produce desired results immediately."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "The tourists were found to possess a higher value for aestheticism (which they find in plastic goods compared to the paper goods) than for costs.",
+      "explanation": "Evaluation of a plan:\nSituation: The Administration wants to encourage the use of biodegradable paper products by encouraging their sale at very low prices.\nReasoning: The strategy will fail to work if the users do not take the bait, i.e. they don’t give importance to price differentials.\n(A) It should in effect actually help the administration in realising it s purpose.\n(B) Correct. It properly identifies a situation where the tourists may not give any importance to the price differentials.\n(C) It should actually strengthen not undermine the administrations purpose.\n(D) It is said that the results were not produced only in the short run.\nB is correct.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical Reasoning / Evaluation of Plan",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 8
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q039",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 29 to 40: Select the correct alternative from the given choices.",
+      "text": "Company “Trendy” is engaged in the manufacture of products which face stiff competition from others in the market. Constant change in the products, their design, packaging, etc is the key to success in the industry. Trendy has been allocating a significant portion of the resources over the years to research and development which takes care of devolvement of products and innovations in designs etc. However, the allocation has fallen from a whopping ten percent to a mere 6 percent of the total resources, in the current year, because of which it is feared that the sales might drop significantly this year. Which of the following is an assumption made in the conclusion drawn above?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ten per cent of the total resources is enough allocation for research development activities, to for achieve the desired levels of sales."
+        },
+        {
+          "label": "B",
+          "text": "The allocation of resources to research and development efforts determines the extent of innovation in products and product designs."
+        },
+        {
+          "label": "C",
+          "text": "Sales of the company will also fall from ten per cent to six per cent."
+        },
+        {
+          "label": "D",
+          "text": "The production of goods by the company would also drop significantly in the current year."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "The allocation of resources to research and development efforts determines the extent of innovation in products and product designs.",
+      "explanation": "Argument construction:\nSituation: Trendy’ is a company engaged in the manufacture of goods which need constant innovation in products and their designs. It is feared that a drop in the percentage of allocation of resources of R&D will reduce sales.\nReasoning: Unless the proportion of resources allocated to R&D is going to determine the extent of innovation, the conclusion cannot be drawn as above.\n(A) It cannot be an assumption as there is no mention from which it can be assumed that a particular percentage of resources has to be allocated for research and development to achieve the desired results.\n(B) Correct. It correctly identifies the assumption that unless the proportion of resources allocated to the research and development to the total resources determines the extent of innovation, it cannot be held that sales will be affected.\n(C) It is not an assumption.\n(D) It is outside the scope of the argument.\nB is correct.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical Reasoning / Argument Construction",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 8
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-verbal-ability-test-4-q040",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Verbal Ability"
+    },
+    "question": {
+      "pdfName": "Verbal_Ability_5.pdf",
+      "direction": "Directions for questions 29 to 40: Select the correct alternative from the given choices.",
+      "text": "Which of the following, if the dictum ‘more the resources for R&D, more will be the innovations’ be true, would most weaken the conclusion drawn in question 5 above?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "The total resources allocated by the company to all the activities put together were double those of the previous year."
+        },
+        {
+          "label": "B",
+          "text": "The sales of the same products by the other companies also drop in the year."
+        },
+        {
+          "label": "C",
+          "text": "The market share of the company for the products it manufactures increases during the current year."
+        },
+        {
+          "label": "D",
+          "text": "The resources allocated to marketing during this year increased substantially over the previous year."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "The total resources allocated by the company to all the activities put together were double those of the previous year.",
+      "explanation": "Argument evaluation:\nSituation: As above\nReasoning: Allocation of resources are held to directly govern the sales. Then the argument will be weakened if there had been no real decrease in allocation of resources to R&D.\n(A) Correct. If the total resources are doubled, then six percent of it will be more than ten percent of the pervious years total resources. Hence there has been a real increase in allocation to R&D which can if anything only increase the sales.\n(B) It is outside the scope of the argument.\n(C) It may be true but it does not mean that the sales have improved, as the sales of other companies also might have dropped.\n(D) Resources allocated to marketing is not the crux the argument.\nA is correct.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Verbal Ability",
+      "topic": "Critical Reasoning / Argument Evaluation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Verbal_Ability_5.pdf",
+      "url": null,
+      "page": 8
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

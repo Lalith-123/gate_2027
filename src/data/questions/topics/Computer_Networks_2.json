@@ -1,0 +1,2107 @@
+[
+  {
+    "id": "gate-computer-networks-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Among the following network topologies, which has the highest reliability?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mesh topology"
+        },
+        {
+          "label": "B",
+          "text": "Bus topology"
+        },
+        {
+          "label": "C",
+          "text": "Star topology"
+        },
+        {
+          "label": "D",
+          "text": "Ring topology"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Mesh topology",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network Topologies",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which one of the following uses UDP as transport protocol?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "SMTP"
+        },
+        {
+          "label": "B",
+          "text": "HTTP"
+        },
+        {
+          "label": "C",
+          "text": "POP"
+        },
+        {
+          "label": "D",
+          "text": "DNS"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "DNS",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Application/Transport Protocols",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The transport layer protocol that is used to support electronic mail is?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "IP"
+        },
+        {
+          "label": "B",
+          "text": "UDP"
+        },
+        {
+          "label": "C",
+          "text": "TCP"
+        },
+        {
+          "label": "D",
+          "text": "SMTP"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "TCP",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Transport Layer",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Find the number of characters per sec (7 bits + 1 priority) that can be transmitted over 4800 bps line using synchronous transfer. (1 start & 1 stop bit)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "480"
+        },
+        {
+          "label": "B",
+          "text": "500"
+        },
+        {
+          "label": "C",
+          "text": "600"
+        },
+        {
+          "label": "D",
+          "text": "520"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "600",
+      "explanation": "4800 / 8. Here start & stop bits are not considered as transfer is synchronous\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Communication",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Find the number of cross points needed for 15 lines in a cross point switch which is full duplex in nature and there are no self connection?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "225"
+        },
+        {
+          "label": "B",
+          "text": "105"
+        },
+        {
+          "label": "C",
+          "text": "30"
+        },
+        {
+          "label": "D",
+          "text": "60"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "105",
+      "explanation": "n(n − 1) / 2 = 15 × 14 / 2 = 105\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Switching",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the maximum data rate of a channel for a noise-less 6 KHz binary channel?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "12000 bps"
+        },
+        {
+          "label": "B",
+          "text": "12 bps"
+        },
+        {
+          "label": "C",
+          "text": "3000 bps"
+        },
+        {
+          "label": "D",
+          "text": "800 bps"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "12000 bps",
+      "explanation": "2H log₂V    H → Band width    V → Discrete level\nHere H = 6 KHz and V = 2\n2 × 6000 log₂ 2\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Communication",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following statements are true about flooding?\nI. It is a type of isolated routing\nII. Selective flooding is a type in which the packets are sent to those lines that are going approximately in the right direction\nIII. It is a method in which every incoming packet is sent out on every outgoing line except the one on which it has arrived.\nIV. Flooding does not always select the shortest path",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I and III"
+        },
+        {
+          "label": "B",
+          "text": "II and III"
+        },
+        {
+          "label": "C",
+          "text": "I, II, III and IV"
+        },
+        {
+          "label": "D",
+          "text": "I, II and III"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "I, II and III",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Routing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which one of the following is not a standard RS232C signal?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "RTS"
+        },
+        {
+          "label": "B",
+          "text": "VDR"
+        },
+        {
+          "label": "C",
+          "text": "DSR"
+        },
+        {
+          "label": "D",
+          "text": "CTS"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "VDR",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Communication Interfaces",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What happens to the size of congestion window in the slow start phase of TCP congestion algorithm?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Increases linearly"
+        },
+        {
+          "label": "B",
+          "text": "Does not change"
+        },
+        {
+          "label": "C",
+          "text": "Increase exponentially"
+        },
+        {
+          "label": "D",
+          "text": "Increase quadratically"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Increase exponentially",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "TCP Congestion Control",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A company has a class B network and they wanted to subdivide the network to all the 32 departments. The subnet mask would be",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "255. 255. 0. 0"
+        },
+        {
+          "label": "B",
+          "text": "255. 255. 248. 0"
+        },
+        {
+          "label": "C",
+          "text": "255. 255. 32. 0"
+        },
+        {
+          "label": "D",
+          "text": "255. 255. 252. 0"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "255. 255. 248. 0",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "IP Subnetting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which one of the following is true about a layer-4 firewall (can look at all protocol headers upto the transport layer)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cannot block all ICMP traffic"
+        },
+        {
+          "label": "B",
+          "text": "Cannot block entire HTTP traffic during 9.00 pm and 5.00 am"
+        },
+        {
+          "label": "C",
+          "text": "Cannot block TCP traffic from a specific user on a multi user system during 9.00 pm and 5.00 am"
+        },
+        {
+          "label": "D",
+          "text": "Cannot stop incoming traffic from a specific IP address but allow outgoing traffic to the same IP address"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "Cannot block TCP traffic from a specific user on a multi user system during 9.00 pm and 5.00 am",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Firewalls",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "What is the maximum window size for data transmission using the selective Repeat protocol with 8 bit frame sequence number?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "128"
+        },
+        {
+          "label": "B",
+          "text": "64"
+        },
+        {
+          "label": "C",
+          "text": "256"
+        },
+        {
+          "label": "D",
+          "text": "255"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "128",
+      "explanation": "$2^{(n-1)} = 2^{(8-1)} = 2^7$\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data Link Layer / Selective Repeat",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which one of the following is not a network layer protocol?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "ICMP"
+        },
+        {
+          "label": "B",
+          "text": "DHCP"
+        },
+        {
+          "label": "C",
+          "text": "RARP"
+        },
+        {
+          "label": "D",
+          "text": "SDLC"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "SDLC",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network Layer Protocols",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Find the number of connections in a mesh network with 10 nodes?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "45"
+        },
+        {
+          "label": "B",
+          "text": "100"
+        },
+        {
+          "label": "C",
+          "text": "101"
+        },
+        {
+          "label": "D",
+          "text": "55"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "45",
+      "explanation": "Number of connections = n(n − 1) / 2\nn → no. of nodes\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network Topologies",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Find the number of networks allowed under class B address of an IPV4 network?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2^{22}$"
+        },
+        {
+          "label": "B",
+          "text": "$2^{24}$"
+        },
+        {
+          "label": "C",
+          "text": "$2^{14}$"
+        },
+        {
+          "label": "D",
+          "text": "$2^{16}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "2^14",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "IPv4 Addressing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Station A sends data to station B over a full duplex link. Both A and B are using the sliding window protocol for flow control. The window size of sender and receiver is 6 packets each. Data packets (sent only from A to B) are all 700 bytes long and the transmission time for such a packet is 60 ms. Acknowledgement packets that are sent only from B to A are very small and require negligible transmission time. The propagation delay over the link is 120 ms. What is the maximum achievable throughput in this communication?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "20 × $10^6$ bps"
+        },
+        {
+          "label": "B",
+          "text": "70 × $10^6$ bps"
+        },
+        {
+          "label": "C",
+          "text": "50 × $10^6$ bps"
+        },
+        {
+          "label": "D",
+          "text": "60 × $10^6$ bps"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "70 × 10^6 bps",
+      "explanation": "Maximum achievable throughput\n= Total size / Total time = $(6 \times 700 \times 8) / ((6 \times 60 + 120) \times 10^{-6})$\nTotal packet size = Transmission time × window size\nTotal time = Transmission time + propagation time\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Flow Control / Sliding Window",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following shows the Hamming distance of following strings Respectively.\nI. 1101101 and 1101100\nII. 1110111 and 1111011\nIII. 1111011 and 0011001",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2, 1, 3"
+        },
+        {
+          "label": "B",
+          "text": "1, 2, 3"
+        },
+        {
+          "label": "C",
+          "text": "3, 2, 1"
+        },
+        {
+          "label": "D",
+          "text": "1, 1, 2"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1, 2, 3",
+      "explanation": "I. 1101101\n   1101100\n   0000001\nHamming distance is 1\nII. 1110111\n    1111011\n    0001100\nHamming distance is 2\nIII. 1111011\n     0011001\n     1100010\nHamming distance is 3\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Error Detection / Hamming Distance",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Find the minimum frame size for a 20 Mbps Ethernet having 56 bit jamming signal and round trip propagation delay of 64 μs:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2560"
+        },
+        {
+          "label": "B",
+          "text": "640"
+        },
+        {
+          "label": "C",
+          "text": "1336"
+        },
+        {
+          "label": "D",
+          "text": "320"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1336",
+      "explanation": "Minimum frame size\n= 2 × propagation delay × Band width\n= $64 \times 10^{-6} \times 20 \times 10^6 = 1280$\n[Round trip time = 2 × propagation delay]\n$1280 + 56 = 1336$\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Ethernet",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Find the maximum number of hosts per subnet on a class B network with a subnet mask of 255.255.252.0:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1024"
+        },
+        {
+          "label": "B",
+          "text": "2046"
+        },
+        {
+          "label": "C",
+          "text": "2048"
+        },
+        {
+          "label": "D",
+          "text": "1022"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "1022",
+      "explanation": "255.255.252.0 ↔ 11111111.11111111.11111100.00000000\nNo. of hosts per subnet = $2^{10} - 2 = 1024 - 2 = 1022$\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "IP Subnetting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Match the following:\nI. Telnet\nII. DHCP\nIII. RPC\nIV. HDLC\n1. Session layer\n2. Application layer\n3. Data link layer\n4. Network layer\n5. Presentation layer",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I-2, II-1, III-5, IV-4"
+        },
+        {
+          "label": "B",
+          "text": "I-2, II-4, III-1, IV-5"
+        },
+        {
+          "label": "C",
+          "text": "I-2, II-1, III-5, IV-3"
+        },
+        {
+          "label": "D",
+          "text": "I-2, II-4, III-1, IV-3"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "I-2, II-4, III-1, IV-3",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Protocol Layers",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider the RSA public key cryptosystem with the private and public keys as (e, n) and (d, n) respectively, where n = p * q and p and q are large primes. Besides ‘n’ is public, p and q are private. Let m be an integer such that 0 < m < n and z = (p − 1) (q − 1), Then which of the following equations correctly represent RSA cryptosystem?\nI. m¹ = m^e mod z\n   m = (m¹)^d mod z\nII. ed = 1 mod z\nIII. m¹ = m^e mod n\n    m = (m¹)^d mod n\nIV. ed = 1 mod n",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "II and III"
+        },
+        {
+          "label": "B",
+          "text": "III and IV"
+        },
+        {
+          "label": "C",
+          "text": "I and II"
+        },
+        {
+          "label": "D",
+          "text": "I and IV"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "II and III",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Cryptography / RSA",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following conditions must be satisfied by a polynomial generator used for CRC to detect odd number of errors?\nI. It should be divisible by x\nII. It should not be divisible by x\nIII. It should be divisible by 1 + x\nIV. It should not be divisible by 1 + x",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I and IV"
+        },
+        {
+          "label": "B",
+          "text": "II and III"
+        },
+        {
+          "label": "C",
+          "text": "II and IV"
+        },
+        {
+          "label": "D",
+          "text": "I and III"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "II and III",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Error Detection / CRC",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Consider an IPV4 diagram, the M bit is 0, the value of header length is 20, the value of total length is 500 and the fragment offset value is 400. The sequence number of first and last bytes of payload along with the position of the datagram are respectively.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3200, 3619, First fragment"
+        },
+        {
+          "label": "B",
+          "text": "3200, 3619, Last fragment"
+        },
+        {
+          "label": "C",
+          "text": "3200, 3819, Last fragment"
+        },
+        {
+          "label": "D",
+          "text": "1800, 3819, Middle fragment"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "3200, 3619, Last fragment",
+      "explanation": "M=0, means no more fragmentation i.e. the last fragment\nHeader Length = $20 \times 4 = 80$ bytes\nPayload = $500 - 80 = 420$ (0 - 419)\nFragment offset = $400 \times 8 = 3200$ bytes\nSeq. No. of 1st fragment = 3200\nSeq. No. of last fragment = $3200 + 419 = 3619$\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "IPv4 Fragmentation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "A 64 kbps pure ALOHA channel is to be shared among a number of stations, each sending 1k bit frames, on an average one frame every 10 seconds. Assume that sender can buffer frames to handle unsuccessful sendings. What is the maximum number of stations this network can support? (A pure ALOHA channel has a maximum capacity of 18.4%).",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "111"
+        },
+        {
+          "label": "B",
+          "text": "117"
+        },
+        {
+          "label": "C",
+          "text": "122"
+        },
+        {
+          "label": "D",
+          "text": "124"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "117",
+      "explanation": "Average data rate per station is 1,000 bits/10 sec or 100 bps.\nA pure ALOHA channel has a maximum capacity of 18.4%\nA 64 kbps channel would send\n= $64,000 \times 0.184$\n= 11,776 bps\nWe can move 11,776 bps through this channel when managed by pure ALOHA and at its maximum throughput.\n∴ $11776 / 100 = 117$ stations can be supported with 64 kbps pure ALOHA channel.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Random Access / Pure ALOHA",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The exchange of Ethernet frames between two computers P and Q is shown in the figure below. The connection uses 10 BaseT hub and each frame sent by computer P contains 1500 B of Ethernet payload data, while each frame sent by computer Q contains 100 B of Ethernet payload data. Find the average utilization of the media during this exchange?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5.68%"
+        },
+        {
+          "label": "B",
+          "text": "10.24 %"
+        },
+        {
+          "label": "C",
+          "text": "1.27 %"
+        },
+        {
+          "label": "D",
+          "text": "15.67 %"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Networks_2/computer_networks_2-q025-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "1.27 %",
+      "explanation": "Number of frames from P to Q = 8\nEthernet MAC frame payload = 1500 = 1500 + 26 = 1526 bytes = 12208 bits\nNumber of frames from Q = 4\nFrame payload = 100 B\n100 + 26 = 126 bytes\n126 × 8 = 1008 bits\nTotal utilized bandwidth = 12208 × 8 + 1008 × 4 = 101696 (achieved capacity) but actual capacity is 10 Mbps (10 Base T)\nUtilization = $101696 / (8 \times 10 \times 10^6) = 1.27\\%$\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Ethernet / Media Utilization",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q026",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Linked Data Questions 26 and 27:\nConsider a network with five nodes as shown in the figure.\nThe above network uses distance vector routing protocol.\nThe distance vector is the distance of the best known path at that instance to nodes. The distance of a node to itself is zero. All the links are symmetric & the cost is same in both directions. Initially the distance vector at different nodes is\nN1 : (0, 2, 10, 11, 5)\nN2 : (2, 0, 8, 9, 3)\nN3 : (10, 8, 0, 2, 8)\nN4 : (11, 9, 2, 0, 6)\nN5 : (5, 3, 8, 6, 0)\nIn each round, all nodes exchange their distance vectors with their respective neighbours. Then all the nodes update their distance vectors. In between 2 rounds, any change in cost of a link will cause the two incident nodes to change only that entry in their distance vectors.",
+      "text": "The cost of link N₂ − N₃ is reduced by 4 (in both directions). After the next round of updates what will be the new distance vector at node N₃?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(6, 4, 0, 2, 7)"
+        },
+        {
+          "label": "B",
+          "text": "(10, 4, 0, 2, 8)"
+        },
+        {
+          "label": "C",
+          "text": "(10, 4, 0, 2, 7)"
+        },
+        {
+          "label": "D",
+          "text": "(6, 4, 0, 2, 8)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Networks_2/computer_networks_2-q026-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "(6, 4, 0, 2, 7)",
+      "explanation": "N₃: (6, 4, 0, 2, 7)                               Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Routing / Distance Vector",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q027",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Linked Data Questions 26 and 27:\nConsider a network with five nodes as shown in the figure.\nThe above network uses distance vector routing protocol.\nThe distance vector is the distance of the best known path at that instance to nodes. The distance of a node to itself is zero. All the links are symmetric & the cost is same in both directions. Initially the distance vector at different nodes is\nN1 : (0, 2, 10, 11, 5)\nN2 : (2, 0, 8, 9, 3)\nN3 : (10, 8, 0, 2, 8)\nN4 : (11, 9, 2, 0, 6)\nN5 : (5, 3, 8, 6, 0)\nIn each round, all nodes exchange their distance vectors with their respective neighbours. Then all the nodes update their distance vectors. In between 2 rounds, any change in cost of a link will cause the two incident nodes to change only that entry in their distance vectors.",
+      "text": "After the update in the above question the link N₁ − N₂ goes down. N₂ will reflect this change immediately in its distance vector at cost a. After the next round of update, what will be the cost to N₁ in the distance vector of N₃?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "13"
+        },
+        {
+          "label": "B",
+          "text": "∞"
+        },
+        {
+          "label": "C",
+          "text": "11"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Networks_2/computer_networks_2-q027-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "13",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Routing / Distance Vector",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q028",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "The CIDR based IP address for an ISP is given as 252.246.128.0/21. The ISP wants to give half of this address to organization X and a quarter to organization Y, while retaining the remaining with itself. Which of the following is a valid allocation of addresses to X and Y?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "252.246.128.0/20 and 252.246.128.0/21"
+        },
+        {
+          "label": "B",
+          "text": "252.246.136.0/20 and 252.246.128.0/21"
+        },
+        {
+          "label": "C",
+          "text": "252.246.128.0/22 and 252.246.136.0/23"
+        },
+        {
+          "label": "D",
+          "text": "252.246.128.0/21 and 252.246.136.0/22"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "252.246.128.0/22 and 252.246.136.0/23",
+      "explanation": "Total bit mask = 21\nTo allocate half of host to X need 10 bit i.e. $2^{10}$ host\n∴ Mask for X = 22 bits\nTo allocate $1/4$ of host to Y need 9 bit i.e. $2^9$ host\nMask for Y (32 − 9) = 23 bits\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "CIDR / IP Addressing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q029",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "In Ethernet CSMA/CD, the special bit sequence transmitted by media access management for collision handling is called:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "jam"
+        },
+        {
+          "label": "B",
+          "text": "Preamble"
+        },
+        {
+          "label": "C",
+          "text": "Postamble"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "jam",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Ethernet / CSMA-CD",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q030",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which one of the following network routing method uses every possible path between the sender and receiver terminal?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Directory routing"
+        },
+        {
+          "label": "B",
+          "text": "Random routing"
+        },
+        {
+          "label": "C",
+          "text": "Message switching"
+        },
+        {
+          "label": "D",
+          "text": "Packet flooding"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Packet flooding",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Routing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q031",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which one of the following statements are correct?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Baseband network uses analog technology"
+        },
+        {
+          "label": "B",
+          "text": "Baseband network is Time Division Multiplexed"
+        },
+        {
+          "label": "C",
+          "text": "In Broadband network, the carrier signals operate at low frequency"
+        },
+        {
+          "label": "D",
+          "text": "Broadband network uses digital technology"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Baseband network is Time Division Multiplexed",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Baseband and Broadband",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q032",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "How many number of bytes are there for a header in TCP segment and UDP segment respectively?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "16 bytes and 8 bytes"
+        },
+        {
+          "label": "B",
+          "text": "8 bytes and 16 bytes"
+        },
+        {
+          "label": "C",
+          "text": "8 bytes and 20 bytes"
+        },
+        {
+          "label": "D",
+          "text": "20 bytes and 8 bytes"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "20 bytes and 8 bytes",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Transport Layer / TCP and UDP",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q033",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.",
+      "text": "Which of the following statements about DES is/are true?\n(i) DES is asymmetric key encryption\n(ii) DES is symmetric key encryption\n(iii) DES uses different keys in each of the 16 iterations",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only I"
+        },
+        {
+          "label": "B",
+          "text": "Only II"
+        },
+        {
+          "label": "C",
+          "text": "I and III"
+        },
+        {
+          "label": "D",
+          "text": "II and III"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "II and III",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Cryptography / DES",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q034",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\n\nCommon Data Questions 34 and 35:\nConsider the routing table below.\nDestination | Gateway | Mask | Flags | Interfaces\n175.220.105.128 | 175.220.105.164 | 225.255.255.136 | U | eth0\n192.128.1.0 | 192.128.1.1 | 255.255.255.0 | U | eth1\n127.0.0.1 | 127.0.0.1 | 255.0.0.0 | U | Loop back 0\nDefault | 175.220.105.129 | 255.255.255.255 | UG | eth0",
+      "text": "How many local subnets is this machine attached to?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Networks_2/computer_networks_2-q034-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "2",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "IP Routing / Routing Tables",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q035",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_2.pdf",
+      "direction": "Directions for questions 1 to 35: Select the correct alternative from the given choices.\n\nCommon Data Questions 34 and 35:\nConsider the routing table below.\nDestination | Gateway | Mask | Flags | Interfaces\n175.220.105.128 | 175.220.105.164 | 225.255.255.136 | U | eth0\n192.128.1.0 | 192.128.1.1 | 255.255.255.0 | U | eth1\n127.0.0.1 | 127.0.0.1 | 255.0.0.0 | U | Loop back 0\nDefault | 175.220.105.129 | 255.255.255.255 | UG | eth0",
+      "text": "How many IP addresses can this machine reach to (excluding the loop back router)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "128"
+        },
+        {
+          "label": "B",
+          "text": "512"
+        },
+        {
+          "label": "C",
+          "text": "384"
+        },
+        {
+          "label": "D",
+          "text": "256"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Networks_2/computer_networks_2-q035-question.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "384",
+      "explanation": "$2^7$ (in first n/w) + $2^8$ (in second n/w)\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "IP Routing / Routing Tables",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_2.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

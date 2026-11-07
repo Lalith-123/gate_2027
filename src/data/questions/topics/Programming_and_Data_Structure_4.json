@@ -1,0 +1,1505 @@
+[
+  {
+    "id": "gate-programming-and-data-structures-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "Dynamic checking is performed (at the time of)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "translation"
+        },
+        {
+          "label": "B",
+          "text": "execution"
+        },
+        {
+          "label": "C",
+          "text": "before the execution"
+        },
+        {
+          "label": "D",
+          "text": "semantic analysis"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "before the execution",
+      "explanation": "‘Dynamic checking is performed before the execution.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Programming Languages",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "Which variables are preferable for smaller and faster programs?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "auto variables"
+        },
+        {
+          "label": "B",
+          "text": "static variables"
+        },
+        {
+          "label": "C",
+          "text": "global variables"
+        },
+        {
+          "label": "D",
+          "text": "register variables"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "register variables",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C programming / storage classes",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "C language implements",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Static scoping"
+        },
+        {
+          "label": "B",
+          "text": "dynamic scoping"
+        },
+        {
+          "label": "C",
+          "text": "both (A) and (B)"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Static scoping",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Programming Languages / scoping",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "Which of the following language doesnot support recursion",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "C"
+        },
+        {
+          "label": "B",
+          "text": "PROLOG"
+        },
+        {
+          "label": "C",
+          "text": "PASCAL"
+        },
+        {
+          "label": "D",
+          "text": "FORTRAN"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "FORTRAN",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Programming Languages / recursion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "Consider the following program segment:\nA (int x)\n{\nif (x = = 0)\nreturn;\nelse\n{\nA(x/10);\nprintf(“%d /t”, x);\n}\n}\nWhat is the output when A (1 2 3 4) is called",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 2 3 4 1 2 3 1 1 2"
+        },
+        {
+          "label": "B",
+          "text": "1 1 2 1 2 3 1 2 3 4"
+        },
+        {
+          "label": "C",
+          "text": "1 1 2 3 1 2 1 2 3 4"
+        },
+        {
+          "label": "D",
+          "text": "1 2 3 4 1 2 3 1 2 1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1 1 2 1 2 3 1 2 3 4",
+      "explanation": "A (1234) prints\nA (123) prints\nA (12) prints\nA (1) prints\nA (0)\n\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Programming_and_Data_Structure_4/programming_and_data_structures_4-q005-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Recursion",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "What is the return value when A (“TIME”) is called from given program segment?\nint A(char * S)\n{\nchar * P = S;\nwhile (*P! = ‘/0’)\nP++;\nreturn P – S; }",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "4",
+      "explanation": "It returns the string length i.e., 4.  Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Strings / pointers",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "The following statement x + y = z in ‘C’ language is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "correct"
+        },
+        {
+          "label": "B",
+          "text": "invalid"
+        },
+        {
+          "label": "C",
+          "text": "impossible"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "invalid",
+      "explanation": "Left side of assignment operator (=) could not be an expression. \nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C programming / expressions",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "The order in which actual arguments are evaluated in a function call is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "from left to right"
+        },
+        {
+          "label": "B",
+          "text": "from right to left"
+        },
+        {
+          "label": "C",
+          "text": "unpredictable"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "unpredictable",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C programming / function calls",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "Which of the following is true for the getche ( ) library function?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "It returns a character when a key is pressed."
+        },
+        {
+          "label": "B",
+          "text": "It returns a character when the enter key is pressed."
+        },
+        {
+          "label": "C",
+          "text": "It doesn’t display a character on the screen."
+        },
+        {
+          "label": "D",
+          "text": "It displays a character on the screen."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "It returns a character when a key is pressed.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C libraries / I/O",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "The following declaration float (*A) (void *,void *) means:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A is function returning a pointer to a float that has two void * arguments."
+        },
+        {
+          "label": "B",
+          "text": "A is a pointer to a function with float as the arguments."
+        },
+        {
+          "label": "C",
+          "text": "A is a function with void * as arguments and returns float pointer."
+        },
+        {
+          "label": "D",
+          "text": "A is a function that has two void * arguments and returns float."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "A is a function that has two void * arguments and returns float.",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pointers / function pointers",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": "Linked Answer Questions 11 and 12:\nConsider the following recursive function:\nA(m, n)\n{\nif (m = = 0)\nreturn n + 1;\nelse if (n = = 0)\nA (m – 1, 1);\nelse\nA(m – 1, A(m, n – 1));\n}",
+      "text": "What is the value returned when A (1, 1) is called:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "3",
+      "explanation": "A (0,1)\nA (0, A (1,0))\nReturn (2+1)\nReturn (1+1)\nA (1 1)\n3\n2\n\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Programming_and_Data_Structure_4/programming_and_data_structures_4-q011-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Recursion / Ackermann function",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": "Linked Answer Questions 11 and 12:\nConsider the following recursive function:\nA(m, n)\n{\nif (m = = 0)\nreturn n + 1;\nelse if (n = = 0)\nA (m – 1, 1);\nelse\nA(m – 1, A(m, n – 1));\n}",
+      "text": "The number of function calls when A (1, 1) is called:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "4",
+      "explanation": "From the above, the function calls are 4.\n\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Recursion / function calls",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "Pointers are of unsigned:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "integer data type"
+        },
+        {
+          "label": "B",
+          "text": "character data type"
+        },
+        {
+          "label": "C",
+          "text": "float data type"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "integer data type",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pointers",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": "Common Data Questions 14 and 15:\nConsider the following program segment:\nint x[3] [5] = {\n{1, 2, 3, 4, 5}\n{6, 7, 8, 9, 10},\n{11, 12, 13, 14, 15}}\nint *n = &x;",
+      "text": "The value of *(*(x + 1) + 3) is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "9",
+      "explanation": "*(*(x + 1) + 3)\nThis is equivalent to x[1] [3], which is 9. \nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Arrays / pointer arithmetic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": "Common Data Questions 14 and 15:\nConsider the following program segment:\nint x[3] [5] = {\n{1, 2, 3, 4, 5}\n{6, 7, 8, 9, 10},\n{11, 12, 13, 14, 15}}\nint *n = &x;",
+      "text": "The value of *(n + 5) + 1 is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "7",
+      "explanation": "* (n + 5) + 1\n\nThe above pointer expression maps to n[6] in memory location which is 7. \nChoice (A)",
+      "status": "confirmed",
+      "image": "images/Programming_and_Data_Structure_4/programming_and_data_structures_4-q015-explanation.png"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pointers / pointer arithmetic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "Consider the declaration char A (int (*) (char, float))\nint B(char, float)\nWhich of the following function invocation is valid?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A (*B)"
+        },
+        {
+          "label": "B",
+          "text": "A (&B)"
+        },
+        {
+          "label": "C",
+          "text": "A (B)"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "A (B)",
+      "explanation": "The function ‘A’ means A is a function (returning character) whose only argument is a pointer to a function that takes a character and float as arguments and returns as integer. The name of a function can be used as the starting address of the function (i.e., pointer to it).\n\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pointers / function pointers",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "The expression\n6 – 2 + 3 – 4 * 2 will evaluate to –1 if",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "– is left associative and – has precedence over *"
+        },
+        {
+          "label": "B",
+          "text": "– is right associative and – has precedence over *"
+        },
+        {
+          "label": "C",
+          "text": "– is right associative and * has precedence over –"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "– is right associative and * has precedence over –",
+      "explanation": "6 – 2 + 3 – 4 * 2\n\n= 6 – 2 + 3 – 8\n= 6 – 2 + (–5)\n= 6 – 2 – 5\n= 6 – 7 = –1. \nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Operators / precedence and associativity",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "Which of the following is not the functionality of pre processing?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Macro substitution"
+        },
+        {
+          "label": "B",
+          "text": "Conditional compilation"
+        },
+        {
+          "label": "C",
+          "text": "Inclusion of named files"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of the above",
+      "explanation": null,
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C programming / preprocessing",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "Consider the program segment:\nint x = 10;\nA( )\n{\nint x = 20;\nB ( );\n}\nB( )\n{\nprintf (“%d”, x);\n}\nmain ( )\n{\nA ( )\n}\nWhat is the out put of above program",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "prints 10 or 20 (depends on compiler)"
+        },
+        {
+          "label": "D",
+          "text": "compilation error"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "10",
+      "explanation": "The given program is in ‘C’ language, it implements static scoping.\nWhen A( ) is called which calls B( ) it will check the ‘x’, values in B( ). As it is not present, it checks for the ‘x’ values out of the B( ) and it will print x as ‘10’.\n\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C programming / scoping",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "Consider the program segment:\nint x = 40;\nA ( )\n{\nint y = 60;\nB ( );\n}\nB ( )\n{\nprintf(‘%d”, x);\n}\nmain ( )\n{\nint x = 50;\nA( ) ;\n}\nThe output of the above program is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "40"
+        },
+        {
+          "label": "B",
+          "text": "50"
+        },
+        {
+          "label": "C",
+          "text": "60"
+        },
+        {
+          "label": "D",
+          "text": "Compilation error"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "40",
+      "explanation": "As ‘C’ language implements static scoping, when A( ) is called, which will call B( ) which has to print ‘x’, first it will check in B( ) for the ‘x’ value then it goes out of the B( ) (global section) and prints 40. \nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "C programming / scoping",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": "Consider the program segment:\nint x = 40;\nA ( )\n{\nint y = 60;\nB ( );\n}\nB ( )\n{\nprintf(‘%d”, x);\n}\nmain ( )\n{\nint x = 50;\nA( ) ;\n}",
+      "text": "In the above code given in Q. 20, if the above language implements Dynamic scoping then output of the above code is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "40"
+        },
+        {
+          "label": "B",
+          "text": "50"
+        },
+        {
+          "label": "C",
+          "text": "60"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "50",
+      "explanation": "If dynamic scoping is implemented, when B( ) wants to print ‘x’ it, first checks for ‘x’ in B( ) as it is not present, it checks in the function from where it is called (i.e., in A( ))\n∴ \nIt prints 50. \nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Programming Languages / dynamic scoping",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "Consider the following program:\nint k;\nk = n; // ‘n’ is some integer\nwhile (k > 0)\nk = k/2;\nThe number of comparisons made in the execution of the loop is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "[log₂ n]"
+        },
+        {
+          "label": "B",
+          "text": "1 + [log₂ n]"
+        },
+        {
+          "label": "C",
+          "text": "n"
+        },
+        {
+          "label": "D",
+          "text": "⌈log₂(n/2)⌉ + 1 + 1"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1 + [log₂ n]",
+      "explanation": "Here ‘k’ value is n from the loop, ‘k’ values will be:\nn, n/2, n/4, n/8,...,1\nlet the loop is iterated for ‘t’ times as the sequence is in G.P. then tth term will be 1.\n∴\nn (1/2)^(t−1) = 1 = 1/n\n2^(t−1) = n\n(t − 1) log₂ 2 = log₂ n\nt − 1 = log₂ n\nt = 1 + log₂ n \nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Complexity / loop analysis",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "Consider the following program:\nA (int x, int y)\n{\nif (x > = y)\nreturn [1 + A(x – y, y)];\nelse\nreturn 0;\n}\nWhat is the functionality of above routine A( )?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "It returns the number of function calls"
+        },
+        {
+          "label": "B",
+          "text": "It performs the subtraction between two numbers (x and y)."
+        },
+        {
+          "label": "C",
+          "text": "It performs division of the two given numbers (x and y)."
+        },
+        {
+          "label": "D",
+          "text": "It returns the greater value among the two numbers (x and y)."
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "It performs division of the two given numbers (x and y).",
+      "explanation": "The function A( ) returns Quotient.\ni.e., it performs division among the two given numbers.\n\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Recursion / division",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "What does the following fragment of C-program print;\nchar* s = “TIME = HYD”;\nchar* p = s;\nprintf (“%u %u”, p, s);",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2000                      2006"
+        },
+        {
+          "label": "B",
+          "text": "2006                      2008"
+        },
+        {
+          "label": "C",
+          "text": "2010                      TIME HYD"
+        },
+        {
+          "label": "D",
+          "text": "2000                      2000"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "2000                      2000",
+      "explanation": "Both p and s points to same address, prints same values. \nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Pointers / strings",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-programming-and-data-structures-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Programming and Data Structures"
+    },
+    "question": {
+      "pdfName": "Programming_and_Data_Structure_4.pdf",
+      "direction": null,
+      "text": "Consider the following program segment:\nmain ( )\n{\nstatic char a[3] [4] = {“time”, \n“gate”, “2015”}\nputchar (**a);\n}\nWhat will be the output of above program?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "prints time"
+        },
+        {
+          "label": "B",
+          "text": "prints gate"
+        },
+        {
+          "label": "C",
+          "text": "prints 2015"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of the above",
+      "explanation": "**a will map to 1st character in the array it prints‘t’.\n\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Programming and Data Structures",
+      "topic": "Arrays / character arrays",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Programming_and_Data_Structure_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

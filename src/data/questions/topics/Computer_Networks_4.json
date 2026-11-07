@@ -1,0 +1,1507 @@
+[
+  {
+    "id": "gate-computer-networks-test-1-q001",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following layers of ISO/OSI model implements ARP (address Resolution protocol)?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Data link layer"
+        },
+        {
+          "label": "B",
+          "text": "Network layer"
+        },
+        {
+          "label": "C",
+          "text": "Transport layer"
+        },
+        {
+          "label": "D",
+          "text": "Application layer"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Data link layer",
+      "explanation": "ARP (Address Resolution Protocol) maps IP addresses to hardware addresses. It is used by Internet protocol (IP) and used in Data link layer. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "OSI model / ARP",
+      "subtopic": "Protocol and layer mapping",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q002",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following routing has more chances for getting TTL as zero?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Source routing"
+        },
+        {
+          "label": "B",
+          "text": "Router routing with default route"
+        },
+        {
+          "label": "C",
+          "text": "Router routing with dynamic default route"
+        },
+        {
+          "label": "D",
+          "text": "Routing will not affect the value of TTL"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "Router routing with default route",
+      "explanation": "TTL (Time to Leave) is a field in a IP header which avoids packet going in to infinite loop. In default route routing there are more chances for getting a packet in to an infinite loop. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network layer / Routing",
+      "subtopic": "TTL and routing loops",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q003",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of these protocols doesnot accept the out of order packets?\n(I) Go back N\n(II) selective repeat",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only (I)"
+        },
+        {
+          "label": "B",
+          "text": "Only (II)"
+        },
+        {
+          "label": "C",
+          "text": "Both (I) and (II)"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Only (I)",
+      "explanation": "In Go back–N protocol, Receiver can’t receive out of order packet, if it receives it sends NAK. In selective repeat, it can receive out of order packets and sorting algorithm is used for sorting the packets at the receiver end. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data link layer / Sliding window",
+      "subtopic": "Go-Back-N and Selective Repeat",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q004",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is not the functionality of presentation layer?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "translation"
+        },
+        {
+          "label": "B",
+          "text": "encryption"
+        },
+        {
+          "label": "C",
+          "text": "compression"
+        },
+        {
+          "label": "D",
+          "text": "synchronizes the interaction between the two parties"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "synchronizes the interaction between the two parties",
+      "explanation": "The functionalities of the presentation layer is\n(a) Encoding\n(b) Encryption\n(c) Compression\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "OSI model / Presentation layer",
+      "subtopic": "Presentation-layer functions",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q005",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "In 802.3 LAN the Bandwidth of the cable is 5 Mbps, velocity of propagation is 2.1 × 10^8 m/s, length of LAN is 2.1 km, what is the minimum packet size?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "100 bits"
+        },
+        {
+          "label": "B",
+          "text": "120 bits"
+        },
+        {
+          "label": "C",
+          "text": "210 bits"
+        },
+        {
+          "label": "D",
+          "text": "115 bits"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "100 bits",
+      "explanation": "Condition for minimum packet size in Ethernet:\nTransmission delay = round trip delay\n\n2 × L / B = 2 × d / v\n\n2 × L / (5 × 10^6) = 2 × (2.1 × 10^3 m) / (2.1 × 10^8)\n\nL = 100 bits. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data link layer / Ethernet",
+      "subtopic": "Minimum Ethernet frame size",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q006",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "In 802.3 LAN the encoding technique used is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Manchester encoding"
+        },
+        {
+          "label": "B",
+          "text": "defracted Manchester encoding"
+        },
+        {
+          "label": "C",
+          "text": "Both (A) and (B)"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Manchester encoding",
+      "explanation": "In 802.3, Manchestar encoding is used for data encoding. In this, coding data bit is either high, low or of equal time. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data link layer / Ethernet",
+      "subtopic": "Manchester encoding",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q007",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Match the following:\nColumn–I\n(1) Logical addressing\n(2) Physical addressing\n(3) Service Point addressing\n\nColumn–II\n(i) Data link layer\n(ii) Network layer\n(iii) Physical Layer\n(iv) Transport layer",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1–(i), 2–(iv), 3–(iii)"
+        },
+        {
+          "label": "B",
+          "text": "1–(ii), 2–(iii), 3–(i)"
+        },
+        {
+          "label": "C",
+          "text": "1–(iii), 2–(i), 3–(iv)"
+        },
+        {
+          "label": "D",
+          "text": "1–(ii), 2–(i), 3–(iv)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Networks_4/computer_networks_4-q007-question.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "1–(ii), 2–(i), 3–(iv)",
+      "explanation": "(1) Logical addressing is implemented in Network layer\n(2) Physical addressing is implemented in data link layer\n(3) Service point addressing is implemented in Transport layer. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Networking / Addressing",
+      "subtopic": "Logical, physical, and service-point addressing",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q008",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "CHECKSUM calculations for a packet is done by:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "data link layer"
+        },
+        {
+          "label": "B",
+          "text": "network layer"
+        },
+        {
+          "label": "C",
+          "text": "transport layer"
+        },
+        {
+          "label": "D",
+          "text": "physical layer"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "transport layer",
+      "explanation": "The end to end error control in a network is done by Transport layer by using checksum. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Transport layer / Error control",
+      "subtopic": "Checksum",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q009",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Match the following:\n(A) Dividing the transmitted bit stream into frames\n(B) Determining which route the subnet has to use\n(C) Fragment the incoming byte stream into discrete messages.\nI. TRANSPORT LAYER\nII. DATA LINK LAYER\nIII. NETWORK LAYER",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "I–A, II–C, III–B"
+        },
+        {
+          "label": "B",
+          "text": "I–C, II–A, III–B"
+        },
+        {
+          "label": "C",
+          "text": "I–A, II–B, III–C"
+        },
+        {
+          "label": "D",
+          "text": "I–B, II–C, III–A"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "I–C, II–A, III–B",
+      "explanation": "Data Link Layer divides bit stream into frames.\nOne of the main functionality of Network Layer is routing.\nFragmentation is done by Transport Layer.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "OSI model / Layer functions",
+      "subtopic": "Transport, data link, and network layer functions",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q010",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following situations would not cause packet retransmission?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "when packet TTL becomes zero"
+        },
+        {
+          "label": "B",
+          "text": "when there is congestion at the link"
+        },
+        {
+          "label": "C",
+          "text": "when the buffer is full at the router"
+        },
+        {
+          "label": "D",
+          "text": "None of the above"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "None of the above",
+      "explanation": "The packet gets discarded\nWhen TTL becomes zero\nWhen there is congestion at the link\nWhen the buffer is full at the router\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network layer / Packet handling",
+      "subtopic": "Packet discard and retransmission",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q011",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider a link with 10 Mbps bandwidth and 16 m sec round trip time, if frame size is 1 K bytes then how much percentage of link capacity is utilized?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "9.5"
+        },
+        {
+          "label": "B",
+          "text": "7.8"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "5",
+      "explanation": "Throughput = 1 K bytes / 16 m sec\n\n= (1 × 10^3 × 8 bits) / (16 × 10^-3 sec)\n\n= 10^6 / 2 bps\n\n% of link utilization = (10^6 / 2) × 100 / (10 × 10^6)\n\n= (10^6 / (2 × 10 × 10^6)) × 100 = 5%.\n\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data link layer / Flow control",
+      "subtopic": "Link utilization",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q012",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What will be the length of the packet if the senders utilization is 50%, Band width of the link is 10 Mbps and the Round trip time is 4 msec?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "40 KB"
+        },
+        {
+          "label": "B",
+          "text": "8 KB"
+        },
+        {
+          "label": "C",
+          "text": "6 KB"
+        },
+        {
+          "label": "D",
+          "text": "5 KB"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "5 KB",
+      "explanation": "When senders utilization is 50% then\nL = BR\nwhere\nL = length of the packet\nB = Band width of link\nR = Round trip time\n\n∴ L = 10 × 10^6 × 4 × 10^-3 bits\n= 10 × 4 × 10^3 bits\n= 40 × 10^3 bits\n= 5 KB. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data link layer / Flow control",
+      "subtopic": "Sender utilization and packet length",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q013",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "What is the size of sender’s window for stop wand wait, Go-back N and selective repeat, when the available sequence numbers are 8.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1, 7 , 4"
+        },
+        {
+          "label": "B",
+          "text": "8, 8, 8"
+        },
+        {
+          "label": "C",
+          "text": "4, 4, 4"
+        },
+        {
+          "label": "D",
+          "text": "2, 4, 8"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1, 7 , 4",
+      "explanation": "When N is the available sequence numbers, then sender’s window size of stop and wait, Go-back N and selective repeat are 1, N − 1, N/2. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data link layer / Sliding window",
+      "subtopic": "Window sizes",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q014",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Host A sends 64 byte packets using sliding window protocol to host B. The round trip delay between A and B is 160 m sec Bandwidth of the link is 256 Kbps what will be the optimal window size that A should use:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "40"
+        },
+        {
+          "label": "B",
+          "text": "80"
+        },
+        {
+          "label": "C",
+          "text": "120"
+        },
+        {
+          "label": "D",
+          "text": "160"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "80",
+      "explanation": "R.T.T = 160 × 10^-3 sec\nB.W = 256 × 10^3 bps\n(Band width)\n\nLength of the packet = 256 × 160 × 10^3 × 10^-3\n= 256 × 160\n\nWindow size = (256 × 160) / (64 × 8) = 80. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data link layer / Sliding window",
+      "subtopic": "Optimal sender window",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q015",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "A computer on a 20 Mbps network is regulated by a token bucket algorithm, the token bucket is filled at a rate of 2 Mbps and it is initially filled with a capacity of 16 Mbps. The duration for which the computer can transmit, at the maximum regulated output rate (in seconds) is ________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1.98 sec"
+        },
+        {
+          "label": "B",
+          "text": "0.89 sec"
+        },
+        {
+          "label": "C",
+          "text": "2.5 sec"
+        },
+        {
+          "label": "D",
+          "text": "3.0 sec"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "0.89 sec",
+      "explanation": "Capacity of the bucket (C) = 16 Mbps\nMaximum regulated output rate (M) = 20 Mbps\nToken filling rate ∫( ) = 2 Mbps\nTime duration for incoming bursty traffic (t) = ?\n\nC + ∫ = Mt\n\n16 + 2t = 20t\n⇒ 16 = 18t ⇒ t = 0.89 seconds Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network layer / Traffic shaping",
+      "subtopic": "Token bucket",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q016",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "The message 100011001 is to be transmitted using the CRC polynomial x^3 + x^2 + 1 the message that should be transmitted is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1000110010000"
+        },
+        {
+          "label": "B",
+          "text": "1000110010100"
+        },
+        {
+          "label": "C",
+          "text": "1000110011001"
+        },
+        {
+          "label": "D",
+          "text": "1000110011000"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "1000110011000",
+      "explanation": "Message = 100011001 divisor = 1101 and CRC remainder is 1000 the transmitted message is 1000110011000.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data link layer / Error detection",
+      "subtopic": "CRC",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q017",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "In 802.3, A and B are the only two stations each has a steady queue of frames to send, both A and B attempt to transmit a frame, collide and A wins the first back off race. At the end of this successful transmission by A both A and B attempt to transmit, collide and A again wins the back off race, at the end of this successful transmission by A, both A and B attempt to transmit, collide and A again wins the back off race. At the end of this successful transmission by A, both the stations attempt to transmit and collide. The probability that B wins the first back off race is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.625"
+        },
+        {
+          "label": "B",
+          "text": "0.0625"
+        },
+        {
+          "label": "C",
+          "text": "0.75"
+        },
+        {
+          "label": "D",
+          "text": "0.075"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "0.0625",
+      "explanation": "A has two conditions to win first back off race (0, 1) & B has eight conditions (0, 1, 2, 3, 4, 5, 6 and 7) i.e., B has only one chance to win i.e., 1/16 = 0.0625. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data link layer / CSMA-CD",
+      "subtopic": "Binary exponential backoff",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q018",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following figure:\nFor the above network, ignore the line weights, suppose flooding is used for the routing algorithm. If a packet is sent from ‘D’ to ‘G’, with a maximum hop count of 3, list all the routes it take and how many packets are sent in this flooding?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "5 Routes, 11 packets"
+        },
+        {
+          "label": "B",
+          "text": "4 Routes, 11 packets"
+        },
+        {
+          "label": "C",
+          "text": "4 Routes, 3 packets"
+        },
+        {
+          "label": "D",
+          "text": "5 Routes, 5 packets"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Networks_4/computer_networks_4-q018-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "4 Routes, 11 packets",
+      "explanation": "See the figure given below:\nHop 1 (→), Hop 2 (→), Hop 3 (→)\n11 packets are sent in this flooding.\nIn Hop 1, 3 packets are sent (→)\nIn Hop 2, 6 packets are sent (→)\nIn Hop 3, 2 packets are sent (→)\nChoice (B)",
+      "status": "confirmed",
+      "image": "images/Computer_Networks_4/computer_networks_4-q018-explanation.png"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network layer / Routing",
+      "subtopic": "Flooding",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q019",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "A network system with n-layers, Application generated message of length m-bytes. If each layer adds an h-byte header what fraction of network Bandwidth is filled with headers?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "h/(n × m) bytes"
+        },
+        {
+          "label": "B",
+          "text": "h × n × m bytes"
+        },
+        {
+          "label": "C",
+          "text": "(n × h)/m bytes"
+        },
+        {
+          "label": "D",
+          "text": "m/(n × h) bytes"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "(n × h)/m bytes",
+      "explanation": "Network with ‘n’ layers adds ‘n’ – h – byte headers to a packet of length ‘m’ then the fraction of network bandwidth filled with headers are (n × h / m) bytes. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Networking fundamentals / Encapsulation",
+      "subtopic": "Protocol overhead",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q020",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider the following bit stream ‘01111010111111011110111’ using bit stuffing framing method in the data link layer, how many 0s should be stuffed in the data using a flag pattern of ‘011110’?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "5",
+      "explanation": "Data will be stuffed as\n011101010111011100\n↑    ↑  ↑\n1110101110\n↑   ↑\nAfter every 3 consecutive 1s we will stuff ‘0’ bit therefore total = 5.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Data link layer / Framing",
+      "subtopic": "Bit stuffing",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q021",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Match the following:\n(a) Distance vector routing — (I) BGP\n(b) Link state routing — (II) RIP\n(c) Path vector protocol — (III) OSPF",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "a–III, b–II, c–I"
+        },
+        {
+          "label": "B",
+          "text": "a–II, b–III, c–I"
+        },
+        {
+          "label": "C",
+          "text": "a–I, b–II, c–III"
+        },
+        {
+          "label": "D",
+          "text": "a–I, b–II, c–III"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Networks_4/computer_networks_4-q021-question.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "a–II, b–III, c–I",
+      "explanation": "• Distance vector routing is implemented using RIP.\n• Link state routing is implemented using OSPF.\n• Path vector protocol includes BGP. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network layer / Routing protocols",
+      "subtopic": "RIP, OSPF, and BGP",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q022",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Consider network:\n\nAt t = 0, the distance vector is\nA: [0, 2, ∞, 5, ∞, ∞]\nB: [2, 0, 2, ∞, 1, ∞]\nC: [∞, 2, 0, 2, ∞, 3]\nD: [5, ∞, 2, 0, ∞, ∞]\nE: [0, 1, ∞, ∞, 0, 3]\nF: [∞, ∞, 3, ∞, 3, 0]\n\nWhat would be the distance vector in next cycle?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "A: [0, 2, 4, 5, 3, ∞]; B: [2, 0, 2, 4, 1, 2]; C: [4, 2, 0, 2, 3, 3]; D: [5, 4, 2, 0, ∞, 5]; E: [3, 1, 3, ∞, 0, 3]; F: [∞, 2, 3, 5, 3, 0]"
+        },
+        {
+          "label": "B",
+          "text": "A: [0, 2, 4, 5, 3, ∞]; B: [2, 0, 2, 4, 1, 4]; C: [4, 2, 0, 2, 3, 3]; D: [5, 4, 2, 0, ∞, 5]; E: [3, 1, 3, ∞, 0, 3]; F: [∞, 2, 3, 5, 3, 0]"
+        },
+        {
+          "label": "C",
+          "text": "A: [0, 2, 4, 1, 3, ∞]; B: [2, 0, 2, 4, 1, 2]; C: [4, 2, 0, 2, 3, 3]; D: [5, 4, 2, 0, ∞, 5]; E: [3, 1, 3, ∞, 0, 3]; F: [∞, 2, 3, 5, 3, 0]"
+        },
+        {
+          "label": "D",
+          "text": "A: [∞, 2, 4, 5, 3, ∞]; B: [2, 0, 2, 4, 1, 4]; C: [4, 2, 0, 2, 3, 3]; D: [5, 4, 2, 0, ∞, 5]; E: [3, 1, 3, ∞, 0, 3]; F: [∞, 4, 3, 5, 3, 0]"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Computer_Networks_4/computer_networks_4-q022-question.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "A: [0, 2, 4, 5, 3, ∞]; B: [2, 0, 2, 4, 1, 2]; C: [4, 2, 0, 2, 3, 3]; D: [5, 4, 2, 0, ∞, 5]; E: [3, 1, 3, ∞, 0, 3]; F: [∞, 2, 3, 5, 3, 0]",
+      "explanation": "In distance vector routing, at every step shortest path are calculated to the all nodes from its neighbours. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network layer / Distance vector routing",
+      "subtopic": "Distance-vector update",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q023",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following statements are correct, when router malfunctions?\n(i) each node computes only its own table\n(ii) node can advertise incorrect link cost in link state algorithm\n(iii) Each node’s table is used by other in distance vector\n(iv) Distance vector node can advertise in correct path cost",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "(i) and (iii) are correct"
+        },
+        {
+          "label": "B",
+          "text": "(i) and (iv) are correct"
+        },
+        {
+          "label": "C",
+          "text": "(ii) and (iii) are correct"
+        },
+        {
+          "label": "D",
+          "text": "All statements are correct"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "All statements are correct",
+      "explanation": "The functionalities in the above all statements are performed by a mal functioned router. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network layer / Routing",
+      "subtopic": "Router malfunction and routing behavior",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q024",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is TRUE about routing information protocol (RIP)?\n(a) RIP is based on distance vector routing\n(b) RIP protocol is slow converging and instable\n(c) the router forwards only the packets that have traveled the shortest path from the source to the route\n(d) RIP uses Dijkstra algorithm to determine best path to a particular destination.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only (a) and (b)"
+        },
+        {
+          "label": "B",
+          "text": "Only (a) and (d)"
+        },
+        {
+          "label": "C",
+          "text": "Only (b) and (c)"
+        },
+        {
+          "label": "D",
+          "text": "Only (c) and (d)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Only (a) and (b)",
+      "explanation": "RIP uses the hop count for the packet routing and there is no compulsive that it should be shortest.\nRIP uses Bellman–Ford algorithm for finding shortest path.\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network layer / Routing protocols",
+      "subtopic": "RIP",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-computer-networks-test-1-q025",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Computer Networks"
+    },
+    "question": {
+      "pdfName": "Computer_Networks_4.pdf",
+      "direction": "Directions for questions 1 to 25: Select the correct alternative from the given choices.",
+      "text": "Which of the following is TRUE about open shortest path first protocol?\n(a) OSPF is based on link state routing\n(b) OSPF routing tables are calculated by using Dijkstra algorithm",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only (a) is correct"
+        },
+        {
+          "label": "B",
+          "text": "Only (b) correct"
+        },
+        {
+          "label": "C",
+          "text": "(a) and (b) are correct"
+        },
+        {
+          "label": "D",
+          "text": "(a) and (b) are false"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "(a) and (b) are correct",
+      "explanation": "OSPF is based on link state routing.\nPaths among the nodes are calculated using Dijkstra’s algorithm.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Computer Networks",
+      "topic": "Network layer / Routing protocols",
+      "subtopic": "OSPF",
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Computer_Networks_4.pdf",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

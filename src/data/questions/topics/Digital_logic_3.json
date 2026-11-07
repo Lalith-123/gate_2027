@@ -1,0 +1,1508 @@
+[
+  {
+    "id": "gate-digital-logic-test-2-q001",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The ripple counter shown in figure works as a:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mod-6 up counter"
+        },
+        {
+          "label": "B",
+          "text": "Mod-5 up counter"
+        },
+        {
+          "label": "C",
+          "text": "Mod-5 down counter"
+        },
+        {
+          "label": "D",
+          "text": "Mod-6 down counter"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q001-question-ripple-counter.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Mod-6 down counter",
+      "explanation": "All flip flops have $J=K=1$, so all are toggle switches. The output of flip flop is connected to rising edge clk input of next flip flop, so Down counter. clk input is given to flip flop A (LSB). Preset is active high, so as preset = 1, all flip flops get 111, so AND gate o/p = 1, when A = 1, B = 0, C = 0 as $A,\\bar B,\\bar C$ are inputs, so the $CBA=001$, modulus = 111 - 001 = 6.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q002",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "Consider the given circuit: In this circuit, the race around condition",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "does not occur"
+        },
+        {
+          "label": "B",
+          "text": "occurs when clk = 0"
+        },
+        {
+          "label": "C",
+          "text": "occurs when clk = 0, $A=1$ and $X=Y=1$"
+        },
+        {
+          "label": "D",
+          "text": "occurs when clk = 1, $A=1$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q002-question-race-around-circuit.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "occurs when clk = 1, $A=1$",
+      "explanation": "The given circuit is T latch, The input A is connected to first two NAND gates (J, K inputs connected together to make T latch). So race around condition occurs when $A=1$, clk = 1.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q003",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "Three, modulo-4 counters are cascaded together then the resultant counter modulus is",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$3\\times4$"
+        },
+        {
+          "label": "B",
+          "text": "$3^4$"
+        },
+        {
+          "label": "C",
+          "text": "$4\\times4\\times4$"
+        },
+        {
+          "label": "D",
+          "text": "$3+4$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$4\\times4\\times4$",
+      "explanation": "When two counters are connected in cascade, the resultant modulus is the multiplication of the individual modulus. So 3 counters are connected so resultant modulus = $4\\times4\\times4=64$.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q004",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "Which of the following flip flop configuration works as T flip flop:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Flip-flop configuration (A)"
+        },
+        {
+          "label": "B",
+          "text": "Flip-flop configuration (B)"
+        },
+        {
+          "label": "C",
+          "text": "Flip-flop configuration (C)"
+        },
+        {
+          "label": "D",
+          "text": "Flip-flop configuration (D)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q004-question-flip-flop-configurations.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Flip-flop configuration (D)",
+      "explanation": "JK flip flop works as T flip flop if $J=K=T$. For D flip flop $Q_{n+1}=D$, $Q_{n+1}=T\\oplus Q_n$ (T flip flop). So by taking $D=T\\oplus Q_n$ we get T flip flop.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q005",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "'n' bit Binary UP counter is connected to $n\\times2^n$ Demultiplexer with input $I=1$, as shown in the figure. If the counter starts from reset, the above configuration works as",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Modulo - $2^n$ twisted ring counter"
+        },
+        {
+          "label": "B",
+          "text": "Modulo - $n$ ring counter"
+        },
+        {
+          "label": "C",
+          "text": "Modulo - $2n$ Johnson counter"
+        },
+        {
+          "label": "D",
+          "text": "Modulo - $2^n$ ring counter"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q005-question-counter-demux.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "Modulo - $2^n$ ring counter",
+      "explanation": "$n$ bit binary UP counter counts in Binary sequence, so same binary sequence is applied to Demultiplexer, so input $I=1$, will be at output in sequence, for 3 bit example. It works like a module $2^n$ ring counter.",
+      "status": "confirmed",
+      "image": "images/Digital_logic_3/q005-explanation-table.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q006",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "Consider the following circuit with initial state $Q_0=Q_1=0$. The D flip flops are positive edge triggered. Consider the following timing diagrams of $X$ and clk. Which one is the correct wave form of $Y$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Waveform (A)"
+        },
+        {
+          "label": "B",
+          "text": "Waveform (B)"
+        },
+        {
+          "label": "C",
+          "text": "Waveform (C)"
+        },
+        {
+          "label": "D",
+          "text": "Waveform (D)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q006-question-d-flip-flop-circuit.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Waveform (A)",
+      "explanation": "For D flip flop whatever input we apply, same output we get after clk pulse.",
+      "status": "confirmed",
+      "image": "images/Digital_logic_3/q006-explanation-waveform.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q007",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "Six JK Flip flops are cascaded to form the circuit shown in figure. Clock pulses at a frequency of 128 kHz are applied as shown, The frequency (in kHz) of the wave form at $Q_4$ is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "32 kHz"
+        },
+        {
+          "label": "B",
+          "text": "16 kHz"
+        },
+        {
+          "label": "C",
+          "text": "8 kHz"
+        },
+        {
+          "label": "D",
+          "text": "4 kHz"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q007-question-jk-counter.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "4 kHz",
+      "explanation": "The frequency of $Q_1=\\frac{fclk}{2}$. Frequency of $Q_1=\\frac{fclk/2}{2}=\\frac{fclk}{4}$. Frequency of $Q_2=\\frac{fclk}{8}$. Frequency of $Q_3=\\frac{fclk}{16}$. Frequency of $Q_4=\\frac{fclk}{32}=\\frac{128}{32}=4$ kHz. Frequency of $Q_5=\\frac{fclk}{64}$.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q008",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The following truth table has to be realized with D flip flop. Then what is the equation of combinational logic circuit output in terms of $X$, $Y$ and $Q_n$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$D=\\bar XQ_n+Y\\bar Q_n$"
+        },
+        {
+          "label": "B",
+          "text": "$D=X\\bar Q_n+\\bar YQ_n$"
+        },
+        {
+          "label": "C",
+          "text": "$D=XY+Q_n$"
+        },
+        {
+          "label": "D",
+          "text": "$D=(X+Y)+Q_n$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q008-question-truth-table-circuit.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$D=\\bar XQ_n+Y\\bar Q_n$",
+      "explanation": "The given XY flip flop truth table is shown in the explanation. $Q_{n+1}=\\bar XQ_n+Y\\bar Q_n$. The characteristic equation of D flip flop is $Q_{n+1}=D$. This has to work like above XY flip flop. By equating $Q_{n+1}=D=\\bar XQ_n+Y\\bar Q_n$.",
+      "status": "confirmed",
+      "image": "images/Digital_logic_3/q008-explanation-truth-table-kmap.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q009",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "A clocked sequential circuit has 3 states $A$, $B$, $C$ and 1 input $X$. As long as input $X=0$, the circuit alternates between states $A$ and $B$, if input $X=1$ (either in state $A$ or $B$), The circuit goes to state $C$ and remain in state $C$ as long as $X=1$, from state $C$, circuit returns to state $A$ when input $X=0$, and then a repeats its behavior. Assume $A=01$, $B=10$, $C=11$ the state diagram will be:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "State diagram (A)"
+        },
+        {
+          "label": "B",
+          "text": "State diagram (B)"
+        },
+        {
+          "label": "C",
+          "text": "State diagram (C)"
+        },
+        {
+          "label": "D",
+          "text": "State diagram (D)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q009-question-state-diagrams.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "State diagram (C)",
+      "explanation": "$A=01$, $B=10$, alternate states when $X=0$. When $X=1$, A, B go to state C = 11 as long as $X=1$, C will remain in same state. When $X=0$, C will return to state A = 01.",
+      "status": "confirmed",
+      "image": "images/Digital_logic_3/q009-explanation-state-diagram.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q010",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "Find the state $(AB)$ diagram for the following sequential circuit?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "State diagram (A)"
+        },
+        {
+          "label": "B",
+          "text": "State diagram (B)"
+        },
+        {
+          "label": "C",
+          "text": "State diagram (C)"
+        },
+        {
+          "label": "D",
+          "text": "None of these"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q010-question-sequential-circuit.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "State diagram (B)",
+      "explanation": "Let us consider states as $AB$ if initially state of the circuit is 00 (reset). If initially at 00 state, after 3 Clk pulses it comes back to same state 00. If initial state is 11, it goes to 00 state after clock pulse.",
+      "status": "confirmed",
+      "image": "images/Digital_logic_3/q010-explanation-table.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q011",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The Boolean function $f(a,b,c)=\\bar a b+\\bar b c+a\\bar c$ has to be implemented by the following 2 × 1 multiplexer then the gate 1 and gate 2 are respectively?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "OR, NAND"
+        },
+        {
+          "label": "B",
+          "text": "AND, OR"
+        },
+        {
+          "label": "C",
+          "text": "NOR, AND"
+        },
+        {
+          "label": "D",
+          "text": "NAND, OR"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q011-question-mux-circuit.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "OR, NAND",
+      "explanation": "Given $f(a,b,c)=\\bar a b+\\bar b c+a\\bar c=\\bar a[b+c]+a[\\bar b+\\bar c]$. By comparing this equation with output of 2 × 1 multiplexer $Y=I_0\\bar S+I_1S=I_0\\bar a+I_1a=[b+c]\\bar a+[\\bar bc]a$. Gate 1 is OR gate, gate 2 is NAND gate.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q012",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "Which of the following multiplexer implements 2 input NAND gate?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Q, R"
+        },
+        {
+          "label": "B",
+          "text": "P, R"
+        },
+        {
+          "label": "C",
+          "text": "P, S"
+        },
+        {
+          "label": "D",
+          "text": "R, S"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q012-question-mux-options.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "R, S",
+      "explanation": "For multiplexer P, $Y=I_0\\bar S+I_1S=\\bar a\\bar b+0\\cdot b$. For mux Q, $Y=\\bar a\\bar b+\\bar b\\cdot b=\\bar a\\bar b$. For mux R, $Y=\\bar b\\cdot\\bar b+\\bar a\\cdot b=\\bar a+\\bar b=(ab)'$. For mux S, $Y=1\\cdot\\bar a+\\bar b\\cdot a=\\bar a+\\bar b=(ab)'$. So, R, S implement NAND gate P, Q implements NOR gate.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q013",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The output of the following Demultiplexer circuit is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$a(b\\oplus c)$"
+        },
+        {
+          "label": "B",
+          "text": "$a(b\\odot c)$"
+        },
+        {
+          "label": "C",
+          "text": "$(a\\oplus b)c$"
+        },
+        {
+          "label": "D",
+          "text": "$(a\\odot b)c$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q013-question-demux-circuit.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$a(b\\odot c)$",
+      "explanation": "The demultiplexer output $Y_0=I\\bar S_2\\bar S_1\\bar S_0$, $Y_1=I\\bar S_2\\bar S_1S_0$, $Y_2=I\\bar S_2S_1\\bar S_0$, $Y_3=I\\bar S_2S_1S_0$ ... etc. $f(a,b,c,d)=Y_0+Y_1+Y_6+Y_7= a\\bar b\\bar c\\bar d+a\\bar b\\bar cd+abcd+abc\\bar d=a\\bar b\\bar c+abc=a[b\\odot c]$.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q014",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "An 8 × 1 multiplexer has inputs $A$, $B$, $C$ connected to the selection inputs $S_2$, $S_1$ and $S_0$ respectively. The data inputs $I_0$ through $I_7$ are as follows. $I_1=I_2=0$; $I_3=I_5=I_7=1$; $I_0=I_4=D$; and $I_6=\\bar D$ then the Boolean function that the multiplexer implements is?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$AB+BC+A\\bar CD+\\bar B\\bar CD$"
+        },
+        {
+          "label": "B",
+          "text": "$AC+BD+A\\bar BD+B\\bar CD$"
+        },
+        {
+          "label": "C",
+          "text": "$\\bar B\\bar CD+AB\\bar D+BC+AC$"
+        },
+        {
+          "label": "D",
+          "text": "$A\\bar BD+\\bar B\\bar CD+A\\bar C+BC$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\bar B\\bar CD+AB\\bar D+BC+AC$",
+      "explanation": "For 8 × 1 multiplexer output, $Y=I_0\\bar S_2\\bar S_1\\bar S_0+I_1\\bar S_2\\bar S_1S_0+I_2\\bar S_2S_1\\bar S_0+I_3\\bar S_2S_1S_0+I_4S_2\\bar S_1\\bar S_0+I_5S_2\\bar S_1S_0+I_6S_2S_1\\bar S_0+I_7S_2S_1S_0=\\Sigma m(1,6,7,9,10,11,12,14,15)$. The minimized result is $Y=\\bar B\\bar CD+AB\\bar D+BC+AC$.",
+      "status": "confirmed",
+      "image": "images/Digital_logic_3/q014-explanation-kmap.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q015",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The digital circuit shown in the figure satisfies the given state diagram, when $Q$ is connected to input $A$ of NAND gate. Suppose the NAND gate is replaced by an OR gate which are of the following options preserves the state diagram.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "input A is connected to $Q$"
+        },
+        {
+          "label": "B",
+          "text": "input A is connected to 1 and S is complemented"
+        },
+        {
+          "label": "C",
+          "text": "input A is connected to S"
+        },
+        {
+          "label": "D",
+          "text": "input A is connected to $Q$ and S is complemented"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q015-question-state-diagram.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "input A is connected to $Q$ and S is complemented",
+      "explanation": "The input $D=A\\cdot S=\\bar A+\\bar S$. This NAND gate is replaced by OR gate. So A input should be complemented (to $\\bar Q$) and S input should be complemented.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q016",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "In the circuit shown choose the correct timing diagram of output $Y$ from the given wave forms $W_1$, $W_2$, $W_3$ and $W_4$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$W_1$"
+        },
+        {
+          "label": "B",
+          "text": "$W_2$"
+        },
+        {
+          "label": "C",
+          "text": "$W_3$"
+        },
+        {
+          "label": "D",
+          "text": "$W_4$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q016-question-circuit-timing.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$W_4$",
+      "explanation": "NAND gate output = 0 when two inputs are 1. Only at last clk pulse $X_1=X_2=1$. So $Y=0$, remaining cases $Y=1$.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q017",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "In the circuit shown the output $F$ is given by:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\bar A+\\bar B+\\bar C$"
+        },
+        {
+          "label": "B",
+          "text": "$ABC$"
+        },
+        {
+          "label": "C",
+          "text": "$\\overline{AB}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\overline{(A+B)}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q017-question-mux-circuit.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\overline{(A+B)}$",
+      "explanation": "Output of 1st multiplexer is $Y=I_0\\bar{AB}+I_1\\bar A B+I_2AB+I_3AB=\\bar AB+AB=A\\oplus B$. Output of 2nd multiplexer is $Y=(A\\oplus B)\\bar AC+(A\\oplus B)A\\bar C+0\\cdot AC+0\\cdot AC=(A\\oplus B)[\\bar AC+A\\bar C]=(\\bar AB+A\\bar B)A=\\bar AB=\\overline{(A+B)}$.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q018",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "Suppose only one multiplexer and one inverter allowed to be used to implement any Boolean function of $n$ variables. What is the minimum size of the multiplexer needed?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2^n$ line to 1 line"
+        },
+        {
+          "label": "B",
+          "text": "$2^{n-1}$ line to 1 line"
+        },
+        {
+          "label": "C",
+          "text": "$2^{n-2}$ line to 1 line"
+        },
+        {
+          "label": "D",
+          "text": "$2^{n+1}$ line to 1 line"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$2^{n-1}$ line to 1 line",
+      "explanation": "Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q019",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "Which one of the following state diagram represents finite state machine, which takes as input a binary number from the least significant bit and computes 2’s complement of the input number.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "State diagram (A)"
+        },
+        {
+          "label": "B",
+          "text": "State diagram (B)"
+        },
+        {
+          "label": "C",
+          "text": "State diagram (C)"
+        },
+        {
+          "label": "D",
+          "text": "State diagram (D)"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q019-question-state-diagrams.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "State diagram (B)",
+      "explanation": "If two 2’s complement has to be calculated we require two states. We can get 2’s complement from LSB, by considering all zero’s and the first 1 as it is, there after complementing 0’s and 1’s.",
+      "status": "confirmed",
+      "image": "images/Digital_logic_3/q019-explanation-table.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q020",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The following arrangement of Master-slave flip flips has the initial state of $P,Q$ as 0,1 respectively after the 3 clock pulses, the output states $P,Q$ is:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1, 0"
+        },
+        {
+          "label": "B",
+          "text": "0, 1"
+        },
+        {
+          "label": "C",
+          "text": "1, 1"
+        },
+        {
+          "label": "D",
+          "text": "0, 0"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q020-question-master-slave.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "1, 0",
+      "explanation": null,
+      "status": "confirmed",
+      "image": "images/Digital_logic_3/q020-explanation-table.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q021",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "In the sequential circuit below, if the initial value of the output $Q_1Q_0$ is 00, what are the next four values $Q_1,Q_0$?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "01, 10, 11, 00"
+        },
+        {
+          "label": "B",
+          "text": "11, 10, 01, 00"
+        },
+        {
+          "label": "C",
+          "text": "01, 11, 10, 00"
+        },
+        {
+          "label": "D",
+          "text": "10, 11, 01, 00"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q021-question-sequential-circuit.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "11, 10, 01, 00",
+      "explanation": "The given circuit is an asynchronous counter (ripple counter) states will change in Binary sequence. Q is connected to rising edge clk pulse so down counter, so sequence is 00, 11, 10, 01, 00 ...",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q022",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The waveforms of a counter are shown below, this is a",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "synchronous BCD counter"
+        },
+        {
+          "label": "B",
+          "text": "ripple counter"
+        },
+        {
+          "label": "C",
+          "text": "ring counter"
+        },
+        {
+          "label": "D",
+          "text": "twisted ring counter"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q022-question-counter-waveforms.png"
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "twisted ring counter",
+      "explanation": "By observing sequence 0000 → 1000 → 1100 → 1110 → 1111 → 0111 → 0011 → 0001 → 0000 It is twisted ring counter.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q023",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "Consider the circuit, here, which are the following options correctly represents $f(x,y,z)$",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\bar x\\bar y+xy+xz$"
+        },
+        {
+          "label": "B",
+          "text": "$x\\bar y+\\bar xy+xz$"
+        },
+        {
+          "label": "C",
+          "text": "$\\bar xy+x\\bar y+\\bar yz$"
+        },
+        {
+          "label": "D",
+          "text": "$xy+\\bar x\\bar y+xyz$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q023-question-mux-circuit.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$x\\bar y+\\bar xy+xz$",
+      "explanation": "Output of 1st multiplexer $Y=I_0\\bar S+I_1S=x\\bar z+yz$. Output of 2nd multiplexer $Y=I_0\\bar S+I_1S=(x\\bar z+yz)\\bar y+xy'=x\\bar y\\bar z+yz+ x\\bar y=\\Sigma m(2,3,4,5,7)$. The K-map gives $f=x\\bar y+\\bar xy+xz$.",
+      "status": "confirmed",
+      "image": "images/Digital_logic_3/q023-explanation-kmaps.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q024",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "The outputs $Q$ and $\\bar Q$ of a master slave SR flip flop are connected to its $R$ and $S$ inputs respectively. Its output $Q$ when clock pulses are applied will be:",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "permanently 0"
+        },
+        {
+          "label": "B",
+          "text": "permanently 1"
+        },
+        {
+          "label": "C",
+          "text": "fixed 0 or 1"
+        },
+        {
+          "label": "D",
+          "text": "complementing with every clock pulse"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "complementing with every clock pulse",
+      "explanation": "$Q$ is connected to R, $\\bar Q$ to S input. So $Q_{n+1}=S+R\\bar Q_n=\\bar Q_n+\\bar Q_n\\cdot Q_n$. So $Q_{n+1}=\\bar Q_n$ so next state is complement of present state.",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-digital-logic-test-2-q025",
+    "pdfName": "Digital_logic_3.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Digital Logic"
+    },
+    "question": {
+      "text": "A 3 bit gray counter is used to control the output of the multiplexer as shown in figure, the initial state of the counter is 000. The output is pulled high, the output of the circuit follows the sequence",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$1, I_0, I_1, 1, 1, I_3, I_2, 1, 1$"
+        },
+        {
+          "label": "B",
+          "text": "$I_0, 1, 1, I_1, I_3, 1, 1, I_2, I_0$"
+        },
+        {
+          "label": "C",
+          "text": "$I_0, 1, I_1, I_2, 1, I_3, 1, I_0$"
+        },
+        {
+          "label": "D",
+          "text": "$1, I_0, 1, I_1, I_2, 1, I_3, 1, I_0$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Digital_logic_3/q025-question-gray-counter-mux.png"
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$I_0, 1, 1, I_1, I_3, 1, 1, I_2, I_0$",
+      "explanation": "A2 A1 A0 | E S1 S0 | o/p\n0 0 0 | 0 0 0 | I0\n0 0 1 | 1 0 0 | 1\n0 1 1 | 1 0 1 | 1\n0 1 0 | 0 0 1 | I1\n1 1 0 | 0 1 1 | I3\n1 1 1 | 1 1 1 | 1\n1 0 1 | 1 1 0 | 1\n1 0 0 | 0 1 0 | I2\n0 0 0 | 0 0 0 | I0\n\nEnable is active low, when E = 1, the output is logic 1. When E = 0, output is from multiplexer.",
+      "status": "confirmed",
+      "image": "images/Digital_logic_3/q025-explanation-table.png"
+    },
+    "classification": {
+      "subject": "Digital Logic",
+      "topic": "Digital Logic",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Digital Logic Test 2",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]

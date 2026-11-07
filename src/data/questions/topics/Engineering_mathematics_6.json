@@ -1,0 +1,1480 @@
+[
+  {
+    "id": "gate-numerical-methods-test-5-q001",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "In the process of finding an approximate root of $f(x)=0$ in $[a,b]$ (where $f(a)$ and $f(b)$ are of opposite signs) by Regula – Falsi method, we assume that the curve $f(x)=0$ in between $x=a$ and $x=b$ can be approximated to ________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "a parabola"
+        },
+        {
+          "label": "B",
+          "text": "a straight line"
+        },
+        {
+          "label": "C",
+          "text": "a hyperbola"
+        },
+        {
+          "label": "D",
+          "text": "a rectangular hyperbola"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "a straight line",
+      "explanation": "Standard Result. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Numerical Methods",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q002",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "The iterative formula to find a root of the equation $f(x)=x^3-5x+7=0$ by Newton Raphson method is _______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$x_{k+1}=\\dfrac{x_k^3+5x_k-7}{3x_k^2+5}$"
+        },
+        {
+          "label": "B",
+          "text": "$x_{k+1}=\\dfrac{2x_k^3+5x_k}{3x_k^2+7}$"
+        },
+        {
+          "label": "C",
+          "text": "$x_{k+1}=\\dfrac{2x_k^3-7}{3x_k^2-5}$"
+        },
+        {
+          "label": "D",
+          "text": "$x_{k+1}=\\dfrac{x_k^3-5x_k}{3x_k^2+7}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$x_{k+1}=\\dfrac{2x_k^3-7}{3x_k^2-5}$",
+      "explanation": "Given, $f(x)=x^3-5x+7=0$\n$$\\Rightarrow f'(x)=3x^2-5.$$\nBy Newton Raphson’s method, the iterative formula to find a root is\n$$x_{k+1}=x_k-\\frac{f(x_k)}{f'(x_k)}\n=x_k-\\frac{x_k^3-5x_k+7}{3x_k^2-5}.$$\nTherefore,\n$$x_{k+1}=\\frac{2x_k^3-7}{3x_k^2-5}.$$\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Root finding methods",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q003",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "With $x_0=0.5$ as the initial approximation, the value of the root of $f(x)=x+\\sin x-1=0$, after first iteration by Newton Raphson method is _______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.7456"
+        },
+        {
+          "label": "B",
+          "text": "0.5110"
+        },
+        {
+          "label": "C",
+          "text": "0.4998"
+        },
+        {
+          "label": "D",
+          "text": "0.2644"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "0.5110",
+      "explanation": "Given, $f(x)=x+\\sin x-1=0$, so $f'(x)=1+\\cos x$ and $x_0=0.5$.\nBy Newton Raphson’s method,\n$$x_1=x_0-\\frac{f(x_0)}{f'(x_0)}\n=0.5-\\frac{0.5+\\sin(0.5)-1}{1+\\cos(0.5)}\n=0.5110.$$\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Root finding methods",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q004",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "Applying the secant method, the first approximation to the root of $f(x)=xe^x-2=0$, starting with function value at $x=0.5$ and $x=1$ is _______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1.1756"
+        },
+        {
+          "label": "B",
+          "text": "0.4035"
+        },
+        {
+          "label": "C",
+          "text": "0.8104"
+        },
+        {
+          "label": "D",
+          "text": "0.5473"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "0.8104",
+      "explanation": "Here, $f(x)=xe^x-2=0$.\nBy the secant method, the approximate root after first iteration is\n$$x_2=\\frac{x_0f(x_1)-x_1f(x_0)}{f(x_1)-f(x_0)}.$$\nHere, $x_0=0.5$ and $x_1=1$.\n$$f(x_0)=f(0.5)=-1.1756,\\qquad f(x_1)=f(1)=0.7183.$$\nSubstituting,\n$$x_2=\\frac{(0.5)(0.7183)-(1)(-1.1756)}{0.7183-(-1.1756)}\n=0.8104.$$\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Root finding methods",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q005",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "The extreme (minimum or maximum) point of a function $f(x)$ is to be determined by solving $\\frac{df(x)}{dx}=0$ using the Newton Raphson method. Let $f(x)=x^3-4x^2+5$ and $x_0=3$ be the initial guess of $x$. The value of $x$ after first iteration ($x_1$) is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "2.70"
+        },
+        {
+          "label": "B",
+          "text": "4.33"
+        },
+        {
+          "label": "C",
+          "text": "3.30"
+        },
+        {
+          "label": "D",
+          "text": "1.77"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "2.70",
+      "explanation": "Given, $f(x)=x^3-4x^2+5$.\n$$\\frac{df(x)}{dx}=0\\Rightarrow3x^2-8x=0.$$\nLet $g(x)=3x^2-8x=0$. Then\n$$g'(x)=6x-8.$$\nBy Newton Raphson method,\n$$x_1=x_0-\\frac{g(x_0)}{g'(x_0)}\n=3-\\frac{3(3)^2-8(3)}{6(3)-8}=2.7.$$\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Root finding methods",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q006",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "In the process of evaluating $\\int_0^{\\pi/2}(x^3+\\sin 2x+5)\\,dx$ using Simpson’s Rule with $h=\\frac{\\pi}{8}$, the absolute value of the error does not exceed ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$0.12351\\times10^{-4}$"
+        },
+        {
+          "label": "B",
+          "text": "$1.03503\\times10^{-4}$"
+        },
+        {
+          "label": "C",
+          "text": "$3.01243\\times10^{-4}$"
+        },
+        {
+          "label": "D",
+          "text": "$6.2475\\times10^{-4}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$1.03503\\times10^{-4}$",
+      "explanation": "We have\n$$\\int_0^{\\pi/2}(x^3+\\sin2x+5)\\,dx.$$\nLet $y=f(x)=x^3+\\sin2x+5$.\nThe absolute value of the maximum error in Simpson’s Rule is\n$$|E|_{\\max}=\\frac{(b-a)h^4}{180}m,$$\nwhere $m=\\max\\{|y_0^{(iv)}|,|y_1^{(iv)}|,|y_2^{(iv)}|\\}$.\nHere,\n$$h=\\frac\\pi8,\\quad y^{(iv)}=16\\sin2x,\\quad a=0,\\quad b=\\frac\\pi2.$$\nThus $m=16$, and\n$$|E|_{\\max}=\\frac{(\\pi/2)(\\pi/8)^4}{180}\\times16\n=1.03503\\times10^{-4}.$$\nThe absolute value of the maximum error cannot exceed $1.03503\\times10^{-4}$.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Numerical integration",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q007",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "The following table gives the velocity $v$ of a particle at time $t$.\n\nThe distance moved by the particle in 12 seconds, when calculated by the Trapeziodal rule with $h=2$ is ________.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "200 meters"
+        },
+        {
+          "label": "B",
+          "text": "210 meters"
+        },
+        {
+          "label": "C",
+          "text": "242 meters"
+        },
+        {
+          "label": "D",
+          "text": "262 meters"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Engineering_mathematics_6/gate-engineering-mathematics-test-5-q007-question-table.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "242 meters",
+      "explanation": "Given velocity at various times, the distance travelled in 12 seconds is\n$$\\int_0^{12}v\\,dt.$$\nBy trapezoidal rule,\n$$\\int_0^{12}v\\,dt\n=\\frac h2\\left[(v_0+v_6)+2(v_1+v_2+v_3+v_4+v_5)\\right].$$\nWith $h=2$,\n$$=\\frac22[(6+40)+2(10+16+20+22+30)]\n=242\\text{ meters}.$$\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Numerical integration",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q008",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "A curve is drawn to pass through the points given by the following table.\n\nThe area bounded by the curve, the $x$–axis and the lines $x=1$ and $x=4$, when calculated by the Simpson’s $\\frac38$th Rule is _____ square units.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "8.7562"
+        },
+        {
+          "label": "B",
+          "text": "5.7435"
+        },
+        {
+          "label": "C",
+          "text": "6.7134"
+        },
+        {
+          "label": "D",
+          "text": "8.4296"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Engineering_mathematics_6/gate-engineering-mathematics-test-5-q008-question-table.png"
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "8.7562",
+      "explanation": "Let $y=f(x)$ be the curve that passes through the given points. The required area is\n$$\\int_1^4f(x)\\,dx.$$\nBy Simpson’s $\\frac38$th Rule,\n$$\\int_1^4f(x)\\,dx\n=\\frac{3h}{8}\\left[(y_0+y_6)+3(y_1+y_2+y_4+y_5)+2y_3\\right].$$\nWith $h=0.5$,\n$$=\\frac{3(0.5)}8[(1.0+2.9)+3(1.7+2.5+4.1+3.7)+2(3.4)]\n=8.7562.$$\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Numerical integration",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 1
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q009",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "The absolute error (correct up to 4 decimal places) in calculating the value $\\log_e2$ by trapezoidal rule, with 4 intervals using the formulae $\\log_e2=\\int_1^2\\frac{dx}{x}$ is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.1314"
+        },
+        {
+          "label": "B",
+          "text": "0.0039"
+        },
+        {
+          "label": "C",
+          "text": "0.0000"
+        },
+        {
+          "label": "D",
+          "text": "0.0004"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "0.0039",
+      "explanation": "Let $y=f(x)=\\frac1x$. Here $a=1$, $b=2$ and $n=4$, so $h=0.25$.\nUsing the trapezoidal rule,\n$$\\log_e2=\\int_1^2\\frac{dx}{x}=0.6970.$$\nThe exact value is $\\log_e2=0.6931$.\nTherefore the absolute error is\n$$0.6970-0.6931=0.0039.$$\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Numerical integration",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q010",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "With reference to finding solution of a differential equation by numerical methods, which of the following methods is NOT a predictor correct method?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Picard’s method"
+        },
+        {
+          "label": "B",
+          "text": "Modified Euler’s method"
+        },
+        {
+          "label": "C",
+          "text": "Adams – Bash forth method"
+        },
+        {
+          "label": "D",
+          "text": "Milne’s method"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Picard’s method",
+      "explanation": " A predictor corrector method is one in which we predict the solution first and then improve it for accuracy. Picard’s method is not a predictor corrector method and all other methods are predictor corrector methods. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Numerical solution of differential equations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q011",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "The differential equation $\\frac{dy}{dx}-x^2=y$; $y(0)=1$ is to be solved by the modified Euler’s method. With $h=0.1$, the value of $y_1$ correct to four decimal places is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1.2046"
+        },
+        {
+          "label": "B",
+          "text": "1.1058"
+        },
+        {
+          "label": "C",
+          "text": "0.9954"
+        },
+        {
+          "label": "D",
+          "text": "0.8764"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "1.1058",
+      "explanation": "Given\n$$\\frac{dy}{dx}-x^2=y,\\qquad y(0)=1,$$\nso\n$$\\frac{dy}{dx}=x^2+y.$$\nHere $f(x,y)=x^2+y$, $x_0=0$, $y_0=1$, $h=0.1$.\nBy Euler’s method,\n$$y_1^{(0)}=y_0+h f(x_0,y_0)=1.1.$$\nBy the modified Euler method, successive corrections give\n$$y_1^{(1)}=1.1055,$$\n$$y_1^{(2)}=1.1058,$$\nand the next correction remains $1.1058$.\nHence $y_1=1.1058$.\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Numerical solution of differential equations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q012",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "Using Taylor’s series method, the solution of the differential equation $\\frac{dy}{dx}-xy=1$ with $y(0)=3$ at $x=0.1$ with $h=0.1$ is correct upto three decimal places is _______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "3.1153"
+        },
+        {
+          "label": "B",
+          "text": "2.9847"
+        },
+        {
+          "label": "C",
+          "text": "4.1572"
+        },
+        {
+          "label": "D",
+          "text": "3.7893"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "3.1153",
+      "explanation": "Given\n$$\\frac{dy}{dx}-xy=1,\\qquad y(0)=3,$$\nso\n$$\\frac{dy}{dx}=1+xy.$$\nAt $x_0=0$, $y_0=3$:\n$$y'_0=1,$$\n$$y''_0=x_0y'_0+y_0=3,$$\n$$y'''_0=x_0y''_0+2y'_0=2,$$\n$$y^{(iv)}_0=x_0y'''_0+3y''_0=9.$$\nUsing Taylor’s series,\n$$y_1=3+(0.1)(1)+\\frac{(0.1)^2}{2!}(3)+\\frac{(0.1)^3}{3!}(2)+\\frac{(0.1)^4}{4!}(9)+\\cdots=3.1153.$$\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Numerical solution of differential equations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 4
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q013",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "The solution of the differential equation $\\frac{dy}{dx}=x+y$; $y(0)=0$ at $x=0.2$ by Runge Kutta method of fourth order with $h=0.2$ is ______.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "1.0034"
+        },
+        {
+          "label": "B",
+          "text": "0.0456"
+        },
+        {
+          "label": "C",
+          "text": "0.9984"
+        },
+        {
+          "label": "D",
+          "text": "0.0214"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "0.0214",
+      "explanation": "Given\n$$\\frac{dy}{dx}=x+y,\\qquad y(0)=0,$$\nwith $x_0=0$, $y_0=0$, $h=0.2$.\nBy fourth-order Runge Kutta,\n$$k_1=hf(x_0,y_0)=0,$$\n$$k_2=hf\\left(x_0+\\frac h2,y_0+\\frac{k_1}2\\right)=0.02,$$\n$$k_3=0.022,$$\n$$k_4=hf(x_0+h,y_0+k_3)=0.0444.$$\nTherefore\n$$\\Delta y=\\frac16[k_1+2k_2+2k_3+k_4]=0.0214.$$\nHence $y_1=y_0+\\Delta y=0.0214$.\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Numerical solution of differential equations",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q014",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "Consider an equation $f(x)=0$ for which $x=4.50$ is an exact root. In the process of finding a root of $f(x)=0$ by a numerical method, the approximations obtained in four successive iterations are 4.45, 4.54, 4.47 and 4.52 respectively. Then these approximate values of the root of $f(x)=0$ are _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "precise but not accurate"
+        },
+        {
+          "label": "B",
+          "text": "not precise but accurate"
+        },
+        {
+          "label": "C",
+          "text": "both precise and accurate"
+        },
+        {
+          "label": "D",
+          "text": "neither precise nor accurate"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "not precise but accurate",
+      "explanation": "The four approximations are not relatively close to each other, so they are not precise. All four approximations are close to the exact root $x=4.50$, so they are accurate. Choice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Errors in numerical methods",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q015",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "For an equation $f(x)=0$, if $x_e$ is the exact root and $x_a$ is the approximate root, then the percentage error is _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$(x_e-x_a)\\times100$"
+        },
+        {
+          "label": "B",
+          "text": "$|x_e-x_a|\\times100$"
+        },
+        {
+          "label": "C",
+          "text": "$\\dfrac{x_e-x_a}{x_e}\\times100$"
+        },
+        {
+          "label": "D",
+          "text": "$\\dfrac{|x_e-x_a|}{|x_e|}\\times100$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "$\\dfrac{|x_e-x_a|}{|x_e|}\\times100$",
+      "explanation": "By definition. Choice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Errors in numerical methods",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q016",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "Consider the following two statements\n$P$: Truncation error in numerical analysis arise when approximations are used to estimate some quantity.\n$Q$: Round off error in numerical analysis occurs because of the computing devices inability to deal with certain number.\nThen",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both $P$ and $Q$ are true"
+        },
+        {
+          "label": "B",
+          "text": "$P$ is true but $Q$ is false"
+        },
+        {
+          "label": "C",
+          "text": "$P$ is false but $Q$ is true"
+        },
+        {
+          "label": "D",
+          "text": "Both $P$ and $Q$ are false"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "Both $P$ and $Q$ are true",
+      "explanation": "By definitions of the round off and the truncation errors. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Errors in numerical methods",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q017",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "In the process of fitting a quadratic equation of the form $y=a+bx+cx^2$ to a set of $n$ points $(x_1,y_1),(x_2,y_2),…..,(x_n,y_n)$ by the method of least squares, which of the following is not a normal equation?",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\sum y_i=na+b\\sum x_i+c\\sum x_i^2$"
+        },
+        {
+          "label": "B",
+          "text": "$\\sum x_i y_i=a\\sum x_i+b\\sum x_i^2+c\\sum x_i^3$"
+        },
+        {
+          "label": "C",
+          "text": "$\\sum x_i y_i^2=a\\sum x_i^2+b\\sum x_i^3+c\\sum x_i^4$"
+        },
+        {
+          "label": "D",
+          "text": "$\\sum x_i^2y_i=a\\sum x_i^2+b\\sum x_i^3+c\\sum x_i^4$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\sum x_i y_i^2=a\\sum x_i^2+b\\sum x_i^3+c\\sum x_i^4$",
+      "explanation": "We have to fit\n$$y=a+bx+cx^2$$\nto the given set of points, with $a,b,c$ determined by making the sum of squared errors minimum. The normal equations are\n$$\\sum y_i=na+b\\sum x_i+c\\sum x_i^2,$$\n$$\\sum x_i y_i=a\\sum x_i+b\\sum x_i^2+c\\sum x_i^3,$$\nand\n$$\\sum x_i^2y_i=a\\sum x_i^2+b\\sum x_i^3+c\\sum x_i^4.$$\nTherefore the equation in option (C) is not a normal equation.\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Least squares curve fitting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q018",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "If $y=3x+7$ is the best fit for 6 pairs of values of $x$ and $y$ by the method of least squares and $\\sum y=150$, then $\\sum x$ is _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "144"
+        },
+        {
+          "label": "B",
+          "text": "102"
+        },
+        {
+          "label": "C",
+          "text": "46"
+        },
+        {
+          "label": "D",
+          "text": "36"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "D",
+      "correctText": "36",
+      "explanation": "Given $y=3x+7$ is the best fit for 6 pairs of values of $x$ and $y$, and $\\sum y=150$.\nWe know\n$$\\sum y=3\\sum x+n(7).$$\nHere $n=6$:\n$$150=3\\sum x+6\\times7.$$\nHence\n$$\\sum x=36.$$\nChoice (D)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Least squares curve fitting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 5
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q019",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "In the process of fitting a curve $y=\\frac{x^2}{ax+b}$ to a given set of $n$ pairs of values of $x$ and $y$ by converting it into a linear form $Y=a+bX$, $X$ and $Y$ respectively stand for _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\frac1{x^2}$ and $\\frac{x^2}{y}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\frac1x$ and $\\frac{x}{y}$"
+        },
+        {
+          "label": "C",
+          "text": "$x^2$ and $\\frac{y}{x^2}$"
+        },
+        {
+          "label": "D",
+          "text": "$x$ and $\\frac{y}{x}$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "$\\frac1x$ and $\\frac{x}{y}$",
+      "explanation": "Given\n$$y=\\frac{x^2}{ax+b}.$$\nThen\n$$\\frac1y=\\frac{ax+b}{x^2},$$\nso\n$$\\frac{x}{y}=a\\frac1x+b.$$\nThus the linear form is $Y=a+bX$, where\n$$X=\\frac1x,\\qquad Y=\\frac{x}{y}.$$\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Curve fitting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q020",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "In the process of fitting a curve $\\exp(y)=ab^x$ to a given set of $n$ pairs of values of $x$ and $y$ by converting it into a linear form $y=A+Bx$, $A$ and $B$ respectively stand for _____",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\ln a$ and $\\ln b$"
+        },
+        {
+          "label": "B",
+          "text": "$\\ln a$ and $\\log_{10}b$"
+        },
+        {
+          "label": "C",
+          "text": "$\\log_{10}a$ and $\\ln b$"
+        },
+        {
+          "label": "D",
+          "text": "$\\log_{10}a$ and $\\log_{10}b$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$\\ln a$ and $\\ln b$",
+      "explanation": "Given\n$$\\exp(y)=ab^x,$$\ni.e.\n$$e^y=ab^x.$$\nApplying natural logarithm,\n$$y=\\ln a+x\\ln b.$$\nThis is of the form $y=A+Bx$, where\n$$A=\\ln a,\\qquad B=\\ln b.$$\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Curve fitting",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q021",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "If $\\Delta$ denotes the forward difference operator then the value of $\\Delta^{18}\\left[(1+2x^3)(1-3x^4)(1+4x^5)(1-5x^6)\\right]$ is _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$5!\\times18!$"
+        },
+        {
+          "label": "B",
+          "text": "$6!\\times18!$"
+        },
+        {
+          "label": "C",
+          "text": "$5!\\times17!$"
+        },
+        {
+          "label": "D",
+          "text": "$6!\\times17!$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "$5!\\times18!$",
+      "explanation": "We have\n$$\\Delta^{18}\\left[(1+2x^3)(1-3x^4)(1+4x^5)(1-5x^6)\\right].$$\nThe coefficient of $x^{18}$ in the product is $5!$, while all terms of degree less than 18 vanish under $\\Delta^{18}$. Hence\n$$=5!\\,\\Delta^{18}[x^{18}]\n=5!\\times18!.$$\nChoice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Finite differences",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q022",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "The central difference operator $\\delta$ is defined as $y_{r}-y_{r-1}=\\delta y_{r-\\frac12}$. Then which of the following is an identity? (Note that $\\Delta$ and $\\nabla$ denote the forward and the backward difference operators respectively)",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$\\Delta y_5=\\nabla y_4=\\delta y_{7/2}$"
+        },
+        {
+          "label": "B",
+          "text": "$\\Delta y_5=\\nabla y_4=\\delta y_4$"
+        },
+        {
+          "label": "C",
+          "text": "$\\Delta y_4=\\nabla y_5=\\delta y_{9/2}$"
+        },
+        {
+          "label": "D",
+          "text": "$\\Delta y_4=\\nabla y_5=\\delta y_4$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$\\Delta y_4=\\nabla y_5=\\delta y_{9/2}$",
+      "explanation": "We know\n$$\\Delta y_{r-1}=y_r-y_{r-1},$$\n$$\\nabla y_r=y_r-y_{r-1},$$\nand given\n$$\\delta y_{r-1/2}=y_r-y_{r-1}.$$\nTherefore\n$$\\Delta y_{r-1}=\\nabla y_r=\\delta y_{r-1/2}.$$\nTaking $r=5$ gives\n$$\\Delta y_4=\\nabla y_5=\\delta y_{9/2}.$$\nChoice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Finite differences",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q023",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "Match the following\n\nGroup – I\nP. To extrapolate the values of $y$ to the left of $y_0$ when $x$ values are equally spaced\nQ. To interpolate the values of $y$ near the end value $y_n$ when $x$ values are equally spaced\nR. To split the given function into partial fractions\nS. To interpolate the values of $y$ when $x$ values are unequally spaced.\n\nGroup – II\n1. Newton’s divided difference formula\n2. Lagrange’s interpolation formula\n3. Newton’s forward interpolation formula\n4. Newton’s backward interpolation formula",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "$P-(1),\\ Q-(2),\\ R-(3),\\ S-(4)$"
+        },
+        {
+          "label": "B",
+          "text": "$P-(3),\\ Q-(2),\\ R-(4),\\ S-(1)$"
+        },
+        {
+          "label": "C",
+          "text": "$P-(3),\\ Q-(4),\\ R-(2),\\ S-(1)$"
+        },
+        {
+          "label": "D",
+          "text": "$P-(2),\\ Q-(1),\\ R-(4),\\ S-(3)$"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null,
+      "image": "images/Engineering_mathematics_6/gate-engineering-mathematics-test-5-q023-question-table.png"
+    },
+    "answer": {
+      "correctOption": "C",
+      "correctText": "$P-(3),\\ Q-(4),\\ R-(2),\\ S-(1)$",
+      "explanation": "Standard result. Choice (C)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Interpolation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 2
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q024",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "The $9^{th}$ divided difference of a polynomial of degree 8 is _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "zero"
+        },
+        {
+          "label": "B",
+          "text": "a non – zero constant"
+        },
+        {
+          "label": "C",
+          "text": "a linear polynomial"
+        },
+        {
+          "label": "D",
+          "text": "a quadratic polynomial"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "A",
+      "correctText": "zero",
+      "explanation": "We know that the $n^{th}$ divided difference of any polynomial of degree less than $n$ is always zero. Choice (A)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Interpolation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 3
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  },
+  {
+    "id": "gate-numerical-methods-test-5-q025",
+    "pdfName": "Engineering_mathematics_6.pdf",
+    "exam": {
+      "name": "GATE",
+      "fullName": "Graduate Aptitude Test in Engineering",
+      "year": null,
+      "session": "Numerical Methods"
+    },
+    "question": {
+      "text": "If $f(0)=-12$, $f(3)=6$ and $f(4)=12$, then the value of $f(6)$ obtained by the Lagrange’s interpolation formula is _____.",
+      "type": "MCQ",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "26"
+        }
+      ],
+      "marks": null,
+      "negativeMarks": null,
+      "difficulty": null
+    },
+    "answer": {
+      "correctOption": "B",
+      "correctText": "24",
+      "explanation": "Given pairs of values:\n$$\\begin{array}{c|ccc}\nx&0&3&4\\\\\nf(x)&-12&6&12\n\\end{array}$$\nBy Lagrange’s interpolation formula,\n$$f(x)=\\frac{(x-3)(x-4)}{(0-3)(0-4)}(-12)\n+\\frac{(x-0)(x-4)}{(3-0)(3-4)}(6)\n+\\frac{(x-0)(x-3)}{(4-0)(4-3)}(12).$$\nTaking $x=6$,\n$$f(6)=\\frac{(6-3)(6-4)}{3\\times4}(-12)\n+\\frac{(6-0)(6-4)}{3\\times(-1)}(6)\n+\\frac{(6-0)(6-3)}{4\\times1}(12)\n=24.$$\nChoice (B)",
+      "status": "confirmed"
+    },
+    "classification": {
+      "subject": "Engineering Mathematics",
+      "topic": "Interpolation",
+      "subtopic": null,
+      "tags": []
+    },
+    "source": {
+      "type": "practice_test",
+      "organization": null,
+      "documentTitle": "Engineering Mathematics Test 5",
+      "url": null,
+      "page": 6
+    },
+    "verification": {
+      "questionVerified": true,
+      "answerVerified": true,
+      "explanationVerified": true
+    }
+  }
+]
