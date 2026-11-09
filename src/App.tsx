@@ -10,6 +10,7 @@ import { SubjectNotesPanel } from './components/SubjectNotesPanel';
 import { StatsBar } from './components/StatsBar';
 import { LoadingSkeleton, EmptyState } from './components/States';
 import { isBookmarked, getNote, loadSubjectNotes, saveSubjectNotes, upsertSubjectNote } from './utils/storage';
+import { getPaperKey, getPaperLabel } from './utils/filters';
 
 function App() {
   const {
@@ -54,24 +55,24 @@ function App() {
     saveSubjectNotes(updated);
   }, [subjectNotes]);
 
+  const paperLabels = useMemo(() => {
+    const map = new Map<string, string>();
+    allQuestions.forEach((question) => {
+      const key = getPaperKey(question);
+      if (!map.has(key)) map.set(key, getPaperLabel(question.classification.subject, key));
+    });
+    return map;
+  }, [allQuestions]);
+
   const activeFilters: string[] = [];
-  if (filters.browseMode === 'previousYear') {
-    activeFilters.push(filters.year === 'all' ? 'All Years' : `GATE ${filters.year}`);
-  }
-  if (filters.browseMode === 'topic') {
-    if (filters.subject !== 'all') activeFilters.push(filters.subject);
-    if (filters.topic !== 'all') activeFilters.push(filters.topic);
-  }
-  if (filters.type !== 'all') activeFilters.push(filters.type);
-  if (filters.difficulty !== 'all') activeFilters.push(filters.difficulty);
-  if (filters.source !== 'all') {
-    activeFilters.push(
-      filters.source === 'practice_test'
-        ? 'Practice Test'
-        : filters.source.charAt(0).toUpperCase() + filters.source.slice(1)
-    );
-  }
-  if (filters.status !== 'all') activeFilters.push(filters.status.charAt(0).toUpperCase() + filters.status.slice(1));
+  if (filters.subjects.length === 1) activeFilters.push(filters.subjects[0]);
+  else if (filters.subjects.length > 1) activeFilters.push(`${filters.subjects.length} subjects`);
+
+  if (filters.papers.length === 1) activeFilters.push(paperLabels.get(filters.papers[0]) ?? filters.papers[0]);
+  else if (filters.papers.length > 1) activeFilters.push(`${filters.papers.length} papers`);
+
+  if (filters.onlyIncorrect) activeFilters.push('Only incorrect');
+  if (filters.onlySaved) activeFilters.push('Only saved');
 
   const handleNext = useCallback(() => {
     goToNext();

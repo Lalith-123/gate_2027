@@ -91,6 +91,21 @@ function splitTopics(value: unknown): string[] {
   return [...new Set(raw.split(',').map((t) => t.trim()).filter(Boolean))];
 }
 
+/**
+ * A few papers carry inconsistent subject labels (e.g. COA papers filed under
+ * Programming and Data Structures). Normalise them so the browse filter always
+ * offers the canonical GATE subject names, regardless of the source data.
+ */
+function normalizeSubject(subject: string | null, pdfName: string | null): string {
+  if (pdfName?.startsWith('Computer_Organization_and_Architecture')) {
+    return 'Computer Organization and Architecture';
+  }
+  if (subject === 'Databases') return 'Database';
+  if (subject === 'Probability and Statistics') return 'Engineering Mathematics';
+  if (subject === 'Programming and Data Structures') return 'Programming and Data Structure';
+  return subject ?? 'Unknown';
+}
+
 function normalizeOptions(value: unknown, questionId: string): QuestionOption[] | null {
   if (!Array.isArray(value)) return null;
   const options: QuestionOption[] = [];
@@ -207,6 +222,7 @@ function normalizeQuestion(raw: unknown, batchName: string, index: number): Ques
 
   const topics = splitTopics(classification.topic);
   const difficulty = body.difficulty as Difficulty;
+  const pdfName = asString(body.pdfName) ?? asString(obj.pdfName);
 
   return {
     id,
@@ -227,7 +243,7 @@ function normalizeQuestion(raw: unknown, batchName: string, index: number): Ques
       // since generated files have used both placements. There is deliberately
       // no fallback to `source.documentTitle`: the UI must show the real PDF
       // filename, not a generic test title.
-      pdfName: asString(body.pdfName) ?? asString(obj.pdfName),
+      pdfName,
       image: resolveImage(asString(body.image), id),
       direction: asString(body.direction),
     },
@@ -247,7 +263,10 @@ function normalizeQuestion(raw: unknown, batchName: string, index: number): Ques
         : undefined,
     },
     classification: {
-      subject: asString(classification.subject) ?? asString(exam.session),
+      subject: normalizeSubject(
+        asString(classification.subject) ?? asString(exam.session),
+        pdfName
+      ),
       topic: topics[0] ?? null,
       topics,
       subtopic: asString(classification.subtopic),

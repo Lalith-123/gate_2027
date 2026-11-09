@@ -19,14 +19,10 @@ import {
 const SESSION_WINDOW = 20;
 
 const DEFAULT_FILTERS: Filters = {
-  browseMode: 'all',
-  year: 'all',
-  subject: 'all',
-  topic: 'all',
-  type: 'all',
-  difficulty: 'all',
-  source: 'all',
-  status: 'all',
+  subjects: [],
+  papers: [],
+  onlyIncorrect: false,
+  onlySaved: false,
 };
 
 export function useQuestions() {

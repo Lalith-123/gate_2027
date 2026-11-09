@@ -1,34 +1,90 @@
-import type {
-  Question,
-  Filters,
-  AttemptRecord,
-  BookmarkRecord,
-  Difficulty,
-  QuestionType,
-  SourceType,
-} from '../types';
+import type { Question, Filters, AttemptRecord, BookmarkRecord } from '../types';
 
-const DIFFICULTY_ORDER: Difficulty[] = ['Easy', 'Medium', 'Hard'];
-const TYPE_ORDER: QuestionType[] = ['MCQ', 'MSQ', 'NAT'];
-const SOURCE_ORDER: SourceType[] = ['official', 'trusted', 'recalled', 'practice_test'];
+/** Canonical GATE subject order used by the browse picker. */
+export const SUBJECT_ORDER = [
+  'Algorithms',
+  'Compiler Design',
+  'Computer Networks',
+  'Computer Organization and Architecture',
+  'Database',
+  'Digital Logic',
+  'Engineering Mathematics',
+  'Logical Ability',
+  'Operating System',
+  'Programming and Data Structure',
+  'Quantitative Ability',
+  'Theory of Computation',
+  'Verbal Ability',
+];
 
-/** Questions carrying a real GATE year, which is what the previous-year mode browses. */
-export function hasYear(question: Question): boolean {
-  return question.exam.year !== null;
+const SUBJECT_RANK = new Map(SUBJECT_ORDER.map((subject, index) => [subject, index]));
+
+export interface PaperOption {
+  /** Stable key stored in `Filters.papers` (the PDF filename). */
+  key: string;
+  subject: string;
+  label: string;
+  count: number;
 }
 
-export function matchesBrowseMode(question: Question, filters: Filters): boolean {
-  if (filters.browseMode === 'previousYear') {
-    if (!hasYear(question)) return false;
-    return filters.year === 'all' || question.exam.year === filters.year;
+export function getPaperKey(question: Question): string {
+  return question.question.pdfName ?? 'Unknown paper';
+}
+
+/** "Database_1.pdf" + subject "Database" becomes "Database 1". */
+export function getPaperLabel(subject: string, paperKey: string): string {
+  const stem = paperKey.replace(/\.pdf$/i, '');
+  const match = stem.match(/(\d+(?:\(\d+\))?)$/);
+  if (match) return `${subject} ${match[1]}`;
+  return stem.replace(/_/g, ' ');
+}
+
+function compareSubjects(a: string, b: string): number {
+  const rankA = SUBJECT_RANK.get(a) ?? SUBJECT_ORDER.length;
+  const rankB = SUBJECT_RANK.get(b) ?? SUBJECT_ORDER.length;
+  return rankA - rankB || a.localeCompare(b);
+}
+
+/** Every subject present in the bank, in canonical order. */
+export function getSubjects(questions: Question[]): string[] {
+  const subjects = new Set<string>();
+  questions.forEach((q) => subjects.add(q.classification.subject));
+  return [...subjects].sort(compareSubjects);
+}
+
+/**
+ * Papers belonging to the selected subjects. Returns an empty list when no
+ * subject is selected, because the picker is driven by the subject choice.
+ */
+export function getPaperOptions(questions: Question[], subjects: string[]): PaperOption[] {
+  if (subjects.length === 0) return [];
+
+  const selected = new Set(subjects);
+  const byKey = new Map<string, PaperOption>();
+
+  for (const question of questions) {
+    const subject = question.classification.subject;
+    if (!selected.has(subject)) continue;
+
+    const key = getPaperKey(question);
+    const existing = byKey.get(key);
+    if (existing) {
+      existing.count += 1;
+    } else {
+      byKey.set(key, {
+        key,
+        subject,
+        label: getPaperLabel(subject, key),
+        count: 1,
+      });
+    }
   }
 
-  if (filters.browseMode === 'topic') {
-    if (question.classification.topics.length === 0) return false;
-    return filters.topic === 'all' || question.classification.topics.includes(filters.topic);
-  }
-
-  return true;
+  return [...byKey.values()].sort(
+    (a, b) =>
+      compareSubjects(a.subject, b.subject) ||
+      a.label.localeCompare(b.label, undefined, { numeric: true })
+  );
 }
 
 export function filterQuestions(
@@ -37,87 +93,24 @@ export function filterQuestions(
   attempts: AttemptRecord[],
   bookmarks: BookmarkRecord[]
 ): Question[] {
-  return questions.filter((q) => {
-    if (!matchesBrowseMode(q, filters)) return false;
-    if (filters.subject !== 'all' && q.classification.subject !== filters.subject) return false;
-    if (filters.type !== 'all' && q.question.type !== filters.type) return false;
-    if (filters.difficulty !== 'all' && q.question.difficulty !== filters.difficulty) return false;
-    if (filters.source !== 'all' && q.source.type !== filters.source) return false;
+  const subjects = new Set(filters.subjects);
+  const papers = new Set(filters.papers);
+  const attemptByQuestion = new Map(attempts.map((attempt) => [attempt.questionId, attempt]));
+  const bookmarked = new Set(bookmarks.map((bookmark) => bookmark.questionId));
 
-    if (filters.status !== 'all') {
-      const attempt = attempts.find((a) => a.questionId === q.id);
-      const bookmarked = bookmarks.some((b) => b.questionId === q.id);
-      if (filters.status === 'unattempted' && attempt) return false;
-      if (filters.status === 'correct' && (!attempt || !attempt.isCorrect)) return false;
-      if (filters.status === 'incorrect' && (!attempt || attempt.isCorrect)) return false;
-      if (filters.status === 'bookmarked' && !bookmarked) return false;
+  return questions.filter((q) => {
+    if (subjects.size > 0 && !subjects.has(q.classification.subject)) return false;
+    if (papers.size > 0 && !papers.has(getPaperKey(q))) return false;
+
+    if (filters.onlyIncorrect) {
+      const attempt = attemptByQuestion.get(q.id);
+      if (!attempt || attempt.isCorrect) return false;
     }
+
+    if (filters.onlySaved && !bookmarked.has(q.id)) return false;
 
     return true;
   });
-}
-
-/** Only years that actually have question files, newest first. */
-export function getUniqueYears(questions: Question[]): number[] {
-  const years = new Set<number>();
-  questions.forEach((q) => {
-    if (q.exam.year !== null) years.add(q.exam.year);
-  });
-  return [...years].sort((a, b) => b - a);
-}
-
-/**
- * Every topic across the bank, including the secondary topics of questions whose
- * raw label packs several topics into one comma-separated string. Narrowed to a
- * single subject when one is selected.
- */
-export function getUniqueTopics(questions: Question[], subject?: string): string[] {
-  const filtered =
-    subject && subject !== 'all' ? questions.filter((q) => q.classification.subject === subject) : questions;
-  const topics = new Set<string>();
-  filtered.forEach((q) => {
-    q.classification.topics.forEach((topic) => topics.add(topic));
-  });
-  return [...topics].sort((a, b) => a.localeCompare(b));
-}
-
-/** Every subject in the bank, narrowed to those that actually hold the given topic. */
-export function getUniqueSubjects(questions: Question[], topic?: string): string[] {
-  const filtered =
-    topic && topic !== 'all' ? questions.filter((q) => q.classification.topics.includes(topic)) : questions;
-  const subjects = new Set<string>();
-  filtered.forEach((q) => {
-    if (q.classification.subject) subjects.add(q.classification.subject);
-  });
-  return [...subjects].sort((a, b) => a.localeCompare(b));
-}
-
-/** How many questions each topic holds, so the picker can show counts. */
-export function getTopicCounts(questions: Question[], subject?: string): Map<string, number> {
-  const filtered =
-    subject && subject !== 'all' ? questions.filter((q) => q.classification.subject === subject) : questions;
-  const counts = new Map<string, number>();
-  filtered.forEach((q) => {
-    q.classification.topics.forEach((topic) => {
-      counts.set(topic, (counts.get(topic) ?? 0) + 1);
-    });
-  });
-  return counts;
-}
-
-export function getUniqueTypes(questions: Question[]): QuestionType[] {
-  const present = new Set(questions.map((q) => q.question.type));
-  return TYPE_ORDER.filter((type) => present.has(type));
-}
-
-export function getUniqueDifficulties(questions: Question[]): Difficulty[] {
-  const present = new Set(questions.map((q) => q.question.difficulty));
-  return DIFFICULTY_ORDER.filter((level) => present.has(level));
-}
-
-export function getUniqueSources(questions: Question[]): SourceType[] {
-  const present = new Set(questions.map((q) => q.source.type));
-  return SOURCE_ORDER.filter((source) => present.has(source));
 }
 
 export function shuffleArray<T>(array: T[]): T[] {

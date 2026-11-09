@@ -24,7 +24,8 @@ export interface QuestionVerification {
 }
 
 export interface QuestionClassification {
-  subject: string | null;
+  /** Always set by the loader; normalised to a canonical GATE subject. */
+  subject: string;
   /** Primary topic, mirroring the raw data label. */
   topic: string | null;
   /**
@@ -114,22 +115,16 @@ export interface NoteRecord {
   timestamp: number;
 }
 
-export type BrowseMode = 'all' | 'previousYear' | 'topic';
-
 /**
- * `all` serves the entire bank. `previousYear` and `topic` narrow it to one
- * year or one topic, and honour `year` / `subject` / `topic` only when they are
- * not `all`.
+ * Browse filters. Subjects and papers are multi-select; empty means "all".
+ * `onlyIncorrect` and `onlySaved` are independent checkboxes, so enabling both
+ * keeps only questions that are incorrect AND bookmarked.
  */
 export interface Filters {
-  browseMode: BrowseMode;
-  year: number | 'all';
-  subject: string | 'all';
-  topic: string | 'all';
-  type: QuestionType | 'all';
-  difficulty: Difficulty | 'all';
-  source: SourceType | 'all';
-  status: 'all' | 'unattempted' | 'correct' | 'incorrect' | 'bookmarked';
+  subjects: string[];
+  papers: string[];
+  onlyIncorrect: boolean;
+  onlySaved: boolean;
 }
 
 export type Theme = 'light' | 'dark';
